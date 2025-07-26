@@ -46,7 +46,10 @@ Primary blockers to first physical prototype:
 - Lack of understanding about electrical performance of reversible DUT connection point (DUT = resistor, capacitor)
 - Need to elaborate on requirements for ventilation from acid fumes, and other specific equipment to order for hand soldering
 - Need to resolve the issues with incorrect/unnecessary bypass/decoupling capacitors
+  - It is a very bad idea to omit all the capacitors, without at least giving it some rigorous consideration
 - Need to resolve the missing/incorrect KiCad symbols and footprints for each IC. Organize the footprints on a physical PCB model and become familiar with the specific pin functions & positions.
 - Need to clarify the bothersome trace width variable
 
 <b>Fast-track work on the physical prototype.</b> Ensure that all fabrication equipment, testing equipment, and circuit parts are delivered by August 12, 2025. In any leftover time until August 12, I can return to the three simulation tasks.
+
+An appropriate name for this is ["STM Experiment #3"](https://www.youtube.com/watch?v=IUPDecnuzO4). The experiments may not logically build on each other. For example, a single 1000 V linear amplifier doesn't logically follow a capacitive displacement sensor. However, it can still be catalogued as `n + 1` to show the iterative nature of design elaboration & exploration.
