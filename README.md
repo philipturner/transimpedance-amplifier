@@ -1,8 +1,16 @@
 # Transimpedance Amplifier
 
-Phase 0 of the [APM Roadmap](https://github.com/philipturner/apm-roadmap)
+<p align="center">
+&nbsp;
+  <img src="./Documentation/HomeBuiltSTM/Control_Loop_Image1.png" width="20.35%">
+&nbsp;&nbsp;
+  <img src="./Documentation/HomeBuiltSTM/CustomDesign_Schematic.png" width="24.70%">
+&nbsp;&nbsp;
+  <img src="./Documentation/HomeBuiltSTM/CustomDesign_Calibration.png" width="44.95%">
+&nbsp;
+</p>
 
-TODO: Add formatted graphic of 3 images, like a banner.
+Phase 0 of the [APM Roadmap](https://github.com/philipturner/apm-roadmap)
 
 Objective: Gather as much data as possible about the TIA sensor of an STM, using both theory and experiment.
 
