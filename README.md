@@ -43,7 +43,7 @@ Simultaneously performing a low-cost physical test with a badly shielded IRL mod
 - Later stages include electromagnetic shielding, interfaces with automated electronics for the I/O voltages, then the logical transition to Phase 0.2
 
 Primary blockers to first physical prototype:
-- Lack of understanding about electrial performance of reversible DUT connection point (DUT = resistor, capacitor)
+- Lack of understanding about electrical performance of reversible DUT connection point (DUT = resistor, capacitor)
 - Need to elaborate on requirements for ventilation from acid fumes, and other specific equipment to order for hand soldering
 - Need to resolve the issues with incorrect/unnecessary bypass/decoupling capacitors
 - Need to resolve the missing/incorrect KiCad symbols and footprints for each IC. Organize the footprints on a physical PCB model and become familiar with the specific pin functions & positions.
