@@ -16,6 +16,10 @@ Objective: Gather as much data as possible about the TIA sensor of an STM, using
 
 Deadline: August 31, 2025 for the first physical prototype
 
+Table of Contents:
+- [July 26, 2025](#july-26-2025)
+- [July 27, 2025](#july-27-2025)
+
 ## July 26, 2025
 
 Three simulation tasks, in chronological order
@@ -53,3 +57,7 @@ Primary blockers to first physical prototype:
 <b>Fast-track work on the physical prototype.</b> Ensure that all fabrication equipment, testing equipment, and circuit parts are delivered by August 12, 2025. In any leftover time until August 12, I can return to the three simulation tasks.
 
 An appropriate name for this is ["STM Experiment #3"](https://www.youtube.com/watch?v=IUPDecnuzO4). The experiments may not logically build on each other. For example, a single 1000 V linear amplifier doesn't logically follow a capacitive displacement sensor. However, it can still be catalogued as `n + 1` to show the iterative nature of design elaboration & exploration.
+
+## July 27, 2025
+
+One of the most important tests should be feedback loop stability. With the SPICE simulations, I can predict what values for input capacitance will send the circuit into oscillations. Pick a conservative value(s) for a capacitor DUT that satisfies this condition, without making the current exceed its dynamic range (simply reduce the frequency of the signal).
