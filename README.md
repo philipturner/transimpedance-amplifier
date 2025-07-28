@@ -19,6 +19,7 @@ Deadline: August 31, 2025 for the first physical prototype
 Table of Contents:
 - [July 26, 2025](#july-26-2025)
 - [July 27, 2025](#july-27-2025)
+- [July 28, 2025](#july-28-2025)
 
 ## July 26, 2025
 
@@ -65,3 +66,9 @@ One of the most important tests should be feedback loop stability. With the SPIC
 The first prototype will test two TIA variants. The first will be the standard OPA627 + 100 MΩ design used in most DIY STM projects. This will give a baseline for tracing failures, if the complex 2-stage design does not work at all.
 
 I should see whether testing equipment, such as a handheld oscilloscope, can generate an input function. This would remove the need for a hard-coded triangle wave generator on the PCB. However, I might include the triangle wave generator anyway, for completeness and/or more debugging options. It also provides experience designing with digital/nonlinear components (comparator & Schmitt trigger), which may couple into the analog components against my wishes. There should be a simple way to disconnect the generator from power pins. It could be helpful to make the generator's capacitor swappable, so the frequency can change.
+
+## July 28, 2025
+
+I am starting to read large swaths of the IPC 7351 standard, February 2005 revision. This project will resolve my frustration with non-standardization of resistor & capacitor footprints. It substantiates a growing realization across many engineering projects, that complex systems have many variables. They demand significant amounts of data to wrap my head around. I am not satisfied with arbitrary guesses and binary yes/no "it worked" tests, with no explanation of how this choice contributed to a reduction in UHV chamber cost.
+
+> My objective is obtain better control over the usability, performance, and cost of my end product(s).
