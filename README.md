@@ -80,8 +80,13 @@ I feel more comfortable creating my own footprints from scratch, where I can tru
 
 A few more things I want to do, before the 1st prototype:
 - Run a SPICE simulation of the stability of a feedback loop with OPA627 + 100 MΩ. Check the limits of stability with the parasitic capacitance of the resistor.
+  - Include a model of OPA637 to understand why that's not okay.
+  - If OPA637 passes in the simulations, the test board will include a third TIA, OPA637 + 100 MΩ + no parallel capacitor.
 - Get more rigorous calculations of the parasitics for the components, and of the potentiometers.
 - Design custom footprints for the capacitors and trimpots as well, in the first step. I previously planned to just wrap my head around the ICs + large resistors first. Instead, I should get the entire system specified at the highest (symbolic) level, and elaborate on the physical layout once that's fixed.
   - Bypass/decoupling capacitors are intentionally omitted at this stage.
   - The exact resistor values for the AD8615 voltage divider are omitted at this stage. Also not worrying about whether the two polarities of the divider cross through the GND net.
 - Calculate the expected noise (e.g. Johnson noise from resistors in 2nd stage), bandwidth of the oscilloscope ADC, and consider electromagnetic shielding.
+  - Consider an artificial bandwidth limiter with a transfer function similar to the ADS8699.
+  - Calculate the leakage current at the physical current input junction + corresponding reversible DUT port. Compare the leakage current to the noise floor.
+- Prepare a list of through-hole DUT components. Elaborate on whether it's a single DUT port for all 2&ndash;3 amplifiers, or a separate port for each.
