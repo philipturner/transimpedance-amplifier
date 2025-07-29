@@ -94,4 +94,4 @@ A few more things I want to do, before the 1st prototype:
   - Calculate the leakage current at the physical current input junction + corresponding reversible DUT port. Compare the leakage current to the noise floor.
 - Prepare a list of through-hole DUT components. Elaborate on whether it's a single DUT port for all 2&ndash;3 amplifiers, or a separate port for each.
 
-I just learned/remembered that OPA627 and OPA637 are very old and expensive (~$30). I'll have to revise these plans, to use newer and cheaper chips like OPA828 (~$7). Or scrap the entire concept of additional 1-stage amplifiers to save time, depending on motivation.
+I just learned/remembered that OPA627 and OPA637 are very old and expensive (\~$30). I'll have to revise these plans, to use newer and cheaper chips like OPA828 (\~$7). Or scrap the entire concept of additional 1-stage amplifiers to save time, depending on motivation.
