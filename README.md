@@ -82,6 +82,9 @@ A few more things I want to do, before the 1st prototype:
 - Run a SPICE simulation of the stability of a feedback loop with OPA627 + 100 MΩ. Check the limits of stability with the parasitic capacitance of the resistor.
   - Include a model of OPA637 to understand why that's not okay.
   - If OPA637 passes in the simulations, the test board will include a third TIA, OPA637 + 100 MΩ + no parallel capacitor.
+    - Even if it doesn't pass, include the actual combination IRL, to prove that it oscillates when tested!
+    - Unless this could plausibly impair the operation of the other amplifiers, and there's no way to switch off power to the OPA637.
+    - Will severe oscillation conditions cause damage to the component and/or its power supply?
 - Get more rigorous calculations of the parasitics for the components, and of the potentiometers.
 - Design custom footprints for the capacitors and trimpots as well, in the first step. I previously planned to just wrap my head around the ICs + large resistors first. Instead, I should get the entire system specified at the highest (symbolic) level, and elaborate on the physical layout once that's fixed.
   - Bypass/decoupling capacitors are intentionally omitted at this stage.
