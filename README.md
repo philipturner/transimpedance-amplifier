@@ -20,6 +20,7 @@ Table of Contents:
 - [July 26, 2025](#july-26-2025)
 - [July 27, 2025](#july-27-2025)
 - [July 28, 2025](#july-28-2025)
+- [July 29, 2025](#july-29-2025)
 
 ## July 26, 2025
 
@@ -74,3 +75,13 @@ I am starting to read large swaths of the IPC 7351 standard, February 2005 revis
 > My objective is obtain better control over the usability, performance, and cost of my end product(s).
 
 I feel more comfortable creating my own footprints from scratch, where I can trust every parameter used to derive every dimension. I will compare my footprints to those from vendors, SnapEDA, and KiCad libraries.
+
+## July 29, 2025
+
+A few more things I want to do, before the 1st prototype:
+- Run a SPICE simulation of the stability of a feedback loop with OPA627 + 100 MΩ. Check the limits of stability with the parasitic capacitance of the resistor.
+- Get more rigorous calculations of the parasitics for the components, and of the potentiometers.
+- Design custom footprints for the capacitors and trimpots as well, in the first step. I previously planned to just wrap my head around the ICs + large resistors first. Instead, I should get the entire system specified at the highest (symbolic) level, and elaborate on the physical layout once that's fixed.
+  - Bypass/decoupling capacitors are intentionally omitted at this stage.
+  - The exact resistor values for the AD8615 voltage divider are omitted at this stage. Also not worrying about whether the two polarities of the divider cross through the GND net.
+- Calculate the expected noise (e.g. Johnson noise from resistors in 2nd stage), bandwidth of the oscilloscope ADC, and consider electromagnetic shielding.
