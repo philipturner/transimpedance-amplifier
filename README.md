@@ -128,11 +128,11 @@ Comments on the previous journal entry:
   - 1-stage with OPA828ID:
     - 15.0 pF
     - 100 MΩ
-    - 6σ noise envelope is <b>2.4 mV</b>
+    - 6σ noise envelope is <b>1.2 mV</b>
   - 2-stage with AD8615:
     - 9.2 pF
     - 300 MΩ
-    - 6σ noise envelope is <b>1.2 mV</b>
+    - 6σ noise envelope is <b>2.4 mV</b>
 - Don't need to construct an artificial 15 kHz filter out of discrete components. I'm using the actual ADS8699 chip in the circuit board now.
 - 15 kHz bandwidth is more than enough for the STM feedback loop. If anything, I would use digital filtering to reduce it to the single kHz range, reducing the 6σ current noise to ~1 pA.
 
