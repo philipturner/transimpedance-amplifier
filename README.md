@@ -21,6 +21,7 @@ Table of Contents:
 - [July 27, 2025](#july-27-2025)
 - [July 28, 2025](#july-28-2025)
 - [July 29, 2025](#july-29-2025)
+- [August 3, 2025](#august-3-2025)
 
 ## July 26, 2025
 
@@ -95,3 +96,44 @@ A few more things I want to do, before the 1st prototype:
 - Prepare a list of through-hole DUT components. Elaborate on whether it's a single DUT port for all 2&ndash;3 amplifiers, or a separate port for each.
 
 I just learned/remembered that OPA627 and OPA637 are very old and expensive (\~$30). I'll have to revise these plans, to use newer and cheaper chips like OPA828 (\~$7). Or scrap the entire concept of additional 1-stage amplifiers to save time, depending on motivation.
+
+## August 3, 2025
+
+This project is on track to blow far north of its time budget. I'll have to compromise.
+
+![Capacitive Displacement Sensing (OneNote)](./Documentation/New/CapacitiveDisplacementSensing_OneNote.jpg)
+
+Permitted:
+- Delete the oscilloscope from the workflow (yay!)
+- Read [MT-015](https://www.analog.com/media/en/training-seminars/tutorials/MT-015.pdf), [MT-017](https://www.analog.com/media/en/training-seminars/tutorials/MT-017.pdf), [MT-019](https://www.analog.com/media/en/training-seminars/tutorials/MT-019.pdf), [MT-021](https://www.analog.com/media/en/training-seminars/tutorials/MT-021.pdf), [MT-090](https://www.analog.com/media/en/training-seminars/tutorials/MT-090.pdf) to understand the chips I'm working with
+- Make an entirely custom footprint for every electronic part
+
+Disallowed:
+- Run a simulation to understand whether quantization noise and time jitter makes capacitance compensation unviable, with my novel approach
+- Use any chips that require reflow soldering
+- The analog triangle wave generator from the fast low-noise TIA paper. We're already synthesizing arbitrary waveforms with the DAC, with adjustable frequencies.
+
+The near-term deliverable will pair the Teensy with a single DAC channel (DAC81401) and a single ADC channel (ADS8699), with a nerfed system bandwidth of 15 kHz. I really wanted a higher frequency to debug the first step. Unfortunately, the 500 kHz chip, ADS86861W, requires reflow soldering. I'll defer contemplating the ramifications of this omission to a later date.
+
+---
+
+Comments on the previous journal entry:
+- Johnson noise is comparable to e<sub>n</sub>C noise, at 15 kHz bandwidth + 2nd order rolloff.
+  - 6σ noise from capacitance is <b>5.2 pA</b>, provided just the 9.2 pF input capacitance of the AD8615 (conservative estimate, summing the differential and common-mode capacitance)
+  - 6σ noise from capacitance is <b>24.7 pA</b>, when moved outside the UHV chamber, adding 35 pF to the capacitance to model a coaxial cable
+  - 6σ Johnson noise from a 100 MΩ resistor is <b>10.9 pA</b>
+  - 6σ Johnson noise from a 300 MΩ resistor is <b>6.3 pA</b>
+  - 6σ Johnson noise from a 1 GΩ resistor is <b>3.5 pA</b>
+- The noise signal appears as ~1 mV at the ADC.
+  - 1-stage with OPA828ID:
+    - 15.0 pF
+    - 100 MΩ
+    - 6σ noise envelope is <b>2.4 mV</b>
+  - 2-stage with AD8615:
+    - 9.2 pF
+    - 300 MΩ
+    - 6σ noise envelope is <b>1.2 mV</b>
+- Don't need to construct an artificial 15 kHz filter out of discrete components. I'm using the actual ADS8699 chip in the circuit board now.
+- 15 kHz bandwidth is more than enough for the STM feedback loop. If anything, I would use digital filtering to reduce it to the single kHz range, reducing the 6σ current noise to ~1 pA.
+
+Source: [Transimpedance Amplifier (Google Sheets)](https://docs.google.com/spreadsheets/d/1QVJOiaRJbdRXN7CXii3z91K5A64h3VmgLCsRjpDpIrQ/edit?usp=sharing)
