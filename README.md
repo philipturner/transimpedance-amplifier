@@ -22,6 +22,7 @@ Table of Contents:
 - [July 28, 2025](#july-28-2025)
 - [July 29, 2025](#july-29-2025)
 - [August 3, 2025](#august-3-2025)
+- [August 5, 2025](#august-5-2025)
 
 ## July 26, 2025
 
@@ -137,3 +138,46 @@ Comments on the previous journal entry:
 - 15 kHz bandwidth is more than enough for the STM feedback loop. If anything, I would use digital filtering to reduce it to the single kHz range, reducing the 6σ current noise to ~1 pA.
 
 Source: [Transimpedance Amplifier (Google Sheets)](https://docs.google.com/spreadsheets/d/1QVJOiaRJbdRXN7CXii3z91K5A64h3VmgLCsRjpDpIrQ/edit?usp=sharing)
+
+## August 5, 2025
+
+It is becoming very clear that I want to run this simulation about capacitive displacement sensing.
+
+The simulation will have an analytical (frequency domain) and numerical (time domain) part.
+- Analytical stuff:
+  - Theoretical model of the distribution of quantization noise among the DACs (evenly across the Nyquist bandwidth)
+    - Ensure the sine wave frequency is indivisible by the quantization frequency (100 kSPS)
+    - Concerned about the variable-voltage approach not being able to perfectly cancel the quantization noise
+  - Model of the integrated e<sub>n</sub>C noise after lock-in amplification
+  - Model of the transfer function for the 2-stage TIA, which might change with input capacitance (?)
+- Numerical stuff:
+  - FP64 for the simulations to avoid concerns about rounding error, over long time intervals for lock-in amplification
+    - Time stepping resolution 1&ndash;2 orders of magnitude better than the 100 kSPS sampling rate
+  - Exact algorithm for a digital filter approximating a first-order or second-order lowpass
+    - Validate that the filters have the expected gain falloff, by running a sweep over sine wave frequencies
+    - The filter is affected by the time step size
+  - Simulate the two DACs being out of sync, which probably cannot be represented in an analytical frequency domain model
+- A way to include the effects of shot noise from background capacitance into the results of the numerical part
+
+Imperfections covered in the simulation:
+- Inaccurate matching of a fixed-value capacitor to the tip-sample capacitance (up to a factor of 10 in either direction)
+- Overloading the maximum TIA voltage due to the transfer function exceeding the ADC @ 15 kHz. Specifically, overloading from signals in the 15&ndash;25 kHz range.
+- Quantization of the two DAC signals causing a strange division of the Gaussian quantization errors (?)
+- The two DACs being out of sync (not yet figured out the exact amount of delay to test)
+
+Imperfections not covered:
+- Time jitter in the ADC and/or DACs
+- Switching transients in the DACs
+- Interference from acoustic noise
+- Interference from a finite insulation resistance in the compensation capacitor
+
+First step:
+- Attempt to find a formula for the RMS current of two cancelling signals, slightly phase shifted
+- Address the low-hanging fruit, of a frequency domain analysis of the effect of quantization noise
+
+Second step:
+- Refresh myself on the analytical formulas for transfer function of the fast low-noise TIA, stability conditions, and location of the 2nd pole
+- Figure out the exact potentiometer values appropriate for this circuit
+- For simplicity (to save time), the simulation will assume the potentiometers are perfectly matched, to an infinite resolution
+
+Since I am in the car right now, I cannot work on the first step. Therefore, I will proceed with specifying the near-term experiment with reduced scope.
