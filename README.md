@@ -22,6 +22,7 @@ Table of Contents:
 - [July 28, 2025](#july-28-2025)
 - [July 29, 2025](#july-29-2025)
 - [August 3, 2025](#august-3-2025)
+- [August 4, 2025](#august-4-2025)
 - [August 5, 2025](#august-5-2025)
 
 ## July 26, 2025
@@ -139,6 +140,12 @@ Comments on the previous journal entry:
 
 Source: [Transimpedance Amplifier (Google Sheets)](https://docs.google.com/spreadsheets/d/1QVJOiaRJbdRXN7CXii3z91K5A64h3VmgLCsRjpDpIrQ/edit?usp=sharing)
 
+## August 4, 2025
+
+![August 4, Part 1](./Documentation/New/August4_Part1.jpg)
+
+![August 4, Part 2](./Documentation/New/August4_Part2.jpg)
+
 ## August 5, 2025
 
 It is becoming very clear that I want to run this simulation about capacitive displacement sensing.
@@ -181,3 +188,10 @@ Second step:
 - For simplicity (to save time), the simulation will assume the potentiometers are perfectly matched, to an infinite resolution
 
 Since I am in the car right now, I cannot work on the first step. Therefore, I will proceed with specifying the near-term experiment with reduced scope.
+
+---
+
+Interesting observations:
+- ADS8681W is not even in stock, although Mouser expects a new batch in late August
+- Only Mouser has stock of DAC81402, DigiKey does not
+- Amazon Basics 6LR61 is probably sufficient for the 9V batteries
