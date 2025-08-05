@@ -161,7 +161,7 @@ The simulation will have an analytical (frequency domain) and numerical (time do
 
 Imperfections covered in the simulation:
 - Inaccurate matching of a fixed-value capacitor to the tip-sample capacitance (up to a factor of 10 in either direction)
-- Overloading the maximum TIA voltage due to the transfer function exceeding the ADC @ 15 kHz. Specifically, overloading from signals in the 15&ndash;25 kHz range.
+- Overloading the maximum TIA voltage due to the transfer function exceeding the ADC @ 15 kHz. Specifically, overloading from signals in the 15&ndash;30 kHz range.
 - Quantization of the two DAC signals causing a strange division of the Gaussian quantization errors (?)
 - The two DACs being out of sync (not yet figured out the exact amount of delay to test)
 
