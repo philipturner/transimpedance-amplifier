@@ -25,6 +25,7 @@ Table of Contents:
 - [August 4, 2025](#august-4-2025)
 - [August 5, 2025](#august-5-2025)
 - [August 6, 2025](#august-6-2025)
+- [August 7, 2025](#august-7-2025)
 
 ## July 26, 2025
 
@@ -214,3 +215,21 @@ Done with the investigation of capacitive displacement sensing. Modulation volta
 Assuming the two capacitances can be compensated to 99.9% accuracy, static magnitude and shot noise of the background signal are not limiting factors. The ratio of 1 LSB in the ADC to the static background signal (~565 pA) is 1:1800.
 
 Dominant issue is dynamic quantization noise. In the AH2550/AH2700, the quantization errors from the two stimulus signals (near-)perfectly cancel. In my design, they do not.
+
+## August 7, 2025
+
+I did some work on the voltage limiter for the 2nd stage of the 2-part TIA. I went with copying the part models from the latest iteration of the design by Schmid et al. There is an extremely large space of manufacturers and part variants, for diodes and BJTs that are almost the same.
+
+I was about to inspect more details of these parts, and the conditions they're subjected to, to understand more about what's going on. Instead, I deferred that task to a later date. Just as elaboration on the specific decoupling network for each IC, is out of scope for today. Except for the fact that AD8615's decoupling network uses a 1 kΩ potentiometer and a 3.3V Zener.
+
+Thanks to Michael Schmid for filling me in on the recommended decoupling network, thus saving a lot of time. Chips like the ADC and DAC, or other parts where decoupling is critical to operation, typically have a manufacturer's suggested configuration on the datasheet.
+
+[Discrete Semiconductors (Google Sheets)](https://docs.google.com/spreadsheets/d/1FA-BcQ8bDqJqKHbvW08lza3Lz3hW-CrOkspl6eD3IWo/edit?usp=sharing)
+
+I am returning to the KiCad project, currently in the stage of specifying the symbolic schematic. I've specifically declared PCB geometry and footprints out of scope. When downloading part symbols from vendor websites, I neglect the footprints and 3D models. However, I'm aware of the specific package. For example, I chose the THT package over the SMT package for the voltage regulators. Although the part becomes larger, the pin count reduces from 8 to 3; the pin mapping is more direct. Everywhere else, I prefer an SMT package if possible.
+
+I will rename the hierarchical sheets for the transimpedance amplifiers, avoid words that start with a number. I will also attempt to create a deeper level of hierarchy for the 2 stages of the 2-part TIA. Then, I will copy as many part symbols as possible, for everything except small resistors, small capacitors, and reversible connection ports.
+
+Tomorrow, I should be able to start specifying in/out lines for each module. For example, distributing regulated voltages from the power module to each client module. The low-frequency decoupling capacitor and voltage divider for the AD8615's ±5 V lines will probably be encapsulated within the sub-sheet of the 2-stage TIA. All other regulators have their networks specified in the power module.
+
+> A deep investigation is warranted for the subtle detail of a 0.01 μF C2 on the LM78L datasheet / 0.1 μF on LM79L. Approaching the severity of declaring all footprints for every circuit part "custom" to achieve control of the little details. Again, beyond the scope of the tasks outlined above.
