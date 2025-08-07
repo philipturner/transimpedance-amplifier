@@ -24,6 +24,7 @@ Table of Contents:
 - [August 3, 2025](#august-3-2025)
 - [August 4, 2025](#august-4-2025)
 - [August 5, 2025](#august-5-2025)
+- [August 6, 2025](#august-6-2025)
 
 ## July 26, 2025
 
@@ -195,3 +196,17 @@ Interesting observations:
 - ADS8681W is not even in stock, although Mouser expects a new batch in late August
 - Only Mouser has stock of DAC81402, DigiKey does not
 - Amazon Basics 6LR61 is probably sufficient for the 9V batteries
+
+## August 6, 2025
+
+I understand how the AH2550 / AH2700 works now. Used this knowledge to understand possible limitations in my custom metrology setup.
+
+![August 6](./Documentation/New/August6.png)
+
+[Capacitive Displacement Sensing (Google Sheets)](https://docs.google.com/spreadsheets/d/1fhiZoWPt_2P-jLdGjmx1e9VDYEp9JpBjLP0ZZkT_46Y/edit?usp=sharing)
+
+Done with the investigation of capacitive displacement sensing. Modulation voltage is 10 V, carrier frequency is 10 kHz. Pushing the limits of the DAC and ADC. Digitization rate in the DAC assumed 50 kSPS to give a conservative estimate for quantization noise.
+
+Assuming the two capacitances can be compensated to 99.9% accuracy, static magnitude and shot noise of the background signal are not limiting factors. The ratio of 1 LSB in the ADC to the static background signal (~565 pA) is 1:1800.
+
+Dominant issue is dynamic quantization noise. In the AH2550/AH2700, the quantization errors from the two stimulus signals (near-)perfectly cancel. In my design, they do not.
