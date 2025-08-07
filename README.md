@@ -143,9 +143,13 @@ Source: [Transimpedance Amplifier (Google Sheets)](https://docs.google.com/sprea
 
 ## August 4, 2025
 
-![August 4, Part 1](./Documentation/New/August4_Part1.jpg)
-
-![August 4, Part 2](./Documentation/New/August4_Part2.jpg)
+<p align="center">
+&nbsp;
+  <img src="./Documentation/New/August4_Part1.jpg" width="40.16%">
+&nbsp;&nbsp;
+  <img src="./Documentation/New/August4_Part2.jpg" width="49.84%">
+&nbsp;
+</p>
 
 ## August 5, 2025
 
