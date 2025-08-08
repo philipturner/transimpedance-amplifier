@@ -240,8 +240,19 @@ Today, my objective was to understand more about the parasitic capacitance of th
 
 ![August 8](./Documentation/New/August8.jpg)
 
-_Cross-section view of the Elmer simulation results, showing where the electrostatic energy is concentrated. The sharp corners of the conductors contain 90% of the energy associated with capacitance._
+_Cross-section view of the Elmer simulation results, showing where the electrostatic energy is concentrated. The sharp ends of the conductors contain 90% of the energy associated with capacitance._
 
-TODO: Explain the simulation results and compare to literature data.
+I created a multi-material model of the Vishay 0805 <b>thick film</b> chip resistor. Each conductor is 10	μm thick and wraps around from top to bottom. The bulk of the component is a slab of alumina, parameterized with ε<sub>r</sub> = 9.1. After several hours of troubleshooting, I got the simulation to work. The initial result, ~40 fF, was unexpectedly small. I tried refining the mesh, to see whether the result would change.
+
+| Node Count | Element Order | Mutual Capacitance (C<sub>12</sub>) |
+| ---------: | ------------: | ----------------------------------: |
+| ~5,000     | 1             | 39.61 fF                            |
+| ~14,000    | 1             | 37.83 fF                            |
+| ~40,000    | 1             | 36.93 fF                            |
+| ~150,000   | 1             | 36.46 fF                            |
+
+TODO: Recall the exact model used by Geissbl, whether it's thick film or thin film.
+
+TODO: Extrapolate data for Vishay <b>thin film</b> resistors.
 
 Conclusion: Continue trying things in the simulator, to gather more data and explain the discrepancy. This single parasitic value is the reason for the entire 2nd stage of the TIA. If the cutoff frequency is ~13 kHz, the ADS8699 cannot facilitate tuning.
