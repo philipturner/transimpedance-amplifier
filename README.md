@@ -284,7 +284,7 @@ I developed two fittings of the data ([source](https://docs.google.com/spreadshe
 | Vishay D/CRCW e3 | 0805      | 66.7	fF | 81.1 fF |
 | TE               | 0805      | 61.4	fF | 77.9 fF |
 
-The Vishay data predicts ~74 pF, double the simulation result.
+The Vishay data predicts ~74 fF, double the simulation result.
 
 <b>Option 1:</b> Continue trying things in the simulator, to raise the lower bound for capacitance with an 0603 case size. This single parasitic value is the reason for the entire 2nd stage of the TIA. If the cutoff frequency is ~13 kHz, the ADS8699 cannot facilitate tuning.
 
@@ -292,7 +292,9 @@ The Vishay data predicts ~74 pF, double the simulation result.
 
 Conclusion: Go with option 2, reworking the equations to handle an unknown value in the range of 74&ndash;250 fF. If this makes the design unworkable, revert to option 1. Accept reduced tunability at a tradeoff of faster time to completion. If the range of 74&ndash;150 fF is more tunable than 150&ndash;250 fF, this is very good.
 
-> Realization: Simulation work will only raise the lower bound to capacitance. Marginal improvements to the lower bound will cost disproportionately more effort. There is no upper bound.
+> Realization: Simulation work will only raise the lower bound to capacitance. Marginal improvements to the lower bound will cost disproportionately more effort. There is no upper bound. Poor PCB design will add parasitic coupling to the lower bound.
+>
+> C<sub>f</sub> &ge; 74 pF
 >
 > The primary goal here is to maximize the lower bound, to avoid a situation where the first cutoff frequency is under 15 kHz. The secondary goal is to maximize tunability, by restricting the range of uncertainty.
 
@@ -300,5 +302,15 @@ Conclusion: Go with option 2, reworking the equations to handle an unknown value
 
 Tracking the cutoff frequency throughout this investigation:
 
-| R<sub>f</sub> | C<sub>f</sub> | f<sub>c</sub> |
-| ------------: | ------------: | ------------: |
+| R<sub>f</sub> | C<sub>f</sub> | f<sub>c</sub> | Case Size |
+| ------------: | ------------: | ------------: | --------- |
+| 100 MΩ | 100 fF | 15.9 kHz | n/a |
+|   1 GΩ | 100 fF |  1.6 kHz | n/a |
+| 300 MΩ | 100 fF |  5.3 kHz | 0603 |
+| 300 MΩ |  40 fF | 13.2 kHz | 0805 |
+| 300 MΩ |  30 fF | 17.7 kHz | 0603 |
+| 300 MΩ |  52 fF | 10.2 kHz | 0603 |
+| 300 MΩ |  74 fF |  7.2 kHz | 0805 |
+| 330 MΩ |  74 fF |  6.5 kHz | 0805 |
+
+330 MΩ exists in both 0805 and 0603 sizes. 300 MΩ is exclusive to 0603. I will revise the symbolic schematic to use 330 MΩ, 5% in the 0805 size, with the respective purchase link on DigiKey.
