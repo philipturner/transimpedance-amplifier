@@ -240,7 +240,7 @@ Today, my objective was to understand more about the parasitic capacitance of th
 
 ![August 8](./Documentation/New/August8.jpg)
 
-_Cross-section view of the Elmer simulation results in FreeCAD, showing where the electrostatic energy is concentrated. The sharp corners of the conductors contain 90% of the energy associated with capacitance._
+_Cross-section view of the Elmer simulation results, showing where the electrostatic energy is concentrated. The sharp corners of the conductors contain 90% of the energy associated with capacitance._
 
 TODO: Explain the simulation results and compare to literature data.
 
