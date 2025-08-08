@@ -258,7 +258,7 @@ In his [ultra-low noise qPlus AFM sensor design](https://doi.org/10.1063/1.49937
 Vishay [measured the parasitics](https://www.vishay.com/docs/60107/freqresp.pdf) of <b>thin film</b> chip resistors, going as large as 0603. The capacitances follow a predictable scaling law. I'll develop a model that accepts any resistor geometry, and matches them to the Vishay data.
 
 | Source           | Case Size | L    | W    | H    | T2   |
-| ---------------- | --------: | ---: | ---: | ---: | ---: |
+| ---------------- | --------- | ---: | ---: | ---: | ---: |
 | Vishay (2009)    | 0201      | 0.51 | 0.25 | n/a  | 0.20 |
 | Vishay (2009)    | 0402      | 1.02 | 0.51 | n/a  | 0.29 |
 | Vishay (2009)    | 0603      | 1.63 | 0.81 | n/a  | 0.49 |
