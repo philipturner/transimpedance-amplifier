@@ -242,7 +242,7 @@ Today, my objective was to understand more about the parasitic capacitance of th
 
 _Cross-section view of the Elmer simulation results, showing where the electrostatic energy is concentrated. The sharp ends of the conductors contain 90% of the energy associated with capacitance._
 
-I created a multi-material model of the Vishay 0805 <b>thick film</b> chip resistor. Each conductor is 10	μm thick and wraps around from top to bottom. The bulk of the component is a slab of alumina, parameterized with ε<sub>r</sub> = 9.1. After several hours of troubleshooting, I got the simulation to work. The initial result, ~40 fF, was unexpectedly small. I tried refining the mesh, to see whether the result would change.
+I created a multi-material model of the Vishay 0805 <b>thick film</b> chip resistor. Each conductor is 10	μm thick and wraps around from top to bottom. The bulk of the component is a slab of alumina, parameterized with ε<sub>r</sub> = 9.1. The resistive element was replaced with air. After several hours of troubleshooting, I got the simulation to work. The initial result, ~40 fF, was unexpectedly small. I tried refining the mesh, to see whether the result would change.
 
 | Node Count | Element Order | Mutual Capacitance (C<sub>12</sub>) |
 | ---------: | ------------: | ----------------------------------: |
@@ -251,8 +251,10 @@ I created a multi-material model of the Vishay 0805 <b>thick film</b> chip resis
 | ~40,000    | 1             | 36.93 fF                            |
 | ~150,000   | 1             | 36.46 fF                            |
 
-TODO: Recall the exact model used by Geissbl, whether it's thick film or thin film.
+In his [ultra-low noise qPlus AFM sensor design](https://doi.org/10.1063/1.4993737), Geissibl used an 0805 <b>thick film</b> chip resistor ([datasheet](https://www.te.com/usa-en/product-1625862-1.datasheet.pdf)). He reported 150 fF, which agrees with the generally\* assumed 100 fF for transimpedance amplifiers. I simulated an almost identical geometry, and was off by a factor of 4.
 
-TODO: Extrapolate data for Vishay <b>thin film</b> resistors.
+> \*Art of Electronics, fast low-noise TIA paper
+
+TODO: Extrapolate data for Vishay <b>thin film</b> resistors. Develop an analogy to the parallel plate model.
 
 Conclusion: Continue trying things in the simulator, to gather more data and explain the discrepancy. This single parasitic value is the reason for the entire 2nd stage of the TIA. If the cutoff frequency is ~13 kHz, the ADS8699 cannot facilitate tuning.
