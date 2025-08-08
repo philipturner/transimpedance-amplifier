@@ -269,6 +269,6 @@ Vishay [measured the parasitics](https://www.vishay.com/docs/60107/freqresp.pdf)
 
 _Part dimensions from three literature sources. All dimensions are in millimeters._
 
-Use thick film 0603 as an "origin" or normalized value, from which other capacitances are scaled. It is the case size I will use in the PCB. Scaling behavior comes mostly from lengthening and separating the sharp ends of the conductors. Therefore, we don't need to worry about the lack of height data for Vishay (2009).
+Use thick film 0603 as an "origin" or normalized value, from which other capacitances are scaled. It is the case size I will use in the PCB. Scaling behavior comes mostly from lengthening and separating the sharp ends of the conductors. Scaling of height could both increase and decrease capacitance, making it troublesome to model. Therefore, we don't need to worry about the lack of height data for Vishay (2009).
 
 Conclusion: Continue trying things in the simulator, to gather more data and explain the discrepancy. This single parasitic value is the reason for the entire 2nd stage of the TIA. If the cutoff frequency is ~13 kHz, the ADS8699 cannot facilitate tuning.
