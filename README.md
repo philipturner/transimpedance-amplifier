@@ -273,12 +273,24 @@ Use thick film 0603 as an "origin" or normalized value, from which other capacit
 
 I developed two fittings of the data ([source](https://docs.google.com/spreadsheets/d/1QVJOiaRJbdRXN7CXii3z91K5A64h3VmgLCsRjpDpIrQ/edit?usp=sharing)). One extrapolates based on the parallel plate model. The other extrapolates based on the parallel wire model. Here are the final values for capacitance, after correcting for the discrepancy between "flip chip" and "wrap around".
 
+| Source           | Case Size | parallel plate | parallel wire |
+| ---------------- | --------- | ---: | ---: |
+| Vishay (2009)    | 0201      | 33.9	| 28.2 |
+| Vishay (2009)    | 0402      | 35.3	| 41.0 |
+| Vishay (2009)    | 0603      | 60.3	| 60.3 |
+| Vishay D/CRCW e3 | 0402      | 24.9	| 37.8 |
+| Vishay D/CRCW e3 | 0603      | 45.4	| 59.0 |
+| Vishay D/CRCW e3 | 0805      | 66.7	| 81.1 |
+| TE               | 0805      | 61.4	| 77.9 |
+
 _Extrapolated capacitances for each geometry, in fF._
+
+---
 
 The Vishay data predicts ~74 pF, double the simulation result.
 
 <b>Option 1:</b> Continue trying things in the simulator, to raise the lower bound for capacitance with an 0603 case size. This single parasitic value is the reason for the entire 2nd stage of the TIA. If the cutoff frequency is ~13 kHz, the ADS8699 cannot facilitate tuning.
 
-<b>Option 2:</b>Switch to the larger 0805 size, which will certainly have more capacitance than 0603 and match previous expectations.
+<b>Option 2:</b> Switch to the larger 0805 size, which will certainly have more capacitance than 0603 and match previous expectations.
 
-Conclusion: Go with option 2, reworking the equations to handle an unknown value in the range of 74&ndash;250 fF. If this makes the design unworkable, revert to option 1.
+Conclusion: Go with option 2, reworking the equations to handle an unknown value in the range of 74&ndash;250 fF. If this makes the design unworkable, revert to option 1. Accept reduced tunability at a tradeoff of faster time to completion. If the range of 74&ndash;150 fF is more tunable than 150&ndash;250 fF, this is very good.
