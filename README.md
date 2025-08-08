@@ -257,6 +257,18 @@ In his [ultra-low noise qPlus AFM sensor design](https://doi.org/10.1063/1.49937
 
 Vishay [measured the parasitics](https://www.vishay.com/docs/60107/freqresp.pdf) of <b>thin film</b> chip resistors, going as large as 0603. The capacitances follow a predictable scaling law. I'll develop a model that accepts any resistor geometry, and matches them to the Vishay data.
 
-TODO: Table listing L, W, H, T2 for all models under consideration.
+| Source           | Case Size | L    | W    | H    | T2   |
+| ---------------- | --------: | ---: | ---: | ---: | ---: |
+| Vishay (2009)    | 0201      | 0.51 | 0.25 | n/a  | 0.20 |
+| Vishay (2009)    | 0402      | 1.02 | 0.51 | n/a  | 0.29 |
+| Vishay (2009)    | 0603      | 1.63 | 0.81 | n/a  | 0.49 |
+| Vishay D/CRCW e3 | 0402      | 1.00 | 0.50 | 0.35 | 0.20 |
+| Vishay D/CRCW e3 | 0603      | 1.55 | 0.85 | 0.45 | 0.30 |
+| Vishay D/CRCW e3 | 0805      | 2.00 | 1.25 | 0.50 | 0.30 |
+| TE               | 0805      | 2.00 | 1.20 | 0.40 | 0.30 |
+
+_Part dimensions from three literature sources. All dimensions are in millimeters._
+
+Use thick film 0603 as an "origin" or normalized value, from which other capacitances are scaled. It is the case size I will use in the PCB. Scaling behavior comes mostly from lengthening and separating the sharp ends of the conductors. Therefore, we don't need to worry about the lack of height data for Vishay (2009).
 
 Conclusion: Continue trying things in the simulator, to gather more data and explain the discrepancy. This single parasitic value is the reason for the entire 2nd stage of the TIA. If the cutoff frequency is ~13 kHz, the ADS8699 cannot facilitate tuning.
