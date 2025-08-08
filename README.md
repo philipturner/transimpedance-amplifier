@@ -255,6 +255,8 @@ In his [ultra-low noise qPlus AFM sensor design](https://doi.org/10.1063/1.49937
 
 > \*Art of Electronics, fast low-noise TIA paper
 
-TODO: Extrapolate data for Vishay <b>thin film</b> resistors. Develop an analogy to the parallel plate model.
+Vishay [measured the parasitics](https://www.vishay.com/docs/60107/freqresp.pdf) of <b>thin film</b> chip resistors, going as large as 0603. The capacitances follow a predictable scaling law. I'll develop a model that accepts any resistor geometry, and matches them to the Vishay data.
+
+TODO: Table listing L, W, H, T2 for all models under consideration.
 
 Conclusion: Continue trying things in the simulator, to gather more data and explain the discrepancy. This single parasitic value is the reason for the entire 2nd stage of the TIA. If the cutoff frequency is ~13 kHz, the ADS8699 cannot facilitate tuning.
