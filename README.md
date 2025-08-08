@@ -294,7 +294,7 @@ Conclusion: Go with option 2, reworking the equations to handle an unknown value
 
 > Realization: Simulation work will only raise the lower bound to capacitance. Marginal improvements to the lower bound will cost disproportionately more effort. There is no upper bound. Poor PCB design will add parasitic coupling to the lower bound.
 >
-> C<sub>f</sub> &ge; 74 pF
+> C<sub>f</sub> &ge; 74 fF
 >
 > The primary goal here is to maximize the lower bound, to avoid a situation where the first cutoff frequency is under 15 kHz. The secondary goal is to maximize tunability, by restricting the range of uncertainty.
 
