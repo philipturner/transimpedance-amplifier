@@ -238,4 +238,10 @@ Tomorrow, I should be able to start specifying in/out lines for each module. For
 
 Today, my objective was to understand more about the parasitic capacitance of the TIA feedback resistor.
 
-TODO
+![August 8](./Documentation/New/August8.jpg)
+
+_Cross-section view of the Elmer simulation results in FreeCAD, showing where the electrostatic energy is concentrated. The sharp corners of the conductors contain 90% of the energy associated with capacitance._
+
+TODO: Explain the simulation results and compare to literature data.
+
+Conclusion: Continue trying things in the simulator, to gather more data and explain the discrepancy. This single parasitic value is the reason for the entire 2nd stage of the TIA. If the cutoff frequency is ~13 kHz, the ADS8699 cannot facilitate tuning.
