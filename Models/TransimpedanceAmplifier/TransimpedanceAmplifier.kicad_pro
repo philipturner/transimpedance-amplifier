@@ -333,37 +333,55 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Purchase Link",
+          "name": "Purchase Link",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -429,12 +447,20 @@
       "DUT"
     ],
     [
-      "6cf3fb2e-4181-476b-a69b-bb034f6d7b53",
-      "TIA_1Stage"
+      "f970a304-10fa-492d-98c3-214694e65338",
+      "TIA_OneStage"
     ],
     [
-      "c666d2c0-5b05-4d57-a273-5dde3f7d959d",
-      "TIA_2Stage"
+      "226b3d0c-9e45-4bcf-9bef-58938aee743e",
+      "TIA_TwoStage"
+    ],
+    [
+      "728283d1-1c30-4fdc-aa4d-bf897972ea87",
+      "PreAmplifier"
+    ],
+    [
+      "1a19fcb8-2301-474b-810f-9788696a69a6",
+      "PostAmplifier"
     ]
   ],
   "text_variables": {}

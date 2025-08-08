@@ -1660,6 +1660,48 @@
 		)
 	)
 	(sheet
+		(at 233.68 60.96)
+		(size 35.56 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "226b3d0c-9e45-4bcf-9bef-58938aee743e")
+		(property "Sheetname" "TIA_TwoStage"
+			(at 233.68 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TIA_TwoStage.kicad_sch"
+			(at 233.68 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TransimpedanceAmplifier"
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 27.94 60.96)
 		(size 33.02 25.4)
 		(exclude_from_sim no)
@@ -1786,90 +1828,6 @@
 		)
 	)
 	(sheet
-		(at 231.14 25.4)
-		(size 35.56 25.4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "6cf3fb2e-4181-476b-a69b-bb034f6d7b53")
-		(property "Sheetname" "TIA_1Stage"
-			(at 231.14 24.6884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "TIA_1Stage.kicad_sch"
-			(at 231.14 51.3846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "TransimpedanceAmplifier"
-				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1"
-					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 231.14 63.5)
-		(size 35.56 22.86)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "c666d2c0-5b05-4d57-a273-5dde3f7d959d")
-		(property "Sheetname" "TIA_2Stage"
-			(at 231.14 62.7884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "TIA_2Stage.kicad_sch"
-			(at 231.14 86.9446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "TransimpedanceAmplifier"
-				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1"
-					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 27.94 132.08)
 		(size 33.02 25.4)
 		(exclude_from_sim no)
@@ -1907,6 +1865,48 @@
 			(project "TransimpedanceAmplifier"
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 233.68 25.4)
+		(size 35.56 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f970a304-10fa-492d-98c3-214694e65338")
+		(property "Sheetname" "TIA_OneStage"
+			(at 233.68 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TIA_OneStage.kicad_sch"
+			(at 233.68 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TransimpedanceAmplifier"
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1"
+					(page "6")
 				)
 			)
 		)
