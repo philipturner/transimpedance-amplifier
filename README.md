@@ -233,3 +233,9 @@ I will rename the hierarchical sheets for the transimpedance amplifiers, avoidin
 Tomorrow, I should be able to start specifying in/out lines for each module. For example, distributing regulated voltages from the power module to each client module. The low-frequency decoupling capacitor and voltage divider for the AD8615's ±5 V lines will probably be encapsulated within the sub-sheet of the 2-stage TIA. All other regulators have their networks specified in the power module.
 
 > A deep investigation is warranted for the subtle detail of a 0.01 μF C2 on the LM78L datasheet / 0.1 μF on LM79L. Approaching the severity of declaring all footprints for every circuit part "custom" to achieve control of the little details. Again, beyond the scope of the tasks outlined above.
+
+## August 8, 2025
+
+Today, my objective was to understand more about the parasitic capacitance of the TIA feedback resistor.
+
+TODO
