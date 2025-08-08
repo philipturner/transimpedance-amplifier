@@ -26,6 +26,7 @@ Table of Contents:
 - [August 5, 2025](#august-5-2025)
 - [August 6, 2025](#august-6-2025)
 - [August 7, 2025](#august-7-2025)
+- [August 8, 2025](#august-8-2025)
 
 ## July 26, 2025
 
@@ -275,17 +276,13 @@ I developed two fittings of the data ([source](https://docs.google.com/spreadshe
 
 | Source           | Case Size | parallel plate | parallel wire |
 | ---------------- | --------- | ---: | ---: |
-| Vishay (2009)    | 0201      | 33.9	| 28.2 |
-| Vishay (2009)    | 0402      | 35.3	| 41.0 |
-| Vishay (2009)    | 0603      | 60.3	| 60.3 |
-| Vishay D/CRCW e3 | 0402      | 24.9	| 37.8 |
-| Vishay D/CRCW e3 | 0603      | 45.4	| 59.0 |
-| Vishay D/CRCW e3 | 0805      | 66.7	| 81.1 |
-| TE               | 0805      | 61.4	| 77.9 |
-
-_Extrapolated capacitances for each geometry, in fF._
-
----
+| Vishay (2009)    | 0201      | 33.9	fF | 28.2	fF |
+| Vishay (2009)    | 0402      | 35.3	fF | 41.0 fF |
+| Vishay (2009)    | 0603      | 60.3	fF | 60.3 fF |
+| Vishay D/CRCW e3 | 0402      | 24.9	fF | 37.8 fF |
+| Vishay D/CRCW e3 | 0603      | 45.4	fF | 59.0 fF |
+| Vishay D/CRCW e3 | 0805      | 66.7	fF | 81.1 fF |
+| TE               | 0805      | 61.4	fF | 77.9 fF |
 
 The Vishay data predicts ~74 pF, double the simulation result.
 
@@ -294,3 +291,14 @@ The Vishay data predicts ~74 pF, double the simulation result.
 <b>Option 2:</b> Switch to the larger 0805 size, which will certainly have more capacitance than 0603 and match previous expectations.
 
 Conclusion: Go with option 2, reworking the equations to handle an unknown value in the range of 74&ndash;250 fF. If this makes the design unworkable, revert to option 1. Accept reduced tunability at a tradeoff of faster time to completion. If the range of 74&ndash;150 fF is more tunable than 150&ndash;250 fF, this is very good.
+
+> Realization: Simulation work will only raise the lower bound to capacitance. Marginal improvements to the lower bound will cost disproportionately more effort. There is no upper bound.
+>
+> The primary goal here is to maximize the lower bound, to avoid a situation where the first cutoff frequency is under 15 kHz. The secondary goal is to maximize tunability, by restricting the range of uncertainty.
+
+---
+
+Tracking the cutoff frequency throughout this investigation:
+
+| R<sub>f</sub> | C<sub>f</sub> | f<sub>c</sub> |
+| ------------: | ------------: | ------------: |
