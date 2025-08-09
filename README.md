@@ -326,6 +326,16 @@ I decided to try a few more FEM simulations, and immediately found a surprising 
 | 19741      | 0.667 mm | 0.100 mm | 0.033 mm | 153.63 fF      |
 | 72073      | 0.400 mm | 0.060 mm | 0.020 mm | 146.14 fF      |
 
+Adding a ground plane on the opposite side of the 2-layer PCB:
+
+| Node Count | C<sub>12</sub> | C<sub>13</sub> | C<sub>23</sub> |
+| ---------: | -------------: | -------------: | -------------: |
+| 17143      | 60.44 fF       | 170.51 fF      | 169.94 fF      |
+| 45255      | 58.25 fF       | 165.37 fF      | 165.21 fF      |
+| 169417     | 56.04 fF       | 161.22 fF      | 161.29 fF      |
+
+The literature advises against placing a ground plane directly underneath the resistor. Changing the ground plane to a ring:
+
 I'm screenshotting E-field intensity instead of electrostatic energy density now. The latter is proportional to the former, just squared. This choice makes it easier to see important details without calibrating the color legend.
 
 > TODO: Make a separate FreeCAD project for each of the 3 systems, making it easier to trace back selections of surfaces.
