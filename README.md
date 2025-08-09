@@ -339,6 +339,8 @@ The literature advises against placing a ground plane directly underneath the re
 | Node Count | C<sub>12</sub> | C<sub>13</sub> | C<sub>23</sub> |
 | ---------: | -------------: | -------------: | -------------: |
 | 15255      | 72.29 fF       | 131.96 fF      | 131.47 fF      |
+| 40545      | 70.27 fF       | 126.24 fF      | 126.52 fF      |
+| 155345     | 67.65 fF       | 121.74 fF      | 122.10 fF      |
 
 I'm screenshotting E-field intensity instead of electrostatic energy density now. The latter is proportional to the former, just squared. This choice makes it easier to see important details without calibrating the color legend.
 
@@ -347,3 +349,5 @@ I'm screenshotting E-field intensity instead of electrostatic energy density now
 > TODO: For each of the 3 systems, screenshot the electrostatic energy density in 2 orthogonal cross-sections.
 >
 > TODO: Remember to upload the FreeCAD project for the last simulated system.
+
+Analyze the series chain 1 to GND to 2, as parasitic coupling in parallel to the mutual capacitance. Observe how they all sum to a similar number.
