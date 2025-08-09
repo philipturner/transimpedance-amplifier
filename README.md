@@ -320,9 +320,9 @@ Tracking the cutoff frequency throughout this investigation:
 
 I decided to try a few more FEM simulations, and immediately found a surprising result.
 
-| Node Count | Region 1 | Region 2 | Region 3 | Mutual Capacitance (C<sub>12</sub>) |
-| ---------: | -------: | -------: | -------: | ----------------------------------: |
-| 7950       | 1.00 mm  | 0.15 mm  | 0.05 mm  | 163.19 fF                           |
+| Node Count | Region 1 | Region 2 | Region 3 | C<sub>12</sub> |
+| ---------: | -------: | -------: | -------: | -------------: |
+| 7950       | 1.00 mm  | 0.15 mm  | 0.05 mm  | 163.19 fF      |
 
 > TODO: Make a separate FreeCAD project for each of the 3 systems, making it easier to trace back selections of surfaces.
 >
