@@ -344,10 +344,14 @@ The literature advises against placing a ground plane directly underneath the re
 
 I'm screenshotting E-field intensity instead of electrostatic energy density now. The latter is proportional to the former, just squared. This choice makes it easier to see important details without calibrating the color legend.
 
-> TODO: Make a separate FreeCAD project for each of the 3 systems, making it easier to trace back selections of surfaces.
->
-> TODO: For each of the 3 systems, screenshot the electrostatic energy density in 2 orthogonal cross-sections.
->
-> TODO: Remember to upload the FreeCAD project for the last simulated system.
+> TODO: Format the images
 
-Analyze the series chain 1 to GND to 2, as parasitic coupling in parallel to the mutual capacitance. Observe how they all sum to a similar number.
+---
+
+### Summarizing Today's Data
+
+| Ground Coupling Severity        | C<sub>12</sub> | C<sub>12</sub> \|\| C<sub>23</sub> | C<sub>12</sub> \|\| (C<sub>13</sub> series C<sub>23</sub>) |
+| ------------------------------- | ------ | ----- | ----- |
+| None                            | abc.de fF | abc.de fF | abc.de fF |
+| Poorly designed keepout zone    |
+| Complete overlap with GND plane |
