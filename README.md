@@ -328,6 +328,8 @@ I decided to try a few more FEM simulations, and immediately found a surprising 
 
 I'm screenshotting E-field intensity instead of electrostatic energy density now. The latter is proportional to the former, just squared. This choice makes it easier to see important details without calibrating the color legend.
 
+> Don't forget to include those hidden Z-pointing parts of the landing pads in the electrostatic constraint!
+
 > TODO: Make a separate FreeCAD project for each of the 3 systems, making it easier to trace back selections of surfaces.
 >
 > TODO: For each of the 3 systems, screenshot the electrostatic energy density in 2 orthogonal cross-sections.
