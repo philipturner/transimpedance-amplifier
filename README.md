@@ -27,6 +27,7 @@ Table of Contents:
 - [August 6, 2025](#august-6-2025)
 - [August 7, 2025](#august-7-2025)
 - [August 8, 2025](#august-8-2025)
+- [August 9, 2025](#august-9-2025)
 
 ## July 26, 2025
 
@@ -314,3 +315,15 @@ Tracking the cutoff frequency throughout this investigation:
 | 330 MΩ |  74 fF |  6.5 kHz | 0805 |
 
 330 MΩ exists in both 0805 and 0603 sizes. 300 MΩ is exclusive to 0603. I will revise the symbolic schematic to use 330 MΩ, 5% in the 0805 size, with the respective purchase link on DigiKey.
+
+## August 9, 2025
+
+I decided to try a few more FEM simulations, and immediately found a surprising result.
+
+| Node Count | Region 1 | Region 2 | Region 3 | Mutual Capacitance (C<sub>12</sub>) |
+| ---------: | -------: | -------: | -------: | ----------------------------------: |
+| 7950       | 1.00 mm  | 0.15 mm  | 0.05 mm  | 163.19 fF                           |
+
+> TODO: Make a separate FreeCAD project for each of the 3 systems, making it easier to trace back selections of surfaces.
+>
+> TODO: For each of the 3 systems, screenshot an image of E-field intensity and electrostatic energy density. To save time, do not modify the color legend.
