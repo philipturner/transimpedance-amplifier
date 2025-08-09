@@ -356,9 +356,9 @@ _Exact same setup as yesterday, but with more conductor material and a dielectri
 
 <p align="center">
 &nbsp;
-  <img src="./Documentation/August9/Resistor_0805_GND_Plane_Y.jpg" width="45.00%">
+  <img src="./Documentation/August9/Resistor_0805_GND_Plane_Y.jpg" width="44.99%">
 &nbsp;&nbsp;
-  <img src="./Documentation/August9/Resistor_0805_GND_Plane_X.jpg" width="45.00%">
+  <img src="./Documentation/August9/Resistor_0805_GND_Plane_X.jpg" width="45.01%">
 &nbsp;
 </p>
 
@@ -366,9 +366,9 @@ _Filling the opposite side of the dielectric with a conductor. The 250 μm via m
 
 <p align="center">
 &nbsp;
-  <img src="./Documentation/August9/Resistor_0805_GND_Ring_Y.jpg" width="45.00%">
+  <img src="./Documentation/August9/Resistor_0805_GND_Ring_Y.jpg" width="44.86%">
 &nbsp;&nbsp;
-  <img src="./Documentation/August9/Resistor_0805_GND_Ring_X.jpg" width="45.00%">
+  <img src="./Documentation/August9/Resistor_0805_GND_Ring_X.jpg" width="45.14%">
 &nbsp;
 </p>
 
