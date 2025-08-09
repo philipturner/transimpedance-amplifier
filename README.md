@@ -344,9 +344,35 @@ The literature advises against placing a ground plane directly underneath the re
 
 I'm screenshotting E-field intensity instead of electrostatic energy density now. The latter is proportional to the former, just squared. This choice makes it easier to see important details without calibrating the color legend.
 
-> TODO: Format the images
+<p align="center">
+&nbsp;
+  <img src="./Documentation/August9/Resistor_0805_Mounted_Y.jpg" width="45.00%">
+&nbsp;&nbsp;
+  <img src="./Documentation/August9/Resistor_0805_Mounted_X.jpg" width="45.00%">
+&nbsp;
+</p>
 
----
+_Exact same setup as yesterday, but with more conductor material and a dielectric slab underneath._
+
+<p align="center">
+&nbsp;
+  <img src="./Documentation/August9/Resistor_0805_GND_Plane_Y.jpg" width="45.00%">
+&nbsp;&nbsp;
+  <img src="./Documentation/August9/Resistor_0805_GND_Plane_X.jpg" width="45.00%">
+&nbsp;
+</p>
+
+_Filling the opposite side of the dielectric with a conductor. The 250 μm via makes the next simulation easier to set up._
+
+<p align="center">
+&nbsp;
+  <img src="./Documentation/August9/Resistor_0805_GND_Ring_Y.jpg" width="45.00%">
+&nbsp;&nbsp;
+  <img src="./Documentation/August9/Resistor_0805_GND_Ring_X.jpg" width="45.00%">
+&nbsp;
+</p>
+
+_Changing the plane to a ring. Outer dimension measures 5 mm, ring thickness is 500 μm._
 
 ### Summarizing Today's Data
 
@@ -356,6 +382,8 @@ I'm screenshotting E-field intensity instead of electrostatic energy density now
 | Poorly designed keepout zone    | 67.65 fF  | 189.75 fF | 128.61 fF |
 | Complete overlap with GND plane | 56.04 fF  | 217.33 fF | 136.67 fF |
 
-Once the PCB layout is finalized, I'll run another FEM simulation of the ground conductor geometry. I'll make sure C<sub>12</sub> exceeds 80 fF. This is a slight improvement over 74 fF, instead of a major degradation to 67 fF. The average (expected) value to target is 150 fF. The upper bound is somewhere between 200&ndash;300 fF, based on my discretion.
+Once the PCB layout is finalized, I'll run another FEM simulation of the ground conductor geometry. I'll make sure C<sub>12</sub> exceeds 80\* fF. This is a slight improvement over 74 fF, instead of a major degradation to 67 fF. The average (expected) value to target is 150 fF. The upper bound is somewhere between 200&ndash;300 fF, based on my discretion.
+
+> \*Expect this condition to be met after draconian measures to isolate the resistor.
 
 Continuing the FEM simulations for another day was a good choice. I am now more confident in the numbers stated in the literature. I can proceed with more certainty about expected performance and less extreme design margins.
