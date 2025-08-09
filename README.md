@@ -351,7 +351,11 @@ I'm screenshotting E-field intensity instead of electrostatic energy density now
 ### Summarizing Today's Data
 
 | Ground Coupling Severity        | C<sub>12</sub> | C<sub>12</sub> \|\| C<sub>23</sub> | C<sub>12</sub> \|\| (C<sub>13</sub> series C<sub>23</sub>) |
-| ------------------------------- | ------ | ----- | ----- |
-| None                            | abc.de fF | abc.de fF | abc.de fF |
-| Poorly designed keepout zone    |
-| Complete overlap with GND plane |
+| ------------------------------- | --------: | --------: | --------: |
+| None                            | 146.14 fF | n/a       | n/a       |
+| Poorly designed keepout zone    | 67.65 fF  | 189.75 fF | 128.61 fF |
+| Complete overlap with GND plane | 56.04 fF  | 217.33 fF | 136.67 fF |
+
+Once the PCB layout is finalized, I'll run another FEM simulation of the ground conductor geometry. I'll make sure C<sub>12</sub> exceeds 80 fF. This is a slight improvement over 74 fF, instead of a major degradation to 67 fF. The average (expected) value to target is 150 fF. The upper bound is somewhere between 200&ndash;300 fF, based on my discretion.
+
+Continuing the FEM simulations for another day was a good choice. I am now more confident in the numbers stated in the literature. I can proceed with more certainty about expected performance and less extreme design margins.
