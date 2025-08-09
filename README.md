@@ -322,8 +322,14 @@ I decided to try a few more FEM simulations, and immediately found a surprising 
 
 | Node Count | Region 1 | Region 2 | Region 3 | C<sub>12</sub> |
 | ---------: | -------: | -------: | -------: | -------------: |
-| 7950       | 1.00 mm  | 0.15 mm  | 0.05 mm  | 163.19 fF      |
+| 7950       | 1.000 mm | 0.150 mm | 0.050 mm | 163.19 fF      |
+| 19644      | 0.667 mm | 0.100 mm | 0.033 mm | 152.89 fF      |
+| 71733      | 0.400 mm | 0.060 mm | 0.020 mm | 145.93 fF      |
+
+I'm screenshotting E-field intensity instead of electrostatic energy density now. The latter is proportional to the former, just squared. This choice makes it easier to see important details without calibrating the color legend.
 
 > TODO: Make a separate FreeCAD project for each of the 3 systems, making it easier to trace back selections of surfaces.
 >
-> TODO: For each of the 3 systems, screenshot an image of E-field intensity and electrostatic energy density. To save time, do not modify the color legend.
+> TODO: For each of the 3 systems, screenshot the electrostatic energy density in 2 orthogonal cross-sections.
+>
+> Using the PNG screenshots instead of the JPEG screenshots. Although the PNG is a larger file size, the JPEG looks significantly lower quality.
