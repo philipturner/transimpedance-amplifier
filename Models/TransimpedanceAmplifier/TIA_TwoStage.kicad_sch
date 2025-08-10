@@ -5,6 +5,145 @@
 	(uuid "68227bdb-34ff-4d57-b1d9-b6cb551206bc")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_Potentiometer_US"
 			(pin_names
 				(offset 1.016)
@@ -392,36 +531,105 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Noninverting Gain Stage\n\nPhase Shift: 0°\n\nGain:\n16.0 (-10 V < output < 10 V)\n2.0 (outside ±10 V range)"
+		(exclude_from_sim no)
+		(at 152.908 67.818 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "df15f285-77d9-4513-af03-e63ffafcf993")
+	)
+	(wire
+		(pts
+			(xy 77.47 53.34) (xy 73.66 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09eb8482-4767-4a04-9751-23afb9b0c5a6")
+	)
+	(wire
+		(pts
+			(xy 73.66 53.34) (xy 73.66 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1055094c-a6db-49bf-80bd-c4de09ff871d")
+	)
+	(wire
+		(pts
+			(xy 73.66 38.1) (xy 77.47 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15e522a5-8eb7-439a-a41c-91b66a9b8220")
+	)
+	(wire
+		(pts
+			(xy 85.09 53.34) (xy 88.9 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56f83cb1-6c4b-4019-aa12-b1618951b331")
+	)
+	(wire
+		(pts
+			(xy 85.09 38.1) (xy 88.9 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a195f4d7-254b-47f9-9d49-99409d9d09f7")
+	)
+	(wire
+		(pts
+			(xy 88.9 38.1) (xy 88.9 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd50e11e-2f56-4104-898b-6ae5ceec0192")
+	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 91.44 53.34 0)
+		(lib_id "Device:C")
+		(at 81.28 38.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "91ad68ba-62d0-45af-9b12-7aa0b339375a")
-		(property "Reference" "R2"
-			(at 93.98 52.0699 0)
+		(uuid "7c942d4d-d1b5-4457-b55b-bb6e5cec9f31")
+		(property "Reference" "C_feedback"
+			(at 81.28 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "300M, 5%"
-			(at 93.98 54.6099 0)
+		(property "Value" "80-220 fF"
+			(at 81.28 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 92.456 53.594 90)
+			(at 85.09 37.1348 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -430,7 +638,84 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 53.34 0)
+			(at 81.28 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 81.28 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" ""
+			(at 81.28 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5995a15c-d08d-4626-9e33-01909bdd2596")
+		)
+		(pin "1"
+			(uuid "9ae9cd8e-2122-42ca-b146-842190fc0b2b")
+		)
+		(instances
+			(project ""
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/226b3d0c-9e45-4bcf-9bef-58938aee743e"
+					(reference "C_feedback")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 81.28 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91ad68ba-62d0-45af-9b12-7aa0b339375a")
+		(property "Reference" "R_feedback"
+			(at 81.28 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330M, 5%"
+			(at 81.28 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.534 52.324 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -439,7 +724,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 91.44 53.34 0)
+			(at 81.28 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -447,8 +732,8 @@
 				(hide yes)
 			)
 		)
-		(property "Purchase Link" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW0603300MJPEAHR/5072019"
-			(at 91.44 53.34 0)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW0805330MJPEAHR/5074908"
+			(at 81.28 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -465,7 +750,7 @@
 		(instances
 			(project ""
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/226b3d0c-9e45-4bcf-9bef-58938aee743e"
-					(reference "R2")
+					(reference "R_feedback")
 					(unit 1)
 				)
 			)
@@ -473,7 +758,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer_US")
-		(at 139.7 49.53 0)
+		(at 129.54 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -482,7 +767,7 @@
 		(fields_autoplaced yes)
 		(uuid "91e5b838-95cc-43a3-b3be-cc9bd7a7ede4")
 		(property "Reference" "RV2"
-			(at 137.16 48.2599 0)
+			(at 127 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -491,7 +776,7 @@
 			)
 		)
 		(property "Value" "R_Potentiometer_US"
-			(at 137.16 50.7999 0)
+			(at 127 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -500,7 +785,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 49.53 0)
+			(at 129.54 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -509,7 +794,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 49.53 0)
+			(at 129.54 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -518,7 +803,7 @@
 			)
 		)
 		(property "Description" "Potentiometer, US symbol"
-			(at 139.7 49.53 0)
+			(at 129.54 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -546,7 +831,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer_US")
-		(at 139.7 62.23 0)
+		(at 129.54 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -555,7 +840,7 @@
 		(fields_autoplaced yes)
 		(uuid "9dbe5110-ec3a-4dba-a881-b08fbed037f2")
 		(property "Reference" "RV3"
-			(at 137.16 60.9599 0)
+			(at 127 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -564,7 +849,7 @@
 			)
 		)
 		(property "Value" "R_Potentiometer_US"
-			(at 137.16 63.4999 0)
+			(at 127 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -573,7 +858,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 62.23 0)
+			(at 129.54 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -582,7 +867,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 62.23 0)
+			(at 129.54 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -591,7 +876,7 @@
 			)
 		)
 		(property "Description" "Potentiometer, US symbol"
-			(at 139.7 62.23 0)
+			(at 129.54 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -619,7 +904,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer_US")
-		(at 139.7 36.83 0)
+		(at 129.54 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -628,7 +913,7 @@
 		(fields_autoplaced yes)
 		(uuid "ec79cc51-1d5e-4da4-bff1-58a27ca6891e")
 		(property "Reference" "RV1"
-			(at 137.16 35.5599 0)
+			(at 127 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -637,7 +922,7 @@
 			)
 		)
 		(property "Value" "R_Potentiometer_US"
-			(at 137.16 38.0999 0)
+			(at 127 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -646,7 +931,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 36.83 0)
+			(at 129.54 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -655,7 +940,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 36.83 0)
+			(at 129.54 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -664,7 +949,7 @@
 			)
 		)
 		(property "Description" "Potentiometer, US symbol"
-			(at 139.7 36.83 0)
+			(at 129.54 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -691,7 +976,7 @@
 		)
 	)
 	(sheet
-		(at 162.56 83.82)
+		(at 152.4 83.82)
 		(size 43.18 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -707,7 +992,7 @@
 		)
 		(uuid "1a19fcb8-2301-474b-810f-9788696a69a6")
 		(property "Sheetname" "PostAmplifier"
-			(at 162.56 83.1084 0)
+			(at 152.4 83.1084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -716,7 +1001,7 @@
 			)
 		)
 		(property "Sheetfile" "PostAmplifier.kicad_sch"
-			(at 162.56 114.8846 0)
+			(at 152.4 114.8846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -733,7 +1018,7 @@
 		)
 	)
 	(sheet
-		(at 88.9 83.82)
+		(at 78.74 83.82)
 		(size 40.64 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -749,7 +1034,7 @@
 		)
 		(uuid "728283d1-1c30-4fdc-aa4d-bf897972ea87")
 		(property "Sheetname" "PreAmplifier"
-			(at 88.9 83.1084 0)
+			(at 78.74 83.1084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -758,7 +1043,7 @@
 			)
 		)
 		(property "Sheetfile" "PreAmplifier.kicad_sch"
-			(at 88.9 114.8846 0)
+			(at 78.74 114.8846 0)
 			(effects
 				(font
 					(size 1.27 1.27)

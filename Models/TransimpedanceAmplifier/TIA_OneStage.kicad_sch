@@ -543,7 +543,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 130.81 67.31 0)
+		(at 146.05 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -552,25 +552,23 @@
 		(fields_autoplaced yes)
 		(uuid "3c1f0c7e-b2b7-49be-a8bb-ba3a9eea5334")
 		(property "Reference" "R1"
-			(at 133.35 66.0399 0)
+			(at 146.05 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "100M, 5%"
-			(at 133.35 68.5799 0)
+			(at 146.05 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 131.826 67.564 90)
+			(at 146.304 65.024 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -579,7 +577,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.81 67.31 0)
+			(at 146.05 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -588,7 +586,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 130.81 67.31 0)
+			(at 146.05 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -597,7 +595,7 @@
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW0603100MJPEAHR/3232293"
-			(at 130.81 67.31 0)
+			(at 146.05 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
