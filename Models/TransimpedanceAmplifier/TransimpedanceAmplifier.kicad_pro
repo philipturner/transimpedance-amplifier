@@ -465,6 +465,18 @@
     [
       "dc20c4fb-dcde-4b02-ae84-952f4ab38fe2",
       "Teensy"
+    ],
+    [
+      "1337611b-521e-41f6-8f90-6ccd39eab2ab",
+      "PreAmp_LowVoltage"
+    ],
+    [
+      "79f44061-ff24-463c-a518-31179173364f",
+      "HighVoltage"
+    ],
+    [
+      "1d52c1f9-c36f-44d3-8e04-a84f233fb023",
+      "Converter_LowVoltage"
     ]
   ],
   "text_variables": {}
