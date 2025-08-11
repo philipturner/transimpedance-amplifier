@@ -783,6 +783,12 @@
 		(uuid "47e4f01c-e3bc-4385-bd42-823c7fe3215d")
 	)
 	(junction
+		(at 185.42 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78740311-0235-4ca9-b98f-c2e369e11fed")
+	)
+	(junction
 		(at 114.3 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -813,6 +819,16 @@
 			(type default)
 		)
 		(uuid "182d022b-1a79-4ae8-af9d-d7a13d18ea38")
+	)
+	(wire
+		(pts
+			(xy 185.42 119.38) (xy 190.5 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1adf2ee9-6342-4993-b0f9-890ea509d804")
 	)
 	(wire
 		(pts
@@ -1023,6 +1039,50 @@
 			(type default)
 		)
 		(uuid "fc33ab34-63be-417c-8696-9886388f111a")
+	)
+	(hierarchical_label "27V"
+		(shape input)
+		(at 165.1 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0dcdeef5-0089-4e57-bd9c-96d734453e2d")
+	)
+	(hierarchical_label "-15V"
+		(shape output)
+		(at 190.5 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "738f5a31-413c-41cb-945f-f5a08a2afdd5")
+	)
+	(hierarchical_label "15V"
+		(shape output)
+		(at 91.44 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "893db97d-69aa-468c-bdc2-e7ae4766fd7c")
+	)
+	(hierarchical_label "-27V"
+		(shape input)
+		(at 162.56 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d5a31d4f-9cb1-42e4-9496-822dcb194aa4")
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")

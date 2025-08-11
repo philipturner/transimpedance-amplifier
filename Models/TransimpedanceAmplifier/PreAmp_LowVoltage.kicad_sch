@@ -765,6 +765,12 @@
 		)
 	)
 	(junction
+		(at 185.42 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "332c7114-eedc-487b-a0b8-a86139ab5217")
+	)
+	(junction
 		(at 167.64 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -813,6 +819,16 @@
 			(type default)
 		)
 		(uuid "0d695c5d-21e6-456d-ac26-19b77c322647")
+	)
+	(wire
+		(pts
+			(xy 185.42 119.38) (xy 190.5 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13e716cf-ec92-41aa-9944-14f199541d2f")
 	)
 	(wire
 		(pts
@@ -1023,6 +1039,50 @@
 			(type default)
 		)
 		(uuid "fd7c3250-2711-4772-a4e7-4631cb43447f")
+	)
+	(hierarchical_label "5V"
+		(shape output)
+		(at 91.44 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2d8f0599-7e4c-4fbb-81ec-da59ac1729f7")
+	)
+	(hierarchical_label "-15V"
+		(shape input)
+		(at 162.56 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "77484321-74cb-431a-90a4-a525a47b0ce3")
+	)
+	(hierarchical_label "-5V"
+		(shape output)
+		(at 190.5 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7d16ea0f-1b98-48b2-9748-26d2bb2cb997")
+	)
+	(hierarchical_label "15V"
+		(shape input)
+		(at 165.1 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e1c754a9-2deb-4f51-bd60-3deedba5f9df")
 	)
 	(symbol
 		(lib_id "LM79L:LM79L05ACZ_LFT1")

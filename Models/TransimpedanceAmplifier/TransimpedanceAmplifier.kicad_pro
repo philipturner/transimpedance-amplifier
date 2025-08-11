@@ -477,6 +477,10 @@
     [
       "1d52c1f9-c36f-44d3-8e04-a84f233fb023",
       "Converter_LowVoltage"
+    ],
+    [
+      "c9cd3b70-0193-478b-9c9b-cf8238587205",
+      "Batteries"
     ]
   ],
   "text_variables": {}
