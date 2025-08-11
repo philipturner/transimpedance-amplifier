@@ -8,4 +8,5 @@
   (lib (name "LM79L")(type "KiCad")(uri "${KIPRJMOD}/libraries/LM79L/2025-08-05_18-39-48.kicad_sym")(options "")(descr ""))
   (lib (name "DAC81401")(type "KiCad")(uri "${KIPRJMOD}/libraries/DAC81401/2025-08-05_18-48-22.kicad_sym")(options "")(descr ""))
   (lib (name "ADS8699")(type "KiCad")(uri "${KIPRJMOD}/libraries/ADS8699/2025-08-05_19-00-39.kicad_sym")(options "")(descr ""))
+  (lib (name "TLV761")(type "KiCad")(uri "${KIPRJMOD}/libraries/TLV761/2025-08-11_17-31-55.kicad_sym")(options "")(descr ""))
 )
