@@ -1396,7 +1396,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Connected to personal computer:\n\n49 (VUSB)\n66 (D-)\n67 (D+)"
+	(text "Connected to low-cost Windows PC:\n\n49 (VUSB)\n66 (D-)\n67 (D+)"
 		(exclude_from_sim no)
 		(at 184.404 39.116 0)
 		(effects

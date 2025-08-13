@@ -664,6 +664,17 @@
 		)
 		(uuid "23dcec1b-e5c5-45ea-8c55-4324f2f94989")
 	)
+	(hierarchical_label "Output"
+		(shape output)
+		(at 167.64 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8969f673-7f8c-4beb-a158-9ffd950d592a")
+	)
 	(hierarchical_label "3.3V"
 		(shape input)
 		(at 121.92 86.36 180)
