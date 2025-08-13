@@ -1,0 +1,19 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "c5638483-1b82-4a7f-8206-b48acd4eaded")
+	(paper "A4")
+	(lib_symbols)
+	(text "Specific chips and power requirements for\nthe isolators are not specified yet. Current\ndemands are likely 5-10 mA per SPI port."
+		(exclude_from_sim no)
+		(at 102.108 39.116 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5022376f-f585-4ff5-bbc9-a08c89073c3e")
+	)
+)

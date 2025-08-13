@@ -653,6 +653,17 @@
 		)
 		(uuid "f8002d70-51dd-43eb-8e37-40d5ce7d191b")
 	)
+	(hierarchical_label "MISO"
+		(shape output)
+		(at 121.92 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "16417794-ec41-4285-8e69-f68e58bb43d5")
+	)
 	(hierarchical_label "5V"
 		(shape input)
 		(at 121.92 83.82 180)
@@ -663,6 +674,28 @@
 			(justify right)
 		)
 		(uuid "23dcec1b-e5c5-45ea-8c55-4324f2f94989")
+	)
+	(hierarchical_label "MOSI"
+		(shape input)
+		(at 121.92 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "38ebdb04-4fa3-4361-a4cf-5a91cba5941f")
+	)
+	(hierarchical_label "SCK"
+		(shape input)
+		(at 121.92 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5e7f2480-ac7f-48be-93a8-4777c5a3534f")
 	)
 	(hierarchical_label "Output"
 		(shape output)
@@ -696,6 +729,17 @@
 			(justify right)
 		)
 		(uuid "abc4f0e3-982d-414e-a932-42ac525834a6")
+	)
+	(hierarchical_label "CS"
+		(shape input)
+		(at 121.92 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "db853d78-cbb9-47c3-ac7b-e71ac3f9ed1f")
 	)
 	(hierarchical_label "-15V"
 		(shape input)

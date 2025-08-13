@@ -174,7 +174,7 @@
 		)
 	)
 	(sheet
-		(at 233.68 96.52)
+		(at 233.68 93.98)
 		(size 35.56 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -188,9 +188,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "dc20c4fb-dcde-4b02-ae84-952f4ab38fe2")
-		(property "Sheetname" "Teensy"
-			(at 233.68 95.8084 0)
+		(uuid "7e303428-a18c-4ad4-b002-5ab9c6631588")
+		(property "Sheetname" "CPU"
+			(at 233.68 93.2684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -198,8 +198,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Teensy.kicad_sch"
-			(at 233.68 122.5046 0)
+		(property "Sheetfile" "CPU.kicad_sch"
+			(at 233.68 119.9646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -210,7 +210,7 @@
 		(instances
 			(project "TransimpedanceAmplifier"
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1"
-					(page "10")
+					(page "16")
 				)
 			)
 		)

@@ -639,6 +639,17 @@
 		)
 		(uuid "1679bf85-3744-4abb-863b-06158218d737")
 	)
+	(hierarchical_label "MOSI"
+		(shape input)
+		(at 185.42 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1bc2f741-f49f-4f24-b412-43af9b48cdbe")
+	)
 	(hierarchical_label "3.3V"
 		(shape input)
 		(at 185.42 88.9 0)
@@ -660,6 +671,39 @@
 			(justify right)
 		)
 		(uuid "7d700a02-33a0-44ca-aeac-862fa04ea0f6")
+	)
+	(hierarchical_label "CS"
+		(shape input)
+		(at 185.42 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "83691c1b-0386-45c9-ac12-ef993cb204d5")
+	)
+	(hierarchical_label "MISO"
+		(shape output)
+		(at 185.42 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9470c897-4d97-43db-aced-c253534390f7")
+	)
+	(hierarchical_label "SCK"
+		(shape input)
+		(at 185.42 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f7da485a-a1d0-4911-854a-5dcbc346f1e5")
 	)
 	(symbol
 		(lib_id "ADS8699:ADS8699IPW")
