@@ -5,8 +5,226 @@
 	(uuid "3332466e-b586-4a91-a873-f3ba023b3c0f")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 147.32 30.48) (xy 152.4 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05de9147-4bbe-48dd-899c-0277d60baf56")
+	)
+	(wire
+		(pts
+			(xy 101.6 86.36) (xy 127 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e899856-a316-447e-b418-45fe4121b5c8")
+	)
+	(wire
+		(pts
+			(xy 203.2 147.32) (xy 208.28 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "221bbfba-3d86-4f2b-98f2-b11aa16a0ab6")
+	)
+	(wire
+		(pts
+			(xy 203.2 45.72) (xy 208.28 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22ac883e-f02a-422f-9a17-fcf2f304f283")
+	)
+	(wire
+		(pts
+			(xy 203.2 30.48) (xy 208.28 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ef50797-3749-4916-9714-6ce7046a6b8f")
+	)
+	(wire
+		(pts
+			(xy 127 86.36) (xy 127 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b40b555-194a-4912-82b8-213a3b018969")
+	)
+	(wire
+		(pts
+			(xy 101.6 81.28) (xy 152.4 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d12a3e6-bf41-4483-acb3-e2b17cd0d4d7")
+	)
+	(wire
+		(pts
+			(xy 203.2 81.28) (xy 208.28 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85403203-a732-4c73-9917-eb81a651b1f2")
+	)
+	(wire
+		(pts
+			(xy 147.32 45.72) (xy 152.4 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4bd060a-06dc-4dc3-b8dd-9b85168022be")
+	)
+	(wire
+		(pts
+			(xy 127 132.08) (xy 152.4 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf6b71b9-74bd-4a61-ba7d-3fb4f282858c")
+	)
+	(wire
+		(pts
+			(xy 203.2 96.52) (xy 208.28 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc6ea481-16b8-49ef-a1f1-6f60247143cc")
+	)
+	(wire
+		(pts
+			(xy 101.6 96.52) (xy 152.4 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8125b8a-6e5d-4222-9959-d01b097e1fa4")
+	)
+	(wire
+		(pts
+			(xy 203.2 132.08) (xy 208.28 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc211b1b-9200-444c-9d71-166d90eb8efb")
+	)
+	(hierarchical_label "-15V"
+		(shape output)
+		(at 147.32 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "06f1627e-7997-4941-927a-3f5924b2c004")
+	)
+	(hierarchical_label "5V_Converter"
+		(shape output)
+		(at 208.28 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "19b31c08-1079-4095-98e0-1ffa83c1ea7e")
+	)
+	(hierarchical_label "5V_PreAmp"
+		(shape output)
+		(at 208.28 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3ef41eba-2bc8-4fe8-a759-ab6d0de76532")
+	)
+	(hierarchical_label "-15V"
+		(shape output)
+		(at 208.28 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5a5e9198-0afe-432f-b098-59e16b9bd0ed")
+	)
+	(hierarchical_label "3.3V_Converter"
+		(shape output)
+		(at 208.28 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6db3ec6b-6af1-489c-a884-870ba1688d61")
+	)
+	(hierarchical_label "15V"
+		(shape output)
+		(at 147.32 30.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8badbeab-e193-4451-be4e-e86e0f60ad89")
+	)
+	(hierarchical_label "15V"
+		(shape output)
+		(at 208.28 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "911bd571-4efc-47cb-9b5c-edb0a6d7ca20")
+	)
+	(hierarchical_label "-5V_PreAmp"
+		(shape output)
+		(at 208.28 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a8ba4b1f-13bd-41c0-a47a-1a78d2cd28af")
+	)
 	(sheet
-		(at 127 25.4)
+		(at 152.4 25.4)
 		(size 50.8 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +240,7 @@
 		)
 		(uuid "1337611b-521e-41f6-8f90-6ccd39eab2ab")
 		(property "Sheetname" "PreAmp_LowVoltage"
-			(at 127 24.6884 0)
+			(at 152.4 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +249,7 @@
 			)
 		)
 		(property "Sheetfile" "PreAmp_LowVoltage.kicad_sch"
-			(at 127 51.3846 0)
+			(at 152.4 51.3846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40,7 +258,7 @@
 			)
 		)
 		(pin "-5V" output
-			(at 177.8 45.72 0)
+			(at 203.2 45.72 0)
 			(uuid "6fb6f7c0-0e38-4c5e-9e8f-f1f887f1fc9c")
 			(effects
 				(font
@@ -50,7 +268,7 @@
 			)
 		)
 		(pin "-15V" input
-			(at 127 45.72 180)
+			(at 152.4 45.72 180)
 			(uuid "46349a3c-f573-45cc-ac74-4ed6b040735d")
 			(effects
 				(font
@@ -60,7 +278,7 @@
 			)
 		)
 		(pin "5V" output
-			(at 177.8 30.48 0)
+			(at 203.2 30.48 0)
 			(uuid "8705b7f8-a6a4-4979-b24c-fe50f95c0832")
 			(effects
 				(font
@@ -70,7 +288,7 @@
 			)
 		)
 		(pin "15V" input
-			(at 127 30.48 180)
+			(at 152.4 30.48 180)
 			(uuid "24cf1292-00dc-47bf-b348-96208a9a8d4a")
 			(effects
 				(font
@@ -88,7 +306,7 @@
 		)
 	)
 	(sheet
-		(at 127 127)
+		(at 152.4 127)
 		(size 50.8 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -104,7 +322,7 @@
 		)
 		(uuid "1d52c1f9-c36f-44d3-8e04-a84f233fb023")
 		(property "Sheetname" "Converter_LowVoltage"
-			(at 127 126.2884 0)
+			(at 152.4 126.2884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -113,12 +331,42 @@
 			)
 		)
 		(property "Sheetfile" "Converter_LowVoltage.kicad_sch"
-			(at 127 152.9846 0)
+			(at 152.4 152.9846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "3.3V" output
+			(at 203.2 147.32 0)
+			(uuid "f646d604-707f-4856-a7c0-ffea3e17fb9c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5V" output
+			(at 203.2 132.08 0)
+			(uuid "e68fa43c-bb81-4b9a-a8b9-378c597decbe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "18V" input
+			(at 152.4 132.08 180)
+			(uuid "7ca51892-8764-4f73-8930-a8e7d5ac18ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -130,7 +378,7 @@
 		)
 	)
 	(sheet
-		(at 127 76.2)
+		(at 152.4 76.2)
 		(size 50.8 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -146,7 +394,7 @@
 		)
 		(uuid "79f44061-ff24-463c-a518-31179173364f")
 		(property "Sheetname" "HighVoltage"
-			(at 127 75.4884 0)
+			(at 152.4 75.4884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -155,12 +403,52 @@
 			)
 		)
 		(property "Sheetfile" "HighVoltage.kicad_sch"
-			(at 127 102.1846 0)
+			(at 152.4 102.1846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "-15V" output
+			(at 203.2 96.52 0)
+			(uuid "2c923eff-29bf-457a-9ad4-04819ecf0ccc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "-27V" input
+			(at 152.4 96.52 180)
+			(uuid "bbfd0a0d-8f65-43db-aac9-636940eb1443")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "15V" output
+			(at 203.2 81.28 0)
+			(uuid "bef8c40d-2ba7-4120-add7-f79a73205698")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "27V" input
+			(at 152.4 81.28 180)
+			(uuid "70adea95-48ad-4079-9343-c5cd6c23e0c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -172,7 +460,7 @@
 		)
 	)
 	(sheet
-		(at 195.58 127)
+		(at 50.8 76.2)
 		(size 50.8 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -188,7 +476,7 @@
 		)
 		(uuid "c9cd3b70-0193-478b-9c9b-cf8238587205")
 		(property "Sheetname" "Batteries"
-			(at 195.58 126.2884 0)
+			(at 50.8 75.4884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -197,12 +485,42 @@
 			)
 		)
 		(property "Sheetfile" "Batteries.kicad_sch"
-			(at 195.58 152.9846 0)
+			(at 50.8 102.1846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "-27V" output
+			(at 101.6 96.52 0)
+			(uuid "480a7f42-4be3-4af5-a2f7-dee202337d7d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "18V" output
+			(at 101.6 86.36 0)
+			(uuid "44599474-745b-407a-af61-7b683968e3d5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "27V" output
+			(at 101.6 81.28 0)
+			(uuid "90f209a6-0496-452b-a951-f2d049b0a170")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
