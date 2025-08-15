@@ -4,20 +4,676 @@
 	(generator_version "9.0")
 	(uuid "ec9f2ae3-e40d-40eb-9760-2b611ee8efd1")
 	(paper "A4")
-	(lib_symbols)
-	(text "Mechanical switch to choose which TIA the current goes to\nand/or which TIA output voltage is read by the ADC.\nUnknown how this would be implemented (perhaps swapping\nout entire circuit boards?)\n\nAbstract away the DUT + TIA1 + TIA2 into a hierarchical\nsheet that just accepts input and output voltage."
+	(lib_symbols
+		(symbol "Switch:SW_SPDT"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPDT_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_SPDT_312"
+			(pin_names
+				(offset 1)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT_312"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "changeover single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPDT_312_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_312_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "TODO: Merge DAC and ADC into CPU module"
 		(exclude_from_sim no)
-		(at 110.49 170.434 0)
+		(at 25.654 19.558 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left top)
 		)
-		(uuid "3a9de35e-4e21-4e75-8395-f47688751819")
+		(uuid "d1f34e22-9378-41f1-b54d-c1f4851a2b10")
+	)
+	(text "TODO: Investigate effects of the switch\non leakage current, when placed between\nthe DUT and the TIA"
+		(exclude_from_sim no)
+		(at 89.154 142.748 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d8bbfb7e-f1c7-41e8-91e4-6701a8f7c8fa")
+	)
+	(wire
+		(pts
+			(xy 134.62 119.38) (xy 134.62 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09e18e04-7660-4515-8790-ba63ad53c56d")
+	)
+	(wire
+		(pts
+			(xy 180.34 124.46) (xy 185.42 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3edaf404-81fe-4604-bf51-e9d9f987c5a3")
+	)
+	(wire
+		(pts
+			(xy 134.62 124.46) (xy 134.62 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42021276-21b4-45e7-a23b-4a588f4fd670")
+	)
+	(wire
+		(pts
+			(xy 180.34 142.24) (xy 180.34 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "485fa6d4-8f5d-41fe-863c-ff4fa973523e")
+	)
+	(wire
+		(pts
+			(xy 129.54 119.38) (xy 134.62 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6396fdda-4b6f-415c-b68a-7a96ad6a570c")
+	)
+	(wire
+		(pts
+			(xy 175.26 142.24) (xy 180.34 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8539f8c0-2d4b-4a40-8d0c-648513e8da56")
+	)
+	(wire
+		(pts
+			(xy 195.58 121.92) (xy 200.66 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c814f8c-f901-4d7d-90dc-ced9dbed1a9f")
+	)
+	(wire
+		(pts
+			(xy 175.26 101.6) (xy 180.34 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91f5c730-51aa-41e5-8ea9-0b02b8603773")
+	)
+	(wire
+		(pts
+			(xy 129.54 124.46) (xy 134.62 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "959380a9-793b-4839-848d-57691665be16")
+	)
+	(wire
+		(pts
+			(xy 180.34 119.38) (xy 185.42 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb75786f-4f70-40b3-a6bd-8f9a9ff84ac4")
+	)
+	(wire
+		(pts
+			(xy 114.3 121.92) (xy 119.38 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb5c68b5-dea1-415d-800b-f61b3f07ef9f")
+	)
+	(wire
+		(pts
+			(xy 134.62 101.6) (xy 139.7 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3b8f524-04a9-476d-9f6e-b8081699f7e1")
+	)
+	(wire
+		(pts
+			(xy 180.34 101.6) (xy 180.34 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea2fa362-4d20-4ef2-8274-d1f16901862c")
+	)
+	(wire
+		(pts
+			(xy 76.2 121.92) (xy 81.28 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec887262-756f-47b4-bdfa-a5c681836485")
+	)
+	(wire
+		(pts
+			(xy 134.62 142.24) (xy 139.7 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f13b058d-88ef-483d-9cc8-cdfd7bc8c5bf")
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 124.46 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9cea1da-c0fa-4304-ac48-980bc758011f")
+		(property "Reference" "SW1"
+			(at 124.46 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 124.46 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 124.46 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "05d25021-e978-4662-967f-9254718d6433")
+		)
+		(pin "2"
+			(uuid "41e936e7-5467-46dc-889f-96f4d28508e4")
+		)
+		(pin "1"
+			(uuid "2ddda9c1-207c-4eb0-b394-88619a6239f7")
+		)
+		(instances
+			(project ""
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT_312")
+		(at 190.5 121.92 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f88b8986-916b-410f-b36f-463405cb5da4")
+		(property "Reference" "SW2"
+			(at 190.5 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT_312"
+			(at 190.5 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 190.5 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "af5005d0-a5ac-45ef-9b05-0ca5eaa7558a")
+		)
+		(pin "1"
+			(uuid "80a19199-4602-41cf-b645-cb677a1c462c")
+		)
+		(pin "3"
+			(uuid "856bd6ae-4f08-4f82-b9d5-5a00a2a50d84")
+		)
+		(instances
+			(project ""
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(sheet
-		(at 139.7 128.27)
+		(at 139.7 129.54)
 		(size 35.56 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33,7 +689,7 @@
 		)
 		(uuid "226b3d0c-9e45-4bcf-9bef-58938aee743e")
 		(property "Sheetname" "TIA_TwoStage"
-			(at 139.7 127.5584 0)
+			(at 139.7 128.8284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42,7 +698,7 @@
 			)
 		)
 		(property "Sheetfile" "TIA_TwoStage.kicad_sch"
-			(at 139.7 154.2546 0)
+			(at 139.7 155.5246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59,7 +715,7 @@
 		)
 	)
 	(sheet
-		(at 187.96 106.68)
+		(at 63.5 59.69)
 		(size 33.02 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -75,7 +731,7 @@
 		)
 		(uuid "49c90445-9dec-4844-815f-c72a1415129d")
 		(property "Sheetname" "ADC"
-			(at 187.96 105.9684 0)
+			(at 63.5 58.9784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -84,7 +740,7 @@
 			)
 		)
 		(property "Sheetfile" "ADC.kicad_sch"
-			(at 187.96 132.6646 0)
+			(at 63.5 85.6746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -101,7 +757,7 @@
 		)
 	)
 	(sheet
-		(at 55.88 109.22)
+		(at 25.4 60.96)
 		(size 33.02 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -117,7 +773,7 @@
 		)
 		(uuid "5646f584-34a2-41de-a9b6-e726812feaed")
 		(property "Sheetname" "DAC"
-			(at 55.88 108.5084 0)
+			(at 25.4 60.2484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -126,7 +782,7 @@
 			)
 		)
 		(property "Sheetfile" "DAC.kicad_sch"
-			(at 55.88 135.2046 0)
+			(at 25.4 86.9446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -185,7 +841,7 @@
 		)
 	)
 	(sheet
-		(at 95.25 31.75)
+		(at 25.4 27.94)
 		(size 35.56 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -201,7 +857,7 @@
 		)
 		(uuid "7e303428-a18c-4ad4-b002-5ab9c6631588")
 		(property "Sheetname" "CPU"
-			(at 95.25 31.0384 0)
+			(at 25.4 27.2284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -210,7 +866,7 @@
 			)
 		)
 		(property "Sheetfile" "CPU.kicad_sch"
-			(at 95.25 57.7346 0)
+			(at 25.4 53.9246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -227,7 +883,7 @@
 		)
 	)
 	(sheet
-		(at 97.79 109.22)
+		(at 81.28 109.22)
 		(size 33.02 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -243,7 +899,7 @@
 		)
 		(uuid "dc71cb80-a5fe-4d35-8e0a-2347d37b6518")
 		(property "Sheetname" "DUT"
-			(at 97.79 108.5084 0)
+			(at 81.28 108.5084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -252,7 +908,7 @@
 			)
 		)
 		(property "Sheetfile" "DUT.kicad_sch"
-			(at 97.79 135.2046 0)
+			(at 81.28 135.2046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
