@@ -358,6 +358,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "TODO: Limit current of bias voltage supply\nto <5 mA to prevent damage to AD8615"
+		(exclude_from_sim no)
+		(at 45.974 51.562 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "52742bf0-fead-4337-bbf8-4485378ddffa")
+	)
 	(text "TODO: Investigate effects of the switch\non leakage current, when placed between\nthe DUT and the TIA"
 		(exclude_from_sim no)
 		(at 53.594 142.748 0)
