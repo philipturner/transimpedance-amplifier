@@ -632,8 +632,12 @@
       "Root"
     ],
     [
-      "68e8bf39-bd36-49ed-a85c-9ce753018063",
-      "Power"
+      "c9cd3b70-0193-478b-9c9b-cf8238587205",
+      "Batteries"
+    ],
+    [
+      "ddbdd109-856f-45b9-b116-121e4fcc3b3f",
+      "LowVoltage_PreAmp"
     ],
     [
       "dc71cb80-a5fe-4d35-8e0a-2347d37b6518",
@@ -660,16 +664,16 @@
       "HighVoltage"
     ],
     [
-      "c9cd3b70-0193-478b-9c9b-cf8238587205",
-      "Batteries"
+      "8db21157-4c7b-40b0-8814-5c9be8b7a36f",
+      "LowVoltage_Converter"
+    ],
+    [
+      "d0ece2d4-5b22-4822-ad0c-e2361683ec3d",
+      "Power"
     ],
     [
       "77c98efe-b6d0-43b4-bfa9-b392bfbf9a85",
       "DAC"
-    ],
-    [
-      "ddbdd109-856f-45b9-b116-121e4fcc3b3f",
-      "LowVoltage_PreAmp"
     ],
     [
       "7e303428-a18c-4ad4-b002-5ab9c6631588",
@@ -682,10 +686,6 @@
     [
       "4e36751c-3edc-4fd3-bdbc-fcba4fce50b6",
       "ADC"
-    ],
-    [
-      "8db21157-4c7b-40b0-8814-5c9be8b7a36f",
-      "LowVoltage_Converter"
     ],
     [
       "801eb825-6f09-44eb-9a12-14faa51f83f1",

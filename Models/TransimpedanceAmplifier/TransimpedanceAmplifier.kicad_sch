@@ -358,20 +358,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "TODO: Merge DAC and ADC into CPU module"
-		(exclude_from_sim no)
-		(at 25.654 19.558 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "d1f34e22-9378-41f1-b54d-c1f4851a2b10")
-	)
 	(text "TODO: Investigate effects of the switch\non leakage current, when placed between\nthe DUT and the TIA"
 		(exclude_from_sim no)
-		(at 89.154 142.748 0)
+		(at 53.594 142.748 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -382,157 +371,357 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 119.38) (xy 134.62 101.6)
+			(xy 45.72 121.92) (xy 40.64 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "09e18e04-7660-4515-8790-ba63ad53c56d")
+		(uuid "001ff8e0-d3ed-4c5d-82ad-d293fef148fb")
 	)
 	(wire
 		(pts
-			(xy 180.34 124.46) (xy 185.42 124.46)
+			(xy 40.64 45.72) (xy 104.14 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3edaf404-81fe-4604-bf51-e9d9f987c5a3")
+		(uuid "11d6ed2e-2164-42f0-86c2-c255e2f754e7")
 	)
 	(wire
 		(pts
-			(xy 134.62 124.46) (xy 134.62 142.24)
+			(xy 93.98 124.46) (xy 99.06 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "42021276-21b4-45e7-a23b-4a588f4fd670")
+		(uuid "1aecefc1-013f-4068-a907-7aaf2a0c9996")
 	)
 	(wire
 		(pts
-			(xy 180.34 142.24) (xy 180.34 124.46)
+			(xy 144.78 45.72) (xy 170.18 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "485fa6d4-8f5d-41fe-863c-ff4fa973523e")
+		(uuid "1e15dcda-7aa0-4bce-b055-15f0487967a9")
 	)
 	(wire
 		(pts
-			(xy 129.54 119.38) (xy 134.62 119.38)
+			(xy 165.1 121.92) (xy 170.18 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6396fdda-4b6f-415c-b68a-7a96ad6a570c")
+		(uuid "47cb54f3-936a-4c90-bed9-cb54a1b1d499")
 	)
 	(wire
 		(pts
-			(xy 175.26 142.24) (xy 180.34 142.24)
+			(xy 99.06 96.52) (xy 104.14 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8539f8c0-2d4b-4a40-8d0c-648513e8da56")
+		(uuid "487a84ea-377f-48dd-a505-8334766e184e")
 	)
 	(wire
 		(pts
-			(xy 195.58 121.92) (xy 200.66 121.92)
+			(xy 99.06 119.38) (xy 99.06 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8c814f8c-f901-4d7d-90dc-ced9dbed1a9f")
+		(uuid "7db5038f-8a6f-4b04-929c-f0fbaa3f7448")
 	)
 	(wire
 		(pts
-			(xy 175.26 101.6) (xy 180.34 101.6)
+			(xy 144.78 96.52) (xy 149.86 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "91f5c730-51aa-41e5-8ea9-0b02b8603773")
+		(uuid "a57d8c48-c7c0-4b7b-9b2a-0f10264303c0")
 	)
 	(wire
 		(pts
-			(xy 129.54 124.46) (xy 134.62 124.46)
+			(xy 149.86 124.46) (xy 154.94 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "959380a9-793b-4839-848d-57691665be16")
+		(uuid "a76d6462-024a-4167-942c-48acde530553")
 	)
 	(wire
 		(pts
-			(xy 180.34 119.38) (xy 185.42 119.38)
+			(xy 149.86 147.32) (xy 149.86 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bb75786f-4f70-40b3-a6bd-8f9a9ff84ac4")
+		(uuid "afb262b9-49d8-4e30-aa90-ecdc643d4586")
 	)
 	(wire
 		(pts
-			(xy 114.3 121.92) (xy 119.38 121.92)
+			(xy 78.74 121.92) (xy 83.82 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cb5c68b5-dea1-415d-800b-f61b3f07ef9f")
+		(uuid "b51cb914-8b8c-41fa-ad49-c139659eb65b")
 	)
 	(wire
 		(pts
-			(xy 134.62 101.6) (xy 139.7 101.6)
+			(xy 149.86 119.38) (xy 154.94 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e3b8f524-04a9-476d-9f6e-b8081699f7e1")
+		(uuid "b6799056-fcef-4c3b-b628-23cfc75de264")
 	)
 	(wire
 		(pts
-			(xy 180.34 101.6) (xy 180.34 119.38)
+			(xy 99.06 124.46) (xy 99.06 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ea2fa362-4d20-4ef2-8274-d1f16901862c")
+		(uuid "dcbcf04d-0850-4ec7-8baa-d6b196b03fe4")
 	)
 	(wire
 		(pts
-			(xy 76.2 121.92) (xy 81.28 121.92)
+			(xy 93.98 119.38) (xy 99.06 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ec887262-756f-47b4-bdfa-a5c681836485")
+		(uuid "e0779db5-9159-42b2-9253-03f904b34685")
 	)
 	(wire
 		(pts
-			(xy 134.62 142.24) (xy 139.7 142.24)
+			(xy 144.78 147.32) (xy 149.86 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f13b058d-88ef-483d-9cc8-cdfd7bc8c5bf")
+		(uuid "e213069d-fca6-4a60-be5f-8b85f3fe1d23")
+	)
+	(wire
+		(pts
+			(xy 149.86 96.52) (xy 149.86 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8d44324-39c3-4066-8c18-a6e9a00b06c6")
+	)
+	(wire
+		(pts
+			(xy 40.64 121.92) (xy 40.64 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9c0facf-59e5-43dc-bc88-0278edeed7c9")
+	)
+	(wire
+		(pts
+			(xy 99.06 147.32) (xy 104.14 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdf9b4fa-03bd-41ce-9acf-351cb129ccef")
+	)
+	(wire
+		(pts
+			(xy 170.18 121.92) (xy 170.18 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff9b250d-588d-4be2-bac3-1f1ffacd2adf")
+	)
+	(label "-15V"
+		(at 139.7 109.22 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0e529439-6536-4ac2-9f58-4b3883b029e4")
+	)
+	(label "-5V_PreAmp"
+		(at 134.62 160.02 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "24c87dc6-23b7-4066-a6d9-15c0eea6a802")
+	)
+	(label "15V"
+		(at 139.7 83.82 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "293df9ed-0a18-42a6-a0b2-3283ca74fcff")
+	)
+	(label "3.3V_Converter"
+		(at 264.16 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e0e9bb3-f38b-4eb9-9af6-1f3afa4b1572")
+	)
+	(label "-15V"
+		(at 139.7 160.02 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "38f76f9b-c245-4886-8680-3e3741d1595f")
+	)
+	(label "3.3V_Converter"
+		(at 129.54 33.02 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4630ff44-93d9-45d6-9a3f-69963bde4ef0")
+	)
+	(label "15V"
+		(at 264.16 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5460492e-d8bd-46b3-a3e8-8f0689980cd8")
+	)
+	(label "-15V"
+		(at 228.6 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7988d885-a36a-43ee-b9ff-c7378dfe3032")
+	)
+	(label "5V_PreAmp"
+		(at 134.62 134.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "82537a96-06a5-45fa-b303-db66a41d34ae")
+	)
+	(label "5V_Converter"
+		(at 264.16 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "988bb59c-c83b-4cba-b1c7-9999ebc8f2b3")
+	)
+	(label "5V_Converter"
+		(at 134.62 33.02 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f3f6eeb-bb0c-4968-b2ed-6d9ad163c523")
+	)
+	(label "15V"
+		(at 139.7 33.02 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aa2d2051-58d2-401a-9aeb-c0e9ad808641")
+	)
+	(label "-15V"
+		(at 139.7 58.42 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dccd625b-dab6-49a4-9e41-10251423a843")
+	)
+	(label "-5V_PreAmp"
+		(at 228.6 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dd0bc54a-0a2a-46c7-b962-bed9e8763904")
+	)
+	(label "15V"
+		(at 139.7 134.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dde67b37-0be0-4ff4-84d8-48338f57ba6a")
+	)
+	(label "5V_PreAmp"
+		(at 264.16 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fbf697b2-bebe-4e90-b2ab-19b818e2735b")
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT")
-		(at 124.46 121.92 0)
+		(at 88.9 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -541,7 +730,7 @@
 		(fields_autoplaced yes)
 		(uuid "d9cea1da-c0fa-4304-ac48-980bc758011f")
 		(property "Reference" "SW1"
-			(at 124.46 113.03 0)
+			(at 88.9 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -549,7 +738,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT"
-			(at 124.46 115.57 0)
+			(at 88.9 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -557,7 +746,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 121.92 0)
+			(at 88.9 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -566,7 +755,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 124.46 129.54 0)
+			(at 88.9 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -575,7 +764,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 124.46 121.92 0)
+			(at 88.9 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -603,7 +792,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT_312")
-		(at 190.5 121.92 0)
+		(at 160.02 121.92 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -612,7 +801,7 @@
 		(dnp no)
 		(uuid "f88b8986-916b-410f-b36f-463405cb5da4")
 		(property "Reference" "SW2"
-			(at 190.5 113.03 0)
+			(at 160.02 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -620,7 +809,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT_312"
-			(at 190.5 115.57 0)
+			(at 160.02 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -628,7 +817,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 132.08 0)
+			(at 160.02 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -637,7 +826,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 190.5 129.54 0)
+			(at 160.02 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -646,7 +835,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 190.5 121.92 0)
+			(at 160.02 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -673,8 +862,8 @@
 		)
 	)
 	(sheet
-		(at 139.7 129.54)
-		(size 35.56 25.4)
+		(at 104.14 134.62)
+		(size 40.64 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -689,7 +878,7 @@
 		)
 		(uuid "226b3d0c-9e45-4bcf-9bef-58938aee743e")
 		(property "Sheetname" "TIA_TwoStage"
-			(at 139.7 128.8284 0)
+			(at 104.14 133.9084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -698,12 +887,72 @@
 			)
 		)
 		(property "Sheetfile" "TIA_TwoStage.kicad_sch"
-			(at 139.7 155.5246 0)
+			(at 104.14 160.6046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "-5V" input
+			(at 134.62 160.02 270)
+			(uuid "017461d4-5536-496b-b6e9-8e7ad752a3be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "-15V" input
+			(at 139.7 160.02 270)
+			(uuid "19db7b45-2862-45ab-bdce-172f6a2b7486")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5V" input
+			(at 134.62 134.62 90)
+			(uuid "c4fa5080-f4e8-433c-a63f-d41bafd69a3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "15V" input
+			(at 139.7 134.62 90)
+			(uuid "0e99c317-0891-4149-8718-99aa0d63875b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Input" input
+			(at 104.14 147.32 180)
+			(uuid "f32c11f2-cb9b-412f-9e36-22eb5aa922a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Output" output
+			(at 144.78 147.32 0)
+			(uuid "84814fec-2483-4587-8c96-675f8e58c04c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -715,50 +964,8 @@
 		)
 	)
 	(sheet
-		(at 151.13 31.75)
-		(size 33.02 25.4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "68e8bf39-bd36-49ed-a85c-9ce753018063")
-		(property "Sheetname" "Power"
-			(at 151.13 31.0384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Power.kicad_sch"
-			(at 151.13 57.7346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "TransimpedanceAmplifier"
-				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 25.4 27.94)
-		(size 35.56 25.4)
+		(at 104.14 33.02)
+		(size 40.64 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -773,7 +980,7 @@
 		)
 		(uuid "7e303428-a18c-4ad4-b002-5ab9c6631588")
 		(property "Sheetname" "CPU"
-			(at 25.4 27.2284 0)
+			(at 104.14 32.3084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -782,12 +989,72 @@
 			)
 		)
 		(property "Sheetfile" "CPU.kicad_sch"
-			(at 25.4 53.9246 0)
+			(at 104.14 59.0046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "-15V" input
+			(at 139.7 58.42 270)
+			(uuid "bc059842-70f1-4003-81a2-feb2bce0845f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3.3V" input
+			(at 129.54 33.02 90)
+			(uuid "23cf0eec-95bc-448e-8046-c5772601c2ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5V" input
+			(at 134.62 33.02 90)
+			(uuid "5efb9e9c-7c25-4d4e-89c4-5ea1e87331c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "15V" input
+			(at 139.7 33.02 90)
+			(uuid "f0f4e00c-a3e1-4851-a37a-d28081b30e6d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_Input" input
+			(at 144.78 45.72 0)
+			(uuid "06c2b598-f742-4314-afc2-9acd6c02b49b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DAC_Output" output
+			(at 104.14 45.72 180)
+			(uuid "eb7815ca-7962-4bac-b6ff-2ae31ee6118e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -799,7 +1066,109 @@
 		)
 	)
 	(sheet
-		(at 81.28 109.22)
+		(at 228.6 33.02)
+		(size 35.56 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d0ece2d4-5b22-4822-ad0c-e2361683ec3d")
+		(property "Sheetname" "Power"
+			(at 228.6 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 228.6 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "-5V_PreAmp" output
+			(at 228.6 48.26 180)
+			(uuid "dc690e46-e6bd-4fba-8fa6-384e6c767c3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "-15V" output
+			(at 228.6 53.34 180)
+			(uuid "60deb681-6682-4514-ad4a-296922542277")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3.3V_Converter" output
+			(at 264.16 38.1 0)
+			(uuid "840f500f-67ce-4ecf-9820-c7a636525f38")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5V_Converter" output
+			(at 264.16 43.18 0)
+			(uuid "7389eb02-8497-45e8-bb67-4b4520e4645e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5V_PreAmp" output
+			(at 264.16 48.26 0)
+			(uuid "f6fbbf3f-67b5-42b6-abcf-4ad85917bc2a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "15V" output
+			(at 264.16 53.34 0)
+			(uuid "9adf0bb2-09fc-4f75-99bf-a04442854716")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "TransimpedanceAmplifier"
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 45.72 109.22)
 		(size 33.02 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -815,7 +1184,7 @@
 		)
 		(uuid "dc71cb80-a5fe-4d35-8e0a-2347d37b6518")
 		(property "Sheetname" "DUT"
-			(at 81.28 108.5084 0)
+			(at 45.72 108.5084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -824,12 +1193,32 @@
 			)
 		)
 		(property "Sheetfile" "DUT.kicad_sch"
-			(at 81.28 135.2046 0)
+			(at 45.72 135.2046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "Input" input
+			(at 45.72 121.92 180)
+			(uuid "c0ce1109-1783-41eb-8e66-0689983e700b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Output" output
+			(at 78.74 121.92 0)
+			(uuid "d0481d9f-565a-4b74-b08e-5f45294f4c6c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -841,8 +1230,8 @@
 		)
 	)
 	(sheet
-		(at 139.7 88.9)
-		(size 35.56 25.4)
+		(at 104.14 83.82)
+		(size 40.64 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -857,7 +1246,7 @@
 		)
 		(uuid "f970a304-10fa-492d-98c3-214694e65338")
 		(property "Sheetname" "TIA_OneStage"
-			(at 139.7 88.1884 0)
+			(at 104.14 83.1084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -866,12 +1255,52 @@
 			)
 		)
 		(property "Sheetfile" "TIA_OneStage.kicad_sch"
-			(at 139.7 114.8846 0)
+			(at 104.14 109.8046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "-15V" input
+			(at 139.7 109.22 270)
+			(uuid "d1885e3a-4fe9-4c35-8309-975a73e09951")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "15V" input
+			(at 139.7 83.82 90)
+			(uuid "f98bc0bb-3972-42d1-a989-b09fa7039897")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Input" input
+			(at 104.14 96.52 180)
+			(uuid "e4955048-190b-422a-9f26-f764fd931269")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Output" output
+			(at 144.78 96.52 0)
+			(uuid "7c3ec1fa-ab20-4b31-b948-e6717bf902d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

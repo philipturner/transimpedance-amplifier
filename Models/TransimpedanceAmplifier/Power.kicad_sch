@@ -309,9 +309,14 @@
 			)
 		)
 		(instances
+			(project ""
+				(path "/d0ece2d4-5b22-4822-ad0c-e2361683ec3d"
+					(page "")
+				)
+			)
 			(project "TransimpedanceAmplifier"
-				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/68e8bf39-bd36-49ed-a85c-9ce753018063"
-					(page "12")
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/d0ece2d4-5b22-4822-ad0c-e2361683ec3d"
+					(page "10")
 				)
 			)
 		)
@@ -350,10 +355,45 @@
 				(justify left top)
 			)
 		)
+		(pin "3.3V" output
+			(at 203.2 147.32 0)
+			(uuid "95ee8526-edba-4988-9335-265bd28a055b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5V" output
+			(at 203.2 132.08 0)
+			(uuid "e2d34c8e-9d1b-4cdf-91bd-5f5e3265255d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "18V" input
+			(at 152.4 132.08 180)
+			(uuid "1e1f2413-84e0-496f-8b35-0fa3053e9ec3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
+			(project ""
+				(path "/d0ece2d4-5b22-4822-ad0c-e2361683ec3d"
+					(page "")
+				)
+			)
 			(project "TransimpedanceAmplifier"
-				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/68e8bf39-bd36-49ed-a85c-9ce753018063"
-					(page "16")
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/d0ece2d4-5b22-4822-ad0c-e2361683ec3d"
+					(page "11")
 				)
 			)
 		)
@@ -423,9 +463,14 @@
 			)
 		)
 		(instances
+			(project ""
+				(path "/d0ece2d4-5b22-4822-ad0c-e2361683ec3d"
+					(page "")
+				)
+			)
 			(project "TransimpedanceAmplifier"
-				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/68e8bf39-bd36-49ed-a85c-9ce753018063"
-					(page "14")
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/d0ece2d4-5b22-4822-ad0c-e2361683ec3d"
+					(page "3")
 				)
 			)
 		)
@@ -464,10 +509,55 @@
 				(justify left top)
 			)
 		)
+		(pin "-5V" output
+			(at 203.2 45.72 0)
+			(uuid "3858266d-0bdc-4add-aa11-01aeb64f05c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "-15V" input
+			(at 152.4 45.72 180)
+			(uuid "64afa6c8-2c31-4595-891b-2912bab2e205")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5V" output
+			(at 203.2 30.48 0)
+			(uuid "c8ff13cd-4dc7-4d79-9dd3-18bb7eb8e963")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "15V" input
+			(at 152.4 30.48 180)
+			(uuid "ee650b33-c8b8-4184-ad05-68518fc411f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
+			(project ""
+				(path "/d0ece2d4-5b22-4822-ad0c-e2361683ec3d"
+					(page "")
+				)
+			)
 			(project "TransimpedanceAmplifier"
-				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/68e8bf39-bd36-49ed-a85c-9ce753018063"
-					(page "15")
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/d0ece2d4-5b22-4822-ad0c-e2361683ec3d"
+					(page "4")
 				)
 			)
 		)

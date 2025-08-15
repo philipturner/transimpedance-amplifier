@@ -606,6 +606,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "TODO: Top priority to investigate next\nResolve the 5 unknown variables of\noptimal part values"
+		(exclude_from_sim no)
+		(at 83.312 21.844 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "042367d4-8700-4610-bbac-c0228b265b74")
+	)
 	(text "Noninverting Gain Stage\n\nPhase Shift: 0°\n\nGain:\n16.0 (-10 V < output < 10 V)\n2.0 (outside ±10 V range)"
 		(exclude_from_sim no)
 		(at 135.128 93.218 0)
