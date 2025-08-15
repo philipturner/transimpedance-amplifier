@@ -5,6 +5,145 @@
 	(uuid "c5638483-1b82-4a7f-8206-b48acd4eaded")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "ISO7641FM:ISO7641FMDW"
 			(pin_names
 				(offset 0.254)
@@ -424,29 +563,857 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Specific chips and power requirements for\nthe isolators are not specified yet. Current\ndemands are likely 5-10 mA per SPI port."
+	(rectangle
+		(start 50.8 22.86)
+		(end 147.32 144.78)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 481ebfe4-2d79-4792-867b-1de957a395aa)
+	)
+	(rectangle
+		(start 157.48 22.86)
+		(end 254 144.78)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5282dc8c-9c29-429f-9d06-0136e126063d)
+	)
+	(text "Analog"
 		(exclude_from_sim no)
-		(at 102.108 39.116 0)
+		(at 157.988 20.828 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "5022376f-f585-4ff5-bbc9-a08c89073c3e")
+		(uuid "239158d9-337c-40d7-985e-7b705f36fb84")
+	)
+	(text "Specifications from table instead of graph:\n\n0 Mbps rate condition:\nI_CC1 = 2.0-3.0 mA\nI_CC2 = 3.3-5.0 mA\n\n25 Mbps rate condition:\nI_CC1 = 3.4-4.5 mA\nI_CC2 = 6.1-7.6 mA\n\n50 Mbps rate condition (extrapolation):\nI_CC1 = 4.8-6.1 mA\nI_CC2 = 8.8-10.8 mA"
+		(exclude_from_sim no)
+		(at 103.124 158.496 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "951b34b7-b0cc-4151-8b01-6a2305440b72")
+	)
+	(text "TODO: Reorder SPI pins based on which\narrangement best suits the physical\nlayout of the receiving chip's pins"
+		(exclude_from_sim no)
+		(at 207.01 55.626 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a665662a-1e4c-43b6-8ee6-44dd23872d1f")
+	)
+	(text "Digital"
+		(exclude_from_sim no)
+		(at 50.8 20.574 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b4c1bf3c-54aa-4855-9d51-c637dabdcb2d")
+	)
+	(text "Current demands for ISO7641FM @ 3.3 V\n\n0 Mbps rate condition:\nI_CC1 = 2.0 mA\nI_CC2 = 3.6 mA\n\n25 Mbps rate condition:\nI_CC1 = 3.6 mA\nI_CC2 = 6.0 mA\n\n50 Mbps rate condition:\nI_CC1 = 4.8 mA\nI_CC2 = 8.8 mA"
+		(exclude_from_sim no)
+		(at 52.324 158.496 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "b8c99a07-04e1-4d01-bae4-9a61470b6d1d")
+	)
+	(junction
+		(at 116.84 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46d11ba5-5a05-4bda-8704-ab37fcbd1287")
+	)
+	(junction
+		(at 187.96 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4eabe89b-f395-4afd-a795-defee39bb576")
+	)
+	(junction
+		(at 116.84 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76a886ef-902f-44bc-a80a-7ccc27a7bb90")
+	)
+	(junction
+		(at 187.96 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9832c58d-307d-49da-9d14-1867c7284e0c")
+	)
+	(wire
+		(pts
+			(xy 111.76 27.94) (xy 116.84 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eb0193f-3794-4dcc-95c8-e94ca03f8d35")
+	)
+	(wire
+		(pts
+			(xy 187.96 33.02) (xy 187.96 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f62fefc-3aa8-427b-9f0a-319ea5d207b2")
+	)
+	(wire
+		(pts
+			(xy 187.96 101.6) (xy 187.96 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3641262d-8fb7-48f5-ae1e-e04e1cae0b38")
+	)
+	(wire
+		(pts
+			(xy 187.96 45.72) (xy 193.04 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "437fa97a-0a00-4914-b2c3-1cac674811dc")
+	)
+	(wire
+		(pts
+			(xy 187.96 40.64) (xy 187.96 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43abc978-e0a7-4b28-87c4-98cc507ffaac")
+	)
+	(wire
+		(pts
+			(xy 116.84 106.68) (xy 121.92 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4772b63c-bec0-428b-a714-361196ec55fb")
+	)
+	(wire
+		(pts
+			(xy 182.88 106.68) (xy 187.96 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63e3193d-945f-4782-b579-1634213cb139")
+	)
+	(wire
+		(pts
+			(xy 187.96 106.68) (xy 193.04 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70f70517-7cd0-4ca0-8a28-15266d5e6d4a")
+	)
+	(wire
+		(pts
+			(xy 116.84 45.72) (xy 121.92 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79d0fb5f-f28d-4c6f-9b4c-b3c8ac13607e")
+	)
+	(wire
+		(pts
+			(xy 182.88 45.72) (xy 187.96 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d6f9f60-4d62-4234-ab20-9daf62c83787")
+	)
+	(wire
+		(pts
+			(xy 111.76 45.72) (xy 116.84 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84adf2c0-9d8b-4c39-be5e-c4c730b564ef")
+	)
+	(wire
+		(pts
+			(xy 116.84 40.64) (xy 116.84 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2819922-9dab-40db-a73e-4f3635ae5bd4")
+	)
+	(wire
+		(pts
+			(xy 116.84 101.6) (xy 116.84 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a55460f8-23c7-45c2-bcc4-71679d9b5025")
+	)
+	(wire
+		(pts
+			(xy 116.84 93.98) (xy 116.84 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc7217e6-1826-4421-8b55-6b1f4e490dd1")
+	)
+	(wire
+		(pts
+			(xy 111.76 106.68) (xy 116.84 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be373431-cb93-4e09-b4a2-bd12958394f0")
+	)
+	(wire
+		(pts
+			(xy 187.96 88.9) (xy 193.04 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d47efce9-6fcd-43bf-a8bd-01b2a905ceb7")
+	)
+	(wire
+		(pts
+			(xy 187.96 93.98) (xy 187.96 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1f3c2b6-0991-4a5e-9d10-22e17e5f8d1c")
+	)
+	(wire
+		(pts
+			(xy 187.96 27.94) (xy 193.04 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3d1be9d-4edb-494f-b7e6-c62a29bfee9c")
+	)
+	(wire
+		(pts
+			(xy 116.84 33.02) (xy 116.84 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f267d3aa-5069-4f14-8326-043c78f674d3")
+	)
+	(wire
+		(pts
+			(xy 111.76 88.9) (xy 116.84 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbee0e6f-1f99-41c0-ab15-6b2d101ab39c")
+	)
+	(hierarchical_label "CS_DAC_Analog"
+		(shape output)
+		(at 182.88 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "02f32a01-12a1-406d-8d21-363b9c205117")
+	)
+	(hierarchical_label "MISO_ADC_Analog"
+		(shape input)
+		(at 182.88 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "036939e0-0678-4a4a-b9ee-226dc9d85c2f")
+	)
+	(hierarchical_label "GND_Analog"
+		(shape bidirectional)
+		(at 182.88 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "03f4b0b3-7421-4fd3-9aa8-6d8bfca2a646")
+	)
+	(hierarchical_label "MISO_Digital"
+		(shape output)
+		(at 121.92 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0d241a07-983a-40f7-94e9-62e35df2d5c6")
+	)
+	(hierarchical_label "GND_Analog"
+		(shape bidirectional)
+		(at 193.04 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0eebe60b-8d03-4a46-913b-b6f75bdb825a")
+	)
+	(hierarchical_label "GND_Digital"
+		(shape bidirectional)
+		(at 111.76 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1f1f563e-5a5d-48e2-a028-b991f1d58634")
+	)
+	(hierarchical_label "SCK_Digital"
+		(shape input)
+		(at 121.92 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2280924f-253b-4242-86a4-dc3db6126f06")
+	)
+	(hierarchical_label "MISO_DAC_Analog"
+		(shape input)
+		(at 182.88 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "25dccde0-bd27-4ed6-913c-c514d6508391")
+	)
+	(hierarchical_label "3.3V_Analog"
+		(shape input)
+		(at 182.88 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "280eeeaa-81f1-4562-ae00-73d054b21cfa")
+	)
+	(hierarchical_label "GND_Analog"
+		(shape bidirectional)
+		(at 193.04 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3f34afd7-cfad-4d68-8175-8d9c3dd8cb79")
+	)
+	(hierarchical_label "CS_ADC_Analog"
+		(shape output)
+		(at 182.88 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "417ab9e4-1ffe-4bf4-b62b-578b61b69804")
+	)
+	(hierarchical_label "3.3V_Analog"
+		(shape input)
+		(at 182.88 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "52ec4e9f-739e-43e4-a27c-b715af486db3")
+	)
+	(hierarchical_label "MOSI_ADC_Analog"
+		(shape output)
+		(at 182.88 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "53f1b9bb-49a2-41d9-a6e4-90d3979211dc")
+	)
+	(hierarchical_label "MOSI_DAC_Analog"
+		(shape output)
+		(at 182.88 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5447d3ac-b307-4b54-8ccd-6bcf2ae51c91")
+	)
+	(hierarchical_label "3.3V_Analog"
+		(shape input)
+		(at 193.04 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5ab3de21-00bd-4431-aa0d-e4bbe54f1492")
+	)
+	(hierarchical_label "MISO_Digital"
+		(shape output)
+		(at 121.92 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5e6070be-c540-429f-8499-9555de224e19")
+	)
+	(hierarchical_label "GND_Digital"
+		(shape bidirectional)
+		(at 121.92 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5e6d6223-d378-492a-ae1f-7a95a8b841d3")
+	)
+	(hierarchical_label "CS_ADC_Digital"
+		(shape input)
+		(at 121.92 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6c535a18-ac81-42a2-843f-3fbca26f2a9f")
+	)
+	(hierarchical_label "3.3V_Digital"
+		(shape input)
+		(at 111.76 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "93904e87-b61e-4779-953d-4fe6c01dbbea")
+	)
+	(hierarchical_label "3.3V_Digital"
+		(shape input)
+		(at 121.92 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "99e552ef-5200-46ce-82a1-5f769804a399")
+	)
+	(hierarchical_label "MOSI_Digital"
+		(shape input)
+		(at 121.92 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9ad92f91-c104-4289-bc91-d78d2a7d5f7e")
+	)
+	(hierarchical_label "3.3V_Digital"
+		(shape input)
+		(at 121.92 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bf7fee64-318b-4ba1-af8c-555506e391b7")
+	)
+	(hierarchical_label "SCK_Digital"
+		(shape input)
+		(at 121.92 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ccdf5883-af0c-483a-a7a7-e1403033f55e")
+	)
+	(hierarchical_label "SCK_ADC_Analog"
+		(shape output)
+		(at 182.88 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ce71b9da-cff5-4bf7-9f9e-d2750bed7d06")
+	)
+	(hierarchical_label "3.3V_Analog"
+		(shape input)
+		(at 193.04 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e0a99ab9-7acf-4fb9-a7dd-4265786680e2")
+	)
+	(hierarchical_label "GND_Digital"
+		(shape bidirectional)
+		(at 121.92 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e0c5a6d3-8849-4a40-b0d3-89a8cbc1825c")
+	)
+	(hierarchical_label "CS_DAC_Digital"
+		(shape input)
+		(at 121.92 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e8570d11-6143-4214-8334-df4b08942bbe")
+	)
+	(hierarchical_label "SCK_DAC_Analog"
+		(shape output)
+		(at 182.88 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ea9e0776-665a-467f-b142-32df01eb40a6")
+	)
+	(hierarchical_label "3.3V_Digital"
+		(shape input)
+		(at 111.76 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ed95e4c8-626e-4b04-bfd4-3fb4ef642189")
+	)
+	(hierarchical_label "GND_Digital"
+		(shape bidirectional)
+		(at 121.92 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f1064ea1-6136-45a7-8d6f-dddb67b3f484")
+	)
+	(hierarchical_label "GND_Analog"
+		(shape bidirectional)
+		(at 182.88 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f1b4aba2-b166-4d72-9126-4a6b7afc6728")
+	)
+	(hierarchical_label "GND_Analog"
+		(shape bidirectional)
+		(at 182.88 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f269d80f-6626-4b90-bf70-cbcc2ab84734")
+	)
+	(hierarchical_label "MOSI_Digital"
+		(shape input)
+		(at 121.92 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f290d081-b492-4f4f-9f85-78fb46140141")
+	)
+	(hierarchical_label "GND_Digital"
+		(shape bidirectional)
+		(at 111.76 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f2b76370-4ac2-4176-ae8d-306eeb21800d")
+	)
+	(hierarchical_label "GND_Analog"
+		(shape bidirectional)
+		(at 182.88 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f56de5bb-2e2d-4e30-8df4-4d4ba94479c9")
+	)
+	(hierarchical_label "GND_Digital"
+		(shape bidirectional)
+		(at 121.92 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ff046ad0-a3ed-49d4-850d-91ea65a55a49")
 	)
 	(symbol
-		(lib_id "ISO7641FM:ISO7641FMDW")
-		(at 93.98 81.28 0)
+		(lib_id "Device:C")
+		(at 116.84 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c50c0444-603c-4062-b849-1ed6a7466668")
-		(property "Reference" "U1"
-			(at 124.46 71.12 0)
+		(uuid "0e26b9cc-71d1-444e-832d-2af2b09be4e4")
+		(property "Reference" "C14"
+			(at 120.65 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100 nF"
+			(at 120.65 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 117.8052 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 116.84 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04d2fd60-a0fb-4b69-bc3f-b14d856cc3c9")
+		)
+		(pin "2"
+			(uuid "939ae433-089d-4d07-b440-36955e902b8d")
+		)
+		(instances
+			(project "TransimpedanceAmplifier"
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/7e303428-a18c-4ad4-b002-5ab9c6631588/e0dacc02-a437-4540-b76e-19ca4ea6e74c"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 187.96 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54c0d6f9-e4e1-4157-8072-b4ec5638d6f5")
+		(property "Reference" "C11"
+			(at 191.77 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100 nF"
+			(at 191.77 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 188.9252 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 187.96 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5e7e104-846b-4364-b970-54915bef52bc")
+		)
+		(pin "2"
+			(uuid "6fd8013e-1bb7-4cb5-ab1b-cd02bec8f6de")
+		)
+		(instances
+			(project ""
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/7e303428-a18c-4ad4-b002-5ab9c6631588/e0dacc02-a437-4540-b76e-19ca4ea6e74c"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ISO7641FM:ISO7641FMDW")
+		(at 121.92 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "666d8d90-1598-46eb-8959-c4662788b2b7")
+		(property "Reference" "U14"
+			(at 152.4 96.52 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -454,7 +1421,7 @@
 			)
 		)
 		(property "Value" "ISO7641FMDW"
-			(at 124.46 73.66 0)
+			(at 152.4 99.06 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -462,7 +1429,7 @@
 			)
 		)
 		(property "Footprint" "DW16"
-			(at 93.98 81.28 0)
+			(at 121.92 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -472,7 +1439,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/iso7641fm"
-			(at 93.98 81.28 0)
+			(at 121.92 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -482,7 +1449,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 93.98 81.28 0)
+			(at 121.92 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -491,7 +1458,268 @@
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/texas-instruments/ISO7641FMDWR/2799299"
-			(at 93.98 81.28 0)
+			(at 121.92 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "474c885a-4094-4e8b-9c8e-5466fff7e5dc")
+		)
+		(pin "2"
+			(uuid "747a775f-9590-4c98-bc2c-91eda52c4685")
+		)
+		(pin "3"
+			(uuid "8f4b0b6a-11e0-42b8-90f3-5a51c9286a49")
+		)
+		(pin "4"
+			(uuid "f4b12ca9-51f0-482b-a212-8ced653b760f")
+		)
+		(pin "5"
+			(uuid "09ccde2e-0553-463d-95dc-080096564980")
+		)
+		(pin "6"
+			(uuid "733d46e8-0878-407e-a58f-7ec728c8ee30")
+		)
+		(pin "7"
+			(uuid "c82a6647-f278-4ea5-93d3-080f570bff75")
+		)
+		(pin "10"
+			(uuid "f5eb5d34-250d-4b0a-bb18-8bc0a5524f63")
+		)
+		(pin "9"
+			(uuid "63ee6586-76b0-43c6-b957-8ee40e48a437")
+		)
+		(pin "14"
+			(uuid "ed4b9bf1-46b8-461d-93c2-6e05519fa079")
+		)
+		(pin "13"
+			(uuid "e5687c00-3877-4927-ac1a-6d226533967e")
+		)
+		(pin "12"
+			(uuid "3804c941-a9d1-434f-9712-d5a74379af5c")
+		)
+		(pin "11"
+			(uuid "b9d6acd5-5a1f-4a11-a081-9fed25feff75")
+		)
+		(pin "8"
+			(uuid "e151f5b1-030e-4d74-aaee-d0c30270d0e0")
+		)
+		(pin "16"
+			(uuid "c234ad63-3edb-4e33-8aa3-a4f97317679f")
+		)
+		(pin "15"
+			(uuid "765e8690-8f1f-47c7-9748-d613338f014a")
+		)
+		(instances
+			(project "TransimpedanceAmplifier"
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/7e303428-a18c-4ad4-b002-5ab9c6631588/e0dacc02-a437-4540-b76e-19ca4ea6e74c"
+					(reference "U14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 187.96 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a42a4219-6861-4c4b-ad98-db6520f9d53c")
+		(property "Reference" "C12"
+			(at 191.77 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100 nF"
+			(at 191.77 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 188.9252 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 187.96 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f7c00eab-a49d-4f01-aa20-d2fb10c22abd")
+		)
+		(pin "1"
+			(uuid "c41f7e83-1131-4ec2-8a37-34ecef34e9ea")
+		)
+		(instances
+			(project ""
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/7e303428-a18c-4ad4-b002-5ab9c6631588/e0dacc02-a437-4540-b76e-19ca4ea6e74c"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 116.84 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac2f1720-440b-4c49-b36e-d01bcc769b4a")
+		(property "Reference" "C13"
+			(at 120.65 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100 nF"
+			(at 120.65 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 117.8052 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 116.84 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea113a6b-3f4a-49cc-a721-98fb94051af5")
+		)
+		(pin "2"
+			(uuid "33eab68e-924d-4b26-8682-a4ebc6a92a63")
+		)
+		(instances
+			(project "TransimpedanceAmplifier"
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/7e303428-a18c-4ad4-b002-5ab9c6631588/e0dacc02-a437-4540-b76e-19ca4ea6e74c"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ISO7641FM:ISO7641FMDW")
+		(at 121.92 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c50c0444-603c-4062-b849-1ed6a7466668")
+		(property "Reference" "U1"
+			(at 152.4 35.56 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "ISO7641FMDW"
+			(at 152.4 38.1 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "DW16"
+			(at 121.92 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/iso7641fm"
+			(at 121.92 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/texas-instruments/ISO7641FMDWR/2799299"
+			(at 121.92 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)

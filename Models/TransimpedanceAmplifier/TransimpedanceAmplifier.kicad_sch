@@ -5,8 +5,19 @@
 	(uuid "ec9f2ae3-e40d-40eb-9760-2b611ee8efd1")
 	(paper "A4")
 	(lib_symbols)
+	(text "Mechanical switch to choose which TIA the current goes to\nand/or which TIA output voltage is read by the ADC.\nUnknown how this would be implemented (perhaps swapping\nout entire circuit boards?)\n\nAbstract away the DUT + TIA1 + TIA2 into a hierarchical\nsheet that just accepts input and output voltage."
+		(exclude_from_sim no)
+		(at 110.49 170.434 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3a9de35e-4e21-4e75-8395-f47688751819")
+	)
 	(sheet
-		(at 233.68 60.96)
+		(at 139.7 128.27)
 		(size 35.56 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +33,7 @@
 		)
 		(uuid "226b3d0c-9e45-4bcf-9bef-58938aee743e")
 		(property "Sheetname" "TIA_TwoStage"
-			(at 233.68 60.2484 0)
+			(at 139.7 127.5584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +42,7 @@
 			)
 		)
 		(property "Sheetfile" "TIA_TwoStage.kicad_sch"
-			(at 233.68 86.9446 0)
+			(at 139.7 154.2546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48,7 +59,7 @@
 		)
 	)
 	(sheet
-		(at 27.94 60.96)
+		(at 187.96 106.68)
 		(size 33.02 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -64,7 +75,7 @@
 		)
 		(uuid "49c90445-9dec-4844-815f-c72a1415129d")
 		(property "Sheetname" "ADC"
-			(at 27.94 60.2484 0)
+			(at 187.96 105.9684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,7 +84,7 @@
 			)
 		)
 		(property "Sheetfile" "ADC.kicad_sch"
-			(at 27.94 86.9446 0)
+			(at 187.96 132.6646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -90,7 +101,7 @@
 		)
 	)
 	(sheet
-		(at 27.94 25.4)
+		(at 55.88 109.22)
 		(size 33.02 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -106,7 +117,7 @@
 		)
 		(uuid "5646f584-34a2-41de-a9b6-e726812feaed")
 		(property "Sheetname" "DAC"
-			(at 27.94 24.6884 0)
+			(at 55.88 108.5084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -115,7 +126,7 @@
 			)
 		)
 		(property "Sheetfile" "DAC.kicad_sch"
-			(at 27.94 51.3846 0)
+			(at 55.88 135.2046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -132,7 +143,7 @@
 		)
 	)
 	(sheet
-		(at 27.94 96.52)
+		(at 151.13 31.75)
 		(size 33.02 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -148,7 +159,7 @@
 		)
 		(uuid "68e8bf39-bd36-49ed-a85c-9ce753018063")
 		(property "Sheetname" "Power"
-			(at 27.94 95.8084 0)
+			(at 151.13 31.0384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -157,7 +168,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 27.94 122.5046 0)
+			(at 151.13 57.7346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -174,7 +185,7 @@
 		)
 	)
 	(sheet
-		(at 233.68 93.98)
+		(at 95.25 31.75)
 		(size 35.56 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -190,7 +201,7 @@
 		)
 		(uuid "7e303428-a18c-4ad4-b002-5ab9c6631588")
 		(property "Sheetname" "CPU"
-			(at 233.68 93.2684 0)
+			(at 95.25 31.0384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -199,7 +210,7 @@
 			)
 		)
 		(property "Sheetfile" "CPU.kicad_sch"
-			(at 233.68 119.9646 0)
+			(at 95.25 57.7346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -216,7 +227,7 @@
 		)
 	)
 	(sheet
-		(at 27.94 132.08)
+		(at 97.79 109.22)
 		(size 33.02 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -232,7 +243,7 @@
 		)
 		(uuid "dc71cb80-a5fe-4d35-8e0a-2347d37b6518")
 		(property "Sheetname" "DUT"
-			(at 27.94 131.3684 0)
+			(at 97.79 108.5084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -241,7 +252,7 @@
 			)
 		)
 		(property "Sheetfile" "DUT.kicad_sch"
-			(at 27.94 158.0646 0)
+			(at 97.79 135.2046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -258,7 +269,7 @@
 		)
 	)
 	(sheet
-		(at 233.68 25.4)
+		(at 139.7 88.9)
 		(size 35.56 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -274,7 +285,7 @@
 		)
 		(uuid "f970a304-10fa-492d-98c3-214694e65338")
 		(property "Sheetname" "TIA_OneStage"
-			(at 233.68 24.6884 0)
+			(at 139.7 88.1884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -283,7 +294,7 @@
 			)
 		)
 		(property "Sheetfile" "TIA_OneStage.kicad_sch"
-			(at 233.68 51.3846 0)
+			(at 139.7 114.8846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
