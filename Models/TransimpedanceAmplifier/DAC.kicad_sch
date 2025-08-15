@@ -811,7 +811,7 @@
 		)
 		(instances
 			(project ""
-				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/5646f584-34a2-41de-a9b6-e726812feaed"
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/7e303428-a18c-4ad4-b002-5ab9c6631588/77c98efe-b6d0-43b4-bfa9-b392bfbf9a85"
 					(reference "#PWR07")
 					(unit 1)
 				)
@@ -877,7 +877,7 @@
 		)
 		(instances
 			(project ""
-				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/5646f584-34a2-41de-a9b6-e726812feaed"
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/7e303428-a18c-4ad4-b002-5ab9c6631588/77c98efe-b6d0-43b4-bfa9-b392bfbf9a85"
 					(reference "#PWR08")
 					(unit 1)
 				)
@@ -1001,7 +1001,7 @@
 		)
 		(instances
 			(project ""
-				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/5646f584-34a2-41de-a9b6-e726812feaed"
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/7e303428-a18c-4ad4-b002-5ab9c6631588/77c98efe-b6d0-43b4-bfa9-b392bfbf9a85"
 					(reference "U2")
 					(unit 1)
 				)

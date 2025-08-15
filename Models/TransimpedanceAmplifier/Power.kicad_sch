@@ -235,160 +235,6 @@
 		(uuid "a8ba4b1f-13bd-41c0-a47a-1a78d2cd28af")
 	)
 	(sheet
-		(at 152.4 25.4)
-		(size 50.8 25.4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "1337611b-521e-41f6-8f90-6ccd39eab2ab")
-		(property "Sheetname" "PreAmp_LowVoltage"
-			(at 152.4 24.6884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "PreAmp_LowVoltage.kicad_sch"
-			(at 152.4 51.3846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "-5V" output
-			(at 203.2 45.72 0)
-			(uuid "6fb6f7c0-0e38-4c5e-9e8f-f1f887f1fc9c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "-15V" input
-			(at 152.4 45.72 180)
-			(uuid "46349a3c-f573-45cc-ac74-4ed6b040735d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "5V" output
-			(at 203.2 30.48 0)
-			(uuid "8705b7f8-a6a4-4979-b24c-fe50f95c0832")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "15V" input
-			(at 152.4 30.48 180)
-			(uuid "24cf1292-00dc-47bf-b348-96208a9a8d4a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "TransimpedanceAmplifier"
-				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/68e8bf39-bd36-49ed-a85c-9ce753018063"
-					(page "11")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 152.4 127)
-		(size 50.8 25.4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "1d52c1f9-c36f-44d3-8e04-a84f233fb023")
-		(property "Sheetname" "Converter_LowVoltage"
-			(at 152.4 126.2884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Converter_LowVoltage.kicad_sch"
-			(at 152.4 152.9846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "3.3V" output
-			(at 203.2 147.32 0)
-			(uuid "f646d604-707f-4856-a7c0-ffea3e17fb9c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "5V" output
-			(at 203.2 132.08 0)
-			(uuid "e68fa43c-bb81-4b9a-a8b9-378c597decbe")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "18V" input
-			(at 152.4 132.08 180)
-			(uuid "7ca51892-8764-4f73-8930-a8e7d5ac18ad")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "TransimpedanceAmplifier"
-				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/68e8bf39-bd36-49ed-a85c-9ce753018063"
-					(page "13")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 152.4 76.2)
 		(size 50.8 25.4)
 		(exclude_from_sim no)
@@ -471,6 +317,48 @@
 		)
 	)
 	(sheet
+		(at 152.4 127)
+		(size 50.8 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8db21157-4c7b-40b0-8814-5c9be8b7a36f")
+		(property "Sheetname" "LowVoltage_Converter"
+			(at 152.4 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LowVoltage_Converter.kicad_sch"
+			(at 152.4 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TransimpedanceAmplifier"
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/68e8bf39-bd36-49ed-a85c-9ce753018063"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 50.8 76.2)
 		(size 50.8 25.4)
 		(exclude_from_sim no)
@@ -538,6 +426,48 @@
 			(project "TransimpedanceAmplifier"
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/68e8bf39-bd36-49ed-a85c-9ce753018063"
 					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 25.4)
+		(size 50.8 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ddbdd109-856f-45b9-b116-121e4fcc3b3f")
+		(property "Sheetname" "LowVoltage_PreAmp"
+			(at 152.4 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LowVoltage_PreAmp.kicad_sch"
+			(at 152.4 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TransimpedanceAmplifier"
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/68e8bf39-bd36-49ed-a85c-9ce753018063"
+					(page "15")
 				)
 			)
 		)
