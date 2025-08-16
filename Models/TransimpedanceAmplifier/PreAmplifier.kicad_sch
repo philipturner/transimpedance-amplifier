@@ -1180,7 +1180,7 @@
 	)
 	(rectangle
 		(start 205.74 33.02)
-		(end 241.3 132.08)
+		(end 243.84 132.08)
 		(stroke
 			(width 0)
 			(type default)
@@ -1854,7 +1854,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1k, 10%"
 			(at 233.68 53.3399 0)
 			(effects
 				(font

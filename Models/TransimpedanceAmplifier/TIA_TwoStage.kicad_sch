@@ -606,20 +606,20 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "TODO: Top priority to investigate next\nResolve the 5 unknown variables of\noptimal part values"
+	(text "Conservative constraint for loop stability\n5.1 kHz << f_bandwidth < 61 kHz\n1304 Ω < R_bandwidth << 15.6 kΩ\n\nAchievable resistance range\nLower bound of uncertainty: 1337 Ω - 10.3 kΩ\nUpper bound of uncertainty: 1423 Ω - 12.3 kΩ"
 		(exclude_from_sim no)
-		(at 83.312 21.844 0)
+		(at 125.984 63.246 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left top)
 		)
-		(uuid "042367d4-8700-4610-bbac-c0228b265b74")
+		(uuid "54e9c996-4e45-4dff-9e2d-0a5bfef59887")
 	)
 	(text "Noninverting Gain Stage\n\nPhase Shift: 0°\n\nGain:\n16.0 (-10 V < output < 10 V)\n2.0 (outside ±10 V range)"
 		(exclude_from_sim no)
-		(at 135.128 93.218 0)
+		(at 127.508 116.078 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -627,6 +627,17 @@
 			(justify left)
 		)
 		(uuid "df15f285-77d9-4513-af03-e63ffafcf993")
+	)
+	(text "Tunability of R_bandwidth to one simulated optimal resistance\n0.05% (A_R of trimpot)\n0.07% (upper bound of uncertainty for optimal R)\n0.22% (lower bound of uncertainty for optimal R)"
+		(exclude_from_sim no)
+		(at 120.904 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "ee059450-f0e1-442e-b4c5-059c52cb1799")
 	)
 	(junction
 		(at 93.98 40.64)
@@ -641,28 +652,16 @@
 		(uuid "5b04b167-8b27-4907-a265-9cb370007b15")
 	)
 	(junction
-		(at 185.42 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6ad3690c-fef6-4d3c-b17f-659131d30ddb")
-	)
-	(junction
-		(at 53.34 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7c282396-e6dc-4828-9705-381931cfe2f1")
-	)
-	(junction
 		(at 60.96 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "830900f5-f648-4344-ad31-d205cad6ee23")
 	)
 	(junction
-		(at 149.86 40.64)
+		(at 53.34 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9cb4c9a3-5817-4f6a-9f70-b9e958808f76")
+		(uuid "8fa80b5c-a24b-4d47-bf68-8be74b86c04f")
 	)
 	(junction
 		(at 114.3 40.64)
@@ -692,16 +691,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 124.46) (xy 134.62 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c074781-da97-47fb-81c4-e684ea38c81b")
-	)
-	(wire
-		(pts
 			(xy 60.96 48.26) (xy 60.96 40.64)
 		)
 		(stroke
@@ -722,13 +711,23 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 124.46) (xy 53.34 124.46)
+			(xy 101.6 147.32) (xy 127 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "19b69ec1-6b1b-4ed9-93bf-4d155ba84c73")
+		(uuid "2352a158-5ff3-43e1-ae2d-d3e3124920da")
+	)
+	(wire
+		(pts
+			(xy 53.34 40.64) (xy 53.34 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23746d57-2522-4db0-97e5-222a01018256")
 	)
 	(wire
 		(pts
@@ -782,16 +781,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 73.66) (xy 93.98 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b1522df-45e9-4053-8951-ba433886d84b")
-	)
-	(wire
-		(pts
 			(xy 76.2 40.64) (xy 93.98 40.64)
 		)
 		(stroke
@@ -802,23 +791,13 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 139.7) (xy 93.98 144.78)
+			(xy 93.98 162.56) (xy 93.98 167.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "706f1d53-5bec-4857-acce-ab4719321b89")
-	)
-	(wire
-		(pts
-			(xy 53.34 124.46) (xy 60.96 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "707820bc-c0ee-4bd1-a4bf-bf88bc094c92")
 	)
 	(wire
 		(pts
@@ -842,17 +821,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 40.64) (xy 185.42 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "737a3d0f-7f2f-4653-bc6b-280f7a2ab92b")
-	)
-	(wire
-		(pts
-			(xy 149.86 40.64) (xy 149.86 33.02)
+			(xy 149.86 33.02) (xy 149.86 48.26)
 		)
 		(stroke
 			(width 0)
@@ -892,7 +861,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 104.14) (xy 170.18 109.22)
+			(xy 162.56 127) (xy 162.56 132.08)
 		)
 		(stroke
 			(width 0)
@@ -902,13 +871,23 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 139.7) (xy 170.18 144.78)
+			(xy 162.56 162.56) (xy 162.56 167.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a78aada4-9736-451d-9303-23c2f7304240")
+	)
+	(wire
+		(pts
+			(xy 43.18 147.32) (xy 53.34 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7a418f3-8337-4612-b1a0-2098508a18c4")
 	)
 	(wire
 		(pts
@@ -932,27 +911,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 40.64) (xy 185.42 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b00251bc-09c1-4c44-9563-5599dbaa6dca")
-	)
-	(wire
-		(pts
-			(xy 185.42 124.46) (xy 198.12 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b06f8649-6c3b-441b-8df4-09c96528c56c")
-	)
-	(wire
-		(pts
-			(xy 93.98 104.14) (xy 93.98 109.22)
+			(xy 93.98 127) (xy 93.98 132.08)
 		)
 		(stroke
 			(width 0)
@@ -972,23 +931,13 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 40.64) (xy 53.34 124.46)
+			(xy 53.34 147.32) (xy 60.96 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "be5f97f7-39c8-4611-b86a-05e1dbb7543c")
-	)
-	(wire
-		(pts
-			(xy 177.8 124.46) (xy 185.42 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc9ebe04-f1a6-454c-8a4b-4270611870dc")
+		(uuid "cbef2a85-64aa-49bb-8a8d-45bb9c64163c")
 	)
 	(wire
 		(pts
@@ -1000,29 +949,9 @@
 		)
 		(uuid "ebaac13a-bcaf-43b1-8ef9-48fbc55c1dff")
 	)
-	(wire
-		(pts
-			(xy 93.98 60.96) (xy 93.98 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5c4c444-e593-44c3-b8c9-b04c8bf9690c")
-	)
-	(wire
-		(pts
-			(xy 149.86 48.26) (xy 149.86 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe245d58-2ca6-42cc-b8e5-1ab574a1028a")
-	)
 	(hierarchical_label "15V"
 		(shape input)
-		(at 170.18 104.14 90)
+		(at 162.56 127 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1033,7 +962,7 @@
 	)
 	(hierarchical_label "Output"
 		(shape output)
-		(at 198.12 124.46 0)
+		(at 226.06 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1044,7 +973,7 @@
 	)
 	(hierarchical_label "-15V"
 		(shape input)
-		(at 170.18 144.78 270)
+		(at 162.56 167.64 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1055,7 +984,7 @@
 	)
 	(hierarchical_label "5V"
 		(shape input)
-		(at 93.98 104.14 90)
+		(at 93.98 127 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1066,7 +995,7 @@
 	)
 	(hierarchical_label "Input"
 		(shape input)
-		(at 40.64 124.46 180)
+		(at 43.18 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1077,7 +1006,7 @@
 	)
 	(hierarchical_label "-5V"
 		(shape input)
-		(at 93.98 144.78 270)
+		(at 93.98 167.64 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1151,6 +1080,76 @@
 			(project ""
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/226b3d0c-9e45-4bcf-9bef-58938aee743e"
 					(reference "C_main_comp")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 93.98 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67927747-2c78-421a-9bee-946528492cb0")
+		(property "Reference" "R_bandwidth_fixed"
+			(at 96.52 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_US"
+			(at 96.52 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 94.996 70.104 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 93.98 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a303aac3-8a50-41a9-9101-5460f12b48d6")
+		)
+		(pin "2"
+			(uuid "ac0cabb8-0355-4180-ac2d-97be0096c9a6")
+		)
+		(instances
+			(project ""
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/226b3d0c-9e45-4bcf-9bef-58938aee743e"
+					(reference "R_bandwidth_fixed")
 					(unit 1)
 				)
 			)
@@ -1516,7 +1515,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 93.98 78.74 0)
+		(at 93.98 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1525,7 +1524,7 @@
 		(fields_autoplaced yes)
 		(uuid "b8a0835c-23c8-416d-b267-2f3b4c1288f8")
 		(property "Reference" "#PWR06"
-			(at 93.98 85.09 0)
+			(at 93.98 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1534,7 +1533,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 93.98 83.82 0)
+			(at 93.98 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1542,7 +1541,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 78.74 0)
+			(at 93.98 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1551,7 +1550,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 78.74 0)
+			(at 93.98 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1560,7 +1559,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 93.98 78.74 0)
+			(at 93.98 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1582,7 +1581,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Variable_US")
-		(at 93.98 69.85 0)
+		(at 93.98 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1590,8 +1589,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df616a71-d780-4f0d-8ad6-e0f28716e1e6")
-		(property "Reference" "R_bandwidth"
-			(at 97.79 68.5418 0)
+		(property "Reference" "R_bandwidth_trim"
+			(at 97.79 81.2418 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1600,7 +1599,7 @@
 			)
 		)
 		(property "Value" "TBD"
-			(at 97.79 71.0818 0)
+			(at 97.79 83.7818 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1609,7 +1608,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.202 69.85 90)
+			(at 92.202 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1618,7 +1617,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 93.98 69.85 0)
+			(at 93.98 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1627,7 +1626,7 @@
 			)
 		)
 		(property "Description" "Variable resistor, US symbol"
-			(at 93.98 69.85 0)
+			(at 93.98 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1644,14 +1643,14 @@
 		(instances
 			(project "TransimpedanceAmplifier"
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/226b3d0c-9e45-4bcf-9bef-58938aee743e"
-					(reference "R_bandwidth")
+					(reference "R_bandwidth_trim")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
-		(at 134.62 109.22)
+		(at 127 132.08)
 		(size 43.18 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1667,7 +1666,7 @@
 		)
 		(uuid "1a19fcb8-2301-474b-810f-9788696a69a6")
 		(property "Sheetname" "PostAmplifier"
-			(at 134.62 108.5084 0)
+			(at 127 131.3684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1676,7 +1675,7 @@
 			)
 		)
 		(property "Sheetfile" "PostAmplifier.kicad_sch"
-			(at 134.62 140.2846 0)
+			(at 127 163.1446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1685,7 +1684,7 @@
 			)
 		)
 		(pin "-15V" input
-			(at 170.18 139.7 270)
+			(at 162.56 162.56 270)
 			(uuid "f1fc42da-c2f8-4121-8113-b761e8218094")
 			(effects
 				(font
@@ -1695,7 +1694,7 @@
 			)
 		)
 		(pin "15V" input
-			(at 170.18 109.22 90)
+			(at 162.56 132.08 90)
 			(uuid "761081dd-9580-4e9d-b7b8-d9dd49d54891")
 			(effects
 				(font
@@ -1705,7 +1704,7 @@
 			)
 		)
 		(pin "Input" input
-			(at 134.62 124.46 180)
+			(at 127 147.32 180)
 			(uuid "49d2edc9-2b26-4d68-a8a3-984cfe9399c2")
 			(effects
 				(font
@@ -1715,7 +1714,7 @@
 			)
 		)
 		(pin "Output" output
-			(at 177.8 124.46 0)
+			(at 170.18 147.32 0)
 			(uuid "ee777ab7-2234-424d-9572-d1ea475b764c")
 			(effects
 				(font
@@ -1733,7 +1732,7 @@
 		)
 	)
 	(sheet
-		(at 60.96 109.22)
+		(at 60.96 132.08)
 		(size 40.64 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1749,7 +1748,7 @@
 		)
 		(uuid "728283d1-1c30-4fdc-aa4d-bf897972ea87")
 		(property "Sheetname" "PreAmplifier"
-			(at 60.96 108.5084 0)
+			(at 60.96 131.3684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1758,7 +1757,7 @@
 			)
 		)
 		(property "Sheetfile" "PreAmplifier.kicad_sch"
-			(at 60.96 140.2846 0)
+			(at 60.96 163.1446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1767,7 +1766,7 @@
 			)
 		)
 		(pin "-5V" input
-			(at 93.98 139.7 270)
+			(at 93.98 162.56 270)
 			(uuid "402ebe92-4bf3-4b81-8294-1ceecb7ce6b5")
 			(effects
 				(font
@@ -1777,7 +1776,7 @@
 			)
 		)
 		(pin "5V" input
-			(at 93.98 109.22 90)
+			(at 93.98 132.08 90)
 			(uuid "85734ffb-2fad-4e94-b0a2-274274d09f43")
 			(effects
 				(font
@@ -1787,7 +1786,7 @@
 			)
 		)
 		(pin "Input" input
-			(at 60.96 124.46 180)
+			(at 60.96 147.32 180)
 			(uuid "ea752354-f2ef-4163-9c68-6f7dcaec846e")
 			(effects
 				(font
@@ -1797,7 +1796,7 @@
 			)
 		)
 		(pin "Output" output
-			(at 101.6 124.46 0)
+			(at 101.6 147.32 0)
 			(uuid "40a51db8-160d-43db-9a96-7b2abe28b0c4")
 			(effects
 				(font
