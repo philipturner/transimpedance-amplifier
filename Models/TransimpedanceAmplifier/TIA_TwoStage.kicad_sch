@@ -606,7 +606,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Conservative constraint for loop stability\n5.1 kHz << f_bandwidth < 61 kHz\n1304 Ω < R_bandwidth << 15.6 kΩ\n\nAchievable resistance range\nLower bound of uncertainty: 1337 Ω - 10.3 kΩ\nUpper bound of uncertainty: 1423 Ω - 12.3 kΩ"
+	(text "Conservative constraint for loop stability\n5.1 kHz << f_bandwidth < 61 kHz\n1304 Ω < R_bandwidth << 15.6 kΩ\n\nAchievable resistance range\nLower bound of uncertainty: 1377 Ω - 10.3 kΩ\nUpper bound of uncertainty: 1423 Ω - 12.3 kΩ"
 		(exclude_from_sim no)
 		(at 125.984 63.246 0)
 		(effects
@@ -628,9 +628,9 @@
 		)
 		(uuid "df15f285-77d9-4513-af03-e63ffafcf993")
 	)
-	(text "Tunability of R_bandwidth to one simulated optimal resistance\n0.05% (A_R of trimpot)\n0.07% (upper bound of uncertainty for optimal R)\n0.22% (lower bound of uncertainty for optimal R)"
+	(text "Tunability of R_bandwidth to one simulated optimal resistance\n0.05% (A_R of trimpot)\n0.07% (upper bound of uncertainty, R = 6818 Ω)\n0.22% (lower bound of uncertainty, R = 2243 Ω)"
 		(exclude_from_sim no)
-		(at 120.904 83.82 0)
+		(at 125.984 80.772 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -638,6 +638,17 @@
 			(justify left top)
 		)
 		(uuid "ee059450-f0e1-442e-b4c5-059c52cb1799")
+	)
+	(text "R_f C_f Pole\n\n80 fF case: ~6.0 kHz\n150 fF case: ~3.2 kHz\n220 fF case: ~2.2 kHz"
+		(exclude_from_sim no)
+		(at 29.972 25.146 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "f0ab4f1a-055b-42bf-9376-a5dea6e00c0a")
 	)
 	(junction
 		(at 93.98 40.64)
@@ -652,6 +663,12 @@
 		(uuid "5b04b167-8b27-4907-a265-9cb370007b15")
 	)
 	(junction
+		(at 149.86 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66dde47c-78b8-4551-bf35-460ae4d91648")
+	)
+	(junction
 		(at 60.96 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -662,6 +679,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8fa80b5c-a24b-4d47-bf68-8be74b86c04f")
+	)
+	(junction
+		(at 203.2 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c32fe82-16f6-404a-bca0-eed06233c71e")
 	)
 	(junction
 		(at 114.3 40.64)
@@ -781,6 +804,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 86.36) (xy 93.98 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58af1bda-cfbc-4295-8b4d-210d5adfe7f0")
+	)
+	(wire
+		(pts
 			(xy 76.2 40.64) (xy 93.98 40.64)
 		)
 		(stroke
@@ -788,6 +821,16 @@
 			(type default)
 		)
 		(uuid "5f3c9e49-28ef-4301-8281-ac1f61a9c8ed")
+	)
+	(wire
+		(pts
+			(xy 149.86 40.64) (xy 203.2 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f85ec32-b37a-464c-94e2-37ccffdcecec")
 	)
 	(wire
 		(pts
@@ -821,7 +864,17 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 33.02) (xy 149.86 48.26)
+			(xy 170.18 147.32) (xy 203.2 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "898f9fc4-c6e9-443b-8adc-ad6d09d8d882")
+	)
+	(wire
+		(pts
+			(xy 149.86 33.02) (xy 149.86 40.64)
 		)
 		(stroke
 			(width 0)
@@ -931,6 +984,26 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 147.32) (xy 213.36 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c30a99e8-7140-4b23-8dbd-4e6cdb909fc5")
+	)
+	(wire
+		(pts
+			(xy 93.98 60.96) (xy 93.98 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c69c8bae-3828-4e22-8ab0-3e18cef01633")
+	)
+	(wire
+		(pts
 			(xy 53.34 147.32) (xy 60.96 147.32)
 		)
 		(stroke
@@ -941,6 +1014,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 40.64) (xy 149.86 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2fae61b-05c9-4b19-99bf-456f4118ea15")
+	)
+	(wire
+		(pts
 			(xy 60.96 40.64) (xy 53.34 40.64)
 		)
 		(stroke
@@ -948,6 +1031,26 @@
 			(type default)
 		)
 		(uuid "ebaac13a-bcaf-43b1-8ef9-48fbc55c1dff")
+	)
+	(wire
+		(pts
+			(xy 203.2 40.64) (xy 203.2 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f067bc9e-8e9b-436b-b67c-426f4c051e2d")
+	)
+	(wire
+		(pts
+			(xy 93.98 73.66) (xy 93.98 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4f3d319-726d-4a9c-b2cd-379ec90c39fb")
 	)
 	(hierarchical_label "15V"
 		(shape input)
@@ -962,7 +1065,7 @@
 	)
 	(hierarchical_label "Output"
 		(shape output)
-		(at 226.06 147.32 0)
+		(at 213.36 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1034,7 +1137,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "2 nF, 1%"
 			(at 97.79 58.4199 0)
 			(effects
 				(font
@@ -1062,6 +1165,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 93.98 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GCM1885C1H202FA16D/16033535"
 			(at 93.98 57.15 0)
 			(effects
 				(font
@@ -1104,7 +1216,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "1.3k, 1%"
 			(at 96.52 71.1199 0)
 			(effects
 				(font
@@ -1132,6 +1244,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 93.98 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW06031K30FKEA/1174680"
 			(at 93.98 69.85 0)
 			(effects
 				(font
@@ -1173,7 +1294,7 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "50k, 10%"
 			(at 132.0419 27.94 90)
 			(effects
 				(font
@@ -1318,7 +1439,7 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "200k, 10%"
 			(at 123.1519 43.18 90)
 			(effects
 				(font
@@ -1463,7 +1584,7 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "180 pF, 1%"
 			(at 140.97 43.18 90)
 			(effects
 				(font
@@ -1490,6 +1611,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 140.97 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GCM1885C2A181FA16D/7363158"
 			(at 140.97 48.26 0)
 			(effects
 				(font
@@ -1598,7 +1728,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "10k, 10%"
 			(at 97.79 83.7818 0)
 			(effects
 				(font

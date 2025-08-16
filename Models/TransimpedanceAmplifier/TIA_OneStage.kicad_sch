@@ -693,6 +693,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "R_f C_f Pole\n\n80 fF case: ~19.9 kHz\n150 fF case: ~10.6 kHz\n220 fF case: ~7.2 kHz"
+		(exclude_from_sim no)
+		(at 103.886 42.672 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "30b1d034-fdee-41be-985d-34f4600d9d7b")
+	)
 	(junction
 		(at 177.8 99.06)
 		(diameter 0)
