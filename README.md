@@ -423,3 +423,19 @@ Observations:
 - Distance between F.Fab and courtyard varies wildly. For some products, the three footprints differ in the courtyard being 0.10 mm, 0.25 mm, or 0.50 mm. For some other products, there is no courtyard at all!
 
 I will examine how much the dimensional tolerances vary, across ICs with identical packages. Then, I will make custom footprints for RESC and CAPC from scratch. I will decide how to approach the numerous specific chips once I have the data stated previously.
+
+---
+
+I decided on the following physical dimensions for the landing pads.
+
+| Part      | Pitch   | Z        | G       | X       |
+| --------- | ------: | -------: | ------: | ------: |
+| CAPC0603  | n/a     | 2.88 mm  | 0.56 mm | 1.08 mm |
+| RESC0603  | n/a     | 2.85 mm  | 0.56 mm | 1.13 mm |
+| RESC0805  | n/a     | 3.36 mm  | 0.97 mm | 1.56 mm |
+| AD8615    | 0.95 mm | 4.19 mm  | 0.82 mm | 0.69 mm |
+| OP37G     | 1.27 mm | 7.35 mm  | 2.74 mm | 0.69 mm |
+| OPA828    | 1.27 mm | 7.35 mm  | 2.74 mm | 0.69 mm |
+| DAC81401  | 0.65 mm | 7.75 mm  | 4.16 mm | 0.44 mm |
+| ADS8699   | 0.65 mm | 7.75 mm  | 4.16 mm | 0.44 mm |
+| ISO7641FM | 1.27 mm | 11.76 mm | 6.92 mm | 0.69 mm |
