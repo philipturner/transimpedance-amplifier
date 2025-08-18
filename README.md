@@ -29,6 +29,7 @@ Table of Contents:
 - [August 8, 2025](#august-8-2025)
 - [August 9, 2025](#august-9-2025)
 - [August 16, 2025](#august-16-2025)
+- [August 18, 2025](#august-18-2025)
 
 ## July 26, 2025
 
@@ -394,3 +395,7 @@ Continuing the FEM simulations for another day was a good choice. I am now more 
 The August 31 deadline seems unrealistic now, but it was a good motivator to get me working again. I'm proceeding at the correct pace to achieve the end goal. Every day, I resolve a different unknown variable and the hardware design becomes more specific.
 
 I'm using basic linear algebra to study the 5 coupled variables for component values in the TIA compensation network: [TransimpedanceAmplifierCalibration.swift](https://gist.github.com/philipturner/219ffce07112c4575081fc9615dd2323)
+
+## August 18, 2025
+
+![August 18](./Documentation/New/August18.png)
