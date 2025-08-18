@@ -413,3 +413,13 @@ Common properties of KiCad default footprints:
 Do the official vendor footprints (Texas Instruments, Analog Devices) match these conventions?
 
 ![August 18, Part 2](./Documentation/New/August18_Part2.png)
+
+Observations:
+- The text size is exactly 0.15 mm, 1.00 mm, 1.00 mm. I wonder whether this is an industry standard or just something KiCad sets.
+- 0.20 mm thin red line around copper pads exists for all footprints. I wonder whether this is something KiCad sets.
+- Line width in F.Fab varies, either ~0.03 mm (could be 1 mil) or 0.15 mm.
+- Line width in silkscreen layer is 0.15 mm.
+- Distance between F.Fab and silkscreen is impossible to predict.
+- Distance between F.Fab and courtyard varies wildly. For some products, the three footprints differ in the courtyard being 0.10 mm, 0.25 mm, or 0.50 mm. For some other products, there is no courtyard at all!
+
+I will examine how much the dimensional tolerances vary, across ICs with identical packages. Then, I will make custom footprints for RESC and CAPC from scratch. I will decide how to approach the numerous specific chips once I have the data stated previously.
