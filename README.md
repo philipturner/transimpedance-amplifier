@@ -398,7 +398,7 @@ I'm using basic linear algebra to study the 5 coupled variables for component va
 
 ## August 18, 2025
 
-![August 18](./Documentation/New/August18.png)
+![August 18, Part 1](./Documentation/New/August18_Part1.png)
 
 Common properties of KiCad default footprints:
 - 0.20 mm keepout zone around copper pads (thin red line)
@@ -411,3 +411,5 @@ Common properties of KiCad default footprints:
 - 1.00 mm text width
 
 Do the official vendor footprints (Texas Instruments, Analog Devices) match these conventions?
+
+![August 18, Part 2](./Documentation/New/August18_Part2.png)
