@@ -399,3 +399,15 @@ I'm using basic linear algebra to study the 5 coupled variables for component va
 ## August 18, 2025
 
 ![August 18](./Documentation/New/August18.png)
+
+Common properties of KiCad default footprints:
+- 0.20 mm keepout zone around copper pads (thin red line)
+- 0.25 mm distance between courtyard and copper/part outline
+- 0.10 mm line width in F.Fab for part outline
+- 0.12 mm line width in silkscreen layer for fiducial outline
+- 0.11 mm distance between centers of lines for F.Fab and silkscreen
+- 0.15 mm text thickness
+- 1.00 mm text height
+- 1.00 mm text width
+
+Do the official vendor footprints (Texas Instruments, Analog Devices) match these conventions?
