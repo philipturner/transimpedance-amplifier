@@ -9,4 +9,6 @@
   (lib (name "ADS8699")(type "KiCad")(uri "${KIPRJMOD}/libraries/ADS8699/footprints.pretty")(options "")(descr ""))
   (lib (name "TLV761")(type "KiCad")(uri "${KIPRJMOD}/libraries/TLV761/footprints.pretty")(options "")(descr ""))
   (lib (name "ISO7641FM")(type "KiCad")(uri "${KIPRJMOD}/libraries/ISO7641FM/footprints.pretty")(options "")(descr ""))
+  (lib (name "Passive")(type "KiCad")(uri "${KIPRJMOD}/libraries/Passive.pretty")(options "")(descr ""))
+  (lib (name "IC")(type "KiCad")(uri "${KIPRJMOD}/libraries/IC.pretty")(options "")(descr ""))
 )
