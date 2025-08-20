@@ -777,32 +777,42 @@
 		(uuid "343c7380-8c9a-41d8-b83c-cbc8f58665e7")
 	)
 	(junction
-		(at 96.52 55.88)
+		(at 91.44 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "47e4f01c-e3bc-4385-bd42-823c7fe3215d")
 	)
 	(junction
-		(at 185.42 119.38)
+		(at 190.5 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78740311-0235-4ca9-b98f-c2e369e11fed")
 	)
 	(junction
-		(at 114.3 68.58)
+		(at 109.22 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ac65b98-fd7d-4098-92e1-948bb17558ee")
 	)
 	(junction
-		(at 114.3 55.88)
+		(at 109.22 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a64be810-1fc1-4ef3-a6dd-e9cbd69e7b0e")
 	)
 	(wire
 		(pts
-			(xy 114.3 68.58) (xy 114.3 71.12)
+			(xy 109.22 68.58) (xy 167.64 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04026f1f-4930-49b0-a6b8-acc6c18dd178")
+	)
+	(wire
+		(pts
+			(xy 109.22 68.58) (xy 109.22 71.12)
 		)
 		(stroke
 			(width 0)
@@ -812,7 +822,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 55.88) (xy 114.3 55.88)
+			(xy 109.22 55.88) (xy 119.38 55.88)
 		)
 		(stroke
 			(width 0)
@@ -822,7 +832,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 119.38) (xy 190.5 119.38)
+			(xy 190.5 119.38) (xy 195.58 119.38)
 		)
 		(stroke
 			(width 0)
@@ -832,7 +842,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 66.04) (xy 96.52 68.58)
+			(xy 91.44 66.04) (xy 91.44 68.58)
 		)
 		(stroke
 			(width 0)
@@ -842,13 +852,13 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 68.58) (xy 167.64 58.42)
+			(xy 167.64 119.38) (xy 190.5 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2403dd59-949f-4408-b06b-05dbf1796894")
+		(uuid "1dcdef2c-a4e7-4bd5-9a5c-f95d407e5fe1")
 	)
 	(wire
 		(pts
@@ -862,7 +872,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 68.58) (xy 114.3 68.58)
+			(xy 91.44 68.58) (xy 109.22 68.58)
 		)
 		(stroke
 			(width 0)
@@ -872,17 +882,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 106.68) (xy 185.42 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4102952b-2a03-4345-a78a-ad4f59eb7b00")
-	)
-	(wire
-		(pts
-			(xy 114.3 66.04) (xy 114.3 68.58)
+			(xy 109.22 66.04) (xy 109.22 68.58)
 		)
 		(stroke
 			(width 0)
@@ -892,33 +892,13 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 119.38) (xy 185.42 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4789c4b4-cd38-4791-b401-bd81a4a71e8c")
-	)
-	(wire
-		(pts
-			(xy 114.3 55.88) (xy 114.3 58.42)
+			(xy 109.22 55.88) (xy 109.22 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4af05d24-9761-43d8-a2ea-e13d5536f15a")
-	)
-	(wire
-		(pts
-			(xy 114.3 68.58) (xy 167.64 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ce35709-7d2c-478a-b690-0be6011a18d0")
 	)
 	(wire
 		(pts
@@ -932,7 +912,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 116.84) (xy 185.42 119.38)
+			(xy 190.5 116.84) (xy 190.5 119.38)
 		)
 		(stroke
 			(width 0)
@@ -942,17 +922,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 58.42) (xy 167.64 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71129062-8e84-41bb-8a04-ae176d9601c1")
-	)
-	(wire
-		(pts
-			(xy 185.42 106.68) (xy 185.42 109.22)
+			(xy 190.5 106.68) (xy 190.5 109.22)
 		)
 		(stroke
 			(width 0)
@@ -962,7 +932,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 55.88) (xy 96.52 55.88)
+			(xy 86.36 55.88) (xy 91.44 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1012,7 +982,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 55.88) (xy 96.52 55.88)
+			(xy 109.22 55.88) (xy 91.44 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1022,7 +992,37 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 55.88) (xy 96.52 58.42)
+			(xy 165.1 58.42) (xy 167.64 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "decec7f1-aa4c-4be1-9af5-6e705638576c")
+	)
+	(wire
+		(pts
+			(xy 167.64 58.42) (xy 167.64 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef982f36-fc74-4fbe-9a3b-8bf4c8a0cd59")
+	)
+	(wire
+		(pts
+			(xy 167.64 106.68) (xy 190.5 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0cc8414-e4f7-4f07-b0cf-3b633da0324d")
+	)
+	(wire
+		(pts
+			(xy 91.44 55.88) (xy 91.44 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1053,7 +1053,7 @@
 	)
 	(hierarchical_label "-15V"
 		(shape output)
-		(at 190.5 119.38 0)
+		(at 195.58 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1064,7 +1064,7 @@
 	)
 	(hierarchical_label "15V"
 		(shape output)
-		(at 91.44 55.88 180)
+		(at 86.36 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1086,7 +1086,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 185.42 113.03 270)
+		(at 190.5 113.03 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1095,7 +1095,7 @@
 		(fields_autoplaced yes)
 		(uuid "13d89310-4489-413e-b741-7b3aa9d277cc")
 		(property "Reference" "D9"
-			(at 187.96 111.4424 90)
+			(at 193.04 111.4424 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1104,7 +1104,7 @@
 			)
 		)
 		(property "Value" "D_Schottky"
-			(at 187.96 113.9824 90)
+			(at 193.04 113.9824 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1113,7 +1113,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 113.03 0)
+			(at 190.5 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1122,7 +1122,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 185.42 113.03 0)
+			(at 190.5 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1131,7 +1131,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 185.42 113.03 0)
+			(at 190.5 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1239,7 +1239,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100 nF"
+		(property "Value" "100 nF, 50V"
 			(at 171.45 114.2999 0)
 			(effects
 				(font
@@ -1275,6 +1275,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GCM188L81H104KA57J/17846871"
+			(at 167.64 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "580641b1-2ed2-44cc-8b92-86b9c24552ee")
 		)
@@ -1292,7 +1301,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 114.3 71.12 0)
+		(at 109.22 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1301,7 +1310,7 @@
 		(fields_autoplaced yes)
 		(uuid "78c3378b-479e-4905-b7e9-9ec8d582e935")
 		(property "Reference" "#PWR011"
-			(at 114.3 77.47 0)
+			(at 109.22 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1310,7 +1319,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.3 76.2 0)
+			(at 109.22 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1318,7 +1327,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 71.12 0)
+			(at 109.22 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1327,7 +1336,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 71.12 0)
+			(at 109.22 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1336,7 +1345,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 71.12 0)
+			(at 109.22 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1439,7 +1448,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 96.52 62.23 270)
+		(at 91.44 62.23 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1448,7 +1457,7 @@
 		(fields_autoplaced yes)
 		(uuid "b4e179d4-2fc3-4105-9007-bf2aa63f576a")
 		(property "Reference" "D8"
-			(at 99.06 60.6424 90)
+			(at 93.98 60.6424 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1457,7 +1466,7 @@
 			)
 		)
 		(property "Value" "D_Schottky"
-			(at 99.06 63.1824 90)
+			(at 93.98 63.1824 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1466,7 +1475,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 62.23 0)
+			(at 91.44 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1475,7 +1484,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 62.23 0)
+			(at 91.44 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1484,7 +1493,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 96.52 62.23 0)
+			(at 91.44 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1582,7 +1591,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 114.3 62.23 0)
+		(at 109.22 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1591,7 +1600,7 @@
 		(fields_autoplaced yes)
 		(uuid "e98abafd-3c9a-43f8-8ad4-b9d8c6a1e68c")
 		(property "Reference" "C7"
-			(at 118.11 60.9599 0)
+			(at 113.03 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1599,8 +1608,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10 nF"
-			(at 118.11 63.4999 0)
+		(property "Value" "10 nF, 100V"
+			(at 113.03 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1609,7 +1618,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.2652 66.04 0)
+			(at 110.1852 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1618,7 +1627,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 62.23 0)
+			(at 109.22 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1627,7 +1636,16 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 114.3 62.23 0)
+			(at 109.22 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GCM188R72A103KA37D/1641655"
+			(at 109.22 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
