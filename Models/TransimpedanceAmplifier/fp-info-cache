@@ -1,4 +1,4 @@
-26002395134320506
+26004150888446193
 AD8615
 UJ_5_ADI
 
@@ -90285,6 +90285,13 @@ RESC0603
 0
 2
 2
+Passive
+RESC0805
+
+
+0
+0
+0
 Potentiometer_SMD
 Potentiometer_ACP_CA6-VSMD_Vertical
 Potentiometer, vertical, ACP CA6-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/06/01-ACP-CA6.pdf
