@@ -14,7 +14,7 @@ Phase 0 of the [APM Roadmap](https://github.com/philipturner/apm-roadmap)
 
 Objective: Gather as much data as possible about the TIA sensor of an STM, using both theory and experiment.
 
-Deadline: August 31, 2025 for the first physical prototype
+Deadline: August 31, 2025 for the first physical prototype <b>(needs to be revised)</b>
 
 Table of Contents:
 - [July 26, 2025](#july-26-2025)
@@ -30,6 +30,7 @@ Table of Contents:
 - [August 9, 2025](#august-9-2025)
 - [August 16, 2025](#august-16-2025)
 - [August 18, 2025](#august-18-2025)
+- [August 20, 2025](#august-20-2025)
 
 ## July 26, 2025
 
@@ -439,3 +440,7 @@ I decided on the following physical dimensions for the landing pads.
 | DAC81401  | 0.65 mm | 7.75 mm  | 4.16 mm | 0.44 mm |
 | ADS8699   | 0.65 mm | 7.75 mm  | 4.16 mm | 0.44 mm |
 | ISO7641FM | 1.27 mm | 11.76 mm | 6.92 mm | 0.69 mm |
+
+## August 20, 2025
+
+![August 20](./Documentation/New/August20.png)
