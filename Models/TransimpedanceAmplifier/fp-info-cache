@@ -1,4 +1,4 @@
-26004150888446193
+26005906600962343
 AD8615
 UJ_5_ADI
 
@@ -60857,6 +60857,13 @@ heatsink
 0
 0
 0
+IC
+AD8615
+
+
+0
+5
+5
 ISO7641FM
 DW16
 
@@ -90290,8 +90297,8 @@ RESC0805
 
 
 0
-0
-0
+2
+2
 Potentiometer_SMD
 Potentiometer_ACP_CA6-VSMD_Vertical
 Potentiometer, vertical, ACP CA6-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/06/01-ACP-CA6.pdf
