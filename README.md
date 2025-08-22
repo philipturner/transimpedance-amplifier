@@ -476,4 +476,4 @@ This choice makes life a little bit easier. The footprints are through-hole, and
 | ----- | -------------: |
 | 3269W | $4.26          |
 | 3296W | $2.36          |
-| 3296Y | $2.13          |
+| 3296Y | $2.16          |
