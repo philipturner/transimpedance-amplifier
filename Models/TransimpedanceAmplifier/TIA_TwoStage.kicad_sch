@@ -1329,6 +1329,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/bourns-inc/3269W-1-503GLF/2535614"
+			(at 132.08 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "52de81d2-fb35-42c5-9cc9-9ad340ba2f55")
 		)
@@ -1466,6 +1475,15 @@
 			)
 		)
 		(property "Description" "Variable resistor, US symbol"
+			(at 123.19 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/bourns-inc/3269W-1-204GLF/2535590"
 			(at 123.19 48.26 0)
 			(effects
 				(font
@@ -1756,6 +1774,15 @@
 			)
 		)
 		(property "Description" "Variable resistor, US symbol"
+			(at 93.98 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/bourns-inc/3269W-1-103GLF/2535568"
 			(at 93.98 82.55 0)
 			(effects
 				(font
