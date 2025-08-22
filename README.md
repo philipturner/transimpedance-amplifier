@@ -459,3 +459,21 @@ Deliverables for today:
   - LM4040D10
   - LM4040D33
   - Chosen Schottky diode model
+
+I did not get through all the deliverables today. I was looking for a purchase link for LM79L15, and realized the TO-92-3 version was not in stock. To sort through options for alternative products, I tabulated the total current load at every regulator. The LM78L15 and LM79L15 have ~45 mA, which is below the rated 100 mA. However, the power dissipation is ~0.6 W, almost at the limit of safe operating area. These chips would be elevated 100°C above ambient temperature!
+
+I decided to switch the 15 V, -15 V, and 5 V (Converter) lines to the higher-current versions, in a TO-220 package. This should reduce the temperature rise by a factor of 2.6&ndash;4, and put the wattage far below the rated limit. I will download fresh symbols from the manufacturer and update the schematic accordingly.
+
+I may switch the PreAmp's power supplies over to TO-220 as well, for convenience. This choice reduces the time spent on footprint design. We're already using through-hole components, either way.
+
+---
+
+I also want to switch to the Bourns 3296 model, which is through-hole. It feels more comforting, knowing that the mechanical bond to the PCB is stronger. It also isn't significantly larger on the thickness dimension (4.8 mm vs 4.3 mm for SMT version).
+
+This choice makes life a little bit easier. The footprints are through-hole, and thus probably easier to design. They also sit at the cost minimum compared to the SMT version.
+
+| Model | Cost (Average) |
+| ----- | -------------: |
+| 3269W | $4.26          |
+| 3296W | $2.36          |
+| 3296Y | $2.13          |
