@@ -2196,6 +2196,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/diodes-incorporated/LM4040D33FTA/10295608"
+			(at 210.82 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "510536f9-cdb5-4bb8-8a80-f6da56e166f8")
 		)

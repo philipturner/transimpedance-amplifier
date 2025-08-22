@@ -2138,6 +2138,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/onsemi/MMBT2907ALT1G/919599"
+			(at 236.22 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "C"
 			(uuid "358987c5-eb6d-4017-8188-ee36e3cb3c3f")
 		)
@@ -2203,6 +2212,15 @@
 			)
 		)
 		(property "Description" "NPN bipolar junction transistor"
+			(at 236.22 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/onsemi/MMBT2222ALT1G/919593"
 			(at 236.22 119.38 0)
 			(effects
 				(font
@@ -2513,6 +2531,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/vishay-general-semiconductor-diodes-division/1N4448W-E3-08/4829905"
+			(at 224.79 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1487d98c-5b70-44c5-8468-1d8a62afec89")
 		)
@@ -2748,6 +2775,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/texas-instruments/LM4040D10IDBZR/1216503"
+			(at 241.3 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "31e325e8-4660-4006-85a6-4fa173f6e5e0")
 		)
@@ -2826,6 +2862,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 224.79 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/vishay-general-semiconductor-diodes-division/1N4448W-E3-08/4829905"
 			(at 224.79 129.54 0)
 			(effects
 				(font
@@ -3040,6 +3085,15 @@
 		)
 		(property "Description" "Zener diode"
 			(at 241.3 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/texas-instruments/LM4040D10IDBZR/1216503"
+			(at 241.3 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
