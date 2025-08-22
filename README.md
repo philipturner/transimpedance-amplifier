@@ -31,6 +31,7 @@ Table of Contents:
 - [August 16, 2025](#august-16-2025)
 - [August 18, 2025](#august-18-2025)
 - [August 20, 2025](#august-20-2025)
+- [August 22, 2025](#august-22-2025)
 
 ## July 26, 2025
 
@@ -444,3 +445,17 @@ I decided on the following physical dimensions for the landing pads.
 ## August 20, 2025
 
 ![August 20](./Documentation/New/August20.png)
+
+## August 22, 2025
+
+Deliverables for today:
+- Organize the footprint libraries into: TwoTerminal, ThreeTerminal, IC, ThroughHole
+- Collect more purchase links and elaborate on more IC local decoupling networks.
+  - Start with finalizing the trimpot variant.
+  - Then, the discrete semiconductors.
+  - Finally, the 0805 capacitors with tight dimensional tolerance.
+- If possible, finalize the Schottky diode model as well. See whether all diode models can share a common footprint:
+  - 1N4448W
+  - LM4040D10
+  - LM4040D33
+  - Chosen Schottky diode model
