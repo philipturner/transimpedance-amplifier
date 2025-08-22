@@ -1139,6 +1139,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/texas-instruments/LM79L05ACZ-NOPB/1871963"
+			(at 121.92 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8b4c32b0-b31d-47ff-be96-beb1b5003c99")
 		)
@@ -1575,7 +1584,7 @@
 				(hide yes)
 			)
 		)
-		(property "Purchase Link" ""
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/texas-instruments/LM78L05ACZ-NOPB/6333"
 			(at 119.38 55.88 0)
 			(effects
 				(font

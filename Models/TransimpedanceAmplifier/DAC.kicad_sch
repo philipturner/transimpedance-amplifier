@@ -939,6 +939,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/texas-instruments/DAC81401PWR/22077523"
+			(at 123.19 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "13"
 			(uuid "d0a06f84-1c26-4ae6-b8dc-aadea009ea11")
 		)

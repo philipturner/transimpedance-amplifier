@@ -2569,6 +2569,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/analog-devices-inc/AD8615AUJZ-REEL7/951437"
+			(at 50.8 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "b8028b3f-623f-400c-a411-a09f0e85ca5b")
 		)

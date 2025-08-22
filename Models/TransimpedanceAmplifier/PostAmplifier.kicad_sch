@@ -2687,6 +2687,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase Link" "https://www.mouser.com/ProductDetail/Analog-Devices/OP37GSZ?qs=WIvQP4zGangnlHcCmYh5ww%3D%3D"
+			(at 71.12 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "f04392db-07a4-4efc-8022-7b5135deef8f")
 		)

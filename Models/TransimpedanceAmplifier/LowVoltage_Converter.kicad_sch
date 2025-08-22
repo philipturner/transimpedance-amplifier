@@ -1181,7 +1181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Purchase Link" ""
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/texas-instruments/LM78L05ACZ-NOPB/6333"
 			(at 119.38 55.88 0)
 			(effects
 				(font
