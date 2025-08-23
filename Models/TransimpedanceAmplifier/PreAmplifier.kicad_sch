@@ -364,170 +364,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C_Polarized_US"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized_US"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Polarized capacitor, US symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Polarized_US_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.778) (xy -1.27 2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.032 -1.27)
-					(mid 0 -0.5572)
-					(end 2.032 -1.27)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_Polarized_US_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 3.302)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:D_Zener"
 			(pin_numbers
 				(hide yes)
@@ -1687,85 +1523,6 @@
 		(uuid "b800e21a-6531-44c6-841d-a338832f2af5")
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 157.48 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "033ca056-72bd-4609-a47d-ae2ae3aee2c4")
-		(property "Reference" "C4"
-			(at 161.29 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470 nF, 35V"
-			(at 161.29 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.4452 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 157.48 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 157.48 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R7YA474KE05D/10701970"
-			(at 157.48 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4d3aa799-76f3-4535-8e92-8f6db1a5c20e")
-		)
-		(pin "1"
-			(uuid "297dc461-07da-46bb-8e11-45d96dd7524a")
-		)
-		(instances
-			(project "TransimpedanceAmplifier"
-				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/226b3d0c-9e45-4bcf-9bef-58938aee743e/728283d1-1c30-4fdc-aa4d-bf897972ea87"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 210.82 58.42 0)
 		(unit 1)
@@ -2006,17 +1763,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 177.8 66.04 0)
+		(lib_id "Device:C")
+		(at 157.48 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "79329096-b102-4971-91a9-ab949bd6612f")
+		(uuid "90b3f922-f758-4ed3-aa9a-9d78c83498fb")
 		(property "Reference" "C1"
-			(at 181.61 64.1349 0)
+			(at 161.29 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2024,8 +1781,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470 uF"
-			(at 181.61 66.6749 0)
+		(property "Value" "1 uF, 0603"
+			(at 161.29 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2034,7 +1791,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 66.04 0)
+			(at 158.4452 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2043,7 +1800,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 66.04 0)
+			(at 157.48 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2051,8 +1808,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor, US symbol"
-			(at 177.8 66.04 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 157.48 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2060,16 +1817,104 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "3d36e4cc-6444-447b-bcc7-1fb9de604d24")
+		(property "Purchase Link" ""
+			(at 157.48 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "ff6cf804-2e14-49a7-9904-a3b198f8cce5")
+			(uuid "74b828d5-0438-4b24-a69f-0d95a7ac8583")
+		)
+		(pin "1"
+			(uuid "e8dc924b-1ae3-420f-9d16-c61411774ebf")
 		)
 		(instances
 			(project ""
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/226b3d0c-9e45-4bcf-9bef-58938aee743e/728283d1-1c30-4fdc-aa4d-bf897972ea87"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 157.48 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a56670d6-400f-4d35-b276-635ff6018ccd")
+		(property "Reference" "C3"
+			(at 161.29 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1 uF, 0603"
+			(at 161.29 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.4452 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 157.48 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" ""
+			(at 157.48 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d1948739-b626-4d9c-a4f3-a0d85b990e5f")
+		)
+		(pin "1"
+			(uuid "c00120ef-30a4-4913-8fef-0ecd29996fdb")
+		)
+		(instances
+			(project "TransimpedanceAmplifier"
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/226b3d0c-9e45-4bcf-9bef-58938aee743e/728283d1-1c30-4fdc-aa4d-bf897972ea87"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -2288,16 +2133,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 157.48 66.04 0)
+		(at 177.8 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bd7b1e88-7a80-4caa-a873-d70e64e01854")
-		(property "Reference" "C3"
-			(at 161.29 64.7699 0)
+		(uuid "c8dbb6be-f7b0-473e-b4b2-9ba2221e1f95")
+		(property "Reference" "C2"
+			(at 181.61 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2305,8 +2150,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470 nF, 35V"
-			(at 161.29 67.3099 0)
+		(property "Value" "10 uF, 0805"
+			(at 181.61 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2315,7 +2160,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.4452 69.85 0)
+			(at 178.7652 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2324,7 +2169,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 157.48 66.04 0)
+			(at 177.8 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2333,7 +2178,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 157.48 66.04 0)
+			(at 177.8 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2341,25 +2186,25 @@
 				(hide yes)
 			)
 		)
-		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R7YA474KE05D/10701970"
-			(at 157.48 66.04 0)
+		(property "Purchase Link" ""
+			(at 177.8 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "c3b100c5-caa8-4152-83c2-9960edaeb90d")
 		)
 		(pin "1"
-			(uuid "25ace24e-2235-4d61-8ff0-036df5d2e8e1")
+			(uuid "079a0441-f16f-494b-899b-fa781dcdba3a")
+		)
+		(pin "2"
+			(uuid "2cbbb134-1c2f-4c2d-9e8b-0dc8f7e3c8cd")
 		)
 		(instances
 			(project ""
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/226b3d0c-9e45-4bcf-9bef-58938aee743e/728283d1-1c30-4fdc-aa4d-bf897972ea87"
-					(reference "C3")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -2445,7 +2290,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_US")
+		(lib_id "Device:C")
 		(at 177.8 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2453,9 +2298,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f42215d6-0c09-4ced-bf8b-2cfb6109015c")
-		(property "Reference" "C2"
-			(at 181.61 93.3449 0)
+		(uuid "eec3ab1d-d086-44f6-9321-b757a261e7ca")
+		(property "Reference" "C4"
+			(at 181.61 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2463,8 +2308,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470 uF"
-			(at 181.61 95.8849 0)
+		(property "Value" "10 uF, 0805"
+			(at 181.61 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2473,7 +2318,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 95.25 0)
+			(at 178.7652 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2490,7 +2335,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor, US symbol"
+		(property "Description" "Unpolarized capacitor"
+			(at 177.8 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" ""
 			(at 177.8 95.25 0)
 			(effects
 				(font
@@ -2500,15 +2354,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "ccd95697-4862-4311-b016-23f088cacb48")
+			(uuid "2a3bb08a-bb7a-4454-8880-02e6917f5a62")
 		)
 		(pin "2"
-			(uuid "8ec990ec-e3a1-4a8d-b256-a82686f3f1a4")
+			(uuid "104971d3-7cea-4d18-9828-1da3712c3a01")
 		)
 		(instances
 			(project "TransimpedanceAmplifier"
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/226b3d0c-9e45-4bcf-9bef-58938aee743e/728283d1-1c30-4fdc-aa4d-bf897972ea87"
-					(reference "C2")
+					(reference "C4")
 					(unit 1)
 				)
 			)

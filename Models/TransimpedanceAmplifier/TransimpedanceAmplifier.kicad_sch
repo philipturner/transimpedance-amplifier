@@ -358,6 +358,29 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 226.06 124.46)
+		(end 266.7 157.48)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid dc258b31-f212-4620-a4c8-40080d9adcd1)
+	)
+	(text "Legend for bypass capacitors\n\n0603 case size:\n100 nF - 100 V, X7R\n220 nF - 50 V, X7R\n1 uF - 50 V, X5R\n\n0805 case size:\n1 uF - 50 V, X7R\n10 uF - 25 V, X5R"
+		(exclude_from_sim no)
+		(at 231.902 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "0a869bf8-68a0-4633-86fd-929a09d3b962")
+	)
 	(text "TODO: Limit current of bias voltage supply\nto <5 mA to prevent damage to AD8615"
 		(exclude_from_sim no)
 		(at 45.974 51.562 0)
