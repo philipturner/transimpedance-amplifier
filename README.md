@@ -32,6 +32,7 @@ Table of Contents:
 - [August 18, 2025](#august-18-2025)
 - [August 20, 2025](#august-20-2025)
 - [August 22, 2025](#august-22-2025)
+- [August 23, 2025](#august-23-2025)
 
 ## July 26, 2025
 
@@ -477,3 +478,14 @@ This choice makes life a little bit easier. The footprints are through-hole, and
 | 3269W | $4.26          |
 | 3296W | $2.36          |
 | 3296Y | $2.16          |
+
+## August 23, 2025
+
+Many great developments today. I found a decoupling network for every IC that I agree with. I overhauled all the bypass capacitors, to a simple set of 3 capacitor values (100 nF, 1 μF, 10 μF). Boosted confidence that I can start fabricating the physical prototype close to the original August 31 deadline.
+
+TODO list for the rest of today:
+- Purchase links for regulators
+- Purchase links for new trimpots (Y variant)
+- Footprints for 0805 capacitors
+- Purchase links & footprints for Schottky diodes
+- Finalize all decoupling networks
