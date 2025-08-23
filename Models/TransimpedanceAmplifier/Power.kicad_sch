@@ -145,18 +145,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(rectangle
-		(start 238.76 40.64)
-		(end 266.7 88.9)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 7948873a-3b47-41ae-a0f3-a8bb5e4fd153)
-	)
 	(text "TODO: Include an input-output diode across the\nterminals of all LDO regulators, in line with\nmanufacturer recommendations. We have 470 uF\ncapacitance somewhere.\n\nUse the manufacturer's recommendation of a\nlow-voltage Schottky diode for TLV761. Use the\nrecommendation of a high-voltage diode (1N4002W)\nfor the other regulators. Continue using Schottky\ndiodes to enforce the polarity of the\ninput -> GND differential.\n\nDelete all protection diodes from the schematic.\nDefer the entire cognitive overload of protection\ndiodes until a far-future stage of design, when I\nhave a better understanding of the physical\narrangement of components. And, therefore, a\nmore specific understanding of what transients or\nfault conditions would look like.\n\nI_fault = V_capacitor / ESR"
 		(exclude_from_sim no)
 		(at 32.258 21.082 0)
@@ -190,6 +178,17 @@
 		)
 		(uuid "380267e7-904f-41f0-bef9-9b53d928c994")
 	)
+	(text "Bypass Capacitors: 0805"
+		(exclude_from_sim no)
+		(at 242.824 88.646 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "4bc59d79-a93d-4947-ad24-4d878de0b9f7")
+	)
 	(text "Maximum Permitted Power Dissipation\nAmbient Temperature: 30°C\n\nLM78L, TO-92\n0.68 W\n0.84 W (heat sinked)\n~158.7°C/W (in a standard test PCB)\n\nLM78, TO-220\n1.78 W\n7.88 W (heat sinked)\n~23.9°C/W (in a standard test PCB)"
 		(exclude_from_sim no)
 		(at 76.962 129.032 0)
@@ -201,9 +200,9 @@
 		)
 		(uuid "890d71cb-6088-4622-a598-b3b9275313dd")
 	)
-	(text "Spare Purchase Links"
+	(text "Bypass Capacitors: 0603"
 		(exclude_from_sim no)
-		(at 242.57 43.434 0)
+		(at 242.824 45.466 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -439,8 +438,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7b31dea7-e3b5-4d81-ac4d-c1deba4323be")
-		(property "Reference" "C16"
+		(uuid "28a57eec-342c-4176-9921-daf83cadcb99")
+		(property "Reference" "C9"
 			(at 248.92 66.0399 0)
 			(effects
 				(font
@@ -449,7 +448,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100 nF, 50V"
+		(property "Value" "1 uF, 50V, X5R"
 			(at 248.92 68.5799 0)
 			(effects
 				(font
@@ -485,7 +484,7 @@
 				(hide yes)
 			)
 		)
-		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GCM188L81H104KA57J/17846871"
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRT188R61H105KE13D/5416752"
 			(at 245.11 67.31 0)
 			(effects
 				(font
@@ -495,15 +494,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "d1fcd98b-e0f1-4770-acdb-498933a480f4")
+			(uuid "24575c28-5e85-4821-a3f7-557b63fd7493")
 		)
 		(pin "2"
-			(uuid "b6179273-71cf-4d6a-a656-ea7f800bdf9b")
+			(uuid "e348da26-9df0-4422-9bf3-5cd0da8e239a")
 		)
 		(instances
-			(project "TransimpedanceAmplifier"
+			(project ""
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/d0ece2d4-5b22-4822-ad0c-e2361683ec3d"
-					(reference "C16")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -511,16 +510,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 245.11 80.01 0)
+		(at 245.11 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8bce14b5-30c5-4ffc-b903-f877d2d3d487")
-		(property "Reference" "C17"
-			(at 248.92 78.7399 0)
+		(uuid "802ab89e-7e55-421c-8e60-323d536753ac")
+		(property "Reference" "C15"
+			(at 248.92 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -528,8 +527,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1 uF, 50V"
-			(at 248.92 81.2799 0)
+		(property "Value" "10 uF, 25V, X5R"
+			(at 248.92 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -538,7 +537,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 246.0752 83.82 0)
+			(at 246.0752 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -547,7 +546,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 245.11 80.01 0)
+			(at 245.11 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -556,7 +555,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 245.11 80.01 0)
+			(at 245.11 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -564,25 +563,25 @@
 				(hide yes)
 			)
 		)
-		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRT188R61H105KE13D/5416752"
-			(at 245.11 80.01 0)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM21BR61E106KA73K/4905532"
+			(at 245.11 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "127d6999-2154-483d-ae6f-13efdb45b309")
 		)
 		(pin "2"
-			(uuid "88b17f42-b4e6-45d1-9c91-40b440a0a6bf")
+			(uuid "6a653dc2-8d5a-470a-9ac6-a3657725862a")
+		)
+		(pin "1"
+			(uuid "61a6d6aa-c4f0-4682-885f-49afcb2b338b")
 		)
 		(instances
-			(project "TransimpedanceAmplifier"
+			(project ""
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/d0ece2d4-5b22-4822-ad0c-e2361683ec3d"
-					(reference "C17")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -597,8 +596,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a54bdb41-25bf-4adf-aac4-0fe086c9200c")
-		(property "Reference" "C15"
+		(uuid "e2fc2d2c-830b-437d-beb0-698956145827")
+		(property "Reference" "C8"
 			(at 248.92 53.3399 0)
 			(effects
 				(font
@@ -607,7 +606,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10 nF, 100V"
+		(property "Value" "100 nF, 100V, X7R"
 			(at 248.92 55.8799 0)
 			(effects
 				(font
@@ -643,7 +642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GCM188R72A103KA37D/1641655"
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R72A104KA35D/702549"
 			(at 245.11 54.61 0)
 			(effects
 				(font
@@ -652,16 +651,95 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "8c285fe1-c7d7-4af3-be13-a6555e36ff9b")
-		)
 		(pin "1"
-			(uuid "7f8e91f8-5b04-4619-a2b7-ae631454c126")
+			(uuid "45d48e59-6b90-429a-a9f0-1fd011f1d783")
+		)
+		(pin "2"
+			(uuid "9709b07b-b73d-4519-8791-7388da502653")
 		)
 		(instances
-			(project "TransimpedanceAmplifier"
+			(project ""
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/d0ece2d4-5b22-4822-ad0c-e2361683ec3d"
-					(reference "C15")
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 245.11 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe872c89-d35d-4962-b09d-18036531e158")
+		(property "Reference" "C10"
+			(at 248.92 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1 uF, 50V, X7R"
+			(at 248.92 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.0752 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 245.11 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRT21BR71H105KE01L/10702345"
+			(at 245.11 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7375e539-2b15-4581-8a97-5eccaaa3f082")
+		)
+		(pin "2"
+			(uuid "9d85dbf8-c199-4b25-8aa9-e84aa7e64e85")
+		)
+		(instances
+			(project ""
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/d0ece2d4-5b22-4822-ad0c-e2361683ec3d"
+					(reference "C10")
 					(unit 1)
 				)
 			)
