@@ -144,6 +144,190 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "LM78:LM7805CT_NOPB"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 22.86 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "LM7805CT/NOPB"
+				(at 22.86 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "NDE3_TEX"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/gpn/lm7800"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LM7805CT/NOPB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "NDE3_TEX"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LM7805CT_NOPB_0_1"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 38.1 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 38.1 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 38.1 -7.62) (xy 38.1 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at 0 0 0)
+					(length 7.62)
+					(name "INPUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 45.72 0 180)
+					(length 7.62)
+					(name "OUTPUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 45.72 -2.54 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "TLV761:PTLV76118DCYR"
 			(pin_names
 				(offset 0.254)
@@ -450,7 +634,7 @@
 	)
 	(text "Dropout voltage:\n0.9 V (typical), 1.6 V (max)\n\nVariation with load:\n0.9 V (1.0 A)\n0.7 V (0.8 A)\n0.2 V (0.1 A)\n\nDropout voltage exceeds\nexpected value when\nVout + 1.5 V < 4.0 V"
 		(exclude_from_sim no)
-		(at 89.154 105.918 0)
+		(at 203.708 45.212 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -460,104 +644,108 @@
 		(uuid "2006039d-cbba-4558-8483-4659715bcc58")
 	)
 	(junction
-		(at 167.64 139.7)
+		(at 243.84 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5a54ead6-5b53-4680-b026-fb353d8134dd")
-	)
-	(junction
-		(at 167.64 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5ed91f24-d3ec-4d6f-b7e7-ba30f419e763")
+		(uuid "e46449be-0440-4ae3-ac3c-ebcde3491105")
 	)
 	(no_connect
-		(at 157.48 124.46)
+		(at 228.6 81.28)
 		(uuid "8a101ffa-173e-4e5a-9a0b-86fbca58d625")
 	)
 	(wire
 		(pts
-			(xy 119.38 124.46) (xy 127 124.46)
+			(xy 233.68 88.9) (xy 233.68 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0e233574-e0e2-4add-948e-580a724dc6bf")
+		(uuid "49b3ba40-81ca-449f-a312-42c94b29e92e")
 	)
 	(wire
 		(pts
-			(xy 167.64 127) (xy 167.64 129.54)
+			(xy 243.84 96.52) (xy 243.84 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0fa7d48f-ff33-48a7-966e-f052a038c7cc")
+		(uuid "51c40e49-3a30-404f-88ab-9eabcf0e070c")
 	)
 	(wire
 		(pts
-			(xy 167.64 139.7) (xy 157.48 139.7)
+			(xy 228.6 88.9) (xy 233.68 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "399b9d76-62c8-443e-b299-5545eaabee6f")
+		(uuid "6385efa4-d689-4b22-b8cb-9eec5a5736af")
 	)
 	(wire
 		(pts
-			(xy 157.48 127) (xy 167.64 127)
+			(xy 107.95 83.82) (xy 113.03 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5ea696eb-b032-4cc4-a8a4-6c111a6a025c")
+		(uuid "80b1f41b-8e48-4217-8ccf-7c12635ca0dc")
 	)
 	(wire
 		(pts
-			(xy 167.64 137.16) (xy 167.64 139.7)
+			(xy 193.04 81.28) (xy 198.12 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "833cdccb-c24a-415e-a6e4-ccde1b44ccf1")
+		(uuid "954333fc-15d6-4328-891d-b1dd7ebb8a1d")
 	)
 	(wire
 		(pts
-			(xy 157.48 132.08) (xy 157.48 139.7)
+			(xy 243.84 83.82) (xy 248.92 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aee768d3-2cb8-4acd-8213-8b242be337b5")
+		(uuid "96d92d54-ab82-4c88-9bde-12ab0fcb9d6e")
 	)
 	(wire
 		(pts
-			(xy 167.64 127) (xy 172.72 127)
+			(xy 243.84 83.82) (xy 243.84 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b636b7e6-9614-4d3b-a822-3ee85b4301f8")
+		(uuid "c59c01b2-5112-4314-a94e-cf96bb4d4c56")
 	)
 	(wire
 		(pts
-			(xy 167.64 139.7) (xy 167.64 142.24)
+			(xy 113.03 83.82) (xy 113.03 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d60b4a04-8a46-4a87-8662-3e08945e3569")
+		(uuid "d7782fb5-3afd-4dac-aa94-4a053749c2e7")
+	)
+	(wire
+		(pts
+			(xy 228.6 83.82) (xy 243.84 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe823dc1-bc13-41b3-9528-7c2758db69d8")
 	)
 	(hierarchical_label "5V"
 		(shape output)
-		(at 119.38 124.46 180)
+		(at 193.04 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -568,62 +756,85 @@
 	)
 	(hierarchical_label "3.3V"
 		(shape output)
-		(at 172.72 127 0)
+		(at 248.92 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "adba30f5-7880-42cc-8565-89b71e4ad6e9")
+		(uuid "3c0caa86-dd52-4ae2-b979-38a7d62415b5")
+	)
+	(hierarchical_label "5V"
+		(shape output)
+		(at 107.95 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "500e5f00-81c4-4c09-960c-41a73ec94bc3")
+	)
+	(hierarchical_label "18V"
+		(shape input)
+		(at 62.23 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fd793fdf-2920-47e9-b594-836d4ae6e391")
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 167.64 142.24 0)
+		(lib_id "LM78:LM7805CT_NOPB")
+		(at 62.23 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d1009e22-97b5-4e4b-b490-15908a4b22a6")
-		(property "Reference" "#PWR014"
-			(at 167.64 148.59 0)
+		(uuid "0ad1de80-2a70-4a4e-be01-c8e5c263ddec")
+		(property "Reference" "U10"
+			(at 85.09 71.12 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "LM7805, 5V, 5%"
+			(at 85.09 73.66 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "NDE3_TEX"
+			(at 62.23 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 167.64 147.32 0)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/lm7800"
+			(at 62.23 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 167.64 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 142.24 0)
+		(property "Description" ""
+			(at 62.23 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -632,7 +843,224 @@
 			)
 		)
 		(pin "1"
-			(uuid "cc723a47-613f-4d4c-b2b1-e5fed48ce006")
+			(uuid "5b5b5a02-1695-4bd5-9b92-324050443533")
+		)
+		(pin "3"
+			(uuid "0b2e0eaa-7000-4c08-a28f-b2a325108f83")
+		)
+		(pin "2"
+			(uuid "387d3b2c-1d8b-4c13-b3b8-603b0d6a4732")
+		)
+		(instances
+			(project "TransimpedanceAmplifier"
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/d0ece2d4-5b22-4822-ad0c-e2361683ec3d/8db21157-4c7b-40b0-8814-5c9be8b7a36f"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 113.03 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40faa590-3ee9-44b4-ab31-9ae1283edf16")
+		(property "Reference" "#PWR015"
+			(at 113.03 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 113.03 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 113.03 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "203498a7-45bc-4ff5-9c3f-8c39bb9de79a")
+		)
+		(instances
+			(project "TransimpedanceAmplifier"
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/d0ece2d4-5b22-4822-ad0c-e2361683ec3d/8db21157-4c7b-40b0-8814-5c9be8b7a36f"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 243.84 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51958f84-4047-432d-b604-a75fc98b2297")
+		(property "Reference" "C6"
+			(at 247.65 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1 uF, 50V"
+			(at 247.65 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 244.8052 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 243.84 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRT188R61H105KE13D/5416752"
+			(at 243.84 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc600c77-1adf-40ef-8fc7-880f828adb6b")
+		)
+		(pin "2"
+			(uuid "1535bc03-ce05-43b1-ae9d-fd5ff23993a4")
+		)
+		(instances
+			(project "TransimpedanceAmplifier"
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/d0ece2d4-5b22-4822-ad0c-e2361683ec3d/8db21157-4c7b-40b0-8814-5c9be8b7a36f"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 243.84 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57383bfb-c218-4346-a3ef-313550dc2259")
+		(property "Reference" "#PWR014"
+			(at 243.84 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 243.84 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 243.84 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "037cea92-b1d8-46b0-94ad-1a1629af9624")
 		)
 		(instances
 			(project ""
@@ -644,35 +1072,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 167.64 133.35 0)
+		(lib_id "power:GND")
+		(at 233.68 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e87fa613-9837-44ef-ad27-9277965a8053")
-		(property "Reference" "C9"
-			(at 171.45 132.0799 0)
+		(uuid "c25ec370-bfa4-4076-bf04-9b1b96b888ce")
+		(property "Reference" "#PWR012"
+			(at 233.68 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "1 uF, 50V"
-			(at 171.45 134.6199 0)
+		(property "Value" "GND"
+			(at 233.68 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 168.6052 137.16 0)
+			(at 233.68 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -680,8 +1107,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 167.64 133.35 0)
+		(property "Datasheet" ""
+			(at 233.68 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -689,17 +1116,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 167.64 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRT188R61H105KE13D/5416752"
-			(at 167.64 133.35 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 233.68 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -708,15 +1126,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "97d9c5d2-1d22-4089-86aa-7c93227dddec")
-		)
-		(pin "2"
-			(uuid "530c6244-6975-4f1d-8000-f83bab360530")
+			(uuid "1691ff2c-39f9-4c42-92c3-f63ea0fc28f0")
 		)
 		(instances
 			(project ""
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/d0ece2d4-5b22-4822-ad0c-e2361683ec3d/8db21157-4c7b-40b0-8814-5c9be8b7a36f"
-					(reference "C9")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -724,7 +1139,7 @@
 	)
 	(symbol
 		(lib_id "TLV761:PTLV76118DCYR")
-		(at 128.27 123.19 0)
+		(at 199.39 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -733,7 +1148,7 @@
 		(fields_autoplaced yes)
 		(uuid "fda75db2-c8c8-4c58-9ad7-37ab65989d6c")
 		(property "Reference" "U8"
-			(at 142.24 114.3 0)
+			(at 213.36 71.12 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -741,7 +1156,7 @@
 			)
 		)
 		(property "Value" "TLV76133, 3.3V, 1%"
-			(at 142.24 116.84 0)
+			(at 213.36 73.66 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -749,7 +1164,7 @@
 			)
 		)
 		(property "Footprint" "DCY0004A-IPC_A"
-			(at 128.27 123.19 0)
+			(at 199.39 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -759,7 +1174,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/tlv761"
-			(at 128.27 123.19 0)
+			(at 199.39 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -769,7 +1184,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 128.27 123.19 0)
+			(at 199.39 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -778,7 +1193,7 @@
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/texas-instruments/TLV76133DCYR/18716472"
-			(at 128.27 123.19 0)
+			(at 199.39 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
