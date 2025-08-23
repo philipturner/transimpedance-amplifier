@@ -144,6 +144,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_Schottky"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "TODO: Include an input-output diode across the\nterminals of all LDO regulators, in line with\nmanufacturer recommendations. We have 470 uF\ncapacitance somewhere.\n\nUse the manufacturer's recommendation of a\nlow-voltage Schottky diode for TLV761. Use the\nrecommendation of a high-voltage diode (1N4002W)\nfor the other regulators. Continue using Schottky\ndiodes to enforce the polarity of the\ninput -> GND differential.\n\nDelete all protection diodes from the schematic.\nDefer the entire cognitive overload of protection\ndiodes until a far-future stage of design, when I\nhave a better understanding of the physical\narrangement of components. And, therefore, a\nmore specific understanding of what transients or\nfault conditions would look like.\n\nI_fault = V_capacitor / ESR"
 		(exclude_from_sim no)
@@ -156,7 +306,7 @@
 		)
 		(uuid "2e996960-d2d7-430d-aa0b-34bf0fb617d4")
 	)
-	(text "TODO:\nPurchase links for Schottky diodes\nFinalize all decoupling networks"
+	(text "TODO:\nFinalize all decoupling networks"
 		(exclude_from_sim no)
 		(at 102.616 56.896 0)
 		(effects
@@ -180,7 +330,7 @@
 	)
 	(text "Bypass Capacitors: 0805"
 		(exclude_from_sim no)
-		(at 242.824 88.646 0)
+		(at 243.078 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -188,6 +338,17 @@
 			(justify left top)
 		)
 		(uuid "4bc59d79-a93d-4947-ad24-4d878de0b9f7")
+	)
+	(text "Protection Diode"
+		(exclude_from_sim no)
+		(at 243.078 115.316 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "600694d0-4ea0-4781-9433-cab6e29425ae")
 	)
 	(text "Maximum Permitted Power Dissipation\nAmbient Temperature: 30°C\n\nLM78L, TO-92\n0.68 W\n0.84 W (heat sinked)\n~158.7°C/W (in a standard test PCB)\n\nLM78, TO-220\n1.78 W\n7.88 W (heat sinked)\n~23.9°C/W (in a standard test PCB)"
 		(exclude_from_sim no)
@@ -202,7 +363,7 @@
 	)
 	(text "Bypass Capacitors: 0603"
 		(exclude_from_sim no)
-		(at 242.824 45.466 0)
+		(at 242.824 25.146 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -431,7 +592,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 245.11 67.31 0)
+		(at 245.11 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -440,7 +601,7 @@
 		(fields_autoplaced yes)
 		(uuid "28a57eec-342c-4176-9921-daf83cadcb99")
 		(property "Reference" "C9"
-			(at 248.92 66.0399 0)
+			(at 248.92 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -449,7 +610,7 @@
 			)
 		)
 		(property "Value" "1 uF, 50V, X5R"
-			(at 248.92 68.5799 0)
+			(at 248.92 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -458,7 +619,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 246.0752 71.12 0)
+			(at 246.0752 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -467,7 +628,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 245.11 67.31 0)
+			(at 245.11 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -476,7 +637,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 245.11 67.31 0)
+			(at 245.11 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -485,7 +646,7 @@
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRT188R61H105KE13D/5416752"
-			(at 245.11 67.31 0)
+			(at 245.11 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -510,7 +671,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 245.11 110.49 0)
+		(at 245.11 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -519,7 +680,7 @@
 		(fields_autoplaced yes)
 		(uuid "802ab89e-7e55-421c-8e60-323d536753ac")
 		(property "Reference" "C15"
-			(at 248.92 109.2199 0)
+			(at 248.92 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -528,7 +689,7 @@
 			)
 		)
 		(property "Value" "10 uF, 25V, X5R"
-			(at 248.92 111.7599 0)
+			(at 248.92 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -537,7 +698,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 246.0752 114.3 0)
+			(at 246.0752 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -546,7 +707,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 245.11 110.49 0)
+			(at 245.11 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -555,7 +716,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 245.11 110.49 0)
+			(at 245.11 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -564,7 +725,7 @@
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM21BR61E106KA73K/4905532"
-			(at 245.11 110.49 0)
+			(at 245.11 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -588,17 +749,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 245.11 54.61 0)
+		(lib_id "Device:D_Schottky")
+		(at 245.11 123.19 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e2fc2d2c-830b-437d-beb0-698956145827")
-		(property "Reference" "C8"
-			(at 248.92 53.3399 0)
+		(uuid "83046277-df44-494e-bad9-71aa4fedfe20")
+		(property "Reference" "D4"
+			(at 247.65 121.6024 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -606,8 +767,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100 nF, 100V, X7R"
-			(at 248.92 55.8799 0)
+		(property "Value" "D_Schottky"
+			(at 247.65 124.1424 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -616,7 +777,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 246.0752 58.42 0)
+			(at 245.11 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -625,7 +786,86 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 245.11 54.61 0)
+			(at 245.11 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 245.11 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/diodes-incorporated/1N5819HW-7-F/814970"
+			(at 245.11 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "83132809-4903-4926-9718-4fd77e9ca8fe")
+		)
+		(pin "1"
+			(uuid "9bfcc455-5273-4433-a695-92347ea74379")
+		)
+		(instances
+			(project ""
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/d0ece2d4-5b22-4822-ad0c-e2361683ec3d"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 245.11 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1ec76da-5496-420d-8592-c93a6dd0b6a8")
+		(property "Reference" "C16"
+			(at 248.92 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220 nF, 50V, X7R"
+			(at 248.92 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.0752 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -634,7 +874,86 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 245.11 54.61 0)
+			(at 245.11 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R71H224KAC4D/5797498"
+			(at 245.11 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d611966-d114-4c55-b7e3-536e883c0b85")
+		)
+		(pin "2"
+			(uuid "19d006ac-ea1c-4544-baec-1d78c69b79fb")
+		)
+		(instances
+			(project ""
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/d0ece2d4-5b22-4822-ad0c-e2361683ec3d"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 245.11 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2fc2d2c-830b-437d-beb0-698956145827")
+		(property "Reference" "C8"
+			(at 248.92 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100 nF, 100V, X7R"
+			(at 248.92 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.0752 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 245.11 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -643,7 +962,7 @@
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R72A104KA35D/702549"
-			(at 245.11 54.61 0)
+			(at 245.11 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -668,7 +987,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 245.11 97.79 0)
+		(at 245.11 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -677,7 +996,7 @@
 		(fields_autoplaced yes)
 		(uuid "fe872c89-d35d-4962-b09d-18036531e158")
 		(property "Reference" "C10"
-			(at 248.92 96.5199 0)
+			(at 248.92 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -686,7 +1005,7 @@
 			)
 		)
 		(property "Value" "1 uF, 50V, X7R"
-			(at 248.92 99.0599 0)
+			(at 248.92 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -695,7 +1014,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 246.0752 101.6 0)
+			(at 246.0752 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -704,7 +1023,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 245.11 97.79 0)
+			(at 245.11 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -713,7 +1032,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 245.11 97.79 0)
+			(at 245.11 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -722,7 +1041,7 @@
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRT21BR71H105KE01L/10702345"
-			(at 245.11 97.79 0)
+			(at 245.11 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
