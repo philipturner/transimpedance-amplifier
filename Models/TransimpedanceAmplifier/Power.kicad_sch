@@ -168,6 +168,17 @@
 		)
 		(uuid "2e996960-d2d7-430d-aa0b-34bf0fb617d4")
 	)
+	(text "TODO:\nPurchase links for regulators\nPurchase links for new trimpots (Y variant)"
+		(exclude_from_sim no)
+		(at 107.442 61.976 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "3249c56a-0880-4a24-84cf-1ebafd821dcc")
+	)
 	(text "Loads on Each Regulator\n\n5 V (PreAmp)\n17 mA\n213 mW\n\n-5 V (PreAmp)\n12 mA\n132 mW\n\n15 V\n54 mA\n785 mW\n\n-15 V\n43 mA\n578 mW\n\n5 V (Converter)\n40 mA\n570 mW\n\n3.3 V (Converter)\n23 mA\n50 mW\n"
 		(exclude_from_sim no)
 		(at 36.576 128.778 0)
