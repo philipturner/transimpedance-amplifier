@@ -144,156 +144,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_Schottky"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Schottky"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Schottky diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Schottky_0_1"
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Schottky_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "LM78L:LM78L05ACZ_LFT1"
 			(pin_names
 				(offset 0.254)
@@ -765,22 +615,10 @@
 		)
 	)
 	(junction
-		(at 190.5 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "332c7114-eedc-487b-a0b8-a86139ab5217")
-	)
-	(junction
 		(at 167.64 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b36a3d0-839c-4960-9358-e3e5c08db8f5")
-	)
-	(junction
-		(at 91.44 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b51378f4-74ae-485a-ba78-96b112fb1b2a")
 	)
 	(junction
 		(at 109.22 68.58)
@@ -812,23 +650,13 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 119.38) (xy 190.5 119.38)
+			(xy 167.64 119.38) (xy 195.58 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0925bdac-1e71-4b2f-86bd-2ed1a4286b67")
-	)
-	(wire
-		(pts
-			(xy 190.5 119.38) (xy 195.58 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13e716cf-ec92-41aa-9944-14f199541d2f")
 	)
 	(wire
 		(pts
@@ -852,43 +680,13 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 55.88) (xy 91.44 55.88)
+			(xy 86.36 55.88) (xy 109.22 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2c7e18f1-a544-4796-8610-e50c15a1f679")
-	)
-	(wire
-		(pts
-			(xy 86.36 55.88) (xy 91.44 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c4d278b-0409-4cdf-b8a8-d4bf536546eb")
-	)
-	(wire
-		(pts
-			(xy 167.64 106.68) (xy 190.5 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47a42644-4c9d-4fb3-9545-189a095cd8e1")
-	)
-	(wire
-		(pts
-			(xy 91.44 66.04) (xy 91.44 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c64cef3-1b17-417b-8d59-5f8a5d893bcc")
 	)
 	(wire
 		(pts
@@ -909,16 +707,6 @@
 			(type default)
 		)
 		(uuid "63c11553-1466-46e1-97fd-cee887efe58c")
-	)
-	(wire
-		(pts
-			(xy 91.44 68.58) (xy 109.22 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "722a4c20-b438-4edd-bc15-431a1f2f8e0a")
 	)
 	(wire
 		(pts
@@ -962,16 +750,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 106.68) (xy 190.5 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97099469-3926-407b-96e8-b95651742c16")
-	)
-	(wire
-		(pts
 			(xy 167.64 116.84) (xy 167.64 119.38)
 		)
 		(stroke
@@ -1002,16 +780,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 55.88) (xy 91.44 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3f3efbf-e6a2-4478-afe6-93314463e8b9")
-	)
-	(wire
-		(pts
 			(xy 167.64 104.14) (xy 167.64 106.68)
 		)
 		(stroke
@@ -1019,16 +787,6 @@
 			(type default)
 		)
 		(uuid "c9f19beb-a423-4059-a248-1f432ff5ec7d")
-	)
-	(wire
-		(pts
-			(xy 190.5 116.84) (xy 190.5 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3c60f98-4887-4f2a-a5ee-d0be41af69c2")
 	)
 	(wire
 		(pts
@@ -1319,146 +1077,6 @@
 			(project ""
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/d0ece2d4-5b22-4822-ad0c-e2361683ec3d/ddbdd109-856f-45b9-b116-121e4fcc3b3f"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 190.5 113.03 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6e340757-428b-419f-af3c-6f992938ee67")
-		(property "Reference" "D5"
-			(at 193.04 111.4424 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D_Schottky"
-			(at 193.04 113.9824 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 190.5 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 190.5 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fa37b100-2ff8-4ca4-bc08-5d7f905e8f0d")
-		)
-		(pin "1"
-			(uuid "cf9ff33a-2002-4e14-8399-998e8bd40b09")
-		)
-		(instances
-			(project ""
-				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/d0ece2d4-5b22-4822-ad0c-e2361683ec3d/ddbdd109-856f-45b9-b116-121e4fcc3b3f"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 91.44 62.23 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ce5749db-ce4f-44f3-8421-703abac6b075")
-		(property "Reference" "D4"
-			(at 93.98 60.6424 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D_Schottky"
-			(at 93.98 63.1824 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 91.44 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "304a28fe-ce0a-4598-bff1-9e774c7ebd88")
-		)
-		(pin "2"
-			(uuid "f71d0537-c4d0-4374-a0f5-46d3292ef2c9")
-		)
-		(instances
-			(project ""
-				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/d0ece2d4-5b22-4822-ad0c-e2361683ec3d/ddbdd109-856f-45b9-b116-121e4fcc3b3f"
-					(reference "D4")
 					(unit 1)
 				)
 			)

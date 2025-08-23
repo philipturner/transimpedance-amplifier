@@ -5,6 +5,17 @@
 	(uuid "3332466e-b586-4a91-a873-f3ba023b3c0f")
 	(paper "A4")
 	(lib_symbols)
+	(text "TODO: Include an input-output diode across the\nterminals of all LDO regulators, in line with\nmanufacturer recommendations. We have 470 uF\ncapacitance somewhere.\n\nUse the manufacturer's recommendation of a\nlow-voltage Schottky diode for TLV761. Use the\nrecommendation of a high-voltage diode (1N4002W)\nfor the other regulators. Continue using Schottky\ndiodes to enforce the polarity of the\ninput -> GND differential.\n\nDelete all protection diodes from the schematic.\nDefer the entire cognitive overload of protection\ndiodes until a far-future stage of design, when I\nhave a better understanding of the physical\narrangement of components. And, therefore, a\nmore specific understanding of what transients or\nfault conditions would look like.\n\nI_fault = V_capacitor / ESR"
+		(exclude_from_sim no)
+		(at 32.258 21.082 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "2e996960-d2d7-430d-aa0b-34bf0fb617d4")
+	)
 	(text "Loads on Each Regulator\n\n5 V (PreAmp)\n17 mA\n213 mW\n\n-5 V (PreAmp)\n12 mA\n132 mW\n\n15 V\n54 mA\n785 mW\n\n-15 V\n43 mA\n578 mW\n\n5 V (Converter)\n40 mA\n570 mW\n\n3.3 V (Converter)\n23 mA\n50 mW\n"
 		(exclude_from_sim no)
 		(at 36.576 128.778 0)
