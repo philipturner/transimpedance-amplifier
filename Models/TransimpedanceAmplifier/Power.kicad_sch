@@ -156,9 +156,9 @@
 		)
 		(uuid "2e996960-d2d7-430d-aa0b-34bf0fb617d4")
 	)
-	(text "TODO:\nPurchase links for regulators\nPurchase links for new trimpots (Y variant)"
+	(text "TODO:\nPurchase links for regulators\nPurchase links for new trimpots (Y variant)\nFootprints for 0805 capacitors\nPurchase links & footprints for Schottky diodes\nFinalize all decoupling networks"
 		(exclude_from_sim no)
-		(at 107.442 61.976 0)
+		(at 102.616 56.896 0)
 		(effects
 			(font
 				(size 1.27 1.27)
