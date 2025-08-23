@@ -1076,6 +1076,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/texas-instruments/LM7815CT-NOPB/3901976"
+			(at 59.69 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c7ee88e3-ae04-46dd-b695-44e42b190a5b")
 		)
@@ -1141,6 +1150,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 180.34 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/texas-instruments/LM7915CT-NOPB/6357"
 			(at 180.34 81.28 0)
 			(effects
 				(font
