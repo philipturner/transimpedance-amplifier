@@ -1,4 +1,4 @@
-26012929474367314
+26014685740149603
 AD8615
 UJ_5_ADI
 
@@ -103132,6 +103132,13 @@ igbt diode module
 25
 TwoTerminal
 CAPC0603
+
+
+0
+2
+2
+TwoTerminal
+CAPC0805
 
 
 0

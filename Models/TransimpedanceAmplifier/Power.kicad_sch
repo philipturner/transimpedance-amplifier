@@ -156,7 +156,7 @@
 		)
 		(uuid "2e996960-d2d7-430d-aa0b-34bf0fb617d4")
 	)
-	(text "TODO:\nFootprints for 0805 capacitors\nPurchase links & footprints for Schottky diodes\nFinalize all decoupling networks"
+	(text "TODO:\nPurchase links for Schottky diodes\nFinalize all decoupling networks"
 		(exclude_from_sim no)
 		(at 102.616 56.896 0)
 		(effects

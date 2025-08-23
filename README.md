@@ -487,5 +487,5 @@ TODO list for the rest of today:
 - Purchase links for regulators
 - Purchase links for new trimpots (Y variant)
 - Footprints for 0805 capacitors
-- Purchase links & footprints for Schottky diodes
+- Purchase links for Schottky diodes
 - Finalize all decoupling networks
