@@ -423,6 +423,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -527,7 +666,7 @@
 	)
 	(text "Arrange the connection between AIN_GND\nand the transimpedance amplifier ground\nconductor, such that interfering current\nreturn paths are minimized / avoided"
 		(exclude_from_sim no)
-		(at 114.554 119.126 0)
+		(at 71.374 86.106 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -537,111 +676,369 @@
 		(uuid "c54fe32a-8cf4-469d-97e9-8c699d1f1d62")
 	)
 	(junction
-		(at 88.9 99.06)
+		(at 185.42 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3a08215c-8ce6-4ecb-8ef6-72ae1042b15f")
+		(uuid "198126d6-57de-46bb-b2c8-3462b0603296")
 	)
 	(junction
-		(at 88.9 93.98)
+		(at 208.28 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "45934689-089d-4811-add7-54d6a527dcd0")
+		(uuid "2864ebb8-1b6d-4458-950d-81d69cfb20d4")
+	)
+	(junction
+		(at 185.42 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d1daeb0-68a1-4f3d-b1eb-78b168c919e5")
+	)
+	(junction
+		(at 208.28 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "984c08b5-89bd-47de-a9e4-5e3fb9c9f13c")
+	)
+	(junction
+		(at 185.42 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf89d12b-e0b1-44ec-8eb5-fa4848377401")
 	)
 	(wire
 		(pts
-			(xy 88.9 88.9) (xy 88.9 93.98)
+			(xy 180.34 33.02) (xy 185.42 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "04cd6e72-06aa-4125-b041-4d11710fa785")
+		(uuid "03b08628-183b-47d2-b7a6-603812a4c127")
 	)
 	(wire
 		(pts
-			(xy 88.9 99.06) (xy 88.9 111.76)
+			(xy 208.28 86.36) (xy 208.28 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1dade601-eb9f-46d6-959b-66612959b31b")
+		(uuid "085a2a27-11c9-41c8-8670-8e7d60303254")
 	)
 	(wire
 		(pts
-			(xy 114.3 106.68) (xy 109.22 106.68)
+			(xy 180.34 83.82) (xy 185.42 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3f23d3a9-1f30-4fff-9b7c-ed7ba0d83241")
+		(uuid "0a86af4c-8dc5-4c66-af25-61fb1bec663f")
 	)
 	(wire
 		(pts
-			(xy 109.22 106.68) (xy 109.22 111.76)
+			(xy 208.28 83.82) (xy 185.42 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8fafc8ef-408f-411c-b829-89ff60e274cd")
+		(uuid "0c6025ff-d25d-4532-8d13-08d968298d45")
 	)
 	(wire
 		(pts
-			(xy 114.3 88.9) (xy 88.9 88.9)
+			(xy 71.12 63.5) (xy 33.02 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "978b97af-5a42-4086-8195-afda9fcba05c")
+		(uuid "0dd2b55d-57e0-4ece-86c1-5b1a0b4b5c49")
 	)
 	(wire
 		(pts
-			(xy 88.9 93.98) (xy 88.9 99.06)
+			(xy 208.28 60.96) (xy 208.28 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c3bb110e-3313-4767-bd18-d991654df2a5")
+		(uuid "0eb91d1b-7938-4eea-8f46-a1da31b03863")
 	)
 	(wire
 		(pts
-			(xy 114.3 99.06) (xy 88.9 99.06)
+			(xy 185.42 33.02) (xy 185.42 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ecac3bcd-8e1c-4780-93bd-f15b5b0c307f")
+		(uuid "1ac9078d-068e-4327-8f8d-d9fa91d9a4b5")
 	)
 	(wire
 		(pts
-			(xy 114.3 93.98) (xy 88.9 93.98)
+			(xy 208.28 58.42) (xy 213.36 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fc535c9f-1883-480a-8ef8-3416c3687c36")
+		(uuid "23c5b805-f6e5-485f-a910-dc75d3b270e6")
 	)
-	(hierarchical_label "5V"
-		(shape input)
-		(at 114.3 91.44 180)
+	(wire
+		(pts
+			(xy 208.28 43.18) (xy 208.28 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24db04a5-235d-4dbd-acef-8d8b6c70b3cc")
+	)
+	(wire
+		(pts
+			(xy 208.28 68.58) (xy 208.28 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2733f4f8-6299-4e34-8999-1e93bb7b86b4")
+	)
+	(wire
+		(pts
+			(xy 185.42 83.82) (xy 185.42 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c368449-7e78-452e-ba6a-d9de1b739c7e")
+	)
+	(wire
+		(pts
+			(xy 208.28 33.02) (xy 185.42 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bc3faa0-0508-4324-a637-928e7a03102c")
+	)
+	(wire
+		(pts
+			(xy 208.28 35.56) (xy 208.28 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "456a1cda-2a91-4b40-b5a0-8c1feaa31fff")
+	)
+	(wire
+		(pts
+			(xy 185.42 43.18) (xy 185.42 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a1e6749-bddf-4aab-b4ba-0c81b68f9eb8")
+	)
+	(wire
+		(pts
+			(xy 208.28 33.02) (xy 213.36 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ae5c8d8-e293-4e9c-94a9-5ea19a733431")
+	)
+	(wire
+		(pts
+			(xy 185.42 93.98) (xy 185.42 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9042f693-3aea-4356-86ff-cfe6cce7b33d")
+	)
+	(wire
+		(pts
+			(xy 33.02 63.5) (xy 33.02 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "981735be-87de-4679-9b8d-eb2664de9e75")
+	)
+	(wire
+		(pts
+			(xy 33.02 78.74) (xy 33.02 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8b6934a-a5ec-415f-951f-1504ca46174b")
+	)
+	(wire
+		(pts
+			(xy 60.96 58.42) (xy 71.12 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b480338a-ad99-47da-a230-0ffe4a94ae5a")
+	)
+	(wire
+		(pts
+			(xy 208.28 93.98) (xy 208.28 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5a559b8-efb4-406a-8afd-501df1ec8d1d")
+	)
+	(wire
+		(pts
+			(xy 180.34 58.42) (xy 185.42 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6210502-9acb-42b7-8953-743a8a24631b")
+	)
+	(wire
+		(pts
+			(xy 142.24 55.88) (xy 149.86 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d65a20e3-8a4a-47a9-be2c-5aa5999b898e")
+	)
+	(wire
+		(pts
+			(xy 208.28 58.42) (xy 185.42 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd69b6e2-eb0b-4b52-b6e1-2483619e7a3e")
+	)
+	(wire
+		(pts
+			(xy 185.42 58.42) (xy 185.42 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dee1ee5d-44ca-423f-9390-cce6bb262c36")
+	)
+	(wire
+		(pts
+			(xy 185.42 68.58) (xy 185.42 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed2aa0d0-28d9-4ff1-819d-31e7cdfd1e3c")
+	)
+	(wire
+		(pts
+			(xy 60.96 68.58) (xy 71.12 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeac26a3-b68d-45c5-be8c-661764c56281")
+	)
+	(label "REFCAP"
+		(at 180.34 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify right bottom)
 		)
-		(uuid "1679bf85-3744-4abb-863b-06158218d737")
+		(uuid "050db568-6ba1-4d9b-b663-b8620bac92ff")
+	)
+	(label "REFCAP"
+		(at 60.96 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2f6c3118-d1fa-4c4d-9329-e2ae5cdc6fee")
+	)
+	(label "AVDD"
+		(at 180.34 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4092b2b9-521a-4be3-9413-dc266d0b3c2e")
+	)
+	(label "DVDD"
+		(at 180.34 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5fc641cc-c286-43d1-a409-a93db59480ac")
+	)
+	(label "DVDD"
+		(at 149.86 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8597163f-7cde-4947-872c-55c0449d1d1c")
+	)
+	(label "AVDD"
+		(at 60.96 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8a21bf76-806f-41b5-a82e-0dd8d13fab74")
+	)
+	(hierarchical_label "3.3V"
+		(shape input)
+		(at 213.36 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "13b50d80-a047-40a2-a3ec-2eef29f1e293")
 	)
 	(hierarchical_label "MOSI"
 		(shape input)
-		(at 185.42 104.14 0)
+		(at 142.24 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -650,20 +1047,9 @@
 		)
 		(uuid "1bc2f741-f49f-4f24-b412-43af9b48cdbe")
 	)
-	(hierarchical_label "3.3V"
-		(shape input)
-		(at 185.42 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "70449713-afd1-4ce8-9ffd-20810f943116")
-	)
 	(hierarchical_label "Input"
 		(shape input)
-		(at 114.3 104.14 180)
+		(at 71.12 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -674,7 +1060,7 @@
 	)
 	(hierarchical_label "CS"
 		(shape input)
-		(at 185.42 101.6 0)
+		(at 142.24 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -685,7 +1071,7 @@
 	)
 	(hierarchical_label "MISO"
 		(shape output)
-		(at 185.42 96.52 0)
+		(at 142.24 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -694,9 +1080,20 @@
 		)
 		(uuid "9470c897-4d97-43db-aced-c253534390f7")
 	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 213.36 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a5a50578-9520-4636-b000-0242cb20d75c")
+	)
 	(hierarchical_label "SCK"
 		(shape input)
-		(at 185.42 99.06 0)
+		(at 142.24 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -706,8 +1103,140 @@
 		(uuid "f7da485a-a1d0-4911-854a-5dcbc346f1e5")
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 208.28 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c137149-9f22-44ba-9222-0c9db1cefad9")
+		(property "Reference" "#PWR054"
+			(at 208.28 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 208.28 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 208.28 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60c12ef1-81e3-482b-a2d9-2dc4b5e70f60")
+		)
+		(instances
+			(project "TransimpedanceAmplifier"
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/7e303428-a18c-4ad4-b002-5ab9c6631588/4e36751c-3edc-4fd3-bdbc-fcba4fce50b6"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 185.42 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ff6d060-2d04-4890-abf8-32fda4bc56a3")
+		(property "Reference" "#PWR051"
+			(at 185.42 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 185.42 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 185.42 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00f9b774-57fb-4a99-bdd8-51181a2e6e14")
+		)
+		(instances
+			(project "TransimpedanceAmplifier"
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/7e303428-a18c-4ad4-b002-5ab9c6631588/4e36751c-3edc-4fd3-bdbc-fcba4fce50b6"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ADS8699:ADS8699IPW")
-		(at 114.3 88.9 0)
+		(at 71.12 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -716,7 +1245,7 @@
 		(fields_autoplaced yes)
 		(uuid "131f3dd3-afdf-435d-bf6e-cccc60bf668b")
 		(property "Reference" "U3"
-			(at 149.86 78.74 0)
+			(at 106.68 45.72 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -724,7 +1253,7 @@
 			)
 		)
 		(property "Value" "ADS8699IPW"
-			(at 149.86 81.28 0)
+			(at 106.68 48.26 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -732,7 +1261,7 @@
 			)
 		)
 		(property "Footprint" "PW16_TEX"
-			(at 114.3 88.9 0)
+			(at 71.12 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -742,7 +1271,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/ads8699"
-			(at 114.3 88.9 0)
+			(at 71.12 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -752,7 +1281,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 88.9 0)
+			(at 71.12 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -761,7 +1290,7 @@
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/texas-instruments/ADS8699IPWR/6600065"
-			(at 114.3 88.9 0)
+			(at 71.12 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -828,16 +1357,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 109.22 111.76 0)
+		(at 33.02 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2860b111-9d83-4e44-a133-e15071c424fc")
-		(property "Reference" "#PWR017"
-			(at 109.22 118.11 0)
+		(uuid "1c20b8fe-7cd0-43c6-af4a-28aad29176b3")
+		(property "Reference" "#PWR057"
+			(at 33.02 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -846,7 +1375,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 109.22 116.84 0)
+			(at 33.02 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -854,7 +1383,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 111.76 0)
+			(at 33.02 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -863,7 +1392,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 111.76 0)
+			(at 33.02 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -872,7 +1401,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 111.76 0)
+			(at 33.02 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -881,7 +1410,562 @@
 			)
 		)
 		(pin "1"
-			(uuid "85b0ab6c-5d4d-4766-afd0-f8555658a1b2")
+			(uuid "a936dcf9-5758-4d58-821b-77091752a2cd")
+		)
+		(instances
+			(project ""
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/7e303428-a18c-4ad4-b002-5ab9c6631588/4e36751c-3edc-4fd3-bdbc-fcba4fce50b6"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 208.28 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ffa8968-40bb-444a-a238-4c212dea28bd")
+		(property "Reference" "#PWR052"
+			(at 208.28 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 208.28 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 208.28 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b722f1fd-f9aa-44e1-b9d1-ffa029cd6e91")
+		)
+		(instances
+			(project "TransimpedanceAmplifier"
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/7e303428-a18c-4ad4-b002-5ab9c6631588/4e36751c-3edc-4fd3-bdbc-fcba4fce50b6"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 185.42 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "207afdf4-f70c-4bc2-aaa7-8c99fccc7434")
+		(property "Reference" "C35"
+			(at 189.23 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1 uF, 0603"
+			(at 189.23 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.3852 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 185.42 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "371d5ade-56d4-4b01-9c61-e5f45a12ff7e")
+		)
+		(pin "2"
+			(uuid "0e5b83ab-4df3-4c0b-8f04-be7b5f5faaaa")
+		)
+		(instances
+			(project ""
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/7e303428-a18c-4ad4-b002-5ab9c6631588/4e36751c-3edc-4fd3-bdbc-fcba4fce50b6"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 185.42 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a86c351-5fda-4cb4-954f-013c7ffa4812")
+		(property "Reference" "C39"
+			(at 189.23 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1 uF, 0603"
+			(at 189.23 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.3852 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 185.42 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6eb127ba-896f-4f83-bdeb-829fe60eb0a4")
+		)
+		(pin "2"
+			(uuid "e885d6f4-c556-45a1-8f47-35f1baec07e3")
+		)
+		(instances
+			(project "TransimpedanceAmplifier"
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/7e303428-a18c-4ad4-b002-5ab9c6631588/4e36751c-3edc-4fd3-bdbc-fcba4fce50b6"
+					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 208.28 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56a61372-5913-46a2-b9a7-bfb29112f161")
+		(property "Reference" "C38"
+			(at 212.09 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 uF, 0805"
+			(at 212.09 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.2452 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 208.28 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" ""
+			(at 208.28 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "655923f5-52dc-4e55-8dc3-15702bf0daae")
+		)
+		(pin "2"
+			(uuid "6c6d5bf1-7641-494c-adff-d5f7e45a8c0a")
+		)
+		(instances
+			(project "TransimpedanceAmplifier"
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/7e303428-a18c-4ad4-b002-5ab9c6631588/4e36751c-3edc-4fd3-bdbc-fcba4fce50b6"
+					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 185.42 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "690f1a6e-ed97-4b2b-9ad1-74fa84af59ad")
+		(property "Reference" "#PWR053"
+			(at 185.42 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 185.42 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 185.42 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87b1ad76-6100-4935-b188-877a4c999703")
+		)
+		(instances
+			(project "TransimpedanceAmplifier"
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/7e303428-a18c-4ad4-b002-5ab9c6631588/4e36751c-3edc-4fd3-bdbc-fcba4fce50b6"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 71.12 60.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "712d56ab-a99d-4528-a01b-2196d81b8245")
+		(property "Reference" "#PWR048"
+			(at 64.77 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.31 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 71.12 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb6883a4-ca90-4404-bf96-c42f6aedee12")
+		)
+		(instances
+			(project "TransimpedanceAmplifier"
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/7e303428-a18c-4ad4-b002-5ab9c6631588/4e36751c-3edc-4fd3-bdbc-fcba4fce50b6"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 185.42 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8bdf64e7-3fb9-4776-93d4-1bfd5729bec6")
+		(property "Reference" "C37"
+			(at 189.23 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1 uF, 0603"
+			(at 189.23 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.3852 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 185.42 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5fc4f943-f6ca-46a5-a001-e164a8edd345")
+		)
+		(pin "2"
+			(uuid "06da10be-f9e3-4b72-a1be-7f2c245942f3")
+		)
+		(instances
+			(project "TransimpedanceAmplifier"
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/7e303428-a18c-4ad4-b002-5ab9c6631588/4e36751c-3edc-4fd3-bdbc-fcba4fce50b6"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 71.12 73.66 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "902884a0-2497-4a71-b09f-2251dcc80c69")
+		(property "Reference" "#PWR017"
+			(at 64.77 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.31 73.6599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 71.12 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ced239d7-795e-471a-8b8c-03f7d7992fb5")
 		)
 		(instances
 			(project ""
@@ -893,34 +1977,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 88.9 111.76 0)
+		(lib_id "Device:C")
+		(at 208.28 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8dd09c6f-d2bb-4b49-9b3c-125b39254411")
-		(property "Reference" "#PWR018"
-			(at 88.9 118.11 0)
+		(uuid "9b5aff7e-d268-4a90-bda4-f98ce5cf20c3")
+		(property "Reference" "C36"
+			(at 212.09 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 88.9 116.84 0)
+		(property "Value" "10 uF, 0805"
+			(at 212.09 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 111.76 0)
+			(at 209.2452 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -928,8 +2013,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 88.9 111.76 0)
+		(property "Datasheet" "~"
+			(at 208.28 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -937,8 +2022,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 111.76 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 208.28 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" ""
+			(at 208.28 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -947,12 +2041,439 @@
 			)
 		)
 		(pin "1"
-			(uuid "e36e8549-e8b1-41c5-ab43-cc602f6bc8cb")
+			(uuid "41f7f63a-ae31-47aa-80a3-e8f595b0a789")
+		)
+		(pin "2"
+			(uuid "6423838b-9e84-46e3-8e01-6d28a86dd916")
+		)
+		(instances
+			(project "TransimpedanceAmplifier"
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/7e303428-a18c-4ad4-b002-5ab9c6631588/4e36751c-3edc-4fd3-bdbc-fcba4fce50b6"
+					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 208.28 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7f92675-a0c9-40ee-bdae-5fd3e2769356")
+		(property "Reference" "#PWR050"
+			(at 208.28 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 208.28 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 208.28 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b18376fa-d614-4279-ba9b-8846711ac83f")
+		)
+		(instances
+			(project "TransimpedanceAmplifier"
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/7e303428-a18c-4ad4-b002-5ab9c6631588/4e36751c-3edc-4fd3-bdbc-fcba4fce50b6"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 185.42 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbc4b4e9-6b9f-4329-b65c-72555a701c80")
+		(property "Reference" "#PWR049"
+			(at 185.42 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 185.42 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 185.42 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "316552e3-ad35-43ff-ba7a-68bf2742658f")
 		)
 		(instances
 			(project ""
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/7e303428-a18c-4ad4-b002-5ab9c6631588/4e36751c-3edc-4fd3-bdbc-fcba4fce50b6"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 33.02 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c07fad94-2ae0-42b1-8260-9f9f23a1c024")
+		(property "Reference" "C43"
+			(at 36.83 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 uF, 0805"
+			(at 36.83 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.9852 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 33.02 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" ""
+			(at 33.02 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b33df541-eafc-46ff-9236-566a2becdce5")
+		)
+		(pin "1"
+			(uuid "f17c534c-c3ab-4fb0-b3e4-b4b68de07f75")
+		)
+		(instances
+			(project ""
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/7e303428-a18c-4ad4-b002-5ab9c6631588/4e36751c-3edc-4fd3-bdbc-fcba4fce50b6"
+					(reference "C43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 71.12 66.04 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c341814f-46b3-4be0-a098-36ca29686d4c")
+		(property "Reference" "#PWR018"
+			(at 64.77 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.31 66.0399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 71.12 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fdd2b047-f1bb-458c-8d4d-f325c4407738")
+		)
+		(instances
+			(project "TransimpedanceAmplifier"
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/7e303428-a18c-4ad4-b002-5ab9c6631588/4e36751c-3edc-4fd3-bdbc-fcba4fce50b6"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 208.28 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f05a95cc-baf2-427f-9140-4737d47f09a9")
+		(property "Reference" "C40"
+			(at 212.09 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 uF, 0805"
+			(at 212.09 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.2452 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 208.28 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" ""
+			(at 208.28 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b79642b-1da2-40f7-8af8-d36e93dac24a")
+		)
+		(pin "2"
+			(uuid "7807f4ce-1200-4d3f-9d6a-45c988793250")
+		)
+		(instances
+			(project "TransimpedanceAmplifier"
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/7e303428-a18c-4ad4-b002-5ab9c6631588/4e36751c-3edc-4fd3-bdbc-fcba4fce50b6"
+					(reference "C40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 71.12 55.88 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fee6076a-fcbf-494a-8ef5-b00d84fb86ea")
+		(property "Reference" "#PWR047"
+			(at 64.77 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.31 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 71.12 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb9166e5-0b07-420d-8109-c45d55e145a4")
+		)
+		(instances
+			(project "TransimpedanceAmplifier"
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/7e303428-a18c-4ad4-b002-5ab9c6631588/4e36751c-3edc-4fd3-bdbc-fcba4fce50b6"
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
