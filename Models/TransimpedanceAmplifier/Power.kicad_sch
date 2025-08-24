@@ -16,7 +16,7 @@
 		)
 		(uuid "380267e7-904f-41f0-bef9-9b53d928c994")
 	)
-	(text "Maximum Permitted Power Dissipation\nAmbient Temperature: 30°C\n\nLM78L, TO-92\n0.68 W\n0.84 W (heat sinked)\n~158.7°C/W (in a standard test PCB)\n\nLM78, TO-220\n1.78 W\n7.88 W (heat sinked)\n~23.9°C/W (in a standard test PCB)"
+	(text "Maximum Permitted Power Dissipation\nAmbient Temperature: 30°C\n\nLM78L, TO-92\n0.68 W\n0.84 W (heat sinked)\n~158.7°C/W (in a standard test PCB)\n\nLM78, TO-220\n1.78 W\n7.88 W (heat sinked)\n~23.9°C/W (in a standard test PCB)\n\nTLV761, SOT-223\n~95.4°C/W (in a standard test PCB)"
 		(exclude_from_sim no)
 		(at 76.962 129.032 0)
 		(effects
