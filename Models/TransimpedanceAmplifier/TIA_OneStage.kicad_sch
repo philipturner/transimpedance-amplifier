@@ -1538,7 +1538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Purchase Link" ""
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R72A104KA35D/702549"
 			(at 172.72 87.63 0)
 			(effects
 				(font
@@ -1609,6 +1609,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 121.92 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R72A104KA35D/702549"
 			(at 121.92 110.49 0)
 			(effects
 				(font

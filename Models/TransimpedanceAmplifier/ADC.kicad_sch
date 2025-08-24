@@ -1542,6 +1542,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRT188R61H105KE13D/5416752"
+			(at 185.42 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "371d5ade-56d4-4b01-9c61-e5f45a12ff7e")
 		)
@@ -1604,6 +1613,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 185.42 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRT188R61H105KE13D/5416752"
 			(at 185.42 90.17 0)
 			(effects
 				(font
@@ -1682,7 +1700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Purchase Link" ""
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM21BR61E106KA73K/4905532"
 			(at 208.28 64.77 0)
 			(effects
 				(font
@@ -1894,6 +1912,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRT188R61H105KE13D/5416752"
+			(at 185.42 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5fc4f943-f6ca-46a5-a001-e164a8edd345")
 		)
@@ -2031,7 +2058,7 @@
 				(hide yes)
 			)
 		)
-		(property "Purchase Link" ""
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM21BR61E106KA73K/4905532"
 			(at 208.28 39.37 0)
 			(effects
 				(font
@@ -2242,7 +2269,7 @@
 				(hide yes)
 			)
 		)
-		(property "Purchase Link" ""
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM21BR61E106KA73K/4905532"
 			(at 33.02 74.93 0)
 			(effects
 				(font
@@ -2388,7 +2415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Purchase Link" ""
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM21BR61E106KA73K/4905532"
 			(at 208.28 90.17 0)
 			(effects
 				(font

@@ -784,7 +784,7 @@
 	)
 	(text "Dropout voltage:\n0.9 V (typical), 1.6 V (max)\n\nVariation with load:\n0.9 V (1.0 A)\n0.7 V (0.8 A)\n0.2 V (0.1 A)\n\nDropout voltage exceeds\nexpected value when\nVout + 1.5 V < 4.0 V"
 		(exclude_from_sim no)
-		(at 195.58 44.704 0)
+		(at 26.67 147.066 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1172,6 +1172,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRT21BR71H105KE01L/10702345"
+			(at 114.3 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dab5e7c3-11aa-4f65-bcc5-059eb6f5118f")
 		)
@@ -1383,6 +1392,15 @@
 		)
 		(property "Description" "Schottky diode"
 			(at 134.62 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/diodes-incorporated/1N5819HW-7-F/814970"
+			(at 134.62 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1658,6 +1676,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRT21BR71H105KE01L/10702345"
+			(at 71.12 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f05aa3c9-e6a9-41b3-80ff-f7b54a173f70")
 		)
@@ -1860,6 +1887,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R71H224KAC4D/5797498"
+			(at 53.34 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "26c4a251-8f8d-4f34-8688-70b57288043d")
 		)
@@ -1923,6 +1959,15 @@
 		)
 		(property "Description" "Schottky diode"
 			(at 134.62 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/diodes-incorporated/1N5819HW-7-F/814970"
+			(at 134.62 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2124,6 +2169,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 111.76 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R72A104KA35D/702549"
 			(at 111.76 64.77 0)
 			(effects
 				(font

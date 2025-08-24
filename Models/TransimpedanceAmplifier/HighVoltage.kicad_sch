@@ -1149,6 +1149,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R71H224KAC4D/5797498"
+			(at 53.34 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e13db08b-9ed2-4470-b981-5806b896fbf3")
 		)
@@ -1845,6 +1854,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R72A104KA35D/702549"
+			(at 111.76 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "67282e79-2b2e-41a7-9b11-e6f1011d15d8")
 		)
@@ -1915,6 +1933,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/diodes-incorporated/1N5819HW-7-F/814970"
+			(at 134.62 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "26d6b38a-0e32-443e-99f6-a5627e4829f7")
 		)
@@ -1977,6 +2004,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 114.3 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRT21BR71H105KE01L/10702345"
 			(at 114.3 143.51 0)
 			(effects
 				(font
@@ -2055,6 +2091,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/diodes-incorporated/1N5819HW-7-F/814970"
+			(at 134.62 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8165cc47-a546-4efb-985c-1070aaddac94")
 		)
@@ -2117,6 +2162,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 114.3 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRT21BR71H105KE01L/10702345"
 			(at 114.3 123.19 0)
 			(effects
 				(font

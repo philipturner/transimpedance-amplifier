@@ -3164,7 +3164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Purchase Link" ""
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R72A104KA35D/702549"
 			(at 137.16 54.61 0)
 			(effects
 				(font
@@ -3547,7 +3547,7 @@
 				(hide yes)
 			)
 		)
-		(property "Purchase Link" ""
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R72A104KA35D/702549"
 			(at 55.88 77.47 0)
 			(effects
 				(font
