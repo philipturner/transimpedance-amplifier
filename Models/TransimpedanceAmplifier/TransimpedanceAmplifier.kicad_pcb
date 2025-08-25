@@ -8210,6 +8210,290 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint "ThreeTerminal:SOT-223"
+		(layer "F.Cu")
+		(uuid "469f5b31-6fa1-4d8b-8968-b30334f57ffc")
+		(at 165.33 147.05)
+		(property "Reference" "REF**"
+			(at -0.03 -4.65 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "33168142-f7d1-4fad-93be-19a850ba169b")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+		(property "Value" "SOT-223"
+			(at -0.045 -6.36 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "af00000d-7b26-4cb5-83e7-a32fb5d3ba21")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0041b82a-9d93-46e8-8a01-092f08081a9d")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "abbc2f9b-7e19-4ced-a62f-67e01168143d")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+		(attr smd)
+		(fp_line
+			(start -1.85 -3.46)
+			(end 1.96 -3.46)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "0fd8d4fa-978d-4440-b3bd-017050bbc8df")
+		)
+		(fp_line
+			(start -1.85 3.46)
+			(end 1.96 3.46)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "3b6118c5-3f8c-4207-94dc-13dd66cfdf24")
+		)
+		(fp_line
+			(start 1.96 -3.46)
+			(end 1.96 -1.9)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "26d6d267-a1b3-4d6e-9074-f5e6f4b61c0b")
+		)
+		(fp_line
+			(start 1.96 3.46)
+			(end 1.96 1.9)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "fd972ba1-dc8d-4232-9d92-95cc606fbce3")
+		)
+		(fp_poly
+			(pts
+				(xy -3.1 -3.075) (xy -2.86 -3.405) (xy -3.34 -3.405)
+			)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "8d6bed3f-1fd8-446c-bdde-8b287c4f66e5")
+		)
+		(fp_line
+			(start -4.465 -3.065)
+			(end -4.465 3.065)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "12b5f02d-b68c-489e-b460-558ee7669787")
+		)
+		(fp_line
+			(start -2.1 -3.6)
+			(end -2.1 -3.065)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "b800c125-d723-469d-976d-f138915dce93")
+		)
+		(fp_line
+			(start -2.1 -3.6)
+			(end 2.1 -3.6)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "9e2e44b5-12e9-4d62-936e-3435d60dde99")
+		)
+		(fp_line
+			(start -2.1 -3.065)
+			(end -4.465 -3.065)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "62910c67-a5c9-49be-af17-107543be7e38")
+		)
+		(fp_line
+			(start -2.1 3.065)
+			(end -4.465 3.065)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "ecaac65c-cd5f-4f3e-ba65-622510aa2da8")
+		)
+		(fp_line
+			(start -2.1 3.6)
+			(end -2.1 3.065)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "22e7cec9-bce9-4c2c-b575-2c6720cffc88")
+		)
+		(fp_line
+			(start -2.1 3.6)
+			(end 2.1 3.6)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "d89b5918-595c-45fa-9eaa-a34d5c4e591a")
+		)
+		(fp_line
+			(start 2.1 -3.6)
+			(end 2.1 -1.89)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "0d99ea0b-468d-4295-9ddf-f99c2a8ddd4c")
+		)
+		(fp_line
+			(start 2.1 -1.89)
+			(end 4.465 -1.89)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "fe156680-ca5f-4a73-806e-6f9a90cc6f0c")
+		)
+		(fp_line
+			(start 2.1 1.89)
+			(end 4.465 1.89)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "43a6473b-d0e4-4ef6-b4f6-6aa6dee6e2e4")
+		)
+		(fp_line
+			(start 2.1 3.6)
+			(end 2.1 1.89)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "d288210d-a9b7-45ba-a1c2-b8138a6a5200")
+		)
+		(fp_line
+			(start 4.465 -1.89)
+			(end 4.465 1.89)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "d447de2c-bd16-4e18-8140-a31cbf8d41c6")
+		)
+		(fp_rect
+			(start -1.85 -3.35)
+			(end 1.85 3.35)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "9ad08c6c-07b0-466a-a343-e8762554733e")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.045 -5.16 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "b7348ddd-c6c3-4f67-b294-97cc781e1861")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -3.1 -2.3)
+			(size 2.23 1.03)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(thermal_bridge_angle 45)
+			(uuid "745f9a37-5c7d-46dc-9963-62715f06b36b")
+		)
+		(pad "2" smd roundrect
+			(at -3.1 0)
+			(size 2.23 1.03)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(thermal_bridge_angle 45)
+			(uuid "d1b06701-41f7-4078-8352-35773f5af919")
+		)
+		(pad "3" smd roundrect
+			(at -3.1 2.3)
+			(size 2.23 1.03)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(thermal_bridge_angle 45)
+			(uuid "a0ba7bed-a575-41d6-9887-c214b7df1a99")
+		)
+		(pad "4" smd roundrect
+			(at 3.1 0)
+			(size 2.23 3.28)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(thermal_bridge_angle 45)
+			(uuid "a90bfe9f-2b21-4538-8cfe-940891fb4525")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "DAC81401:PW0020A-IPC_B"
 		(layer "F.Cu")
 		(uuid "57ec51fc-846e-48ec-9e0b-935abc341035")
@@ -28375,10 +28659,23 @@
 		)
 		(embedded_fonts no)
 	)
-	(gr_text "{dblquote}Correct{dblquote} Footprints Created from First-Principles Probability Math\n\nDay 1: RESC, CAPC\nDay 2: AD8615, SOIC-8, DAC81401, ADS8699, ISO7641FM\nRemaining: TLV761, LM78/79L, LM4040D10/33, Bourns3269, Teensy"
+	(gr_text "{dblquote}Correct{dblquote} Footprints Created from First-Principles Probability Math\n\nDay 1: RESC, CAPC\nDay 2: AD8615, SOIC-8, DAC81401, ADS8699, ISO7641FM"
 		(at 191.28 81.31 0)
 		(layer "User.1")
 		(uuid "0177f400-03d1-48f7-a329-2eb41e01c4c9")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "Day 7: SOD-123, SOT-23, SOT-223"
+		(at 144.49 114.71 0)
+		(layer "User.1")
+		(uuid "8172f17a-d4e8-42b9-81e1-1de87b218746")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -28483,6 +28780,19 @@
 		(at 232.72 124.66 0)
 		(layer "User.2")
 		(uuid "1e672155-35ff-4bec-a627-038ca0db1693")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "SOT-223"
+		(at 144.93 146.23 0)
+		(layer "User.2")
+		(uuid "21b3832e-5f17-427d-958f-c54c81aae971")
 		(effects
 			(font
 				(size 1.5 1.5)
