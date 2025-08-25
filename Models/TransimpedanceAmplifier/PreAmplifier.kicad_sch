@@ -230,7 +230,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 7.62 7.62 0)
+				(at 5.08 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -239,7 +239,7 @@
 				)
 			)
 			(property "Value" "D_Zener"
-				(at 7.62 5.08 0)
+				(at 5.08 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -276,8 +276,8 @@
 			)
 			(symbol "D_Zener_0_1"
 				(rectangle
-					(start -3.81 7.62)
-					(end 6.35 -7.62)
+					(start -3.81 6.35)
+					(end 3.81 -6.35)
 					(stroke
 						(width 0)
 						(type default)
@@ -349,7 +349,25 @@
 			)
 			(symbol "D_Zener_1_1"
 				(pin passive line
-					(at 0 10.16 270)
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "*"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 8.89 270)
 					(length 2.54)
 					(name "K"
 						(effects
@@ -367,7 +385,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -10.16 90)
+					(at 0 -8.89 90)
 					(length 2.54)
 					(name "A"
 						(effects
@@ -377,24 +395,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 8.89 0 180)
-					(length 2.54)
-					(name "*"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1058,7 +1058,7 @@
 	)
 	(text "Voltage divider"
 		(exclude_from_sim no)
-		(at 201.168 30.226 0)
+		(at 200.914 34.036 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1069,7 +1069,7 @@
 	)
 	(text "Local decoupling network"
 		(exclude_from_sim no)
-		(at 152.4 30.48 0)
+		(at 152.4 33.782 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1083,6 +1083,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1a30d2fd-2525-4ad4-a066-5362b3b9eb2d")
+	)
+	(junction
+		(at 215.9 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4090ed16-b2e0-4bf3-a033-65087dd5ee87")
 	)
 	(junction
 		(at 157.48 127)
@@ -1126,22 +1132,6 @@
 		(color 0 0 0 0)
 		(uuid "adf07d47-d123-4718-84cb-7347cb6db691")
 	)
-	(junction
-		(at 215.9 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d5da2de3-dc44-4fdd-8a30-220f991a717b")
-	)
-	(wire
-		(pts
-			(xy 215.9 92.71) (xy 215.9 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03492637-cf71-4d3a-a27f-7bcd38cefa30")
-	)
 	(wire
 		(pts
 			(xy 45.72 83.82) (xy 50.8 83.82)
@@ -1151,16 +1141,6 @@
 			(type default)
 		)
 		(uuid "0949116c-211e-4885-8759-c91d98a3548d")
-	)
-	(wire
-		(pts
-			(xy 215.9 66.04) (xy 215.9 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "171d4d4c-168a-4118-892b-16ae24e0a194")
 	)
 	(wire
 		(pts
@@ -1284,16 +1264,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 81.28) (xy 226.06 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6660766f-9fce-43a5-80ef-ca0cb04abb4f")
-	)
-	(wire
-		(pts
 			(xy 177.8 55.88) (xy 177.8 82.55)
 		)
 		(stroke
@@ -1324,6 +1294,26 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 82.55) (xy 208.28 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9738893c-e239-40ae-9206-9fcd0ff90a93")
+	)
+	(wire
+		(pts
+			(xy 215.9 66.04) (xy 215.9 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97858151-5dcd-42e2-9867-ecc6debaac62")
+	)
+	(wire
+		(pts
 			(xy 177.8 55.88) (xy 215.9 55.88)
 		)
 		(stroke
@@ -1331,6 +1321,16 @@
 			(type default)
 		)
 		(uuid "a42a7c93-5241-4443-8504-c3d6e3d8a5ac")
+	)
+	(wire
+		(pts
+			(xy 215.9 91.44) (xy 215.9 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a800418c-2e88-4be9-a3c1-4f40c76c5218")
 	)
 	(wire
 		(pts
@@ -1344,23 +1344,33 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 91.44) (xy 215.9 92.71)
+			(xy 208.28 82.55) (xy 208.28 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c28c5620-b0dc-4331-aa1c-9a84d23aefac")
+		(uuid "af700edf-0db7-4443-bed0-9d702d4b27dd")
 	)
 	(wire
 		(pts
-			(xy 224.79 81.28) (xy 226.06 81.28)
+			(xy 215.9 92.71) (xy 215.9 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c5c59db0-f43e-4d4b-a80a-da3a310aba96")
+		(uuid "b1700d97-0d3f-4fc9-96d8-1dfb257ec050")
+	)
+	(wire
+		(pts
+			(xy 208.28 92.71) (xy 215.9 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3b978c1-a5ed-4f8d-a682-81cf6b66bfdc")
 	)
 	(wire
 		(pts
@@ -1461,16 +1471,6 @@
 			(type default)
 		)
 		(uuid "f4301431-03da-411e-93b7-24fa1baab1db")
-	)
-	(wire
-		(pts
-			(xy 215.9 92.71) (xy 226.06 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7da56da-2ff7-4914-82d2-529580b4f934")
 	)
 	(wire
 		(pts
@@ -1640,6 +1640,88 @@
 			(project ""
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/226b3d0c-9e45-4bcf-9bef-58938aee743e/728283d1-1c30-4fdc-aa4d-bf897972ea87"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom:D_Zener")
+		(at 215.9 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e2e7cad-6422-4b45-a9e2-14e6ab0746dd")
+		(property "Reference" "D1"
+			(at 220.98 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3V, 1%"
+			(at 220.98 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/diodes-incorporated/LM4040D33FTA/10295608"
+			(at 215.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "5d4b32fb-9c6d-4cb4-972a-c8bcc56b416d")
+		)
+		(pin "2"
+			(uuid "38f1f919-6ede-4058-923a-ed8c5dc5a322")
+		)
+		(pin "1"
+			(uuid "49b08865-7c1a-440e-83aa-dde37d8326f7")
+		)
+		(instances
+			(project ""
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/226b3d0c-9e45-4bcf-9bef-58938aee743e/728283d1-1c30-4fdc-aa4d-bf897972ea87"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -2249,88 +2331,6 @@
 			(project ""
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/226b3d0c-9e45-4bcf-9bef-58938aee743e/728283d1-1c30-4fdc-aa4d-bf897972ea87"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Custom:D_Zener")
-		(at 215.9 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e491c879-74e8-471d-a27e-940f4cdd95cf")
-		(property "Reference" "D4"
-			(at 210.82 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "3.3V, 1%"
-			(at 210.82 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 215.9 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 215.9 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase Link" "https://www.digikey.com/en/products/detail/diodes-incorporated/LM4040D33FTA/10295608"
-			(at 215.9 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d89230f2-3c25-492f-9d8b-c8c4bdf75b34")
-		)
-		(pin "2"
-			(uuid "3c07aedf-3fe2-4140-aa28-e1ff7205773a")
-		)
-		(pin "3"
-			(uuid "df465825-7fc8-4523-bedd-1458d6ae40e4")
-		)
-		(instances
-			(project ""
-				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/226b3d0c-9e45-4bcf-9bef-58938aee743e/728283d1-1c30-4fdc-aa4d-bf897972ea87"
-					(reference "D4")
 					(unit 1)
 				)
 			)

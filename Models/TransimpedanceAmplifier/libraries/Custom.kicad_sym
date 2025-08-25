@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
-			(at 7.62 7.62 0)
+			(at 5.08 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16,7 +16,7 @@
 			)
 		)
 		(property "Value" "D_Zener"
-			(at 7.62 5.08 0)
+			(at 5.08 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53,8 +53,8 @@
 		)
 		(symbol "D_Zener_0_1"
 			(rectangle
-				(start -3.81 7.62)
-				(end 6.35 -7.62)
+				(start -3.81 6.35)
+				(end 3.81 -6.35)
 				(stroke
 					(width 0)
 					(type default)
@@ -126,7 +126,25 @@
 		)
 		(symbol "D_Zener_1_1"
 			(pin passive line
-				(at 0 10.16 270)
+				(at -6.35 0 0)
+				(length 2.54)
+				(name "*"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 8.89 270)
 				(length 2.54)
 				(name "K"
 					(effects
@@ -144,7 +162,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -10.16 90)
+				(at 0 -8.89 90)
 				(length 2.54)
 				(name "A"
 					(effects
@@ -154,24 +172,6 @@
 					)
 				)
 				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 8.89 0 180)
-				(length 2.54)
-				(name "*"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)

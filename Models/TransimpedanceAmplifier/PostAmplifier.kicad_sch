@@ -5,6 +5,186 @@
 	(uuid "dfdbd075-e082-472b-9d51-cd12283121ca")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Custom:D_Zener"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "D_Zener"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Zener_0_1"
+				(rectangle
+					(start -3.81 6.35)
+					(end 3.81 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy 1.27 1.27) (xy 1.27 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 1.27 -1.27) (xy 0 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Zener_1_1"
+				(pin passive line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "*"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 8.89 270)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -8.89 90)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Custom:Q_NPN"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -624,156 +804,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "D_Zener_1"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Zener"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Zener diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Zener_1_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Zener_1_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1039,156 +1069,6 @@
 				)
 			)
 			(symbol "D_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:D_Zener"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Zener"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Zener diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Zener_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Zener_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -1928,8 +1808,8 @@
 		)
 	)
 	(rectangle
-		(start 193.04 33.02)
-		(end 269.24 147.32)
+		(start 185.42 35.56)
+		(end 271.78 147.32)
 		(stroke
 			(width 0)
 			(type default)
@@ -1937,7 +1817,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 6ddf485b-10ae-494d-907e-6a3642f181ed)
+		(uuid c6b4506b-efe2-46fc-8bc4-ea9e0a7ae853)
 	)
 	(text "Cannot \"suppress the influence of transistor\nleakage currents or parasitic capacitances on\nthe input of OP2\" b/c the connection point is\na nonzero voltage instead of GND with this\ndesign. The approach used in the original\npaper would make the diodes conduct from the\nvoltage differential between the connection\npoint and (10k) * (±25 nA) ≈ (±0.25 mV).\n\nInstead, provide a reversible (THT) jumper\nto disconnect this feedback path if it proves\nproblematic. Omit the jumper once we are\ncertain the interference is not a problem."
 		(exclude_from_sim no)
@@ -1950,9 +1830,9 @@
 		)
 		(uuid "1f11fb60-c371-4ac2-9fb7-8a06aecbff88")
 	)
-	(text "Alternative to the 15k feedback\nresistor at high voltage"
+	(text "Alternative to the 15k feedback resistor at high voltage"
 		(exclude_from_sim no)
-		(at 193.294 28.956 0)
+		(at 185.42 33.782 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1962,22 +1842,28 @@
 		(uuid "eee00b0a-ee75-48f0-aa63-e6f6e5d20e87")
 	)
 	(junction
-		(at 246.38 114.3)
+		(at 246.38 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2c474627-6dd7-4eec-a36b-432c5d9db38e")
-	)
-	(junction
-		(at 246.38 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3157d537-212f-413f-8da1-52d5040c0c72")
+		(uuid "3ffbdffd-fc32-4123-89da-157f93583601")
 	)
 	(junction
 		(at 68.58 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "41326e87-5e59-48cf-95c4-9419f53e8cf2")
+	)
+	(junction
+		(at 246.38 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c09d572-5437-4ccf-ad22-d63ebcd3c4df")
+	)
+	(junction
+		(at 223.52 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8553e299-bcf7-4eda-ae46-1817caff0893")
 	)
 	(junction
 		(at 55.88 68.58)
@@ -1992,16 +1878,22 @@
 		(uuid "a958484b-dcdc-4774-b258-7c8d3bba0013")
 	)
 	(junction
-		(at 246.38 91.44)
+		(at 246.38 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b4860119-df75-4ea9-ab54-6cdbda9824c7")
+		(uuid "b1e5b253-0d13-4e7b-ad48-0f422d58fd90")
 	)
 	(junction
-		(at 228.6 91.44)
+		(at 246.38 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d946ac2d-3c3d-40fd-9e94-d1d87680d45e")
+		(uuid "cabd6041-affb-4fbe-8392-4d2f50b7b966")
+	)
+	(junction
+		(at 246.38 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f74641cb-c930-4eb8-8318-12f6f7b8d30e")
 	)
 	(no_connect
 		(at 132.08 60.96)
@@ -2014,16 +1906,6 @@
 	(no_connect
 		(at 60.96 60.96)
 		(uuid "5909b301-cc1f-4a17-b31c-54019b621f5f")
-	)
-	(wire
-		(pts
-			(xy 240.03 68.58) (xy 246.38 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05bf61b8-ad0e-42e8-bd9e-928257074ac3")
 	)
 	(wire
 		(pts
@@ -2047,33 +1929,33 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 134.62) (xy 228.6 134.62)
+			(xy 223.52 91.44) (xy 223.52 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2869ac74-d4ab-4aa2-a1b1-2d4a803a829e")
+	)
+	(wire
+		(pts
+			(xy 246.38 83.82) (xy 246.38 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33517b5a-b10c-4b27-8d87-2673e423b6e6")
+	)
+	(wire
+		(pts
+			(xy 218.44 137.16) (xy 223.52 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "35a811af-30f9-4feb-91f3-e3429a6c8919")
-	)
-	(wire
-		(pts
-			(xy 246.38 114.3) (xy 246.38 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3887192c-6e7f-4149-be0e-976736b2a23e")
-	)
-	(wire
-		(pts
-			(xy 246.38 91.44) (xy 246.38 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39c7aed5-8c9a-4868-a62c-e83d98f9550b")
 	)
 	(wire
 		(pts
@@ -2087,23 +1969,13 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 55.88) (xy 246.38 68.58)
+			(xy 246.38 55.88) (xy 246.38 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "43449b5f-b5f8-4384-af62-23a739ab34b6")
-	)
-	(wire
-		(pts
-			(xy 228.6 91.44) (xy 228.6 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44920478-d1bd-4f59-b6c0-f31509c7f3d9")
+		(uuid "47b937cc-912d-46b9-82d3-851de7d477fd")
 	)
 	(wire
 		(pts
@@ -2117,6 +1989,26 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 109.22) (xy 246.38 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d413209-3820-416a-88c4-93a5bdb3e66a")
+	)
+	(wire
+		(pts
+			(xy 238.76 100.33) (xy 238.76 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fd99510-f542-4c69-9e08-1dc1c9b22c86")
+	)
+	(wire
+		(pts
 			(xy 90.17 137.16) (xy 104.14 137.16)
 		)
 		(stroke
@@ -2124,6 +2016,16 @@
 			(type default)
 		)
 		(uuid "50f5b2cd-7260-48b7-8e40-5e0e90168167")
+	)
+	(wire
+		(pts
+			(xy 223.52 78.74) (xy 223.52 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51f340f8-a766-4334-9e96-5eb5fcd22f1c")
 	)
 	(wire
 		(pts
@@ -2137,17 +2039,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 81.28) (xy 246.38 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66d13650-aeb8-44ea-af57-d6c2f0cfc9d6")
-	)
-	(wire
-		(pts
-			(xy 210.82 134.62) (xy 215.9 134.62)
+			(xy 205.74 137.16) (xy 210.82 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2177,27 +2069,47 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 109.22) (xy 246.38 114.3)
+			(xy 238.76 74.93) (xy 238.76 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8489e26d-1714-4565-84e7-e0c80864de97")
+		(uuid "7ba1deb9-9205-45eb-a55b-bbcc86322210")
 	)
 	(wire
 		(pts
-			(xy 228.6 81.28) (xy 228.6 91.44)
+			(xy 234.95 66.04) (xy 246.38 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8890992f-5621-4ec2-99cc-16f5cada93b5")
+		(uuid "88c15f5e-495b-4f40-841f-a1051171b608")
 	)
 	(wire
 		(pts
-			(xy 210.82 48.26) (xy 215.9 48.26)
+			(xy 223.52 129.54) (xy 223.52 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b86e35f-3f00-45e8-baaa-fc93ad6e255e")
+	)
+	(wire
+		(pts
+			(xy 238.76 85.09) (xy 246.38 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f508d8e-5a25-4dba-9b81-ab06a2dc3009")
+	)
+	(wire
+		(pts
+			(xy 205.74 45.72) (xy 210.82 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2247,7 +2159,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 91.44) (xy 228.6 91.44)
+			(xy 210.82 91.44) (xy 223.52 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2257,13 +2169,33 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 114.3) (xy 246.38 114.3)
+			(xy 234.95 116.84) (xy 246.38 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a7be2e40-b4b2-4eed-9b9a-5d21bdc5a528")
+		(uuid "b20cba4d-79f0-44d9-9b41-8bc6e36339cd")
+	)
+	(wire
+		(pts
+			(xy 246.38 116.84) (xy 246.38 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5755cad-6815-4eb1-9457-8a6311389b11")
+	)
+	(wire
+		(pts
+			(xy 240.03 100.33) (xy 238.76 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beedd8f8-f830-41ab-9b2b-4dd914746eb3")
 	)
 	(wire
 		(pts
@@ -2277,6 +2209,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 110.49) (xy 246.38 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7be9cf8-12a7-4123-88a0-1795ac15c60d")
+	)
+	(wire
+		(pts
 			(xy 50.8 139.7) (xy 50.8 127)
 		)
 		(stroke
@@ -2284,6 +2226,26 @@
 			(type default)
 		)
 		(uuid "d4ba6606-8075-43b8-ae40-c73f5826c05b")
+	)
+	(wire
+		(pts
+			(xy 238.76 110.49) (xy 246.38 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d87d020c-a3ac-4cac-9c8a-080d2c822040")
+	)
+	(wire
+		(pts
+			(xy 240.03 74.93) (xy 238.76 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db99d345-0bb0-46dd-92eb-35d2f2c1bfa5")
 	)
 	(wire
 		(pts
@@ -2317,7 +2279,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 48.26) (xy 228.6 55.88)
+			(xy 223.52 45.72) (xy 223.52 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2327,7 +2289,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 48.26) (xy 228.6 48.26)
+			(xy 218.44 45.72) (xy 223.52 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2347,13 +2309,13 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 127) (xy 228.6 134.62)
+			(xy 246.38 85.09) (xy 246.38 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f52454f8-fb7a-4eb4-a13f-c6a443fba3da")
+		(uuid "f2cb7590-126d-4ced-81b9-322cbda1a3a2")
 	)
 	(wire
 		(pts
@@ -2374,16 +2336,6 @@
 			(type default)
 		)
 		(uuid "f90377c4-725c-4ab7-a531-805158b8d519")
-	)
-	(wire
-		(pts
-			(xy 246.38 68.58) (xy 246.38 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff88179f-9364-40bd-a33c-9ae2031a102f")
 	)
 	(label "Feedback_Terminal"
 		(at 55.88 63.5 180)
@@ -2416,7 +2368,7 @@
 		(uuid "ccef03c1-6eb9-402b-bab9-ff2a263738dc")
 	)
 	(label "Clamped_Output"
-		(at 215.9 91.44 180)
+		(at 210.82 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2460,7 +2412,7 @@
 	)
 	(hierarchical_label "Output"
 		(shape output)
-		(at 203.2 134.62 180)
+		(at 198.12 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2515,7 +2467,7 @@
 	)
 	(hierarchical_label "Output"
 		(shape output)
-		(at 203.2 48.26 180)
+		(at 198.12 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2523,6 +2475,88 @@
 			(justify right)
 		)
 		(uuid "f3389da5-be47-4f9e-b09a-e1e39a2e3bc7")
+	)
+	(symbol
+		(lib_id "Custom:D_Zener")
+		(at 246.38 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09515543-6259-4495-904a-8c884be1baec")
+		(property "Reference" "D2"
+			(at 251.46 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10V, 1%"
+			(at 251.46 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/texas-instruments/LM4040D10IDBZR/1216503"
+			(at 246.38 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ae73401c-d714-4613-ac83-67aa7a60da3f")
+		)
+		(pin "1"
+			(uuid "d86641fc-6f50-4d02-b510-e95cbf8600ef")
+		)
+		(pin "2"
+			(uuid "500be4e1-b595-4d78-9250-125e14dc473e")
+		)
+		(instances
+			(project ""
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/226b3d0c-9e45-4bcf-9bef-58938aee743e/1a19fcb8-2301-474b-810f-9788696a69a6"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R_US")
@@ -2899,7 +2933,7 @@
 	(symbol
 		(lib_name "D_1")
 		(lib_id "Device:D")
-		(at 219.71 48.26 180)
+		(at 214.63 45.72 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2908,7 +2942,7 @@
 		(fields_autoplaced yes)
 		(uuid "69ea6368-fc0f-4256-b3c9-c567874843b8")
 		(property "Reference" "D6"
-			(at 219.71 41.91 0)
+			(at 214.63 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2916,7 +2950,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 219.71 44.45 0)
+			(at 214.63 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2924,7 +2958,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 48.26 0)
+			(at 214.63 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2933,7 +2967,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 219.71 48.26 0)
+			(at 214.63 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2942,7 +2976,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 219.71 48.26 0)
+			(at 214.63 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2951,7 +2985,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 219.71 48.26 0)
+			(at 214.63 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2960,7 +2994,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 219.71 48.26 0)
+			(at 214.63 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2969,7 +3003,7 @@
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/vishay-general-semiconductor-diodes-division/1N4448W-E3-08/4829905"
-			(at 219.71 48.26 0)
+			(at 214.63 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3060,7 +3094,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 207.01 134.62 90)
+		(at 201.93 137.16 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3069,7 +3103,7 @@
 		(fields_autoplaced yes)
 		(uuid "74052caf-2e3f-4afa-a6bd-f56c7587e3af")
 		(property "Reference" "R8"
-			(at 207.01 128.27 90)
+			(at 201.93 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3077,7 +3111,7 @@
 			)
 		)
 		(property "Value" "1k, 1%"
-			(at 207.01 130.81 90)
+			(at 201.93 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3085,7 +3119,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.264 133.604 90)
+			(at 202.184 136.144 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3094,7 +3128,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 207.01 134.62 0)
+			(at 201.93 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3103,7 +3137,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 207.01 134.62 0)
+			(at 201.93 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3112,7 +3146,7 @@
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW06031K00FKEA/1174668"
-			(at 207.01 134.62 0)
+			(at 201.93 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3233,88 +3267,8 @@
 		)
 	)
 	(symbol
-		(lib_name "D_Zener_1")
-		(lib_id "Device:D_Zener")
-		(at 246.38 77.47 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "80689873-0605-4e6a-9fab-e5d1570c7326")
-		(property "Reference" "D2"
-			(at 248.92 76.1999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10V, 1%"
-			(at 248.92 78.7399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 246.38 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 246.38 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener diode"
-			(at 246.38 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase Link" "https://www.digikey.com/en/products/detail/texas-instruments/LM4040D10IDBZR/1216503"
-			(at 246.38 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "31e325e8-4660-4006-85a6-4fa173f6e5e0")
-		)
-		(pin "2"
-			(uuid "751be1e2-18e7-4eb6-b50b-ce0e263ba56c")
-		)
-		(instances
-			(project ""
-				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/226b3d0c-9e45-4bcf-9bef-58938aee743e/1a19fcb8-2301-474b-810f-9788696a69a6"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Custom:Q_PNP")
-		(at 231.14 68.58 180)
+		(at 226.06 66.04 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3322,7 +3276,7 @@
 		(dnp no)
 		(uuid "92df5f54-8f20-48bb-adea-a00b99dda798")
 		(property "Reference" "Q3"
-			(at 223.52 69.8501 0)
+			(at 218.44 67.3101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3331,7 +3285,7 @@
 			)
 		)
 		(property "Value" "Q_PNP"
-			(at 223.52 67.3101 0)
+			(at 218.44 64.7701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3340,7 +3294,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 68.58 0)
+			(at 226.06 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3349,7 +3303,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 68.58 0)
+			(at 226.06 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3358,7 +3312,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 231.14 68.58 0)
+			(at 226.06 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3367,7 +3321,7 @@
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/onsemi/MMBT2907ALT1G/919599"
-			(at 231.14 68.58 0)
+			(at 226.06 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3395,7 +3349,7 @@
 	)
 	(symbol
 		(lib_id "Custom:Q_NPN")
-		(at 231.14 114.3 0)
+		(at 226.06 116.84 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3404,7 +3358,7 @@
 		(dnp no)
 		(uuid "9729f3a9-6d31-45da-b697-b6a07690dbf8")
 		(property "Reference" "Q4"
-			(at 223.52 113.0299 0)
+			(at 218.44 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3413,7 +3367,7 @@
 			)
 		)
 		(property "Value" "Q_NPN"
-			(at 223.52 115.5699 0)
+			(at 218.44 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3422,7 +3376,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 114.3 0)
+			(at 226.06 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3431,7 +3385,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 114.3 0)
+			(at 226.06 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3440,7 +3394,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 231.14 114.3 0)
+			(at 226.06 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3449,7 +3403,7 @@
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/onsemi/MMBT2222ALT1G/919593"
-			(at 231.14 114.3 0)
+			(at 226.06 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3556,7 +3510,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 219.71 134.62 0)
+		(at 214.63 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3565,7 +3519,7 @@
 		(fields_autoplaced yes)
 		(uuid "b39addff-9ed1-42f6-9944-c38b31a13143")
 		(property "Reference" "D7"
-			(at 219.71 128.27 0)
+			(at 214.63 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3573,7 +3527,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 219.71 130.81 0)
+			(at 214.63 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3581,7 +3535,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 134.62 0)
+			(at 214.63 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3590,7 +3544,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 219.71 134.62 0)
+			(at 214.63 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3599,7 +3553,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 219.71 134.62 0)
+			(at 214.63 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3608,7 +3562,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 219.71 134.62 0)
+			(at 214.63 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3617,7 +3571,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 219.71 134.62 0)
+			(at 214.63 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3626,7 +3580,7 @@
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/vishay-general-semiconductor-diodes-division/1N4448W-E3-08/4829905"
-			(at 219.71 134.62 0)
+			(at 214.63 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3717,7 +3671,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 207.01 48.26 90)
+		(at 201.93 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3726,7 +3680,7 @@
 		(fields_autoplaced yes)
 		(uuid "d7d16d01-3ee7-40ec-832c-c82038b3ed53")
 		(property "Reference" "R6"
-			(at 207.01 41.91 90)
+			(at 201.93 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3734,7 +3688,7 @@
 			)
 		)
 		(property "Value" "1k, 1%"
-			(at 207.01 44.45 90)
+			(at 201.93 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3742,7 +3696,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.264 47.244 90)
+			(at 202.184 44.704 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3751,7 +3705,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 207.01 48.26 0)
+			(at 201.93 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3760,7 +3714,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 207.01 48.26 0)
+			(at 201.93 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3769,7 +3723,7 @@
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW06031K00FKEA/1174668"
-			(at 207.01 48.26 0)
+			(at 201.93 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3938,85 +3892,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Zener")
-		(at 246.38 105.41 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dde5b5ae-10aa-43a1-82f5-899073b032ca")
-		(property "Reference" "D3"
-			(at 248.92 104.1399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10V, 1%"
-			(at 248.92 106.6799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 246.38 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 246.38 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener diode"
-			(at 246.38 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase Link" "https://www.digikey.com/en/products/detail/texas-instruments/LM4040D10IDBZR/1216503"
-			(at 246.38 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3c05c567-055d-4968-a121-43b902b3aedf")
-		)
-		(pin "2"
-			(uuid "7d124858-022b-4dc1-8b24-8c990ea55c7d")
-		)
-		(instances
-			(project "TransimpedanceAmplifier"
-				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/226b3d0c-9e45-4bcf-9bef-58938aee743e/1a19fcb8-2301-474b-810f-9788696a69a6"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 85.09 127 90)
 		(unit 1)
@@ -4088,6 +3963,88 @@
 			(project "TransimpedanceAmplifier"
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/226b3d0c-9e45-4bcf-9bef-58938aee743e/1a19fcb8-2301-474b-810f-9788696a69a6"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom:D_Zener")
+		(at 246.38 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e67063f2-7c06-4650-b7dc-f8cd8ba48fbc")
+		(property "Reference" "D3"
+			(at 251.46 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10V, 1%"
+			(at 251.46 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/texas-instruments/LM4040D10IDBZR/1216503"
+			(at 246.38 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "396a7cf5-528d-409d-8685-d1f5957a7ec7")
+		)
+		(pin "1"
+			(uuid "b529f25c-054a-42ff-ae36-033da0e4a150")
+		)
+		(pin "2"
+			(uuid "62e8b68c-daf4-4ef0-9d73-8f526f6a385e")
+		)
+		(instances
+			(project ""
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/226b3d0c-9e45-4bcf-9bef-58938aee743e/1a19fcb8-2301-474b-810f-9788696a69a6"
+					(reference "D3")
 					(unit 1)
 				)
 			)
