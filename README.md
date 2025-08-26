@@ -496,3 +496,7 @@ TODO list for the rest of today:
 Next steps: figure out the footprints for linear regulators, potentiometers, and Teensy 4.1.
 
 Reminded myself that I can just use jumper wires for the reversible connections between TIAs and the ADC. Less complex than a mechanical switch, and more flexible. For example, I can have both amplifiers disconnected from the ADC, so it directly senses the DAC output. Might also minimize some parasitics (capacitance, insulation resistance) of a switch on the current input to a TIA.
+
+![August 26](./Documentation/New/August26.jpg)
+
+I decided on Sullins Connector Solutions as the vendor for pin headers, pin sockets, and jumpers.
