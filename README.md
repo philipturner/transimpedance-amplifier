@@ -33,6 +33,7 @@ Table of Contents:
 - [August 20, 2025](#august-20-2025)
 - [August 22, 2025](#august-22-2025)
 - [August 23, 2025](#august-23-2025)
+- [August 26, 2025](#august-26-2025)
 
 ## July 26, 2025
 
@@ -489,3 +490,9 @@ TODO list for the rest of today:
 - Footprints for 0805 capacitors
 - Purchase links for Schottky diodes
 - Finalize all decoupling networks
+
+## August 26, 2025
+
+Next steps: figure out the footprints for linear regulators and Teensy 4.1.
+
+Reminded myself that I can just use jumper wires for the reversible connections between TIAs and the ADC. Less complex than a mechanical switch, and more flexible. For example, I can have both amplifiers disconnected from the ADC, so it directly senses the DAC output. Might also minimize some parasitics (capacitance, insulation resistance) of a switch on the current input to a TIA.
