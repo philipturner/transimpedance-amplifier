@@ -505,3 +505,11 @@ I decided on Sullins Connector Solutions as the vendor for pin headers, pin sock
 ## August 27, 2025
 
 ![August 27, Part 1](./Documentation/New/August27_Part1.jpg)
+
+This arrangement doesn't work. The connectors don't fit across the dimension of two separate batteries.
+
+To make everything easier, we'll try a separate approach. Each of the 9 V batteries has a dedicated +/- connector. This connector is soldered directly onto the PCB. It costs slightly more than the battery itself, but saves a lot of design effort and space.
+
+![August 27, Part 2](./Documentation/New/August27_Part2.png)
+
+In KiCad, I'll use an isolated battery (not connected terminal-to-terminal with neighbors) to represent the connector. It would already be strange to specify the battery purchase link separately, as I'm getting all 8 in a single pack. Instead, each symbol will use the purchase link for the connector. There will be an additional dedicated footprint for this connector.
