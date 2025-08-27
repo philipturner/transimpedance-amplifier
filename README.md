@@ -34,6 +34,7 @@ Table of Contents:
 - [August 22, 2025](#august-22-2025)
 - [August 23, 2025](#august-23-2025)
 - [August 26, 2025](#august-26-2025)
+- [August 27, 2025](#august-27-2025)
 
 ## July 26, 2025
 
@@ -500,3 +501,7 @@ Reminded myself that I can just use jumper wires for the reversible connections 
 ![August 26](./Documentation/New/August26.jpg)
 
 I decided on Sullins Connector Solutions as the vendor for pin headers, pin sockets, and jumpers.
+
+## August 27, 2025
+
+![August 27, Part 1](./Documentation/New/August27_Part1.jpg)
