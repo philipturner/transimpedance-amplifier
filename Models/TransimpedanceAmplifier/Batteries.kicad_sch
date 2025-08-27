@@ -341,17 +341,6 @@
 		)
 		(uuid "448eef6a-c888-4af1-a04c-551e5008c8a0")
 	)
-	(text "TODO: Calculate temperature rise in the\nbatteries with the predicted ~50 mA load.\nDo we need a heatsink or careful placement\nto minimize temperature?"
-		(exclude_from_sim no)
-		(at 142.748 39.116 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "75ccc55e-db3a-4176-a9cf-9e248a3b5541")
-	)
 	(text "Logic power supply\nGuaranteed above 7.5 V for 0.3 A-hours\n\nTheoretical upper bound: 19.1 V\n\n20 mA load condition\n~17.9 V @ 0.0 hours\n~7.5 V @ 15.0 hours\n\n100 mA load condition\n~17.7 V @ 0.0 hours\n~7.5 V @ 3.0 hours"
 		(exclude_from_sim no)
 		(at 178.562 67.056 0)
@@ -362,6 +351,17 @@
 			(justify left top)
 		)
 		(uuid "7ba2d443-118b-4787-826a-473c2d068334")
+	)
+	(text "Power / Thermal Concerns\n\nInternal resistance: 1-2 Ω per battery\nMaximum current load: 50 mA\nI2R power dissipation: 5 mW per battery"
+		(exclude_from_sim no)
+		(at 152.908 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "a46d806b-f0d9-4b1d-a75e-4a21c6f10cd2")
 	)
 	(text "Negative power supply\nGuaranteed below -17.5 V for 0.3 A-hours"
 		(exclude_from_sim no)
