@@ -5,6 +5,166 @@
 	(uuid "46063617-6310-4a46-8aa9-96feb282b299")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Custom:Keystone_968"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -0.254 9.652 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Keystone_968"
+				(at 0.508 7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Keystone_968_0_1"
+				(polyline
+					(pts
+						(xy -6.35 2.54) (xy 6.35 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 -2.54) (xy 6.35 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 6.35 5.08)
+					(end -6.35 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Keystone_968_1_1"
+				(pin input line
+					(at -8.89 2.54 0)
+					(length 2.54)
+					(name "In+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 -2.54 0)
+					(length 2.54)
+					(name "In-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 2.54 180)
+					(length 2.54)
+					(name "Out+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 -2.54 180)
+					(length 2.54)
+					(name "Out-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Battery"
 			(pin_numbers
 				(hide yes)
@@ -332,7 +492,7 @@
 	)
 	(text "Positive power supply\nGuaranteed above 17.5 V for 0.3 A-hours\n\nTheoretical upper bound: 28.6 V\n\n20 mA load condition\n~26.9 V @ 0.0 hours\n~17.5 V @ 15.0 hours\n\n100 mA load condition\n~26.6 V @ 0.0 hours\n~17.5 V @ 3.0 hours\n"
 		(exclude_from_sim no)
-		(at 81.788 52.07 0)
+		(at 52.578 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -343,7 +503,7 @@
 	)
 	(text "Logic power supply\nGuaranteed above 7.5 V for 0.3 A-hours\n\nTheoretical upper bound: 19.1 V\n\n20 mA load condition\n~17.9 V @ 0.0 hours\n~7.5 V @ 15.0 hours\n\n100 mA load condition\n~17.7 V @ 0.0 hours\n~7.5 V @ 3.0 hours"
 		(exclude_from_sim no)
-		(at 178.562 67.056 0)
+		(at 203.962 135.128 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -354,7 +514,7 @@
 	)
 	(text "Power / Thermal Concerns\n\nInternal resistance: 1-2 Ω per battery\nMaximum current load: 50 mA\nI2R power dissipation: 5 mW per battery"
 		(exclude_from_sim no)
-		(at 152.908 26.67 0)
+		(at 204.216 27.178 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -365,7 +525,7 @@
 	)
 	(text "Negative power supply\nGuaranteed below -17.5 V for 0.3 A-hours"
 		(exclude_from_sim no)
-		(at 81.534 115.57 0)
+		(at 127.254 136.398 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -374,217 +534,511 @@
 		)
 		(uuid "e932b4a0-92c7-4f46-b1ad-bd4ca4a60a0a")
 	)
-	(junction
-		(at 63.5 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4f6a9027-24de-4610-bf16-fe94db8712e9")
-	)
 	(wire
 		(pts
-			(xy 60.96 50.8) (xy 63.5 50.8)
+			(xy 144.78 86.36) (xy 144.78 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "12a7dda4-e27e-4243-b298-57269ea12819")
+		(uuid "04842239-cbd8-440f-a9c7-94e30a7e1fb8")
 	)
 	(wire
 		(pts
-			(xy 63.5 132.08) (xy 63.5 137.16)
+			(xy 220.98 104.14) (xy 220.98 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1892bb29-94ce-436d-a6f8-77e36a597256")
+		(uuid "07af006e-3fdd-489d-a2fe-a62cede6ff9a")
 	)
 	(wire
 		(pts
-			(xy 63.5 96.52) (xy 63.5 101.6)
+			(xy 144.78 104.14) (xy 144.78 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4da6d937-f9a5-42c7-a0a8-691744cbf15b")
+		(uuid "12c62f3c-94ad-4a69-af28-21b646b34e56")
 	)
 	(wire
 		(pts
-			(xy 165.1 66.04) (xy 165.1 71.12)
+			(xy 144.78 111.76) (xy 144.78 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5be34cd2-f241-4797-92ac-81a56c140ec8")
+		(uuid "133736cb-d435-407d-a667-a7d05796e595")
 	)
 	(wire
 		(pts
-			(xy 63.5 50.8) (xy 63.5 55.88)
+			(xy 152.4 68.58) (xy 144.78 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "705eb6b7-330b-4fc3-982b-fa6647635572")
+		(uuid "16ed795c-d8e2-4c39-844f-bbf34f32f168")
 	)
 	(wire
 		(pts
-			(xy 60.96 152.4) (xy 63.5 152.4)
+			(xy 68.58 76.2) (xy 68.58 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "80feccc4-31b9-4d76-9f84-e757f9bd6131")
+		(uuid "19b95fa2-6f84-4b73-8c43-026a4c224dc9")
 	)
 	(wire
 		(pts
-			(xy 63.5 116.84) (xy 63.5 121.92)
+			(xy 76.2 104.14) (xy 68.58 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "91eb91b0-af78-4661-ada3-2ea794594eb6")
+		(uuid "1abec93f-dfb5-49db-87f7-dc52f762f815")
 	)
 	(wire
 		(pts
-			(xy 63.5 101.6) (xy 63.5 106.68)
+			(xy 50.8 93.98) (xy 50.8 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b3f5c1d9-aa8b-4893-9a3c-935bb70c5593")
+		(uuid "1d91fce6-a791-4a5e-b86f-c0d08312b1a5")
 	)
 	(wire
 		(pts
-			(xy 63.5 147.32) (xy 63.5 152.4)
+			(xy 144.78 68.58) (xy 144.78 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b6a1a857-9660-4779-b846-d206e2e3008f")
+		(uuid "279b2654-633a-44d4-9b1b-7a9b96ffef83")
 	)
 	(wire
 		(pts
-			(xy 165.1 81.28) (xy 165.1 86.36)
+			(xy 144.78 76.2) (xy 144.78 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b9809e10-26a2-4998-9a33-e4126f0ea620")
+		(uuid "32c3a99c-ac58-4199-a363-239604df468a")
 	)
 	(wire
 		(pts
-			(xy 162.56 66.04) (xy 165.1 66.04)
+			(xy 220.98 96.52) (xy 228.6 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bb0d7b95-7d58-4e31-ad51-848fdafb44d1")
+		(uuid "3feaf05e-b56f-46c9-a620-db79eb96fba2")
 	)
 	(wire
 		(pts
-			(xy 63.5 81.28) (xy 63.5 86.36)
+			(xy 144.78 93.98) (xy 144.78 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c6f84851-44f1-40eb-b3c0-8b86fdc5e77f")
+		(uuid "4185b16b-a52a-4b3e-8ea4-5b6375b8e674")
 	)
 	(wire
 		(pts
-			(xy 78.74 101.6) (xy 78.74 104.14)
+			(xy 127 111.76) (xy 127 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d4f9d23f-1e5c-48c0-9b79-62b654429a01")
+		(uuid "49bffa8a-e933-457d-9345-81b476578d35")
 	)
 	(wire
 		(pts
-			(xy 63.5 66.04) (xy 63.5 71.12)
+			(xy 48.26 60.96) (xy 50.8 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d6430f6d-ecac-43fd-abf1-a77216a9467b")
+		(uuid "54798385-20f3-4b9d-8401-68ef91fc4a45")
 	)
 	(wire
 		(pts
-			(xy 63.5 101.6) (xy 78.74 101.6)
+			(xy 124.46 121.92) (xy 127 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f0f2a29c-463e-442c-902a-52f37d3d2eb1")
+		(uuid "54a94602-9d2c-4b69-a149-5e9693e7a7bc")
 	)
 	(wire
 		(pts
-			(xy 165.1 96.52) (xy 165.1 101.6)
+			(xy 203.2 111.76) (xy 203.2 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f9a6ee34-5812-443e-ace0-53b15f575279")
+		(uuid "59aca5ea-7f02-42bf-a56e-18bdbd47ff8f")
+	)
+	(wire
+		(pts
+			(xy 127 76.2) (xy 127 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c516035-2c54-4a53-9890-583a0eba5a28")
+	)
+	(wire
+		(pts
+			(xy 127 63.5) (xy 127 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e96d67e-60b6-42b9-9172-c3a8db28b135")
+	)
+	(wire
+		(pts
+			(xy 203.2 88.9) (xy 203.2 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f6afab7-5754-4f87-8019-b2f97aeb7534")
+	)
+	(wire
+		(pts
+			(xy 76.2 86.36) (xy 68.58 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "710a0c47-6423-4ea5-a752-a131cb251e2d")
+	)
+	(wire
+		(pts
+			(xy 228.6 86.36) (xy 220.98 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73466d7e-086a-48e7-a431-51eb099f4f71")
+	)
+	(wire
+		(pts
+			(xy 144.78 114.3) (xy 152.4 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79913c2c-1d0a-433c-8326-b76458468306")
+	)
+	(wire
+		(pts
+			(xy 144.78 96.52) (xy 152.4 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aa6ba93-099c-4c56-83ac-86e51a3fe936")
+	)
+	(wire
+		(pts
+			(xy 68.58 86.36) (xy 68.58 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7efbee9e-847a-49f4-84ae-48b4ebd2f0a9")
+	)
+	(wire
+		(pts
+			(xy 220.98 86.36) (xy 220.98 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f375077-4f95-47fd-b8aa-761f81b7d7cd")
+	)
+	(wire
+		(pts
+			(xy 68.58 114.3) (xy 76.2 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80df97a1-e4af-48f3-8464-2f642a6b3ad9")
+	)
+	(wire
+		(pts
+			(xy 50.8 60.96) (xy 50.8 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8339d57f-1134-44de-bf47-bf11f5266752")
+	)
+	(wire
+		(pts
+			(xy 200.66 78.74) (xy 203.2 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "886da4ca-0284-4cf7-8185-85b9b4bc9080")
+	)
+	(wire
+		(pts
+			(xy 76.2 68.58) (xy 68.58 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b24407c-1b0b-4b1a-96dc-6c9ea92d298e")
+	)
+	(wire
+		(pts
+			(xy 220.98 93.98) (xy 220.98 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f2bdb0d-75d3-456b-9d1b-419643f7962c")
+	)
+	(wire
+		(pts
+			(xy 220.98 114.3) (xy 228.6 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92a77349-a63a-4c17-ad49-13f96a25e773")
+	)
+	(wire
+		(pts
+			(xy 68.58 96.52) (xy 76.2 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92f0f52c-b5c3-402c-a541-0734ff3e99da")
+	)
+	(wire
+		(pts
+			(xy 50.8 111.76) (xy 50.8 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1ae989c-c781-43f2-8ebd-28e06b3c4725")
+	)
+	(wire
+		(pts
+			(xy 68.58 111.76) (xy 68.58 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a89f0f23-4391-426b-9679-ce52183ed533")
+	)
+	(wire
+		(pts
+			(xy 68.58 104.14) (xy 68.58 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6ec2d58-1216-4a9d-a3b1-5d3f467f56e2")
+	)
+	(wire
+		(pts
+			(xy 152.4 86.36) (xy 144.78 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c30d168a-5259-4a3d-a322-03f5ade54b27")
+	)
+	(wire
+		(pts
+			(xy 203.2 93.98) (xy 203.2 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9cc3388-4792-467f-aa1b-47b011323d81")
+	)
+	(wire
+		(pts
+			(xy 228.6 104.14) (xy 220.98 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cec3c8e0-43b0-40a5-8b8f-c3f5e08405db")
+	)
+	(wire
+		(pts
+			(xy 152.4 104.14) (xy 144.78 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2fa01da-08f2-4331-85f6-50613aa0d6a1")
+	)
+	(wire
+		(pts
+			(xy 144.78 78.74) (xy 152.4 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d80941bb-438e-4e0e-ba73-0f5f683ffd6a")
+	)
+	(wire
+		(pts
+			(xy 127 93.98) (xy 127 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc25d333-c7e7-4fc7-b61d-7442d3a775bd")
+	)
+	(wire
+		(pts
+			(xy 50.8 76.2) (xy 50.8 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfa1126d-12de-40eb-b10a-4c71e2453bac")
+	)
+	(wire
+		(pts
+			(xy 68.58 93.98) (xy 68.58 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3f9695e-e784-419f-99b8-5d16e002624a")
+	)
+	(wire
+		(pts
+			(xy 68.58 68.58) (xy 68.58 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6b91bc7-9fa5-41d0-ba1e-f21645c807b0")
+	)
+	(wire
+		(pts
+			(xy 68.58 78.74) (xy 76.2 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc32779a-ca61-4951-98aa-6f5774338e7f")
+	)
+	(wire
+		(pts
+			(xy 220.98 111.76) (xy 220.98 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffb89317-e63d-4b11-90b1-8d9946a613b3")
 	)
 	(hierarchical_label "-27V"
 		(shape output)
-		(at 60.96 152.4 180)
+		(at 124.46 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "2299d531-a3f1-45cf-b8ec-f622c8d17a3b")
-	)
-	(hierarchical_label "18V"
-		(shape output)
-		(at 162.56 66.04 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "37f9ed52-dac6-4fde-b11c-01d15dc249a7")
+		(uuid "09c18bc0-29cc-49b3-87b2-a89bb4d13880")
 	)
 	(hierarchical_label "27V"
 		(shape output)
-		(at 60.96 50.8 180)
+		(at 48.26 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "f7268108-ae33-4ff5-84a8-5091c696d6d4")
+		(uuid "5184d3e2-b7a2-4312-8daf-b967af7548f9")
+	)
+	(hierarchical_label "18V"
+		(shape output)
+		(at 200.66 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b2e9d103-2ec2-4ff5-96f0-5458198ce113")
 	)
 	(symbol
 		(lib_id "Device:Battery")
-		(at 63.5 127 0)
+		(at 152.4 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "18614ee2-8be3-4bb1-a2c8-c5f338c8d3ef")
+		(uuid "00cba231-6d98-4c88-a034-1bdc3404ea7a")
 		(property "Reference" "BT5"
-			(at 67.31 125.1584 0)
+			(at 156.21 89.5984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -593,7 +1047,7 @@
 			)
 		)
 		(property "Value" "9V"
-			(at 67.31 127.6984 0)
+			(at 156.21 92.1384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -602,7 +1056,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 125.476 90)
+			(at 152.4 89.916 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -611,7 +1065,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 125.476 90)
+			(at 152.4 89.916 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -620,7 +1074,7 @@
 			)
 		)
 		(property "Description" "Multiple-cell battery"
-			(at 63.5 127 0)
+			(at 152.4 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -629,10 +1083,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "5327afee-675d-46fd-81bc-ffde2e920197")
+			(uuid "d2734294-ad72-40b5-aa54-6aee665372ff")
 		)
 		(pin "1"
-			(uuid "f5c67531-ce97-4ece-9e18-732e1f48c1b9")
+			(uuid "c6e7bd93-e27d-4d7d-9846-e43616bdba37")
 		)
 		(instances
 			(project "TransimpedanceAmplifier"
@@ -644,35 +1098,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Battery")
-		(at 63.5 142.24 0)
+		(lib_id "Custom:Keystone_968")
+		(at 59.69 73.66 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4a1b8c59-df26-4c88-ae2d-669e38d49e29")
-		(property "Reference" "BT6"
-			(at 67.31 140.3984 0)
+		(uuid "04dabd59-7cc3-447e-8cb4-fd0e158b68cc")
+		(property "Reference" "J12"
+			(at 59.69 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "9V"
-			(at 67.31 142.9384 0)
+		(property "Value" "Keystone_968"
+			(at 59.69 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 140.716 90)
+			(at 59.69 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -680,8 +1132,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 63.5 140.716 90)
+		(property "Datasheet" ""
+			(at 59.69 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -689,8 +1141,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multiple-cell battery"
-			(at 63.5 142.24 0)
+		(property "Description" ""
+			(at 59.69 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -698,16 +1150,31 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "d8b12533-e8f3-4037-9082-d62c843c56cc")
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/keystone-electronics/968/151577"
+			(at 59.69 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "5fea968e-ebad-4efc-8297-4e70c1f6f8e1")
+		)
+		(pin "4"
+			(uuid "e11d99dd-acc0-4d36-9e58-8b39cb5e5f0d")
 		)
 		(pin "1"
-			(uuid "1151415b-06f0-422d-bbd1-75dd31a9ae4d")
+			(uuid "6c4b94ca-4ec2-466f-9e6e-44edd7997c50")
+		)
+		(pin "2"
+			(uuid "a0393d1a-14c5-4b4d-8fd1-80e9d2484d8c")
 		)
 		(instances
-			(project "TransimpedanceAmplifier"
+			(project ""
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/d0ece2d4-5b22-4822-ad0c-e2361683ec3d/c9cd3b70-0193-478b-9c9b-cf8238587205"
-					(reference "BT6")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -715,16 +1182,16 @@
 	)
 	(symbol
 		(lib_id "Device:Battery")
-		(at 165.1 91.44 0)
+		(at 228.6 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4a54cc12-4803-4a37-9d67-0d9ce50f1507")
+		(uuid "2d760180-fbfc-495c-8022-13172f4f342b")
 		(property "Reference" "BT8"
-			(at 168.91 89.5984 0)
+			(at 232.41 89.5984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -733,7 +1200,7 @@
 			)
 		)
 		(property "Value" "9V"
-			(at 168.91 92.1384 0)
+			(at 232.41 92.1384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -742,7 +1209,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 89.916 90)
+			(at 228.6 89.916 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -751,7 +1218,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 89.916 90)
+			(at 228.6 89.916 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -760,7 +1227,7 @@
 			)
 		)
 		(property "Description" "Multiple-cell battery"
-			(at 165.1 91.44 0)
+			(at 228.6 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -769,10 +1236,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "679914c5-a4e1-45f7-bd1c-5a1e6bed5c94")
+			(uuid "2d66cbb0-82f9-4c6b-9e94-1e5c0c4164f4")
 		)
 		(pin "1"
-			(uuid "2c1f0279-d6b5-440e-8a29-92efe0f29e08")
+			(uuid "b06f41ae-0b4c-4a26-976a-0af7f152c013")
 		)
 		(instances
 			(project "TransimpedanceAmplifier"
@@ -784,35 +1251,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Battery")
-		(at 63.5 76.2 0)
+		(lib_id "power:GND")
+		(at 127 63.5 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "61f02fc0-3546-4d11-9cf3-43ed890db06d")
-		(property "Reference" "BT2"
-			(at 67.31 74.3584 0)
+		(uuid "316b3ade-b0cc-4d53-b622-8df92e305309")
+		(property "Reference" "#PWR016"
+			(at 127 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "9V"
-			(at 67.31 76.8984 0)
+		(property "Value" "GND"
+			(at 127 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 74.676 90)
+			(at 127 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -820,8 +1286,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 63.5 74.676 90)
+		(property "Datasheet" ""
+			(at 127 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -829,25 +1295,188 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multiple-cell battery"
-			(at 63.5 76.2 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "7c24feea-f696-49c3-b7d6-be9c3a8a953a")
 		)
 		(pin "1"
-			(uuid "84e90552-619b-4168-be48-e43eb1dc21a9")
+			(uuid "924c84de-b61f-4db3-8afe-f6222d1f84e9")
+		)
+		(instances
+			(project ""
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/d0ece2d4-5b22-4822-ad0c-e2361683ec3d/c9cd3b70-0193-478b-9c9b-cf8238587205"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom:Keystone_968")
+		(at 59.69 91.44 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "42ea10ac-8880-4c19-afbe-0e6654da021f")
+		(property "Reference" "J14"
+			(at 59.69 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keystone_968"
+			(at 59.69 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 59.69 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/keystone-electronics/968/151577"
+			(at 59.69 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6bb39d30-f63c-4f0a-8f3a-71e42bc8272a")
+		)
+		(pin "4"
+			(uuid "a515756f-a785-48e9-a10d-2876f09bb885")
+		)
+		(pin "1"
+			(uuid "91e1f40c-8ab6-47f5-ae16-0ad44e1f9602")
+		)
+		(pin "2"
+			(uuid "a156f3f2-e7be-44bc-86e8-3543ef3450f5")
 		)
 		(instances
 			(project "TransimpedanceAmplifier"
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/d0ece2d4-5b22-4822-ad0c-e2361683ec3d/c9cd3b70-0193-478b-9c9b-cf8238587205"
-					(reference "BT2")
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom:Keystone_968")
+		(at 135.89 73.66 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "480037fc-96f4-44f6-8842-c91971f0225f")
+		(property "Reference" "J16"
+			(at 135.89 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keystone_968"
+			(at 135.89 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/keystone-electronics/968/151577"
+			(at 135.89 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b4d5fbc2-1004-4814-8f0e-406183bc1068")
+		)
+		(pin "4"
+			(uuid "f35372cb-194a-4d57-bcd2-7a586f46e45a")
+		)
+		(pin "1"
+			(uuid "574786c6-4a09-46fb-a8e1-165388dc5390")
+		)
+		(pin "2"
+			(uuid "1337b4c9-6787-4ed8-a2b3-171fbbf59899")
+		)
+		(instances
+			(project "TransimpedanceAmplifier"
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/d0ece2d4-5b22-4822-ad0c-e2361683ec3d/c9cd3b70-0193-478b-9c9b-cf8238587205"
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -855,16 +1484,16 @@
 	)
 	(symbol
 		(lib_id "Device:Battery")
-		(at 63.5 111.76 0)
+		(at 152.4 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6b129187-8c56-4b0b-8082-0896673787bc")
+		(uuid "78690c2e-7517-4918-9cde-2851f4939a49")
 		(property "Reference" "BT4"
-			(at 67.31 109.9184 0)
+			(at 156.21 71.8184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -873,7 +1502,7 @@
 			)
 		)
 		(property "Value" "9V"
-			(at 67.31 112.4584 0)
+			(at 156.21 74.3584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -882,7 +1511,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 110.236 90)
+			(at 152.4 72.136 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -891,7 +1520,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 110.236 90)
+			(at 152.4 72.136 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -900,7 +1529,7 @@
 			)
 		)
 		(property "Description" "Multiple-cell battery"
-			(at 63.5 111.76 0)
+			(at 152.4 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -909,10 +1538,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "6252e202-d847-4934-944e-c2c9be72e05c")
+			(uuid "cfd40d3c-b1f4-45ab-ade7-6df115f4a7c3")
 		)
 		(pin "1"
-			(uuid "dbd74028-5855-408d-97a7-45aa0ca7d029")
+			(uuid "b9124faf-cb53-449b-b102-858d2d50ee45")
 		)
 		(instances
 			(project "TransimpedanceAmplifier"
@@ -924,26 +1553,25 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 78.74 104.14 0)
+		(lib_id "Custom:Keystone_968")
+		(at 212.09 109.22 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6d91c8d8-ab83-489e-ace5-2141b1d551ba")
-		(property "Reference" "#PWR013"
-			(at 78.74 110.49 0)
+		(uuid "a359b351-a84f-419c-81c6-108c1e6e51f2")
+		(property "Reference" "J21"
+			(at 212.09 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 78.74 109.22 0)
+		(property "Value" "Keystone_968"
+			(at 212.09 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -951,7 +1579,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 104.14 0)
+			(at 212.09 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -960,7 +1588,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 104.14 0)
+			(at 212.09 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -968,22 +1596,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 78.74 104.14 0)
+		(property "Description" ""
+			(at 212.09 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/keystone-electronics/968/151577"
+			(at 212.09 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "47e1579a-0d10-4782-988b-7bedbd3c01bf")
+		)
+		(pin "4"
+			(uuid "1d6810a9-95e4-4757-a986-cb9d36bf21de")
 		)
 		(pin "1"
-			(uuid "f7069863-8383-47fd-a222-b696707239ec")
+			(uuid "e7b4335c-cd8d-4a2d-a1ee-5fc58abcc3f1")
+		)
+		(pin "2"
+			(uuid "2f6fc1e4-9fe2-4d29-b625-e35bdd7f275f")
 		)
 		(instances
 			(project "TransimpedanceAmplifier"
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/d0ece2d4-5b22-4822-ad0c-e2361683ec3d/c9cd3b70-0193-478b-9c9b-cf8238587205"
-					(reference "#PWR013")
+					(reference "J21")
 					(unit 1)
 				)
 			)
@@ -991,16 +1637,16 @@
 	)
 	(symbol
 		(lib_id "Device:Battery")
-		(at 165.1 76.2 0)
+		(at 76.2 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "82c6265a-7a9f-4774-97ca-841b2020a171")
-		(property "Reference" "BT7"
-			(at 168.91 74.3584 0)
+		(uuid "ad76ac8b-e0f1-4cd2-a7a7-8300691d8b21")
+		(property "Reference" "BT1"
+			(at 80.01 71.8184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1009,7 +1655,7 @@
 			)
 		)
 		(property "Value" "9V"
-			(at 168.91 76.8984 0)
+			(at 80.01 74.3584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1018,7 +1664,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 74.676 90)
+			(at 76.2 72.136 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1027,7 +1673,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 74.676 90)
+			(at 76.2 72.136 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1036,7 +1682,7 @@
 			)
 		)
 		(property "Description" "Multiple-cell battery"
-			(at 165.1 76.2 0)
+			(at 76.2 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1045,15 +1691,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "e5b83c89-9a77-42a9-8f48-89a9814671e8")
+			(uuid "2d79db29-16ff-42d4-b968-1b6d1f6fa711")
 		)
 		(pin "1"
-			(uuid "4b32f022-3c39-4221-b4cf-3cc1ab8f85ed")
+			(uuid "b4fa3c6d-d632-4c44-8289-e12ebb2f184a")
 		)
 		(instances
-			(project "TransimpedanceAmplifier"
+			(project ""
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/d0ece2d4-5b22-4822-ad0c-e2361683ec3d/c9cd3b70-0193-478b-9c9b-cf8238587205"
-					(reference "BT7")
+					(reference "BT1")
 					(unit 1)
 				)
 			)
@@ -1061,16 +1707,86 @@
 	)
 	(symbol
 		(lib_id "Device:Battery")
-		(at 63.5 91.44 0)
+		(at 228.6 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bf248e03-a62e-493e-bd76-e974ef5c9070")
+		(uuid "bd40ac57-fd85-4a5d-b70b-8a874d609267")
+		(property "Reference" "BT9"
+			(at 232.41 107.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "9V"
+			(at 232.41 109.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 107.696 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 107.696 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multiple-cell battery"
+			(at 228.6 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "361f1156-dd6d-452b-9980-0907f93a06d3")
+		)
+		(pin "1"
+			(uuid "ab508c16-f533-42d5-be53-37c05ee3b725")
+		)
+		(instances
+			(project "TransimpedanceAmplifier"
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/d0ece2d4-5b22-4822-ad0c-e2361683ec3d/c9cd3b70-0193-478b-9c9b-cf8238587205"
+					(reference "BT9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery")
+		(at 76.2 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c11bf562-6600-4cc7-99e6-c14e6faa53a0")
 		(property "Reference" "BT3"
-			(at 67.31 89.5984 0)
+			(at 80.01 107.3784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1079,7 +1795,7 @@
 			)
 		)
 		(property "Value" "9V"
-			(at 67.31 92.1384 0)
+			(at 80.01 109.9184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1088,7 +1804,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 89.916 90)
+			(at 76.2 107.696 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1097,7 +1813,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 89.916 90)
+			(at 76.2 107.696 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1106,7 +1822,7 @@
 			)
 		)
 		(property "Description" "Multiple-cell battery"
-			(at 63.5 91.44 0)
+			(at 76.2 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1115,10 +1831,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "3fb89ace-1417-4185-af3c-ccf932ceae1b")
+			(uuid "aabecca9-52c1-49f4-b4b3-864eaf2ed7bb")
 		)
 		(pin "1"
-			(uuid "b89c31cc-55ce-49c6-a55b-6c6f3c961a62")
+			(uuid "9b360911-8720-4f68-bb13-5db182c3038a")
 		)
 		(instances
 			(project "TransimpedanceAmplifier"
@@ -1130,96 +1846,25 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Battery")
-		(at 63.5 60.96 0)
+		(lib_id "Custom:Keystone_968")
+		(at 212.09 91.44 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf6e049c-abda-440d-ac59-8ed0aefdfb56")
-		(property "Reference" "BT1"
-			(at 67.31 59.1184 0)
+		(uuid "c1f4025a-a187-4644-a771-ec43073019e3")
+		(property "Reference" "J20"
+			(at 212.09 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "9V"
-			(at 67.31 61.6584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 59.436 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 63.5 59.436 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multiple-cell battery"
-			(at 63.5 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "310538cb-99bf-4103-8652-47f92baef391")
-		)
-		(pin "1"
-			(uuid "c0ec1cd9-1db9-4744-a6cd-d3db27100c1f")
-		)
-		(instances
-			(project "TransimpedanceAmplifier"
-				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/d0ece2d4-5b22-4822-ad0c-e2361683ec3d/c9cd3b70-0193-478b-9c9b-cf8238587205"
-					(reference "BT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 165.1 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "edccd2c8-e640-4e02-acdb-e97d13eade6b")
-		(property "Reference" "#PWR016"
-			(at 165.1 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 165.1 106.68 0)
+		(property "Value" "Keystone_968"
+			(at 212.09 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1227,7 +1872,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 101.6 0)
+			(at 212.09 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1236,7 +1881,257 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 101.6 0)
+			(at 212.09 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 212.09 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/keystone-electronics/968/151577"
+			(at 212.09 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ef3eb421-7fd5-49f5-a791-ed5862efae0c")
+		)
+		(pin "4"
+			(uuid "6ec23ec7-c3a7-4451-a347-e96df8bcb7a9")
+		)
+		(pin "1"
+			(uuid "9ce6e954-c5c1-4911-9633-edf65e858509")
+		)
+		(pin "2"
+			(uuid "280184c0-4dd8-4448-b292-938b464033bc")
+		)
+		(instances
+			(project "TransimpedanceAmplifier"
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/d0ece2d4-5b22-4822-ad0c-e2361683ec3d/c9cd3b70-0193-478b-9c9b-cf8238587205"
+					(reference "J20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom:Keystone_968")
+		(at 135.89 91.44 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c56a03d0-7a87-4497-95cc-943b26e40c00")
+		(property "Reference" "J17"
+			(at 135.89 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keystone_968"
+			(at 135.89 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/keystone-electronics/968/151577"
+			(at 135.89 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "733e76a9-f015-40ff-bf5a-2d2f8a1965a3")
+		)
+		(pin "4"
+			(uuid "e088fe5a-5295-4382-b4fe-778bd0a1f066")
+		)
+		(pin "1"
+			(uuid "0fee79b2-27bc-4ca3-850a-be6b7c2d0614")
+		)
+		(pin "2"
+			(uuid "3d2a646e-3831-41ca-a6ae-2dd7e102ed41")
+		)
+		(instances
+			(project "TransimpedanceAmplifier"
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/d0ece2d4-5b22-4822-ad0c-e2361683ec3d/c9cd3b70-0193-478b-9c9b-cf8238587205"
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom:Keystone_968")
+		(at 59.69 109.22 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6b3bd47-d37e-403f-a3ee-ceac4331af52")
+		(property "Reference" "J15"
+			(at 59.69 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keystone_968"
+			(at 59.69 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 59.69 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/keystone-electronics/968/151577"
+			(at 59.69 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "084775e0-a2ca-41b3-9cc1-442a993a6458")
+		)
+		(pin "4"
+			(uuid "42993c9d-4963-42cc-a897-02eee13dc7ea")
+		)
+		(pin "1"
+			(uuid "22db9273-8724-434f-a6e1-d7e43e93d802")
+		)
+		(pin "2"
+			(uuid "b7a07b7d-8f9a-4fc0-bce3-022ad9b91edf")
+		)
+		(instances
+			(project "TransimpedanceAmplifier"
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/d0ece2d4-5b22-4822-ad0c-e2361683ec3d/c9cd3b70-0193-478b-9c9b-cf8238587205"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50.8 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ccb82dc6-4a70-47d7-9838-9ec7da566d18")
+		(property "Reference" "#PWR013"
+			(at 50.8 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.8 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1245,7 +2140,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 101.6 0)
+			(at 50.8 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1254,12 +2149,301 @@
 			)
 		)
 		(pin "1"
-			(uuid "7d5afd2a-de9e-4895-b129-71cdd877d622")
+			(uuid "1b00a98c-c850-49f7-84e5-8059afdc252e")
 		)
 		(instances
 			(project ""
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/d0ece2d4-5b22-4822-ad0c-e2361683ec3d/c9cd3b70-0193-478b-9c9b-cf8238587205"
-					(reference "#PWR016")
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery")
+		(at 152.4 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0938388-67a4-44f6-af63-8ab7a165da41")
+		(property "Reference" "BT6"
+			(at 156.21 107.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "9V"
+			(at 156.21 109.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 107.696 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 107.696 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multiple-cell battery"
+			(at 152.4 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "53c21003-4032-4fdc-bfa5-d80f8a3d98a2")
+		)
+		(pin "1"
+			(uuid "39d9a418-2c6e-41d7-ae22-1c665d4b1659")
+		)
+		(instances
+			(project "TransimpedanceAmplifier"
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/d0ece2d4-5b22-4822-ad0c-e2361683ec3d/c9cd3b70-0193-478b-9c9b-cf8238587205"
+					(reference "BT6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom:Keystone_968")
+		(at 135.89 109.22 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e5ba4732-008b-49d1-9142-f21088196b1b")
+		(property "Reference" "J18"
+			(at 135.89 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keystone_968"
+			(at 135.89 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/keystone-electronics/968/151577"
+			(at 135.89 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "288a489e-1bab-4d86-a8cf-71e2443d850e")
+		)
+		(pin "4"
+			(uuid "414b000c-4cb1-465e-956b-5d4d3e9ceccb")
+		)
+		(pin "1"
+			(uuid "8b495a49-8c1b-4137-a480-d63f572ad748")
+		)
+		(pin "2"
+			(uuid "ab36c5f9-4b1b-42f8-8f86-a7679da3dd44")
+		)
+		(instances
+			(project "TransimpedanceAmplifier"
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/d0ece2d4-5b22-4822-ad0c-e2361683ec3d/c9cd3b70-0193-478b-9c9b-cf8238587205"
+					(reference "J18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery")
+		(at 76.2 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f80c7cc7-08c1-44a5-8756-3bd2f54d6323")
+		(property "Reference" "BT2"
+			(at 80.01 89.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "9V"
+			(at 80.01 92.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 89.916 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 89.916 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multiple-cell battery"
+			(at 76.2 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b17f9469-25e7-4b95-8ada-10d74a4fe131")
+		)
+		(pin "1"
+			(uuid "fab02eae-6230-43fc-8428-b2ffb5f0a90a")
+		)
+		(instances
+			(project "TransimpedanceAmplifier"
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/d0ece2d4-5b22-4822-ad0c-e2361683ec3d/c9cd3b70-0193-478b-9c9b-cf8238587205"
+					(reference "BT2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 203.2 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd1bd20d-7f6f-40f2-8998-837fbac3551d")
+		(property "Reference" "#PWR055"
+			(at 203.2 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 203.2 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 203.2 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "860d868b-434a-4189-959e-b61189b94854")
+		)
+		(instances
+			(project ""
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/d0ece2d4-5b22-4822-ad0c-e2361683ec3d/c9cd3b70-0193-478b-9c9b-cf8238587205"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
