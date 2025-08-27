@@ -1834,7 +1834,7 @@
 	)
 	(text "Cannot \"suppress the influence of transistor\nleakage currents or parasitic capacitances on\nthe input of OP2\" b/c the connection point is\na nonzero voltage instead of GND with this\ndesign. The approach used in the original\npaper would make the diodes conduct from the\nvoltage differential between the connection\npoint and (10k) * (±25 nA) ≈ (±0.25 mV).\n\nInstead, provide a reversible (THT) jumper\nto disconnect this feedback path if it proves\nproblematic. Omit the jumper once we are\ncertain the interference is not a problem."
 		(exclude_from_sim no)
-		(at 68.072 174.244 0)
+		(at 65.532 165.862 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1845,7 +1845,7 @@
 	)
 	(text "Jumper connected by default"
 		(exclude_from_sim no)
-		(at 97.282 142.24 0)
+		(at 87.122 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1871,10 +1871,16 @@
 		(uuid "3ffbdffd-fc32-4123-89da-157f93583601")
 	)
 	(junction
-		(at 68.58 127)
+		(at 50.8 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "41326e87-5e59-48cf-95c4-9419f53e8cf2")
+		(uuid "4c1c0c6f-2f72-4194-9f77-af7f924f404f")
+	)
+	(junction
+		(at 93.98 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "571b1d94-8a43-4ce3-8763-2c1ca2c656cd")
 	)
 	(junction
 		(at 246.38 91.44)
@@ -1889,16 +1895,10 @@
 		(uuid "8553e299-bcf7-4eda-ae46-1817caff0893")
 	)
 	(junction
-		(at 55.88 68.58)
+		(at 50.8 127)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9ab1c6f5-5763-4771-b881-64da2e41f359")
-	)
-	(junction
-		(at 137.16 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a958484b-dcdc-4774-b258-7c8d3bba0013")
+		(uuid "942cf153-2d02-4166-8600-840b32f46963")
 	)
 	(junction
 		(at 246.38 110.49)
@@ -1913,22 +1913,48 @@
 		(uuid "cabd6041-affb-4fbe-8392-4d2f50b7b966")
 	)
 	(junction
+		(at 66.04 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2c93ed6-b015-4a35-8d38-54c88aaa257f")
+	)
+	(junction
 		(at 246.38 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f74641cb-c930-4eb8-8318-12f6f7b8d30e")
 	)
 	(no_connect
-		(at 132.08 60.96)
+		(at 138.43 101.6)
 		(uuid "0bd4fa8c-6f31-4bee-be5a-72a5b08d586d")
 	)
 	(no_connect
-		(at 132.08 68.58)
+		(at 138.43 109.22)
 		(uuid "502a8590-3e1b-450b-82f1-11cb20ce08cc")
 	)
 	(no_connect
-		(at 60.96 60.96)
+		(at 67.31 101.6)
 		(uuid "5909b301-cc1f-4a17-b31c-54019b621f5f")
+	)
+	(wire
+		(pts
+			(xy 78.74 127) (xy 106.68 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07bf6cf3-ef1a-46d2-9a3b-4704e16add62")
+	)
+	(wire
+		(pts
+			(xy 67.31 104.14) (xy 50.8 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bedf099-afda-4160-8b94-478c63755a72")
 	)
 	(wire
 		(pts
@@ -1942,16 +1968,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 127) (xy 81.28 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23b6702c-2e9e-4a51-b0c5-ce081e7bb88a")
-	)
-	(wire
-		(pts
 			(xy 223.52 91.44) (xy 223.52 104.14)
 		)
 		(stroke
@@ -1959,6 +1975,26 @@
 			(type default)
 		)
 		(uuid "2869ac74-d4ab-4aa2-a1b1-2d4a803a829e")
+	)
+	(wire
+		(pts
+			(xy 50.8 127) (xy 66.04 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2908da4f-6ef5-48c7-94d6-5da5e54516ae")
+	)
+	(wire
+		(pts
+			(xy 93.98 35.56) (xy 93.98 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "297e9167-40a2-4875-b492-86b551f0e26a")
 	)
 	(wire
 		(pts
@@ -1982,13 +2018,13 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 139.7) (xy 83.82 139.7)
+			(xy 50.8 60.96) (xy 50.8 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3a0b83c7-4184-4399-920c-3c591cea6195")
+		(uuid "479f861b-546a-4159-a82f-e2a22248a03a")
 	)
 	(wire
 		(pts
@@ -2002,13 +2038,23 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 58.42) (xy 137.16 63.5)
+			(xy 73.66 139.7) (xy 66.04 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4ce07e78-9716-439e-913b-f218c4c96f1c")
+		(uuid "489f598c-bfb7-4fbe-ae61-db35e39e79af")
+	)
+	(wire
+		(pts
+			(xy 62.23 106.68) (xy 67.31 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d0c7437-4721-455d-9d14-c127b992ea03")
 	)
 	(wire
 		(pts
@@ -2042,16 +2088,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 127) (xy 124.46 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bbf6c73-450f-4d39-a46d-9541e7c7406d")
-	)
-	(wire
-		(pts
 			(xy 205.74 137.16) (xy 210.82 137.16)
 		)
 		(stroke
@@ -2062,6 +2098,26 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 48.26) (xy 50.8 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "740b3399-a17c-4be4-8db9-e47c0a59487c")
+	)
+	(wire
+		(pts
+			(xy 50.8 35.56) (xy 50.8 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "767629f0-7b25-4ea6-93f9-a9f15de5d8b6")
+	)
+	(wire
+		(pts
 			(xy 246.38 132.08) (xy 246.38 137.16)
 		)
 		(stroke
@@ -2069,16 +2125,6 @@
 			(type default)
 		)
 		(uuid "77a28689-292b-4c89-a12d-d1be8a4bb290")
-	)
-	(wire
-		(pts
-			(xy 137.16 45.72) (xy 137.16 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79c0ca0c-e0c7-477c-ba16-a53082c24205")
 	)
 	(wire
 		(pts
@@ -2132,53 +2178,23 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 63.5) (xy 142.24 63.5)
+			(xy 93.98 60.96) (xy 93.98 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "907f1197-80f4-4691-9f2a-6061d7b6d8b4")
+		(uuid "93059c01-619f-4cb8-9b94-d8e33e1cdd60")
 	)
 	(wire
 		(pts
-			(xy 86.36 139.7) (xy 124.46 139.7)
+			(xy 45.72 48.26) (xy 50.8 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "91ab6c7d-7a92-4dd3-b66a-c4a9ecc63f20")
-	)
-	(wire
-		(pts
-			(xy 50.8 127) (xy 68.58 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9311d756-13ef-4ebb-9cbb-9e43185c84cb")
-	)
-	(wire
-		(pts
-			(xy 55.88 68.58) (xy 60.96 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9743bf11-f8d0-4a2a-8697-a798b630fbad")
-	)
-	(wire
-		(pts
-			(xy 50.8 68.58) (xy 55.88 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a7715c7-9914-494b-9afd-b3dbcbc56b0a")
+		(uuid "a1509eb7-2e18-4442-99dd-5c494a18f7f9")
 	)
 	(wire
 		(pts
@@ -2212,6 +2228,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 48.26) (xy 93.98 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbe1a640-15b5-4805-a46e-b991e25cfaa2")
+	)
+	(wire
+		(pts
 			(xy 240.03 100.33) (xy 238.76 100.33)
 		)
 		(stroke
@@ -2222,13 +2248,23 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 68.58) (xy 55.88 73.66)
+			(xy 50.8 43.18) (xy 50.8 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c412ac41-cc49-4556-842d-2ef210005e90")
+		(uuid "c2f4e017-a209-48b0-b01a-889549299dd2")
+	)
+	(wire
+		(pts
+			(xy 66.04 127) (xy 71.12 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7575562-b9d5-4b94-9df2-dd96067dc62f")
 	)
 	(wire
 		(pts
@@ -2239,6 +2275,16 @@
 			(type default)
 		)
 		(uuid "c7be9cf8-12a7-4123-88a0-1795ac15c60d")
+	)
+	(wire
+		(pts
+			(xy 66.04 127) (xy 66.04 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d493fd3a-c8d9-4b40-a70d-53135a477a02")
 	)
 	(wire
 		(pts
@@ -2272,23 +2318,13 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 81.28) (xy 55.88 86.36)
+			(xy 76.2 139.7) (xy 106.68 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dc606fc8-6e34-49e1-b034-db6be5080827")
-	)
-	(wire
-		(pts
-			(xy 55.88 63.5) (xy 60.96 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dda50495-1912-4b3e-82cd-9037f0874a8e")
+		(uuid "ddafc4a6-e8c4-472d-9459-d52fa8bb65b5")
 	)
 	(wire
 		(pts
@@ -2312,6 +2348,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 48.26) (xy 93.98 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7071189-4f86-428e-bc9e-714b76577ce7")
+	)
+	(wire
+		(pts
 			(xy 218.44 45.72) (xy 223.52 45.72)
 		)
 		(stroke
@@ -2322,13 +2368,13 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 127) (xy 68.58 139.7)
+			(xy 93.98 43.18) (xy 93.98 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ea851238-e876-40cb-be05-e5e5dcb59a9a")
+		(uuid "eed6826d-6025-41d0-b3c1-2df602bd516a")
 	)
 	(wire
 		(pts
@@ -2342,16 +2388,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 63.5) (xy 137.16 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f76ecdf0-8e86-4a32-a943-930a975c7bd7")
-	)
-	(wire
-		(pts
 			(xy 246.38 91.44) (xy 259.08 91.44)
 		)
 		(stroke
@@ -2360,18 +2396,48 @@
 		)
 		(uuid "f90377c4-725c-4ab7-a531-805158b8d519")
 	)
-	(label "Feedback_Terminal"
-		(at 55.88 63.5 180)
+	(wire
+		(pts
+			(xy 50.8 104.14) (xy 50.8 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffaba8e6-82e9-4d37-8a21-5d8af5249c1f")
+	)
+	(label "V-"
+		(at 67.31 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "22ea5672-e0f3-450e-ad5a-5d5267b67c8d")
+		(uuid "38888d89-5c6d-421e-9593-1c6ba8033b9e")
+	)
+	(label "V+"
+		(at 45.72 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3c00b943-cb32-48a6-8a04-3a43f1c61034")
+	)
+	(label "V-"
+		(at 88.9 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4a902c89-ea24-4a8d-a95c-d38d299b9d2a")
 	)
 	(label "Clamped_Output"
-		(at 124.46 139.7 0)
+		(at 106.68 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2380,15 +2446,15 @@
 		)
 		(uuid "756664ef-7013-4d94-b20b-868e848ae52a")
 	)
-	(label "Feedback_Terminal"
-		(at 50.8 127 180)
+	(label "V+"
+		(at 138.43 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "ccef03c1-6eb9-402b-bab9-ff2a263738dc")
+		(uuid "7c067e8c-29a1-45f6-be1d-e7d9c43d23a6")
 	)
 	(label "Clamped_Output"
 		(at 210.82 91.44 180)
@@ -2400,20 +2466,9 @@
 		)
 		(uuid "ce0b3294-51c1-4cbd-858d-7d59f8bd75d4")
 	)
-	(hierarchical_label "-15V"
-		(shape input)
-		(at 50.8 68.58 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "083ca61f-c9ca-444f-93f5-e6c172556e93")
-	)
 	(hierarchical_label "Output"
 		(shape output)
-		(at 132.08 66.04 0)
+		(at 138.43 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2424,7 +2479,7 @@
 	)
 	(hierarchical_label "Input"
 		(shape input)
-		(at 60.96 66.04 180)
+		(at 62.23 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2432,6 +2487,28 @@
 			(justify right)
 		)
 		(uuid "1b3ddae8-7f1a-4065-bf36-de1aa49c4ed4")
+	)
+	(hierarchical_label "-15V"
+		(shape input)
+		(at 93.98 35.56 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2255c0cc-9ae7-4173-b7a5-7386d0e2528f")
+	)
+	(hierarchical_label "15V"
+		(shape input)
+		(at 50.8 35.56 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "231b27d4-c563-47b5-9248-ea14b262c249")
 	)
 	(hierarchical_label "Output"
 		(shape output)
@@ -2457,7 +2534,7 @@
 	)
 	(hierarchical_label "Output"
 		(shape output)
-		(at 124.46 127 0)
+		(at 106.68 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2476,17 +2553,6 @@
 			(justify left)
 		)
 		(uuid "6c80a3ec-848e-41cb-a0e7-bdc1154dba20")
-	)
-	(hierarchical_label "15V"
-		(shape input)
-		(at 142.24 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ce668e53-4a30-41cf-b2f3-6c35e6ad5968")
 	)
 	(hierarchical_label "Output"
 		(shape output)
@@ -2576,6 +2642,72 @@
 			(project ""
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/226b3d0c-9e45-4bcf-9bef-58938aee743e/1a19fcb8-2301-474b-810f-9788696a69a6"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50.8 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0eca1b4a-4a2f-4587-b5a8-fbd8c091390f")
+		(property "Reference" "#PWR025"
+			(at 50.8 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.8 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "979ec0db-930c-4469-a038-9617db57ca45")
+		)
+		(instances
+			(project "TransimpedanceAmplifier"
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/226b3d0c-9e45-4bcf-9bef-58938aee743e/1a19fcb8-2301-474b-810f-9788696a69a6"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -2734,6 +2866,155 @@
 			(project "TransimpedanceAmplifier"
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/226b3d0c-9e45-4bcf-9bef-58938aee743e/1a19fcb8-2301-474b-810f-9788696a69a6"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 55.88 43.18 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "286a1080-9679-47cc-a784-85e0b424e7ff")
+		(property "Reference" "J7"
+			(at 57.15 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 57.15 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 55.88 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1d7aea6-3e52-4109-b991-7226761a1657")
+		)
+		(pin "2"
+			(uuid "693898a5-fb28-4ae5-8892-75d9ee9511d9")
+		)
+		(instances
+			(project "TransimpedanceAmplifier"
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/226b3d0c-9e45-4bcf-9bef-58938aee743e/1a19fcb8-2301-474b-810f-9788696a69a6"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 50.8 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3202f267-d63c-424a-a415-dc3d628c0099")
+		(property "Reference" "C10"
+			(at 54.61 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100 nF, 0603"
+			(at 54.61 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 51.7652 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 50.8 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R72A104KA35D/702549"
+			(at 50.8 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3fa7bc41-b37a-4b2b-85c5-6d64dda8b54c")
+		)
+		(pin "1"
+			(uuid "eb6770bc-35be-45bb-86a9-32ff89ccbdf5")
+		)
+		(instances
+			(project "TransimpedanceAmplifier"
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/226b3d0c-9e45-4bcf-9bef-58938aee743e/1a19fcb8-2301-474b-810f-9788696a69a6"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -2983,16 +3264,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 137.16 45.72 180)
+		(at 93.98 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6e6f16b3-eb98-42fb-bb05-1633a23349d2")
-		(property "Reference" "#PWR025"
-			(at 137.16 39.37 0)
+		(uuid "702ae933-c718-4677-b084-72d34ceaec95")
+		(property "Reference" "#PWR026"
+			(at 93.98 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3001,7 +3282,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 137.16 40.64 0)
+			(at 93.98 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3009,7 +3290,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 45.72 0)
+			(at 93.98 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3018,7 +3299,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 45.72 0)
+			(at 93.98 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3027,7 +3308,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 137.16 45.72 0)
+			(at 93.98 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3036,12 +3317,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ca636842-96a2-4478-ae7e-9049f5f35f20")
+			(uuid "9b7acf49-1697-4142-bdcc-f90a813086b6")
 		)
 		(instances
-			(project ""
+			(project "TransimpedanceAmplifier"
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/226b3d0c-9e45-4bcf-9bef-58938aee743e/1a19fcb8-2301-474b-810f-9788696a69a6"
-					(reference "#PWR025")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -3126,7 +3407,7 @@
 	)
 	(symbol
 		(lib_id "OP37G:OP37GSZ")
-		(at 60.96 60.96 0)
+		(at 67.31 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3135,7 +3416,7 @@
 		(fields_autoplaced yes)
 		(uuid "7a9e5818-e425-4e7d-8eda-5a22c06e3e42")
 		(property "Reference" "U6"
-			(at 96.52 50.8 0)
+			(at 102.87 91.44 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3143,7 +3424,7 @@
 			)
 		)
 		(property "Value" "OP37GSZ"
-			(at 96.52 53.34 0)
+			(at 102.87 93.98 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3151,7 +3432,7 @@
 			)
 		)
 		(property "Footprint" "R_8_ADI"
-			(at 60.96 60.96 0)
+			(at 67.31 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3161,7 +3442,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/OP37.pdf"
-			(at 60.96 60.96 0)
+			(at 67.31 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3171,7 +3452,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 60.96 60.96 0)
+			(at 67.31 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3180,7 +3461,7 @@
 			)
 		)
 		(property "Purchase Link" "https://www.mouser.com/ProductDetail/Analog-Devices/OP37GSZ?qs=WIvQP4zGangnlHcCmYh5ww%3D%3D"
-			(at 60.96 60.96 0)
+			(at 67.31 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3223,7 +3504,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 86.36 134.62 270)
+		(at 76.2 134.62 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3232,7 +3513,7 @@
 		(fields_autoplaced yes)
 		(uuid "879739fd-821e-41c1-9172-3551c42d773a")
 		(property "Reference" "J1"
-			(at 87.63 133.9849 90)
+			(at 77.47 133.9849 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3241,7 +3522,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 87.63 136.5249 90)
+			(at 77.47 136.5249 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3250,7 +3531,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 134.62 0)
+			(at 76.2 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3259,7 +3540,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 134.62 0)
+			(at 76.2 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3268,7 +3549,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 86.36 134.62 0)
+			(at 76.2 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3455,35 +3736,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 137.16 54.61 0)
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 99.06 43.18 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9a1a26c8-1e90-41b6-8139-cf453731fd29")
-		(property "Reference" "C19"
-			(at 140.97 53.3399 0)
+		(uuid "99d76604-6b9c-47f2-9b3d-216dc867bb82")
+		(property "Reference" "J8"
+			(at 100.33 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "100 nF, 0603"
-			(at 140.97 55.8799 0)
+		(property "Value" "Conn_01x02_Pin"
+			(at 100.33 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 138.1252 58.42 0)
+			(at 99.06 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3492,7 +3773,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 137.16 54.61 0)
+			(at 99.06 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3500,17 +3781,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 137.16 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R72A104KA35D/702549"
-			(at 137.16 54.61 0)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 99.06 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3519,15 +3791,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "9dbb095d-0d01-4fee-b32f-b9f36999dae6")
+			(uuid "99a72b92-005f-4036-bbca-30643d3a84f7")
 		)
 		(pin "2"
-			(uuid "e6558aef-4d0c-4c83-9582-aaac11aaff15")
+			(uuid "0eeb81cf-5173-48ba-afb2-5aac66e7fcca")
 		)
 		(instances
-			(project ""
+			(project "TransimpedanceAmplifier"
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/226b3d0c-9e45-4bcf-9bef-58938aee743e/1a19fcb8-2301-474b-810f-9788696a69a6"
-					(reference "C19")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -3629,34 +3901,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 55.88 86.36 0)
+		(lib_id "Device:C")
+		(at 93.98 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d2a55ce9-6483-4e70-bcc5-d4f5dfa96fee")
-		(property "Reference" "#PWR026"
-			(at 55.88 92.71 0)
+		(uuid "c1255584-7cc7-47c7-8f27-7f4a6ebb1262")
+		(property "Reference" "C15"
+			(at 97.79 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 55.88 91.44 0)
+		(property "Value" "100 nF, 0603"
+			(at 97.79 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 86.36 0)
+			(at 94.9452 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3664,8 +3937,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 55.88 86.36 0)
+		(property "Datasheet" "~"
+			(at 93.98 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3673,22 +3946,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 86.36 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 93.98 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R72A104KA35D/702549"
+			(at 93.98 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6d8f53d6-9b99-44be-bcb8-d44e6bae53c4")
 		)
 		(pin "1"
-			(uuid "218a0915-f26f-403d-8a0d-4cb90dbd44ae")
+			(uuid "e7092755-d751-446a-81fc-75615a95a65b")
 		)
 		(instances
 			(project "TransimpedanceAmplifier"
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/226b3d0c-9e45-4bcf-9bef-58938aee743e/1a19fcb8-2301-474b-810f-9788696a69a6"
-					(reference "#PWR026")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -3838,87 +4123,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 55.88 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dddd423c-8f17-4761-aec6-3b4fc308feee")
-		(property "Reference" "C20"
-			(at 59.69 76.1999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100 nF, 0603"
-			(at 59.69 78.7399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 56.8452 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 55.88 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 55.88 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R72A104KA35D/702549"
-			(at 55.88 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "58e793fa-de57-4aa8-8e57-a5996b6b4868")
-		)
-		(pin "2"
-			(uuid "61b1ff8e-41f2-429a-9d9a-f5619d51bac9")
-		)
-		(instances
-			(project "TransimpedanceAmplifier"
-				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/226b3d0c-9e45-4bcf-9bef-58938aee743e/1a19fcb8-2301-474b-810f-9788696a69a6"
-					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
-		(at 85.09 127 90)
+		(at 74.93 127 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3927,7 +4133,7 @@
 		(fields_autoplaced yes)
 		(uuid "e09c7ae6-633d-4ac9-8b52-e4825f5796d0")
 		(property "Reference" "R2"
-			(at 85.09 120.65 90)
+			(at 74.93 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3935,7 +4141,7 @@
 			)
 		)
 		(property "Value" "15k, 1%"
-			(at 85.09 123.19 90)
+			(at 74.93 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3943,7 +4149,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.344 125.984 90)
+			(at 75.184 125.984 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3952,7 +4158,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 127 0)
+			(at 74.93 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3961,7 +4167,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 85.09 127 0)
+			(at 74.93 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3970,7 +4176,7 @@
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW060315K0FKEA/1174800"
-			(at 85.09 127 0)
+			(at 74.93 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
