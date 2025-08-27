@@ -1,4 +1,4 @@
-26021710514390115
+26023466837004733
 AD8615
 UJ_5_ADI
 
@@ -102291,6 +102291,13 @@ test point THT pad
 1
 1
 ThreeTerminal
+Bourns_3296Y
+
+
+0
+0
+0
+ThreeTerminal
 SOT-23
 
 
@@ -102309,8 +102316,8 @@ TO-220
 
 
 0
-0
-0
+3
+3
 Transformer_SMD
 Pulse_P0926NL
 SMT Gate Drive Transformer, 1:1:1, 8.0x6.3x5.3mm (https://productfinder.pulseeng.com/products/datasheets/SPM2007_61.pdf)
