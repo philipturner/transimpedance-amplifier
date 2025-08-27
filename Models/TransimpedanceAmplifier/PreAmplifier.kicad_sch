@@ -1196,8 +1196,8 @@
 		)
 	)
 	(rectangle
-		(start 43.18 58.42)
-		(end 86.36 144.78)
+		(start 154.94 45.72)
+		(end 198.12 132.08)
 		(stroke
 			(width 0)
 			(type default)
@@ -1208,8 +1208,8 @@
 		(uuid 799d2634-c629-49de-8278-e578a45bb154)
 	)
 	(rectangle
-		(start 93.98 58.42)
-		(end 142.24 144.78)
+		(start 205.74 45.72)
+		(end 254 132.08)
 		(stroke
 			(width 0)
 			(type default)
@@ -1221,7 +1221,7 @@
 	)
 	(text "Voltage divider"
 		(exclude_from_sim no)
-		(at 93.98 56.388 0)
+		(at 205.74 43.688 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1232,7 +1232,7 @@
 	)
 	(text "Local decoupling network"
 		(exclude_from_sim no)
-		(at 43.434 55.88 0)
+		(at 155.194 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1242,62 +1242,62 @@
 		(uuid "bf44058a-7dd8-42ce-bc4a-32dca7ae4050")
 	)
 	(junction
-		(at 48.26 66.04)
+		(at 160.02 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1a30d2fd-2525-4ad4-a066-5362b3b9eb2d")
 	)
 	(junction
-		(at 109.22 102.87)
+		(at 220.98 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4090ed16-b2e0-4bf3-a033-65087dd5ee87")
 	)
 	(junction
-		(at 48.26 137.16)
+		(at 160.02 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "462f3c5b-fef8-49ef-9a45-b965120566a7")
 	)
 	(junction
-		(at 109.22 66.04)
+		(at 220.98 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e0b0c9b-0c8e-42d1-a0ac-9c5d5801ff01")
 	)
 	(junction
-		(at 68.58 111.76)
+		(at 180.34 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "64ee3f5e-d78f-49b5-87f0-8d474b2cd86d")
 	)
 	(junction
-		(at 129.54 111.76)
+		(at 241.3 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "79677e48-b89d-400b-9ad3-0711fe8552e1")
 	)
 	(junction
-		(at 68.58 66.04)
+		(at 180.34 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9bc52e0f-1ad2-4a1c-ba52-8ce279b2e702")
 	)
 	(junction
-		(at 109.22 111.76)
+		(at 220.98 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a47bc00b-2af4-416a-a8a5-4bcb7d7e6ce1")
 	)
 	(junction
-		(at 48.26 111.76)
+		(at 160.02 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "adf07d47-d123-4718-84cb-7347cb6db691")
 	)
 	(wire
 		(pts
-			(xy 193.04 83.82) (xy 198.12 83.82)
+			(xy 38.1 83.82) (xy 43.18 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1307,7 +1307,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 86.36) (xy 259.08 91.44)
+			(xy 104.14 86.36) (xy 104.14 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1317,7 +1317,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 129.54) (xy 48.26 137.16)
+			(xy 160.02 116.84) (xy 160.02 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1327,7 +1327,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 111.76) (xy 68.58 121.92)
+			(xy 180.34 99.06) (xy 180.34 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1337,7 +1337,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 137.16) (xy 68.58 137.16)
+			(xy 160.02 124.46) (xy 180.34 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1347,7 +1347,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 154.94) (xy 109.22 160.02)
+			(xy 220.98 142.24) (xy 220.98 147.32)
 		)
 		(stroke
 			(width 0)
@@ -1357,7 +1357,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 111.76) (xy 48.26 121.92)
+			(xy 160.02 99.06) (xy 160.02 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1367,7 +1367,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 124.46) (xy 109.22 129.54)
+			(xy 220.98 111.76) (xy 220.98 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1377,7 +1377,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 100.33) (xy 48.26 111.76)
+			(xy 160.02 87.63) (xy 160.02 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1387,7 +1387,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 43.18) (xy 129.54 48.26)
+			(xy 241.3 30.48) (xy 241.3 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1397,7 +1397,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 69.85) (xy 129.54 111.76)
+			(xy 241.3 57.15) (xy 241.3 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1407,7 +1407,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 111.76) (xy 109.22 116.84)
+			(xy 220.98 99.06) (xy 220.98 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1417,7 +1417,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 86.36) (xy 259.08 86.36)
+			(xy 99.06 86.36) (xy 104.14 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1427,7 +1427,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 66.04) (xy 109.22 66.04)
+			(xy 180.34 53.34) (xy 220.98 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1437,7 +1437,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 66.04) (xy 68.58 92.71)
+			(xy 180.34 53.34) (xy 180.34 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1447,7 +1447,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 111.76) (xy 129.54 115.57)
+			(xy 241.3 99.06) (xy 241.3 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1457,7 +1457,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 81.28) (xy 256.54 81.28)
+			(xy 99.06 81.28) (xy 101.6 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1467,7 +1467,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 111.76) (xy 109.22 111.76)
+			(xy 180.34 99.06) (xy 220.98 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1477,7 +1477,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 92.71) (xy 101.6 92.71)
+			(xy 214.63 80.01) (xy 213.36 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1487,7 +1487,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 76.2) (xy 109.22 83.82)
+			(xy 220.98 63.5) (xy 220.98 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1497,7 +1497,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 101.6) (xy 109.22 102.87)
+			(xy 220.98 88.9) (xy 220.98 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1507,7 +1507,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 92.71) (xy 101.6 102.87)
+			(xy 213.36 80.01) (xy 213.36 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1517,7 +1517,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 102.87) (xy 109.22 111.76)
+			(xy 220.98 90.17) (xy 220.98 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1527,7 +1527,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 50.8) (xy 129.54 62.23)
+			(xy 241.3 38.1) (xy 241.3 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1537,7 +1537,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 137.16) (xy 109.22 152.4)
+			(xy 220.98 124.46) (xy 220.98 139.7)
 		)
 		(stroke
 			(width 0)
@@ -1547,7 +1547,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 102.87) (xy 109.22 102.87)
+			(xy 213.36 90.17) (xy 220.98 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1557,7 +1557,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 100.33) (xy 68.58 111.76)
+			(xy 180.34 87.63) (xy 180.34 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1567,7 +1567,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 66.04) (xy 68.58 66.04)
+			(xy 160.02 53.34) (xy 180.34 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1577,7 +1577,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 129.54) (xy 68.58 137.16)
+			(xy 180.34 116.84) (xy 180.34 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1587,7 +1587,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 137.16) (xy 48.26 137.16)
+			(xy 144.78 124.46) (xy 160.02 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1597,7 +1597,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 66.04) (xy 48.26 66.04)
+			(xy 144.78 53.34) (xy 160.02 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1607,7 +1607,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 91.44) (xy 193.04 83.82)
+			(xy 38.1 91.44) (xy 38.1 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1617,7 +1617,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 66.04) (xy 125.73 66.04)
+			(xy 220.98 53.34) (xy 237.49 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1627,7 +1627,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 66.04) (xy 109.22 68.58)
+			(xy 220.98 53.34) (xy 220.98 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1637,7 +1637,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 111.76) (xy 129.54 111.76)
+			(xy 220.98 99.06) (xy 241.3 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1647,7 +1647,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 111.76) (xy 68.58 111.76)
+			(xy 160.02 99.06) (xy 180.34 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1657,7 +1657,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 66.04) (xy 48.26 92.71)
+			(xy 160.02 53.34) (xy 160.02 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1666,7 +1666,7 @@
 		(uuid "fb5e3d3b-17db-4a04-9e4c-8036c4b653db")
 	)
 	(label "-1.5V"
-		(at 33.02 137.16 180)
+		(at 144.78 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1676,7 +1676,7 @@
 		(uuid "46d16089-d888-4d30-984d-ace487d65986")
 	)
 	(label "-1.5V"
-		(at 193.04 91.44 180)
+		(at 38.1 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1686,7 +1686,7 @@
 		(uuid "c27d23ce-18a3-4770-81e8-fae1754f3a2a")
 	)
 	(label "2.5V"
-		(at 33.02 66.04 180)
+		(at 144.78 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1696,7 +1696,7 @@
 		(uuid "d8d39be9-8b13-47a8-a27b-e637de012a93")
 	)
 	(label "2.5V"
-		(at 256.54 81.28 0)
+		(at 101.6 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1707,7 +1707,7 @@
 	)
 	(hierarchical_label "5V"
 		(shape input)
-		(at 129.54 43.18 90)
+		(at 241.3 30.48 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1718,7 +1718,7 @@
 	)
 	(hierarchical_label "-5V"
 		(shape input)
-		(at 109.22 160.02 270)
+		(at 220.98 147.32 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1729,7 +1729,7 @@
 	)
 	(hierarchical_label "Output"
 		(shape output)
-		(at 198.12 81.28 180)
+		(at 43.18 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1740,7 +1740,7 @@
 	)
 	(hierarchical_label "Input"
 		(shape input)
-		(at 254 83.82 0)
+		(at 99.06 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1751,7 +1751,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 109.22 72.39 0)
+		(at 220.98 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1760,7 +1760,7 @@
 		(fields_autoplaced yes)
 		(uuid "04427c5f-8d15-470e-9582-a469c27ae80a")
 		(property "Reference" "R3"
-			(at 111.76 71.1199 0)
+			(at 223.52 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1769,7 +1769,7 @@
 			)
 		)
 		(property "Value" "100, 1%"
-			(at 111.76 73.6599 0)
+			(at 223.52 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1778,7 +1778,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.236 72.644 90)
+			(at 221.996 59.944 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1787,7 +1787,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 72.39 0)
+			(at 220.98 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1796,7 +1796,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 109.22 72.39 0)
+			(at 220.98 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1805,7 +1805,7 @@
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW0603100RFKEA/1174554"
-			(at 109.22 72.39 0)
+			(at 220.98 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1830,7 +1830,7 @@
 	)
 	(symbol
 		(lib_id "Custom:D_Zener")
-		(at 109.22 92.71 0)
+		(at 220.98 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1839,7 +1839,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e2e7cad-6422-4b45-a9e2-14e6ab0746dd")
 		(property "Reference" "D1"
-			(at 114.3 91.4399 0)
+			(at 226.06 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1848,7 +1848,7 @@
 			)
 		)
 		(property "Value" "3.3V, 1%"
-			(at 114.3 93.9799 0)
+			(at 226.06 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1857,7 +1857,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 92.71 0)
+			(at 220.98 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1866,7 +1866,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 92.71 0)
+			(at 220.98 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1875,7 +1875,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 92.71 0)
+			(at 220.98 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1884,7 +1884,7 @@
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/diodes-incorporated/LM4040D33FTA/10295608"
-			(at 109.22 92.71 0)
+			(at 220.98 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1912,7 +1912,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer_US")
-		(at 129.54 66.04 180)
+		(at 241.3 53.34 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1920,7 +1920,7 @@
 		(dnp no)
 		(uuid "2391e4d5-12f3-4fbb-af92-ebc4696e7ecb")
 		(property "Reference" "RV4"
-			(at 132.08 64.7699 0)
+			(at 243.84 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1929,7 +1929,7 @@
 			)
 		)
 		(property "Value" "1k, 10%"
-			(at 132.08 67.3099 0)
+			(at 243.84 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1938,7 +1938,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 66.04 0)
+			(at 241.3 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1947,7 +1947,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 66.04 0)
+			(at 241.3 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1956,7 +1956,7 @@
 			)
 		)
 		(property "Description" "Potentiometer, US symbol"
-			(at 129.54 66.04 0)
+			(at 241.3 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1965,7 +1965,7 @@
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/bourns-inc/3296Y-1-102LF/1088084"
-			(at 129.54 66.04 0)
+			(at 241.3 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1993,7 +1993,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 109.22 120.65 0)
+		(at 220.98 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2002,7 +2002,7 @@
 		(fields_autoplaced yes)
 		(uuid "757431bb-3dee-4094-9af6-d21b7b90852b")
 		(property "Reference" "R5"
-			(at 111.76 119.3799 0)
+			(at 223.52 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2011,7 +2011,7 @@
 			)
 		)
 		(property "Value" "220, 1%"
-			(at 111.76 121.9199 0)
+			(at 223.52 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2020,7 +2020,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.236 120.904 90)
+			(at 221.996 108.204 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2029,7 +2029,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 120.65 0)
+			(at 220.98 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2038,7 +2038,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 109.22 120.65 0)
+			(at 220.98 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2047,7 +2047,7 @@
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW0603220RFKEA/1174590"
-			(at 109.22 120.65 0)
+			(at 220.98 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2072,7 +2072,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 48.26 96.52 0)
+		(at 160.02 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2081,7 +2081,7 @@
 		(fields_autoplaced yes)
 		(uuid "90b3f922-f758-4ed3-aa9a-9d78c83498fb")
 		(property "Reference" "C1"
-			(at 52.07 95.2499 0)
+			(at 163.83 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2090,7 +2090,7 @@
 			)
 		)
 		(property "Value" "1 uF, 0603"
-			(at 52.07 97.7899 0)
+			(at 163.83 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2099,7 +2099,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.2252 100.33 0)
+			(at 160.9852 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2108,7 +2108,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 96.52 0)
+			(at 160.02 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2117,7 +2117,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 48.26 96.52 0)
+			(at 160.02 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2126,7 +2126,7 @@
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRT188R61H105KE13D/5416752"
-			(at 48.26 96.52 0)
+			(at 160.02 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2151,7 +2151,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 48.26 125.73 0)
+		(at 160.02 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2160,7 +2160,7 @@
 		(fields_autoplaced yes)
 		(uuid "a56670d6-400f-4d35-b276-635ff6018ccd")
 		(property "Reference" "C3"
-			(at 52.07 124.4599 0)
+			(at 163.83 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2169,7 +2169,7 @@
 			)
 		)
 		(property "Value" "1 uF, 0603"
-			(at 52.07 126.9999 0)
+			(at 163.83 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2178,7 +2178,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.2252 129.54 0)
+			(at 160.9852 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2187,7 +2187,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 125.73 0)
+			(at 160.02 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2196,7 +2196,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 48.26 125.73 0)
+			(at 160.02 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2205,7 +2205,7 @@
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRT188R61H105KE13D/5416752"
-			(at 48.26 125.73 0)
+			(at 160.02 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2230,7 +2230,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 129.54 115.57 0)
+		(at 241.3 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2239,7 +2239,7 @@
 		(fields_autoplaced yes)
 		(uuid "a56e7d3c-7b3c-454d-9dd3-60b3af37950a")
 		(property "Reference" "#PWR01"
-			(at 129.54 121.92 0)
+			(at 241.3 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2248,7 +2248,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 129.54 120.65 0)
+			(at 241.3 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2256,7 +2256,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 115.57 0)
+			(at 241.3 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2265,7 +2265,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 115.57 0)
+			(at 241.3 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2274,7 +2274,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 115.57 0)
+			(at 241.3 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2296,7 +2296,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 259.08 91.44 0)
+		(at 104.14 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2305,7 +2305,7 @@
 		(fields_autoplaced yes)
 		(uuid "b9e41ce4-d06e-4be5-81a0-77fa0b522eff")
 		(property "Reference" "#PWR05"
-			(at 259.08 97.79 0)
+			(at 104.14 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2314,7 +2314,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 259.08 96.52 0)
+			(at 104.14 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2322,7 +2322,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 91.44 0)
+			(at 104.14 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2331,7 +2331,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 91.44 0)
+			(at 104.14 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2340,7 +2340,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 259.08 91.44 0)
+			(at 104.14 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2362,7 +2362,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 68.58 96.52 0)
+		(at 180.34 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2371,7 +2371,7 @@
 		(fields_autoplaced yes)
 		(uuid "c8dbb6be-f7b0-473e-b4b2-9ba2221e1f95")
 		(property "Reference" "C2"
-			(at 72.39 95.2499 0)
+			(at 184.15 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2380,7 +2380,7 @@
 			)
 		)
 		(property "Value" "10 uF, 0805"
-			(at 72.39 97.7899 0)
+			(at 184.15 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2389,7 +2389,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.5452 100.33 0)
+			(at 181.3052 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2398,7 +2398,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 96.52 0)
+			(at 180.34 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2407,7 +2407,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 68.58 96.52 0)
+			(at 180.34 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2416,7 +2416,7 @@
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM21BR61E106KA73K/4905532"
-			(at 68.58 96.52 0)
+			(at 180.34 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2441,7 +2441,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 134.62 50.8 180)
+		(at 246.38 38.1 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2450,7 +2450,7 @@
 		(fields_autoplaced yes)
 		(uuid "d051791c-bf1c-4b93-b186-1dfaba6f2cab")
 		(property "Reference" "J9"
-			(at 135.89 48.2599 0)
+			(at 247.65 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2459,7 +2459,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 135.89 50.7999 0)
+			(at 247.65 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2468,7 +2468,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 50.8 0)
+			(at 246.38 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2477,7 +2477,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 50.8 0)
+			(at 246.38 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2486,7 +2486,16 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 134.62 50.8 0)
+			(at 246.38 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/sullins-connector-solutions/QPC02SXGN-RC/2618262"
+			(at 246.38 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2511,7 +2520,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 109.22 133.35 0)
+		(at 220.98 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2520,7 +2529,7 @@
 		(fields_autoplaced yes)
 		(uuid "dd64e7d5-161f-426f-bdd6-f92faf5a8059")
 		(property "Reference" "R4"
-			(at 111.76 132.0799 0)
+			(at 223.52 119.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2529,7 +2538,7 @@
 			)
 		)
 		(property "Value" "523, 1%"
-			(at 111.76 134.6199 0)
+			(at 223.52 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2538,7 +2547,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.236 133.604 90)
+			(at 221.996 120.904 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2547,7 +2556,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 133.35 0)
+			(at 220.98 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2556,7 +2565,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 109.22 133.35 0)
+			(at 220.98 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2565,7 +2574,7 @@
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW0603523RFKEA/1174636"
-			(at 109.22 133.35 0)
+			(at 220.98 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2590,7 +2599,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 114.3 154.94 180)
+		(at 226.06 142.24 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2599,7 +2608,7 @@
 		(fields_autoplaced yes)
 		(uuid "e2c4e283-66d2-4330-8f27-087790dd4247")
 		(property "Reference" "J10"
-			(at 115.57 152.3999 0)
+			(at 227.33 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2608,7 +2617,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 115.57 154.9399 0)
+			(at 227.33 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2617,7 +2626,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 154.94 0)
+			(at 226.06 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2626,7 +2635,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 154.94 0)
+			(at 226.06 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2635,7 +2644,16 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 114.3 154.94 0)
+			(at 226.06 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/sullins-connector-solutions/QPC02SXGN-RC/2618262"
+			(at 226.06 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2660,7 +2678,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 68.58 125.73 0)
+		(at 180.34 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2669,7 +2687,7 @@
 		(fields_autoplaced yes)
 		(uuid "eec3ab1d-d086-44f6-9321-b757a261e7ca")
 		(property "Reference" "C4"
-			(at 72.39 124.4599 0)
+			(at 184.15 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2678,7 +2696,7 @@
 			)
 		)
 		(property "Value" "10 uF, 0805"
-			(at 72.39 126.9999 0)
+			(at 184.15 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2687,7 +2705,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.5452 129.54 0)
+			(at 181.3052 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2696,7 +2714,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 125.73 0)
+			(at 180.34 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2705,7 +2723,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 68.58 125.73 0)
+			(at 180.34 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2714,7 +2732,7 @@
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM21BR61E106KA73K/4905532"
-			(at 68.58 125.73 0)
+			(at 180.34 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2739,7 +2757,7 @@
 	)
 	(symbol
 		(lib_id "AD8615:AD8615AUJZ-R2")
-		(at 198.12 81.28 0)
+		(at 43.18 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2748,7 +2766,7 @@
 		(fields_autoplaced yes)
 		(uuid "ff6fab70-c1dc-41a4-8ef5-90116676a4cd")
 		(property "Reference" "U5"
-			(at 226.06 71.12 0)
+			(at 71.12 71.12 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2756,7 +2774,7 @@
 			)
 		)
 		(property "Value" "AD8615AUJZ-R2"
-			(at 226.06 73.66 0)
+			(at 71.12 73.66 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2764,7 +2782,7 @@
 			)
 		)
 		(property "Footprint" "UJ_5_ADI"
-			(at 198.12 81.28 0)
+			(at 43.18 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2774,7 +2792,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8615_8616_8618.pdf"
-			(at 198.12 81.28 0)
+			(at 43.18 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2784,7 +2802,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 198.12 81.28 0)
+			(at 43.18 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2793,7 +2811,7 @@
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/analog-devices-inc/AD8615AUJZ-REEL7/951437"
-			(at 198.12 81.28 0)
+			(at 43.18 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)

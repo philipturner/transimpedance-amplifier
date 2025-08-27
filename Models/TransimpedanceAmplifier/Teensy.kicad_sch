@@ -3748,6 +3748,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/sullins-connector-solutions/PPPC241LFBN-RC/810196"
+			(at 203.2 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1c2d390e-1da1-48d1-aaa8-952e2d62e4c9")
 		)
@@ -3875,6 +3884,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x24, script generated"
+			(at 106.68 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/sullins-connector-solutions/PPPC241LFBN-RC/810196"
 			(at 106.68 85.09 0)
 			(effects
 				(font
@@ -4016,6 +4034,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/sullins-connector-solutions/PRPC024SAAN-RC/2775230"
+			(at 121.92 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "53af0d4a-5ebd-458f-b0a7-9ebc6ac8a10c")
 		)
@@ -4143,6 +4170,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x24, script generated"
+			(at 187.96 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/sullins-connector-solutions/PRPC024SAAN-RC/2775230"
 			(at 187.96 87.63 0)
 			(effects
 				(font
