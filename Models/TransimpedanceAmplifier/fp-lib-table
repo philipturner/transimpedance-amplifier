@@ -12,5 +12,5 @@
   (lib (name "TwoTerminal")(type "KiCad")(uri "${KIPRJMOD}/libraries/TwoTerminal.pretty")(options "")(descr ""))
   (lib (name "ThreeTerminal")(type "KiCad")(uri "${KIPRJMOD}/libraries/ThreeTerminal.pretty")(options "")(descr ""))
   (lib (name "IC")(type "KiCad")(uri "${KIPRJMOD}/libraries/IC.pretty")(options "")(descr ""))
-  (lib (name "ThroughHole")(type "KiCad")(uri "${KIPRJMOD}/libraries/ThroughHole.pretty")(options "")(descr ""))
+  (lib (name "Connector_Custom")(type "KiCad")(uri "${KIPRJMOD}/libraries/Connector_Custom.pretty")(options "")(descr ""))
 )
