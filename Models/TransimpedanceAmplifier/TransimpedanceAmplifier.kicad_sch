@@ -5,6 +5,171 @@
 	(uuid "ec9f2ae3-e40d-40eb-9760-2b611ee8efd1")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Conn_01x02_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Socket"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x03_Pin"
 			(pin_names
 				(offset 1.016)
@@ -209,182 +374,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_SPDT"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_SPDT"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Switch, single pole double throw"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_SPDT_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.651 0.254) (xy 1.651 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SPDT_1_1"
-				(rectangle
-					(start -3.175 3.81)
-					(end 3.175 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(rectangle
 		(start 226.06 124.46)
@@ -420,17 +409,6 @@
 		)
 		(uuid "52742bf0-fead-4337-bbf8-4485378ddffa")
 	)
-	(text "TODO: Investigate effects of the switch\non leakage current, when placed between\nthe DUT and the TIA"
-		(exclude_from_sim no)
-		(at 53.594 142.748 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "d8bbfb7e-f1c7-41e8-91e4-6701a8f7c8fa")
-	)
 	(text "Jumper selects which TIA to test\nAlternatively, connect DAC output\ndirectly to pin 2"
 		(exclude_from_sim no)
 		(at 167.132 124.46 0)
@@ -442,15 +420,22 @@
 		)
 		(uuid "e5ece8cf-424a-4a55-97b4-e34f98cb43f5")
 	)
-	(wire
-		(pts
-			(xy 45.72 121.92) (xy 40.64 121.92)
+	(text "Use through-hole DUT to connect sockets"
+		(exclude_from_sim no)
+		(at 48.006 129.032 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
 		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "001ff8e0-d3ed-4c5d-82ad-d293fef148fb")
+		(uuid "f9f80924-9c58-4b93-8c0a-bf1e51758f6a")
+	)
+	(junction
+		(at 45.72 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f2d6e4a-0909-4ca3-9d3e-506beaa07812")
 	)
 	(wire
 		(pts
@@ -494,16 +479,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 124.46) (xy 99.06 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1aecefc1-013f-4068-a907-7aaf2a0c9996")
-	)
-	(wire
-		(pts
 			(xy 99.06 96.52) (xy 104.14 96.52)
 		)
 		(stroke
@@ -524,23 +499,23 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 119.38) (xy 99.06 96.52)
+			(xy 99.06 96.52) (xy 99.06 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7db5038f-8a6f-4b04-929c-f0fbaa3f7448")
+		(uuid "66dc0616-5a5f-484c-a6e3-c0872b837faf")
 	)
 	(wire
 		(pts
-			(xy 78.74 121.92) (xy 83.82 121.92)
+			(xy 40.64 121.92) (xy 45.72 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b51cb914-8b8c-41fa-ad49-c139659eb65b")
+		(uuid "7f7c728b-217b-4084-a95f-b4fb2787c720")
 	)
 	(wire
 		(pts
@@ -564,23 +539,13 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 124.46) (xy 99.06 147.32)
+			(xy 45.72 121.92) (xy 48.26 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dcbcf04d-0850-4ec7-8baa-d6b196b03fe4")
-	)
-	(wire
-		(pts
-			(xy 93.98 119.38) (xy 99.06 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0779db5-9159-42b2-9253-03f904b34685")
+		(uuid "dbbd7405-cfd1-45c7-9b3a-42f2166e1af5")
 	)
 	(wire
 		(pts
@@ -601,6 +566,16 @@
 			(type default)
 		)
 		(uuid "f43aa17e-3456-49e2-832b-35e3b365814d")
+	)
+	(wire
+		(pts
+			(xy 99.06 123.19) (xy 99.06 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb46e5dc-d136-450d-b3f5-ebd6fa4a3766")
 	)
 	(wire
 		(pts
@@ -773,6 +748,73 @@
 		(uuid "fbf697b2-bebe-4e90-b2ab-19b818e2735b")
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 93.98 123.19 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "055501cf-bf04-49a4-9aba-f9210d7c7e86")
+		(property "Reference" "J3"
+			(at 91.186 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 82.804 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 93.98 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3a2fd50-0f77-42ed-b6b4-fac7ea4c7d6d")
+		)
+		(pin "2"
+			(uuid "e7e114bd-b397-4e78-8e21-4612a730e266")
+		)
+		(instances
+			(project ""
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
 		(at 160.02 121.92 0)
 		(unit 1)
@@ -843,33 +885,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPDT")
-		(at 88.9 121.92 0)
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 45.72 116.84 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d9cea1da-c0fa-4304-ac48-980bc758011f")
-		(property "Reference" "SW1"
-			(at 88.9 113.03 0)
+		(uuid "9f0f1bd1-ed3f-40a2-844e-2d5e770a4e85")
+		(property "Reference" "J4"
+			(at 49.53 116.2049 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "SW_SPDT"
-			(at 88.9 115.57 0)
+		(property "Value" "Conn_01x02_Socket"
+			(at 49.53 118.7449 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 121.92 0)
+			(at 45.72 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -878,7 +922,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 129.54 0)
+			(at 45.72 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -886,28 +930,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Switch, single pole double throw"
-			(at 88.9 121.92 0)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 45.72 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "3"
-			(uuid "05d25021-e978-4662-967f-9254718d6433")
-		)
-		(pin "2"
-			(uuid "41e936e7-5467-46dc-889f-96f4d28508e4")
 		)
 		(pin "1"
-			(uuid "2ddda9c1-207c-4eb0-b394-88619a6239f7")
+			(uuid "2cec0c3b-50e8-42e7-a343-26123ec09215")
+		)
+		(pin "2"
+			(uuid "1884cbab-dbf3-4d85-9e50-72a20ce4cc06")
 		)
 		(instances
 			(project ""
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1"
-					(reference "SW1")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -1215,68 +1256,6 @@
 			(project "TransimpedanceAmplifier"
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1"
 					(page "12")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 45.72 109.22)
-		(size 33.02 25.4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "dc71cb80-a5fe-4d35-8e0a-2347d37b6518")
-		(property "Sheetname" "DUT"
-			(at 45.72 108.5084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "DUT.kicad_sch"
-			(at 45.72 135.2046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "Input" input
-			(at 45.72 121.92 180)
-			(uuid "c0ce1109-1783-41eb-8e66-0689983e700b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Output" output
-			(at 78.74 121.92 0)
-			(uuid "d0481d9f-565a-4b74-b08e-5f45294f4c6c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "TransimpedanceAmplifier"
-				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1"
-					(page "5")
 				)
 			)
 		)

@@ -665,10 +665,6 @@
       "LowVoltage_PreAmp"
     ],
     [
-      "dc71cb80-a5fe-4d35-8e0a-2347d37b6518",
-      "DUT"
-    ],
-    [
       "f970a304-10fa-492d-98c3-214694e65338",
       "TIA_OneStage"
     ],
