@@ -3550,9 +3550,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Connected to low-cost Windows PC:\n\n49 (VUSB)\n66 (D-)\n67 (D+)\nGND"
+	(text "Connected to low-cost Windows PC\nthrough Micro-USB port:\n\n49 (VUSB)\n66 (D-)\n67 (D+)\nGND"
 		(exclude_from_sim no)
-		(at 134.62 32.258 0)
+		(at 127.254 45.466 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3561,89 +3561,100 @@
 		)
 		(uuid "38b6e326-fc72-4ce0-894e-71804439d751")
 	)
+	(text "All 3.3V pins are electrically equivalent. They connect to the same\nnet in the Teensy 4.1 PCB schematic. In theory, I can draw 250 mA out\nof any one of them. Their physical separation is mostly an issue at\nhigh frequencies, where local decoupling networks are used anyway.\n\nThe same should be true about GND pins. To simplify everything, I'll\nconnect all GND pins to my PCB and tie them into the same net."
+		(exclude_from_sim no)
+		(at 190.754 39.116 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "690efd5c-c3d7-47bd-a60b-ba202115dd67")
+	)
 	(no_connect
-		(at 127 129.54)
+		(at 76.2 142.24)
 		(uuid "0893a61f-d7fb-458d-9cc5-fd88ed91cff4")
 	)
 	(no_connect
-		(at 158.75 144.78)
+		(at 107.95 157.48)
 		(uuid "0f8b98aa-5357-4199-a01a-84162da2a19f")
 	)
 	(no_connect
-		(at 127 120.65)
+		(at 76.2 133.35)
 		(uuid "10d27c84-5b7c-433e-9ef1-27feeed05122")
 	)
 	(no_connect
-		(at 147.32 144.78)
+		(at 96.52 157.48)
 		(uuid "128ab9c1-b6d3-49ce-a6a4-edd20b399929")
 	)
 	(no_connect
-		(at 208.28 57.15)
+		(at 157.48 69.85)
 		(uuid "1e1f6da4-d142-422a-b64e-ae2cf0df3249")
 	)
 	(no_connect
-		(at 182.88 132.08)
+		(at 132.08 144.78)
 		(uuid "3110df92-3fb3-4889-a762-8a37e3a4fce2")
 	)
 	(no_connect
-		(at 182.88 53.34)
+		(at 132.08 66.04)
 		(uuid "36e2f368-aaf1-4a48-8347-d79a99d85fe6")
 	)
 	(no_connect
-		(at 182.88 121.92)
+		(at 132.08 134.62)
 		(uuid "6e40ef49-468e-4f71-8735-c5775450b38c")
 	)
 	(no_connect
-		(at 182.88 134.62)
+		(at 132.08 147.32)
 		(uuid "7231a553-ba9f-48ef-a39e-1272819e4710")
 	)
 	(no_connect
-		(at 127 127)
+		(at 76.2 139.7)
 		(uuid "7c1abd7d-bd7c-4980-8005-395791a81678")
 	)
 	(no_connect
-		(at 151.13 144.78)
+		(at 100.33 157.48)
 		(uuid "7eead186-39f8-4fff-a122-615288f92448")
 	)
 	(no_connect
-		(at 127 134.62)
+		(at 76.2 147.32)
 		(uuid "909c5f71-3ec9-40d6-a275-41413719aca5")
 	)
 	(no_connect
-		(at 127 137.16)
+		(at 76.2 149.86)
 		(uuid "91972e60-13ec-4d6a-aab7-61bc04c94b8d")
 	)
 	(no_connect
-		(at 162.56 144.78)
+		(at 111.76 157.48)
 		(uuid "9420314a-7017-493f-bde9-69a989b405fb")
 	)
 	(no_connect
-		(at 182.88 127)
+		(at 132.08 139.7)
 		(uuid "a050896e-40a8-4023-9d94-8f7f6b87a19c")
 	)
 	(no_connect
-		(at 182.88 124.46)
+		(at 132.08 137.16)
 		(uuid "a27b7a04-f404-4910-8708-398d59c0a453")
 	)
 	(no_connect
-		(at 182.88 129.54)
+		(at 132.08 142.24)
 		(uuid "a4c9021b-74f9-4ff6-88c6-a8ae6259a8e6")
 	)
 	(no_connect
-		(at 127 132.08)
+		(at 76.2 144.78)
 		(uuid "c9236cbb-329d-4557-9b7a-f89bdfc91632")
 	)
 	(no_connect
-		(at 154.94 144.78)
+		(at 104.14 157.48)
 		(uuid "cd779a8b-3cee-4ac8-87d5-ecc152514c48")
 	)
 	(no_connect
-		(at 127 123.19)
+		(at 76.2 135.89)
 		(uuid "d16bf749-9dee-4455-a0b1-ac20d5d4aa8e")
 	)
 	(hierarchical_label "CS_DAC"
 		(shape output)
-		(at 208.28 107.95 0)
+		(at 157.48 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3654,7 +3665,7 @@
 	)
 	(hierarchical_label "CS_ADC"
 		(shape output)
-		(at 208.28 105.41 0)
+		(at 157.48 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3665,7 +3676,7 @@
 	)
 	(hierarchical_label "SCK"
 		(shape output)
-		(at 208.28 90.17 0)
+		(at 157.48 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3676,7 +3687,7 @@
 	)
 	(hierarchical_label "MOSI"
 		(shape output)
-		(at 101.6 87.63 180)
+		(at 50.8 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3687,7 +3698,7 @@
 	)
 	(hierarchical_label "MISO"
 		(shape input)
-		(at 101.6 90.17 180)
+		(at 50.8 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3698,7 +3709,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x24_Socket")
-		(at 203.2 87.63 180)
+		(at 152.4 100.33 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3706,7 +3717,7 @@
 		(dnp no)
 		(uuid "0e4791b2-810f-4eff-8e65-310340ff351e")
 		(property "Reference" "J_Teensy_Right"
-			(at 209.55 48.768 0)
+			(at 158.75 61.468 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3714,7 +3725,7 @@
 			)
 		)
 		(property "Value" "Conn_01x24_Socket"
-			(at 212.09 51.562 0)
+			(at 161.29 64.262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3722,7 +3733,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 87.63 0)
+			(at 152.4 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3731,7 +3742,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 203.2 87.63 0)
+			(at 152.4 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3740,7 +3751,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x24, script generated"
-			(at 203.2 87.63 0)
+			(at 152.4 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3749,7 +3760,7 @@
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/sullins-connector-solutions/PPPC241LFBN-RC/810196"
-			(at 203.2 87.63 0)
+			(at 152.4 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3840,7 +3851,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x24_Socket")
-		(at 106.68 85.09 0)
+		(at 55.88 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3848,7 +3859,7 @@
 		(dnp no)
 		(uuid "34c722a7-c17a-4f4a-b526-ad7ec0584f98")
 		(property "Reference" "J_Teensy_Left"
-			(at 93.98 50.546 0)
+			(at 43.18 63.246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3857,7 +3868,7 @@
 			)
 		)
 		(property "Value" "Conn_01x24_Socket"
-			(at 87.884 53.086 0)
+			(at 37.084 65.786 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3866,7 +3877,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 85.09 0)
+			(at 55.88 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3875,7 +3886,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 85.09 0)
+			(at 55.88 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3884,7 +3895,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x24, script generated"
-			(at 106.68 85.09 0)
+			(at 55.88 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3893,7 +3904,7 @@
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/sullins-connector-solutions/PPPC241LFBN-RC/810196"
-			(at 106.68 85.09 0)
+			(at 55.88 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3984,15 +3995,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x24_Pin")
-		(at 121.92 85.09 0)
+		(at 71.12 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "be01f97a-379b-4f5a-9a94-dd4254195307")
 		(property "Reference" "J13"
-			(at 125.222 50.038 0)
+			(at 74.422 62.738 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4000,7 +4011,7 @@
 			)
 		)
 		(property "Value" "Conn_01x24_Pin"
-			(at 119.126 53.086 0)
+			(at 68.326 65.786 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4008,7 +4019,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 85.09 0)
+			(at 71.12 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4017,7 +4028,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 85.09 0)
+			(at 71.12 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4026,7 +4037,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x24, script generated"
-			(at 121.92 85.09 0)
+			(at 71.12 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4035,7 +4046,7 @@
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/sullins-connector-solutions/PRPC024SAAN-RC/2775230"
-			(at 121.92 85.09 0)
+			(at 71.12 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4126,15 +4137,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x24_Pin")
-		(at 187.96 87.63 180)
+		(at 137.16 100.33 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "c434ece9-b750-4dcf-826a-38b4a670132d")
 		(property "Reference" "J11"
-			(at 185.166 50.292 0)
+			(at 134.366 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4143,7 +4154,7 @@
 			)
 		)
 		(property "Value" "Conn_01x24_Pin"
-			(at 185.166 52.832 0)
+			(at 134.366 65.532 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4152,7 +4163,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 87.63 0)
+			(at 137.16 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4161,7 +4172,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 87.63 0)
+			(at 137.16 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4170,7 +4181,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x24, script generated"
-			(at 187.96 87.63 0)
+			(at 137.16 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4179,7 +4190,7 @@
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/sullins-connector-solutions/PRPC024SAAN-RC/2775230"
-			(at 187.96 87.63 0)
+			(at 137.16 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4270,16 +4281,16 @@
 	)
 	(symbol
 		(lib_id "teensy:Teensy4.1")
-		(at 154.94 111.76 0)
+		(at 104.14 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed294255-efe4-4d9e-8ff3-9bcf13ce2159")
 		(property "Reference" "U13"
-			(at 154.94 45.72 0)
+			(at 104.14 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4287,7 +4298,7 @@
 			)
 		)
 		(property "Value" "Teensy4.1"
-			(at 154.94 48.26 0)
+			(at 104.14 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4295,7 +4306,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 101.6 0)
+			(at 93.98 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4304,7 +4315,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 101.6 0)
+			(at 93.98 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4313,7 +4324,16 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.94 111.76 0)
+			(at 104.14 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" ""
+			(at 104.14 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)

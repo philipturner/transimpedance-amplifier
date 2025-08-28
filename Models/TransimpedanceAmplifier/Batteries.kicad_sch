@@ -501,6 +501,17 @@
 		)
 		(uuid "448eef6a-c888-4af1-a04c-551e5008c8a0")
 	)
+	(text "TODO: Check that 9V batteries can be disconnected\nfrom their respective connectors with low force.\n\nTODO: Resolve issues with connectivity of\nthe Keystone 968 footprints. Exclude the battery\nsymbols from the board (they have no footprint)."
+		(exclude_from_sim no)
+		(at 43.434 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "4f1b0541-4e17-4ea2-96ca-1988dc8747b6")
+	)
 	(text "Logic power supply\nGuaranteed above 7.5 V for 0.3 A-hours\n\nTheoretical upper bound: 19.1 V\n\n20 mA load condition\n~17.9 V @ 0.0 hours\n~7.5 V @ 15.0 hours\n\n100 mA load condition\n~17.7 V @ 0.0 hours\n~7.5 V @ 3.0 hours"
 		(exclude_from_sim no)
 		(at 203.962 135.128 0)
