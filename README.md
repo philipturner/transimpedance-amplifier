@@ -35,6 +35,7 @@ Table of Contents:
 - [August 23, 2025](#august-23-2025)
 - [August 26, 2025](#august-26-2025)
 - [August 27, 2025](#august-27-2025)
+- [August 28, 2025](#august-28-2025)
 
 ## July 26, 2025
 
@@ -513,3 +514,9 @@ To make everything easier, we'll try a separate approach. Each of the 9 V batter
 ![August 27, Part 2](./Documentation/New/August27_Part2.png)
 
 In KiCad, I'll use an isolated battery (not connected terminal-to-terminal with neighbors) to represent the connector. It would already be strange to specify the battery purchase link separately, as I'm getting all 8 in a single pack. Instead, each symbol will use the purchase link for the connector. There will be an additional dedicated footprint for this connector.
+
+## August 28, 2025
+
+I stumbled upon a very important insight for the PCB layout phase: [Source](https://www.eevblog.com/forum/kicad/connecting-two-nets/msg5608951/#msg5608951)
+
+> I agree that the ratsnest does not help you match a specific capacitor to a specific pin on a specific part before you have the components placed the way you want them. I usually get capacitors at least close to the right component without specific effort because during initial component placement I'm in the habit of <b>drag-selecting groups of related components in the schematic</b> in order to get them selected in the schematic, and then using "Pack and Move Components" (should be mapped to the "P" hotkey) in the PCB to group them together. I usually stick each related group by itself somewhere off-board to see how it connects to other groups, and then <b>start moving entire unrouted and randomly arranged groups</b> to begin figuring out my placement strategy. Once I begin placing individual components within a group, the group at least contains the right capacitors (and only the right capacitors) for the IC(s) in that group. This will be less cumbersome if you have enough screen space to have the schematic and PCB tools open side by side.
