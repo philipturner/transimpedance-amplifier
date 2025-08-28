@@ -2773,7 +2773,7 @@
 				)
 			)
 		)
-		(property "Value" "AD8615AUJZ-R2"
+		(property "Value" "AD8615"
 			(at 71.12 73.66 0)
 			(effects
 				(font

@@ -1475,7 +1475,7 @@
 				)
 			)
 		)
-		(property "Value" "ADS8699IPW"
+		(property "Value" "ADS8699"
 			(at 104.14 43.18 0)
 			(effects
 				(font

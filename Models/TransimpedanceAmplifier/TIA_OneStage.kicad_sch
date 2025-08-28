@@ -1275,7 +1275,7 @@
 				)
 			)
 		)
-		(property "Value" "OPA828ID"
+		(property "Value" "OPA828"
 			(at 99.06 86.36 0)
 			(effects
 				(font

@@ -5,145 +5,6 @@
 	(uuid "c5638483-1b82-4a7f-8206-b48acd4eaded")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "ISO7641FM:ISO7641FMDW"
 			(pin_names
 				(offset 0.254)
@@ -564,8 +425,8 @@
 		)
 	)
 	(rectangle
-		(start 50.8 22.86)
-		(end 147.32 144.78)
+		(start 25.4 22.86)
+		(end 142.24 144.78)
 		(stroke
 			(width 0)
 			(type default)
@@ -576,8 +437,8 @@
 		(uuid 481ebfe4-2d79-4792-867b-1de957a395aa)
 	)
 	(rectangle
-		(start 157.48 22.86)
-		(end 254 144.78)
+		(start 162.56 22.86)
+		(end 279.4 144.78)
 		(stroke
 			(width 0)
 			(type default)
@@ -587,14 +448,14 @@
 		)
 		(uuid 5282dc8c-9c29-429f-9d06-0136e126063d)
 	)
-	(text "Analog"
+	(text "Analog / High Voltage"
 		(exclude_from_sim no)
-		(at 157.988 20.828 0)
+		(at 162.306 19.812 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left top)
 		)
 		(uuid "239158d9-337c-40d7-985e-7b705f36fb84")
 	)
@@ -611,7 +472,7 @@
 	)
 	(text "TODO: Reorder SPI pins based on which\narrangement best suits the physical\nlayout of the receiving chip's pins"
 		(exclude_from_sim no)
-		(at 207.01 55.626 0)
+		(at 163.576 153.416 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -622,12 +483,12 @@
 	)
 	(text "Digital"
 		(exclude_from_sim no)
-		(at 50.8 20.574 0)
+		(at 25.146 20.066 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left top)
 		)
 		(uuid "b4c1bf3c-54aa-4855-9d51-c637dabdcb2d")
 	)
@@ -641,230 +502,6 @@
 			(justify left top)
 		)
 		(uuid "b8c99a07-04e1-4d01-bae4-9a61470b6d1d")
-	)
-	(junction
-		(at 116.84 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "46d11ba5-5a05-4bda-8704-ab37fcbd1287")
-	)
-	(junction
-		(at 187.96 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4eabe89b-f395-4afd-a795-defee39bb576")
-	)
-	(junction
-		(at 116.84 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "76a886ef-902f-44bc-a80a-7ccc27a7bb90")
-	)
-	(junction
-		(at 187.96 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9832c58d-307d-49da-9d14-1867c7284e0c")
-	)
-	(wire
-		(pts
-			(xy 111.76 27.94) (xy 116.84 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0eb0193f-3794-4dcc-95c8-e94ca03f8d35")
-	)
-	(wire
-		(pts
-			(xy 187.96 33.02) (xy 187.96 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f62fefc-3aa8-427b-9f0a-319ea5d207b2")
-	)
-	(wire
-		(pts
-			(xy 187.96 101.6) (xy 187.96 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3641262d-8fb7-48f5-ae1e-e04e1cae0b38")
-	)
-	(wire
-		(pts
-			(xy 187.96 45.72) (xy 193.04 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "437fa97a-0a00-4914-b2c3-1cac674811dc")
-	)
-	(wire
-		(pts
-			(xy 187.96 40.64) (xy 187.96 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43abc978-e0a7-4b28-87c4-98cc507ffaac")
-	)
-	(wire
-		(pts
-			(xy 116.84 106.68) (xy 121.92 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4772b63c-bec0-428b-a714-361196ec55fb")
-	)
-	(wire
-		(pts
-			(xy 182.88 106.68) (xy 187.96 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63e3193d-945f-4782-b579-1634213cb139")
-	)
-	(wire
-		(pts
-			(xy 187.96 106.68) (xy 193.04 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70f70517-7cd0-4ca0-8a28-15266d5e6d4a")
-	)
-	(wire
-		(pts
-			(xy 116.84 45.72) (xy 121.92 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79d0fb5f-f28d-4c6f-9b4c-b3c8ac13607e")
-	)
-	(wire
-		(pts
-			(xy 182.88 45.72) (xy 187.96 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d6f9f60-4d62-4234-ab20-9daf62c83787")
-	)
-	(wire
-		(pts
-			(xy 111.76 45.72) (xy 116.84 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84adf2c0-9d8b-4c39-be5e-c4c730b564ef")
-	)
-	(wire
-		(pts
-			(xy 116.84 40.64) (xy 116.84 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2819922-9dab-40db-a73e-4f3635ae5bd4")
-	)
-	(wire
-		(pts
-			(xy 116.84 101.6) (xy 116.84 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a55460f8-23c7-45c2-bcc4-71679d9b5025")
-	)
-	(wire
-		(pts
-			(xy 116.84 93.98) (xy 116.84 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc7217e6-1826-4421-8b55-6b1f4e490dd1")
-	)
-	(wire
-		(pts
-			(xy 111.76 106.68) (xy 116.84 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be373431-cb93-4e09-b4a2-bd12958394f0")
-	)
-	(wire
-		(pts
-			(xy 187.96 88.9) (xy 193.04 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d47efce9-6fcd-43bf-a8bd-01b2a905ceb7")
-	)
-	(wire
-		(pts
-			(xy 187.96 93.98) (xy 187.96 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1f3c2b6-0991-4a5e-9d10-22e17e5f8d1c")
-	)
-	(wire
-		(pts
-			(xy 187.96 27.94) (xy 193.04 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3d1be9d-4edb-494f-b7e6-c62a29bfee9c")
-	)
-	(wire
-		(pts
-			(xy 116.84 33.02) (xy 116.84 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f267d3aa-5069-4f14-8326-043c78f674d3")
-	)
-	(wire
-		(pts
-			(xy 111.76 88.9) (xy 116.84 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbee0e6f-1f99-41c0-ab15-6b2d101ab39c")
 	)
 	(hierarchical_label "CS_DAC_Analog"
 		(shape output)
@@ -910,28 +547,6 @@
 		)
 		(uuid "0d241a07-983a-40f7-94e9-62e35df2d5c6")
 	)
-	(hierarchical_label "GND_Analog"
-		(shape bidirectional)
-		(at 193.04 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0eebe60b-8d03-4a46-913b-b6f75bdb825a")
-	)
-	(hierarchical_label "GND_Digital"
-		(shape bidirectional)
-		(at 111.76 88.9 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1f1f563e-5a5d-48e2-a028-b991f1d58634")
-	)
 	(hierarchical_label "SCK_Digital"
 		(shape input)
 		(at 121.92 53.34 180)
@@ -954,28 +569,6 @@
 		)
 		(uuid "25dccde0-bd27-4ed6-913c-c514d6508391")
 	)
-	(hierarchical_label "3.3V_Analog"
-		(shape input)
-		(at 182.88 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "280eeeaa-81f1-4562-ae00-73d054b21cfa")
-	)
-	(hierarchical_label "GND_Analog"
-		(shape bidirectional)
-		(at 193.04 27.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3f34afd7-cfad-4d68-8175-8d9c3dd8cb79")
-	)
 	(hierarchical_label "CS_ADC_Analog"
 		(shape output)
 		(at 182.88 111.76 0)
@@ -986,17 +579,6 @@
 			(justify left)
 		)
 		(uuid "417ab9e4-1ffe-4bf4-b62b-578b61b69804")
-	)
-	(hierarchical_label "3.3V_Analog"
-		(shape input)
-		(at 182.88 121.92 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "52ec4e9f-739e-43e4-a27c-b715af486db3")
 	)
 	(hierarchical_label "MOSI_ADC_Analog"
 		(shape output)
@@ -1019,17 +601,6 @@
 			(justify left)
 		)
 		(uuid "5447d3ac-b307-4b54-8ccd-6bcf2ae51c91")
-	)
-	(hierarchical_label "3.3V_Analog"
-		(shape input)
-		(at 193.04 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5ab3de21-00bd-4431-aa0d-e4bbe54f1492")
 	)
 	(hierarchical_label "MISO_Digital"
 		(shape output)
@@ -1064,28 +635,6 @@
 		)
 		(uuid "6c535a18-ac81-42a2-843f-3fbca26f2a9f")
 	)
-	(hierarchical_label "3.3V_Digital"
-		(shape input)
-		(at 111.76 45.72 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "93904e87-b61e-4779-953d-4fe6c01dbbea")
-	)
-	(hierarchical_label "3.3V_Digital"
-		(shape input)
-		(at 121.92 60.96 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "99e552ef-5200-46ce-82a1-5f769804a399")
-	)
 	(hierarchical_label "MOSI_Digital"
 		(shape input)
 		(at 121.92 116.84 180)
@@ -1096,17 +645,6 @@
 			(justify right)
 		)
 		(uuid "9ad92f91-c104-4289-bc91-d78d2a7d5f7e")
-	)
-	(hierarchical_label "3.3V_Digital"
-		(shape input)
-		(at 121.92 121.92 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bf7fee64-318b-4ba1-af8c-555506e391b7")
 	)
 	(hierarchical_label "SCK_Digital"
 		(shape input)
@@ -1129,17 +667,6 @@
 			(justify left)
 		)
 		(uuid "ce71b9da-cff5-4bf7-9f9e-d2750bed7d06")
-	)
-	(hierarchical_label "3.3V_Analog"
-		(shape input)
-		(at 193.04 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e0a99ab9-7acf-4fb9-a7dd-4265786680e2")
 	)
 	(hierarchical_label "GND_Digital"
 		(shape bidirectional)
@@ -1173,17 +700,6 @@
 			(justify left)
 		)
 		(uuid "ea9e0776-665a-467f-b142-32df01eb40a6")
-	)
-	(hierarchical_label "3.3V_Digital"
-		(shape input)
-		(at 111.76 106.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ed95e4c8-626e-4b04-bfd4-3fb4ef642189")
 	)
 	(hierarchical_label "GND_Digital"
 		(shape bidirectional)
@@ -1229,17 +745,6 @@
 		)
 		(uuid "f290d081-b492-4f4f-9f85-78fb46140141")
 	)
-	(hierarchical_label "GND_Digital"
-		(shape bidirectional)
-		(at 111.76 27.94 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f2b76370-4ac2-4176-ae8d-306eeb21800d")
-	)
 	(hierarchical_label "GND_Analog"
 		(shape bidirectional)
 		(at 182.88 63.5 0)
@@ -1263,164 +768,6 @@
 		(uuid "ff046ad0-a3ed-49d4-850d-91ea65a55a49")
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 116.84 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4224c50b-c4a2-4cc2-9678-77bbc1777b6a")
-		(property "Reference" "C14"
-			(at 120.65 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100 nF, 0603"
-			(at 120.65 99.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 117.8052 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 116.84 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 116.84 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R72A104KA35D/702549"
-			(at 116.84 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7c939c8a-a90e-4492-b338-2b9efc8cbd1d")
-		)
-		(pin "1"
-			(uuid "e4fbbf80-b0d7-46a2-b161-e7ebd4f7dd37")
-		)
-		(instances
-			(project "TransimpedanceAmplifier"
-				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/7e303428-a18c-4ad4-b002-5ab9c6631588/e0dacc02-a437-4540-b76e-19ca4ea6e74c"
-					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 116.84 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "597b5ee9-ec01-404d-bfd0-c67de710234f")
-		(property "Reference" "C11"
-			(at 120.65 35.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100 nF, 0603"
-			(at 120.65 38.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 117.8052 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 116.84 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 116.84 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R72A104KA35D/702549"
-			(at 116.84 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5b13e568-ea3e-49c6-822b-9735cc928725")
-		)
-		(pin "1"
-			(uuid "73a4766a-6a57-4d83-a48b-bd7c0c24ed9d")
-		)
-		(instances
-			(project ""
-				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/7e303428-a18c-4ad4-b002-5ab9c6631588/e0dacc02-a437-4540-b76e-19ca4ea6e74c"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ISO7641FM:ISO7641FMDW")
 		(at 121.92 106.68 0)
 		(unit 1)
@@ -1430,7 +777,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "666d8d90-1598-46eb-8959-c4662788b2b7")
-		(property "Reference" "U14"
+		(property "Reference" "ADC_Isolator"
 			(at 152.4 96.52 0)
 			(effects
 				(font
@@ -1438,7 +785,7 @@
 				)
 			)
 		)
-		(property "Value" "ISO7641FMDW"
+		(property "Value" "ISO7641FM"
 			(at 152.4 99.06 0)
 			(effects
 				(font
@@ -1535,165 +882,7 @@
 		(instances
 			(project "TransimpedanceAmplifier"
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/7e303428-a18c-4ad4-b002-5ab9c6631588/e0dacc02-a437-4540-b76e-19ca4ea6e74c"
-					(reference "U14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 187.96 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "93f27205-229e-4b1e-92b1-a1c4e01fdb25")
-		(property "Reference" "C12"
-			(at 191.77 35.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100 nF, 0603"
-			(at 191.77 38.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 188.9252 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 187.96 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 187.96 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R72A104KA35D/702549"
-			(at 187.96 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "734eb27b-08a2-47e7-9b26-ccb9e437fc64")
-		)
-		(pin "1"
-			(uuid "1f61465e-ab68-43f3-95db-598ffc67cab4")
-		)
-		(instances
-			(project "TransimpedanceAmplifier"
-				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/7e303428-a18c-4ad4-b002-5ab9c6631588/e0dacc02-a437-4540-b76e-19ca4ea6e74c"
-					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 187.96 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ea0df50-1a7c-40d1-bb2e-2e9f34a21268")
-		(property "Reference" "C13"
-			(at 191.77 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100 nF, 0603"
-			(at 191.77 99.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 188.9252 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 187.96 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 187.96 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R72A104KA35D/702549"
-			(at 187.96 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d8285350-27cb-41fd-b1b8-db1996fe36c8")
-		)
-		(pin "1"
-			(uuid "8c6c7fe7-1ea2-4a78-9d5d-f7cd8933fbd8")
-		)
-		(instances
-			(project "TransimpedanceAmplifier"
-				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/7e303428-a18c-4ad4-b002-5ab9c6631588/e0dacc02-a437-4540-b76e-19ca4ea6e74c"
-					(reference "C13")
+					(reference "ADC_Isolator")
 					(unit 1)
 				)
 			)
@@ -1709,7 +898,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c50c0444-603c-4062-b849-1ed6a7466668")
-		(property "Reference" "U1"
+		(property "Reference" "DAC_Isolator"
 			(at 152.4 35.56 0)
 			(effects
 				(font
@@ -1717,7 +906,7 @@
 				)
 			)
 		)
-		(property "Value" "ISO7641FMDW"
+		(property "Value" "ISO7641FM"
 			(at 152.4 38.1 0)
 			(effects
 				(font
@@ -1814,7 +1003,7 @@
 		(instances
 			(project ""
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/7e303428-a18c-4ad4-b002-5ab9c6631588/e0dacc02-a437-4540-b76e-19ca4ea6e74c"
-					(reference "U1")
+					(reference "DAC_Isolator")
 					(unit 1)
 				)
 			)
