@@ -609,6 +609,17 @@
 		)
 		(uuid "951b34b7-b0cc-4151-8b01-6a2305440b72")
 	)
+	(text "EN pins might need to be connected to the\nbypassed 3.3V, instead of directly to 3.3V,\nbecause there is no pullup resistor separating\nthem from the true power line. This is different\nthan the topology of FAULT and RST pins in the\ndata converters."
+		(exclude_from_sim no)
+		(at 213.106 149.352 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "97b5e63c-c54a-4973-b2bf-0c5479a00fea")
+	)
 	(text "TODO: Reorder SPI pins based on which\narrangement best suits the physical\nlayout of the receiving chip's pins"
 		(exclude_from_sim no)
 		(at 163.576 153.416 0)
@@ -1009,6 +1020,46 @@
 			(type default)
 		)
 		(uuid "fbdb0242-5922-4b22-8f46-1c90d40381ab")
+	)
+	(label "VCC2_DAC"
+		(at 203.2 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4aff6be7-ed8c-45b7-ae4c-bf7e9ba881ff")
+	)
+	(label "VCC2_ADC"
+		(at 203.2 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7d7af781-e94d-4401-901d-9029e0b1c646")
+	)
+	(label "VCC1_ADC"
+		(at 101.6 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a858f66e-661c-4817-a774-27add57a94a3")
+	)
+	(label "VCC1_DAC"
+		(at 101.6 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fd8b3b77-3631-448c-82a8-d4a59cd14512")
 	)
 	(hierarchical_label "GND_Digital"
 		(shape bidirectional)
