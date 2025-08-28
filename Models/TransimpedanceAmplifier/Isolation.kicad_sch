@@ -1449,7 +1449,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "666d8d90-1598-46eb-8959-c4662788b2b7")
 		(property "Reference" "ADC_Isolator"
 			(at 152.4 96.52 0)
@@ -1487,13 +1486,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 121.92 106.68 0)
+		(property "Description" "ADC_Isolator"
+			(at 152.4 93.726 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/texas-instruments/ISO7641FMDWR/2799299"
@@ -1728,7 +1726,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c50c0444-603c-4062-b849-1ed6a7466668")
 		(property "Reference" "DAC_Isolator"
 			(at 152.4 35.56 0)
@@ -1766,13 +1763,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 121.92 45.72 0)
+		(property "Description" "DAC_Isolator"
+			(at 152.4 33.02 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/texas-instruments/ISO7641FMDWR/2799299"
