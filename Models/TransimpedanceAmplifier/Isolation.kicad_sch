@@ -144,6 +144,132 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:NetTie_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "NT"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NetTie_2"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Net tie, 2 pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "net tie short"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Net*Tie*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NetTie_2_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NetTie_2_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "ISO7641FM:ISO7641FMDW"
 			(pin_names
 				(offset 0.254)
@@ -654,52 +780,52 @@
 		(uuid "b8c99a07-04e1-4d01-bae4-9a61470b6d1d")
 	)
 	(junction
-		(at 101.6 45.72)
+		(at 203.2 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "16a69f08-b5de-4adf-a0ae-deeda08004d9")
+		(uuid "15b18e18-3b01-4220-a031-ecc85cf4388a")
 	)
 	(junction
 		(at 203.2 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "77066bb5-86e4-4ca9-a73d-8c685d40e8e9")
+		(uuid "3686f23e-bd5e-4464-a35d-d538d7d2b180")
 	)
 	(junction
-		(at 228.6 45.72)
+		(at 101.6 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7a4695db-9ce3-4c12-9db3-1162f869756a")
+		(uuid "9ef1eee1-ba29-4802-9222-83b9b3c397dc")
 	)
 	(junction
-		(at 76.2 106.68)
+		(at 218.44 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "93c9015e-db0a-46f2-939c-17f622dd5e7c")
+		(uuid "d21f25d0-97ce-4070-af73-ca11c5980862")
 	)
 	(junction
-		(at 76.2 45.72)
+		(at 218.44 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cbe7a020-8792-4971-b1ad-16dd01249649")
-	)
-	(junction
-		(at 203.2 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ce25e441-0833-4e65-bd6b-aeb8b88eb3e2")
-	)
-	(junction
-		(at 228.6 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d7e509d9-55c9-4b1b-8cf4-cc72676fa467")
+		(uuid "e31fb449-6118-46fa-b385-4142f2b47834")
 	)
 	(junction
 		(at 101.6 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f3ff1a01-9ecc-4d03-b53c-7e4707751867")
+		(uuid "e4c072b6-883b-4988-9885-4751cf1dfc0e")
+	)
+	(junction
+		(at 86.36 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe5b2722-28b3-457d-b932-be7c4b1d8ec9")
+	)
+	(junction
+		(at 86.36 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ffdd0450-5c06-4f85-a8f3-59d7bcde1b2e")
 	)
 	(wire
 		(pts
@@ -713,23 +839,13 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 45.72) (xy 101.6 45.72)
+			(xy 228.6 45.72) (xy 233.68 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "056dd320-eff5-459e-97db-8c783e43a45a")
-	)
-	(wire
-		(pts
-			(xy 228.6 119.38) (xy 228.6 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bfb04df-1164-4158-9f4f-31d4c10bb9aa")
+		(uuid "05ca541a-3e1c-4bf8-bf4b-533bca302d7f")
 	)
 	(wire
 		(pts
@@ -743,26 +859,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 50.8) (xy 228.6 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "138dba22-e4a6-4c0d-be2f-e998ac54e5c7")
-	)
-	(wire
-		(pts
-			(xy 228.6 111.76) (xy 228.6 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b11f70e-ebd2-44da-bd23-f5440d02940e")
-	)
-	(wire
-		(pts
 			(xy 101.6 106.68) (xy 101.6 121.92)
 		)
 		(stroke
@@ -773,13 +869,23 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 45.72) (xy 76.2 45.72)
+			(xy 81.28 106.68) (xy 86.36 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2bedacf9-7a0a-4d36-9da3-5d1726e602ea")
+		(uuid "244c5bb0-fd4d-424f-a267-1f6ca7347af1")
+	)
+	(wire
+		(pts
+			(xy 86.36 119.38) (xy 86.36 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a4ddf7a-3f42-4196-a80a-533c92126a1f")
 	)
 	(wire
 		(pts
@@ -803,6 +909,36 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 106.68) (xy 233.68 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33b8c5e2-6053-429e-8fe7-bcad8681ab23")
+	)
+	(wire
+		(pts
+			(xy 218.44 45.72) (xy 223.52 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3803d121-0dcf-4cee-9efc-6edcc3ade46d")
+	)
+	(wire
+		(pts
+			(xy 86.36 106.68) (xy 101.6 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40a7f5ce-3a4d-4afe-93e8-18a2b58d1456")
+	)
+	(wire
+		(pts
 			(xy 203.2 106.68) (xy 203.2 121.92)
 		)
 		(stroke
@@ -813,13 +949,13 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 63.5) (xy 76.2 63.5)
+			(xy 218.44 119.38) (xy 218.44 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "43c3931f-8748-463e-a18b-e44d05c85314")
+		(uuid "4baf70fa-d356-4438-b4d2-378f0cbb0a8a")
 	)
 	(wire
 		(pts
@@ -833,23 +969,13 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 124.46) (xy 233.68 124.46)
+			(xy 203.2 45.72) (xy 218.44 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4c8e0545-02b0-4343-8fe8-4c2766713668")
-	)
-	(wire
-		(pts
-			(xy 228.6 63.5) (xy 233.68 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56bcd5b0-aa58-4d01-bc84-39f5c8fea87b")
+		(uuid "54bb08fa-ba75-4e62-bb35-4eaca9412b1b")
 	)
 	(wire
 		(pts
@@ -863,33 +989,23 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 45.72) (xy 233.68 45.72)
+			(xy 71.12 124.46) (xy 86.36 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "627cbcd7-219f-48d9-996f-9c196158e773")
+		(uuid "64510b7c-e968-4f56-84f6-541076dc47c5")
 	)
 	(wire
 		(pts
-			(xy 203.2 45.72) (xy 228.6 45.72)
+			(xy 218.44 106.68) (xy 223.52 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6949d115-cc73-4600-9d16-e33597e2a714")
-	)
-	(wire
-		(pts
-			(xy 203.2 106.68) (xy 228.6 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "734443c5-a45b-40ac-8b81-3645fbe246f9")
+		(uuid "6cf1fb9e-ccf3-4d95-ac1e-3bf8b389544d")
 	)
 	(wire
 		(pts
@@ -903,53 +1019,63 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 45.72) (xy 86.36 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7826b2a2-87b8-4c4b-b022-a4e903e22024")
+	)
+	(wire
+		(pts
+			(xy 86.36 45.72) (xy 101.6 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79e17430-cad3-45a3-b1c2-e8f17da910d7")
+	)
+	(wire
+		(pts
+			(xy 218.44 124.46) (xy 233.68 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "860f1cca-06e8-44a5-90a2-d15521e307c3")
+	)
+	(wire
+		(pts
+			(xy 71.12 63.5) (xy 86.36 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a73d5e5d-6351-43d7-baed-04f5baaaea28")
+	)
+	(wire
+		(pts
+			(xy 71.12 45.72) (xy 76.2 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b38bc83d-0379-43d6-921f-33347b10c5a7")
+	)
+	(wire
+		(pts
 			(xy 71.12 106.68) (xy 76.2 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "960627b0-14b5-4109-add3-15dd09daf72b")
-	)
-	(wire
-		(pts
-			(xy 228.6 106.68) (xy 233.68 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ca6fb47-7692-4778-90b8-e96df2d563aa")
-	)
-	(wire
-		(pts
-			(xy 76.2 58.42) (xy 76.2 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0a6089a-981c-42b7-93c5-cb5ad99ed1f9")
-	)
-	(wire
-		(pts
-			(xy 76.2 111.76) (xy 76.2 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac3ac603-4712-48d0-a247-163c8ef487d2")
-	)
-	(wire
-		(pts
-			(xy 76.2 106.68) (xy 101.6 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd394b6f-65ec-4353-bbe0-5c1a98761253")
+		(uuid "bd398b14-6ff4-4bd9-803b-b1d1ee90ce4b")
 	)
 	(wire
 		(pts
@@ -973,13 +1099,23 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 50.8) (xy 76.2 45.72)
+			(xy 218.44 45.72) (xy 218.44 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d5fddc20-f918-4c92-86f8-135e3c73a16d")
+		(uuid "c8dcfc3f-dc19-4017-a3c3-442c92fd93de")
+	)
+	(wire
+		(pts
+			(xy 203.2 106.68) (xy 218.44 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb1abe8a-3546-47de-96ad-21532d3a3c85")
 	)
 	(wire
 		(pts
@@ -993,33 +1129,63 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 58.42) (xy 228.6 63.5)
+			(xy 218.44 58.42) (xy 218.44 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "edd4f602-0552-4464-aaea-bcf4ef7c3731")
+		(uuid "e7c76df1-5eea-488c-8c20-c0f3560831a7")
 	)
 	(wire
 		(pts
-			(xy 76.2 119.38) (xy 76.2 124.46)
+			(xy 218.44 63.5) (xy 233.68 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f7712ee7-33bc-425f-87b8-1510e76a6f41")
+		(uuid "f02263d1-0a92-4e8f-a24d-4304fa1f5380")
 	)
 	(wire
 		(pts
-			(xy 71.12 124.46) (xy 76.2 124.46)
+			(xy 86.36 58.42) (xy 86.36 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fbdb0242-5922-4b22-8f46-1c90d40381ab")
+		(uuid "f47ed3c2-8924-4c01-a91c-395b6fdd4247")
+	)
+	(wire
+		(pts
+			(xy 86.36 45.72) (xy 86.36 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5b5e992-14df-4eed-82c5-1916b2d338c8")
+	)
+	(wire
+		(pts
+			(xy 86.36 106.68) (xy 86.36 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fed5b5e4-6a4a-40f5-af25-df65f88b28ca")
+	)
+	(wire
+		(pts
+			(xy 218.44 106.68) (xy 218.44 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff32ecdc-d7e4-4957-a9c2-a7c07da8af5e")
 	)
 	(label "VCC2_DAC"
 		(at 203.2 45.72 0)
@@ -1414,35 +1580,33 @@
 		(uuid "ff046ad0-a3ed-49d4-850d-91ea65a55a49")
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 76.2 54.61 0)
+		(lib_id "Device:NetTie_2")
+		(at 226.06 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "36254239-4ca8-45cc-91cd-8c829444a52c")
-		(property "Reference" "C30"
-			(at 80.01 53.3399 0)
+		(uuid "0f5622da-2708-4f1f-92a1-247e5980bbc3")
+		(property "Reference" "NT7"
+			(at 226.06 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "100 nF, 0603"
-			(at 80.01 55.8799 0)
+		(property "Value" "NetTie_2"
+			(at 226.06 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 77.1652 58.42 0)
+			(at 226.06 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1451,7 +1615,77 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 54.61 0)
+			(at 226.06 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 226.06 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "833157f3-fae7-4cf4-86c0-8a3017605206")
+		)
+		(pin "2"
+			(uuid "d44e1927-7e34-4ce3-a5e7-dbb4f9155c4d")
+		)
+		(instances
+			(project ""
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/7e303428-a18c-4ad4-b002-5ab9c6631588/e0dacc02-a437-4540-b76e-19ca4ea6e74c"
+					(reference "NT7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 86.36 54.61 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36254239-4ca8-45cc-91cd-8c829444a52c")
+		(property "Reference" "C30"
+			(at 82.55 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100 nF, 0603"
+			(at 82.55 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.3948 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1460,7 +1694,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 76.2 54.61 0)
+			(at 86.36 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1469,7 +1703,7 @@
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R72A104KA35D/702549"
-			(at 76.2 54.61 0)
+			(at 86.36 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1613,16 +1847,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 76.2 115.57 0)
+		(at 86.36 115.57 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7cd98fb4-4099-43bc-82ae-65bd6dc1c7d4")
 		(property "Reference" "C31"
-			(at 80.01 114.2999 0)
+			(at 82.55 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1631,7 +1865,7 @@
 			)
 		)
 		(property "Value" "100 nF, 0603"
-			(at 80.01 116.8399 0)
+			(at 82.55 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1640,7 +1874,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.1652 119.38 0)
+			(at 85.3948 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1649,7 +1883,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 115.57 0)
+			(at 86.36 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1658,7 +1892,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 76.2 115.57 0)
+			(at 86.36 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1667,7 +1901,7 @@
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R72A104KA35D/702549"
-			(at 76.2 115.57 0)
+			(at 86.36 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1692,7 +1926,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 228.6 54.61 0)
+		(at 218.44 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1701,7 +1935,7 @@
 		(fields_autoplaced yes)
 		(uuid "847b7104-5b53-4796-b827-b2367fa4cd30")
 		(property "Reference" "C32"
-			(at 232.41 53.3399 0)
+			(at 222.25 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1710,7 +1944,7 @@
 			)
 		)
 		(property "Value" "100 nF, 0603"
-			(at 232.41 55.8799 0)
+			(at 222.25 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1719,7 +1953,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.5652 58.42 0)
+			(at 219.4052 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1728,7 +1962,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 228.6 54.61 0)
+			(at 218.44 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1737,7 +1971,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 228.6 54.61 0)
+			(at 218.44 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1746,7 +1980,7 @@
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R72A104KA35D/702549"
-			(at 228.6 54.61 0)
+			(at 218.44 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1764,6 +1998,74 @@
 			(project ""
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/7e303428-a18c-4ad4-b002-5ab9c6631588/e0dacc02-a437-4540-b76e-19ca4ea6e74c"
 					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 226.06 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a90e981d-3844-4242-ac64-5bba33760437")
+		(property "Reference" "NT8"
+			(at 226.06 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 226.06 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 226.06 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7adcd27-2c22-4e94-9b21-ab9dec8ea04f")
+		)
+		(pin "2"
+			(uuid "ec80b127-ac6b-4f82-a567-9eeb17203160")
+		)
+		(instances
+			(project ""
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/7e303428-a18c-4ad4-b002-5ab9c6631588/e0dacc02-a437-4540-b76e-19ca4ea6e74c"
+					(reference "NT8")
 					(unit 1)
 				)
 			)
@@ -1889,35 +2191,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 228.6 115.57 0)
+		(lib_id "Device:NetTie_2")
+		(at 78.74 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fe34a22f-317c-44c6-a921-31332b122338")
-		(property "Reference" "C33"
-			(at 232.41 114.2999 0)
+		(uuid "ca3f043a-6b2b-41be-9002-5c8607000d3a")
+		(property "Reference" "NT6"
+			(at 78.74 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "100 nF, 0603"
-			(at 232.41 116.8399 0)
+		(property "Value" "NetTie_2"
+			(at 78.74 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 229.5652 119.38 0)
+			(at 78.74 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1926,7 +2226,145 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 228.6 115.57 0)
+			(at 78.74 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 78.74 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7bf724b-639d-49f6-80fe-fc25e3184a37")
+		)
+		(pin "2"
+			(uuid "2dc0fee8-42c2-4259-8e9e-9a56090c1a7c")
+		)
+		(instances
+			(project ""
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/7e303428-a18c-4ad4-b002-5ab9c6631588/e0dacc02-a437-4540-b76e-19ca4ea6e74c"
+					(reference "NT6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 78.74 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1c7edcd-38a9-4523-9c2c-29518a8d30ff")
+		(property "Reference" "NT5"
+			(at 78.74 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 78.74 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 78.74 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3f120e9a-ce0a-40e1-a6c8-cee2f0ced0e9")
+		)
+		(pin "1"
+			(uuid "58458e53-5207-4411-8a33-28b4f3ae7460")
+		)
+		(instances
+			(project ""
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/7e303428-a18c-4ad4-b002-5ab9c6631588/e0dacc02-a437-4540-b76e-19ca4ea6e74c"
+					(reference "NT5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 218.44 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe34a22f-317c-44c6-a921-31332b122338")
+		(property "Reference" "C33"
+			(at 222.25 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100 nF, 0603"
+			(at 222.25 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.4052 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1935,7 +2373,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 228.6 115.57 0)
+			(at 218.44 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1944,7 +2382,7 @@
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R72A104KA35D/702549"
-			(at 228.6 115.57 0)
+			(at 218.44 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
