@@ -1695,6 +1695,90 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint "NetTie:NetTie-2_SMD_Pad0.5mm"
+		(layer "F.Cu")
+		(uuid "526c4894-d969-4127-aa05-dabae4986a8d")
+		(at 196.36 69.81)
+		(descr "Net tie, 2 pin, 0.5mm square SMD pads")
+		(tags "net tie")
+		(property "Reference" "REF**"
+			(at 0 -1.2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "38b840ba-7b16-402e-8b49-a3d993addb87")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "NetTie-2_SMD_Pad0.5mm"
+			(at 0 1.2 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b0c4dc5d-549f-4dd7-8d1e-194628ade796")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8145bf40-a159-4bea-88c3-82e98ccc73e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bce50c8b-5b08-49a6-9414-962091e76930")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(net_tie_pad_groups "1, 2")
+		(fp_poly
+			(pts
+				(xy -0.5 -0.25) (xy 0.5 -0.25) (xy 0.5 0.25) (xy -0.5 0.25)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Cu")
+			(uuid "fd8ff1de-b877-44cd-bfd3-ddbd53807257")
+		)
+		(pad "1" smd circle
+			(at -0.5 0)
+			(size 0.5 0.5)
+			(layers "F.Cu")
+			(uuid "4f6a66b1-0ada-448f-ae28-2dd32f1325a5")
+		)
+		(pad "2" smd circle
+			(at 0.5 0)
+			(size 0.5 0.5)
+			(layers "F.Cu")
+			(uuid "1fff607a-d2df-479d-882e-4d7e171adfda")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Connector_Custom:PinHeader_1x24"
 		(layer "F.Cu")
 		(uuid "5546ce3f-1afd-4428-9afc-2a2acaf351b0")
@@ -3192,6 +3276,90 @@
 			(roundrect_rratio 0.25)
 			(thermal_bridge_angle 45)
 			(uuid "7a2aa683-e8f3-4f46-99bd-f366bd2e6216")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Connector_Custom:NetTie_0.2mm"
+		(layer "F.Cu")
+		(uuid "b0818b44-5959-43f4-a388-90ed2a584a6b")
+		(at 196.34 68.97)
+		(property "Reference" "REF**"
+			(at 0.095 -5.115 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6b670d7c-acd6-4d2d-9469-1c1f7dbd60c7")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+		(property "Value" "NetTie_0.2mm"
+			(at 0.095 -3.915 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "73de571b-9eff-4ed6-b3ca-68bebc0aaa4d")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f7867707-b726-4d67-944e-5cf0408f3d28")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "33f3d25b-d0fd-4beb-9fa0-704a300c1f6c")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(net_tie_pad_groups "1, 2")
+		(fp_poly
+			(pts
+				(xy 0.2 -0.1) (xy -0.2 -0.1) (xy -0.2 0.1) (xy 0.2 0.1)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Cu")
+			(uuid "625632a2-0bcb-46ab-9ab6-001de213d36d")
+		)
+		(pad "1" smd circle
+			(at -0.2 0)
+			(size 0.2 0.2)
+			(layers "F.Cu")
+			(uuid "ae2e00a5-caa2-4a7c-86bf-4186bd430812")
+		)
+		(pad "2" smd circle
+			(at 0.2 0)
+			(size 0.2 0.2)
+			(layers "F.Cu")
+			(uuid "cefba1a6-4531-4525-b75f-4aac3f94e263")
 		)
 		(embedded_fonts no)
 	)

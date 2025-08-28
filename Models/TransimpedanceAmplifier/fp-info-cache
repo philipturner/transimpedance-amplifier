@@ -1,4 +1,4 @@
-26034004777147003
+26035765663019546
 AD8615
 UJ_5_ADI
 
@@ -8975,6 +8975,13 @@ Coaxial Connector 50 ohms Female
 2
 Connector_Custom
 Keystone_968
+
+
+0
+2
+2
+Connector_Custom
+NetTie_0.2mm
 
 
 0
