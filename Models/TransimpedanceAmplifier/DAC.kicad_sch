@@ -2186,7 +2186,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k, 1%"
 			(at 143.51 115.57 90)
 			(effects
 				(font
@@ -2213,6 +2213,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 143.51 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW060310K0FKEA/1174782"
 			(at 143.51 119.38 0)
 			(effects
 				(font
