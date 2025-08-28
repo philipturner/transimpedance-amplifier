@@ -3919,20 +3919,22 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0e4791b2-810f-4eff-8e65-310340ff351e")
-		(property "Reference" "J_Teensy_Right"
-			(at 159.512 62.992 0)
+		(property "Reference" "J22"
+			(at 152.654 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "Conn_01x24_Socket"
-			(at 162.052 65.786 0)
+			(at 152.654 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -3953,13 +3955,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x24, script generated"
-			(at 152.4 100.33 0)
+		(property "Description" "Teensy Right Side"
+			(at 152.654 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify right)
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/sullins-connector-solutions/PPPC241LFBN-RC/810196"
@@ -4046,7 +4048,7 @@
 		(instances
 			(project ""
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/7e303428-a18c-4ad4-b002-5ab9c6631588/801eb825-6f09-44eb-9a12-14faa51f83f1"
-					(reference "J_Teensy_Right")
+					(reference "J22")
 					(unit 1)
 				)
 			)
@@ -4061,22 +4063,22 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "34c722a7-c17a-4f4a-b526-ad7ec0584f98")
-		(property "Reference" "J_Teensy_Left"
-			(at 43.18 63.246 0)
+		(property "Reference" "J19"
+			(at 55.372 63.246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "Conn_01x24_Socket"
-			(at 37.084 65.786 0)
+			(at 55.372 65.786 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -4097,13 +4099,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x24, script generated"
-			(at 55.88 97.79 0)
+		(property "Description" "Teensy Left Side"
+			(at 55.372 60.706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify right)
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/sullins-connector-solutions/PPPC241LFBN-RC/810196"
@@ -4190,7 +4192,7 @@
 		(instances
 			(project ""
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/7e303428-a18c-4ad4-b002-5ab9c6631588/801eb825-6f09-44eb-9a12-14faa51f83f1"
-					(reference "J_Teensy_Left")
+					(reference "J19")
 					(unit 1)
 				)
 			)
@@ -4205,7 +4207,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "be01f97a-379b-4f5a-9a94-dd4254195307")
-		(property "Reference" "J13"
+		(property "Reference" "J20"
 			(at 74.422 62.738 0)
 			(effects
 				(font
@@ -4332,7 +4334,7 @@
 		(instances
 			(project ""
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/7e303428-a18c-4ad4-b002-5ab9c6631588/801eb825-6f09-44eb-9a12-14faa51f83f1"
-					(reference "J13")
+					(reference "J20")
 					(unit 1)
 				)
 			)
@@ -4347,7 +4349,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "c434ece9-b750-4dcf-826a-38b4a670132d")
-		(property "Reference" "J11"
+		(property "Reference" "J21"
 			(at 134.112 63.246 0)
 			(effects
 				(font
@@ -4476,7 +4478,7 @@
 		(instances
 			(project ""
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/7e303428-a18c-4ad4-b002-5ab9c6631588/801eb825-6f09-44eb-9a12-14faa51f83f1"
-					(reference "J11")
+					(reference "J21")
 					(unit 1)
 				)
 			)
@@ -4492,7 +4494,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed294255-efe4-4d9e-8ff3-9bcf13ce2159")
-		(property "Reference" "U13"
+		(property "Reference" "U14"
 			(at 104.14 58.42 0)
 			(effects
 				(font
@@ -4748,7 +4750,7 @@
 		(instances
 			(project "TransimpedanceAmplifier"
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/7e303428-a18c-4ad4-b002-5ab9c6631588/801eb825-6f09-44eb-9a12-14faa51f83f1"
-					(reference "U13")
+					(reference "U14")
 					(unit 1)
 				)
 			)

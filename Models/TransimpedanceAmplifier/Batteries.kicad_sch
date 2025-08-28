@@ -1118,7 +1118,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "04dabd59-7cc3-447e-8cb4-fd0e158b68cc")
-		(property "Reference" "J12"
+		(property "Reference" "J4"
 			(at 59.69 63.5 0)
 			(effects
 				(font
@@ -1185,7 +1185,7 @@
 		(instances
 			(project ""
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/d0ece2d4-5b22-4822-ad0c-e2361683ec3d/c9cd3b70-0193-478b-9c9b-cf8238587205"
-					(reference "J12")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -1201,7 +1201,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d760180-fbfc-495c-8022-13172f4f342b")
-		(property "Reference" "BT8"
+		(property "Reference" "BT7"
 			(at 232.41 89.5984 0)
 			(effects
 				(font
@@ -1255,7 +1255,7 @@
 		(instances
 			(project "TransimpedanceAmplifier"
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/d0ece2d4-5b22-4822-ad0c-e2361683ec3d/c9cd3b70-0193-478b-9c9b-cf8238587205"
-					(reference "BT8")
+					(reference "BT7")
 					(unit 1)
 				)
 			)
@@ -1271,7 +1271,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "316b3ade-b0cc-4d53-b622-8df92e305309")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR02"
 			(at 127 57.15 0)
 			(effects
 				(font
@@ -1321,7 +1321,7 @@
 		(instances
 			(project ""
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/d0ece2d4-5b22-4822-ad0c-e2361683ec3d/c9cd3b70-0193-478b-9c9b-cf8238587205"
-					(reference "#PWR016")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -1337,7 +1337,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "42ea10ac-8880-4c19-afbe-0e6654da021f")
-		(property "Reference" "J14"
+		(property "Reference" "J5"
 			(at 59.69 81.28 0)
 			(effects
 				(font
@@ -1404,7 +1404,7 @@
 		(instances
 			(project "TransimpedanceAmplifier"
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/d0ece2d4-5b22-4822-ad0c-e2361683ec3d/c9cd3b70-0193-478b-9c9b-cf8238587205"
-					(reference "J14")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -1420,7 +1420,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "480037fc-96f4-44f6-8842-c91971f0225f")
-		(property "Reference" "J16"
+		(property "Reference" "J7"
 			(at 135.89 63.5 0)
 			(effects
 				(font
@@ -1487,7 +1487,7 @@
 		(instances
 			(project "TransimpedanceAmplifier"
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/d0ece2d4-5b22-4822-ad0c-e2361683ec3d/c9cd3b70-0193-478b-9c9b-cf8238587205"
-					(reference "J16")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -1573,7 +1573,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a359b351-a84f-419c-81c6-108c1e6e51f2")
-		(property "Reference" "J21"
+		(property "Reference" "J11"
 			(at 212.09 99.06 0)
 			(effects
 				(font
@@ -1640,7 +1640,7 @@
 		(instances
 			(project "TransimpedanceAmplifier"
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/d0ece2d4-5b22-4822-ad0c-e2361683ec3d/c9cd3b70-0193-478b-9c9b-cf8238587205"
-					(reference "J21")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -1726,7 +1726,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd40ac57-fd85-4a5d-b70b-8a874d609267")
-		(property "Reference" "BT9"
+		(property "Reference" "BT8"
 			(at 232.41 107.3784 0)
 			(effects
 				(font
@@ -1780,7 +1780,7 @@
 		(instances
 			(project "TransimpedanceAmplifier"
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/d0ece2d4-5b22-4822-ad0c-e2361683ec3d/c9cd3b70-0193-478b-9c9b-cf8238587205"
-					(reference "BT9")
+					(reference "BT8")
 					(unit 1)
 				)
 			)
@@ -1866,7 +1866,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c1f4025a-a187-4644-a771-ec43073019e3")
-		(property "Reference" "J20"
+		(property "Reference" "J10"
 			(at 212.09 81.28 0)
 			(effects
 				(font
@@ -1933,7 +1933,7 @@
 		(instances
 			(project "TransimpedanceAmplifier"
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/d0ece2d4-5b22-4822-ad0c-e2361683ec3d/c9cd3b70-0193-478b-9c9b-cf8238587205"
-					(reference "J20")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -1949,7 +1949,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c56a03d0-7a87-4497-95cc-943b26e40c00")
-		(property "Reference" "J17"
+		(property "Reference" "J8"
 			(at 135.89 81.28 0)
 			(effects
 				(font
@@ -2016,7 +2016,7 @@
 		(instances
 			(project "TransimpedanceAmplifier"
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/d0ece2d4-5b22-4822-ad0c-e2361683ec3d/c9cd3b70-0193-478b-9c9b-cf8238587205"
-					(reference "J17")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -2032,7 +2032,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c6b3bd47-d37e-403f-a3ee-ceac4331af52")
-		(property "Reference" "J15"
+		(property "Reference" "J6"
 			(at 59.69 99.06 0)
 			(effects
 				(font
@@ -2099,7 +2099,7 @@
 		(instances
 			(project "TransimpedanceAmplifier"
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/d0ece2d4-5b22-4822-ad0c-e2361683ec3d/c9cd3b70-0193-478b-9c9b-cf8238587205"
-					(reference "J15")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -2115,7 +2115,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ccb82dc6-4a70-47d7-9838-9ec7da566d18")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR01"
 			(at 50.8 125.73 0)
 			(effects
 				(font
@@ -2165,7 +2165,7 @@
 		(instances
 			(project ""
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/d0ece2d4-5b22-4822-ad0c-e2361683ec3d/c9cd3b70-0193-478b-9c9b-cf8238587205"
-					(reference "#PWR013")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -2251,7 +2251,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e5ba4732-008b-49d1-9142-f21088196b1b")
-		(property "Reference" "J18"
+		(property "Reference" "J9"
 			(at 135.89 99.06 0)
 			(effects
 				(font
@@ -2318,7 +2318,7 @@
 		(instances
 			(project "TransimpedanceAmplifier"
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/d0ece2d4-5b22-4822-ad0c-e2361683ec3d/c9cd3b70-0193-478b-9c9b-cf8238587205"
-					(reference "J18")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -2404,7 +2404,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd1bd20d-7f6f-40f2-8998-837fbac3551d")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR03"
 			(at 203.2 125.73 0)
 			(effects
 				(font
@@ -2454,7 +2454,7 @@
 		(instances
 			(project ""
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/d0ece2d4-5b22-4822-ad0c-e2361683ec3d/c9cd3b70-0193-478b-9c9b-cf8238587205"
-					(reference "#PWR055")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
