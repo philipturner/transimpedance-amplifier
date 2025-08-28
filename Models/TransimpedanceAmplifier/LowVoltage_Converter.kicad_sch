@@ -1366,7 +1366,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NDE3_TEX"
+		(property "Footprint" ""
 			(at 58.42 55.88 0)
 			(effects
 				(font
@@ -2372,7 +2372,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DCY0004A-IPC_A"
+		(property "Footprint" ""
 			(at 77.47 130.81 0)
 			(effects
 				(font

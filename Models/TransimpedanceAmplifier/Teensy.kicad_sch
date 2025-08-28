@@ -3652,6 +3652,28 @@
 		(at 76.2 135.89)
 		(uuid "d16bf749-9dee-4455-a0b1-ac20d5d4aa8e")
 	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 157.48 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1b77b5b1-dc81-4800-97cf-bd4b5f3e039d")
+	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 157.48 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "31718a98-427f-4c57-a95b-0f3958aa8c16")
+	)
 	(hierarchical_label "CS_DAC"
 		(shape output)
 		(at 157.48 120.65 0)
@@ -3673,6 +3695,28 @@
 			(justify left)
 		)
 		(uuid "733e4a95-216a-4478-b021-40b0144e2b66")
+	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 50.8 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "84805948-ca7e-4663-bc05-daa42efeea92")
+	)
+	(hierarchical_label "3.3V"
+		(shape output)
+		(at 50.8 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "88c50438-a551-4232-ab5f-8500bf603ec1")
 	)
 	(hierarchical_label "SCK"
 		(shape output)
@@ -3696,6 +3740,17 @@
 		)
 		(uuid "bf25ea3b-95f8-4663-bd2a-43ddb94695e1")
 	)
+	(hierarchical_label "3.3V"
+		(shape output)
+		(at 157.48 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f0c7b023-6e1b-42b6-b09f-7fb6bc4c736b")
+	)
 	(hierarchical_label "MISO"
 		(shape input)
 		(at 50.8 102.87 180)
@@ -3717,7 +3772,7 @@
 		(dnp no)
 		(uuid "0e4791b2-810f-4eff-8e65-310340ff351e")
 		(property "Reference" "J_Teensy_Right"
-			(at 158.75 61.468 0)
+			(at 159.512 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3725,7 +3780,7 @@
 			)
 		)
 		(property "Value" "Conn_01x24_Socket"
-			(at 161.29 64.262 0)
+			(at 162.052 65.786 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4145,7 +4200,7 @@
 		(dnp no)
 		(uuid "c434ece9-b750-4dcf-826a-38b4a670132d")
 		(property "Reference" "J11"
-			(at 134.366 62.992 0)
+			(at 134.112 63.246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4154,7 +4209,7 @@
 			)
 		)
 		(property "Value" "Conn_01x24_Pin"
-			(at 134.366 65.532 0)
+			(at 134.112 65.786 0)
 			(effects
 				(font
 					(size 1.27 1.27)

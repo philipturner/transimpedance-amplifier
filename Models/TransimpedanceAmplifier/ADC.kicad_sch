@@ -1483,7 +1483,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PW16_TEX"
+		(property "Footprint" ""
 			(at 68.58 50.8 0)
 			(effects
 				(font

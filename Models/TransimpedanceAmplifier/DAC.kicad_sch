@@ -2350,7 +2350,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PW0020A-IPC_A"
+		(property "Footprint" ""
 			(at 72.39 106.68 0)
 			(effects
 				(font

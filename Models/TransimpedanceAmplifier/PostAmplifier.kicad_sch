@@ -3440,7 +3440,7 @@
 				)
 			)
 		)
-		(property "Footprint" "R_8_ADI"
+		(property "Footprint" ""
 			(at 67.31 101.6 0)
 			(effects
 				(font

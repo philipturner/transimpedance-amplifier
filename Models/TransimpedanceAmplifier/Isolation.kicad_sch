@@ -1446,7 +1446,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DW16"
+		(property "Footprint" ""
 			(at 121.92 106.68 0)
 			(effects
 				(font
@@ -1725,7 +1725,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DW16"
+		(property "Footprint" ""
 			(at 121.92 45.72 0)
 			(effects
 				(font

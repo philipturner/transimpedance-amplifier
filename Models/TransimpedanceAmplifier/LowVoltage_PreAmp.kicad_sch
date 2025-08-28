@@ -2188,7 +2188,7 @@
 				)
 			)
 		)
-		(property "Footprint" "T03B_TEX"
+		(property "Footprint" ""
 			(at 53.34 132.08 0)
 			(effects
 				(font
@@ -2349,7 +2349,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NDE3_TEX"
+		(property "Footprint" ""
 			(at 58.42 55.88 0)
 			(effects
 				(font

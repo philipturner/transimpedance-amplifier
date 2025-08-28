@@ -149,6 +149,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 35.56) (xy 76.2 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10ace40e-9251-4c82-a5c1-a93da4e50953")
+	)
+	(wire
+		(pts
 			(xy 60.96 45.72) (xy 76.2 45.72)
 		)
 		(stroke
@@ -306,6 +316,16 @@
 			(type default)
 		)
 		(uuid "bdac18fd-8cbe-457d-91ea-a1960985d96c")
+	)
+	(wire
+		(pts
+			(xy 60.96 30.48) (xy 76.2 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d36eae00-438b-4457-821f-b54fdd19786e")
 	)
 	(wire
 		(pts
@@ -833,6 +853,26 @@
 		(pin "SCK" output
 			(at 60.96 55.88 0)
 			(uuid "ffb78b1c-67b7-46aa-a0e9-3dbdba5be5d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3.3V" output
+			(at 60.96 30.48 0)
+			(uuid "3ebc3442-f9dd-478f-b3b1-ea80e4501adc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" bidirectional
+			(at 60.96 35.56 0)
+			(uuid "791ebc33-839a-466d-b0a5-9af0b0cedb5b")
 			(effects
 				(font
 					(size 1.27 1.27)

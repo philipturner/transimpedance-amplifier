@@ -1283,7 +1283,7 @@
 				)
 			)
 		)
-		(property "Footprint" "D8_TEX"
+		(property "Footprint" ""
 			(at 78.74 93.98 0)
 			(effects
 				(font

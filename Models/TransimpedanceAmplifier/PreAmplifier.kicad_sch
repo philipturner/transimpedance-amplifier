@@ -2781,7 +2781,7 @@
 				)
 			)
 		)
-		(property "Footprint" "UJ_5_ADI"
+		(property "Footprint" ""
 			(at 43.18 81.28 0)
 			(effects
 				(font
