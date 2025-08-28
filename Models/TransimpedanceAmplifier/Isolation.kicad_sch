@@ -5,6 +5,145 @@
 	(uuid "c5638483-1b82-4a7f-8206-b48acd4eaded")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "ISO7641FM:ISO7641FMDW"
 			(pin_names
 				(offset 0.254)
@@ -425,7 +564,7 @@
 		)
 	)
 	(rectangle
-		(start 25.4 22.86)
+		(start 50.8 22.86)
 		(end 142.24 144.78)
 		(stroke
 			(width 0)
@@ -438,7 +577,7 @@
 	)
 	(rectangle
 		(start 162.56 22.86)
-		(end 279.4 144.78)
+		(end 254 144.78)
 		(stroke
 			(width 0)
 			(type default)
@@ -483,7 +622,7 @@
 	)
 	(text "Digital"
 		(exclude_from_sim no)
-		(at 25.146 20.066 0)
+		(at 51.054 20.066 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -502,6 +641,385 @@
 			(justify left top)
 		)
 		(uuid "b8c99a07-04e1-4d01-bae4-9a61470b6d1d")
+	)
+	(junction
+		(at 101.6 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16a69f08-b5de-4adf-a0ae-deeda08004d9")
+	)
+	(junction
+		(at 203.2 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77066bb5-86e4-4ca9-a73d-8c685d40e8e9")
+	)
+	(junction
+		(at 228.6 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a4695db-9ce3-4c12-9db3-1162f869756a")
+	)
+	(junction
+		(at 76.2 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93c9015e-db0a-46f2-939c-17f622dd5e7c")
+	)
+	(junction
+		(at 76.2 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbe7a020-8792-4971-b1ad-16dd01249649")
+	)
+	(junction
+		(at 203.2 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce25e441-0833-4e65-bd6b-aeb8b88eb3e2")
+	)
+	(junction
+		(at 228.6 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7e509d9-55c9-4b1b-8cf4-cc72676fa467")
+	)
+	(junction
+		(at 101.6 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3ff1a01-9ecc-4d03-b53c-7e4707751867")
+	)
+	(wire
+		(pts
+			(xy 182.88 121.92) (xy 203.2 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0363bb1b-d0f2-4314-b0ea-f5bf7262f471")
+	)
+	(wire
+		(pts
+			(xy 76.2 45.72) (xy 101.6 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "056dd320-eff5-459e-97db-8c783e43a45a")
+	)
+	(wire
+		(pts
+			(xy 228.6 119.38) (xy 228.6 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bfb04df-1164-4158-9f4f-31d4c10bb9aa")
+	)
+	(wire
+		(pts
+			(xy 101.6 121.92) (xy 121.92 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1322083a-dd67-448d-8b39-20d2bd178adf")
+	)
+	(wire
+		(pts
+			(xy 228.6 50.8) (xy 228.6 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "138dba22-e4a6-4c0d-be2f-e998ac54e5c7")
+	)
+	(wire
+		(pts
+			(xy 228.6 111.76) (xy 228.6 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b11f70e-ebd2-44da-bd23-f5440d02940e")
+	)
+	(wire
+		(pts
+			(xy 101.6 106.68) (xy 101.6 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23fa6a8c-7d93-45b3-ba91-ed7413f2a414")
+	)
+	(wire
+		(pts
+			(xy 71.12 45.72) (xy 76.2 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bedacf9-7a0a-4d36-9da3-5d1726e602ea")
+	)
+	(wire
+		(pts
+			(xy 182.88 60.96) (xy 203.2 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cf86dee-4972-476b-8e9f-ca571318f291")
+	)
+	(wire
+		(pts
+			(xy 182.88 45.72) (xy 203.2 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2db9bc00-dcec-4f96-ae49-28b6fe13a920")
+	)
+	(wire
+		(pts
+			(xy 203.2 106.68) (xy 203.2 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41c32079-d313-4bbd-b2f3-c75d96ba27c9")
+	)
+	(wire
+		(pts
+			(xy 71.12 63.5) (xy 76.2 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43c3931f-8748-463e-a18b-e44d05c85314")
+	)
+	(wire
+		(pts
+			(xy 101.6 60.96) (xy 121.92 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c5381f8-ca0e-4708-bc1b-0cb5353ab1f7")
+	)
+	(wire
+		(pts
+			(xy 228.6 124.46) (xy 233.68 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c8e0545-02b0-4343-8fe8-4c2766713668")
+	)
+	(wire
+		(pts
+			(xy 228.6 63.5) (xy 233.68 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56bcd5b0-aa58-4d01-bc84-39f5c8fea87b")
+	)
+	(wire
+		(pts
+			(xy 203.2 45.72) (xy 203.2 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5def1372-e1bb-4f36-ba59-f19d775e946d")
+	)
+	(wire
+		(pts
+			(xy 228.6 45.72) (xy 233.68 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "627cbcd7-219f-48d9-996f-9c196158e773")
+	)
+	(wire
+		(pts
+			(xy 203.2 45.72) (xy 228.6 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6949d115-cc73-4600-9d16-e33597e2a714")
+	)
+	(wire
+		(pts
+			(xy 203.2 106.68) (xy 228.6 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "734443c5-a45b-40ac-8b81-3645fbe246f9")
+	)
+	(wire
+		(pts
+			(xy 101.6 45.72) (xy 101.6 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75264f97-5af1-4e01-a888-1bb4283ee1cc")
+	)
+	(wire
+		(pts
+			(xy 71.12 106.68) (xy 76.2 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "960627b0-14b5-4109-add3-15dd09daf72b")
+	)
+	(wire
+		(pts
+			(xy 228.6 106.68) (xy 233.68 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ca6fb47-7692-4778-90b8-e96df2d563aa")
+	)
+	(wire
+		(pts
+			(xy 76.2 58.42) (xy 76.2 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0a6089a-981c-42b7-93c5-cb5ad99ed1f9")
+	)
+	(wire
+		(pts
+			(xy 76.2 111.76) (xy 76.2 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac3ac603-4712-48d0-a247-163c8ef487d2")
+	)
+	(wire
+		(pts
+			(xy 76.2 106.68) (xy 101.6 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd394b6f-65ec-4353-bbe0-5c1a98761253")
+	)
+	(wire
+		(pts
+			(xy 101.6 45.72) (xy 121.92 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c04a186d-a5a1-47a8-9639-eae8776fcb2d")
+	)
+	(wire
+		(pts
+			(xy 101.6 106.68) (xy 121.92 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1f0acaa-1c3b-4851-b64a-f0db27447489")
+	)
+	(wire
+		(pts
+			(xy 76.2 50.8) (xy 76.2 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5fddc20-f918-4c92-86f8-135e3c73a16d")
+	)
+	(wire
+		(pts
+			(xy 182.88 106.68) (xy 203.2 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7a8ad0e-a237-4d82-bcd3-9e6dcc7e5725")
+	)
+	(wire
+		(pts
+			(xy 228.6 58.42) (xy 228.6 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edd4f602-0552-4464-aaea-bcf4ef7c3731")
+	)
+	(wire
+		(pts
+			(xy 76.2 119.38) (xy 76.2 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7712ee7-33bc-425f-87b8-1510e76a6f41")
+	)
+	(wire
+		(pts
+			(xy 71.12 124.46) (xy 76.2 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbdb0242-5922-4b22-8f46-1c90d40381ab")
+	)
+	(hierarchical_label "GND_Digital"
+		(shape bidirectional)
+		(at 71.12 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "01d0b4bf-20c1-478d-8518-49b41b49545b")
 	)
 	(hierarchical_label "CS_DAC_Analog"
 		(shape output)
@@ -547,6 +1065,17 @@
 		)
 		(uuid "0d241a07-983a-40f7-94e9-62e35df2d5c6")
 	)
+	(hierarchical_label "GND_Analog"
+		(shape bidirectional)
+		(at 233.68 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "156150f0-3029-4fac-928d-e2fc6ce531ac")
+	)
 	(hierarchical_label "SCK_Digital"
 		(shape input)
 		(at 121.92 53.34 180)
@@ -569,6 +1098,17 @@
 		)
 		(uuid "25dccde0-bd27-4ed6-913c-c514d6508391")
 	)
+	(hierarchical_label "3.3V_Analog"
+		(shape input)
+		(at 233.68 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "37d9532e-0ab3-49e5-8cbf-53b907a8bd4d")
+	)
 	(hierarchical_label "CS_ADC_Analog"
 		(shape output)
 		(at 182.88 111.76 0)
@@ -579,6 +1119,17 @@
 			(justify left)
 		)
 		(uuid "417ab9e4-1ffe-4bf4-b62b-578b61b69804")
+	)
+	(hierarchical_label "GND_Analog"
+		(shape bidirectional)
+		(at 233.68 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "43663f98-920d-4c16-ad0c-cc238fdf7c26")
 	)
 	(hierarchical_label "MOSI_ADC_Analog"
 		(shape output)
@@ -646,6 +1197,17 @@
 		)
 		(uuid "9ad92f91-c104-4289-bc91-d78d2a7d5f7e")
 	)
+	(hierarchical_label "3.3V_Analog"
+		(shape input)
+		(at 233.68 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a3af975d-33c6-42eb-8a2f-bfd2a7d3e371")
+	)
 	(hierarchical_label "SCK_Digital"
 		(shape input)
 		(at 121.92 114.3 180)
@@ -657,6 +1219,17 @@
 		)
 		(uuid "ccdf5883-af0c-483a-a7a7-e1403033f55e")
 	)
+	(hierarchical_label "GND_Digital"
+		(shape bidirectional)
+		(at 71.12 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cd333706-207b-456e-8843-ed0e7cdb6197")
+	)
 	(hierarchical_label "SCK_ADC_Analog"
 		(shape output)
 		(at 182.88 114.3 0)
@@ -667,6 +1240,17 @@
 			(justify left)
 		)
 		(uuid "ce71b9da-cff5-4bf7-9f9e-d2750bed7d06")
+	)
+	(hierarchical_label "3.3V_Digital"
+		(shape input)
+		(at 71.12 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ddda94b6-a1e7-48d4-a1da-f975a0a3be81")
 	)
 	(hierarchical_label "GND_Digital"
 		(shape bidirectional)
@@ -689,6 +1273,17 @@
 			(justify right)
 		)
 		(uuid "e8570d11-6143-4214-8334-df4b08942bbe")
+	)
+	(hierarchical_label "3.3V_Digital"
+		(shape input)
+		(at 71.12 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e9b4e327-d784-4093-89c6-474d37c6162b")
 	)
 	(hierarchical_label "SCK_DAC_Analog"
 		(shape output)
@@ -766,6 +1361,85 @@
 			(justify right)
 		)
 		(uuid "ff046ad0-a3ed-49d4-850d-91ea65a55a49")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 76.2 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36254239-4ca8-45cc-91cd-8c829444a52c")
+		(property "Reference" "C13"
+			(at 80.01 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100 nF, 0603"
+			(at 80.01 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.1652 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 76.2 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R72A104KA35D/702549"
+			(at 76.2 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "923d4fb8-3175-4688-a8d9-4dae25266b58")
+		)
+		(pin "2"
+			(uuid "45270bfd-f115-42d2-9fb6-059fbe270431")
+		)
+		(instances
+			(project "TransimpedanceAmplifier"
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/7e303428-a18c-4ad4-b002-5ab9c6631588/e0dacc02-a437-4540-b76e-19ca4ea6e74c"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "ISO7641FM:ISO7641FMDW")
@@ -889,6 +1563,164 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 76.2 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7cd98fb4-4099-43bc-82ae-65bd6dc1c7d4")
+		(property "Reference" "C14"
+			(at 80.01 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100 nF, 0603"
+			(at 80.01 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.1652 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 76.2 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R72A104KA35D/702549"
+			(at 76.2 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34040010-c001-40f3-afa8-ba86ae0ae5fc")
+		)
+		(pin "2"
+			(uuid "8c47c711-61c7-4512-b56f-bde72dec1989")
+		)
+		(instances
+			(project "TransimpedanceAmplifier"
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/7e303428-a18c-4ad4-b002-5ab9c6631588/e0dacc02-a437-4540-b76e-19ca4ea6e74c"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 228.6 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "847b7104-5b53-4796-b827-b2367fa4cd30")
+		(property "Reference" "C11"
+			(at 232.41 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100 nF, 0603"
+			(at 232.41 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.5652 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 228.6 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R72A104KA35D/702549"
+			(at 228.6 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62116a91-df4b-4220-9191-ac29b83a514c")
+		)
+		(pin "2"
+			(uuid "d8834e50-8541-465d-a2a4-c04168410dde")
+		)
+		(instances
+			(project ""
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/7e303428-a18c-4ad4-b002-5ab9c6631588/e0dacc02-a437-4540-b76e-19ca4ea6e74c"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ISO7641FM:ISO7641FMDW")
 		(at 121.92 45.72 0)
 		(unit 1)
@@ -1004,6 +1836,85 @@
 			(project ""
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/7e303428-a18c-4ad4-b002-5ab9c6631588/e0dacc02-a437-4540-b76e-19ca4ea6e74c"
 					(reference "DAC_Isolator")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 228.6 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe34a22f-317c-44c6-a921-31332b122338")
+		(property "Reference" "C12"
+			(at 232.41 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100 nF, 0603"
+			(at 232.41 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.5652 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 228.6 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R72A104KA35D/702549"
+			(at 228.6 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3eb35b69-d0b9-4a13-bf84-d43d3fba967d")
+		)
+		(pin "2"
+			(uuid "48e5b241-15b4-4acf-aeb3-595c5bbaff15")
+		)
+		(instances
+			(project "TransimpedanceAmplifier"
+				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/7e303428-a18c-4ad4-b002-5ab9c6631588/e0dacc02-a437-4540-b76e-19ca4ea6e74c"
+					(reference "C12")
 					(unit 1)
 				)
 			)
