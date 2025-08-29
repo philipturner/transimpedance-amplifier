@@ -229,33 +229,6 @@
 		(thermal_bridge_angle 45)
 		(uuid "575be0eb-8525-46b2-990a-a3078b7b917b")
 	)
-	(pad "1" thru_hole rect
-		(at -41.27 9.19)
-		(size 1.6 1.6)
-		(drill 1.05)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(thermal_bridge_angle 45)
-		(uuid "689cb506-8a72-4546-85ea-7abad9163751")
-	)
-	(pad "1" thru_hole rect
-		(at 41.27 -11.73)
-		(size 1.6 1.6)
-		(drill 1.05)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(thermal_bridge_angle 45)
-		(uuid "f43f27cf-0ee6-48a3-ba41-86d3856a6e93")
-	)
-	(pad "1" thru_hole rect
-		(at 41.27 9.19)
-		(size 1.6 1.6)
-		(drill 1.05)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(thermal_bridge_angle 45)
-		(uuid "497da2c5-e6de-4989-abdb-53d922d17e59")
-	)
 	(pad "2" thru_hole circle
 		(at -41.27 -9.19)
 		(size 1.6 1.6)
@@ -264,7 +237,16 @@
 		(remove_unused_layers no)
 		(uuid "dda27f77-833c-4668-a9fd-b98a085a6676")
 	)
-	(pad "2" thru_hole circle
+	(pad "3" thru_hole rect
+		(at -41.27 9.19)
+		(size 1.6 1.6)
+		(drill 1.05)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "689cb506-8a72-4546-85ea-7abad9163751")
+	)
+	(pad "4" thru_hole circle
 		(at -41.27 11.73)
 		(size 1.6 1.6)
 		(drill 1.05)
@@ -272,7 +254,16 @@
 		(remove_unused_layers no)
 		(uuid "1dc04945-6ca4-4a30-8fd6-fafb208be457")
 	)
-	(pad "2" thru_hole circle
+	(pad "5" thru_hole rect
+		(at 41.27 -11.73)
+		(size 1.6 1.6)
+		(drill 1.05)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "f43f27cf-0ee6-48a3-ba41-86d3856a6e93")
+	)
+	(pad "6" thru_hole circle
 		(at 41.27 -9.19)
 		(size 1.6 1.6)
 		(drill 1.05)
@@ -280,7 +271,16 @@
 		(remove_unused_layers no)
 		(uuid "0805b504-9e36-48dd-a85b-ccff1dfb2ce8")
 	)
-	(pad "2" thru_hole circle
+	(pad "7" thru_hole rect
+		(at 41.27 9.19)
+		(size 1.6 1.6)
+		(drill 1.05)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "497da2c5-e6de-4989-abdb-53d922d17e59")
+	)
+	(pad "8" thru_hole circle
 		(at 41.27 11.73)
 		(size 1.6 1.6)
 		(drill 1.05)
