@@ -1514,7 +1514,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5130ba26-add2-46d9-baec-9c79f2099999")
-		(property "Reference" "J13"
+		(property "Reference" "J5"
 			(at 250.19 66.0399 0)
 			(effects
 				(font
@@ -1577,7 +1577,7 @@
 		(instances
 			(project "TransimpedanceAmplifier"
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/f970a304-10fa-492d-98c3-214694e65338"
-					(reference "J13")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -1870,7 +1870,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1a5a9e4-9139-4ad9-82ca-a10d05c19c5e")
-		(property "Reference" "J12"
+		(property "Reference" "J4"
 			(at 207.01 66.0399 0)
 			(effects
 				(font
@@ -1933,7 +1933,7 @@
 		(instances
 			(project ""
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/f970a304-10fa-492d-98c3-214694e65338"
-					(reference "J12")
+					(reference "J4")
 					(unit 1)
 				)
 			)

@@ -2881,7 +2881,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "286a1080-9679-47cc-a784-85e0b424e7ff")
-		(property "Reference" "J16"
+		(property "Reference" "J8"
 			(at 57.15 40.6399 0)
 			(effects
 				(font
@@ -2944,7 +2944,7 @@
 		(instances
 			(project "TransimpedanceAmplifier"
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/226b3d0c-9e45-4bcf-9bef-58938aee743e/1a19fcb8-2301-474b-810f-9788696a69a6"
-					(reference "J16")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -3521,7 +3521,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "879739fd-821e-41c1-9172-3551c42d773a")
-		(property "Reference" "J17"
+		(property "Reference" "J9"
 			(at 77.47 133.9849 90)
 			(effects
 				(font
@@ -3584,7 +3584,7 @@
 		(instances
 			(project ""
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/226b3d0c-9e45-4bcf-9bef-58938aee743e/1a19fcb8-2301-474b-810f-9788696a69a6"
-					(reference "J17")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -3763,7 +3763,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99d76604-6b9c-47f2-9b3d-216dc867bb82")
-		(property "Reference" "J18"
+		(property "Reference" "J10"
 			(at 100.33 40.6399 0)
 			(effects
 				(font
@@ -3826,7 +3826,7 @@
 		(instances
 			(project "TransimpedanceAmplifier"
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/226b3d0c-9e45-4bcf-9bef-58938aee743e/1a19fcb8-2301-474b-810f-9788696a69a6"
-					(reference "J18")
+					(reference "J10")
 					(unit 1)
 				)
 			)

@@ -1949,7 +1949,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a91e01c-7402-4c9b-a381-8d7f1bab2b09")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR045"
 			(at 127 176.53 0)
 			(effects
 				(font
@@ -1999,7 +1999,7 @@
 		(instances
 			(project "TransimpedanceAmplifier"
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/7e303428-a18c-4ad4-b002-5ab9c6631588/77c98efe-b6d0-43b4-bfa9-b392bfbf9a85"
-					(reference "#PWR057")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
