@@ -1824,10 +1824,109 @@
 			)
 		)
 	)
+	(gr_text "+"
+		(at 191 109.35 0)
+		(layer "F.SilkS")
+		(uuid "02ba0fc9-9aa9-41b4-a568-3cc923daaaa7")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(gr_text "BT2"
+		(at 110.46 107.35 0)
+		(layer "F.SilkS")
+		(uuid "0cc7d634-f945-48b6-895a-61e57e00ff3b")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(gr_text "BT3"
+		(at 193 92.97 0)
+		(layer "F.SilkS")
+		(uuid "21b34e39-f7cf-4a0f-9284-cd921439aa86")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(gr_text "-"
+		(at 191 90.97 0)
+		(layer "F.SilkS")
+		(uuid "55bfbd55-4116-4273-87dd-bc55b25e2cc1")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(gr_text "-"
+		(at 191 111.89 0)
+		(layer "F.SilkS")
+		(uuid "93ce4b9a-863e-47f6-bd45-037d614da3ae")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
 	(gr_text "-"
 		(at 112.46 90.97 0)
 		(layer "F.SilkS")
 		(uuid "957bf5b0-0728-4cf8-a06b-2fc70c10fc58")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(gr_text "-"
+		(at 112.46 111.89 0)
+		(layer "F.SilkS")
+		(uuid "c8c9f2ad-ce6f-498a-8c36-b875a1891f73")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(gr_text "BT4"
+		(at 193 107.35 0)
+		(layer "F.SilkS")
+		(uuid "c9898843-3309-412e-ae42-1f41eaf7da74")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(gr_text "+"
+		(at 191 88.43 0)
+		(layer "F.SilkS")
+		(uuid "d7a8df2f-6fe9-4961-ba9b-e6cbf92ccacb")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(gr_text "+"
+		(at 112.46 109.35 0)
+		(layer "F.SilkS")
+		(uuid "da1b8a68-6672-488e-9add-58e7a53c360e")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -1844,19 +1943,6 @@
 				(size 0.8 0.8)
 				(thickness 0.12)
 			)
-		)
-	)
-	(gr_text "TODO: Hide all reference designators from the\nsilkscreen layer after positioning components."
-		(at 104.79 46.36 0)
-		(layer "User.2")
-		(uuid "8d1de6dd-a73c-4bca-919c-70daafe19590")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
-			)
-			(justify left top)
 		)
 	)
 	(segment
