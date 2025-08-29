@@ -1413,7 +1413,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ThreeTerminal:Bourns_3296Y"
 			(at 123.19 49.53 0)
 			(effects
 				(font
@@ -1511,7 +1511,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TwoTerminal:RESC0603"
 			(at 94.996 70.104 90)
 			(effects
 				(font
@@ -1697,7 +1697,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TwoTerminal:RESC0805"
 			(at 68.834 48.514 90)
 			(effects
 				(font
@@ -1792,7 +1792,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ThreeTerminal:Bourns_3296Y"
 			(at 93.98 82.55 0)
 			(effects
 				(font
@@ -2047,7 +2047,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ThreeTerminal:Bourns_3296Y"
 			(at 132.08 29.21 0)
 			(effects
 				(font

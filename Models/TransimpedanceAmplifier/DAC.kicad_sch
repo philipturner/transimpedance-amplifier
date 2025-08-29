@@ -2225,7 +2225,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Custom:NetTie_0.2mm"
 			(at 58.42 152.4 0)
 			(effects
 				(font
@@ -2540,7 +2540,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TwoTerminal:RESC0603"
 			(at 143.764 42.164 90)
 			(effects
 				(font
@@ -2635,7 +2635,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Custom:NetTie_0.2mm"
 			(at 58.42 101.6 0)
 			(effects
 				(font
@@ -2721,7 +2721,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Custom:NetTie_0.2mm"
 			(at 134.62 152.4 0)
 			(effects
 				(font
@@ -2904,7 +2904,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Custom:NetTie_0.2mm"
 			(at 134.62 101.6 0)
 			(effects
 				(font
@@ -2990,7 +2990,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "IC:DAC81401"
 			(at 72.39 30.48 0)
 			(effects
 				(font

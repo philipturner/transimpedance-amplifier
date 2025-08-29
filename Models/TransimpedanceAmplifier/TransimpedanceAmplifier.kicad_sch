@@ -1149,7 +1149,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TwoTerminal:RESC0603"
 			(at 41.656 54.864 90)
 			(effects
 				(font

@@ -1361,7 +1361,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ThreeTerminal:TO-220"
 			(at 53.34 132.08 0)
 			(effects
 				(font
@@ -1857,7 +1857,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ThreeTerminal:TO-220"
 			(at 58.42 55.88 0)
 			(effects
 				(font

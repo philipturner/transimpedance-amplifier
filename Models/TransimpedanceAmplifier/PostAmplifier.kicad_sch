@@ -2759,7 +2759,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TwoTerminal:RESC0603"
 			(at 49.784 143.256 90)
 			(effects
 				(font
@@ -2856,7 +2856,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TwoTerminal:RESC0603"
 			(at 247.396 52.324 90)
 			(effects
 				(font
@@ -3214,7 +3214,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TwoTerminal:RESC0603"
 			(at 247.396 128.524 90)
 			(effects
 				(font
@@ -3489,7 +3489,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TwoTerminal:RESC0603"
 			(at 202.184 136.144 90)
 			(effects
 				(font
@@ -3584,7 +3584,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "IC:SOIC-8"
 			(at 67.31 101.6 0)
 			(effects
 				(font
@@ -3797,7 +3797,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ThreeTerminal:SOT-23"
 			(at 226.06 66.04 0)
 			(effects
 				(font
@@ -3897,7 +3897,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ThreeTerminal:SOT-23"
 			(at 226.06 116.84 0)
 			(effects
 				(font
@@ -4302,7 +4302,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TwoTerminal:RESC0603"
 			(at 202.184 44.704 90)
 			(effects
 				(font
@@ -4463,7 +4463,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TwoTerminal:RESC0603"
 			(at 75.184 125.984 90)
 			(effects
 				(font

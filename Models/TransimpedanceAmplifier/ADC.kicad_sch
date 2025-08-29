@@ -1563,7 +1563,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Custom:NetTie_0.2mm"
 			(at 81.28 109.22 0)
 			(effects
 				(font
@@ -1714,7 +1714,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "IC:ADS8699"
 			(at 68.58 45.72 0)
 			(effects
 				(font
@@ -2669,7 +2669,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Custom:NetTie_0.2mm"
 			(at 81.28 152.4 0)
 			(effects
 				(font
@@ -3049,7 +3049,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TwoTerminal:RESC0603"
 			(at 164.084 62.484 90)
 			(effects
 				(font
