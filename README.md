@@ -525,3 +525,5 @@ I stumbled upon a very important insight for the PCB layout phase: [Source](http
 ## August 29, 2025
 
 ![August 29, Part 1](./Documentation/New/August29_Part1.jpg)
+
+I can strategically place the two modules, to evenly distribute battery weight across the board. This makes it more mechanically / gravitationally stable, improving ease of use. I could even place then underneath, turning the batteries into the mechanical supports for the board. This choice would leave more room on the top for visually debuggable components.
