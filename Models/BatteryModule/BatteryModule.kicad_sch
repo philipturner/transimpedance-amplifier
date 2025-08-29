@@ -168,6 +168,171 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x02_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Socket"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Custom:Keystone_968"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -269,9 +434,87 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 205.74 86.36)
+		(end 238.76 124.46)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 50638771-ea5c-410c-905f-db7e945b745d)
+	)
+	(rectangle
+		(start 35.56 86.36)
+		(end 193.04 142.24)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5a752911-558e-4d2f-9258-25f67e4e3070)
+	)
+	(text "PCB"
+		(exclude_from_sim no)
+		(at 35.56 84.328 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "a0820244-17b2-4484-96de-9a79e511dc18")
+	)
+	(text "Bill of Materials for Main Board"
+		(exclude_from_sim no)
+		(at 205.74 84.328 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "b70363c4-b672-4930-8abb-e35a37206fa0")
+	)
+	(no_connect
+		(at 208.28 102.87)
+		(uuid "068df8d6-38a6-47e2-ae91-0632bdd0826a")
+	)
+	(no_connect
+		(at 208.28 110.49)
+		(uuid "183c552d-10c1-4f80-9325-4044c352dbc7")
+	)
+	(no_connect
+		(at 208.28 107.95)
+		(uuid "2ac4d9ca-6f7b-4efd-a089-7cdbf4a48b7a")
+	)
+	(no_connect
+		(at 208.28 118.11)
+		(uuid "5b12741b-5e84-41dc-b0b5-6db7968c5204")
+	)
+	(no_connect
+		(at 208.28 93.98)
+		(uuid "a8fc5e8b-4b22-4ca4-9bc5-12bf31d216d3")
+	)
+	(no_connect
+		(at 208.28 115.57)
+		(uuid "c0236018-c03a-413f-a2d0-76562bbafab3")
+	)
+	(no_connect
+		(at 208.28 91.44)
+		(uuid "d13d837a-74f8-4f0e-96d5-081fcee41702")
+	)
+	(no_connect
+		(at 208.28 100.33)
+		(uuid "f97eacab-34af-4cdc-94a0-1e9a8e3ab578")
+	)
 	(wire
 		(pts
-			(xy 177.8 104.14) (xy 203.2 104.14)
+			(xy 152.4 129.54) (xy 177.8 129.54)
 		)
 		(stroke
 			(width 0)
@@ -281,7 +524,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 96.52) (xy 101.6 99.06)
+			(xy 76.2 121.92) (xy 76.2 124.46)
 		)
 		(stroke
 			(width 0)
@@ -291,7 +534,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 99.06) (xy 96.52 76.2)
+			(xy 71.12 124.46) (xy 71.12 101.6)
 		)
 		(stroke
 			(width 0)
@@ -301,7 +544,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 73.66) (xy 152.4 73.66)
+			(xy 177.8 99.06) (xy 127 99.06)
 		)
 		(stroke
 			(width 0)
@@ -311,7 +554,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 73.66) (xy 101.6 73.66)
+			(xy 50.8 99.06) (xy 76.2 99.06)
 		)
 		(stroke
 			(width 0)
@@ -321,7 +564,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 99.06) (xy 157.48 76.2)
+			(xy 132.08 124.46) (xy 132.08 101.6)
 		)
 		(stroke
 			(width 0)
@@ -331,7 +574,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 73.66) (xy 152.4 81.28)
+			(xy 127 99.06) (xy 127 106.68)
 		)
 		(stroke
 			(width 0)
@@ -341,7 +584,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 78.74) (xy 182.88 78.74)
+			(xy 152.4 104.14) (xy 157.48 104.14)
 		)
 		(stroke
 			(width 0)
@@ -351,7 +594,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 78.74) (xy 182.88 101.6)
+			(xy 157.48 104.14) (xy 157.48 127)
 		)
 		(stroke
 			(width 0)
@@ -361,7 +604,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 101.6) (xy 121.92 101.6)
+			(xy 50.8 127) (xy 96.52 127)
 		)
 		(stroke
 			(width 0)
@@ -371,7 +614,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 81.28) (xy 177.8 78.74)
+			(xy 152.4 106.68) (xy 152.4 104.14)
 		)
 		(stroke
 			(width 0)
@@ -381,7 +624,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 96.52) (xy 177.8 104.14)
+			(xy 152.4 121.92) (xy 152.4 129.54)
 		)
 		(stroke
 			(width 0)
@@ -391,7 +634,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 101.6) (xy 121.92 78.74)
+			(xy 96.52 127) (xy 96.52 104.14)
 		)
 		(stroke
 			(width 0)
@@ -401,7 +644,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 73.66) (xy 101.6 81.28)
+			(xy 76.2 99.06) (xy 76.2 106.68)
 		)
 		(stroke
 			(width 0)
@@ -411,7 +654,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 101.6) (xy 203.2 101.6)
+			(xy 157.48 127) (xy 177.8 127)
 		)
 		(stroke
 			(width 0)
@@ -421,7 +664,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 76.2) (xy 203.2 76.2)
+			(xy 132.08 101.6) (xy 177.8 101.6)
 		)
 		(stroke
 			(width 0)
@@ -431,7 +674,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 96.52) (xy 152.4 99.06)
+			(xy 127 121.92) (xy 127 124.46)
 		)
 		(stroke
 			(width 0)
@@ -441,7 +684,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 78.74) (xy 127 78.74)
+			(xy 96.52 104.14) (xy 101.6 104.14)
 		)
 		(stroke
 			(width 0)
@@ -451,7 +694,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 99.06) (xy 96.52 99.06)
+			(xy 76.2 124.46) (xy 71.12 124.46)
 		)
 		(stroke
 			(width 0)
@@ -461,7 +704,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 78.74) (xy 127 81.28)
+			(xy 101.6 104.14) (xy 101.6 106.68)
 		)
 		(stroke
 			(width 0)
@@ -471,7 +714,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 76.2) (xy 96.52 76.2)
+			(xy 50.8 101.6) (xy 71.12 101.6)
 		)
 		(stroke
 			(width 0)
@@ -481,7 +724,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 104.14) (xy 127 104.14)
+			(xy 50.8 129.54) (xy 101.6 129.54)
 		)
 		(stroke
 			(width 0)
@@ -491,7 +734,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 96.52) (xy 127 104.14)
+			(xy 101.6 121.92) (xy 101.6 129.54)
 		)
 		(stroke
 			(width 0)
@@ -501,7 +744,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 99.06) (xy 157.48 99.06)
+			(xy 127 124.46) (xy 132.08 124.46)
 		)
 		(stroke
 			(width 0)
@@ -510,33 +753,35 @@
 		(uuid "e04138fc-e93e-40ee-bf16-61dda3d41c29")
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 71.12 73.66 0)
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 213.36 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "076d3287-d60c-473d-acc7-4bc23eecd1bf")
-		(property "Reference" "J1"
-			(at 71.755 68.58 0)
+		(uuid "07666ba1-b071-4e69-a512-057ee140a583")
+		(property "Reference" "J9"
+			(at 214.63 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 71.755 71.12 0)
+		(property "Value" "Conn_01x02_Socket"
+			(at 214.63 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Custom:PinHeader_1x2"
-			(at 71.12 73.66 0)
+		(property "Footprint" ""
+			(at 213.36 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -545,7 +790,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 73.66 0)
+			(at 213.36 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -554,7 +799,111 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 71.12 73.66 0)
+			(at 213.36 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/sullins-connector-solutions/PPPC021LFBN-RC/810174"
+			(at 213.36 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "$0.24"
+			(at 213.36 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost (qty10)" "$0.206"
+			(at 213.36 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Compliant" "YES"
+			(at 213.36 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5de9c36d-a7ba-400e-946c-1870caf88fe1")
+		)
+		(pin "1"
+			(uuid "8c7ce868-6825-4023-a1de-0d42a1e993f6")
+		)
+		(instances
+			(project ""
+				(path "/9ea3a182-0f41-4c69-acda-a863aaee2015"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 45.72 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "076d3287-d60c-473d-acc7-4bc23eecd1bf")
+		(property "Reference" "J1"
+			(at 46.355 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 46.355 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Custom:PinHeader_1x2"
+			(at 45.72 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 45.72 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -563,7 +912,7 @@
 			)
 		)
 		(property "Purchase Link" ""
-			(at 71.12 73.66 0)
+			(at 45.72 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -572,7 +921,7 @@
 			)
 		)
 		(property "Cost" ""
-			(at 71.12 73.66 0)
+			(at 45.72 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -581,7 +930,7 @@
 			)
 		)
 		(property "RoHS Compliant" ""
-			(at 71.12 73.66 0)
+			(at 45.72 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -606,7 +955,7 @@
 	)
 	(symbol
 		(lib_id "Custom:Keystone_968")
-		(at 177.8 88.9 270)
+		(at 152.4 114.3 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -615,7 +964,7 @@
 		(fields_autoplaced yes)
 		(uuid "3f0db594-6014-45f9-829f-25c11d1ada05")
 		(property "Reference" "J6"
-			(at 181.61 87.6299 90)
+			(at 156.21 113.0299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -624,7 +973,7 @@
 			)
 		)
 		(property "Value" "Keystone_968"
-			(at 181.61 90.1699 90)
+			(at 156.21 115.5699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -633,7 +982,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Custom:Keystone_968"
-			(at 177.8 88.9 0)
+			(at 152.4 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -642,7 +991,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 88.9 0)
+			(at 152.4 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -651,7 +1000,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 177.8 88.9 0)
+			(at 152.4 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -660,7 +1009,7 @@
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/keystone-electronics/968/151577"
-			(at 177.8 88.9 90)
+			(at 152.4 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -669,7 +1018,7 @@
 			)
 		)
 		(property "Cost" "$1.57"
-			(at 177.8 88.9 90)
+			(at 152.4 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -678,7 +1027,16 @@
 			)
 		)
 		(property "RoHS Compliant" "YES"
-			(at 177.8 88.9 90)
+			(at 152.4 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost (qty10)" "$1.300"
+			(at 152.4 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -703,7 +1061,7 @@
 	)
 	(symbol
 		(lib_id "Custom:Keystone_968")
-		(at 127 88.9 270)
+		(at 101.6 114.3 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -712,7 +1070,7 @@
 		(fields_autoplaced yes)
 		(uuid "42d6f0ed-e6d6-4269-b2ab-c32f834fb2a0")
 		(property "Reference" "J4"
-			(at 130.81 87.6299 90)
+			(at 105.41 113.0299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -721,7 +1079,7 @@
 			)
 		)
 		(property "Value" "Keystone_968"
-			(at 130.81 90.1699 90)
+			(at 105.41 115.5699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -730,7 +1088,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Custom:Keystone_968"
-			(at 127 88.9 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -739,7 +1097,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 88.9 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -748,7 +1106,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 88.9 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -757,7 +1115,7 @@
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/keystone-electronics/968/151577"
-			(at 127 88.9 90)
+			(at 101.6 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -766,7 +1124,7 @@
 			)
 		)
 		(property "Cost" "$1.57"
-			(at 127 88.9 90)
+			(at 101.6 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -775,7 +1133,16 @@
 			)
 		)
 		(property "RoHS Compliant" "YES"
-			(at 127 88.9 90)
+			(at 101.6 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost (qty10)" "$1.300"
+			(at 101.6 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -800,7 +1167,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 208.28 73.66 0)
+		(at 182.88 99.06 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -809,7 +1176,7 @@
 		(dnp no)
 		(uuid "9b86af2c-45b3-4006-9fbd-fa42c7e047cb")
 		(property "Reference" "J7"
-			(at 207.645 68.58 0)
+			(at 182.245 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -817,7 +1184,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 207.645 71.12 0)
+			(at 182.245 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -825,7 +1192,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Custom:PinHeader_1x2"
-			(at 208.28 73.66 0)
+			(at 182.88 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -834,7 +1201,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 208.28 73.66 0)
+			(at 182.88 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -843,7 +1210,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 208.28 73.66 0)
+			(at 182.88 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -852,7 +1219,7 @@
 			)
 		)
 		(property "Cost" ""
-			(at 208.28 73.66 0)
+			(at 182.88 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -861,7 +1228,7 @@
 			)
 		)
 		(property "RoHS Compliant" ""
-			(at 208.28 73.66 0)
+			(at 182.88 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -886,7 +1253,7 @@
 	)
 	(symbol
 		(lib_id "Custom:Keystone_968")
-		(at 101.6 88.9 270)
+		(at 76.2 114.3 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -895,7 +1262,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa8bc5fd-bbee-4f9c-9142-6e4c175edece")
 		(property "Reference" "J3"
-			(at 105.41 87.6299 90)
+			(at 80.01 113.0299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -904,7 +1271,7 @@
 			)
 		)
 		(property "Value" "Keystone_968"
-			(at 105.41 90.1699 90)
+			(at 80.01 115.5699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -913,7 +1280,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Custom:Keystone_968"
-			(at 101.6 88.9 0)
+			(at 76.2 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -922,7 +1289,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 88.9 0)
+			(at 76.2 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -931,7 +1298,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.6 88.9 0)
+			(at 76.2 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -940,7 +1307,7 @@
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/keystone-electronics/968/151577"
-			(at 101.6 88.9 90)
+			(at 76.2 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -949,7 +1316,16 @@
 			)
 		)
 		(property "Cost" "$1.57"
-			(at 101.6 88.9 90)
+			(at 76.2 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost (qty10)" "$1.300"
+			(at 76.2 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -958,7 +1334,7 @@
 			)
 		)
 		(property "RoHS Compliant" "YES"
-			(at 101.6 88.9 90)
+			(at 76.2 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -983,7 +1359,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 71.12 101.6 0)
+		(at 45.72 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -992,7 +1368,7 @@
 		(fields_autoplaced yes)
 		(uuid "af14161f-7dcd-48f2-b515-843f75432faa")
 		(property "Reference" "J2"
-			(at 71.755 96.52 0)
+			(at 46.355 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1000,7 +1376,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 71.755 99.06 0)
+			(at 46.355 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1008,7 +1384,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Custom:PinHeader_1x2"
-			(at 71.12 101.6 0)
+			(at 45.72 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1017,7 +1393,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 101.6 0)
+			(at 45.72 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1026,7 +1402,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 71.12 101.6 0)
+			(at 45.72 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1035,7 +1411,7 @@
 			)
 		)
 		(property "Cost" ""
-			(at 71.12 101.6 0)
+			(at 45.72 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1044,7 +1420,7 @@
 			)
 		)
 		(property "RoHS Compliant" ""
-			(at 71.12 101.6 0)
+			(at 45.72 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1069,7 +1445,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 208.28 101.6 0)
+		(at 182.88 127 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1078,7 +1454,7 @@
 		(dnp no)
 		(uuid "dd5f452e-a3fe-4f88-ac0c-6e6eed9f86ea")
 		(property "Reference" "J8"
-			(at 207.645 96.52 0)
+			(at 182.245 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1086,7 +1462,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 207.645 99.06 0)
+			(at 182.245 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1094,7 +1470,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Custom:PinHeader_1x2"
-			(at 208.28 101.6 0)
+			(at 182.88 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1103,7 +1479,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 208.28 101.6 0)
+			(at 182.88 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1112,7 +1488,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 208.28 101.6 0)
+			(at 182.88 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1121,7 +1497,7 @@
 			)
 		)
 		(property "Cost" ""
-			(at 208.28 101.6 0)
+			(at 182.88 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1130,7 +1506,7 @@
 			)
 		)
 		(property "RoHS Compliant" ""
-			(at 208.28 101.6 0)
+			(at 182.88 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1154,17 +1530,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Custom:Keystone_968")
-		(at 152.4 88.9 270)
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 213.36 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f0eb54f0-1d6b-4fbe-a06c-bbc9d63e1c8b")
-		(property "Reference" "J5"
-			(at 156.21 87.6299 90)
+		(uuid "ec73f818-acaf-4e2f-a5ac-caade58e0397")
+		(property "Reference" "J12"
+			(at 214.63 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1172,8 +1548,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Keystone_968"
-			(at 156.21 90.1699 90)
+		(property "Value" "Conn_01x02_Socket"
+			(at 214.63 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1181,8 +1557,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Custom:Keystone_968"
-			(at 152.4 88.9 0)
+		(property "Footprint" ""
+			(at 213.36 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1190,8 +1566,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 152.4 88.9 0)
+		(property "Datasheet" "~"
+			(at 213.36 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1199,8 +1575,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 152.4 88.9 0)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 213.36 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1208,8 +1584,8 @@
 				(hide yes)
 			)
 		)
-		(property "Purchase Link" "https://www.digikey.com/en/products/detail/keystone-electronics/968/151577"
-			(at 152.4 88.9 90)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/sullins-connector-solutions/PPPC021LFBN-RC/810174"
+			(at 213.36 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1217,8 +1593,17 @@
 				(hide yes)
 			)
 		)
-		(property "Cost" "$1.57"
-			(at 152.4 88.9 90)
+		(property "Cost" "$0.24"
+			(at 213.36 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost (qty10)" "$0.206"
+			(at 213.36 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1227,7 +1612,113 @@
 			)
 		)
 		(property "RoHS Compliant" "YES"
-			(at 152.4 88.9 90)
+			(at 213.36 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1912286e-2617-4a3c-b595-436b89f7aaa3")
+		)
+		(pin "1"
+			(uuid "39b57ef3-e893-4981-a749-55f9f4aced75")
+		)
+		(instances
+			(project "BatteryModule"
+				(path "/9ea3a182-0f41-4c69-acda-a863aaee2015"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom:Keystone_968")
+		(at 127 114.3 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0eb54f0-1d6b-4fbe-a06c-bbc9d63e1c8b")
+		(property "Reference" "J5"
+			(at 130.81 113.0299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Keystone_968"
+			(at 130.81 115.5699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Custom:Keystone_968"
+			(at 127 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/keystone-electronics/968/151577"
+			(at 127 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "$1.57"
+			(at 127 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Compliant" "YES"
+			(at 127 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost (qty10)" "$1.300"
+			(at 127 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1245,6 +1736,218 @@
 			(project ""
 				(path "/9ea3a182-0f41-4c69-acda-a863aaee2015"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 213.36 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f329f811-df90-4f0f-9c8b-4d134b0fdb57")
+		(property "Reference" "J11"
+			(at 214.63 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 214.63 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 213.36 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/sullins-connector-solutions/PPPC021LFBN-RC/810174"
+			(at 213.36 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "$0.24"
+			(at 213.36 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost (qty10)" "$0.206"
+			(at 213.36 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Compliant" "YES"
+			(at 213.36 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "21d871b1-0d52-42ff-8461-f319f3af6790")
+		)
+		(pin "1"
+			(uuid "00349e32-b08d-45a8-9169-37028b218a28")
+		)
+		(instances
+			(project "BatteryModule"
+				(path "/9ea3a182-0f41-4c69-acda-a863aaee2015"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 213.36 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6fe81ae-469e-4874-8ef1-6699bf6e68df")
+		(property "Reference" "J10"
+			(at 214.63 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 214.63 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 213.36 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/sullins-connector-solutions/PPPC021LFBN-RC/810174"
+			(at 213.36 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "$0.24"
+			(at 213.36 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost (qty10)" "$0.206"
+			(at 213.36 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Compliant" "YES"
+			(at 213.36 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0dd7ec0a-d4eb-4bb2-9dea-ab4d563fbee6")
+		)
+		(pin "1"
+			(uuid "609b78d9-fb6b-4151-b717-c43adc7ae087")
+		)
+		(instances
+			(project "BatteryModule"
+				(path "/9ea3a182-0f41-4c69-acda-a863aaee2015"
+					(reference "J10")
 					(unit 1)
 				)
 			)

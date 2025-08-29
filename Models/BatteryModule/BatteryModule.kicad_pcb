@@ -207,6 +207,45 @@
 				)
 			)
 		)
+		(property "Cost" "$1.57"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "58959098-893a-4e2e-b15e-e8124f0c3cd3")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+		(property "Cost (qty10)" "$1.300"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e734a86e-66bd-43cd-a82d-2c32637e093a")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+		(property "RoHS Compliant" "YES"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4f23943d-c28d-42ec-ad50-1469a24452bc")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
 		(path "/aa8bc5fd-bbee-4f9c-9142-6e4c175edece")
 		(sheetname "/")
 		(sheetfile "BatteryModule.kicad_sch")
@@ -480,6 +519,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2fd8ab2c-f95d-4d5b-b661-66e182abc271")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+		(property "Cost" "$1.57"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4885834d-ec05-48db-8db8-2c1020954b41")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+		(property "RoHS Compliant" "YES"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "af551716-040b-4948-8907-c18f2b7ee86e")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+		(property "Cost (qty10)" "$1.300"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6a8fbf6a-8f35-4638-bad0-1c200229d3ab")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -767,6 +845,45 @@
 				)
 			)
 		)
+		(property "Cost" "$1.57"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bc658c45-cda4-4912-8ff6-b5c2fac9a2d3")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+		(property "RoHS Compliant" "YES"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3e5ea0b6-44e5-46d7-9832-df233d712257")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+		(property "Cost (qty10)" "$1.300"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "943e23e7-6571-49ef-bdad-eb26a2cd3fb4")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
 		(path "/42d6f0ed-e6d6-4269-b2ab-c32f834fb2a0")
 		(sheetname "/")
 		(sheetfile "BatteryModule.kicad_sch")
@@ -1047,6 +1164,45 @@
 				)
 			)
 		)
+		(property "Cost" "$1.57"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8eb87197-6293-4116-8066-5644b7986253")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+		(property "RoHS Compliant" "YES"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d024b2b-7358-4fd9-894b-ebfc31c2c77a")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+		(property "Cost (qty10)" "$1.300"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "093005ae-7b1e-4fe0-99ca-e2e2469e4b04")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
 		(path "/f0eb54f0-1d6b-4fbe-a06c-bbc9d63e1c8b")
 		(sheetname "/")
 		(sheetfile "BatteryModule.kicad_sch")
@@ -1318,6 +1474,34 @@
 				(justify mirror)
 			)
 		)
+		(property "Cost" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b6e9176e-4565-49d1-b1bb-e855f2b859de")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+				(justify mirror)
+			)
+		)
+		(property "RoHS Compliant" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2a42c350-c933-49cc-b9f5-d88d6094e71b")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/9b86af2c-45b3-4006-9fbd-fa42c7e047cb")
 		(sheetname "/")
@@ -1446,6 +1630,34 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "7aee128d-152b-4f58-9470-7871ab0ee939")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Cost" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b18e3033-29b7-405e-9844-a049a974a474")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+				(justify mirror)
+			)
+		)
+		(property "RoHS Compliant" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "57753edb-aefd-4b30-8875-e2de4a0d7832")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -1590,6 +1802,34 @@
 				(justify mirror)
 			)
 		)
+		(property "Cost" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e53b003c-51f1-4e43-9951-f6cc9094826f")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+				(justify mirror)
+			)
+		)
+		(property "RoHS Compliant" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d70e78c9-ea02-4093-84d6-22152ea16400")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/dd5f452e-a3fe-4f88-ac0c-6e6eed9f86ea")
 		(sheetname "/")
@@ -1718,6 +1958,48 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e24b626b-0366-4c45-b5fb-139ac8118c77")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Purchase Link" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2987b51d-bc59-42b0-af99-dbbb12f045df")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Cost" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2ca3a89b-01fb-42b7-a9c8-c3602d759c18")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+				(justify mirror)
+			)
+		)
+		(property "RoHS Compliant" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3b012506-0d5b-4231-92ca-aaf0da46c4ee")
 			(effects
 				(font
 					(size 0.8 0.8)

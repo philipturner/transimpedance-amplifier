@@ -796,7 +796,7 @@
 				(hide yes)
 			)
 		)
-		(property "Cost" "$0.00"
+		(property "Cost" ""
 			(at 170.18 62.23 0)
 			(effects
 				(font
@@ -805,7 +805,7 @@
 				(hide yes)
 			)
 		)
-		(property "RoHS Compliant" "NO"
+		(property "RoHS Compliant" ""
 			(at 170.18 62.23 0)
 			(effects
 				(font
@@ -966,7 +966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Cost" "$0.00"
+		(property "Cost" ""
 			(at 170.18 110.49 0)
 			(effects
 				(font
@@ -975,7 +975,7 @@
 				(hide yes)
 			)
 		)
-		(property "RoHS Compliant" "NO"
+		(property "RoHS Compliant" ""
 			(at 170.18 110.49 0)
 			(effects
 				(font

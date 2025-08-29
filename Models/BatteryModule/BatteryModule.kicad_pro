@@ -565,7 +565,7 @@
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -577,6 +577,18 @@
           "group_by": false,
           "label": "Purchase Link",
           "name": "Purchase Link",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Cost",
+          "name": "Cost",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Cost (qty10)",
+          "name": "Cost (qty10)",
           "show": true
         },
         {
@@ -596,12 +608,6 @@
           "label": "RoHS Compliant",
           "name": "RoHS Compliant",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Cost",
-          "name": "Cost",
-          "show": true
         }
       ],
       "filter_string": "",
@@ -609,7 +615,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "RoHS Compliant"
     },
     "connection_grid_size": 50.0,
     "drawing": {
