@@ -1320,7 +1320,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TwoTerminal:CAPC0603"
 			(at 94.9452 60.96 0)
 			(effects
 				(font
@@ -1347,6 +1347,24 @@
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GCM1885C1H202FA16D/16033535"
+			(at 93.98 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "$0.00"
+			(at 93.98 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Compliant" "NO"
 			(at 93.98 57.15 0)
 			(effects
 				(font
@@ -1423,6 +1441,24 @@
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/bourns-inc/3296Y-1-204LF/1088092"
 			(at 123.19 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "$0.00"
+			(at 123.19 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Compliant" "NO"
+			(at 123.19 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1510,6 +1546,24 @@
 				(hide yes)
 			)
 		)
+		(property "Cost" "$0.00"
+			(at 93.98 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Compliant" "NO"
+			(at 93.98 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a303aac3-8a50-41a9-9101-5460f12b48d6")
 		)
@@ -1585,6 +1639,24 @@
 				(hide yes)
 			)
 		)
+		(property "Cost" "$0.00"
+			(at 68.58 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Compliant" "NO"
+			(at 68.58 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5995a15c-d08d-4626-9e33-01909bdd2596")
 		)
@@ -1653,6 +1725,24 @@
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW0805330MJPEAHR/5074908"
 			(at 68.58 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "$0.00"
+			(at 68.58 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Compliant" "NO"
+			(at 68.58 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1737,6 +1827,24 @@
 				(hide yes)
 			)
 		)
+		(property "Cost" "$0.00"
+			(at 93.98 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Compliant" "NO"
+			(at 93.98 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "869269ca-408b-4a32-a986-b6e55192d09e")
 		)
@@ -1780,7 +1888,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TwoTerminal:CAPC0603"
 			(at 144.78 48.5648 0)
 			(effects
 				(font
@@ -1808,6 +1916,24 @@
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GCM1885C2A181FA16D/7363158"
 			(at 140.97 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "$0.00"
+			(at 140.97 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Compliant" "NO"
+			(at 140.97 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1949,6 +2075,24 @@
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/bourns-inc/3296Y-1-473LF/2536018"
 			(at 132.08 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "$0.00"
+			(at 132.08 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Compliant" "NO"
+			(at 132.08 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)

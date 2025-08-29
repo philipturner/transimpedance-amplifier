@@ -590,6 +590,18 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "RoHS Compliant",
+          "name": "RoHS Compliant",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Cost",
+          "name": "Cost",
+          "show": true
         }
       ],
       "filter_string": "",
