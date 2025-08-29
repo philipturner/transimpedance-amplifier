@@ -735,7 +735,7 @@
 		)
 		(uuid "951b34b7-b0cc-4151-8b01-6a2305440b72")
 	)
-	(text "EN pins might need to be connected to the\nbypassed 3.3V, instead of directly to 3.3V,\nbecause there is no pullup resistor separating\nthem from the true power line. This is different\nthan the topology of FAULT and RST pins in the\ndata converters."
+	(text "EN pins must connect to the bypassed 3.3V,\nrather than directly to 3.3V, probably\nbecause there is no pullup resistor separating\nthem from the true power line. This is different\nthan the topology of FAULT and RST pins in the\ndata converters."
 		(exclude_from_sim no)
 		(at 213.106 149.352 0)
 		(effects

@@ -1243,7 +1243,7 @@
 	)
 	(text "TODO: (1 kΩ trimpot)\nFlip the polarity of pins 1 and 3\nbased on which is more convenient for the\nphysical layout on the PCB"
 		(exclude_from_sim no)
-		(at 186.182 25.908 0)
+		(at 185.928 21.844 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1770,7 +1770,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04427c5f-8d15-470e-9582-a469c27ae80a")
-		(property "Reference" "R7"
+		(property "Reference" "R8"
 			(at 223.52 58.4199 0)
 			(effects
 				(font
@@ -1833,7 +1833,7 @@
 		(instances
 			(project ""
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/226b3d0c-9e45-4bcf-9bef-58938aee743e/728283d1-1c30-4fdc-aa4d-bf897972ea87"
-					(reference "R7")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -1930,7 +1930,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2391e4d5-12f3-4fbb-af92-ebc4696e7ecb")
-		(property "Reference" "R10"
+		(property "Reference" "R11"
 			(at 243.84 52.0699 0)
 			(effects
 				(font
@@ -1996,7 +1996,7 @@
 		(instances
 			(project ""
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/226b3d0c-9e45-4bcf-9bef-58938aee743e/728283d1-1c30-4fdc-aa4d-bf897972ea87"
-					(reference "R10")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -2012,7 +2012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "757431bb-3dee-4094-9af6-d21b7b90852b")
-		(property "Reference" "R8"
+		(property "Reference" "R9"
 			(at 223.52 106.6799 0)
 			(effects
 				(font
@@ -2075,7 +2075,7 @@
 		(instances
 			(project ""
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/226b3d0c-9e45-4bcf-9bef-58938aee743e/728283d1-1c30-4fdc-aa4d-bf897972ea87"
-					(reference "R8")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -2539,7 +2539,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd64e7d5-161f-426f-bdd6-f92faf5a8059")
-		(property "Reference" "R9"
+		(property "Reference" "R10"
 			(at 223.52 119.3799 0)
 			(effects
 				(font
@@ -2602,7 +2602,7 @@
 		(instances
 			(project ""
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/226b3d0c-9e45-4bcf-9bef-58938aee743e/728283d1-1c30-4fdc-aa4d-bf897972ea87"
-					(reference "R9")
+					(reference "R10")
 					(unit 1)
 				)
 			)

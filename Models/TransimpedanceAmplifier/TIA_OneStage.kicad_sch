@@ -1438,7 +1438,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c1f0c7e-b2b7-49be-a8bb-ba3a9eea5334")
-		(property "Reference" "R1"
+		(property "Reference" "R2"
 			(at 96.52 60.96 90)
 			(effects
 				(font
@@ -1498,7 +1498,7 @@
 		(instances
 			(project ""
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/f970a304-10fa-492d-98c3-214694e65338"
-					(reference "R1")
+					(reference "R2")
 					(unit 1)
 				)
 			)

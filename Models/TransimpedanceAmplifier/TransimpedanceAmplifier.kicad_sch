@@ -593,7 +593,7 @@
 		)
 		(uuid "e5ece8cf-424a-4a55-97b4-e34f98cb43f5")
 	)
-	(text "Use through-hole DUT to connect sockets"
+	(text "Use through-hole DUT to connect sockets\n\nSpecification of DUTs is out of scope for\nthe KiCad schematic"
 		(exclude_from_sim no)
 		(at 48.006 129.032 0)
 		(effects
@@ -1095,7 +1095,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "828f0343-2396-4bc4-a57a-42e4c55306c4")
-		(property "Reference" "R19"
+		(property "Reference" "R1"
 			(at 43.18 53.3399 0)
 			(effects
 				(font
@@ -1158,7 +1158,7 @@
 		(instances
 			(project ""
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1"
-					(reference "R19")
+					(reference "R1")
 					(unit 1)
 				)
 			)

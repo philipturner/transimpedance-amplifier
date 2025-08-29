@@ -2723,7 +2723,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "142f9db4-bd9b-4041-bc7e-72375da450fa")
-		(property "Reference" "R11"
+		(property "Reference" "R12"
 			(at 53.34 142.2399 0)
 			(effects
 				(font
@@ -2786,7 +2786,7 @@
 		(instances
 			(project "TransimpedanceAmplifier"
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/226b3d0c-9e45-4bcf-9bef-58938aee743e/1a19fcb8-2301-474b-810f-9788696a69a6"
-					(reference "R11")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -2802,7 +2802,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22af544b-3a4d-4d1e-b406-82bb21aed794")
-		(property "Reference" "R15"
+		(property "Reference" "R16"
 			(at 248.92 50.7999 0)
 			(effects
 				(font
@@ -2865,7 +2865,7 @@
 		(instances
 			(project "TransimpedanceAmplifier"
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/226b3d0c-9e45-4bcf-9bef-58938aee743e/1a19fcb8-2301-474b-810f-9788696a69a6"
-					(reference "R15")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -3106,7 +3106,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ab76530-d732-4364-b810-bbd2f270db4a")
-		(property "Reference" "R16"
+		(property "Reference" "R17"
 			(at 248.92 126.9999 0)
 			(effects
 				(font
@@ -3169,7 +3169,7 @@
 		(instances
 			(project ""
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/226b3d0c-9e45-4bcf-9bef-58938aee743e/1a19fcb8-2301-474b-810f-9788696a69a6"
-					(reference "R16")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -3347,7 +3347,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74052caf-2e3f-4afa-a6bd-f56c7587e3af")
-		(property "Reference" "R14"
+		(property "Reference" "R15"
 			(at 201.93 130.81 90)
 			(effects
 				(font
@@ -3408,7 +3408,7 @@
 		(instances
 			(project ""
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/226b3d0c-9e45-4bcf-9bef-58938aee743e/1a19fcb8-2301-474b-810f-9788696a69a6"
-					(reference "R14")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -4016,7 +4016,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7d16d01-3ee7-40ec-832c-c82038b3ed53")
-		(property "Reference" "R13"
+		(property "Reference" "R14"
 			(at 201.93 39.37 90)
 			(effects
 				(font
@@ -4077,7 +4077,7 @@
 		(instances
 			(project ""
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/226b3d0c-9e45-4bcf-9bef-58938aee743e/1a19fcb8-2301-474b-810f-9788696a69a6"
-					(reference "R13")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -4159,7 +4159,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e09c7ae6-633d-4ac9-8b52-e4825f5796d0")
-		(property "Reference" "R12"
+		(property "Reference" "R13"
 			(at 74.93 120.65 90)
 			(effects
 				(font
@@ -4220,7 +4220,7 @@
 		(instances
 			(project "TransimpedanceAmplifier"
 				(path "/ec9f2ae3-e40d-40eb-9760-2b611ee8efd1/226b3d0c-9e45-4bcf-9bef-58938aee743e/1a19fcb8-2301-474b-810f-9788696a69a6"
-					(reference "R12")
+					(reference "R13")
 					(unit 1)
 				)
 			)
