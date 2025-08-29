@@ -1,0 +1,145 @@
+(footprint "BatteryModule"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -25.8425 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "02f08534-1568-43d6-a055-3efc4980226b")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "BatteryModule"
+		(at 0 -24.6425 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ae23703b-9061-49d6-85d5-a8ce78751eda")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6cdc5ce9-c1b1-416f-9821-252a34bc6874")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "45b2493e-961c-415a-bae8-4030f933e190")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -43.21 -13.82)
+		(end 43.21 13.82)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "597a9039-90e1-49a3-bea0-efe321d9a424")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -23.4425 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0d3dec38-aa1f-4787-8caa-26bcd11d1cf6")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "Cmts.User")
+		(uuid "5e88b0b3-8716-40c1-8c57-67dbe2eaa86e")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -31.115 -8.215) (xy -31.115 -4.485) (xy -27.385 -4.485) (xy -27.385 -8.215)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "Cmts.User")
+		(uuid "a7353830-7846-45b6-b4cc-e9dc355b0060")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -31.115 4.485) (xy -31.115 8.215) (xy -27.385 8.215) (xy -27.385 4.485)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
