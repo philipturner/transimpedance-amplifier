@@ -139,13 +139,15 @@
 	(net 7 "Net-(J6--)")
 	(net 8 "Net-(J6-+)")
 	(footprint "Connector_Custom:Keystone_968"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "3f61d285-4dda-4207-858f-306ed769b5cc")
-		(at 128.64 86.31 -90)
+		(at 122.48 100.16 -90)
 		(property "Reference" "J3"
 			(at -14.58 0.24 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "9b589b79-7273-49cb-82e1-a8c69a821c1b")
 			(effects
 				(font
@@ -417,13 +419,15 @@
 		(embedded_fonts no)
 	)
 	(footprint "Connector_Custom:Keystone_968"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "4c5311f6-5b5a-4b94-bd50-de887a6cab5f")
-		(at 189.13 123.57 -90)
+		(at 180.98 100.16 -90)
 		(property "Reference" "J6"
-			(at -14.74 0.07 0)
+			(at -14.55 0.18 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "f6dcb584-48d8-444e-b012-a78d24aa0dc2")
 			(effects
 				(font
@@ -695,13 +699,15 @@
 		(embedded_fonts no)
 	)
 	(footprint "Connector_Custom:Keystone_968"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "8fcc4ec0-a37c-4552-bb9c-bbeccef63087")
-		(at 138.48 120.22 -90)
+		(at 141.98 100.16 -90)
 		(property "Reference" "J4"
 			(at -14.55 0.07 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "1cd045f8-a8f6-4631-920c-f4cb31a334d8")
 			(effects
 				(font
@@ -973,13 +979,15 @@
 		(embedded_fonts no)
 	)
 	(footprint "Connector_Custom:Keystone_968"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "b6dc19cb-5b0b-4e5f-826e-db2c21e9b688")
-		(at 170.99 90.22 -90)
+		(at 161.48 100.16 -90)
 		(property "Reference" "J5"
 			(at -14.57 0.29 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "1fdda499-dd79-4994-b72d-40c87dadd8b1")
 			(effects
 				(font
@@ -1251,13 +1259,15 @@
 		(embedded_fonts no)
 	)
 	(footprint "Connector_Custom:PinHeader_1x2"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "3695d832-d300-4dc3-ae14-b7ac5e3013cc")
-		(at 85.49 74.28 180)
+		(at 193 89.7 180)
 		(property "Reference" "J7"
 			(at 0.04 3.67 0)
 			(unlocked yes)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "09097b04-a585-4e7b-a571-0be0866e475b")
 			(effects
 				(font
@@ -1385,13 +1395,15 @@
 		(embedded_fonts no)
 	)
 	(footprint "Connector_Custom:PinHeader_1x2"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "3baf1917-cabc-4959-882b-e4868c7a6077")
-		(at 74.66 74.21 180)
+		(at 110.46 110.62 180)
 		(property "Reference" "J2"
 			(at 0.08 3.76 0)
 			(unlocked yes)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "d60da2fd-654f-4157-837d-44d6e73bebf5")
 			(effects
 				(font
@@ -1519,13 +1531,15 @@
 		(embedded_fonts no)
 	)
 	(footprint "Connector_Custom:PinHeader_1x2"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "7dd97a91-b424-4226-847e-17c928b398be")
-		(at 97.03 74.28 180)
+		(at 193 110.62 180)
 		(property "Reference" "J8"
 			(at 0.05 3.6 0)
 			(unlocked yes)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "7319224c-bd30-4724-8a41-519a35450166")
 			(effects
 				(font
@@ -1653,13 +1667,15 @@
 		(embedded_fonts no)
 	)
 	(footprint "Connector_Custom:PinHeader_1x2"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "b4c64f75-5f24-492e-94e0-2a13b934dec5")
-		(at 65.31 74.21 180)
+		(at 110.46 89.7 180)
 		(property "Reference" "J1"
 			(at 0.07 3.78 0)
 			(unlocked yes)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "8623ca39-9f6b-4dae-a9a7-2b01082d33b3")
 			(effects
 				(font
@@ -1786,6 +1802,50 @@
 		)
 		(embedded_fonts no)
 	)
+	(gr_rect
+		(start 108.52 86.34)
+		(end 194.94 113.98)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "105bccab-aa55-4ef8-8588-29701d3a28e5")
+	)
+	(gr_text "BT1"
+		(at 110.46 92.97 0)
+		(layer "F.SilkS")
+		(uuid "0211f665-b610-4eb2-93fb-7d4c01ec19d0")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(gr_text "-"
+		(at 112.46 90.97 0)
+		(layer "F.SilkS")
+		(uuid "957bf5b0-0728-4cf8-a06b-2fc70c10fc58")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(gr_text "+"
+		(at 112.46 88.43 0)
+		(layer "F.SilkS")
+		(uuid "fa42f91c-2b89-4e60-a3a6-aad9cb7e08d8")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
 	(gr_text "TODO: Hide all reference designators from the\nsilkscreen layer after positioning components."
 		(at 104.79 46.36 0)
 		(layer "User.2")
@@ -1798,6 +1858,134 @@
 			)
 			(justify left top)
 		)
+	)
+	(segment
+		(start 117.1 88.43)
+		(end 122.48 93.81)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 1)
+		(uuid "98d793fc-0bed-4843-b7ad-c989de8ae373")
+	)
+	(segment
+		(start 110.46 88.43)
+		(end 117.1 88.43)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 1)
+		(uuid "be19d0fd-1307-43a6-aef2-83e00bbe9c51")
+	)
+	(segment
+		(start 110.46 94.49)
+		(end 110.46 90.97)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 2)
+		(uuid "19b2d8b8-3e49-4c4f-b7fb-46719f998d7b")
+	)
+	(segment
+		(start 122.48 106.51)
+		(end 110.46 94.49)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 2)
+		(uuid "de7d93e4-811a-4f33-b243-8893ae5475a0")
+	)
+	(segment
+		(start 126.44 109.35)
+		(end 110.46 109.35)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 3)
+		(uuid "cfed6f94-1964-4ff8-b391-c741a2edcc2a")
+	)
+	(segment
+		(start 141.98 93.81)
+		(end 126.44 109.35)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 3)
+		(uuid "dac98b58-6b77-42d1-ae2b-24992cb01484")
+	)
+	(segment
+		(start 136.6 111.89)
+		(end 110.46 111.89)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 4)
+		(uuid "06e1fa9d-9acf-4405-838a-f49937ceaf27")
+	)
+	(segment
+		(start 141.98 106.51)
+		(end 136.6 111.89)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 4)
+		(uuid "1bf30b36-476c-4747-b100-7ca53350ec8a")
+	)
+	(segment
+		(start 166.86 88.43)
+		(end 193 88.43)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 5)
+		(uuid "49f574cc-b120-4be9-a9d5-0dc2a3abe331")
+	)
+	(segment
+		(start 161.48 93.81)
+		(end 166.86 88.43)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 5)
+		(uuid "a5ee7b4f-3bc6-4c62-bcec-4f36510d59f6")
+	)
+	(segment
+		(start 161.48 106.51)
+		(end 177.02 90.97)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 6)
+		(uuid "1de5f287-7734-4cd6-8de6-0aa5cca50b01")
+	)
+	(segment
+		(start 177.02 90.97)
+		(end 193 90.97)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 6)
+		(uuid "ae1b3ead-01ee-4eb2-912d-687ac472de09")
+	)
+	(segment
+		(start 180.98 106.51)
+		(end 186.36 111.89)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 7)
+		(uuid "8dd5ca73-1f3c-45c8-8b9a-ec92be29879f")
+	)
+	(segment
+		(start 186.36 111.89)
+		(end 193 111.89)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 7)
+		(uuid "99b8bb6f-181b-4c6e-94e8-d2dc8cac26ad")
+	)
+	(segment
+		(start 180.98 97.33)
+		(end 193 109.35)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 8)
+		(uuid "999f3e5d-1c48-4d37-af82-4bb527d56b53")
+	)
+	(segment
+		(start 180.98 93.81)
+		(end 180.98 97.33)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 8)
+		(uuid "f7c00ca2-c722-43be-a995-4c9695ad210d")
 	)
 	(embedded_fonts no)
 )
