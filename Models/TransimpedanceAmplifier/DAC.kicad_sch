@@ -1035,7 +1035,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Impractical to light an indicator LED\nfrom this alarm pin (FAULT). Datasheet instructions\ndemand a pullup resistor of at least 10 kΩ and\nconnection to IOVDD (3.3 V), not DVDD (5 V). The\nvoltage restriction is revealed in the DAC81402\ndatasheet, not the DAC81401 datasheet.\n\nIn a practical setting, a red LED would receive\n0.17 mA of current. Compare this with the Open\nSTM project, where the alarm pin of the AD5761\nDAC drives 1.7 mA of current into the LED.\n\nRelative luminous intensity:\n20 mA - 100%\n5 mA - 20%\n2 mA - 5%\n1 mA - 2%\n0.2 mA - 0.2-0.4%"
+	(text "Impractical to light an indicator LED\nfrom this alarm pin (FAULT). Datasheet instructions\ndemand a pullup resistor of at least 10 kΩ and\nconnection to IOVDD (3.3 V), not DVDD (5 V). The\nvoltage restriction is revealed in the DAC81402\ndatasheet, not the DAC81401 datasheet.\n\nIn a practical setting, a red LED would receive\n0.17 mA of current. Compare this with the Open\nSTM project, where the alarm pin of the AD5761\nDAC drives 1.7 mA of current into the LED.\n\nRelative luminous intensity:\n20 mA - 100%\n5 mA - 20%\n2 mA - 5%\n1 mA - 2%\n0.2 mA - 0.2-0.4%\n\nLate-stage revision: connect FAULT directly to\ndecoupled IOVDD instead of 3.3 V. This makes the\nphysical layout on the PCB more convenient."
 		(exclude_from_sim no)
 		(at 167.64 26.67 0)
 		(effects
@@ -1456,6 +1456,16 @@
 		)
 		(uuid "418ce92c-cf3a-4c28-8c5c-a2ae8e8ca0a6")
 	)
+	(label "IOVDD"
+		(at 152.4 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d476024-66ba-4735-ae9e-0b296f259b22")
+	)
 	(label "AVSS"
 		(at 116.84 63.5 0)
 		(effects
@@ -1506,17 +1516,6 @@
 			(justify right)
 		)
 		(uuid "16417794-ec41-4285-8e69-f68e58bb43d5")
-	)
-	(hierarchical_label "3.3V"
-		(shape input)
-		(at 152.4 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1dfa7e97-0cd3-402b-bf17-073456f1c5ed")
 	)
 	(hierarchical_label "MOSI"
 		(shape input)
