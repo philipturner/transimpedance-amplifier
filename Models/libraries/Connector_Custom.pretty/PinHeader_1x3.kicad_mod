@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0.0975 -8.0025 0)
+		(at 0.0075 -4.88 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "4a9127cc-8627-41f2-b15e-a277ea7c5fe2")
@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "PinHeader_1x3"
-		(at 0.0975 -6.8025 0)
+		(at 0.0075 -3.68 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "e840a648-0652-44a0-9ec7-127460861ddb")
@@ -88,7 +88,7 @@
 		(uuid "c9a3fcf4-1621-453e-884c-777dc22b6ad0")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0.0975 -5.6025 0)
+		(at 0.0075 -2.48 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "5d9d7739-133e-433c-95f5-51f043ea6946")

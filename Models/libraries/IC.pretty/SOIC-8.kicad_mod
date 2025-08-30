@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -6.7225 0)
+		(at -0.015 -3.3675 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "354971e8-01ce-41a5-9306-7fe8973aaeb3")
@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "SOIC-8"
-		(at 0 -5.5225 0)
+		(at -0.015 -2.1675 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "60da1487-dedc-4594-a0f0-872901e9e5b1")
@@ -218,7 +218,7 @@
 		(uuid "d99c330f-cc21-4e30-a98c-0f6467b639b1")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 -4.3225 0)
+		(at -0.015 -0.9675 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "f0ad124e-eff3-4003-af5f-34f64a1e151f")
