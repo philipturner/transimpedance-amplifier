@@ -2804,7 +2804,7 @@
 				(hide yes)
 			)
 		)
-		(property "Cost" "$0.00"
+		(property "Cost" "$0.10"
 			(at 50.8 143.51 0)
 			(effects
 				(font
@@ -2813,7 +2813,16 @@
 				(hide yes)
 			)
 		)
-		(property "RoHS Compliant" "NO"
+		(property "RoHS Compliant" "YES"
+			(at 50.8 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost (qty10)" "$0.030"
 			(at 50.8 143.51 0)
 			(effects
 				(font
@@ -3561,7 +3570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Cost" "$0.00"
+		(property "Cost" "$0.10"
 			(at 201.93 137.16 90)
 			(effects
 				(font
@@ -3570,7 +3579,16 @@
 				(hide yes)
 			)
 		)
-		(property "RoHS Compliant" "NO"
+		(property "RoHS Compliant" "YES"
+			(at 201.93 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost (qty10)" "$0.030"
 			(at 201.93 137.16 90)
 			(effects
 				(font
@@ -4428,7 +4446,7 @@
 				(hide yes)
 			)
 		)
-		(property "Cost" "$0.00"
+		(property "Cost" "$0.10"
 			(at 201.93 45.72 90)
 			(effects
 				(font
@@ -4437,7 +4455,16 @@
 				(hide yes)
 			)
 		)
-		(property "RoHS Compliant" "NO"
+		(property "RoHS Compliant" "YES"
+			(at 201.93 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost (qty10)" "$0.030"
 			(at 201.93 45.72 90)
 			(effects
 				(font
