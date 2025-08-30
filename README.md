@@ -531,3 +531,8 @@ I can strategically place the two modules, to evenly distribute battery weight a
 ![August 29, Part 2](./Documentation/New/August29_Part2.jpg)
 
 _Arrangement to stop the USB cord from sagging and yanking the PCB off the table._
+
+Interesting links and ideas for future reference:
+- https://www.matsusada.com/product/matrix/high-voltage-amplifiers.html
+- https://www.mouser.com/c/semiconductors/amplifier-ics/operational-amplifiers-op-amps/?m=Apex%20Microtechnology&supply%20voltage%20-%20max=900%20V~~1.25%20kV&instock=y&sort=pricing&rp=semiconductors%2Famplifier-ics%2Foperational-amplifiers-op-amps%7C~Supply%20Voltage%20-%20Max
+- Using a DC-DC switching converter as the 1st stage in a series of filters for the power supply

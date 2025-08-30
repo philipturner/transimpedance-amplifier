@@ -4645,7 +4645,7 @@
 				(hide yes)
 			)
 		)
-		(property "Purchase Link" ""
+		(property "Purchase Link" "https://www.sparkfun.com/teensy-4-1-without-ethernet.html"
 			(at 104.14 124.46 0)
 			(effects
 				(font
@@ -4654,7 +4654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Cost" "$0.00"
+		(property "Cost" "$29.60"
 			(at 104.14 124.46 0)
 			(effects
 				(font
@@ -4663,7 +4663,7 @@
 				(hide yes)
 			)
 		)
-		(property "RoHS Compliant" "NO"
+		(property "RoHS Compliant" "YES"
 			(at 104.14 124.46 0)
 			(effects
 				(font

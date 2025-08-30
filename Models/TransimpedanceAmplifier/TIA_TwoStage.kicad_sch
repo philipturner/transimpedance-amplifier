@@ -1741,7 +1741,7 @@
 				(hide yes)
 			)
 		)
-		(property "Cost" "$0.00"
+		(property "Cost" "$0.38"
 			(at 68.58 49.53 90)
 			(effects
 				(font
@@ -1750,7 +1750,16 @@
 				(hide yes)
 			)
 		)
-		(property "RoHS Compliant" "NO"
+		(property "RoHS Compliant" "YES"
+			(at 68.58 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost (qty10)" "$0.213"
 			(at 68.58 49.53 90)
 			(effects
 				(font
