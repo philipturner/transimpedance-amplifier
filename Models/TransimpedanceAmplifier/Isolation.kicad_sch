@@ -735,17 +735,6 @@
 		)
 		(uuid "951b34b7-b0cc-4151-8b01-6a2305440b72")
 	)
-	(text "EN pins must connect to the bypassed 3.3V,\nrather than directly to 3.3V, probably\nbecause there is no pullup resistor separating\nthem from the true power line. This is different\nthan the topology of FAULT and RST pins in the\ndata converters."
-		(exclude_from_sim no)
-		(at 213.106 149.352 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "97b5e63c-c54a-4973-b2bf-0c5479a00fea")
-	)
 	(text "TODO: Reorder SPI pins based on which\narrangement best suits the physical\nlayout of the receiving chip's pins"
 		(exclude_from_sim no)
 		(at 163.576 153.416 0)

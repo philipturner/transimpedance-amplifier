@@ -1383,6 +1383,16 @@
 		)
 		(uuid "8a21bf76-806f-41b5-a82e-0dd8d13fab74")
 	)
+	(label "DVDD"
+		(at 172.72 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6e16e83-b891-4ca7-b55c-5d96a15793ef")
+	)
 	(hierarchical_label "3.3V"
 		(shape input)
 		(at 88.9 152.4 0)
@@ -1448,17 +1458,6 @@
 			(justify left)
 		)
 		(uuid "a5a50578-9520-4636-b000-0242cb20d75c")
-	)
-	(hierarchical_label "3.3V"
-		(shape input)
-		(at 172.72 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "baa8b536-4a6c-4163-9b40-8c826121b1ee")
 	)
 	(hierarchical_label "SCK"
 		(shape input)
