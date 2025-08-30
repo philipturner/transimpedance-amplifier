@@ -3128,7 +3128,7 @@
 				(hide yes)
 			)
 		)
-		(property "Purchase Link" ""
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/analog-devices-inc/AD8615AUJZ-REEL/993826"
 			(at 43.18 81.28 0)
 			(effects
 				(font
@@ -3137,7 +3137,7 @@
 				(hide yes)
 			)
 		)
-		(property "Cost" "$0.00"
+		(property "Cost" "$3.83"
 			(at 43.18 81.28 0)
 			(effects
 				(font
@@ -3155,7 +3155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Cost (qty10)" "$0.00"
+		(property "Cost (qty10)" "$2.456"
 			(at 43.18 81.28 0)
 			(effects
 				(font

@@ -863,7 +863,7 @@
 		(at 45.72 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -1171,7 +1171,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "9b86af2c-45b3-4006-9fbd-fa42c7e047cb")
@@ -1228,6 +1228,15 @@
 			)
 		)
 		(property "RoHS Compliant" ""
+			(at 182.88 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" ""
 			(at 182.88 99.06 0)
 			(effects
 				(font
@@ -1362,7 +1371,7 @@
 		(at 45.72 127 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -1428,6 +1437,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase Link" ""
+			(at 45.72 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2c90e1b9-675a-43ca-a1ac-dd17003524ed")
 		)
@@ -1449,7 +1467,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "dd5f452e-a3fe-4f88-ac0c-6e6eed9f86ea")
@@ -1506,6 +1524,15 @@
 			)
 		)
 		(property "RoHS Compliant" ""
+			(at 182.88 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" ""
 			(at 182.88 127 0)
 			(effects
 				(font
