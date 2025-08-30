@@ -3128,7 +3128,7 @@
 				(hide yes)
 			)
 		)
-		(property "Purchase Link" "https://www.digikey.com/en/products/detail/analog-devices-inc/AD8615AUJZ-REEL7/951437"
+		(property "Purchase Link" "https://www.mouser.com/ProductDetail/Analog-Devices/AD8615AUJZ-REEL?qs=%2FtpEQrCGXCx4ykDkhiJmqw%3D%3D"
 			(at 43.18 81.28 0)
 			(effects
 				(font
@@ -3137,7 +3137,7 @@
 				(hide yes)
 			)
 		)
-		(property "Cost" "$0.00"
+		(property "Cost" "$3.47"
 			(at 43.18 81.28 0)
 			(effects
 				(font
@@ -3146,7 +3146,16 @@
 				(hide yes)
 			)
 		)
-		(property "RoHS Compliant" "NO"
+		(property "RoHS Compliant" "YES"
+			(at 43.18 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost (qty10)" "$2.30"
 			(at 43.18 81.28 0)
 			(effects
 				(font

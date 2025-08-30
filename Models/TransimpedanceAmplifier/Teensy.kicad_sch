@@ -4672,6 +4672,15 @@
 				(hide yes)
 			)
 		)
+		(property "Cost (qty10)" "$29.60"
+			(at 104.14 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "08af1337-22cf-4c2e-b1f9-224a1f0a369f")
 		)
