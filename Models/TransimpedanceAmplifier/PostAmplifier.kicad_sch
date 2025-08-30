@@ -2591,7 +2591,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "IC:PDIP-8"
 			(at 67.31 101.6 0)
 			(effects
 				(font
