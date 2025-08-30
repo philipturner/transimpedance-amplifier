@@ -628,7 +628,7 @@
 	(footprint "Connector_Custom:NetTie_0.2mm"
 		(layer "F.Cu")
 		(uuid "0985ba32-c47c-48dd-a45a-1f69fe8da427")
-		(at 226.2875 123.72)
+		(at 251.75 111.69)
 		(property "Reference" "NT1"
 			(at 0.095 -5.115 0)
 			(unlocked yes)
@@ -6933,7 +6933,7 @@
 		(uuid "545ff7df-c0bb-491a-b2e8-b937dd5d5207")
 		(at 230.5125 118.895)
 		(property "Reference" "U10"
-			(at 0.01 -4.2725 0)
+			(at 0.6575 -4.325 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "4006aed7-3144-4361-a4c9-e27dd15fc700")
@@ -12136,9 +12136,9 @@
 	(footprint "TwoTerminal:RESC0603"
 		(layer "F.Cu")
 		(uuid "8ad51b4a-809e-4764-a68f-3d92d620e1e4")
-		(at 229.2875 124.31)
+		(at 236.41 121.73)
 		(property "Reference" "R18"
-			(at 0.0475 -1.385 0)
+			(at 0 1.52 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "991680a1-d154-4aa2-9fdd-01abf24f5709")
@@ -12820,7 +12820,7 @@
 	(footprint "TwoTerminal:CAPC0603"
 		(layer "F.Cu")
 		(uuid "8eba5a42-2961-4aff-87d6-dedf3dab4074")
-		(at 223.2725 124.025)
+		(at 234.82 114.61)
 		(property "Reference" "C28"
 			(at 0.005 -1.425 0)
 			(unlocked yes)
@@ -16910,7 +16910,7 @@
 	(footprint "Connector_Custom:NetTie_0.2mm"
 		(layer "F.Cu")
 		(uuid "aaa5a46f-4411-49a7-b566-af3739db74a9")
-		(at 226.2875 128.22)
+		(at 251.75 116.19)
 		(property "Reference" "NT4"
 			(at 0.095 -5.115 0)
 			(unlocked yes)
@@ -17242,9 +17242,9 @@
 	(footprint "TwoTerminal:CAPC0603"
 		(layer "F.Cu")
 		(uuid "af34c224-7415-4704-a682-37a234fb18ba")
-		(at 223.2725 121.395)
+		(at 225.07 116.13 90)
 		(property "Reference" "C27"
-			(at 0.005 -1.425 0)
+			(at 0 -2.23 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "827f9bf7-e18f-4b26-8612-b08721334c6c")
@@ -17256,7 +17256,7 @@
 			)
 		)
 		(property "Value" "1 uF, 0603"
-			(at 0.005 -0.225 0)
+			(at 0.005 -0.225 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "55c34c42-caef-45b7-ad0d-2acbff2c2169")
@@ -17268,7 +17268,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -17281,7 +17281,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -17294,7 +17294,7 @@
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRT188R61H105KE13D/5416752"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -17307,7 +17307,7 @@
 			)
 		)
 		(property "Cost" "$0.14"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -17320,7 +17320,7 @@
 			)
 		)
 		(property "RoHS Compliant" "YES"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -17333,7 +17333,7 @@
 			)
 		)
 		(property "Cost (qty10)" "$0.078"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -17351,16 +17351,6 @@
 		(sheetfile "DAC.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.22 0.56)
-			(end 0.22 0.56)
-			(stroke
-				(width 0.12)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "74e7e6d0-4e26-472e-b2c0-f566f61703dd")
-		)
-		(fp_line
 			(start 0.22 -0.56)
 			(end -0.22 -0.56)
 			(stroke
@@ -17369,6 +17359,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "600f774d-381f-4801-96e3-49e8f59f437b")
+		)
+		(fp_line
+			(start -0.22 0.56)
+			(end 0.22 0.56)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "74e7e6d0-4e26-472e-b2c0-f566f61703dd")
 		)
 		(fp_rect
 			(start -1.69 -0.79)
@@ -17393,7 +17393,7 @@
 			(uuid "e0d04760-bfd5-4794-bf9d-425e54a35e2a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.005 0.975 0)
+			(at 0.005 0.975 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "062ee22c-88f2-46e9-8503-74c90aef9e92")
@@ -17405,7 +17405,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.86 0)
+			(at -0.86 0 90)
 			(size 1.16 1.08)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -17415,7 +17415,7 @@
 			(uuid "d113c913-59d6-453b-98ad-9a0f7c8ba842")
 		)
 		(pad "2" smd roundrect
-			(at 0.86 0)
+			(at 0.86 0 90)
 			(size 1.16 1.08)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -18017,9 +18017,9 @@
 	(footprint "TwoTerminal:CAPC0603"
 		(layer "F.Cu")
 		(uuid "b914b31d-c0ef-4060-98ad-c8f6ca8a9fbb")
-		(at 223.2725 118.765)
+		(at 225.08 119.62 -90)
 		(property "Reference" "C26"
-			(at 0.005 -1.425 0)
+			(at 0.06 2.21 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "edf585c5-ca2e-4fea-9953-89faef7f6984")
@@ -18031,7 +18031,7 @@
 			)
 		)
 		(property "Value" "1 uF, 0603"
-			(at 0.005 -0.225 0)
+			(at 0.005 -0.225 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "ee333edf-0e8b-44ee-b29a-9b058954ea8d")
@@ -18043,7 +18043,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -18056,7 +18056,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -18069,7 +18069,7 @@
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRT188R61H105KE13D/5416752"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -18082,7 +18082,7 @@
 			)
 		)
 		(property "Cost" "$0.14"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -18095,7 +18095,7 @@
 			)
 		)
 		(property "RoHS Compliant" "YES"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -18108,7 +18108,7 @@
 			)
 		)
 		(property "Cost (qty10)" "$0.078"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -18168,7 +18168,7 @@
 			(uuid "db05a65a-66dd-4e62-b05a-4264825d044d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.005 0.975 0)
+			(at 0.005 0.975 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "46c97059-d348-49d3-abbb-7317416c23a3")
@@ -18180,7 +18180,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.86 0)
+			(at -0.86 0 270)
 			(size 1.16 1.08)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -18190,7 +18190,7 @@
 			(uuid "bd882641-9a4d-482a-ad7a-4619063210b0")
 		)
 		(pad "2" smd roundrect
-			(at 0.86 0)
+			(at 0.86 0 270)
 			(size 1.16 1.08)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -18725,9 +18725,9 @@
 	(footprint "TwoTerminal:CAPC0603"
 		(layer "F.Cu")
 		(uuid "bc312f10-8117-43b1-af24-27660803d22c")
-		(at 223.2725 116.135)
+		(at 227.97 114.43)
 		(property "Reference" "C25"
-			(at 0.005 -1.425 0)
+			(at -0.08 -1.55 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "ff236973-1e88-4313-a1d5-dee6d2235c37")
@@ -20295,7 +20295,7 @@
 	(footprint "Connector_Custom:NetTie_0.2mm"
 		(layer "F.Cu")
 		(uuid "db87ab4f-0382-4f0a-a935-11aa09777e7d")
-		(at 226.2875 125.22)
+		(at 251.75 113.19)
 		(property "Reference" "NT2"
 			(at 0.095 -5.115 0)
 			(unlocked yes)
@@ -22184,12 +22184,12 @@
 	(footprint "TwoTerminal:CAPC0603"
 		(layer "F.Cu")
 		(uuid "ec26d6ab-e126-4b7e-a8ca-0de52e8a870e")
-		(at 223.2725 126.655)
+		(at 237.42 116.58 90)
 		(property "Reference" "C29"
-			(at 0.005 -1.425 0)
+			(at 0.05 2.06 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "caf0ea38-11e3-4604-9362-050476b73a3f")
+			(uuid "f42ed813-e789-4d73-b802-c2631a36a36d")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -22198,10 +22198,10 @@
 			)
 		)
 		(property "Value" "1 uF, 0603"
-			(at 0.005 -0.225 0)
+			(at 0.005 -0.225 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "9f687827-05a7-4bae-a9d2-4faa08776232")
+			(uuid "3d4d3437-4ee0-4e21-8224-9d9898b64090")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -22210,11 +22210,11 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cb0dd20f-1a32-4e22-be3c-9327cb3474f2")
+			(uuid "47af009c-04f1-4d2c-9cc7-3f9f5f7db95d")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -22223,11 +22223,11 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "382f5ffb-82e8-4360-8f5b-58b6fb2a3770")
+			(uuid "06fd0a68-9e9c-4283-af2e-b1c11ee09682")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -22236,7 +22236,7 @@
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRT188R61H105KE13D/5416752"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -22249,7 +22249,7 @@
 			)
 		)
 		(property "Cost" "$0.14"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -22262,7 +22262,7 @@
 			)
 		)
 		(property "RoHS Compliant" "YES"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -22275,7 +22275,7 @@
 			)
 		)
 		(property "Cost (qty10)" "$0.078"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -22293,16 +22293,6 @@
 		(sheetfile "DAC.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.22 0.56)
-			(end 0.22 0.56)
-			(stroke
-				(width 0.12)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "52bf9f3d-1227-4cb4-81f4-d7d411caadc0")
-		)
-		(fp_line
 			(start 0.22 -0.56)
 			(end -0.22 -0.56)
 			(stroke
@@ -22311,6 +22301,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "37e13f6d-7420-4839-b74a-2fa1634ea441")
+		)
+		(fp_line
+			(start -0.22 0.56)
+			(end 0.22 0.56)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "52bf9f3d-1227-4cb4-81f4-d7d411caadc0")
 		)
 		(fp_rect
 			(start -1.69 -0.79)
@@ -22335,7 +22335,7 @@
 			(uuid "79935c15-a904-49b4-a120-396a0a3d004b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.005 0.975 0)
+			(at 0.005 0.975 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "188ac28d-c6b9-45ac-bc3a-082445738710")
@@ -22347,7 +22347,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.86 0)
+			(at -0.86 0 90)
 			(size 1.16 1.08)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -22357,7 +22357,7 @@
 			(uuid "8cd3ce6a-2b46-4295-b2e4-f74c7053e38d")
 		)
 		(pad "2" smd roundrect
-			(at 0.86 0)
+			(at 0.86 0 90)
 			(size 1.16 1.08)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -23115,7 +23115,7 @@
 	(footprint "Connector_Custom:NetTie_0.2mm"
 		(layer "F.Cu")
 		(uuid "f988b5ea-3c8b-4e3c-b41f-f146f95d9afd")
-		(at 226.2875 126.72)
+		(at 251.75 114.69)
 		(property "Reference" "NT3"
 			(at 0.095 -5.115 0)
 			(unlocked yes)
