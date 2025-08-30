@@ -1312,7 +1312,7 @@
 				(hide yes)
 			)
 		)
-		(property "Purchase Link" "https://www.mouser.com/ProductDetail/Texas-Instruments/OPA828IDR?qs=qSfuJ%252Bfl%2Fd4dEw5JbvByEQ%3D%3D"
+		(property "Purchase Link" ""
 			(at 78.74 93.98 0)
 			(effects
 				(font
@@ -1321,7 +1321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Cost" "$7.50"
+		(property "Cost" "$0.00"
 			(at 78.74 93.98 0)
 			(effects
 				(font
@@ -1339,7 +1339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Cost (qty10)" "$5.78"
+		(property "Cost (qty10)" "$0.00"
 			(at 78.74 93.98 0)
 			(effects
 				(font

@@ -9,5 +9,6 @@
   (lib (name "ISO7641FM")(type "KiCad")(uri "${KIPRJMOD}/../libraries/ISO7641FM/2025-08-14_20-18-37.kicad_sym")(options "")(descr ""))
   (lib (name "LM78")(type "KiCad")(uri "${KIPRJMOD}/../libraries/LM78/2025-08-23_13-01-07.kicad_sym")(options "")(descr ""))
   (lib (name "LM79")(type "KiCad")(uri "${KIPRJMOD}/../libraries/LM79/2025-08-23_13-01-30.kicad_sym")(options "")(descr ""))
+  (lib (name "OP37G")(type "KiCad")(uri "${KIPRJMOD}/../libraries/OP37G/2025-08-30_01-26-35.kicad_sym")(options "")(descr ""))
   (lib (name "Custom")(type "KiCad")(uri "${KIPRJMOD}/../libraries/Custom.kicad_sym")(options "")(descr ""))
 )
