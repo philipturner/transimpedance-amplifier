@@ -748,7 +748,7 @@
 	(footprint "TwoTerminal:SOD-123"
 		(layer "F.Cu")
 		(uuid "0a230c08-30a5-4e19-8379-6461b25aa898")
-		(at 98.87 128.195 90)
+		(at 102.93 123.71 90)
 		(property "Reference" "D5"
 			(at 0.035 -1.77 90)
 			(unlocked yes)
@@ -2987,7 +2987,7 @@
 	(footprint "TwoTerminal:RESC0603"
 		(layer "F.Cu")
 		(uuid "2c6f600d-e43c-4263-ad83-391f6c467f00")
-		(at 88.52 129.5225 90)
+		(at 92.58 125.0375 90)
 		(property "Reference" "R16"
 			(at 0.0475 -1.385 90)
 			(unlocked yes)
@@ -3355,7 +3355,7 @@
 	(footprint "ThreeTerminal:SOT-23"
 		(layer "F.Cu")
 		(uuid "3113c152-533b-474f-9a73-f430e9325ece")
-		(at 88.76 134.9525 90)
+		(at 92.82 130.4675 90)
 		(property "Reference" "D7"
 			(at -0.005 -2.5625 90)
 			(unlocked yes)
@@ -5602,7 +5602,7 @@
 	(footprint "TwoTerminal:RESC0603"
 		(layer "F.Cu")
 		(uuid "445bbf20-e1d4-41f4-944e-5e7ced4100b8")
-		(at 91.2 129.5225 90)
+		(at 95.26 125.0375 90)
 		(property "Reference" "R17"
 			(at 0.0475 -1.385 90)
 			(unlocked yes)
@@ -10718,7 +10718,7 @@
 	(footprint "ThreeTerminal:SOT-23"
 		(layer "F.Cu")
 		(uuid "8554cc84-d23e-40fa-bbbd-1d5128cbf5b4")
-		(at 93.5 134.9525 90)
+		(at 97.56 130.4675 90)
 		(property "Reference" "Q1"
 			(at -0.005 -2.5625 90)
 			(unlocked yes)
@@ -12236,7 +12236,7 @@
 	(footprint "TwoTerminal:SOD-123"
 		(layer "F.Cu")
 		(uuid "901e6ea0-8b87-4c7b-90b6-aafdf300117a")
-		(at 95.62 128.195 90)
+		(at 99.68 123.71 90)
 		(property "Reference" "D4"
 			(at 0.035 -1.77 90)
 			(unlocked yes)
@@ -13744,7 +13744,7 @@
 	(footprint "ThreeTerminal:SOT-23"
 		(layer "F.Cu")
 		(uuid "9d690a13-7749-4029-8f8e-1db3fb273ed9")
-		(at 84.02 134.9525 90)
+		(at 88.08 130.4675 90)
 		(property "Reference" "D6"
 			(at -0.005 -2.5625 90)
 			(unlocked yes)
@@ -14458,7 +14458,7 @@
 	(footprint "TwoTerminal:RESC0603"
 		(layer "F.Cu")
 		(uuid "a142362b-47d7-47ec-b77b-b408ac5dea93")
-		(at 85.84 129.5225 90)
+		(at 89.9 125.0375 90)
 		(property "Reference" "R15"
 			(at 0.0475 -1.385 90)
 			(unlocked yes)
@@ -16658,7 +16658,7 @@
 	(footprint "TwoTerminal:RESC0603"
 		(layer "F.Cu")
 		(uuid "b4c15ba3-26d7-4723-8b81-26b7b93819d3")
-		(at 83.16 129.5225 90)
+		(at 87.22 125.0375 90)
 		(property "Reference" "R14"
 			(at 0.0475 -1.385 90)
 			(unlocked yes)
@@ -19711,7 +19711,7 @@
 	(footprint "ThreeTerminal:SOT-23"
 		(layer "F.Cu")
 		(uuid "e07956bd-0d64-4e7d-9ab8-e863d36efddb")
-		(at 98.24 134.9525 90)
+		(at 102.3 130.4675 90)
 		(property "Reference" "Q2"
 			(at -0.005 -2.5625 90)
 			(unlocked yes)
@@ -23066,7 +23066,7 @@
 	(footprint "Connector_Custom:BatteryModule"
 		(layer "B.Cu")
 		(uuid "70cbdf5d-57cb-4e1b-8295-75110195d5c3")
-		(at 224.85 112.11 -90)
+		(at 224.04 112.69 -90)
 		(property "Reference" "BT1"
 			(at 0.0225 14.7625 90)
 			(unlocked yes)
@@ -23454,7 +23454,7 @@
 			)
 			(polygon
 				(pts
-					(xy 216.635 80.995) (xy 220.365 80.995) (xy 220.365 84.725) (xy 216.635 84.725)
+					(xy 215.825 81.575) (xy 219.555 81.575) (xy 219.555 85.305) (xy 215.825 85.305)
 				)
 			)
 		)
@@ -23486,7 +23486,7 @@
 			)
 			(polygon
 				(pts
-					(xy 216.635 100.495) (xy 220.365 100.495) (xy 220.365 104.225) (xy 216.635 104.225)
+					(xy 215.825 101.075) (xy 219.555 101.075) (xy 219.555 104.805) (xy 215.825 104.805)
 				)
 			)
 		)
@@ -23518,7 +23518,7 @@
 			)
 			(polygon
 				(pts
-					(xy 216.635 119.995) (xy 220.365 119.995) (xy 220.365 123.725) (xy 216.635 123.725)
+					(xy 215.825 120.575) (xy 219.555 120.575) (xy 219.555 124.305) (xy 215.825 124.305)
 				)
 			)
 		)
@@ -23550,7 +23550,7 @@
 			)
 			(polygon
 				(pts
-					(xy 216.635 139.495) (xy 220.365 139.495) (xy 220.365 143.225) (xy 216.635 143.225)
+					(xy 215.825 140.075) (xy 219.555 140.075) (xy 219.555 143.805) (xy 215.825 143.805)
 				)
 			)
 		)
@@ -23582,7 +23582,7 @@
 			)
 			(polygon
 				(pts
-					(xy 229.335 80.995) (xy 233.065 80.995) (xy 233.065 84.725) (xy 229.335 84.725)
+					(xy 228.525 81.575) (xy 232.255 81.575) (xy 232.255 85.305) (xy 228.525 85.305)
 				)
 			)
 		)
@@ -23614,7 +23614,7 @@
 			)
 			(polygon
 				(pts
-					(xy 229.335 100.495) (xy 233.065 100.495) (xy 233.065 104.225) (xy 229.335 104.225)
+					(xy 228.525 101.075) (xy 232.255 101.075) (xy 232.255 104.805) (xy 228.525 104.805)
 				)
 			)
 		)
@@ -23646,7 +23646,7 @@
 			)
 			(polygon
 				(pts
-					(xy 229.335 119.995) (xy 233.065 119.995) (xy 233.065 123.725) (xy 229.335 123.725)
+					(xy 228.525 120.575) (xy 232.255 120.575) (xy 232.255 124.305) (xy 228.525 124.305)
 				)
 			)
 		)
@@ -23678,7 +23678,7 @@
 			)
 			(polygon
 				(pts
-					(xy 229.335 139.495) (xy 233.065 139.495) (xy 233.065 143.225) (xy 229.335 143.225)
+					(xy 228.525 140.075) (xy 232.255 140.075) (xy 232.255 143.805) (xy 228.525 143.805)
 				)
 			)
 		)
@@ -24834,6 +24834,91 @@
 		(layer "Dwgs.User")
 		(uuid "d56677da-2c61-477b-be72-18a2bbb9769f")
 	)
+	(gr_text "2.5 V"
+		(at 80.29 90.41 90)
+		(layer "User.2")
+		(uuid "0a2b421c-8c1e-4e30-bd66-e8973edb425f")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Note: Option to rotate either battery module\n180°, reversing the polarity of the exposed\nbattery terminals at each pin socket."
+		(at 209.92 55.17 0)
+		(layer "User.2")
+		(uuid "1489490e-6fff-466f-b750-dc102a51c32f")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "27 V"
+		(at 146.69 138.21 0)
+		(layer "User.2")
+		(uuid "231c843b-d2b3-4f84-baa6-d725d5dd6734")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "3.3 V"
+		(at 132.98 71.69 0)
+		(layer "User.2")
+		(uuid "28ddded5-defc-4c54-acb0-780880f584f7")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "15 V"
+		(at 124.22 126.16 0)
+		(layer "User.2")
+		(uuid "4766b3fe-6017-4678-903a-2df7f4c28060")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Keep -1.5 V on top of board, route the\ncolliding signal trace under it with vias.\nThis is a much more workable option."
+		(at 47.37 95.97 0)
+		(layer "User.2")
+		(uuid "4fb9b849-f66a-471b-9531-10d2bf588d80")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "-1.5 V"
+		(at 78.51 91.38 90)
+		(layer "User.2")
+		(uuid "57ca33d7-1bbf-4c4c-9336-33e07d1cd9f6")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "Objective: minimize board size"
 		(at 178.75 168.22 0)
 		(layer "User.2")
@@ -24845,6 +24930,114 @@
 				(bold yes)
 			)
 			(justify left top)
+		)
+	)
+	(gr_text "5 V"
+		(at 90.2 56.89 0)
+		(layer "User.2")
+		(uuid "809d11c9-117d-42b0-ad53-c8bbb5e36e78")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "-15 V"
+		(at 116.12 57.51 0)
+		(layer "User.2")
+		(uuid "9eb11372-1e46-4e5d-b6ef-d5d5d8d1d9b7")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "5 V"
+		(at 130.99 54.15 0)
+		(layer "User.2")
+		(uuid "a76b9600-e4fc-48f0-bb1e-aa7488c541a6")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "18 V"
+		(at 147.04 52.42 0)
+		(layer "User.2")
+		(uuid "b3d8c3d3-e895-4cfb-8066-beb0069ef948")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "15 V"
+		(at 105.62 127.815 0)
+		(layer "User.2")
+		(uuid "bb5ee1f3-f70b-40b7-9edb-5fda39435ab7")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "-5 V"
+		(at 102.73 57.74 0)
+		(layer "User.2")
+		(uuid "e453f86e-d69f-4f59-abcf-cf51384b10c7")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Bring -15 V all the way around from top\nof board with long trace on left edge.\n\nTopology-wise, from left to right:\nConductor connecting two battery terminals\n-15 V trace (transporting power to bottom)\n15 V trace (transporting power to top)\n\nEither ordering of -15 V vs. 15 V has an\nunsavory crossover. Choose the best one\nafter more relevant information is known."
+		(at 44.95 123.07 0)
+		(layer "User.2")
+		(uuid "e53c8dc1-e14b-40fe-8bfe-ef2b4595f63c")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "-15 V"
+		(at 80.81 127.435 0)
+		(layer "User.2")
+		(uuid "f44c6b0b-fd4a-4243-9d96-87bb24efa50a")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "-27 V"
+		(at 102.48 52.28 0)
+		(layer "User.2")
+		(uuid "f653612d-30b5-4d3d-b9e4-deaa3f3193a9")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify left bottom)
 		)
 	)
 	(segment
