@@ -735,17 +735,6 @@
 		)
 		(uuid "951b34b7-b0cc-4151-8b01-6a2305440b72")
 	)
-	(text "TODO: Reorder SPI pins based on which\narrangement best suits the physical\nlayout of the receiving chip's pins"
-		(exclude_from_sim no)
-		(at 163.576 153.416 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a665662a-1e4c-43b6-8ee6-44dd23872d1f")
-	)
 	(text "Digital"
 		(exclude_from_sim no)
 		(at 51.054 20.066 0)
@@ -1284,7 +1273,7 @@
 	)
 	(hierarchical_label "SCK_Digital"
 		(shape input)
-		(at 121.92 53.34 180)
+		(at 121.92 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1317,7 +1306,7 @@
 	)
 	(hierarchical_label "CS_ADC_Analog"
 		(shape output)
-		(at 182.88 111.76 0)
+		(at 182.88 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1339,7 +1328,7 @@
 	)
 	(hierarchical_label "MOSI_ADC_Analog"
 		(shape output)
-		(at 182.88 116.84 0)
+		(at 182.88 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1350,7 +1339,7 @@
 	)
 	(hierarchical_label "MOSI_DAC_Analog"
 		(shape output)
-		(at 182.88 55.88 0)
+		(at 182.88 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1383,7 +1372,7 @@
 	)
 	(hierarchical_label "CS_ADC_Digital"
 		(shape input)
-		(at 121.92 111.76 180)
+		(at 121.92 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1394,7 +1383,7 @@
 	)
 	(hierarchical_label "MOSI_Digital"
 		(shape input)
-		(at 121.92 116.84 180)
+		(at 121.92 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1416,7 +1405,7 @@
 	)
 	(hierarchical_label "SCK_Digital"
 		(shape input)
-		(at 121.92 114.3 180)
+		(at 121.92 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1438,7 +1427,7 @@
 	)
 	(hierarchical_label "SCK_ADC_Analog"
 		(shape output)
-		(at 182.88 114.3 0)
+		(at 182.88 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1493,7 +1482,7 @@
 	)
 	(hierarchical_label "SCK_DAC_Analog"
 		(shape output)
-		(at 182.88 53.34 0)
+		(at 182.88 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1537,7 +1526,7 @@
 	)
 	(hierarchical_label "MOSI_Digital"
 		(shape input)
-		(at 121.92 55.88 180)
+		(at 121.92 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
