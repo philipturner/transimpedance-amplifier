@@ -1241,16 +1241,6 @@
 		)
 		(uuid "bf44058a-7dd8-42ce-bc4a-32dca7ae4050")
 	)
-	(text "NO"
-		(exclude_from_sim no)
-		(at 93.98 124.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f632daef-6b4a-43f6-a28a-cd466986cfe6")
-	)
 	(text "TODO: (1 kΩ trimpot)\nFlip the polarity of pins 1 and 3\nbased on which is more convenient for the\nphysical layout on the PCB"
 		(exclude_from_sim no)
 		(at 185.928 21.844 0)
