@@ -1482,6 +1482,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "IC:PDIP-8"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "14c6bff0-5220-4202-9b62-ec1c88d0b9ec")
 		(at 85.25 111.48 -90)
@@ -2618,6 +2619,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "Connector_Custom:PinHeader_1x2"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "2363cafa-ceb6-42d1-94b6-cc114827f009")
 		(at 78.61 114.52 180)
@@ -11558,6 +11560,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "TwoTerminal:CAPC0603"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "8d2e7a07-e591-4013-ac5a-7982f89b63cd")
 		(at 92.95 114.53 90)
@@ -12578,6 +12581,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "TwoTerminal:RESC0603"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "908f1f02-7dd2-431f-ad1e-3528bdaa0172")
 		(at 91.21 112.74 -90)
@@ -14278,6 +14282,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "TwoTerminal:CAPC0603"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "a0cca39d-69e5-4fc5-9286-76f969fa4f90")
 		(at 86.1075 118.37 180)
@@ -22482,7 +22487,7 @@
 			(at 0.0225 14.7625 90)
 			(unlocked yes)
 			(layer "B.SilkS")
-			(uuid "ef05b46b-5e41-4e9a-ab14-5b4fe30d2367")
+			(uuid "0bc62d0c-e59d-466d-9722-25879e3ce5e8")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -22495,7 +22500,7 @@
 			(at 0.0225 13.5625 90)
 			(unlocked yes)
 			(layer "B.Fab")
-			(uuid "7ccfefb4-be19-4e36-a612-b9297784aa85")
+			(uuid "61ed3a7e-d10e-4975-b123-f7f84a0e4739")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -22509,7 +22514,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "68cfae88-9fee-484f-b936-a0fdbcaefa0d")
+			(uuid "8fc7e87a-00df-4e0c-83f2-d2fd600f66ca")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -22523,7 +22528,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "aeaa0428-9a48-424d-8a73-80c1acb73957")
+			(uuid "7466ce13-e7ce-44f4-a12c-d75c24cd7339")
 			(effects
 				(font
 					(size 0.8 0.8)

@@ -643,17 +643,6 @@
 		)
 		(uuid "54e9c996-4e45-4dff-9e2d-0a5bfef59887")
 	)
-	(text "TODO: (all trimpots)\nFlip the connection point of pin 2\nbased on which is more convenient for the\nphysical layout on the PCB"
-		(exclude_from_sim no)
-		(at 159.258 21.336 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "c1d59015-a90a-4f70-9a8a-b0ef0ca16398")
-	)
 	(text "Noninverting Gain Stage\n\nPhase Shift: 0°\n\nGain:\n16.0 (-10 V < output < 10 V)\n2.0 (outside ±10 V range)"
 		(exclude_from_sim no)
 		(at 127.508 116.078 0)
