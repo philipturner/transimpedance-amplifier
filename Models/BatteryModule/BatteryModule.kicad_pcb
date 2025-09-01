@@ -1910,7 +1910,7 @@
 		(locked yes)
 		(layer "B.Cu")
 		(uuid "b4c64f75-5f24-492e-94e0-2a13b934dec5")
-		(at 110.46 89.7 180)
+		(at 110.46 90.97 180)
 		(property "Reference" "J1"
 			(at 0.07 3.78 0)
 			(unlocked yes)
@@ -2096,7 +2096,7 @@
 		(uuid "105bccab-aa55-4ef8-8588-29701d3a28e5")
 	)
 	(gr_text "BT1"
-		(at 110.46 92.97 0)
+		(at 110.46 94.24 0)
 		(layer "F.SilkS")
 		(uuid "0211f665-b610-4eb2-93fb-7d4c01ec19d0")
 		(effects
@@ -2162,7 +2162,7 @@
 		)
 	)
 	(gr_text "-"
-		(at 112.46 90.97 0)
+		(at 112.46 92.24 0)
 		(layer "F.SilkS")
 		(uuid "957bf5b0-0728-4cf8-a06b-2fc70c10fc58")
 		(effects
@@ -2217,7 +2217,7 @@
 		)
 	)
 	(gr_text "+"
-		(at 112.46 88.43 0)
+		(at 112.46 89.7 0)
 		(layer "F.SilkS")
 		(uuid "fa42f91c-2b89-4e60-a3a6-aad9cb7e08d8")
 		(effects
@@ -2228,28 +2228,20 @@
 		)
 	)
 	(segment
-		(start 117.1 88.43)
+		(start 110.46 89.7)
+		(end 118.37 89.7)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 1)
+		(uuid "4a2a023b-fa33-4d46-b4a3-9ed7e6b35c24")
+	)
+	(segment
+		(start 118.37 89.7)
 		(end 122.48 93.81)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 1)
-		(uuid "98d793fc-0bed-4843-b7ad-c989de8ae373")
-	)
-	(segment
-		(start 110.46 88.43)
-		(end 117.1 88.43)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 1)
-		(uuid "be19d0fd-1307-43a6-aef2-83e00bbe9c51")
-	)
-	(segment
-		(start 110.46 94.49)
-		(end 110.46 90.97)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 2)
-		(uuid "19b2d8b8-3e49-4c4f-b7fb-46719f998d7b")
+		(uuid "8d5026e9-6cc1-4965-bb3c-a58d44c91a43")
 	)
 	(segment
 		(start 122.48 106.51)
@@ -2257,7 +2249,15 @@
 		(width 0.2)
 		(layer "B.Cu")
 		(net 2)
-		(uuid "de7d93e4-811a-4f33-b243-8893ae5475a0")
+		(uuid "51adece0-756d-4778-b722-b217de75d7e7")
+	)
+	(segment
+		(start 110.46 94.49)
+		(end 110.46 92.24)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 2)
+		(uuid "63c00b38-2b3f-4118-b554-30b168f391e4")
 	)
 	(segment
 		(start 126.44 109.35)
