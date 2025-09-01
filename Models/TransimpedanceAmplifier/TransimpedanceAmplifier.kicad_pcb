@@ -3928,7 +3928,7 @@
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "32ea18d3-a083-4482-84f0-273e9eab7418")
-		(at 164.5 103.57 180)
+		(at 164.5 103.32 180)
 		(property "Reference" "J11"
 			(at -0.02 31.66 0)
 			(unlocked yes)
@@ -18876,7 +18876,7 @@
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "d9c28f4f-2f18-4690-86bd-5aba8b52b049")
-		(at 149.26 103.57)
+		(at 149.26 103.32)
 		(property "Reference" "J14"
 			(at 0.005 -31.6275 0)
 			(unlocked yes)
@@ -24903,6 +24903,18 @@
 		)
 		(embedded_fonts no)
 	)
+	(gr_rect
+		(start 73.95 48.2)
+		(end 166.44 134.72)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(locked yes)
+		(layer "Edge.Cuts")
+		(uuid "03701770-e82b-4378-94bb-3df9714b2c31")
+	)
 	(gr_text "2.5 V"
 		(at 78.69 73.52 0)
 		(layer "F.SilkS")
@@ -24983,7 +24995,7 @@
 	)
 	(gr_text "Teensy 4.1"
 		(locked yes)
-		(at 156.88 103.57 90)
+		(at 156.88 103.32 90)
 		(layer "F.SilkS")
 		(uuid "959800ed-b261-412e-8fa1-9476ddb4cded")
 		(effects
