@@ -265,6 +265,7 @@
 			(at 0.0025 -3.5625 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "193fcf08-6cc0-4fc3-8505-93a78d732013")
 			(effects
 				(font
@@ -2624,6 +2625,7 @@
 			(at 0.73 3.63 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "5f181d89-8f86-4e1a-babc-c02fb6e78ed4")
 			(effects
 				(font
@@ -3179,6 +3181,7 @@
 			(at 0.0025 -3.725 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "4f7d3747-cfc0-43e1-adba-6b2091e3a964")
 			(effects
 				(font
@@ -3909,9 +3912,9 @@
 	(footprint "Connector_Custom:PinSocket_1x24"
 		(layer "F.Cu")
 		(uuid "32ea18d3-a083-4482-84f0-273e9eab7418")
-		(at 183.82 106.56 180)
+		(at 183.27 103.2 180)
 		(property "Reference" "J11"
-			(at 0.005 -31.6275 180)
+			(at -0.02 31.66 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "679985bb-0877-46d7-abed-2532ab9fa2f2")
@@ -5794,6 +5797,7 @@
 			(at 0.0025 -3.5625 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "6baec0b2-f3d4-42c3-83f8-b1e70e0b843d")
 			(effects
 				(font
@@ -8125,6 +8129,7 @@
 			(at 0.0075 -4.88 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "b6ccf379-0cf2-4e81-9c31-d4df1ebd935a")
 			(effects
 				(font
@@ -8529,6 +8534,7 @@
 			(at 0 3.66 270)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "1e9886b8-ac7b-42b6-9519-758888eefc8a")
 			(effects
 				(font
@@ -9985,6 +9991,7 @@
 			(at 0.0025 -3.5625 270)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "048522b3-72f2-4d48-99d3-5e0f3b7f70b0")
 			(effects
 				(font
@@ -10166,6 +10173,7 @@
 			(at 2.13 -0.02 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "ee86b0d0-6319-4419-a7da-410913d95159")
 			(effects
 				(font
@@ -12764,6 +12772,7 @@
 			(at 0.0025 -3.5625 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "554595ae-8d9e-45eb-9b09-5cf93ea823d9")
 			(effects
 				(font
@@ -15499,6 +15508,7 @@
 			(at 0.0025 -3.5625 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "8005ed94-6819-4b7d-9453-28341eca0bb6")
 			(effects
 				(font
@@ -17248,7 +17258,7 @@
 		(uuid "b9b9ff50-a3e6-4b62-9821-74efa4b27406")
 		(at 96.71 115.07)
 		(property "Reference" "R6"
-			(at 3.65 0 0)
+			(at 3.75 -0.09 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "de3a138b-6bf2-4a12-a114-5f55db5fa1c0")
@@ -18794,7 +18804,7 @@
 	(footprint "Connector_Custom:PinSocket_1x24"
 		(layer "F.Cu")
 		(uuid "d9c28f4f-2f18-4690-86bd-5aba8b52b049")
-		(at 168.58 106.56)
+		(at 168.03 103.2)
 		(property "Reference" "J14"
 			(at 0.005 -31.6275 0)
 			(unlocked yes)
@@ -21825,7 +21835,7 @@
 		(uuid "f145b0bb-c1c0-4dc1-9835-a0cd769b92c4")
 		(at 96.27 104.56)
 		(property "Reference" "R7"
-			(at 3.99 0.29 0)
+			(at 3.7 3.86 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "607006c8-f220-4c09-a0c2-c7a79be6b3b9")
@@ -24824,8 +24834,8 @@
 		(embedded_fonts no)
 	)
 	(gr_rect
-		(start 73.355 50.48)
-		(end 150.935 139.68)
+		(start 73.3 47.26)
+		(end 150.88 136.46)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -24847,7 +24857,7 @@
 		)
 	)
 	(gr_text "27 V"
-		(at 146.69 138.21 0)
+		(at 146.68 135.07 0)
 		(layer "User.2")
 		(uuid "231c843b-d2b3-4f84-baa6-d725d5dd6734")
 		(effects
@@ -24944,7 +24954,7 @@
 		)
 	)
 	(gr_text "18 V"
-		(at 147.04 52.42 0)
+		(at 147.06 49.18 0)
 		(layer "User.2")
 		(uuid "b3d8c3d3-e895-4cfb-8066-beb0069ef948")
 		(effects
@@ -24980,7 +24990,7 @@
 		)
 	)
 	(gr_text "Bring -15 V all the way around from top\nof board with long trace on left edge.\n\nTopology-wise, from left to right:\nConductor connecting two battery terminals\n-15 V trace (transporting power to bottom)\n15 V trace (transporting power to top)\n\nEither ordering of -15 V vs. 15 V has an\nunsavory crossover. Choose the best one\nafter more relevant information is known."
-		(at 44.95 123.07 0)
+		(at 60.96 162.35 0)
 		(layer "User.2")
 		(uuid "e53c8dc1-e14b-40fe-8bfe-ef2b4595f63c")
 		(effects
