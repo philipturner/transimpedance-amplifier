@@ -1871,6 +1871,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "TwoTerminal:RESC0805"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "150201fb-d260-4e52-9965-93908195ba8c")
 		(at 89.32 92.0775)
@@ -2802,6 +2803,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "TwoTerminal:CAPC0603"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "2860d801-2d79-4b45-8a2c-474a4f597c79")
 		(at 100.03 90.82 -90)
@@ -3176,6 +3178,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "Connector_Custom:PinSocket_1x2"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "2e5408a6-0f0c-4e6b-a220-82e43c45bfdb")
 		(at 97.5 85.66 180)
@@ -3698,6 +3701,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "ThreeTerminal:Bourns_3296Y"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "32cde074-cda4-4a01-ab75-a156ef94807a")
 		(at 96.26 94.16)
@@ -5019,6 +5023,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "TwoTerminal:RESC0603"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "3edd7ad5-af66-4ca2-96b9-ec64815b59cf")
 		(at 100.08 94.49 -90)
@@ -7750,6 +7755,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "TwoTerminal:CAPC0805"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "66a41654-0270-4cee-89e3-33b0f552f050")
 		(at 86.24 102.5875 180)
@@ -7937,6 +7943,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "TwoTerminal:CAPC0603"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "67599605-9f01-461c-ab64-fb00d5743f18")
 		(at 86.02 100.6875 180)
@@ -8124,6 +8131,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "Connector_Custom:PinHeader_1x3"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "6a3051bb-29e0-4488-a094-12b561c199ce")
 		(at 103.26 111.06)
@@ -8711,6 +8719,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "TwoTerminal:CAPC0805"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "6d33834b-11b4-418e-bb30-3220c4816967")
 		(at 80.37 96.7175 -90)
@@ -10168,6 +10177,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "Connector_Custom:PinSocket_1x2"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "7fd29271-9ee2-45a6-92c2-aa133ce0f72d")
 		(at 108.93 85.66 90)
@@ -10350,6 +10360,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "IC:SOIC-8"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "81420f6c-d2b0-4b32-8460-8d9911aaa045")
 		(at 103.6475 100.95 -90)
@@ -11186,6 +11197,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "TwoTerminal:CAPC0603"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "8609a0f9-0ebe-4bff-b687-1ab30428ab6a")
 		(at 82.27 96.7275 -90)
@@ -14967,6 +14979,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "TwoTerminal:RESC0603"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "a425057a-9e4e-4cc2-8f2d-2a2c9a814175")
 		(at 87.3725 104.56 180)
@@ -17259,6 +17272,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "ThreeTerminal:Bourns_3296Y"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "b9b9ff50-a3e6-4b62-9821-74efa4b27406")
 		(at 96.71 115.07)
@@ -17473,6 +17487,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "TwoTerminal:CAPC0603"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "bbd84196-adf9-4f5e-a588-2452b482b584")
 		(at 81.8575 104.65)
@@ -17847,6 +17862,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "TwoTerminal:CAPC0603"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "c3dcaa63-23c3-4095-a6d9-a16bd40d90d4")
 		(at 100.002501 99.8525 -90)
@@ -19537,6 +19553,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "TwoTerminal:CAPC0603"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "df3626aa-760a-4444-ab09-b80aaa07fa3b")
 		(at 105.3625 105.765)
@@ -20251,6 +20268,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "TwoTerminal:RESC0805"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "e25abf12-f141-4921-a18f-cda77cf29b9e")
 		(at 107.4225 93.925)
@@ -21306,6 +21324,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "IC:AD8615"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "ef0b38f9-02b4-4353-9559-94ba91007e4f")
 		(at 84.92 97.48 90)
@@ -21313,7 +21332,7 @@
 			(at 0.0225 2.7475 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "c4ac30e0-4474-4b04-9bb1-2e0dfa057060")
+			(uuid "2ae056eb-fea0-461b-a21d-2144393a7bdc")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -21325,7 +21344,7 @@
 			(at -0.0075 -1.3725 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "b5156522-6cf0-4536-bac6-1eda9c6efed0")
+			(uuid "8b187247-6c71-4930-ae71-2da61794af72")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -21338,7 +21357,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "673aa75b-2099-4fb2-a118-0ce994c7034e")
+			(uuid "97160050-f381-47a9-b1c1-b3d88989423c")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -21351,7 +21370,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "07d1969e-b9ad-486b-aedc-138b4aa458d3")
+			(uuid "c80a98a3-a36d-4761-91eb-637ee919fb2e")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -21836,6 +21855,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "ThreeTerminal:Bourns_3296Y"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "f145b0bb-c1c0-4dc1-9835-a0cd769b92c4")
 		(at 96.27 104.56)
@@ -22487,7 +22507,7 @@
 			(at 0.0225 14.7625 90)
 			(unlocked yes)
 			(layer "B.SilkS")
-			(uuid "0bc62d0c-e59d-466d-9722-25879e3ce5e8")
+			(uuid "6206b803-569c-4012-8cd9-e6c7cb2036b6")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -22500,7 +22520,7 @@
 			(at 0.0225 13.5625 90)
 			(unlocked yes)
 			(layer "B.Fab")
-			(uuid "61ed3a7e-d10e-4975-b123-f7f84a0e4739")
+			(uuid "a95cffba-45d1-43e3-bf1c-b8ea6df86f60")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -22514,7 +22534,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "8fc7e87a-00df-4e0c-83f2-d2fd600f66ca")
+			(uuid "897e232b-c9f2-42fe-b289-4d1a56cc2783")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -22528,7 +22548,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "7466ce13-e7ce-44f4-a12c-d75c24cd7339")
+			(uuid "58de54c6-23ff-46a8-a2b5-2467fa2dc58d")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -27482,6 +27502,14 @@
 		(uuid "ee079db3-5808-476a-9e52-435cea2432d7")
 	)
 	(segment
+		(start 107.66 85.66)
+		(end 110.2 85.66)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 47)
+		(uuid "21ef56ea-c325-4b01-a14c-f45b236b6f9e")
+	)
+	(segment
 		(start 85.87 92.0775)
 		(end 85.87 88.82)
 		(width 0.2)
@@ -28225,6 +28253,7 @@
 	(zone
 		(net 0)
 		(net_name "")
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "d53bc14f-32fc-492c-8f5e-80eba449bb8d")
 		(hatch edge 0.5)
@@ -28257,6 +28286,7 @@
 	(zone
 		(net 0)
 		(net_name "")
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "ef651897-40f8-4b1d-aaf1-bb23a21c9fed")
 		(hatch edge 0.5)
