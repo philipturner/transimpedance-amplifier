@@ -1084,6 +1084,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "ThreeTerminal:TO-220"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "0d62ed7c-bb85-4ab7-8c2b-c0b5e9f5eebf")
 		(at 122.42 126.97 180)
@@ -1488,7 +1489,7 @@
 		(uuid "14c6bff0-5220-4202-9b62-ec1c88d0b9ec")
 		(at 85.25 111.48 -90)
 		(property "Reference" "U5"
-			(at -3.23 6.01 0)
+			(at -3.74 -6.1 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "74052d08-53ca-4895-92e5-94bc64432ce2")
@@ -2435,6 +2436,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "TwoTerminal:CAPC0603"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "213293d4-e70e-4c5c-8623-36b0cf1c5bb6")
 		(at 124.46 123.86 180)
@@ -2625,7 +2627,7 @@
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "2363cafa-ceb6-42d1-94b6-cc114827f009")
-		(at 78.61 114.52 180)
+		(at 78.14 114.02 180)
 		(property "Reference" "J9"
 			(at 0.73 3.63 0)
 			(unlocked yes)
@@ -9293,6 +9295,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "TwoTerminal:CAPC0603"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "741f84a0-638d-43a2-8c32-aa2710c256c3")
 		(at 120.24 123.86)
@@ -11775,6 +11778,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "TwoTerminal:SOD-123"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "8e39e977-df71-43a6-a499-7bee5a9cdce4")
 		(at 120.24 121.85)
@@ -12798,9 +12802,10 @@
 		(embedded_fonts no)
 	)
 	(footprint "Connector_Custom:PinHeader_1x2"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "9328f64e-55b4-471f-b48d-0ba315c717d4")
-		(at 23.39 175.99)
+		(at 78.14 106.4)
 		(property "Reference" "J10"
 			(at 0.0025 -3.5625 0)
 			(unlocked yes)
@@ -17513,12 +17518,11 @@
 		(embedded_fonts no)
 	)
 	(footprint "TwoTerminal:CAPC0603"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "bbd84196-adf9-4f5e-a588-2452b482b584")
 		(at 81.8575 104.65)
 		(property "Reference" "C16"
-			(at -3.1775 0.04 0)
+			(at -0.6175 -1.51 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "7a892fd1-be52-44d3-bce8-2d33ef31b5a3")
@@ -25015,18 +25019,6 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Bring -15 V all the way around from top\nof board with long trace on left edge.\n\nTopology-wise, from left to right:\nConductor connecting two battery terminals\n-15 V trace (transporting power to bottom)\n15 V trace (transporting power to top)\n\nEither ordering of -15 V vs. 15 V has an\nunsavory crossover. Choose the best one\nafter more relevant information is known."
-		(at 43.77 120.98 0)
-		(layer "User.2")
-		(uuid "e53c8dc1-e14b-40fe-8bfe-ef2b4595f63c")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.12)
-			)
-			(justify left top)
-		)
-	)
 	(gr_text "-27 V"
 		(at 96.87 53.73 0)
 		(layer "User.2")
@@ -26603,6 +26595,14 @@
 		(uuid "e772d36f-1961-4ad9-b247-6cf2689a692c")
 	)
 	(segment
+		(start 81.694139 129.051)
+		(end 75.94 123.296861)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 13)
+		(uuid "330cddee-0f1f-4831-9699-8e073bdcc8bc")
+	)
+	(segment
 		(start 145.965 31.84375)
 		(end 145.965 33.2775)
 		(width 0.2)
@@ -26625,6 +26625,14 @@
 		(layer "F.Cu")
 		(net 13)
 		(uuid "bbf90a91-26cc-4ea0-a2ce-d1cd8de494b9")
+	)
+	(segment
+		(start 75.94 107.67)
+		(end 78.14 107.67)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 13)
+		(uuid "bc56c283-29df-4063-a145-39b5b1265c5e")
 	)
 	(segment
 		(start 145.965 30.02125)
@@ -26665,6 +26673,14 @@
 		(layer "F.Cu")
 		(net 13)
 		(uuid "ebc5fc6c-39f9-4a8d-8df8-8ea15c7aa594")
+	)
+	(segment
+		(start 75.94 123.296861)
+		(end 75.94 107.67)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 13)
+		(uuid "f200f6c0-61e2-48b3-a17b-57cae9cf6929")
 	)
 	(segment
 		(start 104.5025 105.765)
@@ -27209,6 +27225,22 @@
 		(layer "F.Cu")
 		(net 22)
 		(uuid "fb03b949-ef7b-49d4-8d33-3e21b4f56722")
+	)
+	(segment
+		(start 78.14 105.13)
+		(end 80.5175 105.13)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 23)
+		(uuid "56a23b1e-cdac-460c-be4d-d33c1cf95881")
+	)
+	(segment
+		(start 80.5175 105.13)
+		(end 80.9975 104.65)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 23)
+		(uuid "b2f5cab0-95bc-4a8a-be31-50bae68f594e")
 	)
 	(segment
 		(start 81.44 105.0925)
@@ -28539,14 +28571,6 @@
 		(uuid "431b53fe-f709-45f5-a3ac-f33db6dfd075")
 	)
 	(segment
-		(start 80.46 115.79)
-		(end 84.51 119.84)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 54)
-		(uuid "0e6a574e-96a3-407e-b183-1864b4b30480")
-	)
-	(segment
 		(start 84.51 119.84)
 		(end 86.46 119.84)
 		(width 0.2)
@@ -28595,12 +28619,12 @@
 		(uuid "8b0d604b-8c36-441e-b2e8-3617642d7e83")
 	)
 	(segment
-		(start 78.61 115.79)
-		(end 80.46 115.79)
+		(start 78.14 115.29)
+		(end 79.96 115.29)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 54)
-		(uuid "8dd761ff-f97b-45c8-8ec3-274f1dd26408")
+		(uuid "a4aa5660-9708-4d40-b304-8c04b548076d")
 	)
 	(segment
 		(start 88.310592 124.419)
@@ -28611,12 +28635,28 @@
 		(uuid "aed210ad-c0e8-4a36-b457-36e34e1391d5")
 	)
 	(segment
+		(start 79.96 115.29)
+		(end 84.51 119.84)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 54)
+		(uuid "d81e9e2a-bb32-4614-aff8-1cef29377026")
+	)
+	(segment
 		(start 106.455666 127.97)
 		(end 105.4771 127.97)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 54)
 		(uuid "fd651bb0-8f8a-4240-b7d7-adfc446df6ff")
+	)
+	(segment
+		(start 81.44 112.75)
+		(end 86.52 107.67)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 55)
+		(uuid "20ccaf85-46ab-4929-982c-b6a2e3010ae6")
 	)
 	(segment
 		(start 86.52 107.67)
@@ -28627,14 +28667,6 @@
 		(uuid "316cc4ef-5f0a-4e7c-86f1-2fa6c5187199")
 	)
 	(segment
-		(start 80.94 113.25)
-		(end 78.61 113.25)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 55)
-		(uuid "88c4fb0b-e82e-463c-b09c-f0eac73476de")
-	)
-	(segment
 		(start 90.7375 111.8875)
 		(end 91.21 111.8875)
 		(width 0.2)
@@ -28643,12 +28675,12 @@
 		(uuid "a5e1b1be-f259-4db1-ae4c-3bd5a5647b9c")
 	)
 	(segment
-		(start 86.52 107.67)
-		(end 80.94 113.25)
+		(start 78.14 112.75)
+		(end 81.44 112.75)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 55)
-		(uuid "e6aa9dfc-fa60-4cd8-95c4-b1740e0ef951")
+		(uuid "adfea6de-4588-473b-a9c8-56ce6ed036db")
 	)
 	(segment
 		(start 86.52 104.56)
