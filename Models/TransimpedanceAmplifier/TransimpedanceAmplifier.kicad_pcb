@@ -14955,7 +14955,7 @@
 	(footprint "TwoTerminal:RESC0603"
 		(layer "F.Cu")
 		(uuid "a425057a-9e4e-4cc2-8f2d-2a2c9a814175")
-		(at 87.52 104.57 180)
+		(at 87.3725 104.56 180)
 		(property "Reference" "R12"
 			(at -2.99 0.01 0)
 			(unlocked yes)
@@ -22467,7 +22467,7 @@
 	(footprint "Connector_Custom:BatteryModule"
 		(layer "B.Cu")
 		(uuid "129155cf-9afc-466a-92ca-9e64425bc8d6")
-		(at 225.79 110.7 -90)
+		(at 229.69 110.26 -90)
 		(property "Reference" "BT2"
 			(at 0.0225 14.7625 90)
 			(unlocked yes)
@@ -22855,7 +22855,7 @@
 			)
 			(polygon
 				(pts
-					(xy 217.575 79.585) (xy 221.305 79.585) (xy 221.305 83.315) (xy 217.575 83.315)
+					(xy 221.475 79.145) (xy 225.205 79.145) (xy 225.205 82.875) (xy 221.475 82.875)
 				)
 			)
 		)
@@ -22887,7 +22887,7 @@
 			)
 			(polygon
 				(pts
-					(xy 217.575 99.085) (xy 221.305 99.085) (xy 221.305 102.815) (xy 217.575 102.815)
+					(xy 221.475 98.645) (xy 225.205 98.645) (xy 225.205 102.375) (xy 221.475 102.375)
 				)
 			)
 		)
@@ -22919,7 +22919,7 @@
 			)
 			(polygon
 				(pts
-					(xy 217.575 118.585) (xy 221.305 118.585) (xy 221.305 122.315) (xy 217.575 122.315)
+					(xy 221.475 118.145) (xy 225.205 118.145) (xy 225.205 121.875) (xy 221.475 121.875)
 				)
 			)
 		)
@@ -22951,7 +22951,7 @@
 			)
 			(polygon
 				(pts
-					(xy 217.575 138.085) (xy 221.305 138.085) (xy 221.305 141.815) (xy 217.575 141.815)
+					(xy 221.475 137.645) (xy 225.205 137.645) (xy 225.205 141.375) (xy 221.475 141.375)
 				)
 			)
 		)
@@ -22983,7 +22983,7 @@
 			)
 			(polygon
 				(pts
-					(xy 230.275 79.585) (xy 234.005 79.585) (xy 234.005 83.315) (xy 230.275 83.315)
+					(xy 234.175 79.145) (xy 237.905 79.145) (xy 237.905 82.875) (xy 234.175 82.875)
 				)
 			)
 		)
@@ -23015,7 +23015,7 @@
 			)
 			(polygon
 				(pts
-					(xy 230.275 99.085) (xy 234.005 99.085) (xy 234.005 102.815) (xy 230.275 102.815)
+					(xy 234.175 98.645) (xy 237.905 98.645) (xy 237.905 102.375) (xy 234.175 102.375)
 				)
 			)
 		)
@@ -23047,7 +23047,7 @@
 			)
 			(polygon
 				(pts
-					(xy 230.275 118.585) (xy 234.005 118.585) (xy 234.005 122.315) (xy 230.275 122.315)
+					(xy 234.175 118.145) (xy 237.905 118.145) (xy 237.905 121.875) (xy 234.175 121.875)
 				)
 			)
 		)
@@ -23079,7 +23079,7 @@
 			)
 			(polygon
 				(pts
-					(xy 230.275 138.085) (xy 234.005 138.085) (xy 234.005 141.815) (xy 230.275 141.815)
+					(xy 234.175 137.645) (xy 237.905 137.645) (xy 237.905 141.375) (xy 234.175 141.375)
 				)
 			)
 		)
@@ -24882,18 +24882,6 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Keep -1.5 V on top of board, route the\ncolliding signal trace under it with vias.\nThis is a much more workable option."
-		(at 47.37 95.97 0)
-		(layer "User.2")
-		(uuid "4fb9b849-f66a-471b-9531-10d2bf588d80")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.12)
-			)
-			(justify left top)
-		)
-	)
 	(gr_text "-1.5 V"
 		(at 29.57 52.39 90)
 		(layer "User.2")
@@ -25180,6 +25168,14 @@
 		(uuid "17f68938-9345-4e40-9a43-e4fdae487b3d")
 	)
 	(segment
+		(start 88.225 104.56)
+		(end 88.225 105.665)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "1a487cd2-3fef-4242-9c33-ce9a5b9ac30a")
+	)
+	(segment
 		(start 133.73 128.86)
 		(end 134.91 127.68)
 		(width 0.2)
@@ -25266,6 +25262,14 @@
 		(layer "F.Cu")
 		(net 5)
 		(uuid "3bac8d13-7e08-4989-bb26-fc1b61e5a3f4")
+	)
+	(segment
+		(start 88.225 105.665)
+		(end 88.23 105.67)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "3e843946-7ccb-4128-9fa9-e897d8964abf")
 	)
 	(segment
 		(start 132.2525 105.2175)
@@ -26038,6 +26042,14 @@
 		(uuid "b0c685d9-e94b-4d50-8603-973077f885e9")
 	)
 	(via
+		(at 88.23 105.67)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net 5)
+		(uuid "b77a0e9d-f4f3-4c85-a0e6-25e873a5162d")
+	)
+	(via
 		(at 102 69.56)
 		(size 0.6)
 		(drill 0.3)
@@ -26295,6 +26307,38 @@
 		(uuid "c5a8c266-9e3d-49c1-9053-62d1f8dc6861")
 	)
 	(segment
+		(start 91.21 113.5925)
+		(end 85.6775 113.5925)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 18)
+		(uuid "0dedade1-d39c-4ed4-875b-aab093e5b618")
+	)
+	(segment
+		(start 83.98 115.29)
+		(end 83.98 119.07)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 18)
+		(uuid "3a32b5e3-0312-4602-8ad5-369af88621ca")
+	)
+	(segment
+		(start 85.6775 113.5925)
+		(end 83.98 115.29)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 18)
+		(uuid "a88866a1-1a02-4e5f-8eb3-004482df20cb")
+	)
+	(segment
+		(start 83.98 119.07)
+		(end 83.97 119.08)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 18)
+		(uuid "d6d2383e-4bd0-4388-b553-d4b30be0596d")
+	)
+	(segment
 		(start 83.97 96.2275)
 		(end 82.63 96.2275)
 		(width 0.2)
@@ -26341,6 +26385,22 @@
 		(layer "F.Cu")
 		(net 21)
 		(uuid "79b263da-d70b-4ec0-a31f-23f3491f1fc4")
+	)
+	(segment
+		(start 85.2375 102.5875)
+		(end 78.8425 102.5875)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 21)
+		(uuid "a9db1fce-7689-4f17-b5eb-1bcd20a2118f")
+	)
+	(segment
+		(start 78.8425 102.5875)
+		(end 78.83 102.6)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 21)
+		(uuid "b551a15e-50d1-4fee-9bea-e5e051e5d2d1")
 	)
 	(segment
 		(start 85.16 100.6875)
@@ -27183,20 +27243,44 @@
 		(uuid "bc504405-2910-438a-a99d-bc3ca61af486")
 	)
 	(segment
-		(start 86.6675 107.5225)
+		(start 86.52 107.67)
+		(end 90.7375 111.8875)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 55)
+		(uuid "316cc4ef-5f0a-4e7c-86f1-2fa6c5187199")
+	)
+	(segment
+		(start 80.94 113.25)
+		(end 78.61 113.25)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 55)
+		(uuid "88c4fb0b-e82e-463c-b09c-f0eac73476de")
+	)
+	(segment
+		(start 90.7375 111.8875)
+		(end 91.21 111.8875)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 55)
+		(uuid "a5e1b1be-f259-4db1-ae4c-3bd5a5647b9c")
+	)
+	(segment
+		(start 86.52 107.67)
+		(end 80.94 113.25)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 55)
+		(uuid "e6aa9dfc-fa60-4cd8-95c4-b1740e0ef951")
+	)
+	(segment
+		(start 86.52 104.56)
 		(end 86.52 107.67)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 55)
-		(uuid "b4215c74-0365-4bcd-8225-1abbe6092ba1")
-	)
-	(segment
-		(start 86.6675 104.57)
-		(end 86.6675 107.5225)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 55)
-		(uuid "b626fd84-f3d7-48d1-9754-a792792c2c47")
+		(uuid "ec7cc2ae-9ab2-4a4e-999d-ef9e0335017c")
 	)
 	(via
 		(at 160.0125 95.89)
@@ -27485,6 +27569,62 @@
 		(layer "F.Cu")
 		(net 104)
 		(uuid "8893e3a8-dcc8-482e-9ff1-a6588a16001a")
+	)
+	(segment
+		(start 83.97 98.7325)
+		(end 83.97 101.92)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 108)
+		(uuid "7f24e513-10ab-453c-b806-7eec65d74b5f")
+	)
+	(segment
+		(start 83.98 103.28)
+		(end 83.98 107.67)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 108)
+		(uuid "894427bb-f0e3-4978-bcdb-b723939af556")
+	)
+	(segment
+		(start 84.09 107.56)
+		(end 83.98 107.67)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 108)
+		(uuid "8a185afc-154e-4803-8180-620f774144ec")
+	)
+	(segment
+		(start 83.97 103.27)
+		(end 83.98 103.28)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 108)
+		(uuid "e15026d0-32dc-440d-85b1-5cef2fe07d31")
+	)
+	(via
+		(at 83.97 103.27)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net 108)
+		(uuid "8c8c1f0c-ebc1-41d3-9663-f7a7f68fc4df")
+	)
+	(via
+		(at 83.97 101.92)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net 108)
+		(uuid "c0bb90e9-7b7a-4a49-99e9-450fc0129525")
+	)
+	(segment
+		(start 83.97 101.92)
+		(end 83.97 103.27)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 108)
+		(uuid "1421759f-09eb-49d7-90cd-ec9a2a6f1b00")
 	)
 	(via
 		(at 147.1525 95.89)
