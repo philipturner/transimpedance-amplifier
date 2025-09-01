@@ -22532,6 +22532,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "Connector_Custom:BatteryModule"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "129155cf-9afc-466a-92ca-9e64425bc8d6")
 		(at 87.87 91.51 -90)
@@ -22539,6 +22540,7 @@
 			(at 0.0225 14.7625 90)
 			(unlocked yes)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "c26f965e-45d9-4882-b2e1-8c16f29e67a4")
 			(effects
 				(font
@@ -23627,13 +23629,15 @@
 		(embedded_fonts no)
 	)
 	(footprint "Connector_Custom:BatteryModule"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "2cf5df37-1861-4fe0-b049-ec8f4756722d")
-		(at 120.2 91.22 90)
+		(at 118.93 91.51 90)
 		(property "Reference" "BT1"
 			(at 0.0225 14.7625 270)
 			(unlocked yes)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "5e2f1481-e3fc-4273-9c8d-8798c7cc3765")
 			(effects
 				(font
@@ -24017,7 +24021,7 @@
 			)
 			(polygon
 				(pts
-					(xy 115.715 63.835) (xy 111.985 63.835) (xy 111.985 60.105) (xy 115.715 60.105)
+					(xy 114.445 64.125) (xy 110.715 64.125) (xy 110.715 60.395) (xy 114.445 60.395)
 				)
 			)
 		)
@@ -24049,7 +24053,7 @@
 			)
 			(polygon
 				(pts
-					(xy 115.715 83.335) (xy 111.985 83.335) (xy 111.985 79.605) (xy 115.715 79.605)
+					(xy 114.445 83.625) (xy 110.715 83.625) (xy 110.715 79.895) (xy 114.445 79.895)
 				)
 			)
 		)
@@ -24081,7 +24085,7 @@
 			)
 			(polygon
 				(pts
-					(xy 115.715 102.835) (xy 111.985 102.835) (xy 111.985 99.105) (xy 115.715 99.105)
+					(xy 114.445 103.125) (xy 110.715 103.125) (xy 110.715 99.395) (xy 114.445 99.395)
 				)
 			)
 		)
@@ -24113,7 +24117,7 @@
 			)
 			(polygon
 				(pts
-					(xy 115.715 122.335) (xy 111.985 122.335) (xy 111.985 118.605) (xy 115.715 118.605)
+					(xy 114.445 122.625) (xy 110.715 122.625) (xy 110.715 118.895) (xy 114.445 118.895)
 				)
 			)
 		)
@@ -24145,7 +24149,7 @@
 			)
 			(polygon
 				(pts
-					(xy 128.415 63.835) (xy 124.685 63.835) (xy 124.685 60.105) (xy 128.415 60.105)
+					(xy 127.145 64.125) (xy 123.415 64.125) (xy 123.415 60.395) (xy 127.145 60.395)
 				)
 			)
 		)
@@ -24177,7 +24181,7 @@
 			)
 			(polygon
 				(pts
-					(xy 128.415 83.335) (xy 124.685 83.335) (xy 124.685 79.605) (xy 128.415 79.605)
+					(xy 127.145 83.625) (xy 123.415 83.625) (xy 123.415 79.895) (xy 127.145 79.895)
 				)
 			)
 		)
@@ -24209,7 +24213,7 @@
 			)
 			(polygon
 				(pts
-					(xy 128.415 102.835) (xy 124.685 102.835) (xy 124.685 99.105) (xy 128.415 99.105)
+					(xy 127.145 103.125) (xy 123.415 103.125) (xy 123.415 99.395) (xy 127.145 99.395)
 				)
 			)
 		)
@@ -24241,7 +24245,7 @@
 			)
 			(polygon
 				(pts
-					(xy 128.415 122.335) (xy 124.685 122.335) (xy 124.685 118.605) (xy 128.415 118.605)
+					(xy 127.145 122.625) (xy 123.415 122.625) (xy 123.415 118.895) (xy 127.145 118.895)
 				)
 			)
 		)
@@ -24894,19 +24898,8 @@
 		(embedded_fonts no)
 	)
 	(gr_rect
-		(start 141.36 73.57)
-		(end 166.16 136.57)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "Dwgs.User")
-		(uuid "99378e67-6901-44fa-a56e-c11d59fc3c22")
-	)
-	(gr_rect
-		(start 73.3 47.26)
-		(end 135.11 136.46)
+		(start 73.94 48.19)
+		(end 134.76 134.83)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -24916,8 +24909,8 @@
 		(uuid "d56677da-2c61-477b-be72-18a2bbb9769f")
 	)
 	(gr_rect
-		(start 135.11 47.26)
-		(end 166.24 67.21)
+		(start 134.75 48.19)
+		(end 166.24 66.22)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -24930,18 +24923,6 @@
 		(at 31.35 51.42 90)
 		(layer "User.2")
 		(uuid "0a2b421c-8c1e-4e30-bd66-e8973edb425f")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.12)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "27 V"
-		(at 129.42 130.02 0)
-		(layer "User.2")
-		(uuid "231c843b-d2b3-4f84-baa6-d725d5dd6734")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -25069,6 +25050,22 @@
 			)
 			(justify left bottom)
 		)
+	)
+	(segment
+		(start 109.74 132.78)
+		(end 126.85 132.78)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 1)
+		(uuid "2a1d8381-cfab-476d-951a-09f34f36a1f9")
+	)
+	(segment
+		(start 109.74 50.24)
+		(end 128.12 50.24)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 2)
+		(uuid "a2b466de-1593-40e5-a161-cf5bb8884ee2")
 	)
 	(segment
 		(start 140.91 53.11)
@@ -26282,6 +26279,30 @@
 		(uuid "ddec3b80-fba9-4c18-abaf-11757dd21f9d")
 	)
 	(segment
+		(start 106.099 133.881)
+		(end 98.161 133.881)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 6)
+		(uuid "43541e0c-d562-47b0-b7d3-106765dc3e70")
+	)
+	(segment
+		(start 107.2 132.78)
+		(end 106.099 133.881)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 6)
+		(uuid "e8c4255c-d1ae-4095-a345-928e0e60fc47")
+	)
+	(segment
+		(start 98.161 133.881)
+		(end 97.06 132.78)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 6)
+		(uuid "e8d2a419-a376-46da-b1fd-43c33cc691f5")
+	)
+	(segment
 		(start 144.9425 24.28125)
 		(end 144.655 23.99375)
 		(width 0.2)
@@ -26296,6 +26317,70 @@
 		(layer "F.Cu")
 		(net 7)
 		(uuid "4ed19afd-d677-470a-9bab-370dd96938ef")
+	)
+	(segment
+		(start 75.01 131.81)
+		(end 75.01 133.852)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 8)
+		(uuid "066603ba-6c37-4519-b36b-72e2464cb1e6")
+	)
+	(segment
+		(start 75.94 130.88)
+		(end 75.01 131.81)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 8)
+		(uuid "2c50887f-7099-4294-9346-5c460e225640")
+	)
+	(segment
+		(start 75.01 133.852)
+		(end 75.039 133.881)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 8)
+		(uuid "3896824a-bc3c-483e-a4da-2b3c23ab476b")
+	)
+	(segment
+		(start 75.039 133.881)
+		(end 77.579 133.881)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 8)
+		(uuid "46e461d0-d1fd-44b3-953d-ff27e9b9f39c")
+	)
+	(segment
+		(start 75.94 51.71)
+		(end 75.94 130.88)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 8)
+		(uuid "a6f3c54e-5e62-4ed6-9704-2de5e36d1031")
+	)
+	(segment
+		(start 77.579 133.881)
+		(end 78.68 132.78)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 8)
+		(uuid "f99d00d9-131d-40fe-b117-2fb588302034")
+	)
+	(segment
+		(start 77.41 50.24)
+		(end 75.94 51.71)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 8)
+		(uuid "fd943bee-bff5-4d65-9b80-604634d80522")
+	)
+	(segment
+		(start 79.95 50.24)
+		(end 97.06 50.24)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 9)
+		(uuid "8cf73fdf-63d9-4a07-a56c-bc5c502944fc")
 	)
 	(segment
 		(start 126.14 147.8475)
