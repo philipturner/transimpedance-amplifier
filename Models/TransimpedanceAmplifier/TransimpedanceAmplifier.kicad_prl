@@ -34,6 +34,7 @@
       "footprint_anchors",
       "ratsnest",
       "footprints_front",
+      "footprints_back",
       "footprint_values",
       "footprint_references",
       "tracks",
@@ -44,7 +45,6 @@
       "zones",
       "drc_warnings",
       "drc_exclusions",
-      "locked_item_shadows",
       "conflict_shadows",
       "shapes"
     ],
