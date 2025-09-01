@@ -3933,6 +3933,7 @@
 			(at -0.02 31.66 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "b293add9-9146-46fd-a4fc-b0fd8b7db5b2")
 			(effects
 				(font
@@ -18881,6 +18882,7 @@
 			(at 0.005 -31.6275 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "5b76dc75-a53d-431a-9bcc-1ef398312b0d")
 			(effects
 				(font
@@ -24902,6 +24904,26 @@
 			(uuid "99eab881-2974-45d5-b609-6e5a3cf088ab")
 		)
 		(embedded_fonts no)
+	)
+	(gr_line
+		(start 134.72 134.16)
+		(end 134.72 115.39)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "367d978a-f59e-48b4-83ef-223bb001e263")
+	)
+	(gr_line
+		(start 141.62 134.16)
+		(end 141.62 115.39)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "701eeff5-b373-42ca-8a85-f7618558d14e")
 	)
 	(gr_rect
 		(start 73.95 48.2)
