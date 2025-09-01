@@ -1882,6 +1882,7 @@
 			(at 0 -1.85 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "d771a750-ddb7-4212-adeb-80bedec99aa0")
 			(effects
 				(font
@@ -3924,14 +3925,15 @@
 		(embedded_fonts no)
 	)
 	(footprint "Connector_Custom:PinSocket_1x24"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "32ea18d3-a083-4482-84f0-273e9eab7418")
-		(at 164.5 103.87 180)
+		(at 164.5 103.57 180)
 		(property "Reference" "J11"
 			(at -0.02 31.66 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "679985bb-0877-46d7-abed-2532ab9fa2f2")
+			(uuid "b293add9-9146-46fd-a4fc-b0fd8b7db5b2")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -3943,7 +3945,7 @@
 			(at 0.005 -30.4275 180)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "37a53f30-4a91-4689-8b3e-4ef8e96e6fc9")
+			(uuid "4a1838c4-9ff2-410b-91f9-b0e6864639f7")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -3956,7 +3958,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9db282ac-6eaf-47d8-9f31-20b14b9b6f2a")
+			(uuid "10c11d50-47a3-47d7-9450-132382c755c3")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -3969,7 +3971,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6a6628f5-e213-464e-9bff-66a421b95e72")
+			(uuid "ee440dfb-1865-4ca2-a302-25f8b1d56445")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -18871,9 +18873,10 @@
 		(embedded_fonts no)
 	)
 	(footprint "Connector_Custom:PinSocket_1x24"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "d9c28f4f-2f18-4690-86bd-5aba8b52b049")
-		(at 149.26 103.87)
+		(at 149.26 103.57)
 		(property "Reference" "J14"
 			(at 0.005 -31.6275 0)
 			(unlocked yes)
@@ -20327,6 +20330,7 @@
 			(at -0.009999 -1.9725 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "65abfa02-d42d-4fc8-a40f-b6f45b743498")
 			(effects
 				(font
@@ -24956,6 +24960,19 @@
 			(justify left top)
 		)
 	)
+	(gr_text "Nanofactory Project\nPhase 0.1"
+		(at 135.64 67.04 0)
+		(layer "F.SilkS")
+		(uuid "2dc624b1-c2cf-4b3b-8c76-9ee7cdd14c3c")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left top)
+		)
+	)
 	(gr_text "5 V"
 		(at 87.25 66.54 0)
 		(layer "F.SilkS")
@@ -25008,6 +25025,19 @@
 			(justify left top)
 		)
 	)
+	(gr_text "Teensy 4.1"
+		(locked yes)
+		(at 156.88 103.57 90)
+		(layer "F.SilkS")
+		(uuid "959800ed-b261-412e-8fa1-9476ddb4cded")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+		)
+	)
 	(gr_text "-1.5 V"
 		(at 100.39 73.52 0)
 		(layer "F.SilkS")
@@ -25025,6 +25055,19 @@
 		(at 158.21 61.27 0)
 		(layer "F.SilkS")
 		(uuid "9f2bd886-b9b5-443c-827b-ef7f5bc84095")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "330 MΩ"
+		(at 83.43 88.5 0)
+		(layer "F.SilkS")
+		(uuid "a0a8bcbb-134c-4911-bac0-5002d5293097")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -25077,6 +25120,19 @@
 		(at 93.48 52.68 0)
 		(layer "F.SilkS")
 		(uuid "ee45d8af-3565-4665-bc6e-ca66a93fd73e")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "100 MΩ"
+		(at 102.93 90.63 0)
+		(layer "F.SilkS")
+		(uuid "f4ca7fec-6032-4b32-b5ca-93e6ceabbb47")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -29034,28 +29090,20 @@
 		(uuid "0d26c6e6-113a-4edf-bd6b-ce23e56784fc")
 	)
 	(segment
-		(start 93.11 88.45)
-		(end 94.63 86.93)
+		(start 97.5 86.93)
+		(end 87.76 86.93)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 48)
-		(uuid "2bac303f-c913-4af1-8ccf-456711461344")
+		(uuid "2fa353ef-8ddb-4d83-98dc-c31cf841080e")
 	)
 	(segment
-		(start 85.87 88.82)
-		(end 86.24 88.45)
+		(start 87.76 86.93)
+		(end 85.87 88.82)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 48)
-		(uuid "2f269b3b-a04b-4364-9d2d-d8b1f7f403ee")
-	)
-	(segment
-		(start 86.24 88.45)
-		(end 93.11 88.45)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 48)
-		(uuid "9c759bc3-1cae-4836-ad81-5ce2408b06d6")
+		(uuid "53403c70-5a2b-42e2-a1bc-44c63a7091f4")
 	)
 	(segment
 		(start 85.87 96.2275)
@@ -29064,14 +29112,6 @@
 		(layer "F.Cu")
 		(net 48)
 		(uuid "b4fe64ff-9d4d-4d8d-b847-8e9d0ac53286")
-	)
-	(segment
-		(start 94.63 86.93)
-		(end 97.5 86.93)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 48)
-		(uuid "f1eb46e5-b36a-44c2-9687-7e58870acb6f")
 	)
 	(segment
 		(start 85.87 92.0775)
