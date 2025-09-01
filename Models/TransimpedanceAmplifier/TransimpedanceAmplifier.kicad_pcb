@@ -8537,15 +8537,16 @@
 		(embedded_fonts no)
 	)
 	(footprint "Connector_Custom:PinHeader_1x2"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "6c1117e0-cec4-4449-8071-5e15dabdada3")
-		(at 104.49 21.06 90)
+		(at 109.61 108.52 90)
 		(property "Reference" "J4"
 			(at 0 3.66 270)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "1e9886b8-ac7b-42b6-9519-758888eefc8a")
+			(uuid "f96a7579-5868-4acd-a61f-8d163872130c")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -8557,7 +8558,7 @@
 			(at 0.0025 -2.3625 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "00d6c8c1-479e-497c-89a0-a2f646990220")
+			(uuid "f87d829a-03a6-4332-8476-1568acb310be")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -8570,7 +8571,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "075ad8a9-34a3-425a-bf49-d23a6b55a58b")
+			(uuid "fb0d28cc-2889-4910-a7ae-56b1d273754e")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -8583,7 +8584,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "75d00a98-32e1-474e-8230-52bc08daecd7")
+			(uuid "e26e104f-5c00-4db0-9466-9cb57367ca60")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -15519,11 +15520,12 @@
 		(embedded_fonts no)
 	)
 	(footprint "Connector_Custom:PinHeader_1x2"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "a94cbde6-0fdb-4fc1-9b5b-7683e527caa3")
-		(at 23.44 168.21)
+		(at 109.61 113.6 90)
 		(property "Reference" "J8"
-			(at 0.0025 -3.5625 0)
+			(at 0.0025 -3.5625 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -15536,7 +15538,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 0.0025 -2.3625 0)
+			(at 0.0025 -2.3625 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "05563665-03e5-401c-a4f1-18b7c9c2b761")
@@ -15548,7 +15550,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15561,7 +15563,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15574,7 +15576,7 @@
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/sullins-connector-solutions/QPC02SXGN-RC/2618262"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15587,7 +15589,7 @@
 			)
 		)
 		(property "Cost" "$0.10"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15600,7 +15602,7 @@
 			)
 		)
 		(property "RoHS Compliant" "YES"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15613,7 +15615,7 @@
 			)
 		)
 		(property "Cost (qty10)" "$0.025"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15664,7 +15666,7 @@
 			(uuid "48f93e21-c9fc-4da4-a9d6-55bd6386cb16")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.0025 -1.1625 0)
+			(at 0.0025 -1.1625 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "ef7148b0-03af-4889-8556-2b76029a4ee8")
@@ -15676,7 +15678,7 @@
 			)
 		)
 		(pad "1" thru_hole rect
-			(at 0 -1.27)
+			(at 0 -1.27 90)
 			(size 1.6 1.6)
 			(drill 1.05)
 			(layers "*.Cu" "*.Mask")
@@ -15688,7 +15690,7 @@
 			(uuid "81d08361-bde9-4c47-bdda-50e30debca63")
 		)
 		(pad "2" thru_hole circle
-			(at 0 1.27)
+			(at 0 1.27 90)
 			(size 1.6 1.6)
 			(drill 1.05)
 			(layers "*.Cu" "*.Mask")
@@ -23601,7 +23603,7 @@
 			(at 0.0225 14.7625 270)
 			(unlocked yes)
 			(layer "B.SilkS")
-			(uuid "b52c643a-d604-49f6-8346-85830320143f")
+			(uuid "5e2f1481-e3fc-4273-9c8d-8798c7cc3765")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -23614,7 +23616,7 @@
 			(at 0.0225 13.5625 270)
 			(unlocked yes)
 			(layer "B.Fab")
-			(uuid "3eefbe09-03a6-42e8-9454-aa9c91afcc70")
+			(uuid "8858358b-0a05-496a-94a6-df4c271badaf")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -23628,7 +23630,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "18bd12fe-08e7-434e-aaae-f41b35391f87")
+			(uuid "c1501bda-7f94-4893-bdc1-217fb7f8835c")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -23642,7 +23644,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "faedd258-3c90-4b4d-87bb-b37148f2128a")
+			(uuid "2775230b-57c0-4b3f-b88d-a3b7b8a7b39b")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -26407,20 +26409,12 @@
 		(uuid "09a12f4c-9573-4c1a-9b64-aeb3a2036419")
 	)
 	(segment
-		(start 105.82 107.08)
-		(end 105.82 113.29)
+		(start 104.2825 105.545)
+		(end 104.5025 105.765)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 14)
-		(uuid "1445f997-7daa-4b74-a989-31e591be40ff")
-	)
-	(segment
-		(start 104.505 105.765)
-		(end 105.82 107.08)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 14)
-		(uuid "1572dad7-3482-48b5-8eaf-6685d7631843")
+		(uuid "d0101aae-35b8-4cb5-9d73-902d378b557b")
 	)
 	(segment
 		(start 104.2825 103.4725)
@@ -26428,31 +26422,7 @@
 		(width 0.2)
 		(layer "F.Cu")
 		(net 14)
-		(uuid "5efc3142-b4b6-46c7-b0d5-7c5a88faa1ef")
-	)
-	(segment
-		(start 104.5025 105.765)
-		(end 104.5025 105.7825)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 14)
-		(uuid "96e8ad27-c27f-4955-8477-3ea8137954da")
-	)
-	(segment
-		(start 105.82 113.29)
-		(end 105.81 113.3)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 14)
-		(uuid "9e52c0c0-55cf-410a-bf32-34d3e335c3b6")
-	)
-	(segment
-		(start 104.2825 105.545)
-		(end 104.5025 105.765)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 14)
-		(uuid "c9db902d-ff5c-462e-b6ee-b93418897a29")
+		(uuid "f1c475fa-5935-4783-ae3d-a9cbd4417a37")
 	)
 	(segment
 		(start 102.512501 100.35)
@@ -27941,38 +27911,6 @@
 		(layer "F.Cu")
 		(net 49)
 		(uuid "db8ded24-a349-4e8a-bd80-b90287f3ce15")
-	)
-	(segment
-		(start 103.26 111.06)
-		(end 105.16 111.06)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 50)
-		(uuid "2560f1d8-e8ff-4f6a-bb90-b5a01fbb10d5")
-	)
-	(via
-		(at 105.16 111.06)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net 50)
-		(uuid "460266de-49fd-444f-9d78-28da99720330")
-	)
-	(via
-		(at 106.5 111.06)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net 50)
-		(uuid "892368f0-d7e6-4576-a46a-34b4d823e5e8")
-	)
-	(segment
-		(start 105.16 111.06)
-		(end 106.5 111.06)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 50)
-		(uuid "4e8f58d3-f012-4f9d-9b99-1f5fa31dc76d")
 	)
 	(segment
 		(start 108.505 99.665)
