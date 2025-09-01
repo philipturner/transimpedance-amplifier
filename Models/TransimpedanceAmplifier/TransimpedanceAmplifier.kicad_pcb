@@ -2800,9 +2800,9 @@
 	(footprint "TwoTerminal:CAPC0603"
 		(layer "F.Cu")
 		(uuid "2860d801-2d79-4b45-8a2c-474a4f597c79")
-		(at 153.5 26.1 -90)
+		(at 100.03 90.82 -90)
 		(property "Reference" "C9"
-			(at 0.005 -1.425 270)
+			(at 0.02 -1.71 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "330e1027-312c-40e8-b6ca-d981f0799244")
@@ -3695,9 +3695,9 @@
 	(footprint "ThreeTerminal:Bourns_3296Y"
 		(layer "F.Cu")
 		(uuid "32cde074-cda4-4a01-ab75-a156ef94807a")
-		(at 160.42 27.14 -90)
+		(at 96.26 94.16)
 		(property "Reference" "R5"
-			(at 0.0075 -5.85 270)
+			(at -3.76 1.78 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "981b49bb-bc4a-49dd-8cd6-7438c4ae6f3d")
@@ -3709,7 +3709,7 @@
 			)
 		)
 		(property "Value" "10k, 10%"
-			(at 0.0075 -4.65 270)
+			(at 0.0075 -4.65 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "ce476813-9bb3-4675-b7db-c82999518634")
@@ -3721,7 +3721,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3734,7 +3734,7 @@
 			)
 		)
 		(property "Description" "R_bandwidth_trim"
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3747,7 +3747,7 @@
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/bourns-inc/3296Y-1-103LF/1088085"
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3760,7 +3760,7 @@
 			)
 		)
 		(property "Cost" "$2.05"
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3773,7 +3773,7 @@
 			)
 		)
 		(property "RoHS Compliant" "YES"
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3786,7 +3786,7 @@
 			)
 		)
 		(property "Cost (qty10)" "$1.732"
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3859,7 +3859,7 @@
 			(uuid "acd06512-e8dc-486b-8405-20c160ee6d59")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.0075 -3.45 270)
+			(at 0.0075 -3.45 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "747316f9-3b9f-44c4-9170-02d5f2cd88c9")
@@ -3871,7 +3871,7 @@
 			)
 		)
 		(pad "1" thru_hole rect
-			(at 1.27 2.54 270)
+			(at 1.27 2.54)
 			(size 1.24 1.24)
 			(drill 0.74)
 			(layers "*.Cu" "*.Mask")
@@ -3883,7 +3883,7 @@
 			(uuid "3d24e30c-b0da-495d-8f99-4d7a4161bad3")
 		)
 		(pad "2" thru_hole circle
-			(at -1.27 0 270)
+			(at -1.27 0)
 			(size 1.24 1.24)
 			(drill 0.74)
 			(layers "*.Cu" "*.Mask")
@@ -3894,7 +3894,7 @@
 			(uuid "e9d1c8ac-4a2e-4739-b195-9091dfe4dda7")
 		)
 		(pad "3" thru_hole circle
-			(at 1.27 -2.54 270)
+			(at 1.27 -2.54)
 			(size 1.24 1.24)
 			(drill 0.74)
 			(layers "*.Cu" "*.Mask")
@@ -5016,9 +5016,9 @@
 	(footprint "TwoTerminal:RESC0603"
 		(layer "F.Cu")
 		(uuid "3edd7ad5-af66-4ca2-96b9-ec64815b59cf")
-		(at 153.475 35.425 -90)
+		(at 100.08 94.49 -90)
 		(property "Reference" "R4"
-			(at 0.0475 -1.385 270)
+			(at -0.01 -1.7 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "2f381dc1-738a-45ad-acee-8440964ad6c5")
@@ -11552,9 +11552,9 @@
 	(footprint "TwoTerminal:CAPC0603"
 		(layer "F.Cu")
 		(uuid "8d2e7a07-e591-4013-ac5a-7982f89b63cd")
-		(at 150.87 26.1 -90)
+		(at 92.95 114.53 90)
 		(property "Reference" "C10"
-			(at 0.005 -1.425 270)
+			(at -2.46 -0.32 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "8df34e83-f569-434d-ae20-03c765fe48a2")
@@ -11566,7 +11566,7 @@
 			)
 		)
 		(property "Value" "180 pF, 1%"
-			(at 0.005 -0.225 270)
+			(at 0.005 -0.225 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "975d6855-eac6-4783-9a23-fc0bba1099f8")
@@ -11578,7 +11578,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11591,7 +11591,7 @@
 			)
 		)
 		(property "Description" "C_midf_comp"
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11604,7 +11604,7 @@
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/murata-electronics/GCM1885C2A181FA16D/7363158"
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11617,7 +11617,7 @@
 			)
 		)
 		(property "Cost" "$0.14"
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11630,7 +11630,7 @@
 			)
 		)
 		(property "RoHS Compliant" "YES"
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11643,7 +11643,7 @@
 			)
 		)
 		(property "Cost (qty10)" "$0.078"
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11661,16 +11661,6 @@
 		(sheetfile "TIA_TwoStage.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.22 0.56)
-			(end 0.22 0.56)
-			(stroke
-				(width 0.12)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "7cfaca14-c91e-4b9a-8d30-2e25235bae77")
-		)
-		(fp_line
 			(start 0.22 -0.56)
 			(end -0.22 -0.56)
 			(stroke
@@ -11679,6 +11669,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "cbf7528b-4bcf-469b-b9ae-afe02a6a7564")
+		)
+		(fp_line
+			(start -0.22 0.56)
+			(end 0.22 0.56)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "7cfaca14-c91e-4b9a-8d30-2e25235bae77")
 		)
 		(fp_rect
 			(start -1.69 -0.79)
@@ -11703,7 +11703,7 @@
 			(uuid "d97e96ef-9215-4d8a-83f9-5a0731414588")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.005 0.975 270)
+			(at 0.005 0.975 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "0f358f77-7378-4fc9-b16f-c74696040dea")
@@ -11715,7 +11715,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.86 0 270)
+			(at -0.86 0 90)
 			(size 1.16 1.08)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -11725,7 +11725,7 @@
 			(uuid "10646280-f941-4561-836e-7e5c8a1a6cbb")
 		)
 		(pad "2" smd roundrect
-			(at 0.86 0 270)
+			(at 0.86 0 90)
 			(size 1.16 1.08)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -17246,9 +17246,9 @@
 	(footprint "ThreeTerminal:Bourns_3296Y"
 		(layer "F.Cu")
 		(uuid "b9b9ff50-a3e6-4b62-9821-74efa4b27406")
-		(at 160.42 33.65 -90)
+		(at 96.71 115.07)
 		(property "Reference" "R6"
-			(at 0.0075 -5.85 270)
+			(at 3.65 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "de3a138b-6bf2-4a12-a114-5f55db5fa1c0")
@@ -17260,7 +17260,7 @@
 			)
 		)
 		(property "Value" "200k, 10%"
-			(at 0.0075 -4.65 270)
+			(at 0.0075 -4.65 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "216c124f-c24f-4e45-a14d-a27fb6808a29")
@@ -17272,7 +17272,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -17285,7 +17285,7 @@
 			)
 		)
 		(property "Description" "R_midf_comp"
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -17298,7 +17298,7 @@
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/bourns-inc/3296Y-1-204LF/1088092"
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -17311,7 +17311,7 @@
 			)
 		)
 		(property "Cost" "$2.47"
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -17324,7 +17324,7 @@
 			)
 		)
 		(property "RoHS Compliant" "YES"
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -17337,7 +17337,7 @@
 			)
 		)
 		(property "Cost (qty10)" "$2.078"
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -17410,7 +17410,7 @@
 			(uuid "99d38e58-98cd-42e1-9e91-871db1be44dc")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.0075 -3.45 270)
+			(at 0.0075 -3.45 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "02b2ccdc-7a67-49b7-b3b4-c6ab42d5ef18")
@@ -17422,7 +17422,7 @@
 			)
 		)
 		(pad "1" thru_hole rect
-			(at 1.27 2.54 270)
+			(at 1.27 2.54)
 			(size 1.24 1.24)
 			(drill 0.74)
 			(layers "*.Cu" "*.Mask")
@@ -17434,7 +17434,7 @@
 			(uuid "2a15125e-52c2-4c16-aa30-ad0b0a69a654")
 		)
 		(pad "2" thru_hole circle
-			(at -1.27 0 270)
+			(at -1.27 0)
 			(size 1.24 1.24)
 			(drill 0.74)
 			(layers "*.Cu" "*.Mask")
@@ -17445,7 +17445,7 @@
 			(uuid "07b87d8e-5f9a-44e8-bdec-fb55bbb4e8f4")
 		)
 		(pad "3" thru_hole circle
-			(at 1.27 -2.54 270)
+			(at 1.27 -2.54)
 			(size 1.24 1.24)
 			(drill 0.74)
 			(layers "*.Cu" "*.Mask")
@@ -17834,9 +17834,9 @@
 	(footprint "TwoTerminal:CAPC0603"
 		(layer "F.Cu")
 		(uuid "c3dcaa63-23c3-4095-a6d9-a16bd40d90d4")
-		(at 114.359999 99.8525 -90)
+		(at 114.34 101.01 -90)
 		(property "Reference" "C7"
-			(at -2.3525 0.059999 0)
+			(at 2.9975 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "5b3ad699-35ac-4b6f-ae3f-e05502a203ef")
@@ -21823,9 +21823,9 @@
 	(footprint "ThreeTerminal:Bourns_3296Y"
 		(layer "F.Cu")
 		(uuid "f145b0bb-c1c0-4dc1-9835-a0cd769b92c4")
-		(at 160.42 40.16 -90)
+		(at 96.27 104.56)
 		(property "Reference" "R7"
-			(at 0.0075 -5.85 270)
+			(at 3.99 0.29 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "607006c8-f220-4c09-a0c2-c7a79be6b3b9")
@@ -21837,7 +21837,7 @@
 			)
 		)
 		(property "Value" "47k, 10%"
-			(at 0.0075 -4.65 270)
+			(at 0.0075 -4.65 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "fa065fc2-492d-4a39-8d21-dfb11a28dae2")
@@ -21849,7 +21849,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -21862,7 +21862,7 @@
 			)
 		)
 		(property "Description" "R_main_comp"
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -21875,7 +21875,7 @@
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/bourns-inc/3296Y-1-473LF/2536018"
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -21888,7 +21888,7 @@
 			)
 		)
 		(property "Cost" "$2.05"
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -21901,7 +21901,7 @@
 			)
 		)
 		(property "RoHS Compliant" "YES"
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -21914,7 +21914,7 @@
 			)
 		)
 		(property "Cost (qty10)" "$1.732"
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -21987,7 +21987,7 @@
 			(uuid "b7126740-c9b7-407c-a2ba-7ea776d5d3e4")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.0075 -3.45 270)
+			(at 0.0075 -3.45 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "78ca794d-c5a4-441d-9f2b-7b05ddf67a08")
@@ -21999,7 +21999,7 @@
 			)
 		)
 		(pad "1" thru_hole rect
-			(at 1.27 2.54 270)
+			(at 1.27 2.54)
 			(size 1.24 1.24)
 			(drill 0.74)
 			(layers "*.Cu" "*.Mask")
@@ -22011,7 +22011,7 @@
 			(uuid "e4c639fc-92ea-4f2a-8c92-4b177a67b46d")
 		)
 		(pad "2" thru_hole circle
-			(at -1.27 0 270)
+			(at -1.27 0)
 			(size 1.24 1.24)
 			(drill 0.74)
 			(layers "*.Cu" "*.Mask")
@@ -22022,7 +22022,7 @@
 			(uuid "648ed1ba-b057-4c32-9b30-8c59a3d3bba3")
 		)
 		(pad "3" thru_hole circle
-			(at 1.27 -2.54 270)
+			(at 1.27 -2.54)
 			(size 1.24 1.24)
 			(drill 0.74)
 			(layers "*.Cu" "*.Mask")
@@ -22467,12 +22467,12 @@
 	(footprint "Connector_Custom:BatteryModule"
 		(layer "B.Cu")
 		(uuid "129155cf-9afc-466a-92ca-9e64425bc8d6")
-		(at 229.69 110.26 -90)
+		(at 87.57 91.61 -90)
 		(property "Reference" "BT2"
 			(at 0.0225 14.7625 90)
 			(unlocked yes)
 			(layer "B.SilkS")
-			(uuid "0739bbf8-567b-4432-969f-bc34cec89f9b")
+			(uuid "ef05b46b-5e41-4e9a-ab14-5b4fe30d2367")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -22485,7 +22485,7 @@
 			(at 0.0225 13.5625 90)
 			(unlocked yes)
 			(layer "B.Fab")
-			(uuid "5ce75a55-d3f3-4370-a044-56ea4ceab6d2")
+			(uuid "7ccfefb4-be19-4e36-a612-b9297784aa85")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -22499,7 +22499,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "3c0ce511-911c-4b7b-a078-ed82ceda6e23")
+			(uuid "68cfae88-9fee-484f-b936-a0fdbcaefa0d")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -22513,7 +22513,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "3067375b-2c62-40b1-b5b0-1cdf30226dc5")
+			(uuid "aeaa0428-9a48-424d-8a73-80c1acb73957")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -22855,7 +22855,7 @@
 			)
 			(polygon
 				(pts
-					(xy 221.475 79.145) (xy 225.205 79.145) (xy 225.205 82.875) (xy 221.475 82.875)
+					(xy 79.355 60.495) (xy 83.085 60.495) (xy 83.085 64.225) (xy 79.355 64.225)
 				)
 			)
 		)
@@ -22887,7 +22887,7 @@
 			)
 			(polygon
 				(pts
-					(xy 221.475 98.645) (xy 225.205 98.645) (xy 225.205 102.375) (xy 221.475 102.375)
+					(xy 79.355 79.995) (xy 83.085 79.995) (xy 83.085 83.725) (xy 79.355 83.725)
 				)
 			)
 		)
@@ -22919,7 +22919,7 @@
 			)
 			(polygon
 				(pts
-					(xy 221.475 118.145) (xy 225.205 118.145) (xy 225.205 121.875) (xy 221.475 121.875)
+					(xy 79.355 99.495) (xy 83.085 99.495) (xy 83.085 103.225) (xy 79.355 103.225)
 				)
 			)
 		)
@@ -22951,7 +22951,7 @@
 			)
 			(polygon
 				(pts
-					(xy 221.475 137.645) (xy 225.205 137.645) (xy 225.205 141.375) (xy 221.475 141.375)
+					(xy 79.355 118.995) (xy 83.085 118.995) (xy 83.085 122.725) (xy 79.355 122.725)
 				)
 			)
 		)
@@ -22983,7 +22983,7 @@
 			)
 			(polygon
 				(pts
-					(xy 234.175 79.145) (xy 237.905 79.145) (xy 237.905 82.875) (xy 234.175 82.875)
+					(xy 92.055 60.495) (xy 95.785 60.495) (xy 95.785 64.225) (xy 92.055 64.225)
 				)
 			)
 		)
@@ -23015,7 +23015,7 @@
 			)
 			(polygon
 				(pts
-					(xy 234.175 98.645) (xy 237.905 98.645) (xy 237.905 102.375) (xy 234.175 102.375)
+					(xy 92.055 79.995) (xy 95.785 79.995) (xy 95.785 83.725) (xy 92.055 83.725)
 				)
 			)
 		)
@@ -23047,7 +23047,7 @@
 			)
 			(polygon
 				(pts
-					(xy 234.175 118.145) (xy 237.905 118.145) (xy 237.905 121.875) (xy 234.175 121.875)
+					(xy 92.055 99.495) (xy 95.785 99.495) (xy 95.785 103.225) (xy 92.055 103.225)
 				)
 			)
 		)
@@ -23079,7 +23079,7 @@
 			)
 			(polygon
 				(pts
-					(xy 234.175 137.645) (xy 237.905 137.645) (xy 237.905 141.375) (xy 234.175 141.375)
+					(xy 92.055 118.995) (xy 95.785 118.995) (xy 95.785 122.725) (xy 92.055 122.725)
 				)
 			)
 		)
@@ -23561,7 +23561,7 @@
 	(footprint "Connector_Custom:BatteryModule"
 		(layer "B.Cu")
 		(uuid "2cf5df37-1861-4fe0-b049-ec8f4756722d")
-		(at 261.34 110.45 90)
+		(at 261.85 111.89 90)
 		(property "Reference" "BT1"
 			(at 0.0225 14.7625 270)
 			(unlocked yes)
@@ -23949,7 +23949,7 @@
 			)
 			(polygon
 				(pts
-					(xy 256.855 83.065) (xy 253.125 83.065) (xy 253.125 79.335) (xy 256.855 79.335)
+					(xy 257.365 84.505) (xy 253.635 84.505) (xy 253.635 80.775) (xy 257.365 80.775)
 				)
 			)
 		)
@@ -23981,7 +23981,7 @@
 			)
 			(polygon
 				(pts
-					(xy 256.855 102.565) (xy 253.125 102.565) (xy 253.125 98.835) (xy 256.855 98.835)
+					(xy 257.365 104.005) (xy 253.635 104.005) (xy 253.635 100.275) (xy 257.365 100.275)
 				)
 			)
 		)
@@ -24013,7 +24013,7 @@
 			)
 			(polygon
 				(pts
-					(xy 256.855 122.065) (xy 253.125 122.065) (xy 253.125 118.335) (xy 256.855 118.335)
+					(xy 257.365 123.505) (xy 253.635 123.505) (xy 253.635 119.775) (xy 257.365 119.775)
 				)
 			)
 		)
@@ -24045,7 +24045,7 @@
 			)
 			(polygon
 				(pts
-					(xy 256.855 141.565) (xy 253.125 141.565) (xy 253.125 137.835) (xy 256.855 137.835)
+					(xy 257.365 143.005) (xy 253.635 143.005) (xy 253.635 139.275) (xy 257.365 139.275)
 				)
 			)
 		)
@@ -24077,7 +24077,7 @@
 			)
 			(polygon
 				(pts
-					(xy 269.555 83.065) (xy 265.825 83.065) (xy 265.825 79.335) (xy 269.555 79.335)
+					(xy 270.065 84.505) (xy 266.335 84.505) (xy 266.335 80.775) (xy 270.065 80.775)
 				)
 			)
 		)
@@ -24109,7 +24109,7 @@
 			)
 			(polygon
 				(pts
-					(xy 269.555 102.565) (xy 265.825 102.565) (xy 265.825 98.835) (xy 269.555 98.835)
+					(xy 270.065 104.005) (xy 266.335 104.005) (xy 266.335 100.275) (xy 270.065 100.275)
 				)
 			)
 		)
@@ -24141,7 +24141,7 @@
 			)
 			(polygon
 				(pts
-					(xy 269.555 122.065) (xy 265.825 122.065) (xy 265.825 118.335) (xy 269.555 118.335)
+					(xy 270.065 123.505) (xy 266.335 123.505) (xy 266.335 119.775) (xy 270.065 119.775)
 				)
 			)
 		)
@@ -24173,7 +24173,7 @@
 			)
 			(polygon
 				(pts
-					(xy 269.555 141.565) (xy 265.825 141.565) (xy 265.825 137.835) (xy 269.555 137.835)
+					(xy 270.065 143.005) (xy 266.335 143.005) (xy 266.335 139.275) (xy 270.065 139.275)
 				)
 			)
 		)
@@ -25328,8 +25328,8 @@
 		(uuid "5a71583f-602b-4c1f-89e4-822e2dbcf983")
 	)
 	(segment
-		(start 114.359999 100.7125)
-		(end 114.359999 101.8425)
+		(start 114.34 101.87)
+		(end 114.34 103)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 5)
@@ -25985,7 +25985,7 @@
 		(uuid "7f9b084a-62ca-4c9a-8806-6381b8f00993")
 	)
 	(via
-		(at 114.359999 101.8425)
+		(at 114.34 103)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -26291,20 +26291,20 @@
 		(uuid "c9db902d-ff5c-462e-b6ee-b93418897a29")
 	)
 	(segment
-		(start 116.079999 99.585)
-		(end 114.952499 99.585)
+		(start 114.34 100.15)
+		(end 115.514999 100.15)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 15)
-		(uuid "0ba95d39-a393-43fd-b3d3-c1e9fe028b85")
+		(uuid "3344a68c-2374-4863-92f0-f36fbf5c7790")
 	)
 	(segment
-		(start 114.952499 99.585)
-		(end 114.359999 98.9925)
+		(start 115.514999 100.15)
+		(end 116.079999 99.585)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 15)
-		(uuid "c5a8c266-9e3d-49c1-9053-62d1f8dc6861")
+		(uuid "8fd516ce-07c2-4f85-b0f4-42a5dd1fcdbe")
 	)
 	(segment
 		(start 91.21 113.5925)
