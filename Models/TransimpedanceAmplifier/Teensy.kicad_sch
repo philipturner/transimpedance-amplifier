@@ -3661,6 +3661,10 @@
 		(uuid "5e2a1062-d67f-4647-8f33-dcaf91c09ab1")
 	)
 	(no_connect
+		(at 50.8 105.41)
+		(uuid "61776f4c-07e1-4707-809f-fd0379c3c0a6")
+	)
+	(no_connect
 		(at 157.48 115.57)
 		(uuid "67eac1f2-1aa2-4e3d-84a8-7870cd202727")
 	)
@@ -3854,17 +3858,6 @@
 			(justify right)
 		)
 		(uuid "84805948-ca7e-4663-bc05-daa42efeea92")
-	)
-	(hierarchical_label "3.3V"
-		(shape output)
-		(at 50.8 105.41 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "88c50438-a551-4232-ab5f-8500bf603ec1")
 	)
 	(hierarchical_label "SCK"
 		(shape output)
