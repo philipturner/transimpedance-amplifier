@@ -37,6 +37,7 @@ Table of Contents:
 - [August 27, 2025](#august-27-2025)
 - [August 28, 2025](#august-28-2025)
 - [August 29, 2025](#august-29-2025)
+- [September 1, 2025](#september-1-2025)
 
 ## July 26, 2025
 
@@ -536,3 +537,7 @@ Interesting links and ideas for future reference:
 - https://www.matsusada.com/product/matrix/high-voltage-amplifiers.html
 - https://www.mouser.com/c/semiconductors/amplifier-ics/operational-amplifiers-op-amps/?m=Apex%20Microtechnology&supply%20voltage%20-%20max=900%20V~~1.25%20kV&instock=y&sort=pricing&rp=semiconductors%2Famplifier-ics%2Foperational-amplifiers-op-amps%7C~Supply%20Voltage%20-%20Max
 - Using a DC-DC switching converter as the 1st stage in a series of filters for the power supply
+
+## September 1, 2025
+
+![PCB Render](./Documentation/New/PCB_Render.jpg)
