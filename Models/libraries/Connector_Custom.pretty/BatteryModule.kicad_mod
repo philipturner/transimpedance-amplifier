@@ -280,7 +280,7 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layer "Cmts.User")
+		(layer "F.Cu")
 		(uuid "5e88b0b3-8716-40c1-8c57-67dbe2eaa86e")
 		(hatch edge 0.5)
 		(connect_pads
@@ -312,7 +312,7 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layer "Cmts.User")
+		(layer "F.Cu")
 		(uuid "a7353830-7846-45b6-b4cc-e9dc355b0060")
 		(hatch edge 0.5)
 		(connect_pads
@@ -344,7 +344,7 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layer "Cmts.User")
+		(layer "F.Cu")
 		(uuid "a5043ef1-0c9d-4264-9560-4b867390123b")
 		(hatch edge 0.5)
 		(connect_pads
@@ -376,7 +376,7 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layer "Cmts.User")
+		(layer "F.Cu")
 		(uuid "4a479b0f-fba2-4f51-9395-78b9567fedf4")
 		(hatch edge 0.5)
 		(connect_pads
@@ -408,7 +408,7 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layer "Cmts.User")
+		(layer "F.Cu")
 		(uuid "2ff732ba-989c-4628-aa1c-fcb9a3eb4f9d")
 		(hatch edge 0.5)
 		(connect_pads
@@ -440,7 +440,7 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layer "Cmts.User")
+		(layer "F.Cu")
 		(uuid "8ce103cf-a38e-462f-ab5e-78c60f505ef5")
 		(hatch edge 0.5)
 		(connect_pads
@@ -472,7 +472,7 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layer "Cmts.User")
+		(layer "F.Cu")
 		(uuid "a271a9de-2305-4dea-9201-99440f574944")
 		(hatch edge 0.5)
 		(connect_pads
@@ -504,7 +504,7 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layer "Cmts.User")
+		(layer "F.Cu")
 		(uuid "f1b44e10-52d7-4699-9840-b35efad58dd8")
 		(hatch edge 0.5)
 		(connect_pads
