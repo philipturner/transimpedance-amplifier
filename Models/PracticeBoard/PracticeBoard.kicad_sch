@@ -5,6 +5,70 @@
 	(uuid "424a2905-d6ee-47e0-a55f-41cae3b03774")
 	(paper "A4")
 	(lib_symbols)
+	(text "TBD number of through holes, 10 0805 resistors\n\nWe do need THT practice, to test the efficacy\nof the cheap solder sucker. For every practice\nboard, solder the THT parts, then desolder them,\nthen assemble the SMT parts."
+		(exclude_from_sim no)
+		(at 77.216 27.178 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "4ba52d02-1fa7-4eff-98cd-9f4589110f68")
+	)
+	(text "Lay out the footprint for Chip1 on the PCB, \ncalculate board space,\nthen decide how many copies to include."
+		(exclude_from_sim no)
+		(at 127.508 76.708 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "a52dc012-d3c3-445e-8f5b-1a01dacfda4e")
+	)
+	(sheet
+		(at 76.2 76.2)
+		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a655f2e2-b6df-4695-8998-87c5eb56c051")
+		(property "Sheetname" "Chip1"
+			(at 76.2 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Chip1.kicad_sch"
+			(at 76.2 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PracticeBoard"
+				(path "/424a2905-d6ee-47e0-a55f-41cae3b03774"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
