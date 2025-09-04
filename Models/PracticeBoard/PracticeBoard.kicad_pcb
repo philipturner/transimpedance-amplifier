@@ -1861,11 +1861,12 @@
 	(footprint "Connector_Custom:PinHeader_1x2"
 		(layer "F.Cu")
 		(uuid "aca1d7a5-b123-4096-bd13-0f0a8fa56fdd")
-		(at 154.2 99.01)
+		(at 153.72 102.25)
 		(property "Reference" "J1"
 			(at 0.0025 -3.5625 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "2b03476e-bfda-486f-9fbd-e20a2a4d22b7")
 			(effects
 				(font
@@ -4010,7 +4011,7 @@
 		(layer "Cmts.User")
 		(uuid "b5edbc04-8e06-48d1-922b-9ca07b5f330f")
 		(pts
-			(xy 123.96 96.81) (xy 147.06 97.75)
+			(xy 123.96 96.81) (xy 156.08 97.59)
 		)
 		(height -2.32)
 		(orientation 0)
@@ -4031,8 +4032,8 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "23.1"
-			(at 135.51 93.57 0)
+		(gr_text "32.12"
+			(at 140.02 93.57 0)
 			(layer "Cmts.User")
 			(uuid "b5edbc04-8e06-48d1-922b-9ca07b5f330f")
 			(effects

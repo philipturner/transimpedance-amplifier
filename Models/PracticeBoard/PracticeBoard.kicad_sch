@@ -342,7 +342,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "1x2 pin headers (x4)\n0805 resistors (x10)\n\nWe do need THT practice, to test the efficacy\nof the cheap solder sucker. For every practice\nboard, solder the THT parts, then desolder them,\nthen assemble the SMT parts."
+	(text "1x2 pin headers (x6)\n0805 resistors (x12)\n\nWe do need THT practice, to test the efficacy\nof the cheap solder sucker. For every practice\nboard, solder the THT parts, then desolder them,\nthen assemble the SMT parts."
 		(exclude_from_sim no)
 		(at 51.308 26.924 0)
 		(effects
