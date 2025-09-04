@@ -817,7 +817,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TwoTerminal:RESC0603"
 			(at 100.584 95.504 90)
 			(effects
 				(font
@@ -921,7 +921,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TwoTerminal:RESC0603"
 			(at 209.804 85.344 90)
 			(effects
 				(font
@@ -1025,7 +1025,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TwoTerminal:RESC0603"
 			(at 189.484 80.264 90)
 			(effects
 				(font
@@ -1129,7 +1129,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TwoTerminal:RESC0603"
 			(at 219.964 87.884 90)
 			(effects
 				(font
@@ -1232,7 +1232,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TwoTerminal:RESC0603"
 			(at 189.484 98.044 90)
 			(effects
 				(font
@@ -1336,7 +1336,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TwoTerminal:RESC0603"
 			(at 90.424 85.344 90)
 			(effects
 				(font
@@ -1440,7 +1440,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TwoTerminal:RESC0603"
 			(at 100.584 82.804 90)
 			(effects
 				(font
@@ -1544,7 +1544,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TwoTerminal:RESC0603"
 			(at 199.644 82.804 90)
 			(effects
 				(font
@@ -1647,7 +1647,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TwoTerminal:RESC0603"
 			(at 199.644 95.504 90)
 			(effects
 				(font
@@ -1750,7 +1750,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TwoTerminal:RESC0603"
 			(at 219.964 90.424 90)
 			(effects
 				(font
@@ -1853,7 +1853,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TwoTerminal:RESC0603"
 			(at 110.744 98.044 90)
 			(effects
 				(font
@@ -1956,7 +1956,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TwoTerminal:RESC0603"
 			(at 90.424 92.964 90)
 			(effects
 				(font
@@ -2060,7 +2060,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "IC:ADS8699"
 			(at 114.3 81.28 0)
 			(effects
 				(font
@@ -2207,7 +2207,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TwoTerminal:RESC0603"
 			(at 80.264 90.424 90)
 			(effects
 				(font
@@ -2310,7 +2310,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TwoTerminal:RESC0603"
 			(at 209.804 92.964 90)
 			(effects
 				(font
@@ -2414,7 +2414,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TwoTerminal:RESC0603"
 			(at 80.264 87.884 90)
 			(effects
 				(font
@@ -2518,7 +2518,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TwoTerminal:RESC0603"
 			(at 110.744 80.264 90)
 			(effects
 				(font

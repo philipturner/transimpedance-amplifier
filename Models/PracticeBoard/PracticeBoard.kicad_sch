@@ -406,7 +406,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Custom:PinHeader_1x2"
 			(at 127 29.21 0)
 			(effects
 				(font
@@ -476,7 +476,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TwoTerminal:RESC0805"
 			(at 153.416 29.464 90)
 			(effects
 				(font
