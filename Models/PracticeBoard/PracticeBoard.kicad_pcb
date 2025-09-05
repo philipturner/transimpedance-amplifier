@@ -265,7 +265,7 @@
 	(footprint "Connector_Custom:PinHeader_1x2"
 		(layer "F.Cu")
 		(uuid "0239e9c2-3033-4ac3-8e94-e8607141944d")
-		(at 71.59 28)
+		(at 119.8 116)
 		(property "Reference" "J5"
 			(at 0.0025 -3.5625 0)
 			(unlocked yes)
@@ -394,7 +394,7 @@
 	(footprint "TwoTerminal:RESC0603"
 		(layer "F.Cu")
 		(uuid "02d6b80d-d6f4-4813-8289-ff3d658da0c1")
-		(at 92 147)
+		(at 92 97)
 		(property "Reference" "R31"
 			(at 0.0475 -1.385 0)
 			(unlocked yes)
@@ -582,11 +582,12 @@
 	(footprint "TwoTerminal:RESC0603"
 		(layer "F.Cu")
 		(uuid "05d8d392-d12d-47f4-a1d8-f149d1d08a42")
-		(at 149.3675 139.32)
+		(at 108.0225 127)
 		(property "Reference" "R54"
 			(at 0.0475 -1.385 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "a66545ba-c314-4a68-90fc-80317dcbe885")
 			(effects
 				(font
@@ -769,7 +770,7 @@
 	(footprint "TwoTerminal:RESC0603"
 		(layer "F.Cu")
 		(uuid "0d7e511a-42c9-41a6-8dc1-1971467358ed")
-		(at 92 143)
+		(at 92 93)
 		(property "Reference" "R35"
 			(at 0.0475 -1.385 0)
 			(unlocked yes)
@@ -957,11 +958,12 @@
 	(footprint "TwoTerminal:RESC0603"
 		(layer "F.Cu")
 		(uuid "16f69f28-98e0-4205-93d1-79f8570f32fa")
-		(at 153.7675 136.64)
+		(at 108.0225 119)
 		(property "Reference" "R59"
 			(at 0.0475 -1.385 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "fbda1b5d-cb5e-4f35-a6fb-81c3fcb42cad")
 			(effects
 				(font
@@ -1144,7 +1146,7 @@
 	(footprint "TwoTerminal:RESC0603"
 		(layer "F.Cu")
 		(uuid "1929ea5c-e26c-4e2e-a687-5a98dc72a017")
-		(at 92 155)
+		(at 92 105)
 		(property "Reference" "R34"
 			(at 0.0475 -1.385 0)
 			(unlocked yes)
@@ -1332,7 +1334,7 @@
 	(footprint "TwoTerminal:RESC0805"
 		(layer "F.Cu")
 		(uuid "1a60026a-eff2-4789-af91-b529a86050a4")
-		(at 55.3225 41.665)
+		(at 114 78)
 		(property "Reference" "R2"
 			(at -0.05 -1.64 0)
 			(unlocked yes)
@@ -1519,7 +1521,7 @@
 	(footprint "IC:ADS8699"
 		(layer "F.Cu")
 		(uuid "2d860354-936d-43b1-a5d4-30963eceeb57")
-		(at 100 150)
+		(at 100 100)
 		(property "Reference" "U2"
 			(at -0.005 -3.4775 0)
 			(unlocked yes)
@@ -1983,7 +1985,7 @@
 	(footprint "TwoTerminal:RESC0603"
 		(layer "F.Cu")
 		(uuid "2d9c459a-44d0-4a48-b899-5b140ce2e5c5")
-		(at 58 155)
+		(at 108 85)
 		(property "Reference" "R24"
 			(at 0.0475 -1.385 0)
 			(unlocked yes)
@@ -2171,7 +2173,7 @@
 	(footprint "TwoTerminal:RESC0603"
 		(layer "F.Cu")
 		(uuid "2e79f650-05b1-486c-a5ab-caa789f8ec94")
-		(at 42 147)
+		(at 92 77)
 		(property "Reference" "R15"
 			(at 0.0475 -1.385 0)
 			(unlocked yes)
@@ -2359,7 +2361,7 @@
 	(footprint "TwoTerminal:RESC0805"
 		(layer "F.Cu")
 		(uuid "2f44076a-e2ed-49ff-b4a3-cb51e099005b")
-		(at 55.3225 38.555)
+		(at 114 74)
 		(property "Reference" "R1"
 			(at -0.05 -1.64 0)
 			(unlocked yes)
@@ -2546,11 +2548,12 @@
 	(footprint "TwoTerminal:RESC0603"
 		(layer "F.Cu")
 		(uuid "378cfb07-4ead-48fe-a71e-991cb09dd4c6")
-		(at 153.7675 133.96)
+		(at 108.0225 123)
 		(property "Reference" "R58"
 			(at 0.0475 -1.385 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "5265c3fe-5cfa-4095-853a-5189769b358c")
 			(effects
 				(font
@@ -2733,7 +2736,7 @@
 	(footprint "TwoTerminal:RESC0805"
 		(layer "F.Cu")
 		(uuid "395469b2-20ce-4abb-bf64-bc1f8326e109")
-		(at 60.2325 47.885)
+		(at 114 106)
 		(property "Reference" "R8"
 			(at -0.05 -1.64 0)
 			(unlocked yes)
@@ -2920,11 +2923,12 @@
 	(footprint "TwoTerminal:RESC0603"
 		(layer "F.Cu")
 		(uuid "41629850-0f8d-45b4-b58e-1e6bb48cd9d5")
-		(at 144.9675 131.28)
+		(at 92.0225 119)
 		(property "Reference" "R45"
 			(at 0.0475 -1.385 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "91d47adf-eadd-4234-9d48-822323ca62e2")
 			(effects
 				(font
@@ -3107,7 +3111,7 @@
 	(footprint "TwoTerminal:RESC0603"
 		(layer "F.Cu")
 		(uuid "42b96674-2715-47cc-bba0-8c5e4dd01811")
-		(at 108 153)
+		(at 108 103)
 		(property "Reference" "R42"
 			(at 0.0475 -1.385 0)
 			(unlocked yes)
@@ -3295,11 +3299,12 @@
 	(footprint "TwoTerminal:RESC0603"
 		(layer "F.Cu")
 		(uuid "45887a58-54bd-4cb9-948e-0341f448b1c1")
-		(at 149.3675 136.64)
+		(at 108.0225 113)
 		(property "Reference" "R53"
 			(at 0.0475 -1.385 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "8a518a24-a81a-4768-93d2-02a4bab52ccf")
 			(effects
 				(font
@@ -3482,7 +3487,7 @@
 	(footprint "TwoTerminal:RESC0603"
 		(layer "F.Cu")
 		(uuid "4e57af72-2f47-417b-9bff-ec20d09a60ff")
-		(at 92 151)
+		(at 92 101)
 		(property "Reference" "R30"
 			(at 0.0475 -1.385 0)
 			(unlocked yes)
@@ -3670,7 +3675,7 @@
 	(footprint "Connector_Custom:PinHeader_1x2"
 		(layer "F.Cu")
 		(uuid "575e964a-39f6-4c74-bb2e-a72bcfccc8f5")
-		(at 63.41 28)
+		(at 119.8 96)
 		(property "Reference" "J3"
 			(at 0.0025 -3.5625 0)
 			(unlocked yes)
@@ -3799,11 +3804,12 @@
 	(footprint "TwoTerminal:RESC0603"
 		(layer "F.Cu")
 		(uuid "5e805143-9586-499c-b030-ce1dfb9615d6")
-		(at 144.9675 133.96)
+		(at 92.0225 121)
 		(property "Reference" "R46"
 			(at 0.0475 -1.385 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "07d7340d-66d5-407a-b1d5-66f003db8edb")
 			(effects
 				(font
@@ -3986,7 +3992,7 @@
 	(footprint "TwoTerminal:RESC0603"
 		(layer "F.Cu")
 		(uuid "5f7afb96-a1de-471b-8055-951cbcf18462")
-		(at 92 153)
+		(at 92 103)
 		(property "Reference" "R32"
 			(at 0.0475 -1.385 0)
 			(unlocked yes)
@@ -4174,7 +4180,7 @@
 	(footprint "TwoTerminal:RESC0805"
 		(layer "F.Cu")
 		(uuid "60ac12c2-4678-4a03-b5d0-b93595a6f70c")
-		(at 60.2325 41.665)
+		(at 114 98)
 		(property "Reference" "R6"
 			(at -0.05 -1.64 0)
 			(unlocked yes)
@@ -4361,7 +4367,7 @@
 	(footprint "TwoTerminal:RESC0603"
 		(layer "F.Cu")
 		(uuid "6153ae1e-c625-433d-9243-a7094e285ec3")
-		(at 108 157)
+		(at 108 107)
 		(property "Reference" "R38"
 			(at 0.0475 -1.385 0)
 			(unlocked yes)
@@ -4549,11 +4555,12 @@
 	(footprint "TwoTerminal:RESC0603"
 		(layer "F.Cu")
 		(uuid "640a84d9-6599-45f5-a8fb-98e997b88a77")
-		(at 144.9675 136.64)
+		(at 92.0225 117)
 		(property "Reference" "R47"
 			(at 0.0475 -1.385 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "132a342a-0411-4aba-bf56-834c94538ea8")
 			(effects
 				(font
@@ -4736,7 +4743,7 @@
 	(footprint "TwoTerminal:RESC0805"
 		(layer "F.Cu")
 		(uuid "6d2670ca-cf91-4c95-819e-776fe72587b3")
-		(at 65.1425 44.775)
+		(at 114 122)
 		(property "Reference" "R11"
 			(at -0.05 -1.64 0)
 			(unlocked yes)
@@ -4923,11 +4930,12 @@
 	(footprint "TwoTerminal:RESC0603"
 		(layer "F.Cu")
 		(uuid "6db5f35f-2bd8-4328-9968-e619f44ad7f8")
-		(at 153.7675 139.32)
+		(at 108.0225 121)
 		(property "Reference" "R60"
 			(at 0.0475 -1.385 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "215ef7e1-0d69-4b9f-b9aa-2de625990428")
 			(effects
 				(font
@@ -5110,7 +5118,7 @@
 	(footprint "IC:ADS8699"
 		(layer "F.Cu")
 		(uuid "76d8cdfa-cb02-4fea-b996-f066f62c7ef7")
-		(at 50 150)
+		(at 100 80)
 		(property "Reference" "U1"
 			(at -0.005 -3.4775 0)
 			(unlocked yes)
@@ -5574,7 +5582,7 @@
 	(footprint "TwoTerminal:RESC0805"
 		(layer "F.Cu")
 		(uuid "772a3290-3d62-4665-b5c2-b542a382f2d5")
-		(at 65.1425 47.885)
+		(at 114 126)
 		(property "Reference" "R12"
 			(at -0.05 -1.64 0)
 			(unlocked yes)
@@ -5761,7 +5769,7 @@
 	(footprint "TwoTerminal:RESC0805"
 		(layer "F.Cu")
 		(uuid "79dc8975-acb1-4ef4-b745-addcff8d5a35")
-		(at 60.2325 44.775)
+		(at 114 102)
 		(property "Reference" "R7"
 			(at -0.05 -1.64 0)
 			(unlocked yes)
@@ -5948,7 +5956,7 @@
 	(footprint "TwoTerminal:RESC0603"
 		(layer "F.Cu")
 		(uuid "7b0014df-8197-4612-af5a-b0b02080d1b2")
-		(at 108 155)
+		(at 108 105)
 		(property "Reference" "R40"
 			(at 0.0475 -1.385 0)
 			(unlocked yes)
@@ -6136,7 +6144,7 @@
 	(footprint "TwoTerminal:RESC0603"
 		(layer "F.Cu")
 		(uuid "7ebf6070-79ad-4b61-8149-f58a78ed5b11")
-		(at 58 153)
+		(at 108 83)
 		(property "Reference" "R26"
 			(at 0.0475 -1.385 0)
 			(unlocked yes)
@@ -6324,7 +6332,7 @@
 	(footprint "TwoTerminal:RESC0603"
 		(layer "F.Cu")
 		(uuid "7f887ace-da5b-4ba9-b412-bde6a22ce1b1")
-		(at 108 143)
+		(at 108 93)
 		(property "Reference" "R37"
 			(at 0.0475 -1.385 0)
 			(unlocked yes)
@@ -6512,11 +6520,12 @@
 	(footprint "TwoTerminal:RESC0603"
 		(layer "F.Cu")
 		(uuid "813cb4ff-d106-40b6-a88c-79ca8f1e7fae")
-		(at 149.3675 131.28)
+		(at 92.0225 113)
 		(property "Reference" "R51"
 			(at 0.0475 -1.385 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "c1f34612-e074-470c-8e0e-a033607459f1")
 			(effects
 				(font
@@ -6699,7 +6708,7 @@
 	(footprint "TwoTerminal:RESC0603"
 		(layer "F.Cu")
 		(uuid "848a391c-d4fe-4c39-97c9-5a9617f02fc8")
-		(at 58 145)
+		(at 108 75)
 		(property "Reference" "R23"
 			(at 0.0475 -1.385 0)
 			(unlocked yes)
@@ -6887,7 +6896,7 @@
 	(footprint "TwoTerminal:RESC0603"
 		(layer "F.Cu")
 		(uuid "868ba9ae-3f98-4809-a3f8-22e20a5abc7f")
-		(at 92 149)
+		(at 92 99)
 		(property "Reference" "R29"
 			(at 0.0475 -1.385 0)
 			(unlocked yes)
@@ -7075,11 +7084,12 @@
 	(footprint "TwoTerminal:RESC0603"
 		(layer "F.Cu")
 		(uuid "88b30e16-fb8e-45e6-87a7-07868cdbf85c")
-		(at 144.9675 144.68)
+		(at 92.0225 125)
 		(property "Reference" "R50"
 			(at 0.0475 -1.385 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "87a05796-1d12-4223-a5d9-71a85853b7a1")
 			(effects
 				(font
@@ -7262,7 +7272,7 @@
 	(footprint "TwoTerminal:RESC0603"
 		(layer "F.Cu")
 		(uuid "8940c2c8-6260-41be-98ff-72c630e661a5")
-		(at 108 149)
+		(at 108 99)
 		(property "Reference" "R43"
 			(at 0.0475 -1.385 0)
 			(unlocked yes)
@@ -7450,7 +7460,7 @@
 	(footprint "Connector_Custom:PinHeader_1x2"
 		(layer "F.Cu")
 		(uuid "8a45fe51-41d7-4d9c-aea1-e45f857aea32")
-		(at 75.68 28)
+		(at 119.8 124)
 		(property "Reference" "J6"
 			(at 0.0025 -3.5625 0)
 			(unlocked yes)
@@ -7579,7 +7589,7 @@
 	(footprint "TwoTerminal:RESC0603"
 		(layer "F.Cu")
 		(uuid "90b07e0c-2438-466d-a2b9-a998569ef018")
-		(at 92 157)
+		(at 92 107)
 		(property "Reference" "R36"
 			(at 0.0475 -1.385 0)
 			(unlocked yes)
@@ -7767,7 +7777,7 @@
 	(footprint "TwoTerminal:RESC0603"
 		(layer "F.Cu")
 		(uuid "969965f1-bdf8-483e-af90-71c3a8db0b50")
-		(at 108 147)
+		(at 108 97)
 		(property "Reference" "R41"
 			(at 0.0475 -1.385 0)
 			(unlocked yes)
@@ -7955,7 +7965,7 @@
 	(footprint "TwoTerminal:RESC0603"
 		(layer "F.Cu")
 		(uuid "a2ff2eed-9422-4597-a919-aaa67ed48540")
-		(at 42 155)
+		(at 92 85)
 		(property "Reference" "R18"
 			(at 0.0475 -1.385 0)
 			(unlocked yes)
@@ -8143,7 +8153,7 @@
 	(footprint "TwoTerminal:RESC0805"
 		(layer "F.Cu")
 		(uuid "a9f3bc5e-0929-4766-bfab-3762f1fbc616")
-		(at 55.3225 47.885)
+		(at 114 86)
 		(property "Reference" "R4"
 			(at -0.05 -1.64 0)
 			(unlocked yes)
@@ -8330,7 +8340,7 @@
 	(footprint "TwoTerminal:RESC0603"
 		(layer "F.Cu")
 		(uuid "ad2021c5-c2c1-4aaf-aea2-e3d39081c1e1")
-		(at 58 151)
+		(at 108 81)
 		(property "Reference" "R28"
 			(at 0.0475 -1.385 0)
 			(unlocked yes)
@@ -8518,7 +8528,7 @@
 	(footprint "TwoTerminal:RESC0805"
 		(layer "F.Cu")
 		(uuid "ad4dc7eb-8d36-4ec3-ae74-5577367a4b0e")
-		(at 65.1425 38.555)
+		(at 114 114)
 		(property "Reference" "R9"
 			(at -0.05 -1.64 0)
 			(unlocked yes)
@@ -8705,7 +8715,7 @@
 	(footprint "TwoTerminal:RESC0603"
 		(layer "F.Cu")
 		(uuid "ae517247-7bbe-4f66-89d6-c48311259f87")
-		(at 108 145)
+		(at 108 95)
 		(property "Reference" "R39"
 			(at 0.0475 -1.385 0)
 			(unlocked yes)
@@ -8893,7 +8903,7 @@
 	(footprint "TwoTerminal:RESC0805"
 		(layer "F.Cu")
 		(uuid "b53f8b55-31b0-42cd-8ddc-aa5e803b2bcd")
-		(at 55.3225 44.775)
+		(at 114 82)
 		(property "Reference" "R3"
 			(at -0.05 -1.64 0)
 			(unlocked yes)
@@ -9080,7 +9090,7 @@
 	(footprint "TwoTerminal:RESC0603"
 		(layer "F.Cu")
 		(uuid "babaef90-983a-4518-a905-0a260063710f")
-		(at 58 143)
+		(at 108 73)
 		(property "Reference" "R21"
 			(at 0.0475 -1.385 0)
 			(unlocked yes)
@@ -9268,11 +9278,12 @@
 	(footprint "TwoTerminal:RESC0603"
 		(layer "F.Cu")
 		(uuid "c616480b-c9e4-4e25-aebb-41f5bad953e5")
-		(at 153.7675 131.28)
+		(at 108.0225 117)
 		(property "Reference" "R57"
 			(at 0.0475 -1.385 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "c7e08eff-8b86-46f9-b19b-60aff9f94d75")
 			(effects
 				(font
@@ -9455,7 +9466,7 @@
 	(footprint "TwoTerminal:RESC0603"
 		(layer "F.Cu")
 		(uuid "c64f2d6f-5207-4703-bb73-00248a160b72")
-		(at 108 151)
+		(at 108 101)
 		(property "Reference" "R44"
 			(at 0.0475 -1.385 0)
 			(unlocked yes)
@@ -9643,7 +9654,7 @@
 	(footprint "TwoTerminal:RESC0603"
 		(layer "F.Cu")
 		(uuid "c71fa6f9-61ac-4cf9-a169-72de82c2ac43")
-		(at 58 149)
+		(at 108 79)
 		(property "Reference" "R27"
 			(at 0.0475 -1.385 0)
 			(unlocked yes)
@@ -9831,11 +9842,12 @@
 	(footprint "TwoTerminal:RESC0603"
 		(layer "F.Cu")
 		(uuid "cba1750c-edff-42d8-8774-02c13cd777ae")
-		(at 149.3675 144.68)
+		(at 108.0225 125)
 		(property "Reference" "R56"
 			(at 0.0475 -1.385 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "84af481d-c5bd-433d-8597-59e7ccaf2dc1")
 			(effects
 				(font
@@ -10018,7 +10030,7 @@
 	(footprint "TwoTerminal:RESC0603"
 		(layer "F.Cu")
 		(uuid "cd512efc-1f6a-4bda-bbe7-59221231921e")
-		(at 58 147)
+		(at 108 77)
 		(property "Reference" "R25"
 			(at 0.0475 -1.385 0)
 			(unlocked yes)
@@ -10206,7 +10218,7 @@
 	(footprint "TwoTerminal:RESC0603"
 		(layer "F.Cu")
 		(uuid "cee1a20e-0454-4495-a74a-4347626f042a")
-		(at 42 145)
+		(at 92 75)
 		(property "Reference" "R17"
 			(at 0.0475 -1.385 0)
 			(unlocked yes)
@@ -10394,7 +10406,7 @@
 	(footprint "TwoTerminal:RESC0603"
 		(layer "F.Cu")
 		(uuid "d17e8ce8-a476-48b4-871b-5b819e66d929")
-		(at 42 157)
+		(at 92 87)
 		(property "Reference" "R20"
 			(at 0.0475 -1.385 0)
 			(unlocked yes)
@@ -10582,7 +10594,7 @@
 	(footprint "TwoTerminal:RESC0805"
 		(layer "F.Cu")
 		(uuid "d4f065da-7811-4e2f-9ad1-2a9340fce6ef")
-		(at 60.2325 38.555)
+		(at 114 94)
 		(property "Reference" "R5"
 			(at -0.05 -1.64 0)
 			(unlocked yes)
@@ -10769,11 +10781,12 @@
 	(footprint "TwoTerminal:RESC0603"
 		(layer "F.Cu")
 		(uuid "d6869add-96ee-4c8a-90b3-0c6ddcac5baa")
-		(at 149.3675 133.96)
+		(at 92.0225 127)
 		(property "Reference" "R52"
 			(at 0.0475 -1.385 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "6a252a7c-4389-493e-b9e5-44af9f053031")
 			(effects
 				(font
@@ -10956,11 +10969,12 @@
 	(footprint "TwoTerminal:RESC0603"
 		(layer "F.Cu")
 		(uuid "d6b1eb70-cc5f-4653-b556-74c59edfbc97")
-		(at 144.9675 142)
+		(at 92.0225 115)
 		(property "Reference" "R49"
 			(at 0.0475 -1.385 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "e1b675ca-15ef-43b1-8401-1f34dbf19f20")
 			(effects
 				(font
@@ -11143,7 +11157,7 @@
 	(footprint "TwoTerminal:RESC0603"
 		(layer "F.Cu")
 		(uuid "d9391c84-267e-455d-a43e-07e49039579e")
-		(at 92 145)
+		(at 92 95)
 		(property "Reference" "R33"
 			(at 0.0475 -1.385 0)
 			(unlocked yes)
@@ -11331,7 +11345,7 @@
 	(footprint "TwoTerminal:RESC0603"
 		(layer "F.Cu")
 		(uuid "dda8a52a-9fe4-4c04-be90-ff03a756673c")
-		(at 42 143)
+		(at 92 73)
 		(property "Reference" "R19"
 			(at 0.0475 -1.385 0)
 			(unlocked yes)
@@ -11519,7 +11533,7 @@
 	(footprint "Connector_Custom:PinHeader_1x2"
 		(layer "F.Cu")
 		(uuid "df3f2d8b-0e9a-479a-80cf-d0088e6d7aad")
-		(at 59.32 28)
+		(at 119.8 84)
 		(property "Reference" "J2"
 			(at 0.0025 -3.5625 0)
 			(unlocked yes)
@@ -11648,7 +11662,7 @@
 	(footprint "IC:ADS8699"
 		(layer "F.Cu")
 		(uuid "e54537eb-0ae5-4312-afa4-f119cb019405")
-		(at 150 150)
+		(at 100.0225 120)
 		(property "Reference" "U3"
 			(at -0.005 -3.4775 0)
 			(unlocked yes)
@@ -12112,11 +12126,12 @@
 	(footprint "TwoTerminal:RESC0603"
 		(layer "F.Cu")
 		(uuid "e87967bf-f438-4aed-b5d9-42cc04389cc3")
-		(at 149.3675 142)
+		(at 108.0225 115)
 		(property "Reference" "R55"
 			(at 0.0475 -1.385 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "57ad39b2-496f-4c48-962d-6959924286e6")
 			(effects
 				(font
@@ -12299,7 +12314,7 @@
 	(footprint "TwoTerminal:RESC0805"
 		(layer "F.Cu")
 		(uuid "ec5144f5-180d-4f75-aa29-db9a4946f07d")
-		(at 65.1425 41.665)
+		(at 114 118)
 		(property "Reference" "R10"
 			(at -0.05 -1.64 0)
 			(unlocked yes)
@@ -12486,7 +12501,7 @@
 	(footprint "TwoTerminal:RESC0603"
 		(layer "F.Cu")
 		(uuid "ef18e93a-dfcc-41d7-aeb6-e07746584703")
-		(at 42 149)
+		(at 92 79)
 		(property "Reference" "R13"
 			(at 0.0475 -1.385 0)
 			(unlocked yes)
@@ -12674,7 +12689,7 @@
 	(footprint "TwoTerminal:RESC0603"
 		(layer "F.Cu")
 		(uuid "eff7d780-ab92-4836-9c00-80a640195b2f")
-		(at 42 153)
+		(at 92 83)
 		(property "Reference" "R16"
 			(at 0.0475 -1.385 0)
 			(unlocked yes)
@@ -12862,7 +12877,7 @@
 	(footprint "Connector_Custom:PinHeader_1x2"
 		(layer "F.Cu")
 		(uuid "f244c8d4-3635-4589-9cd4-424eb01bbd79")
-		(at 67.5 28)
+		(at 119.8 104)
 		(property "Reference" "J4"
 			(at 0.0025 -3.5625 0)
 			(unlocked yes)
@@ -12991,7 +13006,7 @@
 	(footprint "TwoTerminal:RESC0603"
 		(layer "F.Cu")
 		(uuid "f4949a1b-fdbe-4497-b054-c30d800b9c9b")
-		(at 58 157)
+		(at 108 87)
 		(property "Reference" "R22"
 			(at 0.0475 -1.385 0)
 			(unlocked yes)
@@ -13179,7 +13194,7 @@
 	(footprint "Connector_Custom:PinHeader_1x2"
 		(layer "F.Cu")
 		(uuid "f688647e-b221-4d4f-92ca-6ecbf201647c")
-		(at 55.23 28)
+		(at 119.8 76)
 		(property "Reference" "J1"
 			(at 0.0025 -3.5625 0)
 			(unlocked yes)
@@ -13308,7 +13323,7 @@
 	(footprint "TwoTerminal:RESC0603"
 		(layer "F.Cu")
 		(uuid "f97338c5-fdd5-4285-a379-201a8a22f065")
-		(at 42 151)
+		(at 92 81)
 		(property "Reference" "R14"
 			(at 0.0475 -1.385 0)
 			(unlocked yes)
@@ -13496,11 +13511,12 @@
 	(footprint "TwoTerminal:RESC0603"
 		(layer "F.Cu")
 		(uuid "fc40cbbf-e0fd-417e-b3b7-e652879f0c11")
-		(at 144.9675 139.32)
+		(at 92.0225 123)
 		(property "Reference" "R48"
 			(at 0.0475 -1.385 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "4ff2cdad-107a-42f8-8f13-7f8044e2c8a1")
 			(effects
 				(font
