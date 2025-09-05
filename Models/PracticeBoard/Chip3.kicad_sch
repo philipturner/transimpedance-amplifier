@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "9bb0c967-854a-43b9-9d81-94471ba1a83e")
+	(uuid "337aeca5-accf-4a20-85bb-56dfe016ebc7")
 	(paper "A4")
 	(lib_symbols
 		(symbol "ADS8699:ADS8699IPW"
@@ -606,91 +606,71 @@
 			)
 			(justify left top)
 		)
-		(uuid "8ae16a83-5115-46d2-9959-7b4f0f5330af")
-	)
-	(no_connect
-		(at 208.28 83.82)
-		(uuid "0b4b9de1-aac4-43d9-9a13-1b84447192cf")
-	)
-	(no_connect
-		(at 218.44 86.36)
-		(uuid "2b9d2fd0-24e4-4370-9d75-f0d346f3e5c5")
-	)
-	(no_connect
-		(at 81.28 91.44)
-		(uuid "2ba8dfd0-d17c-4eea-831e-0271202798a0")
+		(uuid "6c73361d-11a0-461f-a505-22da325148e0")
 	)
 	(no_connect
 		(at 218.44 93.98)
-		(uuid "30028691-9c12-49fb-bcab-f59c1c018171")
+		(uuid "1b8251c5-5405-4e4b-8a06-fe16c49f2018")
 	)
 	(no_connect
 		(at 81.28 88.9)
-		(uuid "3c51fa0f-0ca9-4216-9d30-ac07db1c0301")
-	)
-	(no_connect
-		(at 111.76 99.06)
-		(uuid "3f56dbe5-b597-4cf9-b9b6-d0f6ede4be20")
-	)
-	(no_connect
-		(at 91.44 86.36)
-		(uuid "7f6ecc1c-ec8c-47a3-96fc-dc5e7f990e48")
-	)
-	(no_connect
-		(at 198.12 99.06)
-		(uuid "9c04d58c-e239-4e7b-9281-685f50180457")
+		(uuid "1c57cdbe-794f-4a41-83f6-3e0bc5f3d9af")
 	)
 	(no_connect
 		(at 101.6 96.52)
-		(uuid "a225a040-4531-4068-b014-ee5dfbbaa034")
-	)
-	(no_connect
-		(at 228.6 88.9)
-		(uuid "ad2dc146-528f-40ac-a351-d2dbe2ae3ceb")
-	)
-	(no_connect
-		(at 228.6 91.44)
-		(uuid "bd869941-65ca-4d18-afc4-7c34ec9acf77")
-	)
-	(no_connect
-		(at 101.6 83.82)
-		(uuid "ca21b9e5-ed1e-4764-b784-a201f05f374c")
-	)
-	(no_connect
-		(at 91.44 93.98)
-		(uuid "ccd77aae-2052-4e53-b14f-01d13834421d")
+		(uuid "31092a65-62d2-42be-9096-be0f91ab7ad0")
 	)
 	(no_connect
 		(at 208.28 96.52)
-		(uuid "db11e513-61ad-449f-b88b-1ccee5278c36")
+		(uuid "3b7ff825-a92c-4ebb-8275-833767dccaf4")
 	)
 	(no_connect
 		(at 111.76 81.28)
-		(uuid "e0ebd52d-cfd3-4c29-83f4-da334b560f76")
+		(uuid "40874254-c91a-4b41-bce8-9d37f3f52400")
+	)
+	(no_connect
+		(at 208.28 83.82)
+		(uuid "62308105-ee5f-4e58-a0b4-dc0b6a61c584")
+	)
+	(no_connect
+		(at 228.6 88.9)
+		(uuid "91ba7de3-caee-4af0-9171-aaff3ece112c")
+	)
+	(no_connect
+		(at 91.44 86.36)
+		(uuid "9356a9a8-10d8-4916-ac5d-4cf5549248f6")
+	)
+	(no_connect
+		(at 218.44 86.36)
+		(uuid "99bbc136-8604-469a-844e-b30674536904")
+	)
+	(no_connect
+		(at 91.44 93.98)
+		(uuid "b39df140-6bbb-48ea-9b6c-9f4a2d1503bf")
+	)
+	(no_connect
+		(at 101.6 83.82)
+		(uuid "bd41372f-8372-4442-8e36-e33184158a4c")
+	)
+	(no_connect
+		(at 198.12 99.06)
+		(uuid "cec4afad-2c48-45d6-8024-fcd920d80bbb")
+	)
+	(no_connect
+		(at 81.28 91.44)
+		(uuid "d957db83-db1e-44ce-bf91-9286d9652e89")
+	)
+	(no_connect
+		(at 111.76 99.06)
+		(uuid "e442743e-bcc4-4c14-9eb5-3158601fb5de")
+	)
+	(no_connect
+		(at 228.6 91.44)
+		(uuid "e7bfd699-f3ef-495f-8c94-d3d9be860ed9")
 	)
 	(no_connect
 		(at 198.12 81.28)
-		(uuid "f169091b-940d-422f-9e43-eef2895404e3")
-	)
-	(wire
-		(pts
-			(xy 190.5 83.82) (xy 200.66 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33bd295e-ac0d-4b21-97ba-102d6d83efb8")
-	)
-	(wire
-		(pts
-			(xy 190.5 96.52) (xy 200.66 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45e2b96c-33c4-49e5-8a74-dc3348029a2f")
+		(uuid "fb4f464f-5201-4f0f-affe-37460440ba77")
 	)
 	(wire
 		(pts
@@ -700,77 +680,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "471d5603-6e8d-46d7-8847-1ef9cd5dbb1e")
-	)
-	(wire
-		(pts
-			(xy 190.5 88.9) (xy 220.98 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fcc19e4-c1bb-42c9-ac08-6ad04fe35343")
-	)
-	(wire
-		(pts
-			(xy 109.22 96.52) (xy 119.38 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "616131d9-991d-4046-8ea6-8c6e61c20e89")
-	)
-	(wire
-		(pts
-			(xy 109.22 83.82) (xy 119.38 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72611edb-f4cb-4879-ba39-b93707e117fd")
-	)
-	(wire
-		(pts
-			(xy 99.06 86.36) (xy 119.38 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8333b800-0b74-4604-8a8e-8d3117d46afe")
-	)
-	(wire
-		(pts
-			(xy 88.9 91.44) (xy 119.38 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91156534-4cd0-4637-82dd-8ee780f585e3")
-	)
-	(wire
-		(pts
-			(xy 88.9 88.9) (xy 119.38 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b38a266-e0d2-4911-be52-b6960f86a303")
-	)
-	(wire
-		(pts
-			(xy 190.5 86.36) (xy 210.82 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0cb5a48-ca03-4ab1-8daa-69c63eba51bf")
+		(uuid "04d62da0-d669-4353-b01c-420bab4b88af")
 	)
 	(wire
 		(pts
@@ -780,7 +690,47 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "ae610cd4-87c9-461c-bc91-55c5d12d36a5")
+		(uuid "2113da4c-879c-4fb5-8fd8-438447cfcf82")
+	)
+	(wire
+		(pts
+			(xy 109.22 83.82) (xy 119.38 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25f4deb1-aa74-48ae-a3b5-b09bc55ad99a")
+	)
+	(wire
+		(pts
+			(xy 190.5 88.9) (xy 220.98 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dff984f-d8b6-4461-989d-74a01909296b")
+	)
+	(wire
+		(pts
+			(xy 109.22 96.52) (xy 119.38 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "500a177a-35c7-4e5e-bb30-7a721e2d1707")
+	)
+	(wire
+		(pts
+			(xy 88.9 91.44) (xy 119.38 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52dd6a68-701e-4d0e-aaa8-38cf689ff298")
 	)
 	(wire
 		(pts
@@ -790,110 +740,57 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "cb69796e-1644-463f-bb05-039f912aff30")
+		(uuid "714371cd-3920-478f-8870-b618a7333b5e")
 	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 105.41 96.52 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0a19483e-5bbb-4191-89db-670e316c38f5")
-		(property "Reference" "R18"
-			(at 105.664 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+	(wire
+		(pts
+			(xy 190.5 83.82) (xy 200.66 83.82)
 		)
-		(property "Value" "10k, 0603"
-			(at 105.664 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(property "Footprint" "TwoTerminal:RESC0603"
-			(at 105.664 95.504 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(uuid "8d1700b3-85ab-4ce6-91ca-8d978a45fd00")
+	)
+	(wire
+		(pts
+			(xy 190.5 96.52) (xy 200.66 96.52)
 		)
-		(property "Datasheet" "~"
-			(at 105.41 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(property "Description" "Resistor, US symbol"
-			(at 105.41 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(uuid "9116c486-7922-4fea-be4b-3620264077cd")
+	)
+	(wire
+		(pts
+			(xy 99.06 86.36) (xy 119.38 86.36)
 		)
-		(property "Purchase Link" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW060310K0FKEA/1174782"
-			(at 105.41 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(property "Cost" "$0.10"
-			(at 105.41 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(uuid "94a1b4c4-8588-4c0b-8637-647fc01fc27a")
+	)
+	(wire
+		(pts
+			(xy 88.9 88.9) (xy 119.38 88.9)
 		)
-		(property "RoHS Compliant" "YES"
-			(at 105.41 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(property "Cost (qty10)" "$0.030"
-			(at 105.41 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(uuid "d6426f8d-d1cb-4f8e-8c22-5962a514111f")
+	)
+	(wire
+		(pts
+			(xy 190.5 86.36) (xy 210.82 86.36)
 		)
-		(pin "2"
-			(uuid "be94697a-b493-4518-8c41-abe93f8917b7")
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(pin "1"
-			(uuid "c86dc99a-63dd-4f61-8c74-cd2952cfdd52")
-		)
-		(instances
-			(project "PracticeBoard"
-				(path "/424a2905-d6ee-47e0-a55f-41cae3b03774/a655f2e2-b6df-4695-8998-87c5eb56c051"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "f2c5df45-1e1e-4c6f-93ae-e7f2399abeb3")
 	)
 	(symbol
 		(lib_id "Device:R_US")
@@ -904,8 +801,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1a3f934c-13b5-4191-aed2-8e5f80124539")
-		(property "Reference" "R25"
+		(uuid "01db4ed3-bf3c-4080-877f-d3b66b06d5ee")
+		(property "Reference" "R57"
 			(at 214.63 80.01 90)
 			(effects
 				(font
@@ -985,223 +882,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "514c5c4a-b038-44c1-ba13-82c607365fdb")
+			(uuid "dfda2f0d-4154-4323-8b8e-9ead3a6730c0")
 		)
 		(pin "1"
-			(uuid "ac6c9f18-545e-4f78-b0ad-a7017164f6a8")
+			(uuid "774966fd-66f1-4d89-a81a-0c30d9903b34")
 		)
 		(instances
 			(project "PracticeBoard"
-				(path "/424a2905-d6ee-47e0-a55f-41cae3b03774/a655f2e2-b6df-4695-8998-87c5eb56c051"
-					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 194.31 81.28 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1fee7372-d202-4fea-8bdf-ba2350d80345")
-		(property "Reference" "R21"
-			(at 194.31 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k, 0603"
-			(at 194.31 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TwoTerminal:RESC0603"
-			(at 194.564 80.264 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 194.31 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 194.31 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase Link" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW060310K0FKEA/1174782"
-			(at 194.31 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost" "$0.10"
-			(at 194.31 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RoHS Compliant" "YES"
-			(at 194.31 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost (qty10)" "$0.030"
-			(at 194.31 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "528c7468-a834-42cb-ab31-40cd1e3e8408")
-		)
-		(pin "1"
-			(uuid "a47c4046-4043-4d42-bc03-872a71bd22d3")
-		)
-		(instances
-			(project "PracticeBoard"
-				(path "/424a2905-d6ee-47e0-a55f-41cae3b03774/a655f2e2-b6df-4695-8998-87c5eb56c051"
-					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 224.79 88.9 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2babca73-0627-438c-a35a-a2545d694308")
-		(property "Reference" "R27"
-			(at 224.79 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k, 0603"
-			(at 224.79 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TwoTerminal:RESC0603"
-			(at 225.044 87.884 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 224.79 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 224.79 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase Link" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW060310K0FKEA/1174782"
-			(at 224.79 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost" "$0.10"
-			(at 224.79 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RoHS Compliant" "YES"
-			(at 224.79 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost (qty10)" "$0.030"
-			(at 224.79 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6a6270a9-e7c0-4f42-890f-81b44aa9c7ca")
-		)
-		(pin "1"
-			(uuid "74d876df-2fc5-4a98-b9f6-4ba3beec4218")
-		)
-		(instances
-			(project "PracticeBoard"
-				(path "/424a2905-d6ee-47e0-a55f-41cae3b03774/a655f2e2-b6df-4695-8998-87c5eb56c051"
-					(reference "R27")
+				(path "/424a2905-d6ee-47e0-a55f-41cae3b03774/df95cad7-8326-46fc-8b7b-b92375dcba47"
+					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -1215,8 +904,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2d9ff3f9-b845-473d-bd59-6efec72d835e")
-		(property "Reference" "R22"
+		(uuid "08706059-faa1-4549-a58c-0c3ad3d9eb66")
+		(property "Reference" "R54"
 			(at 194.564 102.616 90)
 			(effects
 				(font
@@ -1296,533 +985,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "995c4458-34c2-44f5-932a-8cb8b8777945")
+			(uuid "6e3ebef6-9df2-4775-89d1-89412553d9eb")
 		)
 		(pin "1"
-			(uuid "14e4f8f5-fd20-4e43-aa4b-48b159127590")
+			(uuid "0cf9eb14-05f3-4383-9d19-60ac23613658")
 		)
 		(instances
 			(project "PracticeBoard"
-				(path "/424a2905-d6ee-47e0-a55f-41cae3b03774/a655f2e2-b6df-4695-8998-87c5eb56c051"
-					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 95.25 86.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "32628c27-c567-4935-bb51-820fa7091137")
-		(property "Reference" "R15"
-			(at 95.25 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k, 0603"
-			(at 95.25 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TwoTerminal:RESC0603"
-			(at 95.504 85.344 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 95.25 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase Link" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW060310K0FKEA/1174782"
-			(at 95.25 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost" "$0.10"
-			(at 95.25 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RoHS Compliant" "YES"
-			(at 95.25 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost (qty10)" "$0.030"
-			(at 95.25 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7d11c9f5-822a-4aca-b5a4-49e976ccd14f")
-		)
-		(pin "1"
-			(uuid "341025ce-869d-4c91-90df-d871cf8cea9c")
-		)
-		(instances
-			(project "PracticeBoard"
-				(path "/424a2905-d6ee-47e0-a55f-41cae3b03774/a655f2e2-b6df-4695-8998-87c5eb56c051"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 105.41 83.82 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6b40182d-6fa0-46bf-bf29-39d56f1f1ac3")
-		(property "Reference" "R17"
-			(at 105.41 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k, 0603"
-			(at 105.41 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TwoTerminal:RESC0603"
-			(at 105.664 82.804 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 105.41 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 105.41 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase Link" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW060310K0FKEA/1174782"
-			(at 105.41 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost" "$0.10"
-			(at 105.41 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RoHS Compliant" "YES"
-			(at 105.41 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost (qty10)" "$0.030"
-			(at 105.41 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "743590cb-24ea-4584-8abd-32b28e4c8d01")
-		)
-		(pin "1"
-			(uuid "068093b8-2615-4cb4-83cf-9b023b896a45")
-		)
-		(instances
-			(project "PracticeBoard"
-				(path "/424a2905-d6ee-47e0-a55f-41cae3b03774/a655f2e2-b6df-4695-8998-87c5eb56c051"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 204.47 83.82 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "73e22b14-6c04-4c5f-a470-05e474bccf76")
-		(property "Reference" "R23"
-			(at 204.47 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k, 0603"
-			(at 204.47 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TwoTerminal:RESC0603"
-			(at 204.724 82.804 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 204.47 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 204.47 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase Link" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW060310K0FKEA/1174782"
-			(at 204.47 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost" "$0.10"
-			(at 204.47 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RoHS Compliant" "YES"
-			(at 204.47 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost (qty10)" "$0.030"
-			(at 204.47 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "70ec3254-0580-4b7c-acc6-36e0c8f69612")
-		)
-		(pin "1"
-			(uuid "2e74c71e-b303-4c2f-aed2-aa527b0ee18f")
-		)
-		(instances
-			(project "PracticeBoard"
-				(path "/424a2905-d6ee-47e0-a55f-41cae3b03774/a655f2e2-b6df-4695-8998-87c5eb56c051"
-					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 204.47 96.52 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b583f3f8-cfaf-46fc-b28f-0b610cf33faf")
-		(property "Reference" "R24"
-			(at 204.724 100.076 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k, 0603"
-			(at 204.724 102.616 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TwoTerminal:RESC0603"
-			(at 204.724 95.504 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 204.47 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 204.47 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase Link" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW060310K0FKEA/1174782"
-			(at 204.47 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost" "$0.10"
-			(at 204.47 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RoHS Compliant" "YES"
-			(at 204.47 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost (qty10)" "$0.030"
-			(at 204.47 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "172d6d23-127e-42bf-a12b-0c047ba68d99")
-		)
-		(pin "1"
-			(uuid "48558497-bd69-44a3-afb5-abccc5602655")
-		)
-		(instances
-			(project "PracticeBoard"
-				(path "/424a2905-d6ee-47e0-a55f-41cae3b03774/a655f2e2-b6df-4695-8998-87c5eb56c051"
-					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 224.79 91.44 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b7d6fa8a-80d7-4b32-9e83-b314400bd97b")
-		(property "Reference" "R28"
-			(at 225.044 94.996 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k, 0603"
-			(at 225.044 97.536 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TwoTerminal:RESC0603"
-			(at 225.044 90.424 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 224.79 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 224.79 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase Link" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW060310K0FKEA/1174782"
-			(at 224.79 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost" "$0.10"
-			(at 224.79 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RoHS Compliant" "YES"
-			(at 224.79 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost (qty10)" "$0.030"
-			(at 224.79 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9cc2f94f-d692-4887-9dbc-4c0faa43aba3")
-		)
-		(pin "1"
-			(uuid "0078a91c-e504-4744-88b6-fd4e086fdd57")
-		)
-		(instances
-			(project "PracticeBoard"
-				(path "/424a2905-d6ee-47e0-a55f-41cae3b03774/a655f2e2-b6df-4695-8998-87c5eb56c051"
-					(reference "R28")
+				(path "/424a2905-d6ee-47e0-a55f-41cae3b03774/df95cad7-8326-46fc-8b7b-b92375dcba47"
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -1836,8 +1007,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c89de401-94de-4d9f-a1f8-d3f85fc1954a")
-		(property "Reference" "R20"
+		(uuid "13dec5f1-7079-4ff3-b1d6-2cfa498e1f53")
+		(property "Reference" "R52"
 			(at 115.824 102.87 90)
 			(effects
 				(font
@@ -1917,15 +1088,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "463d31f7-f766-4287-8d44-449fa4a3b0a8")
+			(uuid "3c6dae62-d90e-420b-9334-a1d9d1f5ad92")
 		)
 		(pin "1"
-			(uuid "8de71278-543b-412a-bd5e-a3305853fe7e")
+			(uuid "8f93505b-a12f-4376-ada2-2f63b0735291")
 		)
 		(instances
 			(project "PracticeBoard"
-				(path "/424a2905-d6ee-47e0-a55f-41cae3b03774/a655f2e2-b6df-4695-8998-87c5eb56c051"
-					(reference "R20")
+				(path "/424a2905-d6ee-47e0-a55f-41cae3b03774/df95cad7-8326-46fc-8b7b-b92375dcba47"
+					(reference "R52")
 					(unit 1)
 				)
 			)
@@ -1933,15 +1104,16 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 95.25 93.98 90)
+		(at 115.57 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d81434ad-9cf6-42a6-b9ab-27f83fe6b0d3")
-		(property "Reference" "R16"
-			(at 95.504 97.79 90)
+		(fields_autoplaced yes)
+		(uuid "27029266-0110-40b4-b4ae-b431ea8fa5aa")
+		(property "Reference" "R51"
+			(at 115.57 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1949,7 +1121,7 @@
 			)
 		)
 		(property "Value" "10k, 0603"
-			(at 95.504 100.33 90)
+			(at 115.57 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1957,7 +1129,7 @@
 			)
 		)
 		(property "Footprint" "TwoTerminal:RESC0603"
-			(at 95.504 92.964 90)
+			(at 115.824 80.264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1966,7 +1138,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 93.98 0)
+			(at 115.57 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1975,7 +1147,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 95.25 93.98 0)
+			(at 115.57 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1984,7 +1156,7 @@
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW060310K0FKEA/1174782"
-			(at 95.25 93.98 0)
+			(at 115.57 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1993,7 +1165,7 @@
 			)
 		)
 		(property "Cost" "$0.10"
-			(at 95.25 93.98 0)
+			(at 115.57 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2002,7 +1174,7 @@
 			)
 		)
 		(property "RoHS Compliant" "YES"
-			(at 95.25 93.98 0)
+			(at 115.57 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2011,7 +1183,7 @@
 			)
 		)
 		(property "Cost (qty10)" "$0.030"
-			(at 95.25 93.98 0)
+			(at 115.57 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2020,15 +1192,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "0f71a9c2-abc8-4c4b-a8a9-1ffe7efc1aad")
+			(uuid "04f14611-36d4-4c2a-b94b-d960fc08b931")
 		)
 		(pin "1"
-			(uuid "166138a2-292c-4150-9934-a097dd77f5cd")
+			(uuid "622c986d-ffaf-442b-b035-7e7b5d0e1148")
 		)
 		(instances
 			(project "PracticeBoard"
-				(path "/424a2905-d6ee-47e0-a55f-41cae3b03774/a655f2e2-b6df-4695-8998-87c5eb56c051"
-					(reference "R16")
+				(path "/424a2905-d6ee-47e0-a55f-41cae3b03774/df95cad7-8326-46fc-8b7b-b92375dcba47"
+					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -2043,8 +1215,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e2f80ba1-1fdf-474a-9515-97bdbca77711")
-		(property "Reference" "U1"
+		(uuid "3cb10418-f691-4dfa-8b34-b543763fd850")
+		(property "Reference" "U3"
 			(at 154.94 71.12 0)
 			(effects
 				(font
@@ -2126,57 +1298,368 @@
 			)
 		)
 		(pin "15"
-			(uuid "51ad43a7-d540-4332-8f70-6ec67f67377e")
+			(uuid "5b49392a-cb89-4a45-bf57-04ca34299f62")
 		)
 		(pin "14"
-			(uuid "83f8f219-3596-4232-b5df-ef3b99c2470f")
+			(uuid "4deb03d5-55b7-42b5-a794-ca219125f33b")
 		)
 		(pin "1"
-			(uuid "2c06267a-6ebb-45e4-b6b9-3fadd65f9296")
+			(uuid "82f31967-be57-4eae-8fc6-b4d143994ceb")
 		)
 		(pin "2"
-			(uuid "f093609b-51de-4f61-b031-0af21e93afa5")
+			(uuid "cac1e17e-1055-49be-918b-31a7ab35a636")
 		)
 		(pin "3"
-			(uuid "bb459628-dd26-47c7-ad4c-48177d472047")
+			(uuid "04743181-fc89-4ebf-a0e0-8cf42f55ae52")
 		)
 		(pin "4"
-			(uuid "afbc9897-850d-45df-9cdb-4a42411e73ac")
+			(uuid "38b3c8dc-77b4-4dca-af8f-29abc7b02414")
 		)
 		(pin "5"
-			(uuid "670b82e0-e9b4-4af7-9312-ba5ac9a85d9c")
+			(uuid "5cdfda08-d1f9-4b10-b96f-9f8ec9a8ad12")
 		)
 		(pin "6"
-			(uuid "c91ae14f-12fc-42b3-b1f2-ec4197586420")
+			(uuid "aa003fef-be13-4a10-8ff1-49ba51d9746d")
 		)
 		(pin "7"
-			(uuid "813527ab-878b-4ced-b769-3283ba11ab15")
+			(uuid "ae12afb5-ae62-458d-bec6-cb927b1c8cbd")
 		)
 		(pin "8"
-			(uuid "b53cc3ed-a6c9-4963-8213-c859f45ee90e")
+			(uuid "6f5ecac4-1693-4699-9a43-1acc77dcb6a9")
 		)
 		(pin "16"
-			(uuid "45d30be7-3bf8-4ebb-bfdd-3b7074f6a21f")
+			(uuid "623501dd-0fa2-4b41-8b50-f98c1676e75c")
 		)
 		(pin "13"
-			(uuid "2e6d811e-f5f3-450b-a6a6-8f26b4399d54")
+			(uuid "8cbcf633-7297-4abd-b236-4eeee8995970")
 		)
 		(pin "12"
-			(uuid "b109edc0-c021-43da-b864-24ad2e50647a")
+			(uuid "c1c80587-98bb-4199-9b6d-f074736da318")
 		)
 		(pin "11"
-			(uuid "8588d467-1d71-4348-b649-2f9e6c589115")
+			(uuid "82885ba9-9b75-49c1-a688-f300180ba055")
 		)
 		(pin "10"
-			(uuid "50fb6b5c-7279-45c5-a4ec-38d5c41f11e5")
+			(uuid "98fd7294-38ad-4f80-88a0-c33d7f8bb47c")
 		)
 		(pin "9"
-			(uuid "d50c72c0-ec81-4b46-91ba-341cc8b7f6a8")
+			(uuid "e6450a56-357c-4012-8601-385b220eca44")
 		)
 		(instances
-			(project ""
-				(path "/424a2905-d6ee-47e0-a55f-41cae3b03774/a655f2e2-b6df-4695-8998-87c5eb56c051"
-					(reference "U1")
+			(project "PracticeBoard"
+				(path "/424a2905-d6ee-47e0-a55f-41cae3b03774/df95cad7-8326-46fc-8b7b-b92375dcba47"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 204.47 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "566b1642-490b-4263-997b-90fd4b7d2462")
+		(property "Reference" "R55"
+			(at 204.47 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k, 0603"
+			(at 204.47 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TwoTerminal:RESC0603"
+			(at 204.724 82.804 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 204.47 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW060310K0FKEA/1174782"
+			(at 204.47 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "$0.10"
+			(at 204.47 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Compliant" "YES"
+			(at 204.47 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost (qty10)" "$0.030"
+			(at 204.47 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "29d7821f-460e-403e-8f4a-29aba15395a3")
+		)
+		(pin "1"
+			(uuid "3c7a308d-23b2-4eb5-a846-45a687c98feb")
+		)
+		(instances
+			(project "PracticeBoard"
+				(path "/424a2905-d6ee-47e0-a55f-41cae3b03774/df95cad7-8326-46fc-8b7b-b92375dcba47"
+					(reference "R55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 95.25 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fea0ae9-0f52-404e-ada8-11ba72e0170b")
+		(property "Reference" "R47"
+			(at 95.25 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k, 0603"
+			(at 95.25 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TwoTerminal:RESC0603"
+			(at 95.504 85.344 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 95.25 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW060310K0FKEA/1174782"
+			(at 95.25 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "$0.10"
+			(at 95.25 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Compliant" "YES"
+			(at 95.25 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost (qty10)" "$0.030"
+			(at 95.25 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "53c512bf-03d0-41bd-a4c6-58251be9c3f9")
+		)
+		(pin "1"
+			(uuid "d2f3e377-3020-4863-b068-acf09148bed3")
+		)
+		(instances
+			(project "PracticeBoard"
+				(path "/424a2905-d6ee-47e0-a55f-41cae3b03774/df95cad7-8326-46fc-8b7b-b92375dcba47"
+					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 224.79 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "629c8ccb-5bf7-44e4-aca6-febc6ce667de")
+		(property "Reference" "R60"
+			(at 225.044 94.996 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k, 0603"
+			(at 225.044 97.536 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TwoTerminal:RESC0603"
+			(at 225.044 90.424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 224.79 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW060310K0FKEA/1174782"
+			(at 224.79 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "$0.10"
+			(at 224.79 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Compliant" "YES"
+			(at 224.79 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost (qty10)" "$0.030"
+			(at 224.79 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "752f29f9-ae13-4ba0-896e-b688505fa92c")
+		)
+		(pin "1"
+			(uuid "d20d6cc0-928d-4d4c-ad03-d2d21a1f2d1f")
+		)
+		(instances
+			(project "PracticeBoard"
+				(path "/424a2905-d6ee-47e0-a55f-41cae3b03774/df95cad7-8326-46fc-8b7b-b92375dcba47"
+					(reference "R60")
 					(unit 1)
 				)
 			)
@@ -2190,8 +1673,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ea770a37-0ef2-4f00-9fa5-7e5cb1658f83")
-		(property "Reference" "R14"
+		(uuid "6475be67-e26b-4eb6-8dd8-d5a06a470948")
+		(property "Reference" "R46"
 			(at 85.344 95.25 90)
 			(effects
 				(font
@@ -2271,15 +1754,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "babac1e6-9c78-42db-ab14-44eebc94ab4a")
+			(uuid "62260f53-a1e0-4ae9-ab2c-9da236f9d769")
 		)
 		(pin "1"
-			(uuid "cba51686-71cb-4104-abcc-7ceb6efbedd3")
+			(uuid "00de9be0-cc26-49f6-89d7-714dc005a9c9")
 		)
 		(instances
 			(project "PracticeBoard"
-				(path "/424a2905-d6ee-47e0-a55f-41cae3b03774/a655f2e2-b6df-4695-8998-87c5eb56c051"
-					(reference "R14")
+				(path "/424a2905-d6ee-47e0-a55f-41cae3b03774/df95cad7-8326-46fc-8b7b-b92375dcba47"
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -2287,15 +1770,16 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 214.63 93.98 90)
+		(at 194.31 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ef14decc-1bd9-4ed1-bf65-fc984383f201")
-		(property "Reference" "R26"
-			(at 214.884 97.536 90)
+		(fields_autoplaced yes)
+		(uuid "6f074a14-4856-4415-9e0e-a8ea3dc92125")
+		(property "Reference" "R53"
+			(at 194.31 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2303,7 +1787,7 @@
 			)
 		)
 		(property "Value" "10k, 0603"
-			(at 214.884 100.076 90)
+			(at 194.31 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2311,7 +1795,7 @@
 			)
 		)
 		(property "Footprint" "TwoTerminal:RESC0603"
-			(at 214.884 92.964 90)
+			(at 194.564 80.264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2320,7 +1804,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 214.63 93.98 0)
+			(at 194.31 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2329,7 +1813,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 214.63 93.98 0)
+			(at 194.31 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2338,7 +1822,7 @@
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW060310K0FKEA/1174782"
-			(at 214.63 93.98 0)
+			(at 194.31 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2347,7 +1831,7 @@
 			)
 		)
 		(property "Cost" "$0.10"
-			(at 214.63 93.98 0)
+			(at 194.31 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2356,7 +1840,7 @@
 			)
 		)
 		(property "RoHS Compliant" "YES"
-			(at 214.63 93.98 0)
+			(at 194.31 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2365,7 +1849,7 @@
 			)
 		)
 		(property "Cost (qty10)" "$0.030"
-			(at 214.63 93.98 0)
+			(at 194.31 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2374,15 +1858,429 @@
 			)
 		)
 		(pin "2"
-			(uuid "7f22a2aa-534e-4ac6-9dd8-636b906ccbbd")
+			(uuid "b4198435-659c-48aa-9361-54c6ceb0ab01")
 		)
 		(pin "1"
-			(uuid "87155480-723a-4e1d-808b-b5344484d13b")
+			(uuid "ded51cee-d6f1-4a59-abbd-60080bd90cad")
 		)
 		(instances
 			(project "PracticeBoard"
-				(path "/424a2905-d6ee-47e0-a55f-41cae3b03774/a655f2e2-b6df-4695-8998-87c5eb56c051"
-					(reference "R26")
+				(path "/424a2905-d6ee-47e0-a55f-41cae3b03774/df95cad7-8326-46fc-8b7b-b92375dcba47"
+					(reference "R53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 105.41 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a527bf57-25db-4f12-8b87-4970e97b6f4e")
+		(property "Reference" "R49"
+			(at 105.41 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k, 0603"
+			(at 105.41 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TwoTerminal:RESC0603"
+			(at 105.664 82.804 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 105.41 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW060310K0FKEA/1174782"
+			(at 105.41 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "$0.10"
+			(at 105.41 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Compliant" "YES"
+			(at 105.41 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost (qty10)" "$0.030"
+			(at 105.41 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "46af162d-2b20-438a-8c3b-c815d126da4a")
+		)
+		(pin "1"
+			(uuid "47a82717-61a7-4de1-a1f6-a07823b876ff")
+		)
+		(instances
+			(project "PracticeBoard"
+				(path "/424a2905-d6ee-47e0-a55f-41cae3b03774/df95cad7-8326-46fc-8b7b-b92375dcba47"
+					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 105.41 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a97eaa29-5806-4ce7-add7-fada487c4ac0")
+		(property "Reference" "R50"
+			(at 105.664 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k, 0603"
+			(at 105.664 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TwoTerminal:RESC0603"
+			(at 105.664 95.504 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 105.41 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW060310K0FKEA/1174782"
+			(at 105.41 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "$0.10"
+			(at 105.41 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Compliant" "YES"
+			(at 105.41 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost (qty10)" "$0.030"
+			(at 105.41 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "001b6b68-90d8-4ad4-9315-d4f144178018")
+		)
+		(pin "1"
+			(uuid "253e3c8a-92fb-462e-9315-e24e0818d7ef")
+		)
+		(instances
+			(project "PracticeBoard"
+				(path "/424a2905-d6ee-47e0-a55f-41cae3b03774/df95cad7-8326-46fc-8b7b-b92375dcba47"
+					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 204.47 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab15cdbe-4858-4c85-adb5-d52d517208f2")
+		(property "Reference" "R56"
+			(at 204.724 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k, 0603"
+			(at 204.724 102.616 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TwoTerminal:RESC0603"
+			(at 204.724 95.504 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 204.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW060310K0FKEA/1174782"
+			(at 204.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "$0.10"
+			(at 204.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Compliant" "YES"
+			(at 204.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost (qty10)" "$0.030"
+			(at 204.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2774927d-dbc6-4646-91b0-9aa0a2673692")
+		)
+		(pin "1"
+			(uuid "d986075f-38c6-400b-84d4-b0674f1bfa59")
+		)
+		(instances
+			(project "PracticeBoard"
+				(path "/424a2905-d6ee-47e0-a55f-41cae3b03774/df95cad7-8326-46fc-8b7b-b92375dcba47"
+					(reference "R56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 224.79 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af43f338-add1-4b8a-8134-37c42bc6aee9")
+		(property "Reference" "R59"
+			(at 224.79 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k, 0603"
+			(at 224.79 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TwoTerminal:RESC0603"
+			(at 225.044 87.884 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 224.79 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW060310K0FKEA/1174782"
+			(at 224.79 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "$0.10"
+			(at 224.79 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Compliant" "YES"
+			(at 224.79 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost (qty10)" "$0.030"
+			(at 224.79 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a8c5cb24-8f37-4c82-adfe-4da25384d63f")
+		)
+		(pin "1"
+			(uuid "68a8b684-9424-48fa-931a-f2aa8bcf37d0")
+		)
+		(instances
+			(project "PracticeBoard"
+				(path "/424a2905-d6ee-47e0-a55f-41cae3b03774/df95cad7-8326-46fc-8b7b-b92375dcba47"
+					(reference "R59")
 					(unit 1)
 				)
 			)
@@ -2397,8 +2295,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f56decdd-de5a-42e9-bb7d-852bd71c3baa")
-		(property "Reference" "R13"
+		(uuid "bac391d6-ad5f-4db3-9416-452f1d305f4f")
+		(property "Reference" "R45"
 			(at 85.09 82.55 90)
 			(effects
 				(font
@@ -2478,15 +2376,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "e83ecccc-2119-43b5-9599-190cd14e4301")
+			(uuid "608bf03b-8f99-483f-b356-f29b0871b6de")
 		)
 		(pin "1"
-			(uuid "3d54f564-c1a4-4dbc-8383-33635b7ba1e1")
+			(uuid "060e74fb-f6cb-4d8a-9719-79618934a595")
 		)
 		(instances
 			(project "PracticeBoard"
-				(path "/424a2905-d6ee-47e0-a55f-41cae3b03774/a655f2e2-b6df-4695-8998-87c5eb56c051"
-					(reference "R13")
+				(path "/424a2905-d6ee-47e0-a55f-41cae3b03774/df95cad7-8326-46fc-8b7b-b92375dcba47"
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -2494,16 +2392,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 115.57 81.28 90)
+		(at 95.25 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f69fb799-03a4-4f69-a1c9-6d183f4b401e")
-		(property "Reference" "R19"
-			(at 115.57 74.93 90)
+		(uuid "e2c6ead3-2c28-4206-b931-06a67a037592")
+		(property "Reference" "R48"
+			(at 95.504 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2511,7 +2408,7 @@
 			)
 		)
 		(property "Value" "10k, 0603"
-			(at 115.57 77.47 90)
+			(at 95.504 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2519,7 +2416,7 @@
 			)
 		)
 		(property "Footprint" "TwoTerminal:RESC0603"
-			(at 115.824 80.264 90)
+			(at 95.504 92.964 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2528,7 +2425,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 81.28 0)
+			(at 95.25 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2537,7 +2434,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 115.57 81.28 0)
+			(at 95.25 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2546,7 +2443,7 @@
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW060310K0FKEA/1174782"
-			(at 115.57 81.28 0)
+			(at 95.25 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2555,7 +2452,7 @@
 			)
 		)
 		(property "Cost" "$0.10"
-			(at 115.57 81.28 0)
+			(at 95.25 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2564,7 +2461,7 @@
 			)
 		)
 		(property "RoHS Compliant" "YES"
-			(at 115.57 81.28 0)
+			(at 95.25 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2573,7 +2470,7 @@
 			)
 		)
 		(property "Cost (qty10)" "$0.030"
-			(at 115.57 81.28 0)
+			(at 95.25 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2582,15 +2479,118 @@
 			)
 		)
 		(pin "2"
-			(uuid "1d3d830f-e0b2-4a2e-9006-23360789c4af")
+			(uuid "109ce6d6-be18-4a53-841d-c0c473e33a04")
 		)
 		(pin "1"
-			(uuid "285dee61-31d1-47f3-8301-e087cd6bd6c7")
+			(uuid "05843f3b-4d1c-4da6-af9e-f37241b07578")
 		)
 		(instances
-			(project ""
-				(path "/424a2905-d6ee-47e0-a55f-41cae3b03774/a655f2e2-b6df-4695-8998-87c5eb56c051"
-					(reference "R19")
+			(project "PracticeBoard"
+				(path "/424a2905-d6ee-47e0-a55f-41cae3b03774/df95cad7-8326-46fc-8b7b-b92375dcba47"
+					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 214.63 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e38d8277-bb44-4389-bef8-2c21f08ab7e7")
+		(property "Reference" "R58"
+			(at 214.884 97.536 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k, 0603"
+			(at 214.884 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TwoTerminal:RESC0603"
+			(at 214.884 92.964 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 214.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW060310K0FKEA/1174782"
+			(at 214.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "$0.10"
+			(at 214.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Compliant" "YES"
+			(at 214.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost (qty10)" "$0.030"
+			(at 214.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f54ba05a-705a-43b3-b695-f1f03be076de")
+		)
+		(pin "1"
+			(uuid "82cc42aa-ab2d-4095-becf-4364c393116e")
+		)
+		(instances
+			(project "PracticeBoard"
+				(path "/424a2905-d6ee-47e0-a55f-41cae3b03774/df95cad7-8326-46fc-8b7b-b92375dcba47"
+					(reference "R58")
 					(unit 1)
 				)
 			)

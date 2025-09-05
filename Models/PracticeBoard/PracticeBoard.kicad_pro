@@ -665,6 +665,14 @@
     [
       "a655f2e2-b6df-4695-8998-87c5eb56c051",
       "Chip1"
+    ],
+    [
+      "9d82000a-c07a-4bec-83e4-d92f505b9f0c",
+      "Chip2"
+    ],
+    [
+      "df95cad7-8326-46fc-8b7b-b92375dcba47",
+      "Chip3"
     ]
   ],
   "text_variables": {}
