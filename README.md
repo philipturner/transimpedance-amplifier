@@ -38,6 +38,7 @@ Table of Contents:
 - [August 28, 2025](#august-28-2025)
 - [August 29, 2025](#august-29-2025)
 - [September 1, 2025](#september-1-2025)
+- [September 7, 2025](#september-7-2025)
 
 ## July 26, 2025
 
@@ -541,3 +542,11 @@ Interesting links and ideas for future reference:
 ## September 1, 2025
 
 ![PCB Render](./Documentation/New/PCB_Render.jpg)
+
+## September 7, 2025
+
+Things are not looking good. I am having an argument about who is going to fund the bill of materials, and its implications for my wider financial security. I was going to purchase everything today, but things just went off schedule.
+
+There is a good chance I will purchase everything out of pocket. DIY projects don't really need crowdfunding; they're the scale of money accessible to any average person. It's the big things like getting a salary so you can spend 100% of your time working on something, that requires serious and secure funding. I started reading the Wikipedia series on [corporate law](https://en.wikipedia.org/wiki/Corporate_law).
+
+On the hobby side, I am feeling burnt out on Minecraft. I might be gravitating back toward the hobby of Swift programming for "nanotech CAD", which is just for personal enjoyment and not financial stability.
