@@ -14,7 +14,7 @@ Phase 0.1 of the [APM Roadmap](https://github.com/philipturner/apm-roadmap)
 
 Objective: Gather as much data as possible about the TIA sensor of an STM, using both theory and experiment.
 
-Deadline: Sep 30, 2025 for the first physical prototype
+Deadline: September 30, 2025 for the first physical prototype
 
 Table of Contents:
 - [July 26, 2025](#july-26-2025)
