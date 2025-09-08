@@ -565,3 +565,15 @@ I will be reimbursed for all of this, and receive back pay for the person hours 
 ---
 
 TODO: Upload screenshots of the confirmation emails with personal information redacted.
+
+---
+
+TODO: Upload screenshots specifically regarding OSH Park
+
+---
+
+TODO: Upload screenshots specifically regarding DigiKey
+
+---
+
+TODO: Upload screenshots specifically regarding Amazon
