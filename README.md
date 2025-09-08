@@ -588,4 +588,10 @@ TODO: Upload screenshots specifically regarding DigiKey
 
 ### Amazon Invoice
 
-TODO: Upload screenshots specifically regarding Amazon
+<p align="center">
+&nbsp;
+  <img src="./Documentation/Orders/Amazon/Amazon_Invoice_1.png" width="44.96%">
+&nbsp;&nbsp;
+  <img src="./Documentation/Orders/Amazon/Amazon_Invoice_2.png" width="45.04%">
+&nbsp;
+</p>
