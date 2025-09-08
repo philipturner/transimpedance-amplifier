@@ -562,18 +562,24 @@ I am going to order all equipment today, out of pocket. Previously, I used a cro
 
 I will be reimbursed for all of this, and receive back pay for the person hours spent on the Transimpedance Amplifier project, once I have financial stability. I will never resort to working part-time in unrelated jobs such as the AI field. I will always spend my time how I see fit, for my own priorities, on nobody else's schedule. Real world hardware is what gets serious funding.
 
----
+### Confirmation Emails
 
-TODO: Upload screenshots of the confirmation emails with personal information redacted. In the sequence they were actually ordered.
+![Emails - OSH Park](./Documentation/Orders/Email/OSH_Park.png)
 
----
+![Emails - DigiKey](./Documentation/Orders/Email/DigiKey.png)
+
+![Emails - SparkFun](./Documentation/Orders/Email/SparkFun.png)
+
+![Emails - Amazon](./Documentation/Orders/Email/Amazon.png)
+
+### OSH Park Invoice
 
 TODO: Upload screenshots specifically regarding OSH Park
 
----
+### DigiKey Invoice
 
 TODO: Upload screenshots specifically regarding DigiKey
 
----
+### Amazon Invoice
 
 TODO: Upload screenshots specifically regarding Amazon
