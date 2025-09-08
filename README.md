@@ -560,8 +560,6 @@ I am going to order all equipment today, out of pocket. Previously, I used a cro
 
 ![September 8, Part 1](./Documentation/New/September8_Part1.png)
 
-_BOM calculated at the time of writing. Subject to small changes from day-to-day price fluctuations._
-
 I will be reimbursed for all of this, and receive back pay for the person hours spent on the Transimpedance Amplifier project, once I have financial stability. I will never resort to working part-time in unrelated jobs such as the AI field. I will always spend my time how I see fit, for my own priorities, on nobody else's schedule. Real world hardware is what gets serious funding.
 
 ---
