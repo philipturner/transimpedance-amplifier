@@ -574,7 +574,13 @@ I will be reimbursed for all of this, and receive back pay for the person hours 
 
 ### OSH Park Invoice
 
-TODO: Upload screenshots specifically regarding OSH Park
+<p align="center">
+&nbsp;
+  <img src="./Documentation/Orders/OSHPark/OSH_Park_Invoice_1.png" width="44.44%">
+&nbsp;&nbsp;
+  <img src="./Documentation/Orders/OSHPark/OSH_Park_Invoice_2.png" width="45.56%">
+&nbsp;
+</p>
 
 ### DigiKey Invoice
 
