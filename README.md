@@ -564,7 +564,7 @@ I will be reimbursed for all of this, and receive back pay for the person hours 
 
 ---
 
-TODO: Upload screenshots of the confirmation emails with personal information redacted.
+TODO: Upload screenshots of the confirmation emails with personal information redacted. In the sequence they were actually ordered.
 
 ---
 
