@@ -39,6 +39,7 @@ Table of Contents:
 - [August 29, 2025](#august-29-2025)
 - [September 1, 2025](#september-1-2025)
 - [September 7, 2025](#september-7-2025)
+- [September 8, 2025](#september-8-2025)
 
 ## July 26, 2025
 
@@ -550,3 +551,19 @@ Things are not looking good. I am having an argument about who is going to fund 
 There is a good chance I will purchase everything out of pocket. DIY projects don't really need crowdfunding; they're the scale of money accessible to any average person. It's the big things like getting a salary so you can spend 100% of your time working on something, that requires serious and secure funding. I started reading the Wikipedia series on [corporate law](https://en.wikipedia.org/wiki/Corporate_law).
 
 On the hobby side, I am feeling burnt out on Minecraft. I might be gravitating back toward the hobby of Swift programming for "nanotech CAD", which is just for personal enjoyment and not financial stability.
+
+## September 8, 2025
+
+I am going to order all equipment today, out of pocket. Previously, I used a crowd-funding/group-funding approach, where 2-3 people split the bill for an order of ~$100. Looks like that approach no longer scales when I need $800 purchases on a timely deadline. That's where you benefit from liquid funds you have direct control over, in your own bank account. Money buys time.
+
+[Bill of Materials (Google Sheets)](https://docs.google.com/spreadsheets/d/1QVJOiaRJbdRXN7CXii3z91K5A64h3VmgLCsRjpDpIrQ/edit?gid=1651612763#gid=1651612763)
+
+![September 8, Part 1](./Documentation/New/September8_Part1.png)
+
+_BOM calculated at the time of writing. Subject to small changes from day-to-day price fluctuations._
+
+I will be reimbursed for all of this, and receive back pay for the person hours spent on the Transimpedance Amplifier project, once I have financial stability. I will never resort to working part-time in unrelated jobs such as the AI field. I will always spend my time how I see fit, for my own priorities, on nobody else's schedule. Real world hardware is what gets serious funding.
+
+---
+
+TODO: Upload screenshots of the confirmation emails with personal information redacted.
