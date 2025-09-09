@@ -40,6 +40,7 @@ Table of Contents:
 - [September 1, 2025](#september-1-2025)
 - [September 7, 2025](#september-7-2025)
 - [September 8, 2025](#september-8-2025)
+- [September 9, 2025](#september-9-2025)
 
 ## July 26, 2025
 
@@ -606,3 +607,23 @@ I will be reimbursed for all of this, and receive back pay for the person hours 
   <img src="./Documentation/Orders/Amazon/Amazon_Invoice_2.png" width="45.04%">
 &nbsp;
 </p>
+
+## September 9, 2025
+
+I just had a brilliant idea, and was very delighted by it. However, I think it's best to continue my break from the hardware stuff. It's bad for my state of mind, to suddenly switch contexts like this. Whether the system eigenfrequency is sufficient, is one of many make-or-break unknowns.
+
+Setting up an FEM simulation in FreeCAD of Phase IV system eigenfrequency
+- Worst-case option needing 500 nm range on all coarse axes, and the fine Z axis
+- 2 kinematic mounts stacked on top of each other for X and Y
+- Unable to recycle coarse axes as fine axes
+- Put this in the transimpedance-amplifier repo for convenience
+
+On the other hand, perhaps I can simplify the system geometry to make the simulation more accessible. The nanoasperities of the kinematic mounts should not be explicitly modeled. I don't know what their effect is on the ultimate result, but there are probably more important big ideas. I think I can finish this entire simulation tonight.
+
+| Material | Young's Modulus | Density | Speed of Sound |
+| -------- | --------------: | ------: | -------------: |
+| Lithium Niobate |
+| Steel           |
+| Alumina         |
+| Epoxy           |
+| Copper          |
