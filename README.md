@@ -629,4 +629,4 @@ On the other hand, perhaps I can simplify the system geometry to make the simula
 | Epoxy           | 3&ndash;30 GPa | 1.1&ndash;1.43 g/mL | 1650&ndash;4580 m/s |
 | Copper          | 110-128 GPa | 8.96 g/mL | 3500&ndash;3800 m/s |
 
-It might be valid to just use the material parameters for aluminum, which I used in previous eigenfrequency simulation. Not messing with multi-material FEM simulations, which are a pain to set up and seem to break the FEM simulator for eigenfrequency.
+It might be valid to just use the material parameters for aluminum, which I used in previous eigenfrequency simulations. Not messing with multi-material FEM simulations, which are a pain to set up and seem to break the FEM simulator for eigenfrequency.
