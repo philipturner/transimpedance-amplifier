@@ -630,3 +630,5 @@ On the other hand, perhaps I can simplify the system geometry to make the simula
 | Copper          | 110-128 GPa | 8.96 g/mL | 3500&ndash;3800 m/s |
 
 It might be valid to just use the material parameters for aluminum, which I used in previous eigenfrequency simulations. Not messing with multi-material FEM simulations, which are a pain to set up and seem to break the FEM simulator for eigenfrequency.
+
+I am using the Aluminum-Generic default in FreeCAD, which sets the Young's modulus to 70 GPa.
