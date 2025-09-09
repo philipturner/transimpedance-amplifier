@@ -622,8 +622,11 @@ On the other hand, perhaps I can simplify the system geometry to make the simula
 
 | Material | Young's Modulus | Density | Speed of Sound |
 | -------- | --------------: | ------: | -------------: |
-| Lithium Niobate |
-| Steel           |
-| Alumina         |
-| Epoxy           |
-| Copper          |
+| Lithium Niobate | 181&ndash;202 GPa | 4.64 g/mL | 6250&ndash;6560 m/s |
+| Steel           | 190-210 GPa | 7.75-8.05 g/mL | 4950&ndash;5110 m/s |
+| Aluminum Oxide  | 370-400 GPa | 3.99 g/mL | 9630&ndash;10010 m/s |
+| Aluminum        | 69-70 GPa | 2.70 g/mL | 5060&ndash;5090 m/s |
+| Epoxy           | 3&ndash;30 GPa | 1.1&ndash;1.43 g/mL | 1650&ndash;4580 m/s |
+| Copper          | 110-128 GPa | 8.96 g/mL | 3500&ndash;3800 m/s |
+
+It might be valid to just use the material parameters for aluminum, which I used in previous eigenfrequency simulation. Not messing with multi-material FEM simulations, which are a pain to set up and seem to break the FEM simulator for eigenfrequency.
