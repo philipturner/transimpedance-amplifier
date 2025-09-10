@@ -698,3 +698,23 @@ Assume a conservative 800 (±400) V to avoid exceeding absolute maximum ratings,
 If the coarse piezo can also perform fine motion without sliding or variation of nm/V calibration, we can eliminate the Fine X and Fine Y piezos in Phase IV. The Fine Z piezo would remain, to be conservative.
 
 The plate count is 30/54/114 for Phase I/II/IV. Assuming the current price for 10 mm, X-cut plates from Crystal Substrates ($27.60 each), that is $828/1460/3146. But this number doesn't include spares needed for failed piezo stack fabrication attempts. We should employ modular, reversibly bondable design techniques to allow recycling of piezoactuators from partially broken complete systems. That will minimize the number of spares needed.
+
+### Sensors
+
+| Device | Type | Phase I | Phase II | Phase IV |
+| ------ | ---- | :-----: | :------: | :------: |
+| Coarse X | DAC output | | | ✅ |
+| Coarse Y | DAC output | | | ✅ |
+| Coarse Z | DAC output | ✅ | ✅ | ✅ |
+| Fine X   | DAC output | | ✅ | TBD |
+| Fine Y   | DAC output | | ✅ | TBD |
+| Fine Z   | DAC output | | ✅ | ✅ |
+| Bias     | DAC output | ✅ | ✅ | ✅ |
+| C<sub>comp</sub> calibration | MDAC | ✅ | ✅ | TBD |
+| Tunneling current | ADC input | ✅ | ✅ | ✅ |
+| AD7745 (not yet sure) | I2C interface | TBD | | |
+| Michelson interferometer X | TBD | | | ✅ |
+| Michelson interferometer Y | TBD | | | ✅ |
+| Michelson interferometer Z | TBD | | | ✅ |
+
+In the DAC81404, the full-scale output range for each DAC channel is independently programmable. This avoids any constraint that the bias voltage might need to use a different DAC than the piezos. The piezos DACs use the ±20 V mode, amplifying with a 20 V/V gain factor to ±400 V. The bias uses the ±10 V mode.
