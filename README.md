@@ -677,3 +677,24 @@ I chose a reputable vendor on Amazon, who specializes in manufacturing PPE. Thei
 ![September 10, Part 1](./Documentation/New/September10_Part1.jpg)
 
 I retroactively included the high-voltage gloves in the BOM spreadsheet, under a "Late Purchases" category. I tabulated it as an "Amazon 2" order to simplify the accounting of different orders.
+
+---
+
+I read the datasheet for the Apex PA94 (900 V, 140 MHz) and the application note "General Operating Procedures". A first glance at the safe operating area has us worried, with 21 W quiescent power dissipation possibly overheating the device. The application note highlights that this specific concern is false for the high-voltage, high-speed products like PA94. I can operate it at 900 V and low output current with no problems.
+
+The amplifier requires a bipolar ±450 V supply, not a unipolar 900 V. This is because the two input pins cannot be more than 450 V away from either supply pin. So the old idea of having a GND line and a 900 V line, then multiplexing them to double the effective range, cannot work. There's still an option to have two Apex op amps per piezo actuator (one driving each set of alternating plates), but this defeats the whole point of the original idea. So we've resolved the unknown regarding whether piezo range can be doubled for free.
+
+Assume a conservative 800 (±400) V to avoid exceeding absolute maximum ratings, as a result of component tolerances. We have now resolved several unknowns regarding the system mechanics:
+
+| Actuator | Piezo Plates | Range | DAC INL Imprecision |
+| -------- | -----------: | ----: | ------------------: |
+| Coarse X | 3 x 10       | 544 nm | ±8 pm |
+| Coarse Y | 3 x 10       | 544 nm | ±8 pm |
+| Coarse Z | 3 x 10       | 544 nm | ±8 pm |
+| Fine X   | 6            | 326 nm | ±5 pm |
+| Fine Y   | 6            | 326 nm | ±5 pm |
+| Fine Z   | 12           | 652 nm | ±10 pm |
+
+If the coarse piezo can also perform fine motion without sliding or variation of nm/V calibration, we can eliminate the Fine X and Fine Y piezos in Phase IV. The Fine Z piezo would remain, to be conservative.
+
+The plate count is 30/54/114 for Phase I/II/IV. Assuming the current price for 10 mm, X-cut plates from Crystal Substrates ($27.60 each), that is $828/1460/3146. But this number doesn't include spares needed for failed piezo stack fabrication attempts. We should employ modular, reversibly bondable design techniques to allow recycling of piezoactuators from partially broken complete systems. That will minimize the number of spares needed.
