@@ -701,20 +701,24 @@ The plate count is 30/54/114 for Phase I/II/IV. Assuming the current price for 1
 
 ### Sensors
 
-| Device | Type | Phase I | Phase II | Phase IV |
-| ------ | ---- | :-----: | :------: | :------: |
-| Coarse X | DAC output | | | ✅ |
-| Coarse Y | DAC output | | | ✅ |
-| Coarse Z | DAC output | ✅ | ✅ | ✅ |
-| Fine X   | DAC output | | ✅ | TBD |
-| Fine Y   | DAC output | | ✅ | TBD |
-| Fine Z   | DAC output | | ✅ | ✅ |
-| Bias     | DAC output | ✅ | ✅ | ✅ |
-| C<sub>comp</sub> calibration | MDAC | ✅ | ✅ | TBD |
-| Tunneling current | ADC input | ✅ | ✅ | ✅ |
-| AD7745 (not yet sure) | I2C interface | TBD | | |
-| Michelson interferometer X | TBD | | | ✅ |
-| Michelson interferometer Y | TBD | | | ✅ |
-| Michelson interferometer Z | TBD | | | ✅ |
+| Device | Type | Phase 0.2 | Phase I | Phase II | Phase IV |
+| ------ | ---- | :-------: | :-----: | :------: | :------: |
+| Coarse X | DAC output | | | | ✅ |
+| Coarse Y | DAC output | | | | ✅ |
+| Coarse Z | DAC output | | ✅ | ✅ | ✅ |
+| Fine X   | DAC output | | | ✅ | TBD |
+| Fine Y   | DAC output | | | ✅ | TBD |
+| Fine Z   | DAC output | ✅ | | ✅ | ✅ |
+| Bias     | DAC output | TBD | TBD | ✅ | ✅ |
+| V<sub>comp</sub> calibration | MDAC | TBD | TBD | ✅ | TBD |
+| Tunneling current | ADC input | TBD | TBD | ✅ | ✅ |
+| AD7745            | I2C interface | TBD | TBD | | | |
+| Michelson interferometer X | TBD | | | | ✅ |
+| Michelson interferometer Y | TBD | | | | ✅ |
+| Michelson interferometer Z | TBD | | | | ✅ |
 
 In the DAC81404, the full-scale output range for each DAC channel is independently programmable. This avoids any constraint that the bias voltage might need to use a different DAC than the piezos. The piezo DACs use the ±20 V mode, amplifying with a 20 V/V gain factor to ±400 V. The bias uses the ±10 V mode.
+
+The AD7745 must be reversibly bondable to the Islam-Beamish junction. It cannot be used simultaneously with the custom TIA-based capacitance sensor. It also cannot be fed into a UHV chamber (too much parasitic capacitance on the coaxial cables). It is mostly a test, like a simpler backup option. In much the same way as the 100 MΩ amplifier in Phase 0.1. There are still unknowns regarding the mechanical configuration of the compensation capacitor, especially with an Islam-Beamish junction. The custom capacitance sensor was designed for a standard STM tunneling junction, where the compensation capacitance may differ from the tip-sample capacitance by an order of magnitude. The AD7745 has a built-in compensation capacitance (7-bit CAPDAC) and thus may be more suited for an Islam-Beamish junction.
+
+The custom capacitance sensor is a <b>substitute for the Z-axis Michelson interferometer</b> from Phase IV. It cannot detect the surface position on first-time tip approach. Instead, one must hope the cryogenic UHV chamber supports optical windows to perform coarse approach by eye. Assume this needs to be automated through computer vision (CCD camera) at some point. Rather, these coarse position readouts allow repeatable approach during hundreds of round trips after the 1st tip approach. They require pre-existing knowledge of the exact position where the tip contacts the surface. The X and Y interferometers mostly prevent accumulation of drift (dead reckoning errors) that could make the exact line separating two Si sample wafers unknown. There will be extreme stress on the reliability of the interferometers, to prevent a single 2-pi ambiguity error from happening over hour or day-long mechanosynthetic build sequences. I think the whole coarse nanopositioning system will be fast enough that the bottleneck is inverted mode tip registration.
