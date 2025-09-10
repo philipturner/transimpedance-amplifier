@@ -640,13 +640,17 @@ _TODO: State the XYZ dimensions of the entire assembly._
 Without any constraints:
 
 | Eigenmode Number | Frequency |
-| ---------------- | --------: |
+| :--------------: | --------: |
 | 1                | 3340 Hz   |
 | 2                | 5231 Hz   |
 | 3                | 7086 Hz   |
 
 With the supporting outer surfaces constrained, as in real life:
 
-
+| Eigenmode Number | Frequency |
+| :--------------: | --------: |
+| 1                | 6901 Hz   |
+| 2                | 8025 Hz   |
+| 3                | 11528 Hz  |
 
 Eigenfrequency of a solid cube with the assembly's XYZ dimensions:
