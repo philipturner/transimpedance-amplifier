@@ -41,6 +41,7 @@ Table of Contents:
 - [September 7, 2025](#september-7-2025)
 - [September 8, 2025](#september-8-2025)
 - [September 9, 2025](#september-9-2025)
+- [September 10, 2025](#september-10-2025)
 
 ## July 26, 2025
 
@@ -666,3 +667,13 @@ Eigenfrequency of a solid cube with the assembly's XYZ dimensions:
 | 0.065 m  | 4.55 GN/m | 0.741 kg | 12471 Hz |
 | 0.050 m  | 3.50 GN/m | 0.338 kg | 16196 Hz |
 | 0.100 m  | 7.00 GN/m | 2.700 kg |  8104 Hz |
+
+## September 10, 2025
+
+I forgot to order high-voltage insulated gloves. I am treating this project like a Phase I&ndash;II system, with regular exposure to ~1000 VDC. The official Class 0 with 1000 VAC / 1500 VDC seems sufficient. The next rank, Class 1, goes all the way to 7500 V, probably with proportionally greater thickness. It is critical to minimize thickness, because I need the dexterity to work with my equipment.
+
+I chose a reputable vendor on Amazon, who specializes in manufacturing PPE. Their product lineup included two contenders, 3000 V and 8000 V rated, both called "Class 1". I chose the 3000 V option because it's enough for Phase II. However, Phase III and beyond will use an ion pump, which could reach 7000 V. I will worry about high-voltage dangers of the Phase III system in the distant future.
+
+![September 10, Part 1](./Documentation/New/September10_Part1.jpg)
+
+I retroactively included the high-voltage gloves in the BOM spreadsheet, under a "Late Purchases" category. I tabulated it as an "Amazon 2" order to simplify the accounting of different orders.
