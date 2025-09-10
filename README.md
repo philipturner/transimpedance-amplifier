@@ -632,3 +632,18 @@ On the other hand, perhaps I can simplify the system geometry to make the simula
 It might be valid to just use the material parameters for aluminum, which I used in previous eigenfrequency simulations. Not messing with multi-material FEM simulations, which are a pain to set up and seem to break the FEM simulator for eigenfrequency.
 
 I am using the Aluminum-Generic default in FreeCAD, which sets the Young's modulus to 70 GPa.
+
+> TODO: Include a screenshot with constraints visible.
+
+_TODO: State the XYZ dimensions of the entire assembly._
+
+Without any constraints:
+
+| Eigenmode Number | Frequency |
+| ---------------- | --------: |
+| 1                | 3340 Hz   |
+| 2                | 5231 Hz   |
+| 3                | 7086 Hz   |
+
+With the supporting outer surfaces constrained, as in real life:
+
