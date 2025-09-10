@@ -633,9 +633,15 @@ It might be valid to just use the material parameters for aluminum, which I used
 
 I am using the Aluminum-Generic default in FreeCAD, which sets the Young's modulus to 70 GPa.
 
-> TODO: Include a screenshot with constraints visible.
+<p align="center">
+&nbsp;
+  <img src="./Documentation/New/September9_Part1.png" width="45.49%">
+&nbsp;&nbsp;
+  <img src="./Documentation/New/September9_Part2.png" width="44.51%">
+&nbsp;
+</p>
 
-_TODO: State the XYZ dimensions of the entire assembly._
+_Render of the 1st eigenmode with constraints included (6.9 kHz). The mesh has 33,190 nodes and 18,521 volumes. The entire assembly measures 65 x 50 x 100 mm._
 
 Without any constraints:
 
@@ -654,3 +660,9 @@ With the supporting outer surfaces constrained, as in real life:
 | 3                | 11528 Hz  |
 
 Eigenfrequency of a solid cube with the assembly's XYZ dimensions:
+
+| Cube Side Length | Stiffness | Mass | Frequency |
+| ---------------: | --------: | ---: | --------: |
+| 0.065 m  | 4.55 GN/m | 0.741 kg | 12471 Hz |
+| 0.050 m  | 3.50 GN/m | 0.338 kg | 16196 Hz |
+| 0.100 m  | 7.00 GN/m | 2.700 kg |  8104 Hz |
