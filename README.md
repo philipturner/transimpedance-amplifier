@@ -717,4 +717,4 @@ The plate count is 30/54/114 for Phase I/II/IV. Assuming the current price for 1
 | Michelson interferometer Y | TBD | | | ✅ |
 | Michelson interferometer Z | TBD | | | ✅ |
 
-In the DAC81404, the full-scale output range for each DAC channel is independently programmable. This avoids any constraint that the bias voltage might need to use a different DAC than the piezos. The piezos DACs use the ±20 V mode, amplifying with a 20 V/V gain factor to ±400 V. The bias uses the ±10 V mode.
+In the DAC81404, the full-scale output range for each DAC channel is independently programmable. This avoids any constraint that the bias voltage might need to use a different DAC than the piezos. The piezo DACs use the ±20 V mode, amplifying with a 20 V/V gain factor to ±400 V. The bias uses the ±10 V mode.
