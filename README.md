@@ -647,3 +647,6 @@ Without any constraints:
 
 With the supporting outer surfaces constrained, as in real life:
 
+
+
+Eigenfrequency of a solid cube with the assembly's XYZ dimensions:
