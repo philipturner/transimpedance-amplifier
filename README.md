@@ -42,6 +42,7 @@ Table of Contents:
 - [September 8, 2025](#september-8-2025)
 - [September 9, 2025](#september-9-2025)
 - [September 10, 2025](#september-10-2025)
+- [September 11, 2025](#september-11-2025)
 
 ## July 26, 2025
 
@@ -726,3 +727,13 @@ The custom capacitance sensor is a <b>substitute for the Z-axis Michelson interf
 The PA95 looks like a better choice than the PA94 for my application. An order of magnitude less quiescent current. It's still reasonably affordable ($283 vs $215) and in stock (333 vs 408). The GBP is 10 MHz, so with 20 V/V, the first-order rolloff starts at 500 kHz. Still orders of magnitude greater than the mechanical eigenfrequency. The slew rate is 30 V/μs, so all 800 V could be traveled in 27 μs. For comparison, the time period of an oscillation at 6.9 kHz is 145 μs. A ±400 V sinewave at 6.9 kHz has a peak velocity of 17 V/μs. It's an open question whether 30 V/μs is enough to outpace the eigenfrequency or defeat static friction. I can purchase both options during Phase I, see whether PA95 is sufficient, then incorporate the less power-hungry option into Phase II.
 
 With less power dissipation, there's less severe need to pull heat away as fast as possible. I can pack components closer together, have a smaller power supply, and possibly the tempco/ppm drift will be smaller. I will design a power supply for Phase I that can supply a single PA94 or six PA95's (the PA94 is more than all 6 combined). If the worst case is true, and slew rate is not enough (seems unlikely but you can never know for sure), I will redesign a new power supply from scratch for Phase II.
+
+## September 11, 2025
+
+![September 11, Part 1](./Documentation/New2/September11_Part1.jpg)
+
+![September 11, Part 2](./Documentation/New2/September11_Part2.jpg)
+
+![September 11, Part 3](./Documentation/New2/September11_Part3.jpg)
+
+![September 11, Part 4](./Documentation/New2/September11_Part4.jpg)
