@@ -752,3 +752,5 @@ With less power dissipation, there's less severe need to pull heat away as fast 
 ![September 12, Part 5](./Documentation/New2/September12_Part5.jpg)
 
 ![September 12, Part 6](./Documentation/New2/September12_Part6.jpg)
+
+![September 12, Part 7](./Documentation/New2/September12_Part7.jpg)
