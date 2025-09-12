@@ -43,6 +43,7 @@ Table of Contents:
 - [September 9, 2025](#september-9-2025)
 - [September 10, 2025](#september-10-2025)
 - [September 11, 2025](#september-11-2025)
+- [September 12, 2025](#september-12-2025)
 
 ## July 26, 2025
 
@@ -737,3 +738,17 @@ With less power dissipation, there's less severe need to pull heat away as fast 
 ![September 11, Part 3](./Documentation/New2/September11_Part3.jpg)
 
 ![September 11, Part 4](./Documentation/New2/September11_Part4.jpg)
+
+## September 12, 2025
+
+![September 12, Part 1](./Documentation/New2/September12_Part1.jpg)
+
+![September 12, Part 2](./Documentation/New2/September12_Part2.jpg)
+
+![September 12, Part 3](./Documentation/New2/September12_Part3.jpg)
+
+![September 12, Part 4](./Documentation/New2/September12_Part4.jpg)
+
+![September 12, Part 5](./Documentation/New2/September12_Part5.jpg)
+
+![September 12, Part 6](./Documentation/New2/September12_Part6.jpg)
