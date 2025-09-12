@@ -754,3 +754,5 @@ With less power dissipation, there's less severe need to pull heat away as fast 
 ![September 12, Part 6](./Documentation/New2/September12_Part6.jpg)
 
 ![September 12, Part 7](./Documentation/New2/September12_Part7.jpg)
+
+[Using a $2 desoldering pump (YouTube)](https://www.youtube.com/shorts/qrw1d5Ns6gg)
