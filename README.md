@@ -756,3 +756,9 @@ With less power dissipation, there's less severe need to pull heat away as fast 
 ![September 12, Part 7](./Documentation/New2/September12_Part7.jpg)
 
 [Using a $2 desoldering pump (YouTube)](https://www.youtube.com/shorts/qrw1d5Ns6gg)
+
+[Teensy responds to EMI from a Human Finger Capacitor (YouTube)](https://www.youtube.com/watch?v=SzrVnSTCt6Q)
+
+[Teensy does a countdown (YouTube)](https://www.youtube.com/watch?v=PW8NTNBJ09g)
+
+[TeensyCountdown.cpp (GitHub Gist)](https://gist.github.com/philipturner/74579bf0ccc845478f56cf372457cc6a)
