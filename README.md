@@ -769,3 +769,13 @@ With less power dissipation, there's less severe need to pull heat away as fast 
 I did not take the time to format the images for today's entry. Here is the link to the folder with them:
 
 [September15](./Documentation/September15)
+
+## September 16, 2025
+
+Every single TSSOP on the 2nd practice board had 1-2 shorts. It’s flash flooding, so I had to pack up early before attempting the DAC81401 and ADS8699 on the main board. Parents are putting sand bags next to the garage doors.
+
+![September 16, Part 1](./Documentation/September16/September16_Part1.jpg)
+
+![September 16, Part 2](./Documentation/September16/September16_Part2.jpg)
+
+![September 16, Part 3](./Documentation/September16/September16_Part3.jpg)
