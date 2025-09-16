@@ -44,6 +44,7 @@ Table of Contents:
 - [September 10, 2025](#september-10-2025)
 - [September 11, 2025](#september-11-2025)
 - [September 12, 2025](#september-12-2025)
+- [September 15, 2025](#september-15-2025)
 
 ## July 26, 2025
 
@@ -762,3 +763,5 @@ With less power dissipation, there's less severe need to pull heat away as fast 
 [Teensy does a countdown (YouTube)](https://www.youtube.com/watch?v=PW8NTNBJ09g)
 
 [TeensyCountdown.cpp (GitHub Gist)](https://gist.github.com/philipturner/74579bf0ccc845478f56cf372457cc6a)
+
+## September 15, 2025
