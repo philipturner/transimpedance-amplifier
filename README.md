@@ -765,3 +765,7 @@ With less power dissipation, there's less severe need to pull heat away as fast 
 [TeensyCountdown.cpp (GitHub Gist)](https://gist.github.com/philipturner/74579bf0ccc845478f56cf372457cc6a)
 
 ## September 15, 2025
+
+I did not take the time to format the images for today's entry. Here is the link to the folder with them:
+
+[September15](./Documentation/September15)
