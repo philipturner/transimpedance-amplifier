@@ -779,3 +779,11 @@ Every single TSSOP on the 2nd practice board had 1-2 shorts. It’s flash floodi
 ![September 16, Part 2](./Documentation/September16/September16_Part2.jpg)
 
 ![September 16, Part 3](./Documentation/September16/September16_Part3.jpg)
+
+## September 17, 2025
+
+By some unbelievable miracle, I got it right on the 3rd attempt at the main board. I will have to omit the 1 uF bypass capacitor from the ADC AVDD terminal, as I air-wired over a pad that got burnt off. And swap out the now heavily-oxidized soldering iron tip.
+
+![September 17, Part 1](./Documentation/September17/September17_Part1.jpg)
+
+![September 17, Part 2](./Documentation/September17/September17_Part2.jpg)
