@@ -795,3 +795,17 @@ Risky move, but I ended up soldering that 1 uF capacitor just fine.
 ![September 18, Part 1](./Documentation/September18/September18_Part1.jpg)
 
 ![September 18, Part 2](./Documentation/September18/September18_Part2.jpg)
+
+Finished all surface-mount components
+
+![September 18, Part 3](./Documentation/September18/September18_Part3.jpg)
+
+Burnt off one of the pads for the DAC isolator. By sheer luck, it was the MISO channel, which is technically not needed. I thought everything was just fine, 100% of components done, then this unexpected nightmare happened at the very last moment.
+
+![September 18, Part 4](./Documentation/September18/September18_Part4.jpg)
+
+Tried forcing the soldering iron in between 2 leads to fix a short, which made it worse. Tried salvaging it with solder wick, which made it worse. Ended up shredding all the leads and prying the carcass of the chip, taking a delicate pad with it. You can see the pad (red)!
+
+![September 18, Part 5](./Documentation/September18/September18_Part5.jpg)
+
+One wrong move, and I have to wait several days to make progress again. And I don’t get the luxury of quitting and moving on to another stage, without succeeding in Phase 0.1. The stress is so bad that it doesn’t even phase me anymore.
