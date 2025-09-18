@@ -787,3 +787,11 @@ By some unbelievable miracle, I got it right on the 3rd attempt at the main boar
 ![September 17, Part 1](./Documentation/September17/September17_Part1.jpg)
 
 ![September 17, Part 2](./Documentation/September17/September17_Part2.jpg)
+
+## September 18, 2025
+
+Risky move, but I ended up soldering that 1 uF capacitor just fine.
+
+![September 18, Part 1](./Documentation/September18/September18_Part1.jpg)
+
+![September 18, Part 2](./Documentation/September18/September18_Part2.jpg)
