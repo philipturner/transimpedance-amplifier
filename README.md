@@ -809,3 +809,9 @@ Tried forcing the soldering iron in between 2 leads to fix a short, which made i
 ![September 18, Part 5](./Documentation/September18/September18_Part5.jpg)
 
 One wrong move, and I have to wait several days to make progress again. And I don’t get the luxury of quitting and moving on to another stage, without succeeding in Phase 0.1. The stress is so bad that it doesn’t even phase me anymore.
+
+![September 18, Part 6](./Documentation/September18/September18_Part6.jpg)
+
+![September 18, Part 7](./Documentation/September18/September18_Part7.jpg)
+
+![September 18, Part 8](./Documentation/September18/September18_Part8.jpg)
