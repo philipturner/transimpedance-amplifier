@@ -45,6 +45,10 @@ Table of Contents:
 - [September 11, 2025](#september-11-2025)
 - [September 12, 2025](#september-12-2025)
 - [September 15, 2025](#september-15-2025)
+- [September 16, 2025](#september-16-2025)
+- [September 17, 2025](#september-17-2025)
+- [September 18, 2025](#september-18-2025)
+- [September 19, 2025](#september-19-2025)
 
 ## July 26, 2025
 
@@ -815,3 +819,7 @@ One wrong move, and I have to wait several days to make progress again. And I do
 ![September 18, Part 7](./Documentation/September18/September18_Part7.jpg)
 
 ![September 18, Part 8](./Documentation/September18/September18_Part8.jpg)
+
+## September 19, 2025
+
+Every single chip’s power pins give the correct voltage. Including both isolators and the TIAs (installed all jumpers). Tuned the PreAmp’s V+ to 2.503 V, proving adjustability to within 0.06%. V- is fixed at -1.475 V. Proceeding with SPI driver code for DAC and ADC.
