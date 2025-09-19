@@ -823,3 +823,5 @@ One wrong move, and I have to wait several days to make progress again. And I do
 ## September 19, 2025
 
 Every single chip’s power pins give the correct voltage. Including both isolators and the TIAs (installed all jumpers). Tuned the PreAmp’s V+ to 2.503 V, proving adjustability to within 0.06%. V- is fixed at -1.475 V. Proceeding with SPI driver code for DAC and ADC.
+
+![September 19, Part 1](./Documentation/September19/September19_Part1.jpg)
