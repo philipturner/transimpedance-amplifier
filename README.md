@@ -834,3 +834,5 @@ Having trouble with the DAC, but all pins on both isolators work 100% in the low
 DAC81401 works! Got a 2.503 V reading for VREFIO. Successfully generated -4.99 V and 5.00 V test voltages. Exact same voltages produced with regular SPI (8 MHz) and bit-banged SPI (1 MHz).
 
 Attempts to write and read back internal registers of the ADC produced null results.
+
+The DAC likes to shut down whenever loads are connected in a certain way, but it fixes itself when I unplug and re-connect the batteries (VREFIO shows 2.5 V again).
