@@ -836,3 +836,11 @@ DAC81401 works! Got a 2.503 V reading for VREFIO. Successfully generated -4.99 V
 Attempts to write and read back internal registers of the ADC produced null results.
 
 The DAC likes to shut down whenever loads are connected in a certain way, but it fixes itself when I unplug and re-connect the batteries (VREFIO shows 2.5 V again).
+
+![September 20, Part 1](./Documentation/September20/September20_Part1.png)
+
+![September 20, Part 1](./Documentation/September20/September20_Part2.jpg)
+
+The simple 100 MΩ transimpedance amplifier works flawlessly. Took a picture of the testing rig with the infamous GIGA-ohm installed. -1 nA current sensed finally, after the first attempt 323 days ago.
+
+Will attempt to connect TIA output to ADC without DAC shutting down.
