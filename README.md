@@ -49,6 +49,7 @@ Table of Contents:
 - [September 17, 2025](#september-17-2025)
 - [September 18, 2025](#september-18-2025)
 - [September 19, 2025](#september-19-2025)
+- [September 20, 2025](#september-20-2025)
 
 ## July 26, 2025
 
@@ -825,3 +826,7 @@ One wrong move, and I have to wait several days to make progress again. And I do
 Every single chip’s power pins give the correct voltage. Including both isolators and the TIAs (installed all jumpers). Tuned the PreAmp’s V+ to 2.503 V, proving adjustability to within 0.06%. V- is fixed at -1.475 V. Proceeding with SPI driver code for DAC and ADC.
 
 ![September 19, Part 1](./Documentation/September19/September19_Part1.jpg)
+
+## September 20, 2025
+
+Having trouble with the DAC, but all pins on both isolators work 100% in the low-frequency regime. Will proceed with testing the ADC, then bit-banging the SPI protocol for the DAC. Sparks flew when I connected a voltage differential probe between DAC AVSS and REFGND.
