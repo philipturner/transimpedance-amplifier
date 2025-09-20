@@ -830,3 +830,7 @@ Every single chip’s power pins give the correct voltage. Including both isolat
 ## September 20, 2025
 
 Having trouble with the DAC, but all pins on both isolators work 100% in the low-frequency regime. Will proceed with testing the ADC, then bit-banging the SPI protocol for the DAC. Sparks flew when I connected a voltage differential probe between DAC AVSS and REFGND.
+
+DAC81401 works! Got a 2.503 V reading for VREFIO. Successfully generated -4.99 V and 5.00 V test voltages. Exact same voltages produced with regular SPI (8 MHz) and bit-banged SPI (1 MHz).
+
+Attempts to write and read back internal registers of the ADC produced null results.
