@@ -859,7 +859,7 @@ I tried changing a couple of program parameters, especially those related to tim
 I found a pattern in the data, which I'll try to model here.
 
 ```
-
+39 μs + 32 * (1 / 1.0 MHz) + 1 μs =
 ```
 
 ---
@@ -868,8 +868,12 @@ Characteristics of a testing procedure immune to known hardware bugs:
 - Stress test for whole-system failure during long-running operation. Ideally 100 repetitions, but later extrapolating to the limit of what's practical.
 - Allow for a multimeter measurement to confirm 2.5 V on DAC VREFIO before the SPI activity starts. Actually, some SPI activity is needed to turn on the DAC (and it remembers state from previous program executions), but you can understand the point.
 - Aware of how previous program executions affect the current one.
-- TODO: Specify the rest
+- TODO: Specify the rest after fully understanding the Teensy shutdown bug.
 
 I will code a program meeting the above specifications, then see whether it works. My goal is to flip the polarity of the DAC output voltage between -1 V and 1 V, then see whether the ADC responds. There are no requirements for measurement bandwidth, only that the measurements are sort of spaced apart in time. One major issue could be a 1 ms delay for the current `transferDAC` function, which needs revision.
 
 I'm going to pack up the hardware for today, except the main board (with Teensy installed). I don't expect this test program to be developed quickly. Certain features, like PC -> Teensy communication, can be dry-run tested without the high-voltage circuitry powered on.
+
+---
+
+I narrowed the culprit of the Teensy shutdown bug to the Teensy board itself. It happens even when the Teensy board is disconnected from the main board. Jumping off point for next investigation steps: does the behavior happen when calling `transferDAC` instead of `transferADC`?
