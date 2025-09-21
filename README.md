@@ -851,3 +851,13 @@ Will attempt to connect TIA output to ADC without DAC shutting down.
 I discovered and fixed a likely cause of the ADC's nonresponsiveness. The MISO pin on the digital side of the ADC isolator was disconnected. In the continuity tests, it was likely mistakenly registered as connected. This false positive is due to the geometrical nature of how multimeter probes contact the relevant PCB conductors.
 
 This morning, I quickly set up my soldering system in the garage. Without wasting any time practicing on the 3rd practice board, I directly went to fixing the culprit IC pin. It was a slightly risky move, but I chose the option that consumed the least time. It paid off, and now I can return to troubleshooting internal ADC registers. I have some elaborate plans for how to test this. Instead of posting on X, I will record my results in this journal entry for the time being.
+
+The ADC is completely responsive over SPI now, but we unraveled a 2nd example of undocumented hardware behavior. After waiting a certain amount of time (~50 μs or more) between consecutive SPI transfers, the Teensy shuts down. While putting the multimeter probe in to inspect the ADC isolator, the Teensy suddenly started up and finished the remainder of the program. This problem did not happen for the DAC, which could withstand as much as 1 ms delay between SPI transfers.
+
+I tried changing a couple of program parameters, especially those related to timing of SPI wave forms. It is probably a fault on the Teensy or isolator's side, not the ADC, although we can't rule out ADC activity. Cannot make any conclusions about whether the problem will happen when querying ADC sensor measurements. Or whether it will arise in later stages, after perhaps 9 consecutive SPI transactions. Best practice is to stress-test the Teensy during the following tests, ensuring no strange behavior after 100 repetitions of the relevant SPI operation.
+
+I found a pattern in the data, which I'll try to model here.
+
+```
+TODO
+```
