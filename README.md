@@ -871,10 +871,12 @@ I found a pattern in the data, which I'll try to model here.
 ---
 
 Characteristics of a testing procedure immune to known hardware bugs:
-- Stress test for whole-system failure during long-running operation. Ideally 100 repetitions, but later extrapolating to the limit of what's practical.
+- Stress test for whole-system failure during long-running operation. Ideally 100 repetitions, but later extrapolating to the limit of what's practical. This requirement might be de-emphasized after understanding the "Teensy shutdown bug".
 - Allow for a multimeter measurement to confirm 2.5 V on DAC VREFIO before the SPI activity starts. Actually, some SPI activity is needed to turn on the DAC (and it remembers state from previous program executions), but you can understand the point.
-- Aware of how previous program executions affect the current one.
-- TODO: Specify the rest after fully understanding the Teensy shutdown bug.
+- All actions occur in a single Teensy program execution, which is the first execution after an "Upload" press, and the first execution after batteries are connected.
+- DAC output is never connected directly to ADC input.
+- DAC output is not connected to the DUT when the batteries are installed and/or before VREFIO is powered on.
+- Use PC -> Teensy serial inputs (originating from user keyboard) to start the ADC measurements, rather than a fixed time delay. This choice makes the testing program much easier to use.
 
 I will code a program meeting the above specifications, then see whether it works. My goal is to flip the polarity of the DAC output voltage between -1 V and 1 V, then see whether the ADC responds. There are no requirements for measurement bandwidth, only that the measurements are sort of spaced apart in time. One major issue could be a 1 ms delay for the current `transferDAC` function, which needs revision.
 
@@ -949,3 +951,7 @@ void loop() {
 ```
 
 I want to set up a reliable, interrupt-based event loop with a time period of 100 μs. It should print to the console 50 times, without exiting the `setup()` function / relying on the functionality or timing of `loop()`. This task will determine whether the Teensy bug can be bypassed. It is also a prerequisite for a future planned test of high-frequency (kHz band) ADC sensing.
+
+The exactly 75 μs delay bug also occurs in a program based on `IntervalTimer`. In the final iteration of the kHz loop test, I learned more details about the hardware bug. One valid workaround is logging to the console externally to the high-fidelity loop (in `loop()` instead of `kilohertzLoopIteration()`). Another is extending the delay to O(1 second) and/or waiting 1 second after program launch, as the delay bug exhibits peculiar behavior at this time.
+
+For the DAC tests, I remember pressing the reset button routinely after uploading. Especially in the later iterations where the DAC was closer to working properly. There are so many variables, that this button press (which bypasses the Teensy shutdown bug) may have been irrelevant to the main problem at the time.
