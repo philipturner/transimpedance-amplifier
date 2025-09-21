@@ -859,7 +859,13 @@ I tried changing a couple of program parameters, especially those related to tim
 I found a pattern in the data, which I'll try to model here.
 
 ```
-39 μs + 32 * (1 / 1.0 MHz) + 1 μs =
+39 μs + 32 * (1 / 1.0 MHz) + 1 μs = 72.0 μs
+38 μs + 1 μs + 32 * (1 / 1.0 MHz) + 1 μs = 72.0 μs
+67 μs + 1 μs + 32 * (1 / 8.0 MHz) + 1 μs = 73.0 μs
+69 μs + 1 μs + 32 * (1 / 25.0 MHz) + 1 μs = 72.3 μs
+
+1 / 72.5 μs = 13.8 kHz
+1 / 73.5 μs = 13.6 kHz
 ```
 
 ---
