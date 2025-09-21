@@ -882,4 +882,28 @@ I'm going to pack up the hardware for today, except the main board (with Teensy 
 
 ---
 
-I narrowed the culprit of the Teensy shutdown bug to the Teensy board itself. It happens even when the Teensy board is disconnected from the main board. Jumping off point for next investigation steps: does the behavior happen when calling `transferDAC` instead of `transferADC`?
+I narrowed the culprit of the Teensy shutdown bug to the Teensy board itself. It happens even when the Teensy board is disconnected from the main board. The minimal reproducer program has also been identified:
+
+```cpp
+void setup() {
+  // [Default] This line is present, freeze after 3 iterations.
+  // [Variation] This line is commented out, freeze after 4 iterations.
+  Serial.println(); // allow easy distinction of different program runs
+  
+  for (int i = 0; i < 50; ++i) {
+    // [Default] 100 μs, freeze after 3 iterations.
+    // [Variation] 30 μs, program proceeds to completion.
+    //
+    // Exact threshold is 72.5-74.0 μs.
+    // 73.0 μs - failed first time after between 20-50 iterations,
+    //           but could not reproduce after 7 attempts
+    // 73.5 μs - freeze after 4-5 iterations.
+    delayMicroseconds(100);
+
+    // [Default] 0, freeze after 3 iterations.
+    // [Variation] ~100 character gibberish string, freeze after 3 iterations.
+    Serial.println(0);
+  }
+  Serial.println("finished");
+}
+```
