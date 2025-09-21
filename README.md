@@ -847,6 +847,6 @@ Will attempt to connect TIA output to ADC without DAC shutting down.
 
 ## September 21, 2025
 
-I discovered and fixed a likely cause of the ADC's nonresponsiveness. The MOSI pin on the digital side of the ADC isolator was disconnected. In the continuity tests, it was likely mistakenly registered as connected. This false positive is due to the geometrical nature of how multimeter probes contact the relevant PCB conductors.
+I discovered and fixed a likely cause of the ADC's nonresponsiveness. The MISO pin on the digital side of the ADC isolator was disconnected. In the continuity tests, it was likely mistakenly registered as connected. This false positive is due to the geometrical nature of how multimeter probes contact the relevant PCB conductors.
 
 This morning, I quickly set up my soldering system in the garage. Without wasting any time practicing on the 3rd practice board, I directly went to fixing the culprit IC pin. It was a slightly risky move, but I chose the option that consumed the least time. It paid off, and now I can return to troubleshooting internal ADC registers. I have some elaborate plans for how to test this. Instead of posting on X, I will record my results in this journal entry for the time being.
