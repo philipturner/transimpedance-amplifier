@@ -907,3 +907,45 @@ void setup() {
   Serial.println("finished");
 }
 ```
+
+None of the online or GPT suggestions (`Serial.flush()`, `yield()`) helped. The program freezes unless a non-empty string is printed within 73 μs. However, the following program runs endlessly with no major issues:
+
+```cpp
+void setup() {
+  Serial.println();
+}
+
+int counter = 0;
+
+void loop() {
+  delayMicroseconds(100);
+  Serial.println(counter + 1);
+  counter += 1;
+}
+```
+
+The following program freezes after 3 iterations:
+
+```cpp
+void setup() {
+  Serial.println();
+}
+
+int counter = 0;
+
+void loop() {
+  if (counter > 0) {
+    return;
+  }
+
+  for (int i = 0; i < 50; ++i) {
+    delayMicroseconds(100);
+    Serial.println(0);
+  }
+  Serial.println("finished");
+
+  counter += 1;
+}
+```
+
+I want to set up a reliable, interrupt-based event loop with a time period of 100 μs. It should print to the console 50 times, without exiting the `setup()` function / relying on the functionality or timing of `loop()`. This task will determine whether the Teensy bug can be bypassed. It is also a prerequisite for a future planned test of high-frequency (kHz band) ADC sensing.
