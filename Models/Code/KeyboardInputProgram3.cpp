@@ -62,7 +62,7 @@ uint32_t transferADC(ADCInput input) {
   // Guarantee that enough conversion time has passed.
   delayNanoseconds(6000);
 
-  SPI.beginTransaction(SPISettings(25000000, MSBFIRST, SPI_MODE0));
+  SPI.beginTransaction(SPISettings(8000000, MSBFIRST, SPI_MODE0));
   digitalWrite(CS_ADC, 0);
   delayNanoseconds(100);
 
@@ -104,17 +104,75 @@ void loop() {
   if (Serial.available() > 0) {
     char incomingByte = Serial.read();
 
+    // 1000 MΩ, 15 V input, -1.526 V output
+    //
+    // range 0b0000 | code 0.22
+    // range 0b0001 | code 0.21
+    // range 0b0010 | code 0.19
+    // range 0b0011 | code 0.18
+    // range 0b0100 | code 0.10
+
+    // 1000 MΩ, -15 V input, 1.510 V output
+    //
+    // range 0b0000 | code 0.780685
+    // range 0b0001 | code
+    // range 0b0010 | code
+    // range 0b0011 | code
+    // range 0b0100 | code
+    // range 0b1000 | code
+    // range 0b1001 | code
+    // range 0b1010 | code
+    // range 0b1011 | code
+
     if (incomingByte == 'c') {
       Serial.println("received command 'c'");
       responseC();
     } else if (incomingByte == 'd') {
       Serial.println("received command 'd'");
       responseD();
+    } else if (incomingByte == '0') {
+      Serial.println("received command '0'");
+      responseB(0b0000);
+    } else if (incomingByte == '1') {
+      Serial.println("received command '1'");
+      responseB(0b0001);
+    } else if (incomingByte == '2') {
+      Serial.println("received command '2'");
+      responseB(0b0010);
+    } else if (incomingByte == '3') {
+      Serial.println("received command '3'");
+      responseB(0b0011);
+    } else if (incomingByte == '4') {
+      Serial.println("received command '4'");
+      responseB(0b0100);
+    } else if (incomingByte == '5') {
+      Serial.println("received command '5'");
+      responseB(0b1000);
+    } else if (incomingByte == '6') {
+      Serial.println("received command '6'");
+      responseB(0b1001);
+    } else if (incomingByte == '7') {
+      Serial.println("received command '7'");
+      responseB(0b1010);
+    } else if (incomingByte == '8') {
+      Serial.println("received command '8'");
+      responseB(0b1011);
     }
   }
 }
 
 // MARK: - Keyboard Events
+
+void responseB(uint8_t rangeCode) {
+  // frame 0
+  {
+    ADCInput input;
+    input.command = ADS8689_WRITE_FULL;
+    input.registerAddress = ADS8689_RANGE_SEL_REG;
+    input.data = uint16_t(rangeCode);
+    transferADC(input);
+  }
+}
 
 // Data transfer process:
 //
@@ -141,7 +199,7 @@ void responseC() {
 
     ADCOutputConversion output(rawData);
     Serial.print("ADC code (fraction of full-scale): ");
-    Serial.println(output.data);
+    Serial.println(output.data, 6); // force it to 6 decimal places
   }
 }
 
@@ -156,7 +214,7 @@ void responseD() {
   {
     ADCInput input;
     input.command = ADS8689_READ_HWORD;
-    input.registerAddress = ADS8689_ALARM_H_TH_REG + 2;
+    input.registerAddress = ADS8689_RANGE_SEL_REG + 2;
     input.data = 0;
     transferADC(input);
   }
@@ -165,7 +223,7 @@ void responseD() {
   {
     ADCInput input;
     input.command = ADS8689_READ_HWORD;
-    input.registerAddress = ADS8689_ALARM_H_TH_REG;
+    input.registerAddress = ADS8689_RANGE_SEL_REG;
     input.data = 0;
     uint32_t rawData = transferADC(input);
 
