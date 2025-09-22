@@ -64,16 +64,19 @@ void transferDAC(DACInput input) {
   bytes[2] = uint8_t(input.data >> 0);
 
   // Guarantee that the DAC output wait time has passed.
-  delayNanoseconds(3000);
+  //delayNanoseconds(3000);
+  delay(1);
 
-  SPI.beginTransaction(SPISettings(25000000, MSBFIRST, SPI_MODE0));
+  SPI.beginTransaction(SPISettings(8000000, MSBFIRST, SPI_MODE0));
   digitalWrite(CS_DAC, 0);
-  delayNanoseconds(100);
+  //delayNanoseconds(100);
 
   // 24 bits at 25 MHz, 960 ns delay
-  SPI.transfer(bytes, 3);
+  SPI.transfer(input.registerAddress);
+  SPI.transfer(uint8_t(input.data >> 8));
+  SPI.transfer(uint8_t(input.data >> 0));
 
-  delayNanoseconds(100);
+  delayNanoseconds(1000);
   digitalWrite(CS_DAC, 1);
   SPI.endTransaction();
 }
@@ -111,24 +114,24 @@ uint32_t transferADC(ADCInput input) {
 // MARK: - Top-Level Program
 
 void setup() {
-  Serial.begin(0);
-  Serial.println(); // allow easy distinction of different program runs
-  Serial.println("Serial Monitor has initialized.");
-
+  delay(10);
   pinMode(CS_DAC, OUTPUT);
   pinMode(CS_ADC, OUTPUT);
   digitalWrite(CS_DAC, 1);
   digitalWrite(CS_ADC, 1);
+  delay(10);
 
   SPI.begin();
+  delay(10);
 
   // Clear the DAC SPICONFIG register, except for the one reserved bit.
   {
     DACInput input;
     input.registerAddress = 0x03;
-    input.data = 0x0080;
+    input.data = 0x0A84;
     transferDAC(input);
   }
+  delay(10);
 
   // Clear the DAC GENCONFIG register, turning on the voltage reference.
   {
@@ -137,24 +140,36 @@ void setup() {
     input.data = 0x0000;
     transferDAC(input);
   }
+  delay(10);
 
   // Clear the DAC DACPWDWN register, turning on the output.
   {
     DACInput input;
     input.registerAddress = 0x09;
-    input.data = 0xFFFE;
+    input.data = 0xFFFF;
     transferDAC(input);
   }
+  delay(10);
 
   // Configure the DAC DACRANGE register to span from -5 V to 5 V.
   {
     DACInput input;
     input.registerAddress = 0x0A;
-    input.data = 0b0101;
+    input.data = 0x0005;
+    transferDAC(input);
+  }
+  delay(10);
+
+  {
+    DACInput input;
+    input.registerAddress = 0x10;
+    input.data = 0x6666;
     transferDAC(input);
   }
 
-  Serial.println("Setup process has completed.");
+  Serial.begin(0);
+  Serial.println(); // allow easy distinction of different program runs
+  Serial.println("Serial Monitor has initialized.");
 }
 
 // Keyboard events:

@@ -966,3 +966,23 @@ On the first program run after "Upload", `!Serial` suggests that the serial port
 I figured out how to communicate from the PC to the Teensy. All I need is for a program event to trigger upon receiving _any_ input from the PC. That resolves ambiguity about trailing newlines, and removes the need to set a specific key for the trigger. The program should indicate (via Teensy -> PC communication) that the message was received and the relevant SPI code was triggered.
 
 Now, I will start resolving all the requirements into a specific testing procedure. To start, we don't need a high-fidelity repeating kHz-band loop. That will be needed in the future, but not for the current test.
+
+### Bad News
+
+The DAC is fried. I got it briefly working with VREFIO = 2.503 V during two instances of the program "KilohertzInputProgram2.cpp". I was trying to understand how to reproducibly get it to not show 0 V, as some random program changes caused it to work. For example, one time, I changed the Teensy code to add a 50 ms delay between `SPI.begin()` and the first SPI transaction to the DAC. All of the sudden, after that program load, the DAC worked on the following program invocations.
+
+Later on, I kept getting 0.99-1.00 V on VREFIO. The output was shorted to the power supply. Nothing restored the 2.5 V. Sometimes, the voltage reference was 0 V. Other times, it was 0.99 V. But it never returned to 2.5 V. This is probably a result of accumulated damage, which finally caused destruction of the voltage reference.
+
+I'm not going to try and salvage a DAC from another failed main board. It might be near-impossible to desolder. Even if it was, the circuit's layout might cause another failure. But on the bright side, my spare OP37GSZ is compatible with a breadboard. It might serve well in analog function generators. One major complication is how to reliably attach wires (V+, V-, GND) to the breadboard. But I don't see major theoretical reasons it cannot work out.
+
+To start, I'll try shorting one of the DAC's bypass capacitors to the current-limit resistor. Here are the possible DC voltages I can generate, which can safely be fed into the ADC as outputs of a transimpedance amplifier:
+
+| Voltage | DUT     | Current  | 100 MΩ | 330 MΩ |
+| ------: | ------: | -------: | -----: | -----: |
+| ±15 V   | 10 MΩ   | ±1500 nA | ∓150 V | ∓495 V |
+| ±15 V   | 25 MΩ   | ±600 nA  | ∓60 V | ∓198 V |
+| ±15 V   | 50 MΩ   | ±300 nA  | ∓30 V | ∓99 V |
+| ±15 V   | 100 MΩ  | ±150 nA  | ∓15 V | ∓49.5 V |
+| ±15 V   | 250 MΩ  | ±60 nA   | ∓6 V | ∓19.8 V |
+| ±15 V   | 500 MΩ  | ±30 nA   | ∓3 V | ∓9.9 V |
+| ±15 V   | 1000 MΩ | ±15 nA   | ∓1.5 V | ∓4.95 V |
