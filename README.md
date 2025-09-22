@@ -988,3 +988,5 @@ To start, I'll try shorting one of the DAC's bypass capacitors to the current-li
 | ±15 V   | 1000 MΩ | ±15 nA   | ∓1.5 V | ∓4.95 V |
 
 I will use the GIGA-ohm to minimize the absolute magnitude of the voltages experienced by the ADC.
+
+Better idea: connect one of the power pins for the TIA not currently in use, which doesn't currently have a jumper across it. We don't need to worry about current limit resistors, as the GIGA-ohm is effectively a current limit resistor. Connect the power pin to the DAC output node with a male-to-female jumper.
