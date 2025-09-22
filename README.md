@@ -969,7 +969,7 @@ Now, I will start resolving all the requirements into a specific testing procedu
 
 ### Bad News
 
-The DAC is fried. I got it briefly working with VREFIO = 2.503 V during two instances of the program "KilohertzInputProgram2.cpp". I was trying to understand how to reproducibly get it to not show 0 V, as some random program changes caused it to work. For example, one time, I changed the Teensy code to add a 50 ms delay between `SPI.begin()` and the first SPI transaction to the DAC. All of the sudden, after that program load, the DAC worked on the following program invocations.
+The DAC is fried. I got it briefly working with VREFIO = 2.503 V during two instances of the program "KeyboardInputProgram2.cpp". I was trying to understand how to reproducibly get it to not show 0 V, as some random program changes caused it to work. For example, one time, I changed the Teensy code to add a 50 ms delay between `SPI.begin()` and the first SPI transaction to the DAC. All of the sudden, after that program load, the DAC worked on the following program invocations.
 
 Later on, I kept getting 0.99-1.00 V on VREFIO. The output was shorted to the power supply. Nothing restored the 2.5 V. Sometimes, the voltage reference was 0 V. Other times, it was 0.99 V. But it never returned to 2.5 V. This is probably a result of accumulated damage, which finally caused destruction of the voltage reference.
 
