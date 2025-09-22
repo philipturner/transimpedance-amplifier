@@ -159,5 +159,112 @@ void setup() {
 // 'c' received - ADC performs a measurement (2 SPI transactions)
 // 'd' received - ADC reports contents of ADS8689_ALARM_H_TH_REG (3 SPI transactions)
 void loop() {
-  
+  if (Serial.available() > 0) {
+    char incomingByte = Serial.read();
+
+    if (incomingByte == 'a') {
+      Serial.println("received command 'a'");
+      outputDACVoltage(-1.0);
+    } else if (incomingByte == 'b') {
+      Serial.println("received command 'b'");
+      outputDACVoltage(1.0);
+    } else if (incomingByte == 'c') {
+      Serial.println("received command 'c'");
+      responseC();
+    } else if (incomingByte == 'd') {
+      Serial.println("received command 'd'");
+      responseD();
+    }
+  }
+}
+
+// MARK: - Keyboard Events
+
+void outputDACVoltage(float voltage) {
+  Serial.print("DAC voltage: ");
+  Serial.println(voltage);
+
+  float fractionFullScale = voltage - float(-5);
+  fractionFullScale /= float(5) - float(-5);
+  Serial.print("DAC code (fraction of full-scale): ");
+  Serial.println(fractionFullScale);
+
+  DACInput input;
+  input.registerAddress = 0x10;
+  input.data = uint16_t(fractionFullScale * 65536);
+  transferDAC(input);
+  Serial.print("DAC code: ");
+  Serial.println(input.data);
+}
+
+// Data transfer process:
+//
+// frame 0 | input conversion command (NOP) | output ignored
+// frame 1 | NOP                            | output receive ADC code
+
+void responseC() {
+  // frame 0
+  {
+    ADCInput input;
+    input.command = ADS8689_NOP;
+    input.registerAddress = 0;
+    input.data = 0;
+    transferADC(input);
+  }
+
+  // frame 1
+  {
+    ADCInput input;
+    input.command = ADS8689_NOP;
+    input.registerAddress = 0;
+    input.data = 0;
+    uint32_t rawData = transferADC(input);
+
+    ADCOutputConversion output(rawData);
+    Serial.print("ADC code (fraction of full-scale): ");
+    Serial.println(output.data);
+  }
+}
+
+// Data transfer process:
+//
+// frame 0 | input read highest 16 bits | output ignored
+// frame 1 | input read lowest 16 bits  | output receive highest 16 bits
+// frame 2 | NOP                        | output receive lowest 16 bits
+
+void responseD() {
+  // frame 0
+  {
+    ADCInput input;
+    input.command = ADS8689_READ_HWORD;
+    input.registerAddress = ADS8689_ALARM_H_TH_REG + 2;
+    input.data = 0;
+    transferADC(input);
+  }
+
+  // frame 1
+  {
+    ADCInput input;
+    input.command = ADS8689_READ_HWORD;
+    input.registerAddress = ADS8689_ALARM_H_TH_REG;
+    input.data = 0;
+    uint32_t rawData = transferADC(input);
+
+    ADCOutputHWORD output(rawData);
+    Serial.print("Highest 16 bits of register: ");
+    Serial.println(output.data);
+  }
+
+  // frame 2
+  {
+    ADCInput input;
+    input.command = ADS8689_NOP;
+    input.registerAddress = 0;
+    input.data = 0;
+    uint32_t rawData = transferADC(input);
+
+    ADCOutputHWORD output(rawData);
+    Serial.print("Lowest 16 bits of register: ");
+    Serial.println(output.data);
+  }
 }
