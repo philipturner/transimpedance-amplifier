@@ -986,3 +986,5 @@ To start, I'll try shorting one of the DAC's bypass capacitors to the current-li
 | ±15 V   | 250 MΩ  | ±60 nA   | ∓6 V | ∓19.8 V |
 | ±15 V   | 500 MΩ  | ±30 nA   | ∓3 V | ∓9.9 V |
 | ±15 V   | 1000 MΩ | ±15 nA   | ∓1.5 V | ∓4.95 V |
+
+I will use the GIGA-ohm to minimize the absolute magnitude of the voltages experienced by the ADC.
