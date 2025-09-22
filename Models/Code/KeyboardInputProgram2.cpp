@@ -114,7 +114,11 @@ void setup() {
   Serial.begin(0);
   Serial.println(); // allow easy distinction of different program runs
   Serial.println("Serial Monitor has initialized.");
-  Serial.flush();
+
+  pinMode(CS_DAC, OUTPUT);
+  pinMode(CS_ADC, OUTPUT);
+  digitalWrite(CS_DAC, 1);
+  digitalWrite(CS_ADC, 1);
 
   SPI.begin();
 
