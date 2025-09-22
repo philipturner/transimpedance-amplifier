@@ -990,3 +990,7 @@ To start, I'll try shorting one of the DAC's bypass capacitors to the current-li
 I will use the GIGA-ohm to minimize the absolute magnitude of the voltages experienced by the ADC.
 
 Better idea: connect one of the power pins for the TIA not currently in use, which doesn't currently have a jumper across it. We don't need to worry about current limit resistors, as the GIGA-ohm is effectively a current limit resistor. Connect the power pin to the DAC output node with a male-to-female jumper.
+
+### Good News
+
+The ADC is correctly measuring voltages, and there seems to be no major problems with it. I will proceed with testing the 330 MΩ transimpedance amplifier tonight. If it works, I will conduct a static / DC reading with the ADC.
