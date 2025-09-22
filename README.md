@@ -962,3 +962,7 @@ For the DAC tests, I remember pressing the reset button routinely after uploadin
 The bug from yesterday was caused by not calling `Serial.begin()`, which would wait until 1.3 seconds after program startup for the serial port to properly initialize. There was some confusion because Teensy technically doesn't need this function call. It ignores the argument for baud rate. Going forward, I will put `Serial.begin(0)` at the top of programs.
 
 On the first program run after "Upload", `!Serial` suggests that the serial port hasn't been initialized. On the subsequent runs after button presses, serial has been initialized at this point. This explains why pressing the button was a flaky workaround to the "Teensy shutdown bug".
+
+I figured out how to communicate from the PC to the Teensy. All I need is for a program event to trigger upon receiving _any_ input from the PC. That resolves ambiguity about trailing newlines, and removes the need to set a specific key for the trigger. The program should indicate (via Teensy -> PC communication) that the message was received and the relevant SPI code was triggered.
+
+Now, I will start resolving all the requirements into a specific testing procedure. To start, we don't need a high-fidelity repeating kHz-band loop. That will be needed in the future, but not for the current test.
