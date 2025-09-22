@@ -114,6 +114,43 @@ void setup() {
   Serial.begin(0);
   Serial.println(); // allow easy distinction of different program runs
   Serial.println("Serial Monitor has initialized.");
+  Serial.flush();
+
+  SPI.begin();
+
+  // Clear the DAC SPICONFIG register, except for the one reserved bit.
+  {
+    DACInput input;
+    input.registerAddress = 0x03;
+    input.data = 0x0080;
+    transferDAC(input);
+  }
+
+  // Clear the DAC GENCONFIG register, turning on the voltage reference.
+  {
+    DACInput input;
+    input.registerAddress = 0x04;
+    input.data = 0x0000;
+    transferDAC(input);
+  }
+
+  // Clear the DAC DACPWDWN register, turning on the output.
+  {
+    DACInput input;
+    input.registerAddress = 0x09;
+    input.data = 0xFFFE;
+    transferDAC(input);
+  }
+
+  // Configure the DAC DACRANGE register to span from -5 V to 5 V.
+  {
+    DACInput input;
+    input.registerAddress = 0x0A;
+    input.data = 0b0101;
+    transferDAC(input);
+  }
+
+  Serial.println("Setup process has completed.");
 }
 
 // Keyboard events:
