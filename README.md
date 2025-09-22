@@ -971,7 +971,7 @@ Now, I will start resolving all the requirements into a specific testing procedu
 
 The DAC is fried. I got it briefly working with VREFIO = 2.503 V during two instances of the program "KeyboardInputProgram2.cpp". I was trying to understand how to reproducibly get it to not show 0 V, as some random program changes caused it to work. For example, one time, I changed the Teensy code to add a 50 ms delay between `SPI.begin()` and the first SPI transaction to the DAC. All of the sudden, after that program load, the DAC worked on the following program invocations.
 
-Later on, I kept getting 0.99-1.00 V on VREFIO. The output was shorted to the power supply. Nothing restored the 2.5 V. Sometimes, the voltage reference was 0 V. Other times, it was 0.99 V. But it never returned to 2.5 V. This is probably a result of accumulated damage, which finally caused destruction of the voltage reference.
+Later on, I kept getting 0.99-1.00 V on VREFIO. The output was shorted to the positive power supply (15 V). Nothing restored the 2.5 V. Sometimes, the voltage reference was 0 V. Other times, it was 0.99 V. But it never returned to 2.5 V. This is probably a result of accumulated damage, which finally caused destruction of the voltage reference.
 
 I'm not going to try and salvage a DAC from another failed main board. It might be near-impossible to desolder. Even if it was, the circuit's layout might cause another failure. But on the bright side, my spare OP37GSZ is compatible with a breadboard. It might serve well in analog function generators. One major complication is how to reliably attach wires (V+, V-, GND) to the breadboard. But I don't see major theoretical reasons it cannot work out.
 
