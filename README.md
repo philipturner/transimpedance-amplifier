@@ -51,6 +51,7 @@ Table of Contents:
 - [September 19, 2025](#september-19-2025)
 - [September 20, 2025](#september-20-2025)
 - [September 21, 2025](#september-21-2025)
+- [September 22, 2025](#september-22-2025)
 
 ## July 26, 2025
 
@@ -955,3 +956,9 @@ I want to set up a reliable, interrupt-based event loop with a time period of 10
 The exactly 75 μs delay bug also occurs in a program based on `IntervalTimer`. In the final iteration of the kHz loop test, I learned more details about the hardware bug. One valid workaround is logging to the console externally to the high-fidelity loop (in `loop()` instead of `kilohertzLoopIteration()`). Another is extending the delay to O(1 second) and/or waiting 1 second after program launch, as the delay bug exhibits peculiar behavior at this time.
 
 For the DAC tests, I remember pressing the reset button routinely after uploading. Especially in the later iterations where the DAC was closer to working properly. There are so many variables, that this button press (which bypasses the Teensy shutdown bug) may have been irrelevant to the main problem at the time.
+
+## September 22, 2025
+
+The bug from yesterday was caused by not calling `Serial.begin()`, which would wait until 1.3 seconds after program startup for the serial port to properly initialize. There was some confusion because Teensy technically doesn't need this function call. It ignores the argument for baud rate. Going forward, I will put `Serial.begin(0)` at the top of programs.
+
+On the first program run after "Upload", `!Serial` suggests that the serial port hasn't been initialized. On the subsequent runs after button presses, serial has been initialized at this point. This explains why pressing the button was a flaky workaround to the "Teensy shutdown bug".
