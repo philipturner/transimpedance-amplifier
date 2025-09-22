@@ -973,7 +973,7 @@ The DAC is fried. I got it briefly working with VREFIO = 2.503 V during two inst
 
 Later on, I kept getting 0.99-1.00 V on VREFIO. The output was shorted to the positive power supply (15 V). Nothing restored the 2.5 V. Sometimes, the voltage reference was 0 V. Other times, it was 0.99 V. But it never returned to 2.5 V. This is probably a result of accumulated damage, which finally caused destruction of the voltage reference.
 
-I'm not going to try and salvage a DAC from another failed main board. It might be near-impossible to desolder. Even if it was, the circuit's layout might cause another failure. But on the bright side, my spare OP37GSZ is compatible with a breadboard. It might serve well in analog function generators. One major complication is how to reliably attach wires (V+, V-, GND) to the breadboard. But I don't see major theoretical reasons it cannot work out.
+I'm not going to try and salvage a DAC from another failed main board. It might be near-impossible to desolder. Even if it was, the circuit's layout might cause another failure. But on the bright side, my spare OP37GPZ is compatible with a breadboard. It might serve well in analog function generators. One major complication is how to reliably attach wires (V+, V-, GND) to the breadboard. But I don't see major theoretical reasons it cannot work out.
 
 To start, I'll try shorting one of the DAC's bypass capacitors to the current-limit resistor. Here are the possible DC voltages I can generate, which can safely be fed into the ADC as outputs of a transimpedance amplifier:
 
