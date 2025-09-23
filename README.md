@@ -1055,3 +1055,7 @@ I fixed the problem. Several pins of the potentiometers were disconnected, meani
 - Use 370 °C instead of 350 °C for the soldering iron temperature. The solder re-melted quite nicely, without applying any flux.
 
 I will now repeat yesterday's basic tests of the 330 MΩ transimpedance amplifier.
+
+---
+
+It is still saturating at the supply rails. Same behavior of 10.9 V vs. 11.3 V when the overvoltage protection network is disconnected. Far side of the feedback resistor showed 7.9 V, indicating a voltage divider between two trimpots.
