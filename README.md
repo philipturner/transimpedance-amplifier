@@ -1059,3 +1059,16 @@ I will now repeat yesterday's basic tests of the 330 MΩ transimpedance amplifie
 ---
 
 It is still saturating at the supply rails. Same behavior of 10.9 V vs. 11.3 V when the overvoltage protection network is disconnected. Far side of the feedback resistor showed 7.9 V, indicating a voltage divider between two trimpots.
+
+I restored the circuit to a configuration supporting larger bandwidth. The main compensation network should target a 3.4 kHz corner frequency, while the bandwidth trim should target 18.6 kHz.
+
+| Descriptive Name      | Reference | Value |
+| --------------------- | --------- | ----: |
+| C\_main\_comp         | C9        | 2.145&ndash;2.158 nF |
+| R\_bandwidth\_fixed   | R4        | 1300&ndash;1301 Ω |
+| R\_bandwidth\_trim    | R5        | 2974 Ω |
+| R\_main\_comp         | R7        | 23.32 kΩ |
+| R\_midf\_comp         | R6        | 100.0&ndash;100.1 kΩ |
+| C\_midf\_comp         | C10       | 297&ndash;301 pF |
+| voltage divider 1 kΩ  | R12       | 1003&ndash;1023 Ω |
+| voltage divider 15 kΩ | R13       | 15.00 kΩ |
