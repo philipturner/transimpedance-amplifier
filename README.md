@@ -1045,3 +1045,9 @@ I will now trim and measure the relevant parts of my PCB.
 | C\_midf\_comp         | C10       | 297&ndash;301 pF |
 | voltage divider 1 kΩ  | R12       | 1003&ndash;1023 Ω |
 | voltage divider 15 kΩ | R13       | 15.00 kΩ |
+
+---
+
+I fixed the problem. Several pins of the potentiometers were disconnected, meaning the TIA feedback was likely disconnected. I changed the following variables to repair them:
+- Use the large (THT) tip instead of the small (SMT) tip. Yes, I specifically chose to solder the trimpots with the small tip because the lead diameters were small.
+- Use 370 °C instead of 350 °C for the soldering iron temperature. The solder re-melted quite nicely, without applying any flux.
