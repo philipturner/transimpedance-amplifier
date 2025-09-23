@@ -1039,15 +1039,19 @@ I will now trim and measure the relevant parts of my PCB.
 | --------------------- | --------- | ----: |
 | C\_main\_comp         | C9        | 2.145&ndash;2.158 nF |
 | R\_bandwidth\_fixed   | R4        | 1300&ndash;1301 Ω |
-| R\_bandwidth\_trim    | R5        | no connection |
-| R\_main\_comp         | R7        | no connection |
-| R\_midf\_comp         | R6        | ~100 kΩ |
+| R\_bandwidth\_trim    | R5        | 9.44&ndash;9.45 kΩ |
+| R\_main\_comp         | R7        | 1668&ndash;1670 Ω |
+| R\_midf\_comp         | R6        | 100.0&ndash;100.1 kΩ |
 | C\_midf\_comp         | C10       | 297&ndash;301 pF |
 | voltage divider 1 kΩ  | R12       | 1003&ndash;1023 Ω |
 | voltage divider 15 kΩ | R13       | 15.00 kΩ |
+
+Both capacitors measure ~120 pF above their expected value. Hopefully, this is a systematic error in the multimeter.
 
 ---
 
 I fixed the problem. Several pins of the potentiometers were disconnected, meaning the TIA feedback was likely disconnected. I changed the following variables to repair them:
 - Use the large (THT) tip instead of the small (SMT) tip. Yes, I specifically chose to solder the trimpots with the small tip because the lead diameters were small.
 - Use 370 °C instead of 350 °C for the soldering iron temperature. The solder re-melted quite nicely, without applying any flux.
+
+I will now repeat yesterday's basic tests of the 330 MΩ transimpedance amplifier.
