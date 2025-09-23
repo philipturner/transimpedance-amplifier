@@ -1032,3 +1032,16 @@ I ran some AC small-signal analyses to figure out the best ways to tune the trim
 | 11.3 kΩ | 0.5 kΩ | ![](./Documentation/September23/11_3k_500.png) |
 
 </details>
+
+I will now trim and measure the relevant parts of my PCB.
+
+| Descriptive Name      | Reference | Value |
+| --------------------- | --------- | ----: |
+| C\_main\_comp         | C9        | 2.145&ndash;2.158 nF |
+| R\_bandwidth\_fixed   | R4        | 1300&ndash;1301 Ω |
+| R\_bandwidth\_trim    | R5        | no connection |
+| R\_main\_comp         | R7        | no connection |
+| R\_midf\_comp         | R6        | ~100 kΩ |
+| C\_midf\_comp         | C10       | 297&ndash;301 pF |
+| voltage divider 1 kΩ  | R12       | 1003&ndash;1023 Ω |
+| voltage divider 15 kΩ | R13       | 15.00 kΩ |
