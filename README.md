@@ -1118,7 +1118,7 @@ For both this test and the last one, voltage readings across the two ends of the
 
 ### Test 3
 
-Next, I will reduce the main compensation resistor to almost the minimum value. AD8615 supply voltages are (2.515, -1.474).
+Next, I will reduce the main compensation resistor to almost the minimum value. AD8615 supply voltages are (2.515 V, -1.474 V).
 
 | Descriptive Name      | Reference | Value |
 | --------------------- | --------- | ----: |
@@ -1137,8 +1137,6 @@ Next, I will reduce the main compensation resistor to almost the minimum value. 
 | n/a  | n/a    | YES | 10.98 | 0.709 | 10.98 | 0.710 | 0.374 |
 | 1 GΩ | -15 V  | YES | 10.97 | 0.710 | 10.97 | 0.711 | 0.338 |
 | 1 GΩ | +15 V  | YES | 10.97 | 0.710 | 10.97 | 0.710 | 0.505 |
-
-
 
 For the -15 V test, when I put two probes across the ends of the feedback resistor, it measured 7.88 V. For the +15 V test, it measured 7.91 V. Not the expected value from the difference in potentials! Perhaps this indicates an internal oscillation masked by the DC nature of the reading.
 
