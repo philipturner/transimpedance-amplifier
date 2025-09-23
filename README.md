@@ -1072,3 +1072,14 @@ I restored the circuit to a configuration supporting larger bandwidth. The main 
 | C\_midf\_comp         | C10       | 297&ndash;301 pF |
 | voltage divider 1 kΩ  | R12       | 1003&ndash;1023 Ω |
 | voltage divider 15 kΩ | R13       | 15.00 kΩ |
+
+I will start each test with the high-voltage feedback path disconnected. Plug in the batteries to activate the circuit. Place any DUTs. Take 4 measurements, connect the jumper for the HV path, then take 4 measurements with the new test config. The labels for the probed locations match the colors from the SPICE graphs above.
+
+| DUT  | V(Vin) | HV path connected | green | purple | red | blue |
+| ---: | -----: | :---------------: | ----: | -----: | --: | ---: |
+| n/a  | n/a    | NO                |
+| n/a  | n/a    | YES               |
+| 1 GΩ | -15 V  | NO                |
+| 1 GΩ | -15 V  | YES               |
+| 1 GΩ | +15 V  | NO                |
+| 1 GΩ | +15 V  | YES               |
