@@ -1052,7 +1052,7 @@ Both capacitors measure ~120 pF above their expected value. Hopefully, this is a
 
 I fixed the problem. Several pins of the potentiometers were disconnected, meaning the TIA feedback was likely disconnected. I changed the following variables to repair them:
 - Use the large (THT) tip instead of the small (SMT) tip. Yes, I specifically chose to solder the trimpots with the small tip because the lead diameters were small.
-- Use 370 °C instead of 350 °C for the soldering iron temperature. The solder re-melted quite nicely, without applying any flux.
+- Use 370°C instead of 350°C for the soldering iron temperature. The solder re-melted quite nicely, without applying any flux.
 
 I will now repeat yesterday's basic tests of the 330 MΩ transimpedance amplifier.
 
