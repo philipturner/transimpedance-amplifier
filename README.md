@@ -1060,6 +1060,8 @@ I will now repeat yesterday's basic tests of the 330 MΩ transimpedance amplifie
 
 It is still saturating at the supply rails. Same behavior of 10.9 V vs. 11.3 V when the overvoltage protection network is disconnected. Far side of the feedback resistor showed 7.9 V, indicating a voltage divider between two trimpots.
 
+### Test 1
+
 I restored the circuit to a configuration supporting larger bandwidth. The main compensation network should target a 3.4 kHz corner frequency, while the bandwidth trim should target 18.6 kHz.
 
 | Descriptive Name      | Reference | Value |
@@ -1090,4 +1092,28 @@ Here are results of real-world tests. The numbers in the tables are measurements
 | 1 GΩ | -15 V  | YES | 10.93 | 0.707 | 10.97 | 0.707 | 0.339 |
 | 1 GΩ | +15 V  | YES | 10.91 | 0.705 | 10.93 | 0.705 | 0.504 |
 
-Next, I will test reducing the bandwidth limiter to ~7 kHz. After that, reducing the main compensation resistor to almost the minimum value.
+### Test 2
+
+Next, I will test reducing the bandwidth limiter to 7.5 kHz. AD8615 supply voltages are (2.516 V, -1.474 V).
+
+| Descriptive Name      | Reference | Value |
+| --------------------- | --------- | ----: |
+| C\_main\_comp         | C9        | 2.145&ndash;2.158 nF |
+| R\_bandwidth\_fixed   | R4        | 1300&ndash;1301 Ω |
+| R\_bandwidth\_trim    | R5        | 9.36 kΩ |
+| R\_main\_comp         | R7        | 23.32 kΩ |
+| R\_midf\_comp         | R6        | 100.0&ndash;100.1 kΩ |
+| C\_midf\_comp         | C10       | 297&ndash;301 pF |
+| voltage divider 1 kΩ  | R12       | 1003&ndash;1023 Ω |
+| voltage divider 15 kΩ | R13       | 15.00 kΩ |
+
+| DUT  | V(Vin) | HV path connected | 1    | 2    | 3    | 4    | 5    |
+| ---: | -----: | :---------------: | ---: | ---: | ---: | ---: | ---: |
+| n/a  | n/a    | NO  | 11.33 | 0.709 | 11.36 | 0.710 | 0.401 |
+| n/a  | n/a    | YES | 10.94 | 0.708 | 10.97 | 0.708 | 0.385 |
+| 1 GΩ | -15 V  | YES | 10.94 | 0.707 | 10.96 | 0.707 | 0.339 |
+| 1 GΩ | +15 V  | YES | 10.94 | 0.707 | 10.96 | 0.707 | 0.506 |
+
+### Test 3
+
+Next, I will reduce the main compensation resistor to almost the minimum value.
