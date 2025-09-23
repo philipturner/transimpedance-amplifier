@@ -1118,7 +1118,7 @@ For both this test and the last one, voltage readings across the two ends of the
 
 ### Test 3
 
-Next, I will reduce the main compensation resistor to almost the minimum value.
+Next, I will reduce the main compensation resistor to almost the minimum value. AD8615 supply voltages are (2.515, -1.474).
 
 | Descriptive Name      | Reference | Value |
 | --------------------- | --------- | ----: |
@@ -1130,3 +1130,27 @@ Next, I will reduce the main compensation resistor to almost the minimum value.
 | C\_midf\_comp         | C10       | 297&ndash;301 pF |
 | voltage divider 1 kΩ  | R12       | 1003&ndash;1023 Ω |
 | voltage divider 15 kΩ | R13       | 15.00 kΩ |
+
+| DUT  | V(Vin) | HV path connected | 1    | 2    | 3    | 4    | 5    |
+| ---: | -----: | :---------------: | ---: | ---: | ---: | ---: | ---: |
+| n/a  | n/a    | NO  | 11.38 | 0.710 | 11.38 | 0.710 | 0.390 |
+| n/a  | n/a    | YES | 10.98 | 0.709 | 10.98 | 0.710 | 0.374 |
+| 1 GΩ | -15 V  | YES | 10.97 | 0.710 | 10.97 | 0.711 | 0.338 |
+| 1 GΩ | +15 V  | YES | 10.97 | 0.710 | 10.97 | 0.710 | 0.505 |
+
+
+
+For the -15 V test, when I put two probes across the ends of the feedback resistor, it measured 7.88 V. For the +15 V test, it measured 7.91 V. Not the expected value from the difference in potentials! Perhaps this indicates an internal oscillation masked by the DC nature of the reading.
+
+Is the 12 V issue still present?
+
+| DUT  | V(Vin) | Relevant VREG's Schottky Diode | DUT |
+| ---: | -----: | -----------------------------: | --: |
+| 1 GΩ | -15 V  | -14.92 V | -15.14 V |
+| 1 GΩ | +15 V  |  15.07 V |  11.99 V |
+
+I plan to eventually conduct an AC measurement with the 18-bit SAR ADC. Its frontend has a 2nd-order lowpass filter @ 15 kHz, and a theoretical maximum digitization rate of 100 kSPS. For my purposes, it should be enough to detect an oscillation in the audiofrequency regime, and to detect deviation between ADC measurements and multimeter measurements. One of its modes tolerates a full-scale range of -12.288 V to 12.288 V, so the 10&ndash;11 V reported here should not cause damage. I have proof that this ADC works over SPI with no egregious calibration errors.
+
+I conducted all of today's tests with the Teensy disconnected and the Windows PC not involved, demonstrating modularity of the subsystems. I packed multiple distinct tests into this project, all accessible from 1 single PCB. Other competitors may have used multiple different PCBs, or even multiple design iterations (several months of time delay) to reach the point I'm at.
+
+I have gathered much data about the TIA using _both_ theory and experiment, as was the original stated goal of this project. However, I still need to get a _working_ prototype before moving on to Phase 0.2 of the [APM Roadmap](https://github.com/philipturner/apm-roadmap).
