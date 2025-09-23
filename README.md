@@ -1023,12 +1023,12 @@ I ran some AC small-signal analyses to figure out the best ways to tune the trim
 | R16   | R15   | V(Vin) -> V(Vout) Transfer Function |
 | ----: | ----: | ----------------------------------- |
 | 1.4 kΩ | 23.5 kΩ | ![](./Documentation/September23/1_4k.png) |
-| 6.3 kΩ | 23.5 kΩ |
-| 11.3 kΩ | 23.5 kΩ |
-| 11.3 kΩ | 10.0 kΩ |
-| 11.3 kΩ | 5.0 kΩ |
-| 11.3 kΩ | 2.0 kΩ |
-| 11.3 kΩ | 1.0 kΩ |
-| 11.3 kΩ | 0.5 kΩ |
+| 6.3 kΩ | 23.5 kΩ | ![](./Documentation/September23/6_3k.png) |
+| 11.3 kΩ | 23.5 kΩ | ![](./Documentation/September23/11_3k.png) |
+| 11.3 kΩ | 10.0 kΩ | ![](./Documentation/September23/11_3k_10k.png) |
+| 11.3 kΩ | 5.0 kΩ | ![](./Documentation/September23/11_3k_5k.png) |
+| 11.3 kΩ | 2.0 kΩ | ![](./Documentation/September23/11_3k_2k.png) |
+| 11.3 kΩ | 1.0 kΩ | ![](./Documentation/September23/11_3k_1k.png) |
+| 11.3 kΩ | 0.5 kΩ | ![](./Documentation/September23/11_3k_500.png) |
 
 </details>
