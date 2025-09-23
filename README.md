@@ -1114,6 +1114,19 @@ Next, I will test reducing the bandwidth limiter to 7.5 kHz. AD8615 supply volta
 | 1 GΩ | -15 V  | YES | 10.94 | 0.707 | 10.96 | 0.707 | 0.339 |
 | 1 GΩ | +15 V  | YES | 10.94 | 0.707 | 10.96 | 0.707 | 0.506 |
 
+For both this test and the last one, voltage readings across the two ends of the DUT were strange. For -15 V, it measured 15 V across the resistor. For +15 V, it measured 12 V across the resistor. I do not know why the positive case shows less than the expected magnitude of 15 V.
+
 ### Test 3
 
 Next, I will reduce the main compensation resistor to almost the minimum value.
+
+| Descriptive Name      | Reference | Value |
+| --------------------- | --------- | ----: |
+| C\_main\_comp         | C9        | 2.145&ndash;2.158 nF |
+| R\_bandwidth\_fixed   | R4        | 1300&ndash;1301 Ω |
+| R\_bandwidth\_trim    | R5        | <b>9.36 kΩ</b> |
+| R\_main\_comp         | R7        | 1699&ndash;1700 Ω |
+| R\_midf\_comp         | R6        | 100.0&ndash;100.1 kΩ |
+| C\_midf\_comp         | C10       | 297&ndash;301 pF |
+| voltage divider 1 kΩ  | R12       | 1003&ndash;1023 Ω |
+| voltage divider 15 kΩ | R13       | 15.00 kΩ |
