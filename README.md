@@ -1073,13 +1073,21 @@ I restored the circuit to a configuration supporting larger bandwidth. The main 
 | voltage divider 1 kΩ  | R12       | 1003&ndash;1023 Ω |
 | voltage divider 15 kΩ | R13       | 15.00 kΩ |
 
-I will start each test with the high-voltage feedback path disconnected. Plug in the batteries to activate the circuit. Place any DUTs. Take 4 measurements, connect the jumper for the HV path, then take 4 measurements with the new test config. The labels for the probed locations match the colors from the SPICE graphs above.
+Here are results of real-world tests. The numbers in the tables are measurements in volts. The AD8615 inverting input is not supposed to be anything above 0 V! Before this test, the supply voltages for the AD8615 had drifted from (2.503 V, -1.475 V) to (2.512 V, -1.474 V). Probably because I did some soldering before this test.
 
-| DUT  | V(Vin) | HV path connected | green | purple | red | blue |
-| ---: | -----: | :---------------: | ----: | -----: | --: | ---: |
-| n/a  | n/a    | NO                | -10.00 V | -10.00 V | -10.00 V | -10.00 V |
-| n/a  | n/a    | YES               |
-| 1 GΩ | -15 V  | NO                |
-| 1 GΩ | -15 V  | YES               |
-| 1 GΩ | +15 V  | NO                |
-| 1 GΩ | +15 V  | YES               |
+| Node | Number |
+| ---- | ----- |
+| far side of feedback resistor | 1 |
+| 1k, 15k voltage divider       | 2 |
+| output of OP37GPZ             | 3 |
+| AD8615 output                 | 4 |
+| AD8615 inverting input        | 5 |
+
+| DUT  | V(Vin) | HV path connected | 1    | 2    | 3    | 4    | 5    |
+| ---: | -----: | :---------------: | ---: | ---: | ---: | ---: | ---: |
+| n/a  | n/a    | NO  | 11.36 | 0.710 | 11.38 | 0.711 | 0.387 |
+| n/a  | n/a    | YES | 10.95 | 0.708 | 10.98 | 0.708 | 0.380 |
+| 1 GΩ | -15 V  | YES | 10.93 | 0.707 | 10.97 | 0.707 | 0.339 |
+| 1 GΩ | +15 V  | YES | 10.91 | 0.705 | 10.93 | 0.705 | 0.504 |
+
+Next, I will test reducing the bandwidth limiter to ~7 kHz. After that, reducing the main compensation resistor to almost the minimum value.
