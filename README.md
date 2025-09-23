@@ -1068,8 +1068,8 @@ I restored the circuit to a configuration supporting larger bandwidth. The main 
 | --------------------- | --------- | ----: |
 | C\_main\_comp         | C9        | 2.145&ndash;2.158 nF |
 | R\_bandwidth\_fixed   | R4        | 1300&ndash;1301 Ω |
-| R\_bandwidth\_trim    | R5        | 2974 Ω |
-| R\_main\_comp         | R7        | 23.32 kΩ |
+| R\_bandwidth\_trim    | R5        | <b>2974 Ω</b> |
+| R\_main\_comp         | R7        | <b>23.32 kΩ</b> |
 | R\_midf\_comp         | R6        | 100.0&ndash;100.1 kΩ |
 | C\_midf\_comp         | C10       | 297&ndash;301 pF |
 | voltage divider 1 kΩ  | R12       | 1003&ndash;1023 Ω |
@@ -1100,7 +1100,7 @@ Next, I will test reducing the bandwidth limiter to 7.5 kHz. AD8615 supply volta
 | --------------------- | --------- | ----: |
 | C\_main\_comp         | C9        | 2.145&ndash;2.158 nF |
 | R\_bandwidth\_fixed   | R4        | 1300&ndash;1301 Ω |
-| R\_bandwidth\_trim    | R5        | 9.36 kΩ |
+| R\_bandwidth\_trim    | R5        | <b>9.36 kΩ</b> |
 | R\_main\_comp         | R7        | 23.32 kΩ |
 | R\_midf\_comp         | R6        | 100.0&ndash;100.1 kΩ |
 | C\_midf\_comp         | C10       | 297&ndash;301 pF |
@@ -1124,8 +1124,8 @@ Next, I will reduce the main compensation resistor to almost the minimum value.
 | --------------------- | --------- | ----: |
 | C\_main\_comp         | C9        | 2.145&ndash;2.158 nF |
 | R\_bandwidth\_fixed   | R4        | 1300&ndash;1301 Ω |
-| R\_bandwidth\_trim    | R5        | <b>9.36 kΩ</b> |
-| R\_main\_comp         | R7        | 1699&ndash;1700 Ω |
+| R\_bandwidth\_trim    | R5        | 9.36 kΩ |
+| R\_main\_comp         | R7        | <b>1699&ndash;1700 Ω</b> |
 | R\_midf\_comp         | R6        | 100.0&ndash;100.1 kΩ |
 | C\_midf\_comp         | C10       | 297&ndash;301 pF |
 | voltage divider 1 kΩ  | R12       | 1003&ndash;1023 Ω |
