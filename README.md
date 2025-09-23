@@ -1077,7 +1077,7 @@ I will start each test with the high-voltage feedback path disconnected. Plug in
 
 | DUT  | V(Vin) | HV path connected | green | purple | red | blue |
 | ---: | -----: | :---------------: | ----: | -----: | --: | ---: |
-| n/a  | n/a    | NO                |
+| n/a  | n/a    | NO                | -10.00 V | -10.00 V | -10.00 V | -10.00 V |
 | n/a  | n/a    | YES               |
 | 1 GΩ | -15 V  | NO                |
 | 1 GΩ | -15 V  | YES               |
