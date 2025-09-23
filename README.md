@@ -52,6 +52,7 @@ Table of Contents:
 - [September 20, 2025](#september-20-2025)
 - [September 21, 2025](#september-21-2025)
 - [September 22, 2025](#september-22-2025)
+- [September 23, 2025](#september-23-2025)
 
 ## July 26, 2025
 
@@ -1000,3 +1001,25 @@ The ADC is correctly measuring voltages, and there seems to be no major problems
 330 MΩ transimpedance amplifier is saturating at the supply rails. ~10.9 V with the overvoltage protection network connected, ~11.3 V with it disconnected. Behaves like this regardless of whether the GIGA-ohm is connected. Have not tested tuning the potentiometers to potentially fix an oscillation problem.
 
 When the TIA output was ~10 V, the AD8615 output was 0.7 V. That reflects a ~15x gain factor, as expected.
+
+## September 23, 2025
+
+I updated the SPICE model developed in the [home-built-stm](https://github.com/philipturner/home-built-stm) repo, to reflect the part values of the current design. The DC operating point with V<sub>in</sub> = -15 V is V<sub>out</sub> = 4.95 V.
+
+![Updated SPICE Model](./Documentation/September23/UpdatedSPICEModel.png)
+
+I ran some AC small-signal analyses to figure out the best ways to tune the trimpots. Here is a legend of the color codes of the probed nodes. Solid lines are magnitude, dotted lines are phase.
+
+| Node | Color |
+| ---- | ----- |
+| AD8615 output                 | green |
+| 1k, 15k voltage divider       | purple |
+| output of OP37GPZ             | red |
+| far side of feedback resistor | blue |
+
+<details>
+<summary>Graphs of simulation results</summary>
+
+TODO
+
+</details>
