@@ -1157,3 +1157,13 @@ I have gathered much data about the TIA using _both_ theory and experiment, as w
 ## September 24, 2025
 
 Michael Schmid suggested that the problem is a damaged or disconnected AD8615. I'll mentally process this when I get the chance.
+
+---
+
+There indeed was a "no connection" at the AD8615's negative power supply, deceptively classified as a connection. This is exactly the first thing Michael suggested.
+
+I fixed the problem by re-soldering the joint with the small tip installed, at 370°C. I also re-touched the non-inverting input and the output. All 5 pins of the AD8615 passed the continuity test starting at the _pin_ of the IC, not the pad. In addition, there were no shorts.
+
+![September 24, Part 1](./Documentation/September24/September24_Part1.jpg)
+
+_Image of the AD8615 after supposedly repairing the soldering errors. Note the abuse the 330 MΩ feedback resistor has taken after so much probing yesterday._
