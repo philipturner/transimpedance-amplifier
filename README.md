@@ -1180,7 +1180,7 @@ AD8615 supply voltages are (2.338 V, -1.269 V). The supply voltage was measured 
 | 1 GΩ | +15 V  | YES | -4.92 | 0.223 | -5.01 | 0.183 | -0.018 |
 
 | DUT  | V(Vin) | HV path connected | VREG's Diode | DUT |
-| ---: | -----: | ----------------: | -------: | --: |
+| ---: | -----: | :---------------: | -------: | --: |
 | 1 GΩ | -15 V  | NO  |
 | 1 GΩ | -15 V  | YES | -14.92 V | -13.07 V |
 | 1 GΩ | +15 V  | NO  |  15.08 V |  11.87 V |
