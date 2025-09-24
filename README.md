@@ -1244,5 +1244,7 @@ Note that the voltages at the bypass capacitors differ substantially from those 
 
 | Condition | Positive Supply | Negative Supply |
 | --------- | --------------: | --------------: |
-| new AD8615 installed | 2.378 V | -1.074 V |
-| after tuning         | 2.511 V | -1.072 V |
+| new AD8615 installed      | 2.378 V | -1.074 V |
+| after tuning              | 2.511 V | -1.072 V |
+| after powering on OP37GPZ | 2.738 V | -1.231 V |
+| after tuning              | 2.492 V | -1.234 V |
