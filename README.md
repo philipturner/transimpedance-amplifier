@@ -1207,10 +1207,9 @@ Update: I had to set the soldering iron to 400°C to rework that troublesome pin
 | Condition | V+ High | V+ Low1 | V+ Low2 | V- High | V- Low |
 | --------- | ------: | ------: | ------: | ------: | -----: |
 | before fixing trimpot | 398 Ω | 168 Ω | 570 Ω | 524 Ω | 222 Ω |
-| before desoldering | 397 Ω | 163 Ω | n/a | 524 Ω | 161 Ω |
-| after desoldering |
-| new AD8615 installed |
-| after tuning |
+| before desoldering    | 397 Ω | 163 Ω | n/a   | 524 Ω | 161 Ω |
+| after desoldering     | 400 Ω | 568 Ω | n/a   | 525 Ω | 221 Ω |
+| new AD8615 installed  |
 
 | Condition | Positive Supply | Negative Supply |
 | --------- | --------------: | --------------: |
