@@ -1194,6 +1194,8 @@ I think I just broke the AD8615 in the middle of a test.
 
 I will collect data about the (apparent) resistances of the voltage dividers throughout the repair process. I will repair the messed up solder joint at the GND pin of the 1 kΩ potentiometer, ensuring no anomalies in the multimeter readings. I thought the broken AD8615 was acting as a parallel resistor, but I could be mistaken.
 
+Update: I had to set the soldering iron to 400°C to rework that troublesome pin nicely. I removed most of the solder volume, but the small amount remaining forms a solid connection to GND. The anomalous measurement suggesting correct trimpot resistances (570 Ω) could be contact resistance. I am now getting numbers in that range, but when I press harder, it returns to 166 Ω.
+
 | Identifier | Description |
 | ---------- | ----------- |
 | V+ High    | High side of the 1 kΩ trimpot, connects to +5 V |
@@ -1205,7 +1207,7 @@ I will collect data about the (apparent) resistances of the voltage dividers thr
 | Condition | V+ High | V+ Low1 | V+ Low2 | V- High | V- Low |
 | --------- | ------: | ------: | ------: | ------: | -----: |
 | before fixing trimpot | 398 Ω | 168 Ω | 570 Ω | 524 Ω | 222 Ω |
-| before desoldering |
+| before desoldering | 397 Ω | 163 Ω | n/a | 524 Ω | 161 Ω |
 | after desoldering |
 | new AD8615 installed |
 | after tuning |
