@@ -53,6 +53,7 @@ Table of Contents:
 - [September 21, 2025](#september-21-2025)
 - [September 22, 2025](#september-22-2025)
 - [September 23, 2025](#september-23-2025)
+- [September 24, 2025](#september-24-2025)
 
 ## July 26, 2025
 
@@ -1152,3 +1153,7 @@ I plan to eventually conduct an AC measurement with the 18-bit SAR ADC. Its fron
 I conducted all of today's tests with the Teensy disconnected and the Windows PC not involved, demonstrating modularity of the subsystems. I packed multiple distinct tests into this project, all accessible from 1 single PCB. Other competitors may have used multiple different PCBs, or even multiple design iterations (several months of time delay) to reach the point I'm at.
 
 I have gathered much data about the TIA using _both_ theory and experiment, as was the original stated goal of this project. However, I still need to get a _working_ prototype before moving on to Phase 0.2 of the [APM Roadmap](https://github.com/philipturner/apm-roadmap).
+
+## September 24, 2025
+
+Michael Schmid suggested that the problem is a damaged or disconnected AD8615. I'll mentally process this when I get the chance.
