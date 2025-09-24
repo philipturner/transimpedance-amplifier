@@ -1192,17 +1192,25 @@ I think I just broke the AD8615 in the middle of a test.
 
 ### Repair Process
 
-I will collect data about the (apparent) resistances of the voltage dividers throughout the repair process.
+I will collect data about the (apparent) resistances of the voltage dividers throughout the repair process. I will repair the messed up solder joint at the GND pin of the 1 kΩ potentiometer, ensuring no anomalies in the multimeter readings. I thought the broken AD8615 was acting as a parallel resistor, but I could be mistaken.
 
 | Identifier | Description |
 | ---------- | ----------- |
 | V+ High    | High side of the 1 kΩ trimpot, connects to +5 V |
-| V+ Low     | Low side of the 1 kΩ trimpot, connects to GND |
+| V+ Low1    | Low side of the 1 kΩ trimpot, connects to GND |
+| V+ Low2    | Same as previous, but multimeter shows different results |
 | V- High    | 523 Ω |
 | V- Low     | 220 Ω |
 
-| Condition | V+ High | V+ Low | V- High | V- Low |
-| --------- | ------: | -----: | ------: | -----: |
-| Before Desoldering |
-| After Desoldering |
-| New AD8615 Installed |
+| Condition | V+ High | V+ Low1 | V+ Low2 | V- High | V- Low |
+| --------- | ------: | ------: | ------: | ------: | -----: |
+| before fixing trimpot | 398 Ω | 168 Ω | 570 Ω | 524 Ω | 222 Ω |
+| before desoldering |
+| after desoldering |
+| new AD8615 installed |
+| after tuning |
+
+| Condition | Positive Supply | Negative Supply |
+| --------- | --------------: | --------------: |
+| new AD8615 installed | TBD V | TBD V |
+| after tuning         | TBD V | TBD V |
