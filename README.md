@@ -1229,7 +1229,7 @@ Before plugging in the batteries, I will re-tune the pole-zero compensation netw
 
 > TODO: Copy the table from the above entries.
 
-I will keep the following tests very short, and avoid collecting data from any not-needed locations. I will always carefully install the OP37GPZ jumpers after the batteries are plugged in. I always place the DUT last, after configuring the male-to-female jumper to V(Vin). I will never disconnect the jumper for the overvoltage feedback path.
+I will keep the following tests very short, and avoid collecting data from any not-needed locations. I will always carefully install the OP37GPZ jumpers after the batteries are plugged in. I always place the DUT last, after configuring the male-to-female jumper to V(Vin). I will never disconnect the jumper for the overvoltage feedback path. I will connect the TIA1 output to the ADC input with a jumper, which may damage the ADC from undefined voltages. However, I care more about preventing the sparking event that may have broke the AD8615 last time.
 
 | Condition | Positive Supply | Negative Supply |
 | --------- | --------------: | --------------: |
