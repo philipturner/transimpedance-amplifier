@@ -1240,7 +1240,9 @@ Before plugging in the batteries, I will re-tune the pole-zero compensation netw
 
 I will keep the following tests very short, and avoid collecting data from any not-needed locations. I will always carefully install the OP37GPZ jumpers after the batteries are plugged in. I always place the DUT last, after configuring the male-to-female jumper to V(Vin). I will never disconnect the jumper for the overvoltage feedback path. I will connect the TIA1 output to the ADC input with a jumper, which may damage the ADC from undefined voltages. However, I care more about preventing the sparking event that may have broke the AD8615 last time.
 
+Note that the voltages at the bypass capacitors differ substantially from those at the voltage dividers. The bypass capacitor voltages are ~0.1 V farther from GND than the voltage dividers. I am measuring voltages at the voltage dividers to make the measurements more repeatable.
+
 | Condition | Positive Supply | Negative Supply |
 | --------- | --------------: | --------------: |
-| new AD8615 installed | TBD V | TBD V |
-| after tuning         | TBD V | TBD V |
+| new AD8615 installed | 2.378 V | -1.074 V |
+| after tuning         | 2.511 V | -1.072 V |
