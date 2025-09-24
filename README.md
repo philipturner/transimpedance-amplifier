@@ -1185,3 +1185,7 @@ AD8615 supply voltages are (2.338 V, -1.269 V). The supply voltage was measured 
 | 1 GΩ | -15 V  | YES | -14.92 V | -13.07 V |
 | 1 GΩ | +15 V  | NO  |  15.08 V |  11.87 V |
 | 1 GΩ | +15 V  | YES |  15.07 V |  11.85 V |
+
+### Bad News
+
+I think I just broke the AD8615 in the middle of a test.
