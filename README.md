@@ -1167,3 +1167,21 @@ I fixed the problem by re-soldering the joint with the small tip installed, at 3
 ![September 24, Part 1](./Documentation/September24/September24_Part1.jpg)
 
 _Image of the AD8615 after supposedly repairing the soldering errors. Note the abuse the 330 MΩ feedback resistor has taken after so much probing yesterday._
+
+AD8615 supply voltages are (2.338 V, -1.269 V). The supply voltage was measured with the (1 GΩ, +15 V, NO) setup.
+
+| DUT  | V(Vin) | HV path connected | 1    | 2    | 3    | 4    | 5    |
+| ---: | -----: | :---------------: | ---: | ---: | ---: | ---: | ---: |
+| n/a  | n/a    | NO  |
+| n/a  | n/a    | YES |
+| 1 GΩ | -15 V  | NO  |
+| 1 GΩ | -15 V  | YES |  5.02 | 0.465 |  5.00 | 0.467 | -0.011 |
+| 1 GΩ | +15 V  | NO  | -4.91 | 0.223 | -5.00 | 0.206 | 0.000 |
+| 1 GΩ | +15 V  | YES | -4.92 | 0.223 | -5.01 | 0.183 | -0.018 |
+
+| DUT  | V(Vin) | HV path connected | VREG's Diode | DUT |
+| ---: | -----: | ----------------: | -------: | --: |
+| 1 GΩ | -15 V  | NO  |
+| 1 GΩ | -15 V  | YES | -14.92 V | -13.07 V |
+| 1 GΩ | +15 V  | NO  |  15.08 V |  11.87 V |
+| 1 GΩ | +15 V  | YES |  15.07 V |  11.85 V |
