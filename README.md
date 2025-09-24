@@ -1189,3 +1189,20 @@ AD8615 supply voltages are (2.338 V, -1.269 V). The supply voltage was measured 
 ### Bad News
 
 I think I just broke the AD8615 in the middle of a test.
+
+### Repair Process
+
+I will collect data about the (apparent) resistances of the voltage dividers throughout the repair process.
+
+| Identifier | Description |
+| ---------- | ----------- |
+| V+ High    | High side of the 1 kΩ trimpot, connects to +5 V |
+| V+ Low     | Low side of the 1 kΩ trimpot, connects to GND |
+| V- High    | 523 Ω |
+| V- Low     | 220 Ω |
+
+| Condition | V+ High | V+ Low | V- High | V- Low |
+| --------- | ------: | -----: | ------: | -----: |
+| Before Desoldering |
+| After Desoldering |
+| New AD8615 Installed |
