@@ -1227,7 +1227,16 @@ Here is the new AD8615 installed. By some miracle, I repaired a short between V<
 
 Before plugging in the batteries, I will re-tune the pole-zero compensation network to a configuration supporting higher bandwidth. This choice will provide a path for high voltages to escape to ground at high frequencies. The current voltage divider is biased to bring a high voltage to the feedback resistor, but we can change that to make it very low. This choice will minimize the chance of any events destroying the AD8615, although I have no idea how effective the measure is.
 
-> TODO: Copy the table from the above entries.
+| Descriptive Name      | Reference | Value |
+| --------------------- | --------- | ----: |
+| C\_main\_comp         | C9        | 2.145&ndash;2.158 nF |
+| R\_bandwidth\_fixed   | R4        | 1300&ndash;1301 Ω |
+| R\_bandwidth\_trim    | R5        | <b>2989 Ω</b> |
+| R\_main\_comp         | R7        | <b>23.44 kΩ</b> |
+| R\_midf\_comp         | R6        | 100.0&ndash;100.1 kΩ |
+| C\_midf\_comp         | C10       | 297&ndash;301 pF |
+| voltage divider 1 kΩ  | R12       | 1003&ndash;1023 Ω |
+| voltage divider 15 kΩ | R13       | 15.00 kΩ |
 
 I will keep the following tests very short, and avoid collecting data from any not-needed locations. I will always carefully install the OP37GPZ jumpers after the batteries are plugged in. I always place the DUT last, after configuring the male-to-female jumper to V(Vin). I will never disconnect the jumper for the overvoltage feedback path. I will connect the TIA1 output to the ADC input with a jumper, which may damage the ADC from undefined voltages. However, I care more about preventing the sparking event that may have broke the AD8615 last time.
 
