@@ -1211,6 +1211,20 @@ Update: I had to set the soldering iron to 400°C to rework that troublesome pin
 | after desoldering     | 400 Ω | 568 Ω | n/a   | 525 Ω | 221 Ω |
 | new AD8615 installed  |
 
+---
+
+Here is the new AD8615 installed. By some miracle, I repaired a short between V<sub>out</sub> and the negative power supply. I slightly displaced the 1 uF bypass capacitor for V- during this mayhem, but it's still connected directly to its pads. I also tried to remove a nonexistent short between V- and the noninverting input that looked concerning in the images.
+
+<p align="center">
+&nbsp;
+  <img src="./Documentation/September24/September24_Part2.jpg" width="45.00%">
+&nbsp;&nbsp;
+  <img src="./Documentation/September24/September24_Part3.jpg" width="45.00%">
+&nbsp;
+</p>
+
+---
+
 Before plugging in the batteries, I will re-tune the pole-zero compensation network to a configuration supporting higher bandwidth. This choice will provide a path for high voltages to escape to ground at high frequencies. The current voltage divider is biased to bring a high voltage to the feedback resistor, but we can change that to make it very low. This choice will minimize the chance of any events destroying the AD8615, although I have no idea how effective the measure is.
 
 > TODO: Copy the table from the above entries.
