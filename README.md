@@ -1248,3 +1248,6 @@ Note that the voltages at the bypass capacitors differ substantially from those 
 | after tuning              | 2.511 V | -1.072 V |
 | after powering on OP37GPZ | 2.738 V | -1.231 V |
 | after tuning              | 2.492 V | -1.234 V |
+
+[
+330 MΩ transimpedance amplifier detects 15 nA current without breaking AD8615 (YouTube)](https://www.youtube.com/watch?v=bgVG8uvHvcQ)
