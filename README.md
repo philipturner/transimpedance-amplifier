@@ -1264,3 +1264,15 @@ I removed the DAC from the main board, using a combination of desoldering braid 
 The Teensy connector got quite beaten up. I forced a spare 1x24 pin header into it, and everything connects properly.
 
 I soldered two 1x2 pin sockets at convenient locations for connecting GND to a breadboard. The solder holds them on quite well, but I'll be extremely careful to not snap them off.
+
+---
+
+I will test whether the ADC is still working. If so, I will find the exact bitrate where SPI starts breaking down.
+
+![September 25, Part 2](./Documentation/September25/September25_Part2.jpg)
+
+_The static dissipative bag, with my hand next to it for size comparison._
+
+I am aware that improper ESD protection likely caused the two IC failures experienced up to this point. I have a large static dissipative bag from the DigiKey packaging. However, it doesn't have a 1 MΩ resistor or a chain connecting it to ground. I'd rather not use an ineffective ESD protection measure. It's fooling me into thinking it makes a difference, and just adds unnecessary inconvenience to the test workflow.
+
+Instead, I'll regularly touch the multimeter probes to a GND pin. I'll avoid probing any locations where ESD shocks caused damage before. In general, I'll be extremely cautious about how the circuit is touched. Minimize the duration and scope of all tests. Proper ESD protection will be part of the next round of purchases.
