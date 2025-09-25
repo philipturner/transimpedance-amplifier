@@ -1278,3 +1278,13 @@ _The static dissipative bag, with my hand next to it for size comparison._
 I am aware that improper ESD protection likely caused the two IC failures experienced up to this point. I have a large static dissipative bag from the DigiKey packaging. However, it doesn't have a 1 MΩ resistor or a chain connecting it to ground. I'd rather not use an ineffective ESD protection measure. It's fooling me into thinking it makes a difference, and just adds unnecessary inconvenience to the test workflow.
 
 Instead, I'll regularly touch the multimeter probes to a GND pin. I'll avoid probing any locations where ESD shocks caused damage before. In general, I'll be extremely cautious about how the circuit is touched. Minimize the duration and scope of all tests. Proper ESD protection will be part of the next round of purchases.
+
+---
+
+The ADC still works! SPI stops working exactly between 21.818180 Mbps and 21.818181 Mbps. Every single measurement works flawlessly before the cutoff. Every single measurement drops a bit after the cutoff. I identified a possible workaround, but lack interest in investigating it at the moment.
+
+21,818,180 and 21,818,181 both show a repeating pattern of the digits 18, suggesting a rational number of 2/11. The numbers are eerily close to (233 million) / 11. This fact is interesting, although I don't think we can decipher the cause, given how many governing system variables could contribute to it. We could theorize about possible causes, but actually proving them with a test would take multiple hours or days. Furthermore, this might be a distraction from the overarching goal of the project.
+
+> Objective: Gather as much data as possible about the TIA sensor of an STM, using both theory and experiment.
+
+The overarching goal _is_ to collect as much data as possible! More accurately, the goal is to _do_ as many things as possible. Learn as much hands-on knowledge as possible, about all aspects of the electrical engineering process. I executed that goal very well, wrapping it up with principled breadboarding. Phase 0.2 will delve into mechanical engineering and the ugly process of bonding parts with epoxy.
