@@ -54,6 +54,7 @@ Table of Contents:
 - [September 22, 2025](#september-22-2025)
 - [September 23, 2025](#september-23-2025)
 - [September 24, 2025](#september-24-2025)
+- [September 25, 2025](#september-25-2025)
 
 ## July 26, 2025
 
@@ -1251,3 +1252,5 @@ Note that the voltages at the bypass capacitors differ substantially from those 
 
 [
 330 MΩ transimpedance amplifier detects 15 nA current without breaking AD8615 (YouTube)](https://www.youtube.com/watch?v=bgVG8uvHvcQ)
+
+## September 25, 2025
