@@ -1254,3 +1254,13 @@ Note that the voltages at the bypass capacitors differ substantially from those 
 330 MΩ transimpedance amplifier detects 15 nA current without breaking AD8615 (YouTube)](https://www.youtube.com/watch?v=bgVG8uvHvcQ)
 
 ## September 25, 2025
+
+I finally learned how to use desoldering braid correctly! I must set the tip temperature to 400°C instead of 350°C. I practiced on a few TSSOPs on the practice boards. I could perform the technique of creating a giant solder blob shorting all the pins, then pulling away all the solder with wick. It works very similarly to in the videos, and I indeed could not see any major solder mass left over. However, the IC pins were still sticking to the pads, so this technique does not effectively detach pins from pads. It cannot be used to salvage a chip already soldered onto a board.
+
+![September 25, Part 1](./Documentation/September25/September25_Part1.jpg)
+
+I removed the DAC from the main board, using a combination of desoldering braid and clipping leads. I tried my best to clean up the remaining solder, making the site usable for installing a replacement DAC in the future. It seems quite plausible to install a fresh one; no pads are burnt off, and the Z elevation of the leftover solder has a negligible profile. I will order 3 new DACs in the next round of purchases, although I probably won't get around to installing them. The main reason is the chance of damaging other components of the board. In the distant future, I'd rather be able to get this board working again, than be left with Phase 0.1 ending with destruction of the board.
+
+The Teensy connector got quite beaten up. I forced a spare 1x24 pin header into it, and everything connects properly.
+
+I soldered two 1x2 pin sockets at convenient locations for connecting GND to a breadboard. The solder holds them on quite well, but I'll be extremely careful to not snap them off.
