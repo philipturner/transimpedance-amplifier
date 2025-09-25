@@ -1261,6 +1261,8 @@ I finally learned how to use desoldering braid correctly! I must set the tip tem
 
 I removed the DAC from the main board, using a combination of desoldering braid and clipping leads. I tried my best to clean up the remaining solder, making the site usable for installing a replacement DAC in the future. It seems quite plausible to install a fresh one; no pads are burnt off, and the Z elevation of the leftover solder has a negligible profile. I will order 3 new DACs in the next round of purchases, although I probably won't get around to installing them. The main reason is the chance of damaging other components of the board. In the distant future, I'd rather be able to get this board working again, than be left with Phase 0.1 ending with destruction of the board.
 
+> Note: In addition to 3 spares of the DAC, order 3 spares of the ADC and AD8615. Even if unused, the spare ADCs would probably be bought as part of Phase 0.2. So no harm in refilling my local stock early.
+
 The Teensy connector got quite beaten up. I forced a spare 1x24 pin header into it, and everything connects properly.
 
 I soldered two 1x2 pin sockets at convenient locations for connecting GND to a breadboard. The solder holds them on quite well, but I'll be extremely careful to not snap them off.
