@@ -1330,3 +1330,5 @@ Goals:
 Anticipated problems:
 - More spare chips, so that if something breaks, I have a chance at re-soldering with one of the spare boards. On one of the boards, the DAC is messed up, but the ADC is not yet soldered.
 - If this 2nd line of defense fails, I might have to accept reality and order an oscilloscope to avoid wasting more time. But have some faith that it will work out.
+
+How will I protect against ESD in Phase 0.2, when all of the circuits are vibration-isolated? If I can only protect in Phase 0.1 and not Phase 0.2, there is no point. Also, connecting directly to one of the 3 prongs of a wall outlet (even if the ground prong) is dangerous. In addition, my circuit board is elevated above the surface it touches by the batteries. Very unlike photos of smartphones being repaired directly on the mat. This doesn't make sense, so I might defer the investigation to later.
