@@ -55,6 +55,7 @@ Table of Contents:
 - [September 23, 2025](#september-23-2025)
 - [September 24, 2025](#september-24-2025)
 - [September 25, 2025](#september-25-2025)
+- [October 22, 2025](#october-22-2025)
 
 ## July 26, 2025
 
@@ -1288,3 +1289,13 @@ The ADC still works! SPI stops working exactly between 21.818180 Mbps and 21.818
 > Objective: Gather as much data as possible about the TIA sensor of an STM, using both theory and experiment.
 
 The overarching goal _is_ to collect as much data as possible! More accurately, the goal is to _do_ as many things as possible. Learn as much hands-on knowledge as possible, about all aspects of the electrical engineering process. I executed that goal very well, wrapping it up with principled breadboarding. Phase 0.2 will delve into mechanical engineering and the ugly process of bonding parts with epoxy.
+
+## October 22, 2025
+
+I am going to return to this project. There, I said it, took the first step by starting a journal entry here. Someone just took advantage of my desire to reproduce my MD code on other people's PCs, and manipulated that to make me say less bad things about Robert Freitas. In the MNT field, the idea that nanobots might destroy the world is like politics. Irrational, tribalistic, a group of people with interests fighting for the sake of their interests. And I just got taken advantage of by someone who sides with Ralph and Rob. I will contain this conflict to the DMs. I blocked him on X, and I'm not following him on X anymore. If you have been with me since the early days of MNT, you may have an idea of who he is.
+
+I will handle this conflict with discipline. I will move on, and not let it phase me. Transformational change is always met with heavy resistance, and as Nekitos said, some people even want to stop me just for the sake of doing that. It happened in the early 1900's when quantum physics brought a revolution, overtaking the old way of doing things. It will happen again, because nanofactories are (unfortunately) a transformational change. We either accept eternal technological stagnation (transistors never get smaller) or a society-changing revolution. It's tough for people to take it seriously, even if they say they support it on the surface, few would actually invest their funds. It's just human nature. So I expect more people to (possibly) go to great lengths to stop me. I need to be prepared to handle future arguments, in a way that contains them, without making them leak out to the public.
+
+---
+
+What I plan to do about Phase 0.1 today:
