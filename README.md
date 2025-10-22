@@ -1332,3 +1332,10 @@ Anticipated problems:
 - If this 2nd line of defense fails, I might have to accept reality and order an oscilloscope to avoid wasting more time. But have some faith that it will work out.
 
 How will I protect against ESD in Phase 0.2, when all of the circuits are vibration-isolated? If I can only protect in Phase 0.1 and not Phase 0.2, there is no point. Also, connecting directly to one of the 3 prongs of a wall outlet (even if the ground prong) is dangerous. In addition, my circuit board is elevated above the surface it touches by the batteries. Very unlike photos of smartphones being repaired directly on the mat. This doesn't make sense, so I might defer the investigation to later.
+
+The 4th and 5th bullet points of "Goals" do not require ordering more hardware. They are simply tests that I perform with the assembled setup. So I can ignore those points. For "anticipated problems", ordering 3 of the DAC is probably overkill; I won't even use the chip. For the ADC, I will save costs by ordering just 2 copies. I probably won't need either of them. But make sure I have extra stock of AD7745, and enough of the other PCB parts to make an entire fresh board. Just 1 of the big chips and 2x of the small parts is good enough. This task can be deferred to the future.
+
+The 2nd and 3rd bullet points of "Goals" are what deserves the greatest amount of attention. Principled breadboarding and air-wiring from THT pins to breadboard sockets. I need to flesh out the circuit design, then see whether I need to order a larger breadboard. Also anticipate ways to connect this circuit's ground to an ESD mat.
+
+---
+
