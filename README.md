@@ -1314,4 +1314,4 @@ He can only talk. That's all Ralph, Rob, and their supporters are. Not going to 
 
 ---
 
-I'm going to take another world download of my Minecraft anarchy base, because I feel motivated to do that right now.
+I'm going to take another world download of my Minecraft anarchy base, because I feel motivated to do that right now. This summer has been a perpetual fight against burnout, and I survived partly by playing Minecraft to take a break from the other projects.
