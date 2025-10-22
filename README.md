@@ -1315,3 +1315,18 @@ He can only talk. That's all Ralph, Rob, and their supporters are. Not going to 
 ---
 
 I'm going to take another world download of my Minecraft anarchy base, because I feel motivated to do that right now. This summer has been a perpetual fight against burnout, and I survived partly by playing Minecraft to take a break from the other projects.
+
+---
+
+Alright, I did that. I have the following goals remaining for this project. It would be a lot easier to buy an oscilloscope, but I'm not motivated to, and my motivation drives experimental progress. I'll probably need an oscilloscope during Phase I, but until then, I can delay as much as possible. By that time, I'll have even larger instrumentation costs to worry about anyway.
+
+Goals:
+- Correct ESD protection despite my room's floor being a carpet, that doesn't expose my bare skin to high voltage conductors. This will take a fair bit of research to sort out correctly.
+- _Low design cost_ analog triangle wave generator since the DAC broke, and repairing or redesigning is not economical in a cost/risk/benefit analysis. I already soldered ground connectors for my PCB. For power, I can source from the 15 V and -15 V pins of the TIA not in use.
+- DC rectification and filtering for the breadboard circuit, to check for correct operation with a multimeter (in absence of an oscilloscope).
+- Take accurate time-domain measurements with my ADC, then analyze the results with a Fourier transform. This is not exactly lock-in amplification, since I don't have a DAC to generate a programmatic stimulus signal. We can defer lock-in amplification to Phase II, where an integrated capacitance sensor removes the need for a Z-axis Michelson interferometer.
+- Hopefully fully reproduce my SPICE simulations of tuning the TIA's frequency response.
+
+Anticipated problems:
+- More spare chips, so that if something breaks, I have a chance at re-soldering with one of the spare boards. On one of the boards, the DAC is messed up, but the ADC is not yet soldered.
+- If this 2nd line of defense fails, I might have to accept reality and order an oscilloscope to avoid wasting more time. But have some faith that it will work out.
