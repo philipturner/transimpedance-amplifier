@@ -1304,6 +1304,10 @@ What I plan to do about Phase 0.1 today:
 
 He called my software a Trojan horse! This happened circa morning Oct 22 2025. That is obviously not signaling he would actually reproduce my software. Also said that nobody needs stuff at the million atom scale, basically making fun of, or ridiculing, my idea of a "mechanosynthetic build sequence compiler". Saying that I am avoiding a problem, and I need to change my ways, to get access to collaboration/labs/funding. This is clearly irrational politics, and he's probably reeling in joy for having successfully used cards against me. It truly is a vicious mind game, and both sides resort to bullying tactics to take each other down a notch. I have to not submit to this level of devolved behavior.
 
+![October 22, Part 1](./Documentation/October22/October22_Part1.png)
+
+_Plausible basis for the Trojan horse insult. OpenMM binary being flagged as a virus by Windows 10 and automatically removed as soon as it gets downloaded. He probably did read over my code base, and knows exactly what to say to maximize the level of hurt._
+
 I am still alive, here, and I just witnessed that happen. I'm going to stay alive tomorrow and the day after that. I will fight to make nanofactories happen with every ounce of blood that I have. At this point, it is literally a matter of financial survival, to convince people to fund my efforts. To gain more attention and get large numbers of people interested in the field. To network with more experimentalists in qPlus AFM, silane handling, Michelson interferometry, UHV prototyping, NMR spectroscopy, synthetic chemistry, high voltage electronics, and machining. I have always been a decent person, kind and careful about other people's interests. Especially with how I handled the conversations with Eric Drexler. I got to the root cause of why he took a tangent down the incremental path. And did everything in my power to give him closure. I am doing nothing wrong. But I must always respond with caution when I have conflicts or arguments of any type, for any reason.
 
 ---
