@@ -1339,3 +1339,4 @@ The 2nd and 3rd bullet points of "Goals" are what deserves the greatest amount o
 
 ---
 
+Let's reflect on why I did the computational software in the first place. I wanted to have a fresh start, disinterested in AI, but with an incredible background in GPUs and molecular dynamics. So I invested in OpenMM and rod logic, with my own render to "get things done". My primary goal was never to make my renderer easy for other people to use. But now it's a very important goal, because without sharing with other people, there will never be a "purpose" in the long scheme of things. But I think, when I remove the harmful influence I just experience, I now have a network of people who might reproduce my code upon request. I worked so hard to port my renderer to Windows and make it more usable in general. Even after discovering piezo backlash deserves top attention, when I needed a break, I kept investing weeks after weeks cleaning up my software libraries.
