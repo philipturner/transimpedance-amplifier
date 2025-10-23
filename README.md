@@ -56,6 +56,7 @@ Table of Contents:
 - [September 24, 2025](#september-24-2025)
 - [September 25, 2025](#september-25-2025)
 - [October 22, 2025](#october-22-2025)
+- [October 23, 2025](#october-23-2025)
 
 ## July 26, 2025
 
@@ -1344,3 +1345,16 @@ Let's reflect on why I did the computational software in the first place. I want
 I also need another "break" to return to, now that motivation for Minecraft has burned out. I need to return my attention back to analog electronics, but when I need a break in the morning or evening, what do I turn to? That is building things with the software suite I created, taking pride in my hard work. Peter Eastman would be proud that someone does so much with the OpenMM library that he built. Dabble in the incredibly enticing practice of prototyping mechanosynthetic reactions with semiempirical tools. There is nothing wrong with having fun doing that. And ultimately, my next goal after the renderer, was always building a "Matter Compiler". So I'll start making preparations for a `matter-compiler` repository but ensure it takes 2nd priority to Phase 0.1.
 
 Update: Made some discoveries about how I can simplify the build sequences for this. Probably don't need a dedicated repository. Just a multi-file GitHub Gist for now.
+
+## October 23, 2025
+
+I prefer to use the LM311 as my comparator, instead of the TS861. It operates directly from ±15 V supplies, which is my desired power configuration. It is also documented extensively in Art of Electronics. Texas Instruments makes one in a PDIP-8 package:
+- [LM311N datasheet](https://www.ti.com/lit/ds/symlink/lm311-mil.pdf)
+- [Mouser purchase link](https://www.mouser.com/ProductDetail/Texas-Instruments/LM311N-NOPB?qs=X1J7HmVL2ZEW%2F3U%252B2FkA%2Fw%3D%3D)
+- [DigiKey purchase link](https://www.digikey.com/en/products/detail/texas-instruments/LM311N-NOPB/6175)
+
+There is a strange variant of LM311 available only on DigiKey. The datasheet looks more modern and the price is lower, although both are in the $1.00 range. I'll have to investigate this before deciding on the final BOM.
+- [LM311P datasheet](https://www.ti.com/lit/ds/symlink/lm211.pdf)
+- [DigiKey purchase link](https://www.digikey.com/en/products/detail/texas-instruments/LM311P/277038)
+
+As stated in Art of Electronics, the inputs of these higher-voltage comparators must not reach the rails. The triangle wave generator used for the fast low-noise TIA has a 1/4x attenuation factor. The input is 1.25 V and the output is 5.00 V because of resistor ratios. My design would be 3.75 V input and 15 V output at the comparator site.
