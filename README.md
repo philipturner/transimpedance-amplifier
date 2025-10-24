@@ -1374,4 +1374,6 @@ I decided on a chip for the op amp: [LF412C](https://www.ti.com/lit/ds/symlink/l
 
 ![October 24, Part 1](./Documentation/October24/October24_Part1.png)
 
-Next, I will clear up the confusion about the comparator chip. If I get that figured out, it would also be nice to clear up the confusion about ESD protection and specify all relevant purchase links. Then I could call it a day.
+Next, I will clear up the confusion about the comparator chip. If I get that figured out, it would also be nice to clear up the confusion about ESD protection and specify all relevant purchase links.
+
+Both comparator variants have the same specifications. I decided on the LM311-N variant, with the LM311N/NOPB orderable number. I will purchase it from DigiKey.
