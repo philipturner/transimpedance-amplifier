@@ -1415,3 +1415,27 @@ Since my wrist cannot be grounded, instead my probes and hand tools must be grou
 ---
 
 Next, I will analyze the safety of grounding plugs. I do not understand why connection to facility GND is needed, if the mat itself can dissipate charge enough. Regardless, I will study ground plugs to gain a deeper understanding.
+
+---
+
+I will not connect the PCB to the ESD mat. Here is my rationale:
+
+(1) It is tedious to attempt to reliably connect my PCB's ground to the ESD mat. In future projects, it might be a tedious constraint.
+
+(2) There is some sliding going on when the batteries are moved to get plugged in. But I do not think this will generate static electricity between the PCB and the mat.
+
+(3) Both instances of IC failure happened after repeated instances of mishandling. First, the DAC probably doesn't like to be connected directly to the ADC. Second, the AD8615 was wired with a floating power pin for a long time. There is a chance that ESD damage was not the main culprit, even if I saw a spark.
+
+I will go with a partial solution, which may not scale to future phases of the APM roadmap. It is a one-off solution. It will get me hands-on experience with ESD protection hardware. It may not be effective, but now I have made a decision and can move on to getting other things done.
+
+---
+
+Final decision:
+
+I will attempt to find an ESD mat model that contains an integrated wall socket grounding plug. If not, I will search for two compatible parts to construct this system. The plug only reaches into the middle prong of the wall outlet, which is facility GND. Therefore, it is safe. ALWAYS TREAT DECISIONS ABOUT DIRECT POWER INTERFACING WITH UTMOST CAUTION.
+
+My human skin will be isolated from the ESD mat by high-voltage gloves. The PCB and connected breadboard will be isolated. The hand tools will be frequently contacted to the mat. They will not be repeatedly contacted to the PCB's ground node. This change of protocol (from experiments on Sep 25) may increase the risk of circuit damage. However, laboratory work is now less tedious.
+
+---
+
+Move on to elaborating on the triangle wave generator design.
