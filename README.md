@@ -57,6 +57,7 @@ Table of Contents:
 - [September 25, 2025](#september-25-2025)
 - [October 22, 2025](#october-22-2025)
 - [October 23, 2025](#october-23-2025)
+- [October 24, 2025](#october-24-2025)
 
 ## July 26, 2025
 
@@ -1358,3 +1359,7 @@ There is a strange variant of LM311 available only on DigiKey. The datasheet loo
 - [DigiKey purchase link](https://www.digikey.com/en/products/detail/texas-instruments/LM311P/277038)
 
 As stated in Art of Electronics, the inputs of these higher-voltage comparators must not reach the rails. The triangle wave generator used for the fast low-noise TIA has a 1/4x attenuation factor. The input is 1.25 V and the output is 5.00 V because of resistor ratios. My design would be 3.75 V input and 15 V output at the comparator site.
+
+## October 24, 2025
+
+I will figure out the op amp today. Progress may be slow, but if I stick to a doable goal, I will get something done.
