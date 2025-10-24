@@ -1363,3 +1363,7 @@ As stated in Art of Electronics, the inputs of these higher-voltage comparators 
 ## October 24, 2025
 
 I will figure out the op amp today. Progress may be slow, but if I stick to a doable goal, I will get something done.
+
+Bypass capacitors are recommended on breadboards: [Reddit](https://www.reddit.com/r/AskElectronics/comments/cyh1a5/how_do_i_properly_attach_bypass_capacitors_to_a)
+
+On breadboards, place bypass capacitors as close as possible to the relevant IC. Trim their leads as short as possible. Resistors and diodes can remain on "stilts". I recognized a capacitor in an image on that thread, as looking similar to my blue THT capacitors in the pF range.
