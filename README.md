@@ -1381,3 +1381,37 @@ Both comparator variants have the same specifications. I decided on the LM311-N 
 ---
 
 I am reading this article to get a more accurate understanding of static electricity: https://pubs.acs.org/doi/10.1021/acs.nanolett.4c03656
+
+Information about the surface resistance of objects in my room:
+
+| Surface | Continuity Test | Resistance |
+| ------- | :-------------: | ---------: |
+| human skin (hand) | NO    | 20 MΩ      |
+| human skin (foot) | NO    | no signal  |
+| carpet floor      | NO    | no signal  |
+| plastic desk top  | NO    | no signal  |
+| laptop chassis (anodized) | NO | no signal |
+| metal desk legs (anodized) | NO | no signal |
+| metal chair legs (anodized) | NO | no signal |
+| MagSafe laptop charger connector | NO | no signal |
+| AirPods case USB port | YES | 14 Ω      |
+
+I confirmed that my carpet is not one of the "conductive" ones specially designed to avoid ESD problems. I also learned that connecting the ground plug for an ESD mat to my desk's legs, will provide no benefit.
+
+Given that the human skin in slightly conductive, any static charge generated on the human body could dissipate throughout it. If static charge appears on the foot, it will transfer to the hand and cause a shock when touching a conductor.
+
+I pulled up some datasheets for conductive wrist straps. I cannot use them because that would expose me to high-voltage dangers. But they are a helpful reference to understand how ESD protection really works.
+
+[File 1](https://www.descoindustries.com/PDF/2204%20Single_Wire_Adjustable%20Fabric_Wrist_Strap.pdf)
+
+[File 2](https://www.descoindustries.com/PDF/Qualification-Report-S20.20-SCS-2204.pdf)
+
+In this product, the wrist band exterior is highly insulating. The interior has 500 Ω surface resistance and contacts the human skin. After the band, there is a 1 MΩ <s>["bleeder"](https://en.wikipedia.org/wiki/Bleeder_resistor)</s> resistor and finally a conductive connection to GND.
+
+In addition, the datasheet warns about exposure to shock hazards. Do not use this device when the operating voltage exceeds 250 VAC. When using this device, never come in contact with a second grounded object. Ultimately, the device intends to make the human skin connected to GND through a 1 MΩ resistance. If the skin touches ground directly (the "second" GND connection), that resistance drops to effectively zero.
+
+Since my wrist cannot be grounded, instead my probes and hand tools must be grounded. The only practical method is periodically contacting them directly to the ESD mat.
+
+---
+
+Next, I will analyze the safety of grounding plugs. I do not understand why connection to facility GND is needed, if the mat itself can dissipate charge enough. Regardless, I will study ground plugs to gain a deeper understanding.
