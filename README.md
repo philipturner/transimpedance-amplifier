@@ -58,6 +58,7 @@ Table of Contents:
 - [October 22, 2025](#october-22-2025)
 - [October 23, 2025](#october-23-2025)
 - [October 24, 2025](#october-24-2025)
+- [October 26, 2025](#october-26-2025)
 
 ## July 26, 2025
 
@@ -1439,3 +1440,5 @@ My human skin will be isolated from the ESD mat by high-voltage gloves. The PCB 
 ---
 
 Move on to elaborating on the triangle wave generator design.
+
+## October 26, 2025
