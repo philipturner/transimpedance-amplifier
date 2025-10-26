@@ -1442,3 +1442,25 @@ My human skin will be isolated from the ESD mat by high-voltage gloves. The PCB 
 Move on to elaborating on the triangle wave generator design.
 
 ## October 26, 2025
+
+I decided on the part values for the resistors and capacitors. They will be the exact same as in the fast low-noise TIA paper. Interestingly, you can just increase the voltage 3x, and everything stays the same. Repetition period, at least. As the voltage increases, current into the 100 kΩ resistor increases proportionally. The 10 nF capacitor charges more quickly (in V/s) during the same time period.
+
+One of the greatest unknowns was behavior of the lowpass filter for the multimeter. I decided on the same 28 Hz lowpass setup used in the "Teensy Countdown" experiment. Because these waves are symmetric about 0 V, we need a rectifier to give the wave asymmetry before filtering. I tested the KiCad SPICE model for a diode, and it gives exactly 0.7 V drop.
+
+![October 26, Part 1](./Documentation/October26/October26_Part1.png)
+
+![October 26, Part 2](./Documentation/October26/October26_Part2.png)
+
+_KiCad SPICE transient simulation with 0.1 ms timestep and 3 ms duration._
+
+![October 26, Part 3](./Documentation/October26/October26_Part3.png)
+
+_KiCad SPICE transient simulation with 0.1 ms timestep and 300 ms duration._
+
+![October 26, Part 4](./Documentation/October26/October26_Part4.png)
+
+_KiCad SPICE transient simulation with 0.1 ms timestep and 3 ms duration._
+
+![October 26, Part 5](./Documentation/October26/October26_Part5.png)
+
+_KiCad SPICE transient simulation with 0.1 ms timestep and 1000 ms duration._
