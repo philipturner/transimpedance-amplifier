@@ -1449,6 +1449,8 @@ One of the greatest unknowns was behavior of the lowpass filter for the multimet
 
 ![October 26, Part 1](./Documentation/October26/October26_Part1.png)
 
+The ±15 V square wave produced just the behavior I would expect. After >>36 ms of integration time, the filter output stabilized at +14.5 V.
+
 ![October 26, Part 2](./Documentation/October26/October26_Part2.png)
 
 _KiCad SPICE transient simulation with 0.1 ms timestep and 3 ms duration._
@@ -1457,6 +1459,8 @@ _KiCad SPICE transient simulation with 0.1 ms timestep and 3 ms duration._
 
 _KiCad SPICE transient simulation with 0.1 ms timestep and 300 ms duration._
 
+The ±3.75 V triangle wave produced very strange behavior. Even after roughly 10 time constants, the filter value had not stabilized. I increased the simulation time to 1000 ms, and it appeared to scale logarithmically like piezo creep. The value after this duration was +3.21 V. Note that the difference between 14.5 V and 15.0 V is 5.0 V. The difference between 3.21 V and 3.75 V is also roughly 5.0 V.
+
 ![October 26, Part 4](./Documentation/October26/October26_Part4.png)
 
 _KiCad SPICE transient simulation with 0.1 ms timestep and 3 ms duration._
@@ -1464,3 +1468,9 @@ _KiCad SPICE transient simulation with 0.1 ms timestep and 3 ms duration._
 ![October 26, Part 5](./Documentation/October26/October26_Part5.png)
 
 _KiCad SPICE transient simulation with 0.1 ms timestep and 1000 ms duration._
+
+Overall, the frequency response of the filters seems good enough for their intended purpose. The only other concern is loading. At the triangle wave output node, I do not expect major problems. The major concern is when measuring the square wave. If we attach a 1 kΩ resistor from 15 V to GND, that would draw 15 mA current.
+
+In theory, this extra current should not change the charging rate for the capacitor. Even with an extra 15 mA drawn out, the voltage at the comparator is still 15 V. 15 V / 100 kΩ is still 150 μA. Rather, the biggest concern is overloading the comparator. 40 mA is classified as a "short circuit current" for LM311-N. The maximum supply current quoted is 6 mA. I don't know whether the filter will actually draw 15 mA in the DC regime, but I would rather not risk it.
+
+Revise the filter to use 100 kΩ and 50 nF. This seems strangely close to the component values for the triangle wave generator. If we take an RC frequency for 100 kΩ and 10 nF, we get 159 Hz. Not the 1000 Hz frequency of the triangle wave. Interesting.
