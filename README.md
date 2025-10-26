@@ -1459,7 +1459,7 @@ _KiCad SPICE transient simulation with 0.1 ms timestep and 3 ms duration._
 
 _KiCad SPICE transient simulation with 0.1 ms timestep and 300 ms duration._
 
-The ±3.75 V triangle wave produced very strange behavior. Even after roughly 10 time constants, the filter value had not stabilized. I increased the simulation time to 1000 ms, and it appeared to scale logarithmically like piezo creep. The value after this duration was +3.21 V. Note that the difference between 14.5 V and 15.0 V is 5.0 V. The difference between 3.21 V and 3.75 V is also roughly 5.0 V.
+The ±3.75 V triangle wave produced very strange behavior. Even after roughly 10 time constants, the filter value had not stabilized. I increased the simulation time to 1000 ms, and it appeared to scale logarithmically like piezo creep. The value after this duration was +3.21 V. Note that the difference between 14.5 V and 15.0 V is 0.5 V. The difference between 3.21 V and 3.75 V is also roughly 0.5 V.
 
 ![October 26, Part 4](./Documentation/October26/October26_Part4.png)
 
