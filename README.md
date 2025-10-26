@@ -1474,3 +1474,15 @@ Overall, the frequency response of the filters seems good enough for their inten
 In theory, this extra current should not change the charging rate for the capacitor. Even with an extra 15 mA drawn out, the voltage at the comparator is still 15 V. 15 V / 100 kΩ is still 150 μA. Rather, the biggest concern is overloading the comparator. 40 mA is classified as a "short circuit current" for LM311-N. The maximum supply current quoted is 6 mA. I don't know whether the filter will actually draw 15 mA in the DC regime, but I would rather not risk it.
 
 Revise the filter to use 100 kΩ and 50 nF. This seems strangely close to the component values for the triangle wave generator. If we take an RC frequency for 100 kΩ and 10 nF, we get 159 Hz. Not the 1000 Hz frequency of the triangle wave. Interesting.
+
+I'll ensure I have the parts to construct the following lowpass filters:
+
+| Resistance | Capacitance | Frequency |
+| ---------: | ----------: | --------: |
+| 1 kΩ       | 5.6 μF      | 28 Hz     |
+| 10 kΩ      | 560 nF      | 28 Hz     |
+| 100 kΩ     | 56 nF       | 28 Hz     |
+
+---
+
+Next, I should set up a KiCad schematic for the circuit. Although there is no associated PCB, the KiCad schematic helps to sort all the parts. Make sure I got every single one on the bill of materials. After this step, I will use a tool for laying out breadboard circuit designs. That will help me decide on the correct breadboard size.
