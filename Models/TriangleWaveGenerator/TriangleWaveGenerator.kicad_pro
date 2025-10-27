@@ -411,6 +411,18 @@
     [
       "dfa365f3-bdb0-4155-b97b-9be2aee452a3",
       "Root"
+    ],
+    [
+      "0809bfcf-3fce-4388-8d70-4aadde866c67",
+      "Comparator"
+    ],
+    [
+      "248a1f6d-a182-4e91-8969-0fafe7a40eff",
+      "DualOpAmp"
+    ],
+    [
+      "5ae761a8-36c5-4f54-90d3-d3763b82c102",
+      "LowpassFilter"
     ]
   ],
   "text_variables": {}
