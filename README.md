@@ -1504,9 +1504,11 @@ During my marathon of software maintenance, I resolved the unknowns about MM4 sp
 
 ---
 
-Regarding the million atom scale renderer, another major success. There is room to improve packing as many atoms into memory as possible. However, many people might have 16&ndash;32 GB of RAM. That allows close to 100M atoms. Even if so many atoms are possible, practical workflows at this scale suffer greatly. Now from issues in atoms uploaded/frame (1.07M, exceeding the goal of 1M). No; from moiré patterns. This was an issue even Eric thought of in a distant past email, responding to Mark's claim of atomCAD supporting ~100M atoms on a ~1M pixel screen.
+Regarding the million atom scale renderer, another major success. There is room to improve packing as many atoms into memory as possible. However, many people might have 16&ndash;32 GB of RAM. That allows close to 100M atoms. Even if so many atoms are possible, practical workflows at this scale suffer greatly. Not from issues in atoms uploaded/frame (1.07M, exceeding the goal of 1M). No; from moiré patterns. This was an issue even Eric thought of in a distant past email, responding to Mark's claim of atomCAD supporting ~100M atoms on a ~1M pixel screen.
 
 Even with a 5.6M atom silicon lattice (more like 1M atoms visible to the screen), we see incredibly severe artifacts. The spacing of atoms is close to the spacing of pixels in the final rendered image. This can even cause problems in the range of 100k atoms, under just the right conditions. This was one condition with the camera 240 nm @ 30° away from some Au(111) surfaces in my latest animation. Moiré patterns (or just light interference patterns) are relevant in laser interferometry, often meaning you did something wrong. David might have something to say about this.
+
+I didn't let this excuse of atoms:pixels ratio deter me from accomplishing this ambitious goal! Now I have a general-purpose renderer supporting all use cases, all scales of atom count, and incredibly large world volumes. With no bounding box summation hacks that don't scale to arbitrary, sparsely populated world volumes. Instead, I added a 3rd level to the hierarchy of work elision: 32 nm.
 
 ---
 
