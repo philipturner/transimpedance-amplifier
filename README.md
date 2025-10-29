@@ -1508,7 +1508,7 @@ Regarding the million atom scale renderer, another major success. There is room 
 
 Even with a 5.6M atom silicon lattice (more like 1M atoms visible to the screen), we see incredibly severe artifacts. The spacing of atoms is close to the spacing of pixels in the final rendered image. This can even cause problems in the range of 100k atoms, under just the right conditions. This was one condition with the camera 240 nm @ 30° away from some Au(111) surfaces in my latest animation. Moiré patterns (or just light interference patterns) are relevant in laser interferometry, often meaning you did something wrong. David might have something to say about this.
 
-I didn't let this excuse of atoms:pixels ratio deter me from accomplishing this ambitious goal! Now I have a general-purpose renderer supporting all use cases, all scales of atom count, and incredibly large world volumes. With no bounding box summation hacks that don't scale to arbitrary, sparsely populated world volumes. Instead, I added a 3rd level to the hierarchy of work elision: 32 nm.
+I didn't let this excuse of atoms:pixels ratio deter me from accomplishing this ambitious goal! Now I have a general-purpose renderer supporting all use cases, all scales of atom count, and incredibly large world volumes. Without bounding box reduction hacks that don't scale to arbitrary, sparsely populated world volumes. Instead, I added a 3rd level to the hierarchy of work elision: 32 nm.
 
 ---
 
