@@ -1496,7 +1496,7 @@ With these two primitives, I could make a matter compiler quite easily. I know t
 
 ---
 
-On the MD simulation front, nobody else has anything as advanced as [MM4](https://github.com/philipturner/MM4). When push comes to shove, they just resort to [OpenMM + OpenFF](https://web.archive.org/web/20251029141926/https://github.com/atomCAD/atomCAD/blob/main/doc/force_fields_integration.md#expand) combo, which doesn't even support\* silicon! Good think Norman Allinger cared deeply about silicon. I talked with Jay Ponder (Tinker) and validated my silicon parameters with xTB calculations. Supporting all relevant atom types is just as important as making the MD code fast on the GPU.
+On the MD simulation front, nobody else has anything as advanced as [MM4](https://github.com/philipturner/MM4). When push comes to shove, they just resort to [OpenMM + OpenFF](https://web.archive.org/web/20251029141926/https://github.com/atomCAD/atomCAD/blob/main/doc/force_fields_integration.md#expand) combo, which doesn't even support\* silicon! Good thing Norman Allinger cared deeply about silicon. I talked with Jay Ponder (Tinker) and validated my silicon parameters with xTB calculations. Supporting all relevant atom types is just as important as making the MD code fast on the GPU.
 
 > \*LAMMPS AIREBO doesn't support silicon either. Meanwhile, the MM3/MM4 resurrected implementation has deep, integrated support for both silicon carbide and elemental silicon. With multithreaded code speeding up the parameter assignment.
 
