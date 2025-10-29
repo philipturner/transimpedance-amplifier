@@ -59,6 +59,7 @@ Table of Contents:
 - [October 23, 2025](#october-23-2025)
 - [October 24, 2025](#october-24-2025)
 - [October 26, 2025](#october-26-2025)
+- [October 29, 2025](#october-29-2025)
 
 ## July 26, 2025
 
@@ -1486,3 +1487,29 @@ I'll ensure I have the parts to construct the following lowpass filters:
 ---
 
 Next, I should set up a KiCad schematic for the circuit. Although there is no associated PCB, the KiCad schematic helps to sort all the parts. Make sure I got every single one on the bill of materials. After this step, I will use a tool for laying out breadboard circuit designs. That will help me decide on the correct breadboard size.
+
+## October 29, 2025
+
+Here's the deal with the matter compiler. After reviewing my [SiC Build Sequences](https://github.com/philipturner/apm-roadmap/blob/main/Documentation/SiC%20Build%20Sequences/README.md) document, I discovered something. If the end goal is only to build convex pyramids, I don't need the 2 edge completion primitives. That just leaves layer initiation and lattice extension. These two have much less unknowns, making everything more workable.
+
+With these two primitives, I could make a matter compiler quite easily. I know the exact structure I wish to compile. The video will have many analogies to last summer's video of silicon mechanosynthesis. The soundtrack will be the second half of "Heaven and Hell" by Jeremy Blake. The title will be "Diamondoid Mechanosynthesis: Layer Initiation and Lattice Extension." However, I am feeling intense burnout right now. My primary goal is always getting _other people_ to use my software tools.
+
+---
+
+On the MD simulation front, nobody else has anything as advanced as [MM4](https://github.com/philipturner/MM4). When push comes to shove, they just resort to [OpenMM + OpenFF](https://web.archive.org/web/20251029141926/https://github.com/atomCAD/atomCAD/blob/main/doc/force_fields_integration.md#expand) combo, which doesn't even support\* silicon! Good think Normal Allinger cared deeply about silicon. I talked with Jay Ponder (Tinker) and validated my silicon parameters with xTB calculations. Supporting all relevant atom types is just as important as making the MD code fast on the GPU.
+
+> \*LAMMPS AIREBO doesn't support silicon either. Meanwhile, the MM3/MM4 resurrected implementation has deep, integrated support for both silicon carbide and elemental silicon. With multithreaded code speeding up the parameter assignment.
+
+During my marathon of software maintenance, I resolved the unknowns about MM4 speed. It was a combination of: higher atom density of diamond vs. water, forgetting to use MTS instead of Verlet, a slightly more expensive (but accurate) nonbonded force with exponentiation, control flow problems with handling virtual sites, and differing behavior between GPU vendors. I know what must be done to speed up performance (hopefully) 2x. It is tractable for a single developer to do, but not on my priority list. It matters much more that I invest resources getting _other people_ to use my existing software, as it stands.
+
+---
+
+Regarding the million atom scale renderer, another major success. There is room to improve packing as many atoms into memory as possible. However, many people might have 16&ndash;32 GB of RAM. That allows close to 100M atoms. Even if so many atoms are possible, practical workflows at this scale suffer greatly. Now from issues in atoms uploaded/frame (1.07M, exceeding the goal of 1M). No; from moiré patterns. This was an issue even Eric thought of in a distant past email, responding to Mark's claim of atomCAD supporting ~100M atoms on a ~1M pixel screen.
+
+Even with a 5.6M atom silicon lattice (more like 1M atoms visible to the screen), we see incredibly severe artifacts. The spacing of atoms is close to the spacing of pixels in the final rendered image. This can even cause problems in the range of 100k atoms, under just the right conditions. This was one condition with the camera 240 nm @ 30° away from some Au(111) surfaces in my latest animation. Moiré patterns (or just light interference patterns) are relevant in laser interferometry, often meaning you did something wrong. David might have something to say about this.
+
+---
+
+This is the second time I have invested major effort into marketing a piece of software, hoping to make other people use it. Last time was with my AR stuff, after I lost the ability to spend 100% of my free time working on it (pandemic ended). Now I'm in a better place, literally get to spend 100% of my days doing whatever I want. But I need to market things and do economics to sustain this indefinitely.
+
+I have realized that I need to reduce the scope of hardware goals, making the business opportunity _doable_. I have to make ends meet, which means compromising on ambitions, to network with the SPM industry and improve chances of things happening long-term. Think of how EUV lithography got pulled off. Many, many researchers collectively understood the end goal, its economic viability, and the pathway to it. We still need more people in the SPM industry (e.g. Scienta Omicron) to be aware and see value in the goal of DMS. That hasn't happened yet. It may happen after I integrate LiNbO3 into their systems. But ultimately I just care about getting a proper wage before May 2026.
