@@ -1500,7 +1500,7 @@ On the MD simulation front, nobody else has anything as advanced as [MM4](https:
 
 > \*LAMMPS AIREBO doesn't support silicon either. Meanwhile, the MM3/MM4 resurrected implementation has deep, integrated support for both silicon carbide and elemental silicon. With multithreaded code speeding up the parameter assignment.
 
-During my marathon of software maintenance, I resolved the unknowns about MM4 speed. It was a combination of: higher atom density of diamond vs. water, forgetting to use MTS instead of Verlet, a slightly more expensive (but accurate) nonbonded force with exponentiation, control flow problems with handling virtual sites, and differing behavior between GPU vendors. I know what must be done to speed up performance (hopefully) 2x. It is tractable for a single developer to do, but not on my priority list. It matters much more that I invest resources getting _other people_ to use my existing software, as it stands.
+During my marathon of software maintenance, I resolved the unknowns about MM4 speed. It was a combination of: higher atom density of diamond vs. water, forgetting to use MTS instead of Verlet, a slightly more expensive (but accurate) nonbonded force with exponentiation, control flow overhead with handling virtual sites, and differing behavior between GPU vendors. I know what must be done to speed up performance (hopefully) 2x. It is tractable for a single developer to do, but not on my priority list. It matters much more that I invest resources getting _other people_ to use my existing software, as it stands.
 
 ---
 
