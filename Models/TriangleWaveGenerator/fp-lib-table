@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "IC")(type "KiCad")(uri "/Users/philipturner/Documents/STM/transimpedance-amplifier/Models/libraries/IC.pretty")(options "")(descr ""))
+  (lib (name "TwoTerminal")(type "KiCad")(uri "/Users/philipturner/Documents/STM/transimpedance-amplifier/Models/libraries/TwoTerminal.pretty")(options "")(descr ""))
+  (lib (name "Connector_Custom")(type "KiCad")(uri "/Users/philipturner/Documents/STM/transimpedance-amplifier/Models/libraries/Connector_Custom.pretty")(options "")(descr ""))
+)

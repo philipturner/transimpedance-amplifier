@@ -680,7 +680,7 @@
 		(at 146.05 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -701,7 +701,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TwoTerminal:THT_10.16mm"
 			(at 146.304 80.264 90)
 			(effects
 				(font
@@ -720,6 +720,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 146.05 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" ""
 			(at 146.05 81.28 0)
 			(effects
 				(font
@@ -814,7 +823,7 @@
 		(at 152.4 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -837,7 +846,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TwoTerminal:THT_10.16mm"
 			(at 153.3652 91.44 0)
 			(effects
 				(font
@@ -856,6 +865,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 152.4 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" ""
 			(at 152.4 87.63 0)
 			(effects
 				(font
@@ -884,7 +902,7 @@
 		(at 133.35 81.28 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -905,7 +923,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TwoTerminal:THT_10.16mm"
 			(at 133.35 81.28 0)
 			(effects
 				(font
@@ -942,6 +960,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 133.35 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" ""
 			(at 133.35 81.28 0)
 			(effects
 				(font

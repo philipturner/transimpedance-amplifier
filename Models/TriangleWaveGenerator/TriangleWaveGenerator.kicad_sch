@@ -713,7 +713,7 @@
 		(at 57.15 68.58 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -734,7 +734,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TwoTerminal:THT_10.16mm"
 			(at 57.404 67.564 90)
 			(effects
 				(font
@@ -753,6 +753,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 57.15 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" ""
 			(at 57.15 68.58 0)
 			(effects
 				(font
@@ -781,7 +790,7 @@
 		(at 80.01 167.64 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -802,7 +811,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TwoTerminal:THT_10.16mm"
 			(at 80.264 166.624 90)
 			(effects
 				(font
@@ -821,6 +830,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 80.01 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" ""
 			(at 80.01 167.64 0)
 			(effects
 				(font
@@ -849,7 +867,7 @@
 		(at 66.04 118.11 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -872,7 +890,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TwoTerminal:THT_10.16mm"
 			(at 65.024 117.856 90)
 			(effects
 				(font
@@ -891,6 +909,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 66.04 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" ""
 			(at 66.04 118.11 0)
 			(effects
 				(font
@@ -919,7 +946,7 @@
 		(at 80.01 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -940,7 +967,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TwoTerminal:THT_10.16mm"
 			(at 83.82 47.2948 0)
 			(effects
 				(font
@@ -959,6 +986,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 80.01 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" ""
 			(at 80.01 48.26 0)
 			(effects
 				(font
