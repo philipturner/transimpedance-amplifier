@@ -1523,6 +1523,12 @@ This looks like a good breadboard product for my project: [Amazon](https://www.a
 
 I also have to figure out whether I want some longer jumper wires. Both for wiring across the breadboard and for connecting the power nodes to the main board. I could just trim off some wire from the spool, but I prefer to measure the required lengths beforehand.
 
+![October 30, Part 1](./Documentation/October30/October30_Part1.jpg)
+
+_Proof of concept for the layout on the breadboard._
+
 I'm going to get a pack of 20 cm male-to-female jumpers. Remaining parts of the BOM:
-- Spare parts to make it possible to repair existing board. And, in the worst case, one attempt at soldering a fresh one from the other spares.
+- Spare chips to make it possible to repair existing board. And, in the worst case, one attempt at soldering a fresh one from the other spares.
 - Make a decision for the exact purchase links regarding ESD mitigation.
+
+The BOM starts by making a dedicated section of the Google Sheet, just like the previous order. Here is the link for the new spreadsheet: [Triangle Wave Generator (Google Sheets)](https://docs.google.com/spreadsheets/d/1t0Z5xXaX1mIa_8x0P24x3jasQYfW1Grzr0f3GCqjVmA/edit?usp=sharing)
