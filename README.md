@@ -1520,3 +1520,5 @@ I realized that I need to reduce the scope of hardware goals, making the busines
 ## October 30, 2025
 
 This looks like a good breadboard product for my project: [Amazon](https://www.amazon.com/Breadboards-Solderless-Breadboard-Distribution-Connecting/dp/B07DL13RZH)
+
+I also have to figure out whether I want some longer jumper wires. Both for wiring across the breadboard and for connecting the power nodes to the main board. I could just trim off some wire from the spool, but I prefer to measure the required lengths beforehand.
