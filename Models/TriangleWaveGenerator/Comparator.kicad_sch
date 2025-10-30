@@ -587,7 +587,7 @@
 		)
 		(uuid "27964189-996f-4729-b47e-ccbce22533ee")
 	)
-	(hierarchical_label "Input"
+	(hierarchical_label "Input(+)"
 		(shape input)
 		(at 137.16 81.28 180)
 		(effects
