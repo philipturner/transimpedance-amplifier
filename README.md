@@ -1532,3 +1532,9 @@ I'm going to get a pack of 20 cm male-to-female jumpers. Remaining parts of the 
 - Make a decision for the exact purchase links regarding ESD mitigation.
 
 The BOM starts by making a dedicated section of the Google Sheet, just like the previous order. Here is the link for the new spreadsheet: [Triangle Wave Generator (Google Sheets)](https://docs.google.com/spreadsheets/d/1t0Z5xXaX1mIa_8x0P24x3jasQYfW1Grzr0f3GCqjVmA/edit?usp=sharing)
+
+---
+
+To my competitors: you snooze you lose
+
+![October 30, Part 2](./Documentation/October30/October30_Part2.png)
