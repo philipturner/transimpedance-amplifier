@@ -60,6 +60,7 @@ Table of Contents:
 - [October 24, 2025](#october-24-2025)
 - [October 26, 2025](#october-26-2025)
 - [October 29, 2025](#october-29-2025)
+- [October 30, 2025](#october-30-2025)
 
 ## July 26, 2025
 
@@ -1515,3 +1516,7 @@ I didn't let this excuse of atoms:pixels ratio deter me from accomplishing this 
 This is the second time I have invested major effort into marketing a piece of software, hoping to make other people use it. Last time was with my AR stuff, after I lost the ability to spend 100% of my free time working on it (pandemic ended). Now I'm in a better place, literally get to spend 100% of my days doing whatever I want. But I need to market things and do economics to sustain this indefinitely.
 
 I realized that I need to reduce the scope of hardware goals, making the business opportunity _doable_. I have to make ends meet, which means compromising on ambitions, to network with the SPM industry and improve chances of things happening long-term. Think of how EUV lithography got pulled off. Many, many researchers collectively understood the end goal, its economic viability, and the pathway to it. We still need more people in the SPM industry (e.g. Scienta Omicron) to be aware and see value in the goal of DMS. That hasn't happened yet. It may happen after I integrate LiNbO3 into their systems. But ultimately I just care about getting a proper wage before May 2026.
+
+## October 30, 2025
+
+This looks like a good breadboard product for my project: [Amazon](https://www.amazon.com/Breadboards-Solderless-Breadboard-Distribution-Connecting/dp/B07DL13RZH)
