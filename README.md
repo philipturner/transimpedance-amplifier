@@ -1553,4 +1553,4 @@ To my competitors: you snooze you lose
 
 ## October 31, 2025
 
-![October 31, Part 1](./Documentation/October31/October31_Part1.jpg))
+![October 31, Part 1](./Documentation/October31/October31_Part1.jpg)
