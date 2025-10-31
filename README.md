@@ -61,6 +61,7 @@ Table of Contents:
 - [October 26, 2025](#october-26-2025)
 - [October 29, 2025](#october-29-2025)
 - [October 30, 2025](#october-30-2025)
+- [October 31, 2025](#october-31-2025)
 
 ## July 26, 2025
 
@@ -1549,3 +1550,7 @@ To my competitors: you snooze you lose
 ### Amazon Invoice
 
 ![Amazon Invoice](./Documentation/Orders2/Amazon/Amazon_Invoice.png)
+
+## October 31, 2025
+
+![October 31, Part 1](./Documentation/October31/October31_Part1.jpg))
