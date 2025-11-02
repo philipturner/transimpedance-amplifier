@@ -62,6 +62,7 @@ Table of Contents:
 - [October 29, 2025](#october-29-2025)
 - [October 30, 2025](#october-30-2025)
 - [October 31, 2025](#october-31-2025)
+- [November 2, 2025](#november-2-2025)
 
 ## July 26, 2025
 
@@ -1554,3 +1555,7 @@ To my competitors: you snooze you lose
 ## October 31, 2025
 
 ![October 31, Part 1](./Documentation/October31/October31_Part1.jpg)
+
+## November 2, 2025
+
+Today, I expect to receive the Amazon component of the hardware order. I will upload the image to this journal entry. I will not post about it on X, because I don't want to divert attention from the upcoming blog post. Followers can find this journal entry if they really want to, because it is open source. There is a difference between "open source" and being blasted at the top of Twitter headlines.
