@@ -1562,6 +1562,6 @@ Today, I expect to receive the Amazon component of the hardware order. I will up
 
 ![November 2, Part 1](./Documentation/November2/November2_Part1.jpg)
 
-Got the first wire down. This is "principled breadboarding", where you cut specific lengths of wire from a spool.
+Got the first wire down. This is "principled breadboarding", where you cut specific lengths of wire from a spool. For a lot of these, I'll use 25 mm cut with 7 mm of insulation stripped off each end.
 
 ![November 2, Part 2](./Documentation/November2/November2_Part2.jpg)
