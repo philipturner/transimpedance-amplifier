@@ -1561,3 +1561,7 @@ To my competitors: you snooze you lose
 Today, I expect to receive the Amazon component of the hardware order. I will upload the image to this journal entry. I will not post about it on X, because I don't want to divert attention from the upcoming blog post. Followers can find this journal entry if they really want to, because it is open source. There is a difference between "open source" and being blasted at the top of Twitter headlines.
 
 ![November 2, Part 1](./Documentation/November2/November2_Part1.jpg)
+
+Got the first wire down. This is "principled breadboarding", where you cut specific lengths of wire from a spool.
+
+![November 2, Part 2](./Documentation/November2/November2_Part2.jpg)
