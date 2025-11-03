@@ -329,9 +329,9 @@
 		)
 		(uuid "26c03cc9-8892-4884-ab42-98c6961413bf")
 	)
-	(text "triangle wave output\n±3.92 V (with ±15 V supply)\n0.96 kHz (15.0 V/ms)"
+	(text "triangle wave output\n±3.92 V (with ±15 V supply)\n0.96 kHz (15.0 V/ms)\n\nrising edge:\n\n\nfalling edge:"
 		(exclude_from_sim no)
-		(at 99.06 35.56 0)
+		(at 137.922 48.768 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -340,7 +340,7 @@
 		)
 		(uuid "5d44cbca-243a-4b50-9ee1-b7a6d55341f9")
 	)
-	(text "square wave output\n±15 V\n0.96 kHz"
+	(text "square wave output\n+11.9 V and -15.0 V\nTBD Hz"
 		(exclude_from_sim no)
 		(at 137.16 132.08 0)
 		(effects
