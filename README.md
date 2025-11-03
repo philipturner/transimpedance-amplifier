@@ -1580,3 +1580,5 @@ This is my first take at wiring the entire breadboard. I can measure the voltage
 The LM311 comparator is not responding.
 
 The wiring diagram for the LM311 is wrong.
+
+![November 3, Part 2](./Documentation/November3/November3_Part2.jpg)
