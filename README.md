@@ -1603,3 +1603,16 @@ I can say that the triangle wave generator is working now. I switched to a highe
 ![November 3, Part 3](./Documentation/November3/November3_Part3.jpg)
 
 _Setup for debugging the triangle wave generator._
+
+---
+
+Here, I am testing whether the new model can explain the measured voltages. I assume the lowpass filter settles to the peak value of the wave, and the diode has exactly 0.7 V drop.
+
+| Diode Polarity | Probed Output | Actual Voltage  | Theoretical Voltage |
+| -------------- | ------------- | -------: | -------: |
+| positive       | triangle wave | 2.87 V   | 3.22 V |
+| positive       | square wave   | 11.63 V  | 11.20 V |
+| negative       | triangle wave | -2.15 V  | -2.41 V |
+| negative       | square wave   | -14.09 V | -14.30 V |
+
+In the simulations, the triangle wave was not filtered as faithfully as the square wave. It took much longer to settle. A real capacitor also has parasitics that could put a time limit for the held charge. Perhaps the triangle wave doesn't settle to the full value within this time limit.
