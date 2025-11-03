@@ -1582,3 +1582,24 @@ The LM311 comparator is not responding.
 The wiring diagram for the LM311 is wrong.
 
 ![November 3, Part 2](./Documentation/November3/November3_Part2.jpg)
+
+---
+
+There was another issue because the output of the LM311 is actually a transistor between pin 1 and pin 7. I need connect pin 1 to -15 V, not GND as stated in the datasheet. I must carefully choose the pullup resistor to not have too much current. I will start collecting data now.
+
+| Pullup Resistor | Diode Polarity | Probed Output | Voltage  |
+| --------------: | -------------- | ------------- | -------: |
+| 1.8 kΩ          | positive       | triangle wave | 2.83 V   |
+| 1.8 kΩ          | positive       | square wave   | 13.19 V  |
+| 1.8 kΩ          | negative       | triangle wave | -2.58 V  |
+| 1.8 kΩ          | negative       | square wave   | -14.00 V |
+| 4.7 kΩ          | positive       | triangle wave | 2.87 V   |
+| 4.7 kΩ          | positive       | square wave   | 11.63 V  |
+| 4.7 kΩ          | negative       | triangle wave | -2.15 V  |
+| 4.7 kΩ          | negative       | square wave   | -14.09 V |
+
+I can say that the triangle wave generator is working now. I switched to a higher resistance to reduce the current draw on the power supplies. It should change from 30 V / 1.8 kΩ = 17 mA to 30 V / 4.7 kΩ = 6 mA. The triangle wave's voltage now deviates more from theory than with the lower resistance, but it still produces the intended functionality (a test waveform).
+
+TODO: Upload image
+
+_Setup for debugging the triangle wave generator._
