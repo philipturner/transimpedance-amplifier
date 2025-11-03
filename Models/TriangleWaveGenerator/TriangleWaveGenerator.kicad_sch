@@ -329,7 +329,7 @@
 		)
 		(uuid "26c03cc9-8892-4884-ab42-98c6961413bf")
 	)
-	(text "triangle wave output\n±3.92 V (with ±15 V supply)\n0.96 kHz (15.0 V/ms)\n\nrising edge:\n\n\nfalling edge:"
+	(text "triangle wave output\n1.06 ms period\n943 Hz frequency\n\nrising edge:\n-15 V on square wave\n150 μA into capacitor\n-3.11 V -> 3.92 V\n0.469 ms\n\nfalling edge:\n11.9 V on square wave\n-119 μA into capacitor\n3.92 V -> -3.11 V\n0.591 ms"
 		(exclude_from_sim no)
 		(at 137.922 48.768 0)
 		(effects
@@ -340,7 +340,7 @@
 		)
 		(uuid "5d44cbca-243a-4b50-9ee1-b7a6d55341f9")
 	)
-	(text "square wave output\n+11.9 V and -15.0 V\nTBD Hz"
+	(text "square wave output\n+11.9 V and -15.0 V"
 		(exclude_from_sim no)
 		(at 137.16 132.08 0)
 		(effects
