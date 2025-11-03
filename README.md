@@ -1616,3 +1616,7 @@ Here, I am testing whether the new model can explain the measured voltages. I as
 | negative       | square wave   | -14.09 V | -14.30 V |
 
 In the simulations, the triangle wave was not filtered as faithfully as the square wave. It took much longer to settle. A real capacitor also has parasitics that could put a time limit for the held charge. Perhaps the triangle wave doesn't settle to the full value within this time limit.
+
+My understanding of the waveform is good enough that I can prepare tests. I will return to this tomorrow. It requires coding a sampling loop on the Teensy, with high fidelity (digitality) of the exact sampling period.
+
+I don't want to risk damaging the ADC, so I will never connect any waveform outputs directly to it. Instead, they must pass through the 100 MΩ transimpedance amplifier. I want to measure the TIA output with the low-pass filter. I must be careful, because too low of a voltage will fall below the diode drop. Too high of a voltage (reaching 15 V supply rails for the square wave) is also bad practice.
