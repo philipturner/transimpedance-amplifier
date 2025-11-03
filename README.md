@@ -1600,6 +1600,6 @@ There was another issue because the output of the LM311 is actually a transistor
 
 I can say that the triangle wave generator is working now. I switched to a higher resistance to reduce the current draw on the power supplies. It should change from 30 V / 1.8 kΩ = 17 mA to 30 V / 4.7 kΩ = 6 mA. The triangle wave's voltage now deviates more from theory than with the lower resistance, but it still produces the intended functionality (a test waveform).
 
-TODO: Upload image
+![November 3, Part 3](./Documentation/November3/November3_Part3.jpg)
 
 _Setup for debugging the triangle wave generator._
