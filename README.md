@@ -63,6 +63,7 @@ Table of Contents:
 - [October 30, 2025](#october-30-2025)
 - [October 31, 2025](#october-31-2025)
 - [November 2, 2025](#november-2-2025)
+- [November 3, 2025](#november-3-2025)
 
 ## July 26, 2025
 
@@ -1569,3 +1570,10 @@ Got the first wire down. This is "principled breadboarding", where you cut speci
 ![November 2, Part 3](./Documentation/November2/November2_Part3.jpg)
 
 I'll call it a day and return to this tomorrow.
+
+## November 3, 2025
+
+This is my first take at wiring the entire breadboard. I can measure the voltage by touching two probes to the leads of the 47 nF capacitor. This method can work while I'm using high voltage gloves.
+
+![November 3, Part 1](./Documentation/November3/November3_Part1.jpg)
+
