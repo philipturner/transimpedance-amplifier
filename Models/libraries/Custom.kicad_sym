@@ -626,32 +626,14 @@
 			(pin passive line
 				(at 15.24 3.81 180)
 				(length 2.54)
-				(name "BAL"
+				(name "V+"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 15.24 1.27 180)
-				(length 2.54)
-				(name "BAL/STB"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -660,7 +642,7 @@
 				)
 			)
 			(pin output line
-				(at 15.24 -1.27 180)
+				(at 15.24 1.27 180)
 				(length 2.54)
 				(name "OUT"
 					(effects
@@ -678,16 +660,34 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 -3.81 180)
+				(at 15.24 -1.27 180)
 				(length 2.54)
-				(name "V+"
+				(name "BAL/STB"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "8"
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 -3.81 180)
+				(length 2.54)
+				(name "BAL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
