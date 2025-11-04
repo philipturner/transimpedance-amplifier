@@ -28,7 +28,12 @@
 // https://www.open-electronics.org/how-to-adjust-x-and-y-axis-scale-in-arduino-serial-plotter-no-extra-software-needed/
 // Successfully changed it from 50 to 1000 data points
 
+// Eventually, we will probably need to split this into multiple files:
+// https://arduino.github.io/arduino-cli/1.3/sketch-build-process/#pre-processing
+
 ////////////////////////////////////////////////////////////////////////////////
+
+// MARK: - Time Tracking Utilities
 
 IntervalTimer timer;
 
@@ -42,18 +47,64 @@ struct TimeStatistics {
   uint32_t exactly20us_jumps = 0;
   uint32_t under20us_jumps = 0;
   uint32_t total_jumps = 0;
+
+  void integrate(uint32_t jumpDuration) {
+    if (jumpDuration > 1000000) {
+      this->above1000000us_jumps += 1;
+    } else if (jumpDuration > 100000) {
+      this->above100000us_jumps += 1;
+    } else if (jumpDuration > 10000) {
+      this->above10000us_jumps += 1;
+    } else if (jumpDuration > 1000) {
+      this->above1000us_jumps += 1;
+    } else if (jumpDuration > 100) {
+      this->above100us_jumps += 1;
+    } else if (jumpDuration > 20) {
+      this->above20us_jumps += 1;
+    } else if (jumpDuration == 20) {
+      this->exactly20us_jumps += 1;
+    } else if (jumpDuration < 20) {
+      this->under20us_jumps += 1;
+    }
+    this->total_jumps += 1;
+  }
 };
 TimeStatistics timeStatistics;
 
 uint32_t latestTimestamp;
 
+// MARK: - Setup
+
 void setup() {
   Serial.begin(0);
+  Serial.println(); // allow easy distinction of different program runs
+  Serial.println("Serial Monitor has initialized.");
+
+  // Do any other setup here.
+
   latestTimestamp = micros();
-  timer.begin(kilohertzLoopIteration, 20);
+  timer.begin(kilohertzLoop, 20);
 }
 
+// MARK: - Loop
+
 void loop() {
+  timeFidelityDiagnosticLoop();
+}
+
+// Responsiveness test
+//
+// Set the range select register to some different values,
+// read back the result.
+//
+// During normal program operation, the responsiveness test does
+// not execute. The range select register is set to 0 before the kilohertz
+// loop starts.
+void adcResponsiveDiagnosticLoop() {
+  // TODO: Copy over code once it can compile.
+}
+
+void timeFidelityDiagnosticLoop() {
   delay(500);
 
   Serial.println();
@@ -68,30 +119,15 @@ void loop() {
   Serial.println(timeStatistics.total_jumps);
 }
 
+// MARK: - Kilohertz Loop
+
 // Function to execute reliably with a consistent time
 // base in the multiple kHz band.
-void kilohertzLoopIteration() {
+void kilohertzLoop() {
   uint32_t currentTimestamp = micros();
   uint32_t previousTimestamp = latestTimestamp;
   latestTimestamp = currentTimestamp;
 
   uint32_t jumpDuration = currentTimestamp - previousTimestamp;
-  if (jumpDuration > 1000000) {
-    timeStatistics.above1000000us_jumps += 1;
-  } else if (jumpDuration > 100000) {
-    timeStatistics.above100000us_jumps += 1;
-  } else if (jumpDuration > 10000) {
-    timeStatistics.above10000us_jumps += 1;
-  } else if (jumpDuration > 1000) {
-    timeStatistics.above1000us_jumps += 1;
-  } else if (jumpDuration > 100) {
-    timeStatistics.above100us_jumps += 1;
-  } else if (jumpDuration > 20) {
-    timeStatistics.above20us_jumps += 1;
-  } else if (jumpDuration == 20) {
-    timeStatistics.exactly20us_jumps += 1;
-  } else if (jumpDuration < 20) {
-    timeStatistics.under20us_jumps += 1;
-  }
-  timeStatistics.total_jumps += 1;
+  timeStatistics.integrate(jumpDuration);
 }
