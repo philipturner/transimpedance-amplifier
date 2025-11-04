@@ -26,28 +26,72 @@
 
 // Fixing the X-axis limits to the Arduino IDE's serial plotter:
 // https://www.open-electronics.org/how-to-adjust-x-and-y-axis-scale-in-arduino-serial-plotter-no-extra-software-needed/
-// Successfully changed it from 50 to 1000 data points (TODO)
+// Successfully changed it from 50 to 1000 data points
 
 ////////////////////////////////////////////////////////////////////////////////
 
+IntervalTimer timer;
+
+struct TimeStatistics {
+  uint32_t above1000000us_jumps = 0;
+  uint32_t above100000us_jumps = 0;
+  uint32_t above10000us_jumps = 0;
+  uint32_t above1000us_jumps = 0;
+  uint32_t above100us_jumps = 0;
+  uint32_t above20us_jumps = 0;
+  uint32_t exactly20us_jumps = 0;
+  uint32_t under20us_jumps = 0;
+  uint32_t total_jumps = 0;
+};
+TimeStatistics timeStatistics;
+
+uint32_t latestTimestamp;
+
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(0);
+  latestTimestamp = micros();
+  timer.begin(kilohertzLoopIteration, 20);
 }
 
-int i = 0;
-
 void loop() {
-  i = (i + 1) % 360;
+  delay(500);
 
-  float y1 = 1 * sin(i * M_PI / 180);
-  float y2 = 2 * sin((i + 90)* M_PI / 180);
-  float y3 = 5 * sin((i + 180)* M_PI / 180);
+  Serial.println();
+  Serial.println(timeStatistics.above1000000us_jumps);
+  Serial.println(timeStatistics.above100000us_jumps);
+  Serial.println(timeStatistics.above10000us_jumps);
+  Serial.println(timeStatistics.above1000us_jumps);
+  Serial.println(timeStatistics.above100us_jumps);
+  Serial.println(timeStatistics.above20us_jumps);
+  Serial.println(timeStatistics.exactly20us_jumps);
+  Serial.println(timeStatistics.under20us_jumps);
+  Serial.println(timeStatistics.total_jumps);
+}
 
-  Serial.print(y1);
-  Serial.print("\t"); // a space ' ' or  tab '\t' character is printed between the two values.
-  Serial.print(y2);
-  Serial.print("\t"); // a space ' ' or  tab '\t' character is printed between the two values.
-  Serial.println(y3); // the last value is followed by a carriage return and a newline characters.
+// Function to execute reliably with a consistent time
+// base in the multiple kHz band.
+void kilohertzLoopIteration() {
+  uint32_t currentTimestamp = micros();
+  uint32_t previousTimestamp = latestTimestamp;
+  latestTimestamp = currentTimestamp;
 
-  delay(1);
+  uint32_t jumpDuration = currentTimestamp - previousTimestamp;
+  if (jumpDuration > 1000000) {
+    timeStatistics.above1000000us_jumps += 1;
+  } else if (jumpDuration > 100000) {
+    timeStatistics.above100000us_jumps += 1;
+  } else if (jumpDuration > 10000) {
+    timeStatistics.above10000us_jumps += 1;
+  } else if (jumpDuration > 1000) {
+    timeStatistics.above1000us_jumps += 1;
+  } else if (jumpDuration > 100) {
+    timeStatistics.above100us_jumps += 1;
+  } else if (jumpDuration > 20) {
+    timeStatistics.above20us_jumps += 1;
+  } else if (jumpDuration == 20) {
+    timeStatistics.exactly20us_jumps += 1;
+  } else if (jumpDuration < 20) {
+    timeStatistics.under20us_jumps += 1;
+  }
+  timeStatistics.total_jumps += 1;
 }
