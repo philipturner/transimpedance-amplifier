@@ -1,6 +1,20 @@
+#include <SPI.h>
+
 // High-fidelity timer for Teensy
+// 50 Ksps voltage measurement from 18-bit ADC
 //
-// TODO: Annotate the timing of operations within the 50 kHz loop.
+// 6000 ns breathing room for CONV
+//         write CS low
+//  100 ns breathing room to start SPI transfer
+// 1600 ns transfer 32 bits @ 20 Mbps
+// 6000 ns breathing room for ACQ
+//         write CS high
+// 6300 ns theoretical time left for other code
+//
+// WARNING: Good chance the periodic writes to the serial plotter will
+// interrupt a loop iteration, especially with the long idle times.
+// Little time left after 'kilohertzLoop' finishes for 'loop' to run.
+// We will make the code robust to skipped frames.
 
 // Displaying data to console
 // - Measure timestamps, auto-detect skipped frames. Fill in skipped frames with
@@ -32,6 +46,88 @@
 // https://arduino.github.io/arduino-cli/1.3/sketch-build-process/#pre-processing
 
 ////////////////////////////////////////////////////////////////////////////////
+
+// MARK: - SPI Utilities
+
+uint8_t CS_DAC = 36;
+uint8_t CS_ADC = 37;
+
+/* Input Shift Register Commands for ADS8689 */
+#define ADS8689_DEVICE_ID_REG   0x00
+#define ADS8689_RST_PWRCTL_REG  0x04
+#define ADS8689_SDI_CTL_REG     0x08
+#define ADS8689_SDO_CTL_REG     0x0C
+#define ADS8689_DATAOUT_CTL_REG 0x10
+#define ADS8689_RANGE_SEL_REG   0x14
+#define ADS8689_ALARM_REG       0x20
+#define ADS8689_ALARM_H_TH_REG  0x24
+#define ADS8689_ALARM_L_TH_REG  0x28
+
+// SPI commands
+#define ADS8689_NOP         0b0000000
+#define ADS8689_CLEAR_HWORD 0b1100000
+#define ADS8689_READ_HWORD  0b1100100
+#define ADS8689_READ        0b0100100
+#define ADS8689_WRITE_FULL  0b1101000 //write 16 bits to register
+#define ADS8689_WRITE_MS    0b1101001
+#define ADS8689_WRITE_LS    0b1101010
+
+struct ADCInput {
+  uint8_t command;
+  uint8_t registerAddress;
+  uint16_t data;
+};
+
+struct ADCOutputHWORD {
+  uint16_t data;
+
+  ADCOutputHWORD(uint32_t rawData) {
+    data = rawData >> 16;
+  }
+};
+
+struct ADCOutputConversion {
+  // Fractional value from 0.0 to 1.0 full-scale.
+  float data;
+
+  ADCOutputConversion(uint32_t rawData) {
+    uint32_t integer18Bit = rawData >> 14;
+    uint32_t denominator = 1 << 18;
+    data = float(integer18Bit) / float(denominator);
+  }
+};
+
+struct ADC {
+  static uint32_t transfer(ADCInput input) {
+    uint8_t bytes[4];
+    bytes[0] = input.command << 1;
+    bytes[1] = input.registerAddress;
+    bytes[2] = uint8_t(input.data >> 8);
+    bytes[3] = uint8_t(input.data >> 0);
+    
+    // Guarantee that enough conversion time has passed.
+    delayNanoseconds(6000);
+
+    SPI.beginTransaction(SPISettings(20000000, MSBFIRST, SPI_MODE0));
+    digitalWrite(CS_ADC, 0);
+    delayNanoseconds(100);
+
+    // 32 bits at 20 MHz, 1600 ns delay
+    SPI.transfer(bytes, 4);
+
+    // Minimize EMI from digital signals while analog is acquiring.
+    delayNanoseconds(6000);
+    digitalWrite(CS_ADC, 1);
+    SPI.endTransaction();
+
+    uint32_t output = 0;
+    output = (output << 8) | bytes[0];
+    output = (output << 8) | bytes[1];
+    output = (output << 8) | bytes[2];
+    output = (output << 8) | bytes[3];
+    return output;
+  }
+};
 
 // MARK: - Time Tracking Utilities
 
@@ -81,6 +177,11 @@ void setup() {
   Serial.println("Serial Monitor has initialized.");
 
   // Do any other setup here.
+  ADCInput input;
+  input.command = ADS8689_NOP;
+  input.registerAddress = 0;
+  input.data = 0;
+  ADC::transfer(input);
 
   latestTimestamp = micros();
   timer.begin(kilohertzLoop, 20);
