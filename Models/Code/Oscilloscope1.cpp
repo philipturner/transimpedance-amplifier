@@ -127,6 +127,89 @@ struct ADC {
     output = (output << 8) | bytes[3];
     return output;
   }
+
+  static void nop() {
+    ADCInput input;
+    input.command = ADS8689_NOP;
+    input.registerAddress = 0;
+    input.data = 0;
+    transfer(input);
+  }
+
+  static float readConversionCode() {
+    ADCInput input;
+    input.command = ADS8689_NOP;
+    input.registerAddress = 0;
+    input.data = 0;
+    uint32_t rawData = transfer(input);
+
+    ADCOutputConversion output(rawData);
+    return output.data;
+  }
+
+  // Legend
+  //
+  // range 0b0000 | -12.288 V to 12.288 V
+  // range 0b0001 | -10.24 V to 10.24 V
+  // range 0b0010 | -6.144 V to 6.144 V
+  // range 0b0011 | -5.12 V to 5.12 V
+  // range 0b0100 | -2.56 V to 2.56 V
+  // range 0b1000 | 0 V to 12.288 V
+  // range 0b1001 | 0 V to 10.24 V
+  // range 0b1010 | 0 V to 6.144 V
+  // range 0b1011 | 0 V to 5.12 V
+  static void writeRangeSelect(uint8_t rangeCode) {
+    ADCInput input;
+    input.command = ADS8689_WRITE_FULL;
+    input.registerAddress = ADS8689_RANGE_SEL_REG;
+    input.data = uint16_t(rangeCode);
+    transfer(input);
+  }
+
+  // Data transfer process:
+  //
+  // frame 0 | input read highest 16 bits | output ignored
+  // frame 1 | input read lowest 16 bits  | output receive highest 16 bits
+  // frame 2 | NOP                        | output receive lowest 16 bits
+  static uint32_t readRangeSelect() {
+    uint32_t upperBits;
+    uint32_t lowerBits;
+
+    // frame 0
+    {
+      ADCInput input;
+      input.command = ADS8689_READ_HWORD;
+      input.registerAddress = ADS8689_RANGE_SEL_REG + 2;
+      input.data = 0;
+      transfer(input);
+    }
+
+    // frame 1
+    {
+      ADCInput input;
+      input.command = ADS8689_READ_HWORD;
+      input.registerAddress = ADS8689_RANGE_SEL_REG;
+      input.data = 0;
+      uint32_t rawData = transfer(input);
+
+      ADCOutputHWORD output(rawData);
+      upperBits = uint32_t(output.data);
+    }
+
+    // frame 2
+    {
+      ADCInput input;
+      input.command = ADS8689_NOP;
+      input.registerAddress = 0;
+      input.data = 0;
+      uint32_t rawData = transfer(input);
+
+      ADCOutputHWORD output(rawData);
+      lowerBits = uint32_t(output.data);
+    }
+
+    return (upperBits << 16) | lowerBits;
+  }
 };
 
 // MARK: - Time Tracking Utilities
@@ -176,12 +259,13 @@ void setup() {
   Serial.println(); // allow easy distinction of different program runs
   Serial.println("Serial Monitor has initialized.");
 
-  // Do any other setup here.
-  ADCInput input;
-  input.command = ADS8689_NOP;
-  input.registerAddress = 0;
-  input.data = 0;
-  ADC::transfer(input);
+  pinMode(CS_DAC, OUTPUT);
+  pinMode(CS_ADC, OUTPUT);
+  digitalWrite(CS_DAC, 1);
+  digitalWrite(CS_ADC, 1);
+  SPI.begin(); 
+
+  ADC::writeRangeSelect(0b0000);
 
   latestTimestamp = micros();
   timer.begin(kilohertzLoop, 20);
@@ -190,19 +274,7 @@ void setup() {
 // MARK: - Loop
 
 void loop() {
-  timeFidelityDiagnosticLoop();
-}
-
-// Responsiveness test
-//
-// Set the range select register to some different values,
-// read back the result.
-//
-// During normal program operation, the responsiveness test does
-// not execute. The range select register is set to 0 before the kilohertz
-// loop starts.
-void adcResponsiveDiagnosticLoop() {
-  // TODO: Copy over code once it can compile.
+  adcResponsiveDiagnosticLoop();
 }
 
 void timeFidelityDiagnosticLoop() {
@@ -218,6 +290,45 @@ void timeFidelityDiagnosticLoop() {
   Serial.println(timeStatistics.exactly20us_jumps);
   Serial.println(timeStatistics.under20us_jumps);
   Serial.println(timeStatistics.total_jumps);
+}
+
+// Responsiveness test
+//
+// Keyboard events:
+// 'c' received - ADC performs a measurement
+// 'd' received - ADC reports contents of ADS8689_RANGE_SEL_REG
+// '0' received - ADC writes 0b0000 to ADS8689_RANGE_SEL_REG
+// '1' received - ADC writes 0b0001 to ADS8689_RANGE_SEL_REG
+//
+// During normal program operation, the responsiveness test does
+// not execute. The range select register is set to 0 before the kilohertz
+// loop starts.
+void adcResponsiveDiagnosticLoop() {
+  if (Serial.available() > 0) {
+    char incomingByte = Serial.read();
+
+    if (incomingByte == 'c') {
+      Serial.println("received command 'c'");
+
+      float voltage = ADC::readConversionCode();
+      Serial.print("ADC code (fraction of full-scale): ");
+      Serial.println(voltage, 6); // force it to 6 decimal places
+    } else if (incomingByte == 'd') {
+      Serial.println("received command 'd'");
+      
+      uint32_t rangeCode = ADC::readRangeSelect();
+      Serial.print("Contents of range select register: ");
+      Serial.println(rangeCode);
+    } else if (incomingByte == '0') {
+      Serial.println("received command '0'");
+      
+      ADC::writeRangeSelect(0b0000);
+    } else if (incomingByte == '1') {
+      Serial.println("received command '1'");
+      
+      ADC::writeRangeSelect(0b0001);
+    }
+  }
 }
 
 // MARK: - Kilohertz Loop
