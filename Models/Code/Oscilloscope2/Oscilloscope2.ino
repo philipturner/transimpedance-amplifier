@@ -33,14 +33,29 @@ void kilohertzLoop() {
   uint32_t currentTimestamp = micros();
   uint32_t previousTimestamp = latestTimestamp;
   latestTimestamp = currentTimestamp;
+  float timeSeconds = float(currentTimestamp - startTimestamp);
+  timeSeconds /= float(1000000);
+
+  // Get the ADC data as soon as possible.
+  float voltage = 5;
 
   uint32_t jumpDuration = currentTimestamp - previousTimestamp;
   timeStatistics.integrate(jumpDuration);
 
   uint32_t startSlotID = (previousTimestamp - startTimestamp) / 20;
+  startSlotID += 1;
   uint32_t endSlotID = (currentTimestamp - startTimestamp) / 20;
-  float timeSeconds = float(currentTimestamp - startTimestamp);
-  timeSeconds /= float(1000000);
+  endSlotID += 1;
+  if (endSlotID - startSlotID > 100) {
+    Serial.println("Function was overloaded with work.");
+    exit(0);
+  }
 
-  ringBuffer.samples[endSlotID % 50000] = float(5);
+  for (uint32_t slotID = startSlotID; slotID < endSlotID; ++slotID) {
+    Serial.print(slotID % 50000);
+    Serial.print(" ");
+    Serial.println(voltage);
+  }
+
+  // ringBuffer.samples[endSlotID % 50000] = float(5);
 }
