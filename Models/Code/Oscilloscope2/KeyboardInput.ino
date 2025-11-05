@@ -51,12 +51,27 @@ char oscilloscopeMode = '0';
 float oscilloscopeCopiedSamples[1000];
 
 void oscilloscopeGuardedCode(bool shouldDisplayLatest) {
-  uint32_t startSlotID = (oscilloscopeTimestamp - startTimestamp) / 20;
-  uint32_t endSlotID = (latestTimestamp - startTimestamp) / 20;
+  uint32_t previousSlotID = (oscilloscopeTimestamp - startTimestamp) / 20;
+  uint32_t currentSlotID = (latestTimestamp - startTimestamp) / 20;
 
-  if (oscilloscopeMode == 'a') {
-    
-  } else if (shouldDisplayLatest) {
+  if (shouldDisplayLatest) {
+    // WARNING: Modulo operator may have undefined behavior for
+    // negative integers. Force the number to be positive.
+    int32_t endSlotID = currentSlotID + 1;
+    int32_t startSlotID = endSlotID - 1000;
+    endSlotID += 50000;
+    startSlotID += 50000;
+    if (startSlotID < 0) {
+      Serial.println("Invalid slot ID.");
+      exit(0);
+    }
+
+    for (int32_t slotID = startSlotID; slotID < endSlotID; ++slotID) {
+      int32_t copiedSampleID = slotID - startSlotID;
+      float sample = ringBuffer.samples[slotID % 50000];
+      oscilloscopeCopiedSamples[copiedSampleID] = sample;
+    }
+  } else if (oscilloscopeMode == 'a') {
 
   }
 
