@@ -64,6 +64,7 @@ Table of Contents:
 - [October 31, 2025](#october-31-2025)
 - [November 2, 2025](#november-2-2025)
 - [November 3, 2025](#november-3-2025)
+- [November 5, 2025](#november-5-2025)
 
 ## July 26, 2025
 
@@ -1620,3 +1621,11 @@ In the simulations, the triangle wave was not filtered as faithfully as the squa
 My understanding of the waveform is good enough that I can prepare tests. I will return to this tomorrow. It requires coding a sampling loop on the Teensy, with high fidelity (digitality) of the exact sampling period.
 
 I don't want to risk damaging the ADC, so I will never connect any waveform outputs directly to it. Instead, they must pass through the 100 MΩ transimpedance amplifier. I want to measure the TIA output with the low-pass filter. I must be careful, because too low of a voltage will fall below the diode drop. Too high of a voltage (reaching 15 V supply rails for the square wave) is also bad practice.
+
+## November 5, 2025
+
+Yesterday, I was drafting Teensy code for the high-fidelity (high-digitality) discrete-time sampling loop. As well as preparing functions for checking whether the ADC even responds.
+
+Today, I migrated that into a folder with multiple C++ files. There is now so much code, that single-file C++ scripts are no longer workable. Here's a hyperlink to the Arduino project: [Models/Code/Oscilloscope2](./Models/Code/Oscilloscope2)
+
+TODO (YouTube)
