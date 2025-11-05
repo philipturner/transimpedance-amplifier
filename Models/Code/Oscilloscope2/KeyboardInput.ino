@@ -141,4 +141,29 @@ void oscilloscopeDiagnosticLoop() {
   oscilloscopeGuardedCode(shouldDisplayLatest);
   oscilloscopeLock = false;
   
+  if (shouldDisplayLatest) {
+    for (uint32_t sampleID = 0; sampleID < 1000; ++sampleID) {
+      float sample = oscilloscopeCopiedSamples[sampleID];
+      Serial.print("voltage:");
+      Serial.println(sample);
+    }
+  } else if (oscilloscopeMode == 'a') {
+    uint32_t groupCount = oscilloscopeAveragedGroupCount;
+    for (uint32_t groupID = 0; groupID < groupCount; ++groupID) {
+      float minimum = oscilloscopeCopiedSamples[groupID * 3 + 0];
+      float average = oscilloscopeCopiedSamples[groupID * 3 + 1];
+      float maximum = oscilloscopeCopiedSamples[groupID * 3 + 2];
+
+      Serial.print("min:");
+      Serial.print(minimum);
+      Serial.print(",");
+
+      Serial.print("avg:");
+      Serial.print(average);
+      Serial.print(",");
+      
+      Serial.print("max:");
+      Serial.println(maximum);
+    }
+  }
 }
