@@ -48,6 +48,20 @@ void adcResponsivenessDiagnosticLoop() {
 }
 
 char oscilloscopeMode = '0';
+float oscilloscopeCopiedSamples[1000];
+
+void oscilloscopeGuardedCode(bool shouldDisplayLatest) {
+  uint32_t startSlotID = (oscilloscopeTimestamp - startTimestamp) / 20;
+  uint32_t endSlotID = (latestTimestamp - startTimestamp) / 20;
+
+  if (oscilloscopeMode == 'a') {
+    
+  } else if (shouldDisplayLatest) {
+
+  }
+
+  oscilloscopeTimestamp = latestTimestamp;
+}
 
 void oscilloscopeDiagnosticLoop() {
   delay(20);
@@ -69,10 +83,7 @@ void oscilloscopeDiagnosticLoop() {
   // Make the guarded portion very small and do not
   // invoke 'Serial.print' here.
   oscilloscopeLock = true;
-  if (oscilloscopeMode == 'a') {
-    
-  }
-  oscilloscopeTimestamp = latestTimestamp;
+  oscilloscopeGuardedCode(shouldDisplayLatest);
   oscilloscopeLock = false;
   
 }
