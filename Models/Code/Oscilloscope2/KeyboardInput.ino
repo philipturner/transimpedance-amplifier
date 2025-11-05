@@ -151,14 +151,14 @@ void oscilloscopeDiagnosticLoop() {
       for (uint32_t sampleID = 0; sampleID < 1000; ++sampleID) {
         float sample = oscilloscopeCopiedSamples[sampleID];
         Serial.print("voltage:");
-        Serial.println(sample);
+        Serial.println(sample, 4);
       }
     } else {
       for (uint32_t sampleID = 0; sampleID < 100; ++sampleID) {
         float sample = oscilloscopeCopiedSamples[900 + sampleID];
         for (uint32_t i = 0; i < 10; ++i) {
           Serial.print("voltage:");
-          Serial.println(sample);
+          Serial.println(sample, 4);
         }
       }
     }
@@ -170,15 +170,15 @@ void oscilloscopeDiagnosticLoop() {
       float maximum = oscilloscopeCopiedSamples[groupID * 3 + 2];
 
       Serial.print("min:");
-      Serial.print(minimum);
+      Serial.print(minimum, 4);
       Serial.print(",");
 
       Serial.print("avg:");
-      Serial.print(average);
+      Serial.print(average, 4);
       Serial.print(",");
       
       Serial.print("max:");
-      Serial.println(maximum);
+      Serial.println(maximum, 4);
     }
   }
 }
