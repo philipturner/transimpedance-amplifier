@@ -24,7 +24,8 @@ void setup() {
 // TODO: Next, attempt to find a way to terminate
 // the Teensy program.
 void loop() {
-  adcResponsivenessDiagnosticLoop();
+  timeFidelityDiagnosticLoop();
+  exit(0);
 }
 
 // Function to execute reliably with a consistent time
