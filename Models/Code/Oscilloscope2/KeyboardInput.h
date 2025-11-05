@@ -15,4 +15,7 @@ void timeFidelityDiagnosticLoop();
 // loop starts.
 void adcResponsivenessDiagnosticLoop();
 
+// 'a' received - min/avg/max over 1 ms intervals, showing 1 s of history
+// 'l' received - take a snapshot of 20 ms of the raw data stream
+// '0' received - turn off any plotting
 void oscilloscopeDiagnosticLoop();
