@@ -122,6 +122,7 @@ void oscilloscopeDiagnosticLoop() {
   delay(20);
   
   bool shouldDisplayLatest = false;
+  bool shouldZoomIn = false;
   if (Serial.available() > 0) {
     char incomingByte = Serial.read();
 
@@ -130,6 +131,10 @@ void oscilloscopeDiagnosticLoop() {
     } else if (incomingByte == 'l') {
       oscilloscopeMode = '0';
       shouldDisplayLatest = true;
+    } else if (incomingByte == 'z') {
+      oscilloscopeMode = '0';
+      shouldDisplayLatest = true;
+      shouldZoomIn = true;
     } else if (incomingByte == '0') {
       oscilloscopeMode = '0';
     }
@@ -142,10 +147,20 @@ void oscilloscopeDiagnosticLoop() {
   oscilloscopeLock = false;
   
   if (shouldDisplayLatest) {
-    for (uint32_t sampleID = 0; sampleID < 1000; ++sampleID) {
-      float sample = oscilloscopeCopiedSamples[sampleID];
-      Serial.print("voltage:");
-      Serial.println(sample);
+    if (!shouldZoomIn) {
+      for (uint32_t sampleID = 0; sampleID < 1000; ++sampleID) {
+        float sample = oscilloscopeCopiedSamples[sampleID];
+        Serial.print("voltage:");
+        Serial.println(sample);
+      }
+    } else {
+      for (uint32_t sampleID = 0; sampleID < 100; ++sampleID) {
+        float sample = oscilloscopeCopiedSamples[900 + sampleID];
+        for (uint32_t i = 0; i < 10; ++i) {
+          Serial.print("voltage:");
+          Serial.println(sample);
+        }
+      }
     }
   } else if (oscilloscopeMode == 'a') {
     uint32_t groupCount = oscilloscopeAveragedGroupCount;

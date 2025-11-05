@@ -17,6 +17,7 @@ void setup() {
   SPI.begin(); 
 
   ADC::writeRangeSelect(0b0000);
+  ADC::nop(); // prepare for the first sample
 
   startTimestamp = micros();
   latestTimestamp = startTimestamp;
@@ -48,9 +49,11 @@ void kilohertzLoop() {
   timeSeconds /= float(1000000);
 
   // Get the ADC data as soon as possible.
-  // 1 kHz artificial sine wave for now.
-  float voltage = sin(2 * M_PI * 1000 * timeSeconds);
-  voltage *= 10;
+  float voltage = ADC::readConversionCode();
+  
+  // 1 kHz artificial sine wave for testing.
+  //float voltage = sin(2 * M_PI * 1000 * timeSeconds);
+  //voltage *= 10;
 
   uint32_t jumpDuration = currentTimestamp - previousTimestamp;
   timeStatistics.integrate(jumpDuration);
