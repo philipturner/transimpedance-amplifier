@@ -37,7 +37,9 @@ void kilohertzLoop() {
   timeSeconds /= float(1000000);
 
   // Get the ADC data as soon as possible.
-  float voltage = 5;
+  // 1 kHz artificial sine wave for now.
+  float voltage = sin(2 * M_PI * 1000 * timeSeconds);
+  voltage *= 10;
 
   uint32_t jumpDuration = currentTimestamp - previousTimestamp;
   timeStatistics.integrate(jumpDuration);
@@ -52,10 +54,6 @@ void kilohertzLoop() {
   }
 
   for (uint32_t slotID = startSlotID; slotID < endSlotID; ++slotID) {
-    Serial.print(slotID % 50000);
-    Serial.print(" ");
-    Serial.println(voltage);
+    ringBuffer.samples[slotID % 50000] = voltage;
   }
-
-  // ringBuffer.samples[endSlotID % 50000] = float(5);
 }
