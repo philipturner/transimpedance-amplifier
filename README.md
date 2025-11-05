@@ -1628,4 +1628,4 @@ Yesterday, I was drafting Teensy code for the high-fidelity (high-digitality) di
 
 Today, I migrated that into a folder with multiple C++ files. There is now so much code, that single-file C++ scripts are no longer workable. Here's a hyperlink to the Arduino project: [Models/Code/Oscilloscope2](./Models/Code/Oscilloscope2)
 
-TODO (YouTube)
+[I made the world’s highest-resolution oscilloscope with just programming (18 bits) (YouTube)](https://www.youtube.com/watch?v=3HaUdbCYb2c)
