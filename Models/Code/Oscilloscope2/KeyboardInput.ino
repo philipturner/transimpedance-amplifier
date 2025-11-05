@@ -49,6 +49,7 @@ void adcResponsivenessDiagnosticLoop() {
 
 char oscilloscopeMode = '0';
 float oscilloscopeCopiedSamples[1000];
+uint32_t oscilloscopeAveragedGroupCount = 0;
 
 void oscilloscopeGuardedCode(bool shouldDisplayLatest) {
   uint32_t previousSlotID = (oscilloscopeTimestamp - startTimestamp) / 20;
@@ -72,7 +73,46 @@ void oscilloscopeGuardedCode(bool shouldDisplayLatest) {
       oscilloscopeCopiedSamples[copiedSampleID] = sample;
     }
   } else if (oscilloscopeMode == 'a') {
+    // Average every group of 50 samples as it gets completed.
+    // A group is in progress if modulo previousSlotID = 0...49.
+    uint32_t previousInProgressID = previousSlotID / 50;
+    uint32_t currentInProgressID = currentSlotID / 50;
+    if (currentInProgressID - previousInProgressID > 900) {
+      Serial.println("Buffer overflow, in-progress data may wrap around and overwrite finished groups.");
+      exit(0);
+    }
+    if (currentInProgressID - previousInProgressID > 300) {
+      Serial.println("Buffer overflow, exceeded buffer size allocated for copied samples.");
+      exit(0);
+    }
 
+    for (
+      uint32_t groupID = previousInProgressID;
+      groupID < currentInProgressID;
+      ++groupID
+    ) {
+      uint32_t copiedGroupID = groupID - previousInProgressID;
+
+      float minimum = 1e38;
+      float sum = 0;
+      float maximum = -1e38;
+      for (uint32_t indexInGroup = 0; indexInGroup < 50; ++indexInGroup) {
+        uint32_t slotID = groupID * 50 + indexInGroup;
+        float sample = ringBuffer.samples[slotID % 50000];
+
+        minimum = min(minimum, sample);
+        sum += sample;
+        maximum = max(maximum, sample);
+      }
+      float average = sum / 50;
+
+      oscilloscopeCopiedSamples[copiedGroupID * 3 + 0] = minimum;
+      oscilloscopeCopiedSamples[copiedGroupID * 3 + 1] = average;
+      oscilloscopeCopiedSamples[copiedGroupID * 3 + 2] = maximum;
+    }
+
+    oscilloscopeAveragedGroupCount =
+    currentInProgressID - previousInProgressID;
   }
 
   oscilloscopeTimestamp = latestTimestamp;
