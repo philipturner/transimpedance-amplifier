@@ -31,6 +31,16 @@ void loop() {
 // Function to execute reliably with a consistent time
 // base in the multiple kHz band.
 void kilohertzLoop() {
+  if (oscilloscopeLock) {
+    // Never encountered this after about a minute of testing,
+    // although the code guarded by the lock was very small.
+    //
+    // You must include the 20 ms delay at the start of the
+    // oscilloscope loop. Otherwise, this early return will
+    // get hit roughly 10% of the time.
+    return;
+  }
+
   uint32_t currentTimestamp = micros();
   uint32_t previousTimestamp = latestTimestamp;
   latestTimestamp = currentTimestamp;

@@ -50,22 +50,29 @@ void adcResponsivenessDiagnosticLoop() {
 char oscilloscopeMode = '0';
 
 void oscilloscopeDiagnosticLoop() {
+  delay(20);
+  
+  bool shouldDisplayLatest = false;
   if (Serial.available() > 0) {
     char incomingByte = Serial.read();
 
     if (incomingByte == 'a') {
       oscilloscopeMode = 'a';
     } else if (incomingByte == 'l') {
-      // Right here, call a function to display the last 1000 samples.
       oscilloscopeMode = '0';
+      shouldDisplayLatest = true;
     } else if (incomingByte == '0') {
       oscilloscopeMode = '0';
     }
   }
   
-  // TODO: Do the lock here.
+  // Make the guarded portion very small and do not
+  // invoke 'Serial.print' here.
+  oscilloscopeLock = true;
   if (oscilloscopeMode == 'a') {
-    delay(20);
+    
   }
   oscilloscopeTimestamp = latestTimestamp;
+  oscilloscopeLock = false;
+  
 }

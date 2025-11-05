@@ -21,3 +21,4 @@ TimeStatistics timeStatistics;
 uint32_t startTimestamp;
 uint32_t latestTimestamp;
 uint32_t oscilloscopeTimestamp;
+bool oscilloscopeLock = false;
