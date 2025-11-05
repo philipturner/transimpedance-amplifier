@@ -20,3 +20,4 @@ TimeStatistics timeStatistics;
 // WARNING: After 1.2 hours, the 32-bit integers will overflow.
 uint32_t startTimestamp;
 uint32_t latestTimestamp;
+uint32_t oscilloscopeTimestamp;

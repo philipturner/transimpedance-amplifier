@@ -14,3 +14,5 @@ void timeFidelityDiagnosticLoop();
 // not execute. The range select register is set to 0 before the kilohertz
 // loop starts.
 void adcResponsivenessDiagnosticLoop();
+
+void oscilloscopeDiagnosticLoop();

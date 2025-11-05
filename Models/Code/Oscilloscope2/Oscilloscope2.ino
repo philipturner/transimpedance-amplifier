@@ -20,11 +20,12 @@ void setup() {
 
   startTimestamp = micros();
   latestTimestamp = startTimestamp;
+  oscilloscopeTimestamp = startTimestamp;
   timer.begin(kilohertzLoop, 20);
 }
 
 void loop() {
-  
+  oscilloscopeDiagnosticLoop();
 }
 
 // Function to execute reliably with a consistent time
