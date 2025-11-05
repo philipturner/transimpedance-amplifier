@@ -15,7 +15,7 @@ void setup() {
   digitalWrite(CS_DAC, 1);
   digitalWrite(CS_ADC, 1);
   SPI.begin(); 
-
+ 
   ADC::writeRangeSelect(0b0000);
   ADC::nop(); // prepare for the first sample
 
@@ -28,7 +28,7 @@ void setup() {
 void loop() {
   //timeFidelityDiagnosticLoop();
   //adcResponsivenessDiagnosticLoop();
-  oscilloscopeDiagnosticLoop();
+  //oscilloscopeDiagnosticLoop();
 }
 
 // Function to execute reliably with a consistent time
