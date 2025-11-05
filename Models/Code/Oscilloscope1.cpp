@@ -27,6 +27,40 @@
 // - Program two modes: text (high resolution), graphical (low resolution)
 //
 // Exploring the "Serial Plotter" tool right now.
+//
+// Plan:
+//
+// There are two display modes, averaging "a" and latest "l". They are
+// enabled and switched by keyboard commands. Every 20 ms (50 Hz, 1000
+// samples @ 50 KHz), "loop" is invoked. If the multiple of 20 ms is
+// not even, it may backfill the history to appear without hitches.
+//
+// Averaging mode tracks the min, avg, and max of every group of 50
+// samples. We take the counter incremented by the kilohertz loop as
+// the source of truth for the current time. Only process fully
+// completed groups of 50 samples, leaving the current (uncompleted)
+// group unhandled.
+//
+// Latest mode takes a single snapshot of the last 1000 samples, then
+// automatically toggles off. Write exactly 1000 samples, hopefully
+// reducing the number of variables graphed from 3 to 1. Don't worry
+// about transitions back from "l" to "a".
+//
+// "0" resets the mode to none, so nothing is displayed to the plotter.
+//
+// Test this functionality with a 1 kHz, +/-10 V sine wave following the
+// true timestamp in the kilohertz loop. Then try a static 1.5 V input to
+// the ADC, which varies temporally from random noise.
+//
+// Perhaps there are "data races" from the kilohertz loop interrupt
+// routine. Anticipate these with a boolean "lock" variable in the data
+// set. Initially, when we detect conflicts, the program will crash.
+// Later, the kilohertz loop will return early, effectively creating a
+// skipped frame. We want to hold the lock for as short as possible,
+// perhaps only enough to copy relevant data into a safe buffer. Then
+// transfer over USB serial with the lock not held.
+
+
 
 // Teensy 4.1 has 1 MB of RAM. We'll use 200 KB to store 50,000 samples
 // at 4 bytes/sample. This is a ring buffer, 1 second of history @ 50 Ksps.
@@ -44,6 +78,16 @@
 
 // Eventually, we will probably need to split this into multiple files:
 // https://arduino.github.io/arduino-cli/1.3/sketch-build-process/#pre-processing
+
+// Tasks:
+// - Split the program into multiple files.
+//   - Call it "Oscilloscope2".
+//   - Perhaps download the repo and do the Arduino project in a folder named
+//     "Models/Code/Oscilloscope2".
+//   - Hopefully ".h" files show up in the editor.
+//   - Begin with a simple, fresh project that doesn't have any code from
+//     "Oscilloscope1" copied over yet.
+// - Figure out a good way to crash the program.
 
 ////////////////////////////////////////////////////////////////////////////////
 
