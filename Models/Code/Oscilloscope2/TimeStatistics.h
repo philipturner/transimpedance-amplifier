@@ -17,4 +17,6 @@ struct TimeStatistics {
 TimeStatistics timeStatistics;
 
 // WARNING: Initialize this during setup.
+// WARNING: After 1.2 hours, the 32-bit integers will overflow.
+uint32_t startTimestamp;
 uint32_t latestTimestamp;

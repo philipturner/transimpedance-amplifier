@@ -1,5 +1,6 @@
 #include "ADC.h"
 #include "KeyboardInput.h"
+#include "RingBuffer.h"
 #include "TimeStatistics.h"
 
 IntervalTimer timer;
@@ -17,15 +18,13 @@ void setup() {
 
   ADC::writeRangeSelect(0b0000);
 
-  latestTimestamp = micros();
+  startTimestamp = micros();
+  latestTimestamp = startTimestamp;
   timer.begin(kilohertzLoop, 20);
 }
 
-// TODO: Next, attempt to find a way to terminate
-// the Teensy program.
 void loop() {
-  timeFidelityDiagnosticLoop();
-  exit(0);
+  
 }
 
 // Function to execute reliably with a consistent time
@@ -37,4 +36,11 @@ void kilohertzLoop() {
 
   uint32_t jumpDuration = currentTimestamp - previousTimestamp;
   timeStatistics.integrate(jumpDuration);
+
+  uint32_t startSlotID = (previousTimestamp - startTimestamp) / 20;
+  uint32_t endSlotID = (currentTimestamp - startTimestamp) / 20;
+  float timeSeconds = float(currentTimestamp - startTimestamp);
+  timeSeconds /= float(1000000);
+
+  ringBuffer.samples[endSlotID % 50000] = float(5);
 }
