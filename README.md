@@ -1684,10 +1684,24 @@ Perhaps there is capacitive interference going on when the input is disconnected
 
 | Potentiometer | Original Value | Tuned Value |
 | ------------: | -------------: | ----------: |
-| 10 kΩ | 2989 Ω | 3804 Ω |
-| 47 kΩ | 23.44 kΩ | 21.97 kΩ |
+| 10 kΩ  | 2989 Ω | 3804 Ω |
+| 47 kΩ  | 23.44 kΩ | 21.97 kΩ |
 | 200 kΩ | 100.0&ndash;100.1 kΩ | 176.6 kΩ |
 
 I'm going to try that again, but with the bandwidth limiter set at a better value. I thought I was improving bandwidth when changing the 10 kΩ trimpot. In addition, I thought the 200 kΩ trimpot was moved counterclockwise much more than clockwise. When I set up the video, the bandwidth trimpot will be set beforehand with careful multimeter measurements.
 
 Wait... the pin order from the main board PCB is opposite that of the datasheet. That explains why behavior of the 47 kΩ trimpot was the inverse of the expected behavior.
+
+| Potentiometer | Original Value | Tuned Value |
+| ------------: | -------------: | ----------: |
+| 10 kΩ  | 468 Ω | 476 Ω |
+| 47 kΩ  | 21.97 kΩ | 27.09 kΩ |
+| 200 kΩ | 196.3 kΩ | 196.3 kΩ |
+
+In the images, it is mildly detectable, but the frequency response got slightly faster. In theory, the bandwidth trim went from 15.3 kHz to 44.8 kHz. That leaves the other limiting factor being the ADC frontend at 15 kHz. Perhaps the actual frequency rolloff went from 7.6 kHz to 11.2 kHz. I am using the formula for total resistance of two parallel resistors, and using it to create a de-rated frequency from the two limiters.
+
+TODO: Insert image
+
+TODO: Insert image
+
+TODO: Model the parasitic capacitance
