@@ -1673,7 +1673,9 @@ Next, I will smoke test that both transimpedance amplifiers are still working. T
 | 330 MΩ | 250 MΩ | NO           | -4.27 V | -4.47 V |
 | 330 MΩ | 250 MΩ | YES          | -1.22 V | -0.96 V |
 | 330 MΩ | 250 MΩ | disconnected | -3.20 V | -0.00 V |
-| 330 MΩ | 1 pF   | YES          |         | -0.88 V |
-| 330 MΩ | 1 pF   | disconnected |         | -0.00 V |
-| 330 MΩ | 2 pF   | YES          |         | -2.47 V |
-| 330 MΩ | 2 pF   | disconnected |         | -0.00 V |
+| 330 MΩ | 1 pF   | YES          | -1.54 V | -0.88 V |
+| 330 MΩ | 1 pF   | disconnected | -1.80 V | -0.00 V |
+| 330 MΩ | 2 pF   | YES          | -2.98 V | -2.47 V |
+| 330 MΩ | 2 pF   | disconnected | -2.64 V | -0.00 V |
+
+Perhaps there is capacitive interference going on when the input is disconnected. The exact voltage depends on where I physically rest the disconnected jumper wire end. However, it is generally close to the magnitude shown in the table.
