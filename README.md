@@ -1644,7 +1644,7 @@ Below: testing the effect of adding the voltage divider after the triangle wave 
 | negative       | NO   | | -2.41 V |
 | negative       | YES  | | -2.41 V |
 
-Same as above, with after (not before) passing through the voltage divider. All voltages have 0.7 V subtracted from their absolute magnitude, because we measure at the output of the lowpass filter.
+Same as above, but after (not before) passing through the voltage divider. All voltages have 0.7 V subtracted from their absolute magnitude, because we measure at the output of the lowpass filter.
 
 | Diode Polarity | Voltage Divider Used | Actual Voltage  | Theoretical Voltage |
 | -------------- | :------------------: | --------------: | ------------------: |
