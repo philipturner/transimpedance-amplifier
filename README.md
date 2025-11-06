@@ -1712,6 +1712,15 @@ _Screenshot of the oscilloscope plots for the tuned frequency response. Left: fi
 
 I effectively disabled the mid-f compensation. When reducing the resistance to something below ~150 kΩ, there was ringing for the entire duration of the waveform. It seemed to happen more often when the 47 kΩ trimpot had lower resistance (amplification factor is less than unity; undershooting). For the second table, I just set it close to the maximum of 200 kΩ and didn't worry about tuning it.
 
+On a closer look, I did not disable mid-f compensation. Two different effects are going on. When the resistance increases, the point where the gain factor changes will move to a lower frequency. At the same time, the reduction factor for R\_main\_comp magnitude moves closer to unity. I am computing the reduction factors in this table with R = 21.97 kΩ, because I only tested mid-f compensation during the first trial.
+
+| R\_midf\_comp | Frequency of Shift | Reduction Factor at High Freq. |
+| ------------: | -----------------: | -----------------------------: |
+
+The high-frequency oscillations were approximately TBD kHz:
+
+![November 6, Part 3](./Documentation/November6/November6_Part3.jpg)
+
 ### Evaluating Accuracy of FEM Simulations
 
 Next, I will use the available data to model the feedback resistor's parasitic capacitance.
@@ -1728,8 +1737,8 @@ Parameters with the R\_bandwidth + R\_main\_comp model:
 | Quantity | Value | Uncertainty |
 | -------- | ----: | ----------: |
 | R\_feedback | 330 MΩ | ±5.00% |
-| C\_main\_comp | 27.97 kΩ | ±3.22% |
-| R\_main\_comp | 2.00 nF | ±1.00% |
+| C\_compensation | 27.97 kΩ | ±3.22% |
+| R\_compensation | 2.00 nF | ±1.00% |
 | combined, worst case | | ±9.46% |
 
 Parameters with the R\_bandwidth + (R\_main\_comp \|\| R\_midf\_comp) model:
@@ -1737,8 +1746,8 @@ Parameters with the R\_bandwidth + (R\_main\_comp \|\| R\_midf\_comp) model:
 | Quantity | Value | Uncertainty |
 | -------- | ----: | ----------: |
 | R\_feedback | 330 MΩ | ±5.00% |
-| C\_main\_comp | 25.12 kΩ | ±1.89% |
-| R\_main\_comp | 2.00 nF | ±1.00% |
+| C\_compensation | 25.12 kΩ | ±1.89% |
+| R\_compensation | 2.00 nF | ±1.00% |
 | combined, worst case | | ±8.05% |
 
 Compare to the FEM simulation results. Nodes 1 and 2 are the terminals of the resistor. Node 3 is the ground plane. I am using the simulation results with the highest node count. As the node count grows, capacitance typically decreases linearly with logarithm of node count. This may point to convergence issues with the FEM simulator, rightfully pointing out the need for p-elements.
