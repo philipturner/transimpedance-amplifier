@@ -1740,8 +1740,8 @@ Parameters with the R\_bandwidth + R\_main\_comp model:
 | Quantity | Value | Uncertainty |
 | -------- | ----: | ----------: |
 | R\_feedback | 330 MΩ | ±5.00% |
-| C\_compensation | 27.97 kΩ | ±3.22% |
-| R\_compensation | 2.00 nF | ±1.00% |
+| R\_compensation | 27.97 kΩ | ±3.22% |
+| C\_compensation | 2.00 nF | ±1.00% |
 | combined, worst case | | ±9.46% |
 
 Parameters with the R\_bandwidth + (R\_main\_comp \|\| R\_midf\_comp) model:
@@ -1749,9 +1749,16 @@ Parameters with the R\_bandwidth + (R\_main\_comp \|\| R\_midf\_comp) model:
 | Quantity | Value | Uncertainty |
 | -------- | ----: | ----------: |
 | R\_feedback | 330 MΩ | ±5.00% |
-| C\_compensation | 25.12 kΩ | ±1.89% |
-| R\_compensation | 2.00 nF | ±1.00% |
+| R\_compensation | 25.12 kΩ | ±1.89% |
+| C\_compensation | 2.00 nF | ±1.00% |
 | combined, worst case | | ±8.05% |
+
+|                        | main\_comp | main\_comp \|\| midf\_comp |
+| ---------------------- | ---------: | -------------------------: |
+| Pole Frequency         |
+| Pole Frequency (Range) |
+| C\_feedback            |
+| C\_feedback (Range)    |
 
 Compare to the FEM simulation results. Nodes 1 and 2 are the terminals of the resistor. Node 3 is the ground plane. I am using the simulation results with the highest node count. As the node count grows, capacitance typically decreases linearly with logarithm of node count. This may point to convergence issues with the FEM simulator, rightfully pointing out the need for p-elements.
 
