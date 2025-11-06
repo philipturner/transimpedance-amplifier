@@ -1661,14 +1661,19 @@ Next, I will smoke test that both transimpedance amplifiers are still working. T
 | 100 MΩ | parasitic capactance | YES | -0.01 V | -0.00 V |
 | 100 MΩ | 100 MΩ | NO  | -2.88 V | -3.22 V |
 | 100 MΩ | 100 MΩ | YES | -0.77 V | -0.55 V |
-| 100 MΩ | 250 MΩ | NO  | | -0.87 V |
-| 100 MΩ | 250 MΩ | YES | | -0.00 V |
-| 100 MΩ | 1 pF   | NO  | | -0.80 V |
-| 100 MΩ | 2 pF   | NO  | | -2.30 V |
-| 330 MΩ | parasitic capactance | NO  | | -0.00 V |
-| 330 MΩ | parasitic capactance | YES | | -0.00 V |
-| 330 MΩ | 500 MΩ | NO  | | -1.89 V |
-| 330 MΩ | 250 MΩ | NO  | | -4.47 V |
-| 330 MΩ | 250 MΩ | YES | | -0.96 V |
-| 330 MΩ | 1 pF   | YES | | -0.88 V |
-| 330 MΩ | 2 pF   | YES | | -2.47 V |
+| 100 MΩ | 250 MΩ | NO  | -1.19 V | -0.87 V |
+| 100 MΩ | 250 MΩ | YES | -0.27 V | -0.00 V |
+| 100 MΩ | 1 pF   | NO  | -1.51 V | -0.80 V |
+| 100 MΩ | 2 pF   | NO  | -2.89 V | -2.30 V |
+| 330 MΩ | parasitic capactance | NO  | -0.01 V | -0.00 V |
+| 330 MΩ | parasitic capactance | YES | -0.00 V | -0.00 V |
+| 330 MΩ | 500 MΩ | NO           | -2.48 V | -1.89 V |
+| 330 MΩ | 500 MΩ | YES          | -0.67 V | -0.13 V |
+| 330 MΩ | 500 MΩ | disconnected | -2.99 V | -0.00 V |
+| 330 MΩ | 250 MΩ | NO           | -4.27 V | -4.47 V |
+| 330 MΩ | 250 MΩ | YES          | -1.22 V | -0.96 V |
+| 330 MΩ | 250 MΩ | disconnected | -3.20 V | -0.00 V |
+| 330 MΩ | 1 pF   | YES          |         | -0.88 V |
+| 330 MΩ | 1 pF   | disconnected |         | -0.00 V |
+| 330 MΩ | 2 pF   | YES          |         | -2.47 V |
+| 330 MΩ | 2 pF   | disconnected |         | -0.00 V |
