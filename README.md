@@ -1712,6 +1712,8 @@ _Screenshot of the oscilloscope plots for the tuned frequency response. Left: fi
 
 I effectively disabled the mid-f compensation. When reducing the resistance to something below ~150 kΩ, there was ringing for the entire duration of the waveform. It seemed to happen more often when the 47 kΩ trimpot had lower resistance (amplification factor is less than unity; undershooting). For the second table, I just set it close to the maximum of 200 kΩ and didn't worry about tuning it.
 
+---
+
 Next, I will use the available data to model the feedback resistor's parasitic capacitance.
 
 | | R\_bandwidth + R\_main\_comp | R\_bandwidth + (R\_main\_comp \|\| R\_midf\_comp) |
@@ -1721,7 +1723,15 @@ Next, I will use the available data to model the feedback resistor's parasitic c
 | average | 27.97 kΩ | 25.12 kΩ |
 | variation | ±3.22% | ±1.89% |
 
+Compare to the FEM simulation results. Nodes 1 and 2 are the terminals of the resistor. Node 3 is the ground plane. I am using the simulation results with the highest node count. As the node count grows, capacitance typically decreases linearly with logarithm of node count. This may point to convergence issues with the FEM simulator, rightfully pointing out the need for p-elements.
 
+| Model | C<sub>12</sub> | C<sub>13</sub> | C<sub>23</sub> |
+| ---------- | -------------: | -------------: | -------------: |
+| GND plane below R<sub>f</sub> | 56.04 fF       | 161.22 fF      | 161.29 fF      |
+| hole in GND below R<sub>f</sub> | 67.65 fF       | 121.74 fF      | 122.10 fF      |
+| no GND plane | 146.14 fF |   |   |
+
+The IRL geometry has a hole in the GND plane, except the keepout zone is larger. The simulation's keepout distance is 1.00&ndash;1.34 mm. The IRL keepout distance is 2.22&ndash;2.32 mm.
 
 ---
 
