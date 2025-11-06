@@ -672,6 +672,10 @@
     [
       "5ae761a8-36c5-4f54-90d3-d3763b82c102",
       "LowpassFilter"
+    ],
+    [
+      "76bd5d00-6c2c-483e-8289-3095a072ccb2",
+      "VoltageDivider"
     ]
   ],
   "text_variables": {}

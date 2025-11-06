@@ -627,6 +627,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Up to 6.4 mA current draw from 30 Vpp"
+		(exclude_from_sim no)
+		(at 184.912 87.122 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "74480322-2437-409a-b135-132feb6c3399")
+	)
 	(junction
 		(at 175.26 81.28)
 		(diameter 0)

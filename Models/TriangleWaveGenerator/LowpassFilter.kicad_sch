@@ -587,6 +587,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Flip diode direction to measure\nnegative side of a bipolar waveform"
+		(exclude_from_sim no)
+		(at 126.238 61.468 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d582a8f9-e163-42be-bc33-3425d280d546")
+	)
 	(junction
 		(at 152.4 81.28)
 		(diameter 0)

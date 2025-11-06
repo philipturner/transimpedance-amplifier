@@ -320,7 +320,7 @@
 	)
 	(text "power supply:\n15V and -15V regulated voltages, GND\nfrom Phase 0.1 main board\n\npower is buffered at IC pins\nwith local decoupling capacitors\non the breadboard"
 		(exclude_from_sim no)
-		(at 203.2 38.1 0)
+		(at 203.708 17.018 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -329,7 +329,18 @@
 		)
 		(uuid "26c03cc9-8892-4884-ab42-98c6961413bf")
 	)
-	(text "triangle wave output\n1.06 ms period\n943 Hz frequency\n\nrising edge:\n-15 V on square wave\n-150 μA into capacitor\n-3.11 V -> 3.92 V\n0.469 ms\n\nfalling edge:\n11.9 V on square wave\n119 μA into capacitor\n3.92 V -> -3.11 V\n0.591 ms"
+	(text "Reduce slew rate for 330 MΩ TIA\nwith DUT = 1 pF capacitor\n\n0.32x reduction factor\n690 μA current draw @ 3.92 V\n-550 μA current draw @ -3.11 V"
+		(exclude_from_sim no)
+		(at 203.708 105.918 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "449b8cd9-92da-467b-9093-2080b4e960af")
+	)
+	(text "triangle wave output\n1.06 ms period\n943 Hz frequency\n\nrising edge:\n-15 V on square wave\n-150 μA into capacitor\n-3.11 V -> 3.92 V\n0.469 ms\n15.0 V/ms\n\nfalling edge:\n11.9 V on square wave\n119 μA into capacitor\n3.92 V -> -3.11 V\n0.591 ms\n-11.9 V/ms"
 		(exclude_from_sim no)
 		(at 137.922 48.768 0)
 		(effects
@@ -353,7 +364,7 @@
 	)
 	(text "rectify and filter\n~34 Hz lowpass\n\nconnect either triangle wave\nor square wave output to check\nfor circuit responsiveness\nwithout oscilloscope"
 		(exclude_from_sim no)
-		(at 203.2 76.2 0)
+		(at 204.47 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -381,11 +392,19 @@
 		(uuid "dfcccf47-9367-49a8-b264-26e475ba4083")
 	)
 	(no_connect
-		(at 256.54 106.68)
+		(at 200.66 132.08)
+		(uuid "50e5b3d2-0f55-4c82-a525-2cc0e4e3f499")
+	)
+	(no_connect
+		(at 243.84 132.08)
+		(uuid "9445b810-cbd5-4294-aaf4-9b8cff7f7973")
+	)
+	(no_connect
+		(at 243.84 71.12)
 		(uuid "a3c4a23f-cb6f-47da-a70e-ec4243393806")
 	)
 	(no_connect
-		(at 200.66 106.68)
+		(at 200.66 71.12)
 		(uuid "f6976013-73c9-4292-b21d-f5b20eb8e497")
 	)
 	(wire
@@ -400,7 +419,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 106.68) (xy 256.54 106.68)
+			(xy 241.3 71.12) (xy 243.84 71.12)
 		)
 		(stroke
 			(width 0)
@@ -420,7 +439,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 106.68) (xy 203.2 106.68)
+			(xy 200.66 71.12) (xy 203.2 71.12)
 		)
 		(stroke
 			(width 0)
@@ -540,6 +559,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 132.08) (xy 243.84 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d6c5326-bfb2-41c9-a7f8-dc68eceb05d6")
+	)
+	(wire
+		(pts
 			(xy 132.08 177.8) (xy 38.1 177.8)
 		)
 		(stroke
@@ -577,6 +606,16 @@
 			(type default)
 		)
 		(uuid "bae3efde-0863-4127-bab5-cd3fadee848a")
+	)
+	(wire
+		(pts
+			(xy 200.66 132.08) (xy 203.2 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcdb133d-433f-4eae-b248-3823a4281694")
 	)
 	(wire
 		(pts
@@ -1193,8 +1232,8 @@
 		)
 	)
 	(sheet
-		(at 203.2 101.6)
-		(size 50.8 25.4)
+		(at 203.2 66.04)
+		(size 38.1 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1209,7 +1248,7 @@
 		)
 		(uuid "5ae761a8-36c5-4f54-90d3-d3763b82c102")
 		(property "Sheetname" "LowpassFilter"
-			(at 203.2 100.8884 0)
+			(at 203.2 65.3284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1218,7 +1257,7 @@
 			)
 		)
 		(property "Sheetfile" "LowpassFilter.kicad_sch"
-			(at 203.2 127.5846 0)
+			(at 203.2 84.4046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1227,7 +1266,7 @@
 			)
 		)
 		(pin "Input" input
-			(at 203.2 106.68 180)
+			(at 203.2 71.12 180)
 			(uuid "bca99539-36c7-441e-8176-73b57b3332db")
 			(effects
 				(font
@@ -1237,7 +1276,7 @@
 			)
 		)
 		(pin "Output" output
-			(at 254 106.68 0)
+			(at 241.3 71.12 0)
 			(uuid "2554ce93-d6ab-4031-b955-d1511797d1d2")
 			(effects
 				(font
@@ -1250,6 +1289,68 @@
 			(project "TriangleWaveGenerator"
 				(path "/dfa365f3-bdb0-4155-b97b-9be2aee452a3"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.2 127)
+		(size 38.1 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "76bd5d00-6c2c-483e-8289-3095a072ccb2")
+		(property "Sheetname" "VoltageDivider"
+			(at 203.2 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "VoltageDivider.kicad_sch"
+			(at 203.2 145.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Input" input
+			(at 203.2 132.08 180)
+			(uuid "46a07f41-8ad8-41d6-ab68-2e34ff8b1ef0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Output" output
+			(at 241.3 132.08 0)
+			(uuid "5a72cdd5-e29d-4baa-8193-b8dbef3bab77")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "TriangleWaveGenerator"
+				(path "/dfa365f3-bdb0-4155-b97b-9be2aee452a3"
+					(page "5")
 				)
 			)
 		)
