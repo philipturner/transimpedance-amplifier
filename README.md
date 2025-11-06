@@ -1611,7 +1611,7 @@ _Setup for debugging the triangle wave generator._
 Here, I am testing whether the new model can explain the measured voltages. I assume the lowpass filter settles to the peak value of the wave, and the diode has exactly 0.7 V drop.
 
 | Diode Polarity | Probed Output | Actual Voltage  | Theoretical Voltage |
-| -------------- | ------------- | -------: | -------: |
+| -------------- | ------------- | --------------: | ------------------: |
 | positive       | triangle wave | 2.87 V   | 3.22 V |
 | positive       | square wave   | 11.63 V  | 11.20 V |
 | negative       | triangle wave | -2.15 V  | -2.41 V |
@@ -1638,7 +1638,7 @@ I added a voltage divider to the KiCad schematic. My triangle wave generator has
 Below: testing the effect of adding the voltage divider after the triangle wave output. The divider boosts the LF412C current draw from ~150 μA to ~840 μA, and makes the current draw vary over time with the waveform. Voltage is measured right after the wave generator, before (not after) passing through the voltage divider. All voltages have 0.7 V subtracted from their absolute magnitude.
 
 | Diode Polarity | Voltage Divider Used | Actual Voltage  | Theoretical Voltage |
-| -------------- | :-----------: | -------: | -------: |
+| -------------- | :------------------: | --------------: | ------------------: |
 | positive       | NO   | | 3.22 V |
 | positive       | YES  | | 3.22 V |
 | negative       | NO   | | -2.41 V |
@@ -1647,6 +1647,11 @@ Below: testing the effect of adding the voltage divider after the triangle wave 
 Same as above, with after (not before) passing through the voltage divider. All voltages have 0.7 V subtracted from their absolute magnitude, because we measure at the output of the lowpass filter.
 
 | Diode Polarity | Voltage Divider Used | Actual Voltage  | Theoretical Voltage |
-| -------------- | :-----------: | -------: | -------: |
+| -------------- | :------------------: | --------------: | ------------------: |
 | positive       | YES  | |  0.55 V |
 | negative       | YES  | | -0.30 V |
+
+Next, I will smoke test that both transimpedance amplifiers are still working. To reduce the number of variables, the diode polarity is always negative. This is predicted to be the side of the waveform with higher voltage.
+
+| TIA   | DUT   | Voltage Divider Used | Actual Voltage | Theoretical Voltage |
+| ----: | ----: | :------------------: | -------------: | ------------------: |
