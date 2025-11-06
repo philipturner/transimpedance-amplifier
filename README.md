@@ -1679,3 +1679,11 @@ Next, I will smoke test that both transimpedance amplifiers are still working. T
 | 330 MΩ | 2 pF   | disconnected | -2.64 V | -0.00 V |
 
 Perhaps there is capacitive interference going on when the input is disconnected. The exact voltage depends on where I physically rest the disconnected jumper wire end. However, it is generally close to the magnitude shown in the table.
+
+### Tuning the 330 MΩ TIA
+
+| Potentiometer | Original Value | Tuned Value |
+| ------------: | -------------: | ----------: |
+| 10 kΩ | 2989 Ω | TBD Ω |
+| 47 kΩ | 23.44 kΩ | TBD Ω |
+| 200 kΩ | 100.0&ndash;100.1 kΩ | TBD Ω |
