@@ -1755,8 +1755,8 @@ Parameters with the R\_bandwidth + (R\_main\_comp \|\| R\_midf\_comp) model:
 
 |                        | main\_comp | main\_comp \|\| midf\_comp |
 | ---------------------- | ---------: | -------------------------: |
-| Pole Frequency         |
-| Pole Frequency (Range) |
+| Pole Frequency         | 2.85 kHz | 3.12 kHz |
+| Pole Frequency (Range) | 2.58&ndash;3.11 kHz | 2.91&ndash;3.42 kHz |
 | C\_feedback            |
 | C\_feedback (Range)    |
 
