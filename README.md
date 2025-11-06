@@ -1757,10 +1757,12 @@ Parameters with the R\_bandwidth + (R\_main\_comp \|\| R\_midf\_comp) model:
 | ---------------------- | ---------: | -------------------------: |
 | Pole Frequency         | 2.85 kHz | 3.12 kHz |
 | Pole Frequency (Range) | 2.58&ndash;3.11 kHz | 2.91&ndash;3.42 kHz |
-| C\_feedback            |
-| C\_feedback (Range)    |
+| C\_feedback            | 170 fF | 152 fF |
+| C\_feedback (Range)    | 153&ndash;186 fF | 140&ndash;164 fF |
 
-Compare to the FEM simulation results. Nodes 1 and 2 are the terminals of the resistor. Node 3 is the ground plane. I am using the simulation results with the highest node count. As the node count grows, capacitance typically decreases linearly with logarithm of node count. This may point to convergence issues with the FEM simulator, rightfully pointing out the need for p-elements.
+<b>Lower and upper bound for IRL value: 140&ndash;186 fF</b>
+
+Compare to the FEM simulation results. Nodes 1 and 2 are the terminals of the resistor. Node 3 is the ground plane. I am using the simulation results with the highest node count. As the node count grows, capacitance typically decreases linearly with logarithm of node count. This may point to convergence issues in the FEM simulator; room for improvement with p-elements.
 
 | Model | C<sub>12</sub> | C<sub>13</sub> | C<sub>23</sub> |
 | ---------- | -------------: | -------------: | -------------: |
