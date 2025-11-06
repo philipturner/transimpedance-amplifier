@@ -1684,6 +1684,10 @@ Perhaps there is capacitive interference going on when the input is disconnected
 
 | Potentiometer | Original Value | Tuned Value |
 | ------------: | -------------: | ----------: |
-| 10 kΩ | 2989 Ω | TBD Ω |
-| 47 kΩ | 23.44 kΩ | TBD Ω |
-| 200 kΩ | 100.0&ndash;100.1 kΩ | TBD Ω |
+| 10 kΩ | 2989 Ω | 3804 Ω |
+| 47 kΩ | 23.44 kΩ | 21.97 kΩ |
+| 200 kΩ | 100.0&ndash;100.1 kΩ | 176.6 kΩ |
+
+I'm going to try that again, but with the bandwidth limiter set at a better value. I thought I was improving bandwidth when changing the 10 kΩ trimpot. In addition, I thought the 200 kΩ trimpot was moved counterclockwise much more than clockwise. When I set up the video, the bandwidth trimpot will be set beforehand with careful multimeter measurements.
+
+Wait... the pin order from the main board PCB is opposite that of the datasheet. That explains why behavior of the 47 kΩ trimpot was the inverse of the expected behavior.
