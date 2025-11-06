@@ -1700,8 +1700,14 @@ Wait... the pin order from the main board PCB is opposite that of the datasheet.
 
 In the images, it is mildly detectable, but the frequency response got slightly faster. In theory, the bandwidth trim went from 15.3 kHz to 44.8 kHz. That leaves the other limiting factor being the ADC frontend at 15 kHz. Perhaps the actual frequency rolloff went from 7.6 kHz to 11.2 kHz. I am using the formula for total resistance of two parallel resistors, and using it to create a de-rated frequency from the two limiters.
 
-TODO: Insert image
+<p align="center">
+&nbsp;
+  <img src="./Documentation/November6/November6_Part1.jpg" width="45.00%">
+&nbsp;&nbsp;
+  <img src="./Documentation/November6/November6_Part2.jpg" width="45.00%">
+&nbsp;
+</p>
 
-TODO: Insert image
+_Screenshot of the oscilloscope plots for the tuned frequency response. Left: first table with bad bandwidth limiter. Right: second table with better (faster) bandwidth limiter._
 
 TODO: Model the parasitic capacitance
