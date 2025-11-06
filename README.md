@@ -1717,7 +1717,7 @@ On a closer look, I did not disable mid-f compensation. Two different effects ar
 | R\_midf\_comp | Frequency of Shift | Reduction Factor at High Freq. |
 | ------------: | -----------------: | -----------------------------: |
 
-The high-frequency oscillations were approximately TBD kHz:
+The high-frequency oscillations were approximately 22.8 kHz. The ADC frontend has a 15 kHz filter. The oscillations were probably quite large, and the ADC attenutated them. I wonder whether they still appear when the TIA bandwidth limit is no longer set to ~15 kHz.
 
 ![November 6, Part 3](./Documentation/November6/November6_Part3.jpg)
 
@@ -1765,3 +1765,30 @@ The IRL geometry has a hole in the GND plane, except the keepout zone is larger.
 Tomorrow, I will film the setup + tuning process on video and declare the project completed. It's just too late in the day to do my best work right now. This video will be very important for the future.
 
 > Note to self: use "completed" instead of "complete"
+
+I prepared some notes for the video. I realized that I still need to conduct more testing of R\_midf\_comp behavior. In addition, I should model the potentiometer resistance quantitatively before turning the knob IRL.
+
+<details>
+<summary>Video notes</summary>
+
+```
+Know the exact number of turns and predicted resistance beforehand
+- Model everything as turns vs. max turn count
+- Get polarity right so high resistances are 24 / 25 turns
+Show 5 major parameters on bottom left of screen for 1st section
+- Just say R_bandwidth, will be sum of fixed and trim
+Bottom right of screen:
+- Show the ADC bandwidth limit
+- Show the TIA bandwidth limit (static throughout video)
+- Show pole frequency
+- Show zero frequency (changes: undershoot -> overshoot -> good)
+2nd section focuses on mid-f compensation
+- Show Z_main_comp at different frequencies
+- Show good -> bad -> good done in the lab
+- Beforehand, find the exact threshold where it starts ringing
+End screen: “Nanofactory Project Phase 0.1 Completed”, “Nov 7 2025”
+```
+
+</details>
+
+Depending on the length of tomorrow's tests, I may have to delay the video to Nov 8 2025. I want to investigate the ringing problem thoroughly. Do not want any regrets from stones left unturned in this project. It may help to run SPICE simulations with an updated model.
