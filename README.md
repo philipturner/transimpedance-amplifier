@@ -1651,7 +1651,20 @@ Same as above, with after (not before) passing through the voltage divider. All 
 | positive       | YES  | |  0.55 V |
 | negative       | YES  | | -0.30 V |
 
-Next, I will smoke test that both transimpedance amplifiers are still working. To reduce the number of variables, the diode polarity is always negative. This is predicted to be the side of the waveform with higher voltage.
+Next, I will smoke test that both transimpedance amplifiers are still working. To reduce the number of variables, the diode polarity is always negative. This is predicted to be the side of the waveform with higher voltage. All voltages have 0.7 V subtracted from their absolute magnitude.
+
+> Note to self: disconnect any DUTs before installing the jumpers to power-sequence the 330 MΩ transimpedance amplifier.
 
 | TIA   | DUT   | Voltage Divider Used | Actual Voltage | Theoretical Voltage |
 | ----: | ----: | :------------------: | -------------: | ------------------: |
+| 100 MΩ | 100 MΩ | NO  | | -3.22 V |
+| 100 MΩ | 100 MΩ | YES | | -0.55 V |
+| 100 MΩ | 250 MΩ | NO  | | -0.87 V |
+| 100 MΩ | 250 MΩ | YES | | -0.00 V |
+| 100 MΩ | 1 pF   | NO  | | -0.80 V |
+| 100 MΩ | 2 pF   | NO  | | -2.30 V |
+| 330 MΩ | 500 MΩ | NO  | | -1.89 V |
+| 330 MΩ | 250 MΩ | NO  | | -4.47 V |
+| 330 MΩ | 250 MΩ | YES | | -0.96 V |
+| 330 MΩ | 1 pF   | YES | | -0.88 V |
+| 330 MΩ | 2 pF   | YES | | -2.47 V |
