@@ -1657,12 +1657,16 @@ Next, I will smoke test that both transimpedance amplifiers are still working. T
 
 | TIA   | DUT   | Voltage Divider Used | Actual Voltage | Theoretical Voltage |
 | ----: | ----: | :------------------: | -------------: | ------------------: |
-| 100 MΩ | 100 MΩ | NO  | | -3.22 V |
-| 100 MΩ | 100 MΩ | YES | | -0.55 V |
+| 100 MΩ | parasitic capactance | NO  | -0.01 V | -0.00 V |
+| 100 MΩ | parasitic capactance | YES | -0.01 V | -0.00 V |
+| 100 MΩ | 100 MΩ | NO  | -2.88 V | -3.22 V |
+| 100 MΩ | 100 MΩ | YES | -0.77 V | -0.55 V |
 | 100 MΩ | 250 MΩ | NO  | | -0.87 V |
 | 100 MΩ | 250 MΩ | YES | | -0.00 V |
 | 100 MΩ | 1 pF   | NO  | | -0.80 V |
 | 100 MΩ | 2 pF   | NO  | | -2.30 V |
+| 330 MΩ | parasitic capactance | NO  | | -0.00 V |
+| 330 MΩ | parasitic capactance | YES | | -0.00 V |
 | 330 MΩ | 500 MΩ | NO  | | -1.89 V |
 | 330 MΩ | 250 MΩ | NO  | | -4.47 V |
 | 330 MΩ | 250 MΩ | YES | | -0.96 V |
