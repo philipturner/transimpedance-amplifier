@@ -1716,6 +1716,9 @@ On a closer look, I did not disable mid-f compensation. Two different effects ar
 
 | R\_midf\_comp | Frequency of Shift | Reduction Factor at High Freq. |
 | ------------: | -----------------: | -----------------------------: |
+| 75 kΩ         | 11.8 kHz           | 0.77 |
+| 100 kΩ        | 8.8 kHz            | 0.82 |
+| 175 kΩ        | 5.1 kHz            | 0.89 |
 
 The high-frequency oscillations were approximately 22.8 kHz. The ADC frontend has a 15 kHz filter. The oscillations were probably quite large, and the ADC attenutated them. I wonder whether they still appear when the TIA bandwidth limit is no longer set to ~15 kHz.
 
@@ -1791,4 +1794,4 @@ End screen: “Nanofactory Project Phase 0.1 Completed”, “Nov 7 2025”
 
 </details>
 
-Depending on the length of tomorrow's tests, I may have to delay the video to Nov 8 2025. I want to investigate the ringing problem thoroughly. Do not want any regrets from stones left unturned in this project. It may help to run SPICE simulations with an updated model.
+Depending on the length of tomorrow's tests, I may have to delay the video to Nov 8 2025. I want to investigate the ringing problem thoroughly. Do not want any regrets from stones left unturned in this project.
