@@ -1721,4 +1721,10 @@ Next, I will use the available data to model the feedback resistor's parasitic c
 | average | 27.97 kΩ | 25.12 kΩ |
 | variation | ±3.22% | ±1.89% |
 
+
+
+---
+
 Tomorrow, I will film the setup + tuning process on video and declare the project completed. It's just too late in the day to do my best work right now. This video will be very important for the future.
+
+> Note to self: use "completed" instead of "complete"
