@@ -65,6 +65,7 @@ Table of Contents:
 - [November 2, 2025](#november-2-2025)
 - [November 3, 2025](#november-3-2025)
 - [November 5, 2025](#november-5-2025)
+- [November 6, 2025](#november-6-2025)
 
 ## July 26, 2025
 
@@ -1629,3 +1630,23 @@ Yesterday, I was drafting Teensy code for the high-fidelity (high-digitality) di
 Today, I migrated that into a folder with multiple C++ files. There is now so much code, that single-file C++ scripts are no longer workable. Here's a hyperlink to the Arduino project: [Models/Code/Oscilloscope2](./Models/Code/Oscilloscope2)
 
 [I made the world’s highest-resolution oscilloscope with just programming (18 bits) (YouTube)](https://www.youtube.com/watch?v=3HaUdbCYb2c)
+
+## November 6, 2025
+
+I added a voltage divider to the KiCad schematic. My triangle wave generator has a higher voltage than previous designs. Paired with the fixed lower bound of 1 pF for the capacitive DUT, we are now approaching the supply rails of the 330 MΩ transimpedance amplifier. The voltage divider should reduce all quantities by a factor of ~0.3, putting them in a very safe zone.
+
+Below: testing the effect of adding the voltage divider after the triangle wave output. The divider boosts the LF412C current draw from ~150 μA to ~840 μA, and makes the current draw vary over time with the waveform. Voltage is measured right after the wave generator, before (not after) passing through the voltage divider. All voltages have 0.7 V subtracted from their absolute magnitude.
+
+| Diode Polarity | Voltage Divider Used | Actual Voltage  | Theoretical Voltage |
+| -------------- | :-----------: | -------: | -------: |
+| positive       | NO   | | 3.22 V |
+| positive       | YES  | | 3.22 V |
+| negative       | NO   | | -2.41 V |
+| negative       | YES  | | -2.41 V |
+
+Same as above, with after (not before) passing through the voltage divider. All voltages have 0.7 V subtracted from their absolute magnitude, because we measure at the output of the lowpass filter.
+
+| Diode Polarity | Voltage Divider Used | Actual Voltage  | Theoretical Voltage |
+| -------------- | :-----------: | -------: | -------: |
+| positive       | YES  | |  0.55 V |
+| negative       | YES  | | -0.30 V |
