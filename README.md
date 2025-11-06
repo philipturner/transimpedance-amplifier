@@ -1710,4 +1710,11 @@ In the images, it is mildly detectable, but the frequency response got slightly 
 
 _Screenshot of the oscilloscope plots for the tuned frequency response. Left: first table with bad bandwidth limiter. Right: second table with better (faster) bandwidth limiter._
 
-TODO: Model the parasitic capacitance
+I effectively disabled the mid-f compensation. When reducing the resistance to something below ~150 kΩ, there was ringing for the entire duration of the waveform. It seemed to happen more often when the 47 kΩ trimpot had lower resistance (amplification factor is less than unity; undershooting). For the second table, I just set it close to the maximum of 200 kΩ and didn't worry about tuning it.
+
+Next, I will use the available data to model the feedback resistor's parasitic capacitance.
+
+| | R\_bandwidth + R\_main\_comp | R\_bandwidth + (R\_main\_comp \|\| R\_midf\_comp) |
+| :---: | ---------------------------: | -----: |
+| trial 1 | 27.07 kΩ | 24.64 kΩ |
+| trial 2 | 28.87 kΩ | 25.59 kΩ |
