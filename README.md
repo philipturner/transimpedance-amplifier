@@ -1639,17 +1639,17 @@ Below: testing the effect of adding the voltage divider after the triangle wave 
 
 | Diode Polarity | Voltage Divider Used | Actual Voltage  | Theoretical Voltage |
 | -------------- | :------------------: | --------------: | ------------------: |
-| positive       | NO   | | 3.22 V |
-| positive       | YES  | | 3.22 V |
-| negative       | NO   | | -2.41 V |
-| negative       | YES  | | -2.41 V |
+| positive       | NO   |  2.86 V | 3.22 V |
+| positive       | YES  |  2.86 V | 3.22 V |
+| negative       | NO   | -2.15 V | -2.41 V |
+| negative       | YES  | -2.15 V | -2.41 V |
 
 Same as above, but after (not before) passing through the voltage divider. All voltages have 0.7 V subtracted from their absolute magnitude, because we measure at the output of the lowpass filter.
 
 | Diode Polarity | Voltage Divider Used | Actual Voltage  | Theoretical Voltage |
 | -------------- | :------------------: | --------------: | ------------------: |
-| positive       | YES  | |  0.55 V |
-| negative       | YES  | | -0.30 V |
+| positive       | YES  |  0.76 V |  0.55 V |
+| negative       | YES  | -0.54 V | -0.30 V |
 
 Next, I will smoke test that both transimpedance amplifiers are still working. To reduce the number of variables, the diode polarity is always negative. This is predicted to be the side of the waveform with higher voltage. All voltages have 0.7 V subtracted from their absolute magnitude.
 
