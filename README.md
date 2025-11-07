@@ -1950,7 +1950,8 @@ Bottom right of screen:
 - Show the ADC bandwidth limit
 - Show the TIA bandwidth limit (static throughout video)
 - Show pole frequency
-- Show zero frequency (changes: undershoot -> overshoot -> good)
+- Show zero frequency (changes: undershoot -> overshoot -> 
+  good -> fine-tuned)
 End screen: “Nanofactory Project Phase 0.1 Completed”, 
 “Nov 7 2025”
 ```
