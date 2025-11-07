@@ -28,3 +28,5 @@ response: square wave
  rising edge: -1.8 V (+5.4 nA)
 falling edge: +1.5 V (-4.5 nA)
 
+oscilloscope trace of 20 ms time interval
+oscilloscope trace of 2 ms time interval
