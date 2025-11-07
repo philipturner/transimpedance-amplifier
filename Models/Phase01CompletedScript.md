@@ -87,7 +87,9 @@ frequency response: fine-tuned
 fade into black screen
 fade in the end screen text in two parts
 
-## Font Sizes
+## Text Formatting
+
+default position for lower corner: X = 30, Y = 15
 
 frequency response text in corners:
 - font size: 48
@@ -106,3 +108,14 @@ end screen text:
 
 everything else:
 - font size: 72
+
+background to improve visibility
+- only applied to single-line banners on the bottom
+- use default color, black
+- outline width: 0
+- width: 2.000
+- height: 0.120
+- corner radius: 0.000
+- center X: 0.000
+- center Y: 50.000
+- opacity: 50
