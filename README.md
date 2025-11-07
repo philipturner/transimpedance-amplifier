@@ -1818,7 +1818,22 @@ Mapping the number of full turns to resistance for the 200 kΩ trimpot. Counterc
 | 144 kΩ     | 18.0       |
 | 128 kΩ     | 16.0       |
 | 112 kΩ     | 14.0       |
-| 96 kΩ     | 12.0       |
-| 80 kΩ     | 10.0       |
-| 64 kΩ     | 8.0       |
-| 48 kΩ     | 6.0       |
+| 96 kΩ      | 12.0       |
+| 80 kΩ      | 10.0       |
+| 64 kΩ      | 8.0        |
+| 48 kΩ      | 6.0        |
+
+Behavior of waveform after each minute adjustment of the 200 kΩ trimpot, while the 47 kΩ trimpot stays fixed:
+
+| Resistance | Full Turns | Description |
+| ---------: | ---------: | ----------- |
+| 196.3 kΩ   | 24.5       | double check it's still perfect
+| 176 kΩ     | 22.0       |
+| 160 kΩ     | 20.0       |
+| 144 kΩ     | 18.0       |
+| 128 kΩ     | 16.0       |
+| 112 kΩ     | 14.0       |
+| 96 kΩ      | 12.0       |
+| 80 kΩ      | 10.0       |
+| 64 kΩ      | 8.0        |
+| 48 kΩ      | 6.0        |
