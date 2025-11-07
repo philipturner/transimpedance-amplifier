@@ -14,3 +14,9 @@ Parameters from previous video:
   - position: X = 30, Y = 30
   - every caption in the video had 3 lines
 - how to get text effect: top of window -> Titles -> Text
+- speedup factor for fast-forward sections:
+  - 800% typical
+  - 1600% superfast
+- freeze frame:
+  - change clip speed -> freeze frame
+  - trim edit mode not relevant to this problem?
