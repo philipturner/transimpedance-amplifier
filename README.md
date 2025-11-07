@@ -1958,3 +1958,7 @@ End screen: “Nanofactory Project Phase 0.1 Completed”,
 The video will be filmed Nov 7 2025, but there's a good chance the editing will last through Nov 8 2025. I will still declare the completion date as Nov 7 2025.
 
 The last journal entry in this repo (Nov 8 2025) will say, in a level-1 Markdown header, "Nanofactory Project Phase 0.1 Completed".
+
+---
+
+The video has been filmed.
