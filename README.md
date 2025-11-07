@@ -1827,13 +1827,26 @@ Behavior of waveform after each minute adjustment of the 200 kΩ trimpot, while 
 
 | Resistance | Full Turns | Description |
 | ---------: | ---------: | ----------- |
-| 196.3 kΩ   | 24.5       | double check it's still perfect
-| 176 kΩ     | 22.0       |
-| 160 kΩ     | 20.0       |
-| 144 kΩ     | 18.0       |
-| 128 kΩ     | 16.0       |
-| 112 kΩ     | 14.0       |
-| 96 kΩ      | 12.0       |
-| 80 kΩ      | 10.0       |
-| 64 kΩ      | 8.0        |
-| 48 kΩ      | 6.0        |
+| 196.3 kΩ   | 24.5       | still flat
+| 176 kΩ     | 22.0       | still looks flat
+| 160 kΩ     | 20.0       | still looks flat
+| 144 kΩ     | 18.0       | still looks flat
+| 128 kΩ     | 16.0       | still looks flat
+| 112 kΩ     | 14.0       | still looks flat
+| 96 kΩ      | 12.0       | still looks flat
+| 80 kΩ      | 10.0       | still looks flat
+| 64 kΩ      | 8.0        | still looks flat
+| 48 kΩ      | 6.0        | still looks flat
+| 32 kΩ      | 4.0        | peaking (overshoot) a little when you zoom out to 20 ms |
+
+I suspect that around 18 turns, I just turned once instead of twice between a two measurements. Final measured resistance: 55.0 kΩ, or 6.9 full turns.
+
+| Potentiometer | Measured Value |
+| ------------: | -------------: |
+| 10 kΩ  | 475 Ω |
+| 47 kΩ  | 27.09 kΩ |
+| 200 kΩ | 55.0 kΩ |
+
+---
+
+Also, getting a good idea of what the undershoot/overshoot will look like prior to recording the video:
