@@ -20,3 +20,11 @@ Parameters from previous video:
 - freeze frame:
   - change clip speed -> freeze frame
   - trim edit mode not relevant to this problem?
+
+device under test: 1 pF
+stimulus: triangle wave
+response: square wave
+
+ rising edge: -1.8 V (+5.4 nA)
+falling edge: +1.5 V (-4.5 nA)
+
