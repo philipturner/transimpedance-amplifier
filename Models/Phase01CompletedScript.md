@@ -21,6 +21,10 @@ Parameters from previous video:
   - change clip speed -> freeze frame
   - trim edit mode not relevant to this problem?
 
+[left lower corner]
+[show just as the display starts rolling]
+oscilloscope display with 1 second history
+
 [middle of screen]
 [gray transparent overlay]
 device under test: 1 pF
