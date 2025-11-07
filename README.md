@@ -1850,19 +1850,20 @@ I suspect that around 18 turns, I just turned once instead of twice between a tw
 
 I am going to estimate where exactly I messed up. Then, use these estimated resistances to calculate the mid-f response.
 
-| Resistance | Full Turns |
-| ---------: | ---------: |
-| 196.3 kΩ   | 24.5       |
-| 176 kΩ     | 22.0       |
-| 160 kΩ     | 21.0       |
-| 144 kΩ     | 20.0       |
-| 128 kΩ     | 18.0       |
-| 112 kΩ     | 16.0       |
-| 96 kΩ      | 14.0       |
-| 80 kΩ      | 12.0       |
-| 64 kΩ      | 11.0       |
-| 48 kΩ      | 9.0        |
-| 32 kΩ      | 7.0        |
+| Full Turns | Resistance | Shift Start | Shift End | Reduction Factor |
+| ---------: | ---------: | ----------: | --------: | ---------------: |
+|            | kΩ         | kHz         | kHz       |                  |
+| 24.5       | 196        | 4.0         | 4.5       | 0.88             |
+| 22.0       | 176        | 4.4         | 5.0       | 0.87             |
+| 21.0       | 168        | 4.5         | 5.3       | 0.86             |
+| 20.0       | 160        | 4.7         | 5.5       | 0.86             |
+| 18.0       | 144        | 5.2         | 6.1       | 0.84             |
+| 16.0       | 128        | 5.7         | 6.9       | 0.83             |
+| 14.0       | 112        | 6.4         | 7.9       | 0.81             |
+| 12.0       | 96         | 7.2         | 9.2       | 0.78             |
+| 11.0       | 88         | 7.7         | 10.0      | 0.76             |
+| 9.0        | 72         | 8.9         | 12.3      | 0.73             |
+| 7.0        | 56         | 10.6        | 15.8      | 0.67             |
 
 ---
 
