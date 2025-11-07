@@ -1,8 +1,15 @@
 Parameters from previous video:
 - video size: 1920x1080
 - video frame rate: 30 FPS
-- background type for overlay: TBD
-- opacity for background overlay: TBD
-- text font: Monaco
-- text font size: TBD
-- text offset: TBD
+- background type for overlay: gray
+- opacity for background overlay: 50%
+- text font:
+  - family: Monaco
+  - size: 72
+  - face: regular
+  - color: white
+- text offset:
+  - alignment: left
+  - anchor: bottom + left
+  - position: X = 30, Y = 30
+  - every caption in the video had 3 lines
