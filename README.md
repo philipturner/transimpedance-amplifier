@@ -1917,6 +1917,11 @@ Also, getting a good idea of what the undershoot/overshoot will look like prior 
 Improved video notes:
 
 ```
+Record the video at 30 FPS, rather than 60 FPS, so the file size
+is more like 200 MB. 400 MB is eerily close to the 512 MB limit.
+Worst case, we can downgrade from 30 -> 24 FPS with some time
+interpolation.
+
 Setup portion:
 - Oscilloscope already running when video starts
 - Capacitive DUT and batteries already connected
