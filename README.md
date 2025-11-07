@@ -1911,3 +1911,45 @@ Also, getting a good idea of what the undershoot/overshoot will look like prior 
 | 12.0       | 22.2                | 1.50               | \-1.80             | undershoot curve looks round like a circle |
 | 10.0       | 18.1                | 1.50               | \-1.80             | severe undershoot                          |
 | 8.0        | 14.7                | 1.50               | \-1.80             | severe undershoot                          |
+
+---
+
+Improved video notes:
+
+```
+Setup portion:
+- Oscilloscope already running when video starts
+- Capacitive DUT and batteries already connected
+  - State the capacitance in the video
+  - Also explain the triangle wave properties
+    at an appropriate time
+- Show the process of attaching wires
+- Show the flipping through o-scope options without time-lapse
+  speedup (thus entire source video cannot be a time-lapse)
+  - Capture the o-scope "a" option responding to the connection
+    of the triangle wave stimulus
+  - Show calculations of asymmetric slew rate + DUT -> voltage
+    on o-scope
+  - Voltage text label on graph may not be legible
+
+Show the "l" oscilloscope mode once, without time-lapse speedup,
+then use "z" for the remainder of the video
+
+Know the exact number of turns and predicted resistance
+beforehand
+- Model 47 kΩ trimpot as turns w/ predicted resistance
+- 8 / 25 turns -> 20 turns -> 14 turns -> 14.5 turns
+Show 5 major parameters on bottom left of screen:
+- Just say R_bandwidth, will be sum of fixed and trim
+Bottom right of screen:
+- Show the ADC bandwidth limit
+- Show the TIA bandwidth limit (static throughout video)
+- Show pole frequency
+- Show zero frequency (changes: undershoot -> overshoot -> good)
+End screen: “Nanofactory Project Phase 0.1 Completed”, 
+“Nov 7 2025”
+```
+
+The video will be filmed Nov 7 2025, but there's a good chance the editing will last through Nov 8 2025. I will still declare the completion date as Nov 7 2025.
+
+The last journal entry in this repo (Nov 8 2025) will say, in a level-1 Markdown header, "Nanofactory Project Phase 0.1 Completed".
