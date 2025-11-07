@@ -89,7 +89,7 @@ fade in the end screen text in two parts
 
 ## Text Formatting
 
-default position for lower corner: X = 30, Y = 15
+default position for lower corner: X = 30, Y = 10, font size = 48
 
 frequency response text in corners:
 - font size: 48
@@ -106,6 +106,9 @@ end screen text:
 - use 330 px for Y position
 - split into two captions, each 3 lines (with blanks) to enable 2-part fade
 
+single-line banners on the bottom
+- font size: 48
+
 everything else:
 - font size: 72
 
@@ -114,8 +117,8 @@ background to improve visibility
 - use default color, black
 - outline width: 0
 - width: 2.000
-- height: 0.120
+- height: 0.080
 - corner radius: 0.000
 - center X: 0.000
-- center Y: 50.000
+- center Y: 33.000
 - opacity: 50
