@@ -89,7 +89,7 @@ fade in the end screen text in two parts
 
 ## Text Formatting
 
-default position for lower corner: X = 30, Y = 10, font size = 48
+default position for lower corner: X = 20, Y = 10, font size = 48
 
 frequency response text in corners:
 - font size: 48
