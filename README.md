@@ -1883,3 +1883,31 @@ As I return the trimpot to its original value (mid-f compensation deactivated), 
 ---
 
 Also, getting a good idea of what the undershoot/overshoot will look like prior to recording the video:
+
+| Full Turns | Trimpot Resistance | Zero Frequency | Mid-Freq. Reduction | Expected Behavior |
+| ---------: | -----------------: | -------------: | ------------------: | ----------------- |
+|            | kΩ                 | kHz            |                     |                   |
+| 24.0       | 45.1               | 1.70           | 0.81                | overshoot         |
+| 22.0       | 41.4               | 1.84           | 0.83                | overshoot         |
+| 20.0       | 37.6               | 2.02           | 0.84                | overshoot         |
+| 18.0       | 33.8               | 2.23           | 0.85                | overshoot         |
+| 16.0       | 30.1               | 2.50           | 0.87                | overshoot         |
+| 14.4       | 27.1               | 2.76           | 0.88                | flat              |
+| 14.0       | 26.3               | 2.83           | 0.88                | undershoot        |
+| 12.0       | 22.6               | 3.27           | 0.90                | undershoot        |
+| 10.0       | 18.8               | 3.87           | 0.91                | undershoot        |
+| 8.0        | 15.0               | 4.73           | 0.93                | undershoot        |
+| 6.0        | 11.3               | 6.10           | 0.95                | undershoot        |
+| 4.0        | 7.5                | 8.56           | 0.96                | undershoot        |
+| 2.0        | 3.8                | 14.38          | 0.98                | undershoot        |
+
+| Full Turns | Measured Resistance | Plateau (Positive) | Plateau (Negative) | Actual Behavior                            |
+| ---------: | ------------------: | -----------------: | -----------------: | ------------------------------------------ |
+|            | kΩ                  | V                  | V                  |                                            |
+| 20.0       | 38.6                | 1.50               | \-1.80             | 1.35x overshoot                            |
+| 18.0       | 34.7                | 1.50               | \-1.80             | 1.20x overshoot                            |
+| 16.0       | 30.3                | 1.45               | \-1.85             | 1.07x overshoot                            |
+| 14.0       | 26.5                | 1.50               | \-1.80             | very small undershoot                      |
+| 12.0       | 22.2                | 1.50               | \-1.80             | undershoot curve looks round like a circle |
+| 10.0       | 18.1                | 1.50               | \-1.80             | severe undershoot                          |
+| 8.0        | 14.7                | 1.50               | \-1.80             | severe undershoot                          |
