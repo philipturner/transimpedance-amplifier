@@ -21,14 +21,21 @@ Parameters from previous video:
   - change clip speed -> freeze frame
   - trim edit mode not relevant to this problem?
 
+[middle of screen]
+[gray transparent overlay]
 device under test: 1 pF
 stimulus: triangle wave
 response: square wave
 
+[middle of screen]
+[gray transparent overlay]
  rising edge: -1.8 V (+5.4 nA)
 falling edge: +1.5 V (-4.5 nA)
 
+[left lower corner]
 oscilloscope trace of 20 ms time interval
+
+[left lower corner]
 oscilloscope trace of 2 ms time interval
 
 [middle of screen]
