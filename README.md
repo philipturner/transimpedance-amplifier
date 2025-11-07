@@ -1865,6 +1865,21 @@ I am going to estimate where exactly I messed up. Then, use these estimated resi
 | 9.0        | 72         | 8.9         | 12.3      | 0.73             |
 | 7.0        | 56         | 10.6        | 15.8      | 0.67             |
 
+As I return the trimpot to its original value (mid-f compensation deactivated), I track the measured resistance at each number of turns:
+
+| Full Turns | Resistance (kΩ) |
+| ---------: | --------------: |
+| 7.0        | 55.0
+| 9.0        | 71.0
+| 11.0       | 86.3
+| 13.0       | 103.6
+| 15.0       | 121.2
+| 17.0       | 138.8
+| 19.0       | 154.1
+| 21.0       | 169.3
+| 23.0       | 184.7
+| 24.5       | 196.0
+
 ---
 
 Also, getting a good idea of what the undershoot/overshoot will look like prior to recording the video:
