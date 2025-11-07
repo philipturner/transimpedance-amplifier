@@ -13,3 +13,4 @@ Parameters from previous video:
   - anchor: bottom + left
   - position: X = 30, Y = 30
   - every caption in the video had 3 lines
+- how to get text effect: top of window -> Titles -> Text
