@@ -83,6 +83,20 @@ fade in the end screen text in two parts
 
 ## Font Sizes
 
-reasonable default: 72
-to fit the frequency response text: TBD
-good for end screen text:
+frequency response text in corners:
+- font size: 48
+- split into two captions for left and right
+- right uses 1890 px for X position
+- right uses alignment: right
+- right uses anchor right for horizontal
+
+end screen text:
+- font size: 120
+- anchor bottom for vertical
+- anchor center for horizontal
+- use default (960 px) for X position
+- use 330 px for Y position
+- split into two captions, each 3 lines (with blanks) to enable 2-part fade
+
+everything else:
+- font size: 72
