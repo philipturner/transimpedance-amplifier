@@ -66,6 +66,7 @@ Table of Contents:
 - [November 3, 2025](#november-3-2025)
 - [November 5, 2025](#november-5-2025)
 - [November 6, 2025](#november-6-2025)
+- [November 7, 2025](#november-7-2025)
 
 ## July 26, 2025
 
@@ -1804,3 +1805,20 @@ End screen: “Nanofactory Project Phase 0.1 Completed”, “Nov 7 2025”
 </details>
 
 Depending on the length of tomorrow's tests, I may have to delay the video to Nov 8 2025. I want to investigate the ringing problem thoroughly. Do not want any regrets from stones left unturned in this project.
+
+## November 7, 2025
+
+Mapping the number of full turns to resistance for the 200 kΩ trimpot. Counterclockwise is higher resistance, clockwise is lower resistance.
+
+| Resistance | Full Turns |
+| ---------: | ---------: |
+| 196.3 kΩ   | 24.5       |
+| 176 kΩ     | 22.0       |
+| 160 kΩ     | 20.0       |
+| 144 kΩ     | 18.0       |
+| 128 kΩ     | 16.0       |
+| 112 kΩ     | 14.0       |
+| 96 kΩ     | 12.0       |
+| 80 kΩ     | 10.0       |
+| 64 kΩ     | 8.0       |
+| 48 kΩ     | 6.0       |
