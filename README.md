@@ -1944,6 +1944,7 @@ Know the exact number of turns and predicted resistance
 beforehand
 - Model 47 kΩ trimpot as turns w/ predicted resistance
 - 8 / 25 turns -> 20 turns -> 14 turns -> 14.5 turns
+- Use "..." for text of parameters that are changing via tuning
 Show 5 major parameters on bottom left of screen:
 - Just say R_bandwidth, will be sum of fixed and trim
 Bottom right of screen:
