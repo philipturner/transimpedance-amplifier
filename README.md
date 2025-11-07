@@ -1822,6 +1822,7 @@ Mapping the number of full turns to resistance for the 200 kΩ trimpot. Counterc
 | 80 kΩ      | 10.0       |
 | 64 kΩ      | 8.0        |
 | 48 kΩ      | 6.0        |
+| 32 kΩ      | 4.0        |
 
 Behavior of waveform after each minute adjustment of the 200 kΩ trimpot, while the 47 kΩ trimpot stays fixed:
 
@@ -1846,6 +1847,22 @@ I suspect that around 18 turns, I just turned once instead of twice between a tw
 | 10 kΩ  | 475 Ω |
 | 47 kΩ  | 27.09 kΩ |
 | 200 kΩ | 55.0 kΩ |
+
+I am going to estimate where exactly I messed up. Then, use these estimated resistances to calculate the mid-f response.
+
+| Resistance | Full Turns |
+| ---------: | ---------: |
+| 196.3 kΩ   | 24.5       |
+| 176 kΩ     | 22.0       |
+| 160 kΩ     | 21.0       |
+| 144 kΩ     | 20.0       |
+| 128 kΩ     | 18.0       |
+| 112 kΩ     | 16.0       |
+| 96 kΩ      | 14.0       |
+| 80 kΩ      | 12.0       |
+| 64 kΩ      | 11.0       |
+| 48 kΩ      | 9.0        |
+| 32 kΩ      | 7.0        |
 
 ---
 
