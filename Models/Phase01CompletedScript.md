@@ -23,6 +23,7 @@ Parameters from previous video:
 
 [left lower corner]
 [show just as the display starts rolling]
+[fade in]
 oscilloscope display with 1 second history
 
 [middle of screen]
@@ -37,6 +38,7 @@ response: square wave
 falling edge: +1.5 V (-4.5 nA)
 
 [left lower corner]
+[fade in after ~1 second region of no text]
 oscilloscope trace of 20 ms time interval
 
 [left lower corner]
