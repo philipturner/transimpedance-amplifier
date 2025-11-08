@@ -16,6 +16,8 @@ Objective: Gather as much data as possible about the TIA sensor of an STM, using
 
 Deadline: September 30, 2025 for the first physical prototype
 
+Completed: November 7, 2025
+
 Table of Contents:
 - [July 26, 2025](#july-26-2025)
 - [July 27, 2025](#july-27-2025)
@@ -1964,3 +1966,8 @@ The last journal entry in this repo (Nov 8 2025) will say, in a level-1 Markdown
 ---
 
 The video has been filmed.
+
+[
+Tuning frequency response of 330 MΩ transimpedance amplifier (NF Phase 0.1 completed) (YouTube)](https://www.youtube.com/watch?v=yZy1QxfA-kI)
+
+# Nanofactory Project Phase 0.1 Completed
