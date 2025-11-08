@@ -94,7 +94,7 @@ default position for lower corner: X = 20, Y = 10, font size = 48
 frequency response text in corners:
 - font size: 48
 - split into two captions for left and right
-- right uses 1890 px for X position
+- right uses 1900 px for X position
 - right uses alignment: right
 - right uses anchor right for horizontal
 
@@ -112,8 +112,7 @@ single-line banners on the bottom
 everything else:
 - font size: 72
 
-background to improve visibility
-- only applied to single-line banners on the bottom
+background for single-line banners on the bottom:
 - use default color, black
 - outline width: 0
 - width: 2.000
@@ -121,4 +120,24 @@ background to improve visibility
 - corner radius: 0.000
 - center X: 0.000
 - center Y: 33.000
+- opacity: 50
+
+background for frequency response text, left:
+- use default color, black
+- outline width: 0
+- width: 0.630
+- height: 0.330
+- corner radius: 0.000
+- center X: 0.000
+- center Y: 165.000
+- opacity: 50
+
+background for frequency response text, right:
+- use default color, black
+- outline width: 0
+- width: 0.895
+- height: 0.264
+- corner radius: 0.000
+- center X: 0.000
+- center Y: 132.000
 - opacity: 50
